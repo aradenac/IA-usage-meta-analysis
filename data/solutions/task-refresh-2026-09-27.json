@@ -1540,5 +1540,45 @@
     "official_url": "https://circleci.com/docs/guides/toolkit/circleci-mcp-overview/",
     "verified_at": "2026-09-28",
     "notes": "Hosted and CLI MCP servers plus reusable agent skills let coding agents diagnose/fix failed builds, inspect tests/logs, optimize config and rerun/cancel workflows through structured CI tools."
+  },
+  {
+    "id": "loom-ai",
+    "name": "Loom AI for Meetings + Atlassian workflows",
+    "vendor": "Atlassian",
+    "category": "meeting-collaboration-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "meeting-notetaker",
+      "jira",
+      "confluence"
+    ],
+    "capabilities": [
+      "meeting-recording",
+      "transcription",
+      "meeting-summary",
+      "action-items",
+      "confluence-meeting-notes",
+      "jira-work-item-generation",
+      "jira-work-item-updates",
+      "bug-report-generation"
+    ],
+    "integrations": [
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams",
+      "Jira Cloud",
+      "Confluence Cloud",
+      "Rovo",
+      "Trello"
+    ],
+    "official_url": "https://www.atlassian.com/software/loom/ai-meeting",
+    "verified_at": "2026-09-28",
+    "notes": "Loom AI records Zoom/Meet/Teams, generates summaries and action items, creates Confluence meeting-note pages, turns recordings into Jira work items, and—with Rovo—suggests ready-to-approve Jira updates from meeting transcripts."
   }
 ]
