@@ -1,0 +1,3208 @@
+[
+  {
+    "id": "hist-0001",
+    "model": "GPT-5 high",
+    "harness": "Aider",
+    "config": "reasoning=high · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      0
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0002",
+    "model": "DeepSeek V3.2 Exp Reasoner",
+    "harness": "Aider",
+    "config": "reasoner · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      1
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0003",
+    "model": "DeepSeek V3.2 Exp Chat",
+    "harness": "Aider",
+    "config": "chat · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      2
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0004",
+    "model": "DeepSeek R1 0528",
+    "harness": "Aider",
+    "config": "reasoner · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      3
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0005",
+    "model": "GPT-5.3-Codex",
+    "harness": "Codex CLI",
+    "config": "official representative pair",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      4
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0006",
+    "model": "GPT-5.4",
+    "harness": "Codex CLI",
+    "config": "official representative pair",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      5
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0007",
+    "model": "Gemini 3.1 Pro",
+    "harness": "Terminus 2",
+    "config": "official representative pair",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      6
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0008",
+    "model": "Opus 4.6",
+    "harness": "Claude Code",
+    "config": "official representative pair",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      7
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0009",
+    "model": "GPT-5.3-Codex",
+    "harness": "Terminus 2",
+    "config": "official representative pair",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      8
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0010",
+    "model": "Gemini 3.1 Pro",
+    "harness": "Gemini CLI",
+    "config": "official representative pair",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "gemini-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      9
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0011",
+    "model": "GPT-5.4 mini",
+    "harness": "Codex CLI",
+    "config": "official representative pair",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      10
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0012",
+    "model": "Opus 4.6",
+    "harness": "Terminus 2",
+    "config": "official representative pair",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      11
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0013",
+    "model": "Sonnet 4.6",
+    "harness": "Claude Code",
+    "config": "official representative pair",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      12
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0014",
+    "model": "Gemini 3 Flash",
+    "harness": "Gemini CLI",
+    "config": "official representative pair",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "gemini-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      13
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0015",
+    "model": "GPT-5.4",
+    "harness": "Terminus 2",
+    "config": "official representative pair",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      14
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0016",
+    "model": "Gemini 3 Flash",
+    "harness": "Terminus 2",
+    "config": "official representative pair",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      15
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0017",
+    "model": "Sonnet 4.6",
+    "harness": "Terminus 2",
+    "config": "official representative pair",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      16
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0018",
+    "model": "GPT-5.4 mini",
+    "harness": "Terminus 2",
+    "config": "official representative pair",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      17
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0019",
+    "model": "Opus 4.7",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      18
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0020",
+    "model": "Opus 4.7",
+    "harness": "Claude Code",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      19
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0021",
+    "model": "Opus 4.6",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      20
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0022",
+    "model": "Opus 4.6",
+    "harness": "Droid",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "factory-droid",
+    "provenance": "observation",
+    "observation_indices": [
+      21
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0023",
+    "model": "Opus 4.6",
+    "harness": "Claude Code",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      22
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0024",
+    "model": "GPT-5.3-Codex",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      23
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0025",
+    "model": "GPT-5.3-Codex",
+    "harness": "Codex CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      24
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0026",
+    "model": "GPT-5.3-Codex",
+    "harness": "Droid",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "factory-droid",
+    "provenance": "observation",
+    "observation_indices": [
+      25
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0027",
+    "model": "Gemini 3.1 Pro Preview",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      26
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0028",
+    "model": "Gemini 3 Flash Preview",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      27
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0029",
+    "model": "Kimi K2.6",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      28
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0030",
+    "model": "Kimi K2.6",
+    "harness": "OpenCode",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      29
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0031",
+    "model": "Kimi K2.6",
+    "harness": "Pi-Code",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "pi",
+    "provenance": "observation",
+    "observation_indices": [
+      30
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0032",
+    "model": "DeepSeek V4 Pro",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      31
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0033",
+    "model": "DeepSeek V4 Pro",
+    "harness": "OpenCode",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      32
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0034",
+    "model": "DeepSeek V4 Pro",
+    "harness": "Pi-Code",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "pi",
+    "provenance": "observation",
+    "observation_indices": [
+      33
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0035",
+    "model": "GLM-5.1",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      34
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0036",
+    "model": "GLM-5.1",
+    "harness": "OpenCode",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      35
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0037",
+    "model": "GLM-5.1",
+    "harness": "Pi-Code",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "pi",
+    "provenance": "observation",
+    "observation_indices": [
+      36
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0038",
+    "model": "MiniMax M2.7",
+    "harness": "Cline CLI",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      37
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0039",
+    "model": "MiniMax M2.7",
+    "harness": "OpenCode",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      38
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0040",
+    "model": "MiniMax M2.7",
+    "harness": "Pi-Code",
+    "config": "published Cline comparison",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "pi",
+    "provenance": "observation",
+    "observation_indices": [
+      39
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0041",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "PenguinHarness",
+    "config": "v0.1.5 · xhigh · no skill · Goal off",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "penguin-harness",
+    "provenance": "observation",
+    "observation_indices": [
+      40
+    ],
+    "benchmarks": [
+      "SWE-bench Essential"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0042",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "PenguinHarness",
+    "config": "v0.1.5 · xhigh · manual SWE skill · Goal off",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "penguin-harness",
+    "provenance": "observation",
+    "observation_indices": [
+      41
+    ],
+    "benchmarks": [
+      "SWE-bench Essential"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0043",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "PenguinHarness",
+    "config": "v0.1.5 · xhigh · evolved AGENTS.md · Goal off",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "penguin-harness",
+    "provenance": "observation",
+    "observation_indices": [
+      42
+    ],
+    "benchmarks": [
+      "SWE-bench Essential"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0044",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "PenguinHarness",
+    "config": "v0.1.5 · xhigh · manual SWE skill · Goal on",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "penguin-harness",
+    "provenance": "observation",
+    "observation_indices": [
+      43
+    ],
+    "benchmarks": [
+      "SWE-bench Essential"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0045",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "PenguinHarness",
+    "config": "v0.0.1 · xhigh · no skill · Goal off",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "penguin-harness",
+    "provenance": "observation",
+    "observation_indices": [
+      44
+    ],
+    "benchmarks": [
+      "SWE-bench Essential"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0046",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "PenguinHarness",
+    "config": "v0.0.1 · xhigh · manual SWE skill · Goal off",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "penguin-harness",
+    "provenance": "observation",
+    "observation_indices": [
+      45
+    ],
+    "benchmarks": [
+      "SWE-bench Essential"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0047",
+    "model": "Claude Opus 4.8",
+    "harness": "Claude Code",
+    "config": "effort=max",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      46
+    ],
+    "benchmarks": [
+      "SWE-bench Essential"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0048",
+    "model": "GPT-5.5",
+    "harness": "Codex CLI",
+    "config": "xhigh",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      47
+    ],
+    "benchmarks": [
+      "SWE-bench Essential"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0049",
+    "model": "Claude Opus 4.8",
+    "harness": "OpenHands",
+    "config": "v1.24.0",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ],
+    "benchmarks": [
+      "GAIA",
+      "Commit0",
+      "SWE-bench Multimodal",
+      "SWE-bench",
+      "SWT-Bench"
+    ],
+    "families": [
+      "info-gathering",
+      "app-creation",
+      "multimodal-bugfix",
+      "repo-bugfix",
+      "test-generation"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0050",
+    "model": "GPT-5.5",
+    "harness": "OpenHands",
+    "config": "v1.18.1 / v1.21.1",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "benchmarks": [
+      "SWE-bench Multimodal",
+      "SWT-Bench",
+      "GAIA",
+      "SWE-bench",
+      "Commit0"
+    ],
+    "families": [
+      "multimodal-bugfix",
+      "test-generation",
+      "info-gathering",
+      "repo-bugfix",
+      "app-creation"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0051",
+    "model": "DeepSeek V4 Pro",
+    "harness": "OpenHands",
+    "config": "v1.22.1",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "benchmarks": [
+      "SWE-bench Multimodal",
+      "SWT-Bench",
+      "SWE-bench",
+      "Commit0",
+      "GAIA"
+    ],
+    "families": [
+      "multimodal-bugfix",
+      "test-generation",
+      "repo-bugfix",
+      "app-creation",
+      "info-gathering"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0052",
+    "model": "Kimi K2.6",
+    "harness": "OpenHands",
+    "config": "Index submission",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "benchmarks": [
+      "SWT-Bench",
+      "SWE-bench",
+      "GAIA",
+      "SWE-bench Multimodal",
+      "Commit0"
+    ],
+    "families": [
+      "test-generation",
+      "repo-bugfix",
+      "info-gathering",
+      "multimodal-bugfix",
+      "app-creation"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0053",
+    "model": "GLM-5.1",
+    "harness": "OpenHands",
+    "config": "Index submission",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    "benchmarks": [
+      "SWT-Bench",
+      "GAIA",
+      "Commit0",
+      "SWE-bench",
+      "SWE-bench Multimodal"
+    ],
+    "families": [
+      "test-generation",
+      "info-gathering",
+      "app-creation",
+      "repo-bugfix",
+      "multimodal-bugfix"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0054",
+    "model": "Claude Sonnet 4.6",
+    "harness": "OpenHands",
+    "config": "Index submission",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      73,
+      74,
+      75,
+      76,
+      77
+    ],
+    "benchmarks": [
+      "SWE-bench",
+      "GAIA",
+      "SWT-Bench",
+      "SWE-bench Multimodal",
+      "Commit0"
+    ],
+    "families": [
+      "repo-bugfix",
+      "info-gathering",
+      "test-generation",
+      "multimodal-bugfix",
+      "app-creation"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0055",
+    "model": "Claude Opus 4.6",
+    "harness": "OpenHands",
+    "config": "Index submission",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      78,
+      79,
+      80,
+      81,
+      82
+    ],
+    "benchmarks": [
+      "SWE-bench",
+      "SWT-Bench",
+      "SWE-bench Multimodal",
+      "GAIA",
+      "Commit0"
+    ],
+    "families": [
+      "repo-bugfix",
+      "test-generation",
+      "multimodal-bugfix",
+      "info-gathering",
+      "app-creation"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0056",
+    "model": "GPT-5.4",
+    "harness": "OpenHands",
+    "config": "Index submission",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      83,
+      84,
+      85
+    ],
+    "benchmarks": [
+      "SWE-bench Multimodal",
+      "Commit0",
+      "SWE-bench"
+    ],
+    "families": [
+      "multimodal-bugfix",
+      "app-creation",
+      "repo-bugfix"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0057",
+    "model": "GPT-5.5",
+    "harness": "Codex ACP",
+    "config": "OpenHands Index alternative agent",
+    "surface_class": "bridge",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "benchmarks": [
+      "SWE-bench Multimodal",
+      "SWE-bench",
+      "GAIA",
+      "SWT-Bench",
+      "Commit0"
+    ],
+    "families": [
+      "multimodal-bugfix",
+      "repo-bugfix",
+      "info-gathering",
+      "test-generation",
+      "app-creation"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0058",
+    "model": "Claude Opus 4.7",
+    "harness": "Claude ACP",
+    "config": "OpenHands Index alternative agent",
+    "surface_class": "bridge",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "benchmarks": [
+      "Commit0",
+      "SWE-bench",
+      "SWT-Bench",
+      "SWE-bench Multimodal",
+      "GAIA"
+    ],
+    "families": [
+      "app-creation",
+      "repo-bugfix",
+      "test-generation",
+      "multimodal-bugfix",
+      "info-gathering"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0059",
+    "model": "Gemini 3.1 Pro",
+    "harness": "Gemini CLI / ACP",
+    "config": "OpenHands Index alternative agent",
+    "surface_class": "bridge",
+    "user_selectable": true,
+    "solution_id": "gemini-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "benchmarks": [
+      "SWT-Bench",
+      "SWE-bench",
+      "GAIA",
+      "Commit0",
+      "SWE-bench Multimodal"
+    ],
+    "families": [
+      "test-generation",
+      "repo-bugfix",
+      "info-gathering",
+      "app-creation",
+      "multimodal-bugfix"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0060",
+    "model": "Claude Opus 4.6",
+    "harness": "Claude ACP",
+    "config": "OpenHands Index alternative agent",
+    "surface_class": "bridge",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      101,
+      102,
+      103,
+      104
+    ],
+    "benchmarks": [
+      "SWE-bench",
+      "Commit0",
+      "GAIA",
+      "SWE-bench Multimodal"
+    ],
+    "families": [
+      "repo-bugfix",
+      "app-creation",
+      "info-gathering",
+      "multimodal-bugfix"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0061",
+    "model": "GPT-5.4",
+    "harness": "Codex ACP",
+    "config": "OpenHands Index alternative agent",
+    "surface_class": "bridge",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      105,
+      106,
+      107
+    ],
+    "benchmarks": [
+      "SWT-Bench",
+      "SWE-bench",
+      "GAIA"
+    ],
+    "families": [
+      "test-generation",
+      "repo-bugfix",
+      "info-gathering"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0062",
+    "model": "GPT-5 medium",
+    "harness": "Aider",
+    "config": "reasoning=medium · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      108
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0063",
+    "model": "GPT-5 low",
+    "harness": "Aider",
+    "config": "reasoning=low · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      109
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0064",
+    "model": "o3-pro",
+    "harness": "Aider",
+    "config": "reasoning=high · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      110
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0065",
+    "model": "Gemini 2.5 Pro Preview 06-05",
+    "harness": "Aider",
+    "config": "32k thinking · diff-fenced",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      111
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0066",
+    "model": "o3",
+    "harness": "Aider",
+    "config": "reasoning=high · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      112
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0067",
+    "model": "Claude Opus 4 (2025-05-14)",
+    "harness": "Aider",
+    "config": "no think · diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      113
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0068",
+    "model": "DeepSeek R1 + Claude 3.5 Sonnet",
+    "harness": "Aider",
+    "config": "architect R1 · editor Sonnet",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      114
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "A"
+    ]
+  },
+  {
+    "id": "hist-0069",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Codex CLI",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      115
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0070",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Maka",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "maka",
+    "provenance": "observation",
+    "observation_indices": [
+      116
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0071",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Pi",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "pi",
+    "provenance": "observation",
+    "observation_indices": [
+      117
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0072",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "DeepSeek Harness",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "deepseek-harness",
+    "provenance": "observation",
+    "observation_indices": [
+      118
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0073",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "ZCode",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "zcode",
+    "provenance": "observation",
+    "observation_indices": [
+      119
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0074",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Reasonix",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "reasonix",
+    "provenance": "observation",
+    "observation_indices": [
+      120
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0075",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "OpenCode",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      121
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0076",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Kimi Code",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "kimi-code",
+    "provenance": "observation",
+    "observation_indices": [
+      122
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0077",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Claude Code",
+    "config": "reasoning=max · frozen 9-harness contract",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      123
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0078",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Claude Code",
+    "config": "same model · two fixed repair tasks",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      124
+    ],
+    "benchmarks": [
+      "Agent Harness Bench"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0079",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Codex CLI",
+    "config": "same model · two fixed repair tasks",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "codex-cli",
+    "provenance": "observation",
+    "observation_indices": [
+      125
+    ],
+    "benchmarks": [
+      "Agent Harness Bench"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0080",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "OpenCode",
+    "config": "same model · two fixed repair tasks",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      126
+    ],
+    "benchmarks": [
+      "Agent Harness Bench"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0081",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Pi",
+    "config": "same model · two fixed repair tasks",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "pi",
+    "provenance": "observation",
+    "observation_indices": [
+      127
+    ],
+    "benchmarks": [
+      "Agent Harness Bench"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0082",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "DeepSeek Harness",
+    "config": "same model · two fixed repair tasks",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "deepseek-harness",
+    "provenance": "observation",
+    "observation_indices": [
+      128
+    ],
+    "benchmarks": [
+      "Agent Harness Bench"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0083",
+    "model": "GLM-5.2",
+    "harness": "Cline CLI",
+    "config": "reasoning=medium",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      129
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0084",
+    "model": "GLM-5.2",
+    "harness": "OpenCode",
+    "config": "reasoning=medium",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      130
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0085",
+    "model": "GLM-5.2",
+    "harness": "Pi",
+    "config": "reasoning=medium",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "pi",
+    "provenance": "observation",
+    "observation_indices": [
+      131
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0086",
+    "model": "GLM-5.2",
+    "harness": "Cline CLI",
+    "config": "reasoning=off",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      132
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0087",
+    "model": "GLM-5.2",
+    "harness": "Terminus 2",
+    "config": "model-card eval · avg 5 runs",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      133
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0088",
+    "model": "GLM-5.2",
+    "harness": "Claude Code",
+    "config": "Claude Code 2.1.167 · avg 5 runs",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      134
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0089",
+    "model": "GLM-5.2",
+    "harness": "Official eval scaffold",
+    "config": "think mode / benchmark-specific scaffold",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      135,
+      136
+    ],
+    "benchmarks": [
+      "MCP-Atlas",
+      "Tool-Decathlon"
+    ],
+    "families": [
+      "tool-agent"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0090",
+    "model": "Qwen3.8-27B",
+    "harness": "Terminus 2",
+    "config": "official Qwen model-card evaluation",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      137
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0091",
+    "model": "Qwen3.8-27B",
+    "harness": "Claude Code",
+    "config": "temp=1 · top_p=.95 · 256K where documented",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      138,
+      139,
+      140,
+      141
+    ],
+    "benchmarks": [
+      "SWE-bench Pro",
+      "NL2Repo-Bench",
+      "DeepSWE 1.1",
+      "QwenSWEBench"
+    ],
+    "families": [
+      "swe-pro-complex",
+      "repo-from-spec",
+      "repo-bugfix"
+    ],
+    "grades": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0092",
+    "model": "Qwen3.8-27B",
+    "harness": "Qwen eval scaffold",
+    "config": "official long-horizon productivity eval",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      142
+    ],
+    "benchmarks": [
+      "CoWorkBench"
+    ],
+    "families": [
+      "long-agentic-work"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0093",
+    "model": "Qwen3.8-27B",
+    "harness": "OSWorld scaffold",
+    "config": "official visual/computer-use evaluation",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      143
+    ],
+    "benchmarks": [
+      "OSWorld-Verified"
+    ],
+    "families": [
+      "computer-use"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0094",
+    "model": "Qwen3.8-27B",
+    "harness": "AndroidWorld scaffold",
+    "config": "official visual/computer-use evaluation",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      144
+    ],
+    "benchmarks": [
+      "AndroidWorld"
+    ],
+    "families": [
+      "computer-use"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0095",
+    "model": "Qwen3.8-27B",
+    "harness": "Qwen Code",
+    "config": "same Qwen3.8 NVFP4 · temp .6 · fixed cap",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "qwen-code",
+    "provenance": "observation",
+    "observation_indices": [
+      145
+    ],
+    "benchmarks": [
+      "DeepSWE local 12-task harness shootout"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0096",
+    "model": "Qwen3.8-27B",
+    "harness": "mini-swe",
+    "config": "same Qwen3.8 NVFP4 · temp .6 · fixed cap",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      146
+    ],
+    "benchmarks": [
+      "DeepSWE local 12-task harness shootout"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0097",
+    "model": "Qwen3.8-27B",
+    "harness": "OpenCode",
+    "config": "same Qwen3.8 NVFP4 · temp .6 · fixed cap",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      147
+    ],
+    "benchmarks": [
+      "DeepSWE local 12-task harness shootout"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0098",
+    "model": "Qwen3.8-27B",
+    "harness": "Claude Code",
+    "config": "same Qwen3.8 NVFP4 · temp .6 · fixed cap",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      148
+    ],
+    "benchmarks": [
+      "DeepSWE local 12-task harness shootout"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0099",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Terminus 2",
+    "config": "avg 5 runs · 256K",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      149
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0100",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "OpenCode",
+    "config": "78 self-contained tasks · avg 5 runs",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      150
+    ],
+    "benchmarks": [
+      "SkillsBench"
+    ],
+    "families": [
+      "skills-agent"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0101",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Claude Code",
+    "config": "temp=1 · top_p=.95 · max_turns=900",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      151
+    ],
+    "benchmarks": [
+      "NL2Repo"
+    ],
+    "families": [
+      "repo-from-spec"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0102",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Qwen internal coding scaffold",
+    "config": "bash + file-edit tools · 200K",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      152,
+      153
+    ],
+    "benchmarks": [
+      "SWE-bench Verified",
+      "SWE-bench Pro"
+    ],
+    "families": [
+      "repo-bugfix",
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0103",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Qwen internal web scaffold",
+    "config": "bilingual · auto-render · multimodal judge",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      154
+    ],
+    "benchmarks": [
+      "QwenWebBench"
+    ],
+    "families": [
+      "frontend-codegen"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0104",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Qwen eval scaffold",
+    "config": "benchmark-specific agent setup",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      155,
+      156,
+      157
+    ],
+    "benchmarks": [
+      "Tool-Decathlon",
+      "MCPMark",
+      "MCP-Atlas"
+    ],
+    "families": [
+      "tool-agent"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0105",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Qwen search-agent scaffold",
+    "config": "256K context",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      158
+    ],
+    "benchmarks": [
+      "WideSearch"
+    ],
+    "families": [
+      "info-gathering"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0106",
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Terminus 2",
+    "config": "3 attempts/task · FACET evaluation setting",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      159
+    ],
+    "benchmarks": [
+      "Terminal-Bench"
+    ],
+    "families": [
+      "terminal-agentic"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0107",
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Qwen eval scaffold",
+    "config": "official benchmark-specific setup",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      160,
+      161
+    ],
+    "benchmarks": [
+      "Tool-Decathlon",
+      "MCP-Mark"
+    ],
+    "families": [
+      "tool-agent"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0108",
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Qwen search-agent scaffold",
+    "config": "256K context · no context management",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      162
+    ],
+    "benchmarks": [
+      "WideSearch"
+    ],
+    "families": [
+      "info-gathering"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0109",
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Qwen visual-agent scaffold",
+    "config": "official multimodal agent evaluation",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      163,
+      164,
+      165
+    ],
+    "benchmarks": [
+      "OSWorld-Verified",
+      "AndroidWorld",
+      "ScreenSpot Pro"
+    ],
+    "families": [
+      "computer-use"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0110",
+    "model": "GPT-OSS-120B",
+    "harness": "OpenAI SWE scaffold",
+    "config": "reasoning=high · n=477",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      166
+    ],
+    "benchmarks": [
+      "SWE-bench Verified"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0111",
+    "model": "GPT-OSS-120B",
+    "harness": "SWE-Agent",
+    "config": "uncapped cost · 250-turn limit",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      167
+    ],
+    "benchmarks": [
+      "SWE-bench Pro"
+    ],
+    "families": [
+      "swe-pro-complex"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0112",
+    "model": "Mistral Medium 3.5",
+    "harness": "Vibe CLI / Mistral agent scaffold",
+    "config": "reasoning=high",
+    "surface_class": "mixed-evaluation",
+    "user_selectable": false,
+    "solution_id": "mistral-vibe-code",
+    "provenance": "observation",
+    "observation_indices": [
+      168,
+      189,
+      190
+    ],
+    "benchmarks": [
+      "SWE-bench Verified",
+      "Community coding-agent field signal"
+    ],
+    "families": [
+      "repo-bugfix",
+      "field-agentic-coding"
+    ],
+    "grades": [
+      "B",
+      "E"
+    ]
+  },
+  {
+    "id": "hist-0113",
+    "model": "Mistral Medium 3.5",
+    "harness": "Mistral agent scaffold",
+    "config": "reasoning=high",
+    "surface_class": "mixed-evaluation",
+    "user_selectable": false,
+    "solution_id": "mistral-vibe-code",
+    "provenance": "observation",
+    "observation_indices": [
+      169
+    ],
+    "benchmarks": [
+      "Tau3 Telecom"
+    ],
+    "families": [
+      "tool-agent"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0114",
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "Google eval scaffold",
+    "config": "thinking",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      170
+    ],
+    "benchmarks": [
+      "LiveCodeBench v6"
+    ],
+    "families": [
+      "codegen"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0115",
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "Google tool-use scaffold",
+    "config": "average over 3 domains",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      171
+    ],
+    "benchmarks": [
+      "Tau2"
+    ],
+    "families": [
+      "tool-agent"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0116",
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "Google multimodal eval",
+    "config": "thinking",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      172
+    ],
+    "benchmarks": [
+      "MMMU Pro"
+    ],
+    "families": [
+      "vision-understanding"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0117",
+    "model": "Qwen3 235B A22B Instruct 2507",
+    "harness": "Qwen eval scaffold",
+    "config": "non-thinking",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      173
+    ],
+    "benchmarks": [
+      "LiveCodeBench v6"
+    ],
+    "families": [
+      "codegen"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0118",
+    "model": "Qwen3 235B A22B Instruct 2507",
+    "harness": "Aider",
+    "config": "model-card Aider evaluation",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      174
+    ],
+    "benchmarks": [
+      "Aider Polyglot"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0119",
+    "model": "Qwen3 235B A22B Instruct 2507",
+    "harness": "Qwen function-calling scaffold",
+    "config": "non-thinking",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      175
+    ],
+    "benchmarks": [
+      "BFCL v3"
+    ],
+    "families": [
+      "tool-agent"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0120",
+    "model": "Mistral Small 3.2 24B",
+    "harness": "Mistral eval scaffold",
+    "config": "pass@5",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      176
+    ],
+    "benchmarks": [
+      "HumanEval Plus"
+    ],
+    "families": [
+      "codegen"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0121",
+    "model": "Mistral Small 3.2 24B",
+    "harness": "Mistral multimodal eval",
+    "config": "document visual QA",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      177
+    ],
+    "benchmarks": [
+      "DocVQA"
+    ],
+    "families": [
+      "vision-understanding"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0122",
+    "model": "Mistral Small 3.2 24B",
+    "harness": "Mistral multimodal eval",
+    "config": "multimodal reasoning",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      178
+    ],
+    "benchmarks": [
+      "MMMU"
+    ],
+    "families": [
+      "vision-understanding"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0123",
+    "model": "Llama 3.3 70B Instruct",
+    "harness": "Aider",
+    "config": "diff",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "aider",
+    "provenance": "observation",
+    "observation_indices": [
+      179
+    ],
+    "benchmarks": [
+      "Aider edit leaderboard"
+    ],
+    "families": [
+      "local-edit"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0124",
+    "model": "Llama 3.3 70B Instruct",
+    "harness": "Meta eval scaffold",
+    "config": "0-shot pass@1",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      180
+    ],
+    "benchmarks": [
+      "HumanEval"
+    ],
+    "families": [
+      "codegen"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0125",
+    "model": "Llama 3.3 70B Instruct",
+    "harness": "Meta tool-use scaffold",
+    "config": "0-shot",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      181
+    ],
+    "benchmarks": [
+      "BFCL v2"
+    ],
+    "families": [
+      "tool-agent"
+    ],
+    "grades": [
+      "B"
+    ]
+  },
+  {
+    "id": "hist-0126",
+    "model": "Qwen3 Coder 30B A3B Instruct",
+    "harness": "OpenHands",
+    "config": "100 turns",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "openhands",
+    "provenance": "observation",
+    "observation_indices": [
+      182
+    ],
+    "benchmarks": [
+      "SWE-bench Verified"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0127",
+    "model": "Qwen3 Coder 30B A3B Instruct",
+    "harness": "Ollama",
+    "config": "IQ4_XS · RTX 3090",
+    "surface_class": "runtime",
+    "user_selectable": true,
+    "solution_id": "ollama",
+    "provenance": "observation",
+    "observation_indices": [
+      183
+    ],
+    "benchmarks": [
+      "HumanEval Pro"
+    ],
+    "families": [
+      "codegen"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0128",
+    "model": "Qwen3 Embedding 8B",
+    "harness": "Embedding API",
+    "config": "dense embedding",
+    "surface_class": "api-generic",
+    "user_selectable": true,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      184
+    ],
+    "benchmarks": [
+      "MTEB multilingual snapshot"
+    ],
+    "families": [
+      "embeddings"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0129",
+    "model": "BGE Multilingual Gemma2",
+    "harness": "Embedding API",
+    "config": "dense embedding",
+    "surface_class": "api-generic",
+    "user_selectable": true,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      185
+    ],
+    "benchmarks": [
+      "MTEB multilingual snapshot"
+    ],
+    "families": [
+      "embeddings"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0130",
+    "model": "Whisper Large V3",
+    "harness": "Scaleway audio transcription API",
+    "config": "multilingual ASR",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-audio",
+    "provenance": "observation",
+    "observation_indices": [
+      186
+    ],
+    "benchmarks": [
+      "FLEURS multilingual ASR"
+    ],
+    "families": [
+      "audio-transcription"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0131",
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "Claude Code",
+    "config": "Q5_K_M + TurboQuant · constrained agent prompt",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "claude-code",
+    "provenance": "observation",
+    "observation_indices": [
+      187
+    ],
+    "benchmarks": [
+      "Gemma 4 community agentic coding"
+    ],
+    "families": [
+      "field-agentic-coding"
+    ],
+    "grades": [
+      "D"
+    ]
+  },
+  {
+    "id": "hist-0132",
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "mini-swe-agent 2.4.0",
+    "config": "minimal scaffold · 50-instance subset",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      188
+    ],
+    "benchmarks": [
+      "SWE-bench Verified local-open-weight subset"
+    ],
+    "families": [
+      "repo-bugfix"
+    ],
+    "grades": [
+      "C"
+    ]
+  },
+  {
+    "id": "hist-0133",
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "OpenCode",
+    "config": "max · Superpowers execution loop",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      191
+    ],
+    "benchmarks": [
+      "Real-feature N=1 bake-off"
+    ],
+    "families": [
+      "field-agentic-coding"
+    ],
+    "grades": [
+      "E"
+    ]
+  },
+  {
+    "id": "hist-0134",
+    "model": "Qwen3.8-27B",
+    "harness": "OpenCode",
+    "config": "community field use",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "opencode",
+    "provenance": "observation",
+    "observation_indices": [
+      192
+    ],
+    "benchmarks": [
+      "Community coding-agent field signal"
+    ],
+    "families": [
+      "field-agentic-coding"
+    ],
+    "grades": [
+      "E"
+    ]
+  },
+  {
+    "id": "hist-0135",
+    "model": "Qwen3.8-27B",
+    "harness": "Cline CLI",
+    "config": "community local setup",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "cline",
+    "provenance": "observation",
+    "observation_indices": [
+      193
+    ],
+    "benchmarks": [
+      "Community coding-agent field signal"
+    ],
+    "families": [
+      "field-agentic-coding"
+    ],
+    "grades": [
+      "E"
+    ]
+  },
+  {
+    "id": "hist-0136",
+    "model": "Qwen3.8-27B",
+    "harness": "Pi",
+    "config": "generator/evaluator workflow",
+    "surface_class": "harness",
+    "user_selectable": true,
+    "solution_id": "pi",
+    "provenance": "observation",
+    "observation_indices": [
+      194
+    ],
+    "benchmarks": [
+      "Community coding-agent field signal"
+    ],
+    "families": [
+      "field-agentic-coding"
+    ],
+    "grades": [
+      "E"
+    ]
+  },
+  {
+    "id": "hist-0137",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Custom agent harness",
+    "config": "harness tuned for Qwen3.6",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      195
+    ],
+    "benchmarks": [
+      "Custom hidden-verifier coding agent"
+    ],
+    "families": [
+      "field-agentic-coding"
+    ],
+    "grades": [
+      "E"
+    ]
+  },
+  {
+    "id": "hist-0138",
+    "model": "GPT-OSS-120B",
+    "harness": "Custom agent harness",
+    "config": "harness tuned for Qwen3.6",
+    "surface_class": "eval",
+    "user_selectable": false,
+    "solution_id": null,
+    "provenance": "observation",
+    "observation_indices": [
+      196
+    ],
+    "benchmarks": [
+      "Custom hidden-verifier coding agent"
+    ],
+    "families": [
+      "field-agentic-coding"
+    ],
+    "grades": [
+      "E"
+    ]
+  }
+]
