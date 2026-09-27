@@ -853,5 +853,21 @@
     "source_grade": "D",
     "source": "https://arxiv.org/abs/2606.29520",
     "notes": "SAKE's ~93% architecture knowledge accuracy coexists with R2ABench node F1 around 0.57 and edge F1 around 0.13. Kept as an explicit warning that architectural recall/MCQ competence must not be transferred directly to generation or diagram correctness."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-architecture-sadu-2026",
+    "family": "architecture-diagram-understanding",
+    "benchmark": "SADU",
+    "version": "arXiv 2604.04009 2026",
+    "evidence_type": "academic-public-benchmark",
+    "metric": "best model architecture-diagram QA accuracy",
+    "value": 0.7018,
+    "probability_proxy": 0.7018,
+    "n": 2431,
+    "source_grade": "B",
+    "independence_cluster": "sadu-2026",
+    "source": "https://arxiv.org/abs/2604.04009",
+    "notes": "154 curated software-architecture diagrams and 2,431 QA tasks. Best tested model achieved 70.18% accuracy; highlights relation-grounding limits. Family prior only, not attributed to any catalog product."
   }
 ]
