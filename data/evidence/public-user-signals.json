@@ -58,5 +58,85 @@
     "source_grade": "E",
     "source": "https://www.reddit.com/r/perplexity_ai/comments/1mkgu50",
     "signal": "One controlled same-prompt experiment found Gemini most comprehensive on an obscure historical research task, with ChatGPT and Perplexity showing different strengths; fact validity was not independently adjudicated."
+  },
+  {
+    "id": "usr-n8n-production-guardrails-2026",
+    "solution_id": "n8n",
+    "family": "workflow-agent",
+    "date": "2026-08-14",
+    "sentiment": "mixed",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/n8n/comments/1vocpah/lessons_from_running_n8n_ai_agent_workflows_in/",
+    "signal": "Practitioner running live n8n AI workflows reports that rare wrong actions become material at scale; recommends reversible automation, human approval for irreversible actions and centralized pending-action review."
+  },
+  {
+    "id": "usr-n8n-production-contracts-2026",
+    "solution_id": "n8n",
+    "family": "workflow-agent",
+    "date": "2026-04-22",
+    "sentiment": "mixed-positive",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/n8n/comments/1ssj50a/i_wasted_months_building_ai_agents_in_n8n_before/",
+    "signal": "Practitioner reports production workflows survive when data contracts, failure-specific retries and idempotency are designed explicitly; autonomous-agent complexity alone was not the source of reliability."
+  },
+  {
+    "id": "usr-n8n-builder-cleanup-2026",
+    "solution_id": "n8n",
+    "family": "workflow-agent",
+    "date": "2026-04-19",
+    "sentiment": "negative",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/n8n/comments/1sq3nhb/whats_your_take_on_agentic_workflows/",
+    "signal": "User reports generated workflow JSON can be impressive on happy paths but commonly needs manual cleanup for rate limits, fallbacks and error routing."
+  },
+  {
+    "id": "usr-n8n-controlled-ai-steps-2026",
+    "solution_id": "n8n",
+    "family": "workflow-agent",
+    "date": "2026-05-06",
+    "sentiment": "positive",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/n8n/comments/1t5da2l/n8n_is_probably_the_highest_roi_skill_i_learned/",
+    "signal": "Practitioner reports highest reliability/cost leverage from deterministic workflow orchestration plus small controlled AI steps rather than fully autonomous agents."
+  },
+  {
+    "id": "usr-claude-code-large-task-guardrails-2026",
+    "solution_id": "claude-code",
+    "family": "coding-productivity-field",
+    "date": "2026-01-09",
+    "sentiment": "positive",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/ClaudeAI/comments/1q85tlf/i_feel_like_ive_just_had_a_breakthrough_with_how/",
+    "signal": "Long-running Go project user reports improved large-task reliability after adding skills, TDD, static-analysis scripts, multi-agent support and durable markdown reports; illustrates substantial harness/process dependence."
+  },
+  {
+    "id": "usr-claude-code-large-repo-mixed-2026",
+    "solution_id": "claude-code",
+    "family": "coding-productivity-field",
+    "date": "2026-02-08",
+    "sentiment": "mixed-negative",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/ClaudeCode/comments/1qz3wre/large_production_codebase/",
+    "signal": "Discussion of large production repositories reports slop, over-engineering and pattern-reuse failures unless conventions/context are explicitly documented; small self-selected sample."
+  },
+  {
+    "id": "usr-agent-builder-comparison-2026",
+    "solution_id": "zapier-agents",
+    "family": "workflow-agent",
+    "date": "2026-02-20",
+    "sentiment": "mixed",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/n8n/comments/1r9trni/what_are_the_best_ai_agent_builders_in_2026/",
+    "signal": "Practitioner comparing agent builders characterizes Zapier as easy to set-and-forget with broad integrations, but expensive at high volume and less autonomous than developer-centric frameworks."
+  },
+  {
+    "id": "usr-claude-code-production-lessons-2026",
+    "solution_id": "claude-code",
+    "family": "coding-productivity-field",
+    "date": "2026-02-09",
+    "sentiment": "positive-cautious",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/ClaudeAI/comments/1r0dxob/ive_used_ai_to_write_100_of_my_code_for_1_year_as/",
+    "signal": "Experienced user shipping AI-generated production code emphasizes that guardrails and early codebase patterns dominate later agent behavior; AI amplifies existing engineering quality rather than replacing it."
   }
 ]
