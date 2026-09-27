@@ -264,6 +264,17 @@
       "research-multidoc": 0.8,
       "doc-vendor-diff": 0.65,
       "learn-explain": 0.45
+    },
+    "cyber-compliance-audit": {
+      "cyber-compliance": 1,
+      "cyber-artifacts": 0.7,
+      "process-evidence": 0.55
+    },
+    "learning-tutoring": {
+      "learn-coach": 1,
+      "learn-path": 0.75,
+      "learn-operational": 0.65,
+      "learn-explain": 0.45
     }
   }
 }
