@@ -778,5 +778,20 @@
     "source_grade": "A",
     "source": "https://www.mdpi.com/2673-2688/7/7/270",
     "notes": "120 findings evaluated by five intacs-certified assessors (four Principal, one Provisional); combined acceptance 90.0%, 95% CI [83.3%,94.2%]. Measures expert acceptance/usefulness of generated evidence findings, not proven time savings. Peer review explicitly notes productivity/cognitive-load hypotheses remain unvalidated."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-req-rule-verification-industrial-2026",
+    "family": "requirements-rule-verification",
+    "benchmark": "Automotive Requirements Quality Verification Industrial Study",
+    "version": "SSRN 2026-07",
+    "evidence_type": "industrial-empirical-study",
+    "metric": "top-model F1 on explicit automotive requirement rules",
+    "value": 0.96,
+    "probability_proxy": 0.96,
+    "n": 160,
+    "source_grade": "B",
+    "source": "https://papers.ssrn.com/sol3/Delivery.cfm/21ac8522-ff09-40f7-9345-67663af0f9c5-MECA.pdf?abstractid=7153923&mirid=1",
+    "notes": "25 explicit verification rules from industrial automotive RSP practice; 80 clean + 80 defect-injected production requirements; >8,000 inferences across five LLMs and three prompting strategies. GPT-5-Mini and DeepSeek-V4-Flash report zero false positives and F1 >0.96. Narrow rule-based task, therefore kept separate from open-ended requirements quality review."
   }
 ]
