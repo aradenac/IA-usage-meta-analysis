@@ -27,12 +27,12 @@
       "secondary_adjustment": 0
     },
     "human_active_minutes": {
-      "point": 8.604656250000001,
-      "low": 3.4131803125000006,
-      "high": 23.089160937500004,
+      "point": 8.360812500000002,
+      "low": 3.316455625,
+      "high": 22.434846874999998,
       "baseline": 15,
       "relationship_factor": 0.85,
-      "evidence_factor": 0.6748750000000001,
+      "evidence_factor": 0.65575,
       "observations": [
         "prod-harness-devops-onboarding-2026"
       ],
@@ -55,19 +55,19 @@
       "high": 150
     },
     "expected_cost_success_eur": {
-      "point": 15.9105981371273,
-      "low": 4.111321029725571,
-      "high": 93.55850328257331
+      "point": 15.58438829701847,
+      "low": 4.010932753152495,
+      "high": 92.32744606163702
     },
     "meta_score": {
-      "point": 82.49863221323422,
-      "low": 28.613175841896194,
-      "high": 97.33223944726777
+      "point": 82.79572386588448,
+      "low": 28.88449333139963,
+      "high": 97.39568309765308
     },
     "profitability_factor": {
-      "point": 4.713839124940745,
-      "low": 0.4008187250146502,
-      "high": 36.48462353474072
+      "point": 4.812508426419831,
+      "low": 0.40616308150628705,
+      "high": 37.397784812548565
     },
     "pricing": {
       "status": "contact_sales",
@@ -85,9 +85,16 @@
         {
           "id": "prod-harness-devops-onboarding-2026",
           "grade": "C",
-          "family": "workflow-agent",
+          "family": "devops-agent",
           "type": "vendor-case-study-aggregate",
           "metric": "pipeline onboarding time reduction"
+        },
+        {
+          "id": "prod-harness-release-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "AI-generated governed release process"
         }
       ],
       "success_observations": [],
@@ -103,7 +110,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -207,7 +214,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -318,7 +325,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -422,7 +429,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -546,7 +553,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -658,7 +665,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -760,7 +767,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -880,7 +887,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -992,7 +999,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1088,7 +1095,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1190,7 +1197,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1286,7 +1293,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1382,7 +1389,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1478,7 +1485,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1574,7 +1581,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1670,7 +1677,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1766,7 +1773,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1862,7 +1869,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -1958,7 +1965,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2054,7 +2061,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2164,7 +2171,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2260,7 +2267,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2356,7 +2363,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2456,7 +2463,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2552,7 +2559,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2648,7 +2655,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2730,7 +2737,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "D",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
@@ -2744,7 +2759,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2840,7 +2855,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -2936,7 +2951,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3032,7 +3047,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3128,7 +3143,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3242,7 +3257,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3338,7 +3353,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3434,7 +3449,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3530,7 +3545,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3626,7 +3641,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3722,7 +3737,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3818,7 +3833,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -3914,7 +3929,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4010,7 +4025,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4106,7 +4121,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4202,7 +4217,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4298,7 +4313,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4394,7 +4409,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4490,7 +4505,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4586,7 +4601,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4682,7 +4697,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4778,7 +4793,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4874,7 +4889,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -4970,7 +4985,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-automation",
@@ -5066,7 +5081,114 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "ci-build",
+    "task_label": "Diagnostiquer et corriger un build cassé",
+    "domain": "ci-release",
+    "solution_id": "harness-ai-devops",
+    "solution_name": "Harness AI / Autonomous Worker Agents",
+    "vendor": "Harness",
+    "category": "devops-ai",
+    "relationship": "native",
+    "success_probability": {
+      "point": 0.68,
+      "low": 0.43000000000000005,
+      "high": 0.93,
+      "relationship_prior": 0.68,
+      "family_prior": 0.68,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 7.873124999999999,
+      "low": 2.6768625,
+      "high": 24.144249999999996,
+      "baseline": 15,
+      "relationship_factor": 0.85,
+      "evidence_factor": 0.6174999999999999,
+      "observations": [
+        "prod-harness-devops-onboarding-2026"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 2.7405068841532936,
+      "low": 0.4567511473588822,
+      "high": 22.198105761641667,
+      "fixed_point": 2.7405068841532936,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": true
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 25,
+      "high": 200
+    },
+    "expected_cost_success_eur": {
+      "point": 13.67859468257837,
+      "low": 2.889752577805249,
+      "high": 98.4146839418023
+    },
+    "meta_score": {
+      "point": 84.57508857516251,
+      "low": 20.256908822769464,
+      "high": 98.57570304015375
+    },
+    "profitability_factor": {
+      "point": 5.483019399319079,
+      "low": 0.25402713293052687,
+      "high": 69.21007754646554
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "C",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-harness-devops-onboarding-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "vendor-case-study-aggregate",
+          "metric": "pipeline onboarding time reduction"
+        },
+        {
+          "id": "prod-harness-release-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "AI-generated governed release process"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -5145,7 +5267,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -5156,7 +5286,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -5260,97 +5390,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "ci-build",
-    "task_label": "Diagnostiquer et corriger un build cassé",
-    "domain": "ci-release",
-    "solution_id": "harness-ai-devops",
-    "solution_name": "Harness AI / Autonomous Worker Agents",
-    "vendor": "Harness",
-    "category": "devops-ai",
-    "relationship": "native",
-    "success_probability": {
-      "point": 0.68,
-      "low": 0.43000000000000005,
-      "high": 0.93,
-      "relationship_prior": 0.68,
-      "family_prior": 0.68,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 12.75,
-      "low": 4.335,
-      "high": 39.099999999999994,
-      "baseline": 15,
-      "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 2.7405068841532936,
-      "low": 0.4567511473588822,
-      "high": 22.198105761641667,
-      "fixed_point": 2.7405068841532936,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": true
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 25,
-      "high": 200
-    },
-    "expected_cost_success_eur": {
-      "point": 19.65515718257837,
-      "low": 4.37553886812783,
-      "high": 127.39869556970929
-    },
-    "meta_score": {
-      "point": 79.2349854275072,
-      "low": 16.404339883975354,
-      "high": 97.85906919567752
-    },
-    "profitability_factor": {
-      "point": 3.8157924306236186,
-      "low": 0.19623434830477243,
-      "high": 45.70865578565284
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -5458,7 +5498,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -5568,7 +5608,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -5664,7 +5704,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -5778,7 +5818,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -5868,7 +5908,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -5982,7 +6022,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6072,7 +6112,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6162,7 +6202,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6252,7 +6292,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6342,7 +6382,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6432,7 +6472,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6522,7 +6562,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6612,7 +6652,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6708,7 +6748,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6798,7 +6838,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6888,7 +6928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -6978,7 +7018,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7068,7 +7108,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7162,7 +7202,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7252,7 +7292,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7342,7 +7382,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7448,7 +7488,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7538,7 +7578,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7628,7 +7668,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7718,7 +7758,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7808,7 +7848,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7898,7 +7938,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -7988,7 +8028,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8078,7 +8118,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8168,7 +8208,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8258,7 +8298,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8348,7 +8388,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8438,7 +8478,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8528,7 +8568,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8618,7 +8658,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8708,7 +8748,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8798,7 +8838,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8888,7 +8928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -8978,7 +9018,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -9068,7 +9108,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -9158,7 +9198,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -9248,7 +9288,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -9338,7 +9378,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-build",
@@ -9428,7 +9468,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -9507,7 +9547,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -9518,7 +9566,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -9624,7 +9672,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -9720,7 +9768,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -9834,7 +9882,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -9924,7 +9972,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10014,7 +10062,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10104,7 +10152,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10194,7 +10242,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10284,7 +10332,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10374,7 +10422,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10464,7 +10512,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10554,7 +10602,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10660,7 +10708,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10750,7 +10798,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10840,7 +10888,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -10930,7 +10978,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11026,7 +11074,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11116,7 +11164,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11206,7 +11254,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11310,7 +11358,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11400,7 +11448,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11490,7 +11538,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11584,7 +11632,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11674,7 +11722,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11764,7 +11812,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11854,7 +11902,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -11944,7 +11992,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12034,7 +12082,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12124,7 +12172,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12214,7 +12262,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12304,7 +12352,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12394,7 +12442,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12484,7 +12532,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12574,7 +12622,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12664,7 +12712,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12754,7 +12802,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12844,7 +12892,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -12934,7 +12982,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13024,7 +13072,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13114,7 +13162,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13204,7 +13252,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13294,7 +13342,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13384,7 +13432,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13474,7 +13522,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13564,7 +13612,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13654,7 +13702,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-create",
@@ -13744,7 +13792,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -13823,7 +13871,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -13834,7 +13890,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -13940,7 +13996,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14036,7 +14092,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14150,7 +14206,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14240,7 +14296,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14330,7 +14386,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14420,7 +14476,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14510,7 +14566,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14600,7 +14656,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14690,7 +14746,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14796,7 +14852,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14886,7 +14942,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -14976,7 +15032,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15066,7 +15122,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15162,7 +15218,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15252,7 +15308,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15342,7 +15398,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15446,7 +15502,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15536,7 +15592,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15630,7 +15686,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15720,7 +15776,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15810,7 +15866,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15900,7 +15956,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -15990,7 +16046,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16080,7 +16136,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16170,7 +16226,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16260,7 +16316,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16350,7 +16406,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16440,7 +16496,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16530,7 +16586,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16620,7 +16676,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16710,7 +16766,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16800,7 +16856,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16890,7 +16946,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -16980,7 +17036,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17070,7 +17126,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17160,7 +17216,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17250,7 +17306,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17340,7 +17396,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17430,7 +17486,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17520,7 +17576,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17610,7 +17666,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17700,7 +17756,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-docker",
@@ -17790,7 +17846,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -17869,7 +17925,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -17880,7 +17944,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -17984,7 +18048,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18092,7 +18156,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18202,7 +18266,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18298,7 +18362,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18412,7 +18476,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18502,7 +18566,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18592,7 +18656,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18706,7 +18770,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18796,7 +18860,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18886,7 +18950,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -18976,7 +19040,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19066,7 +19130,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19156,7 +19220,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19246,7 +19310,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19336,7 +19400,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19432,7 +19496,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19522,7 +19586,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19612,7 +19676,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19702,7 +19766,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19792,7 +19856,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19882,7 +19946,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -19976,7 +20040,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20066,7 +20130,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20156,7 +20220,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20262,7 +20326,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20352,7 +20416,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20442,7 +20506,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20532,7 +20596,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20622,7 +20686,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20712,7 +20776,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20802,7 +20866,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20892,7 +20956,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -20982,7 +21046,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21072,7 +21136,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21162,7 +21226,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21252,7 +21316,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21342,7 +21406,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21432,7 +21496,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21522,7 +21586,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21612,7 +21676,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21702,7 +21766,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21792,7 +21856,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21882,7 +21946,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -21972,7 +22036,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -22062,7 +22126,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -22152,7 +22216,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-gitlab",
@@ -22242,7 +22306,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -22350,7 +22414,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -22446,7 +22510,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -22560,7 +22624,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -22650,7 +22714,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -22760,7 +22824,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -22850,7 +22914,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -22940,7 +23004,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23030,7 +23094,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23120,7 +23184,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23210,7 +23274,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23300,7 +23364,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23390,7 +23454,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23486,7 +23550,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23576,7 +23640,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23666,7 +23730,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23756,7 +23820,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23846,7 +23910,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -23940,7 +24004,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24030,7 +24094,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24109,7 +24173,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -24120,7 +24192,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24210,7 +24282,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24316,7 +24388,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24406,7 +24478,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24496,7 +24568,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24586,7 +24658,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24676,7 +24748,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24766,7 +24838,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24856,7 +24928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -24946,7 +25018,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25036,7 +25108,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25126,7 +25198,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25216,7 +25288,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25306,7 +25378,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25396,7 +25468,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25486,7 +25558,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25576,7 +25648,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25666,7 +25738,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25756,7 +25828,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25846,7 +25918,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -25936,7 +26008,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -26026,7 +26098,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -26116,7 +26188,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -26206,7 +26278,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "ci-toolchain",
@@ -26296,7 +26368,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -26392,7 +26464,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -26474,7 +26546,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "D",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
@@ -26488,7 +26568,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -26584,7 +26664,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -26680,7 +26760,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -26776,7 +26856,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -26872,7 +26952,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -26968,7 +27048,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27064,7 +27144,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27160,7 +27240,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27256,7 +27336,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27352,7 +27432,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27448,7 +27528,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27544,7 +27624,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27648,7 +27728,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27759,7 +27839,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27883,7 +27963,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -27987,7 +28067,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28083,7 +28163,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28179,7 +28259,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28275,7 +28355,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28371,7 +28451,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28467,7 +28547,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28563,7 +28643,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28659,7 +28739,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28755,7 +28835,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28851,7 +28931,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -28947,7 +29027,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29043,7 +29123,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29139,7 +29219,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29235,7 +29315,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29331,7 +29411,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29427,7 +29507,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29523,7 +29603,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29619,7 +29699,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29715,7 +29795,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29811,7 +29891,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -29907,7 +29987,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -30003,7 +30083,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -30099,7 +30179,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-notes",
@@ -30195,7 +30275,114 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "release-prepare",
+    "task_label": "Préparer une release software / firmware",
+    "domain": "ci-release",
+    "solution_id": "harness-ai-devops",
+    "solution_name": "Harness AI / Autonomous Worker Agents",
+    "vendor": "Harness",
+    "category": "devops-ai",
+    "relationship": "native",
+    "success_probability": {
+      "point": 0.68,
+      "low": 0.43000000000000005,
+      "high": 0.93,
+      "relationship_prior": 0.68,
+      "family_prior": 0.68,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 11.14775,
+      "low": 3.316455625,
+      "high": 38.459737499999996,
+      "baseline": 20,
+      "relationship_factor": 0.85,
+      "evidence_factor": 0.65575,
+      "observations": [
+        "prod-harness-devops-onboarding-2026"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 3.654009178871058,
+      "low": 0.609001529811843,
+      "high": 29.59747434885556,
+      "fixed_point": 3.654009178871058,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": true
+    },
+    "human_only_cost_eur": {
+      "point": 100,
+      "low": 33.33333333333333,
+      "high": 266.66666666666663
+    },
+    "expected_cost_success_eur": {
+      "point": 19.035001243437826,
+      "low": 3.626574785639975,
+      "high": 143.3657106950129
+    },
+    "meta_score": {
+      "point": 84.0089040663683,
+      "low": 18.864467273510524,
+      "high": 98.6582813665062
+    },
+    "profitability_factor": {
+      "point": 5.253480087608308,
+      "low": 0.23250561917308488,
+      "high": 73.53127466792566
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "C",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-harness-devops-onboarding-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "vendor-case-study-aggregate",
+          "metric": "pipeline onboarding time reduction"
+        },
+        {
+          "id": "prod-harness-release-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "AI-generated governed release process"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -30274,7 +30461,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -30285,97 +30480,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "release-prepare",
-    "task_label": "Préparer une release software / firmware",
-    "domain": "ci-release",
-    "solution_id": "harness-ai-devops",
-    "solution_name": "Harness AI / Autonomous Worker Agents",
-    "vendor": "Harness",
-    "category": "devops-ai",
-    "relationship": "native",
-    "success_probability": {
-      "point": 0.68,
-      "low": 0.43000000000000005,
-      "high": 0.93,
-      "relationship_prior": 0.68,
-      "family_prior": 0.68,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 17,
-      "low": 5.0575,
-      "high": 58.65,
-      "baseline": 20,
-      "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 3.654009178871058,
-      "low": 0.609001529811843,
-      "high": 29.59747434885556,
-      "fixed_point": 3.654009178871058,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": true
-    },
-    "human_only_cost_eur": {
-      "point": 100,
-      "low": 33.33333333333333,
-      "high": 266.66666666666663
-    },
-    "expected_cost_success_eur": {
-      "point": 26.20687624343783,
-      "low": 5.186650390478684,
-      "high": 182.49412639268732
-    },
-    "meta_score": {
-      "point": 79.23498542750718,
-      "low": 15.444435743092141,
-      "high": 98.09211436276556
-    },
-    "profitability_factor": {
-      "point": 3.8157924306236186,
-      "low": 0.18265428039918014,
-      "high": 51.41404308958166
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -30465,7 +30570,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -30555,7 +30660,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -30645,7 +30750,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -30735,7 +30840,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -30825,7 +30930,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -30915,7 +31020,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31005,7 +31110,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31095,7 +31200,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31185,7 +31290,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31275,7 +31380,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31365,7 +31470,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31455,7 +31560,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31545,7 +31650,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31635,7 +31740,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31725,7 +31830,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31815,7 +31920,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31905,7 +32010,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -31995,7 +32100,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32085,7 +32190,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32175,7 +32280,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32265,7 +32370,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32355,7 +32460,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32445,7 +32550,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32535,7 +32640,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32625,7 +32730,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32715,7 +32820,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32805,7 +32910,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32895,7 +33000,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -32985,7 +33090,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -33075,7 +33180,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -33165,7 +33270,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -33255,7 +33360,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -33345,7 +33450,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -33435,7 +33540,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "release-prepare",
@@ -33525,6 +33630,6 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   }
 ]
