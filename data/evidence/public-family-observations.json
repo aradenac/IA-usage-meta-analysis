@@ -538,5 +538,35 @@
     "source_grade": "B",
     "source": "https://www.mdpi.com/2673-2688/7/7/270",
     "notes": "Paper states systematic discovery/evaluation of evidence consumes roughly 40–60% of ASPICE assessment preparation time and evaluates a human-AI evidence-management approach. Retained as process/effort evidence; no robust public success probability encoded from the accessible abstract."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-threat-tmbench-v2-2026",
+    "family": "threat-modeling",
+    "benchmark": "TM-Bench v2",
+    "version": "2026-09-26 snapshot",
+    "evidence_type": "public-controlled-benchmark",
+    "metric": "best current overall STRIDE threat-model score",
+    "value": 0.846,
+    "probability_proxy": null,
+    "n": 30,
+    "source_grade": "C",
+    "source": "https://www.tmbench.com/",
+    "notes": "Current dashboard/methodology evaluates 30 application designs using STRIDE coverage/accuracy (30%), threat completeness (30%), technical validity (30%) and deterministic JSON compliance (10%), with Claude Sonnet 4.6 as LLM judge/ground-truth generator. Qwen 3.8 27B was publicly reported at 84.6 overall with 87% ground-truth threat completeness. Composite judge score is not treated as P(success)."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-threat-fgcs-human-baseline-2026",
+    "family": "threat-modeling",
+    "benchmark": "Comparative benchmark of LLM-based threat elicitation tools",
+    "version": "FGCS 177 (2026) + replication package v3",
+    "evidence_type": "academic-benchmark",
+    "metric": "56 generated threat models vs novice/expert human baselines",
+    "value": 56,
+    "probability_proxy": null,
+    "n": 56,
+    "source_grade": "A",
+    "source": "https://doi.org/10.1016/j.future.2025.108243",
+    "notes": "Six LLM-based threat-elicitation tools evaluated on two realistic biometric-authentication cases against 76 human threat models with novice/expert baselines. Paper reports relatively low performance overall and particular inefficiency at eliciting expert-level threats; replication package publishes F1/redundancy/sensitivity results. Kept as a strong cautionary family signal until per-tool F1 values are ingested."
   }
 ]
