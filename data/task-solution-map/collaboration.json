@@ -1,0 +1,286 @@
+[
+  {
+    "task_id": "collab-meeting",
+    "native": [
+      "teams-copilot",
+      "fireflies",
+      "otter",
+      "read-ai"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "m365-copilot"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm",
+      "scaleway-audio"
+    ]
+  },
+  {
+    "task_id": "collab-jira",
+    "native": [
+      "atlassian-rovo"
+    ],
+    "direct": [
+      "mistral-vibe-work",
+      "chatgpt-enterprise",
+      "claude-enterprise"
+    ],
+    "connected": [
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "collab-backlog",
+    "native": [
+      "atlassian-rovo"
+    ],
+    "direct": [
+      "mistral-vibe-work",
+      "chatgpt-enterprise",
+      "claude-enterprise"
+    ],
+    "connected": [
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "collab-ticket",
+    "native": [
+      "atlassian-rovo"
+    ],
+    "direct": [
+      "mistral-vibe-work",
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "gitlab-duo"
+    ],
+    "connected": [
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "collab-confluence",
+    "native": [
+      "atlassian-rovo"
+    ],
+    "direct": [
+      "mistral-vibe-work",
+      "chatgpt-enterprise",
+      "claude-enterprise"
+    ],
+    "connected": [
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "collab-sharepoint",
+    "native": [
+      "m365-copilot"
+    ],
+    "direct": [
+      "mistral-vibe-work",
+      "chatgpt-enterprise",
+      "claude-enterprise"
+    ],
+    "connected": [
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "copilot-studio",
+      "n8n",
+      "dify"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "collab-status",
+    "native": [
+      "atlassian-rovo"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "m365-copilot",
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "connected": [
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "collab-workflow",
+    "native": [
+      "n8n",
+      "copilot-studio"
+    ],
+    "direct": [
+      "atlassian-rovo",
+      "mistral-vibe-work"
+    ],
+    "connected": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "dify"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  }
+]
