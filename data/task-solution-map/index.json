@@ -3,7 +3,7 @@
   "verified_at": "2026-09-27",
   "task_count": 86,
   "mapped_task_count": 86,
-  "solution_count": 128,
+  "solution_count": 157,
   "map_files": [
     "data/task-solution-map/requirements.json",
     "data/task-solution-map/architecture.json",
@@ -16,7 +16,9 @@
     "data/task-solution-map/documentation.json",
     "data/task-solution-map/collaboration.json",
     "data/task-solution-map/learning-research.json",
-    "data/task-solution-map/supplemental-audit-2026-09-27.json"
+    "data/task-solution-map/supplemental-audit-2026-09-27.json",
+    "data/task-solution-map/third-pass-audit-2026-09-27.json",
+    "data/task-solution-map/observability-devops-audit-2026-09-27.json"
   ],
   "relationship_types": {
     "native": "First-class product workflow for the task.",
@@ -35,9 +37,9 @@
     "historical_observed_configurations": 138
   },
   "candidate_count": {
-    "min": 33,
-    "max": 68,
-    "average": 48.3
+    "min": 35,
+    "max": 70,
+    "average": 50.5
   },
-  "inventory_status": "second-pass inventory complete; availability mapping only; no scoring"
+  "inventory_status": "extended multi-pass inventory complete; availability mapping only; no scoring"
 }
