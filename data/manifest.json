@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_from": "site/index.html standalone report",
+  "generated_at": "2026-09-27",
+  "status": "provisional business taxonomy; task-specific evidence enrichment pending",
+  "datasets": {
+    "tasks.json": 86,
+    "task-info.json": 86,
+    "task-domains.json": 10,
+    "observations.json": 197,
+    "sources.json": 29,
+    "scaleway-models.json": 32,
+    "harness-matrix.json": 66,
+    "surface-info.json": 51,
+    "model-notes.json": 10,
+    "data-policy.json": 3
+  }
+}
