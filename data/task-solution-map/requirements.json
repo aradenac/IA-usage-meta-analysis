@@ -1,0 +1,281 @@
+[
+  {
+    "task_id": "req-system-impact",
+    "native": [
+      "codebeamer-ai",
+      "ibm-engineering-ai-hub",
+      "jama-connect-advisor",
+      "polarion-copilot",
+      "visure-vivia"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "m365-copilot",
+      "kiro"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "req-write-sw",
+    "native": [
+      "codebeamer-ai",
+      "ibm-engineering-ai-hub",
+      "jama-connect-advisor",
+      "polarion-copilot",
+      "visure-vivia"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "m365-copilot",
+      "kiro"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "req-review",
+    "native": [
+      "codebeamer-ai",
+      "ibm-engineering-ai-hub",
+      "jama-connect-advisor",
+      "polarion-copilot",
+      "visure-vivia"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "m365-copilot",
+      "kiro"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "req-decompose",
+    "native": [
+      "codebeamer-ai",
+      "ibm-engineering-ai-hub",
+      "jama-connect-advisor",
+      "polarion-copilot",
+      "visure-vivia"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "m365-copilot",
+      "kiro"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm",
+      "gitlab-duo"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "req-traceability",
+    "native": [
+      "codebeamer-ai",
+      "ibm-engineering-ai-hub",
+      "jama-connect-advisor",
+      "polarion-copilot",
+      "visure-vivia"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "m365-copilot"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm",
+      "gitlab-duo"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "req-change-impact",
+    "native": [
+      "codebeamer-ai",
+      "ibm-engineering-ai-hub",
+      "jama-connect-advisor",
+      "polarion-copilot",
+      "visure-vivia"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "m365-copilot",
+      "augment-code",
+      "sourcegraph-cody",
+      "gitlab-duo"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  }
+]
