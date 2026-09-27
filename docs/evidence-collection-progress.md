@@ -82,3 +82,10 @@ Evidence batch rescored across **4393** task × solution pairs.
 - tasks with family-prior support: **55/86**
 
 The scorer is now synchronized with the persisted evidence corpus.
+
+## Latest embedded-firmware batch
+
+- Added EmbedEval Sonnet 4.6 pass@1: 68.0% on 233 cases, n=3 per case, Wilson 95% CI 64.4–71.3%.
+- Added implicit-vs-explicit prompt gap support (~95% explicit vs ~60% implicit domain-knowledge prompts).
+- Stored as family-level embedded-development evidence, not direct product evidence.
+- Next scorer version marked pending: **product-task-v1.8**.
