@@ -193,5 +193,35 @@
     "source_grade": "B",
     "source": "https://arxiv.org/abs/2506.11003",
     "notes": "DeepSeek-R1 improved to 65.1% with correct schematics after retrieval/compiler-feedback strategies; support signal showing context/tooling matters, not a generic product success rate."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-releaseeval-2025",
+    "family": "release-note-generation",
+    "benchmark": "ReleaseEval",
+    "version": "2025 benchmark / 2026 evidence snapshot",
+    "evidence_type": "academic-benchmark",
+    "metric": "release-note generation quality",
+    "value": 1,
+    "probability_proxy": null,
+    "n": 94987,
+    "source_grade": "B",
+    "source": "https://arxiv.org/abs/2511.02713",
+    "notes": "94,987 release notes from 3,369 repositories across 6 languages; LLMs consistently beat traditional baselines, strongest on tree2sum and still weak on diff2sum. Metric is deliberately non-probability because the paper reports several automated/human quality dimensions rather than one Definition-of-Done pass rate."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-datasheet-compatibility-2026",
+    "family": "datasheet-engineering",
+    "benchmark": "LLM-Driven Datasheet-Aware Hardware Compatibility Verification",
+    "version": "2026-08",
+    "evidence_type": "academic-benchmark",
+    "metric": "compatibility verification accuracy",
+    "value": 0.975,
+    "probability_proxy": null,
+    "n": 34,
+    "source_grade": "A",
+    "source": "https://arxiv.org/abs/2608.25217",
+    "notes": "Seven embedded designs / 34 datasheets; 97.5% compatibility-verification accuracy and 8.6x input-context reduction. Kept non-probability for broad datasheet analysis/driver tasks because the evaluated task is a narrower deterministic compatibility-verification pipeline."
   }
 ]
