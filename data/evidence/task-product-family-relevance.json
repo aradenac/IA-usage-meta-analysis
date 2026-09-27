@@ -144,6 +144,22 @@
       "debug-intermittent": 0.65,
       "upstream-backport": 0.7,
       "upstream-contribute": 0.75
+    },
+    "coding-productivity-field": {
+      "dev-small-change": 0.9,
+      "dev-python-tooling": 0.7,
+      "dev-feature": 0.65,
+      "dev-module": 0.55,
+      "dev-refactor": 0.75,
+      "dev-driver-adapt": 0.7,
+      "dev-driver-port": 0.65,
+      "dev-protocol": 0.65,
+      "debug-known": 0.65,
+      "debug-embedded": 0.6,
+      "debug-intermittent": 0.55,
+      "upstream-backport": 0.6,
+      "upstream-contribute": 0.55,
+      "ci-automation": 0.55
     }
   }
 }
