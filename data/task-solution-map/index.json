@@ -3,7 +3,7 @@
   "verified_at": "2026-09-27",
   "task_count": 86,
   "mapped_task_count": 86,
-  "solution_count": 189,
+  "solution_count": 197,
   "map_files": [
     "data/task-solution-map/requirements.json",
     "data/task-solution-map/architecture.json",
@@ -38,12 +38,12 @@
     "eval_only_refs_in_active_map": [],
     "duplicate_solution_ids": [],
     "historical_observed_configurations": 138,
-    "mapping_audit_note": "Five domains completed through verification on 2026-09-27; additions do not alter historical scoring evidence."
+    "mapping_audit_note": "Six domains completed through safety/cyber on 2026-09-28; additions do not alter historical scoring evidence."
   },
   "candidate_count": {
     "min": 35,
     "max": 70,
     "average": 51.1
   },
-  "inventory_status": "task-by-task refresh in progress; requirements, architecture, development, debug/upstream and verification domains re-audited"
+  "inventory_status": "task-by-task refresh in progress; requirements, architecture, development, debug/upstream, verification and safety/cyber domains re-audited"
 }
