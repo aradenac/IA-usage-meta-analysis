@@ -31,7 +31,8 @@
       "verify-unit": 0.8,
       "verify-coverage": 0.7,
       "req-traceability": 0.55,
-      "verify-loop": 0.5
+      "verify-loop": 0.5,
+      "verify-prevalidation": 0.65
     },
     "static-analysis-remediation": {
       "verify-static": 1,
@@ -39,7 +40,8 @@
       "cyber-review": 0.6,
       "verify-mr": 0.45,
       "dev-refactor": 0.35,
-      "process-evidence": 0.3
+      "process-evidence": 0.3,
+      "verify-prevalidation": 0.6
     },
     "hil-test-agent": {
       "verify-hil": 1,
@@ -199,6 +201,15 @@
       "safety-review": 0.65,
       "process-evidence": 0.35,
       "process-aspice": 0.3
+    },
+    "embedded-development": {
+      "dev-driver-datasheet": 1,
+      "dev-driver-port": 0.95,
+      "dev-driver-adapt": 0.8,
+      "dev-feature": 0.55,
+      "dev-module": 0.6,
+      "dev-protocol": 0.55,
+      "debug-hw-sw": 0.45
     }
   }
 }
