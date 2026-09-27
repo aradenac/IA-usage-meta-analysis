@@ -301,6 +301,15 @@
       "process-aspice": 1,
       "process-evidence": 1,
       "req-traceability": 0.55
+    },
+    "office-knowledge-productivity": {
+      "doc-code": 0.8,
+      "doc-architecture": 0.7,
+      "collab-ticket": 0.45,
+      "collab-confluence": 0.55,
+      "req-write-sw": 0.35,
+      "research-docs": 0.3,
+      "collab-status": 0.3
     }
   }
 }
