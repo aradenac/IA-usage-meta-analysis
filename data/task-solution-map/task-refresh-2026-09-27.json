@@ -723,6 +723,57 @@
     "backend": []
   },
   {
+    "task_id": "learn-coach",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-explain",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [
+      "scite-ai",
+      "accuris-ai-assistant",
+      "scopus-ai",
+      "web-of-science-research-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-operational",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [
+      "scite-ai",
+      "accuris-ai-assistant",
+      "feedly-ai-intelligence"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-path",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [
+      "scite-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
     "task_id": "process-aspice",
     "native": [
       "assessoris",
@@ -881,6 +932,130 @@
     "connected": [],
     "custom_workflow": [],
     "backend": []
+  },
+  {
+    "task_id": "research-docs",
+    "native": [
+      "accuris-ai-assistant"
+    ],
+    "direct": [
+      "scite-ai",
+      "kagi-research",
+      "scopus-ai",
+      "web-of-science-research-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-field",
+    "native": [
+      "feedly-ai-intelligence"
+    ],
+    "direct": [
+      "kagi-research",
+      "scite-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-multidoc",
+    "native": [],
+    "direct": [
+      "scite-ai",
+      "accuris-ai-assistant",
+      "kagi-research"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-relevant",
+    "native": [],
+    "direct": [
+      "scite-ai",
+      "scopus-ai",
+      "web-of-science-research-assistant",
+      "kagi-research",
+      "feedly-ai-intelligence"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-source",
+    "native": [
+      "scite-ai",
+      "accuris-ai-assistant",
+      "scopus-ai",
+      "web-of-science-research-assistant"
+    ],
+    "direct": [
+      "kagi-research"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-state-art",
+    "native": [
+      "scite-ai",
+      "scopus-ai",
+      "web-of-science-research-assistant"
+    ],
+    "direct": [
+      "kagi-research",
+      "feedly-ai-intelligence"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-version",
+    "native": [
+      "accuris-ai-assistant"
+    ],
+    "direct": [
+      "feedly-ai-intelligence",
+      "kagi-research",
+      "scite-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-web",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [
+      "feedly-ai-intelligence"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
   },
   {
     "task_id": "safety-impact",
@@ -1117,5 +1292,20 @@
     "connected": [],
     "custom_workflow": [],
     "backend": []
+  },
+  {
+    "task_id": "watch-tech",
+    "native": [
+      "feedly-ai-intelligence",
+      "scite-ai"
+    ],
+    "direct": [
+      "kagi-research"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
   }
 ]
