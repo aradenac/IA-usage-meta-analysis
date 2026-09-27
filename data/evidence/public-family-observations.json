@@ -613,5 +613,35 @@
     "source_grade": "A",
     "source": "https://huggingface.co/datasets/microsoft/XL-DocBench",
     "notes": "Strict retained release over 1,345 expert-verified professional-document questions. GPT-5.4 OCR scores 38.36% accuracy; SimpleDoc+GPT-5.4 agent 36.21%. Contexts include technical manuals, cross-document and multimodal evidence. This stricter reproducible score is kept alongside the earlier 44.0% project-page snapshot rather than replacing it."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-req-quality-offtheshelf-benchmark-2026",
+    "family": "requirements-quality",
+    "benchmark": "Two Truths and A Lie? Requirements Quality Assessment Benchmark",
+    "version": "2026-09",
+    "evidence_type": "academic-benchmark",
+    "metric": "best median expert-issue recall",
+    "value": 0.47,
+    "probability_proxy": 0.47,
+    "n": 100,
+    "source_grade": "A",
+    "source": "https://arxiv.org/abs/2609.03230",
+    "notes": "Ten off-the-shelf OpenAI/Anthropic models across two requirement sets and 100 independent runs against expert-derived INCOSE-grounded quality issues. Best model detects median 47% of expert issues while false-flagging 11%; necessity/correctness issues are especially weak. Strong family prior for req-review; not attributed to any commercial requirements tool."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-req-generation-digitalengineering-2026",
+    "family": "requirements-generation",
+    "benchmark": "Structured LLM evaluation in requirements engineering",
+    "version": "Digital Engineering 2026",
+    "evidence_type": "academic-benchmark",
+    "metric": "best requirement extraction+formulation F1",
+    "value": 0.56,
+    "probability_proxy": 0.56,
+    "n": 35,
+    "source_grade": "B",
+    "source": "https://doi.org/10.1016/j.dte.2026.100098",
+    "notes": "Proof-of-concept with 35 ground-truth requirements and multiple model/prompt-control combinations. ChatGPT + Self-Refine achieved best F1 0.56 for correctly identifying and formulating requirements; no configuration recovered all requirements. Small application domain and prompt-heavy setup limit transfer."
   }
 ]
