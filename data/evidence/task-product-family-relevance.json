@@ -285,6 +285,22 @@
       "ci-build": 0.55,
       "ci-gitlab": 0.45,
       "verify-mr": 0.3
+    },
+    "functional-safety-hara": {
+      "safety-impact": 1,
+      "safety-review": 0.75,
+      "cyber-impact": 0.25
+    },
+    "vulnerability-remediation": {
+      "cyber-vuln": 1,
+      "cyber-review": 0.7,
+      "verify-static": 0.45,
+      "verify-mr": 0.3
+    },
+    "aspice-evidence-management": {
+      "process-aspice": 1,
+      "process-evidence": 1,
+      "req-traceability": 0.55
     }
   }
 }
