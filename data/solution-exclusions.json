@@ -49,5 +49,20 @@
     "status": "non_ai_formats_tools",
     "reason": "Important diagram formats/tools, but not counted as AI solutions unless used through an AI-enabled product such as Eraser, Lucid AI, Miro AI or a general/coding assistant.",
     "checked_at": "2026-09-27"
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "status": "legacy-acquired",
+    "replacement": "cursor",
+    "reason": "Continue announced it joined Cursor in 2026. The open-source code remains available, but the product is no longer treated as a maintained independent current choice.",
+    "checked_at": "2026-09-27"
+  },
+  {
+    "id": "flowise",
+    "name": "Flowise",
+    "status": "sunsetting",
+    "reason": "The official Flowise site currently states that Flowise is being sunset. Preserve historical relevance but do not treat it as a long-term new deployment candidate.",
+    "checked_at": "2026-09-27"
   }
 ]
