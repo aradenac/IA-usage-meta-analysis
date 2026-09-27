@@ -102,6 +102,92 @@
     "backend": []
   },
   {
+    "task_id": "ci-automation",
+    "native": [
+      "github-agentic-workflows"
+    ],
+    "direct": [
+      "buildkite-agentic-ci",
+      "circleci-agentic-ci",
+      "github-copilot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-build",
+    "native": [
+      "github-agentic-workflows",
+      "buildkite-agentic-ci",
+      "circleci-agentic-ci"
+    ],
+    "direct": [
+      "docker-gordon",
+      "github-copilot",
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "tasking-agentic-toolchain"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-create",
+    "native": [],
+    "direct": [
+      "github-copilot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-docker",
+    "native": [
+      "docker-gordon"
+    ],
+    "direct": [
+      "github-copilot",
+      "github-agentic-workflows"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-gitlab",
+    "native": [],
+    "direct": [
+      "github-copilot",
+      "embedder-ai",
+      "hydron"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-toolchain",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "tasking-agentic-toolchain"
+    ],
+    "direct": [
+      "docker-gordon",
+      "byteask",
+      "github-copilot",
+      "fw-context-mcp"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
     "task_id": "cyber-artifacts",
     "native": [
       "cybellum-product-security",
@@ -503,6 +589,33 @@
     "direct": [
       "finite-state-product-security-os",
       "cybellum-product-security"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "release-notes",
+    "native": [
+      "atlassian-rovo",
+      "github-agentic-workflows"
+    ],
+    "direct": [
+      "github-copilot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "release-prepare",
+    "native": [
+      "buildkite-agentic-ci"
+    ],
+    "direct": [
+      "circleci-agentic-ci",
+      "github-agentic-workflows",
+      "github-copilot"
     ],
     "connected": [],
     "custom_workflow": [],
