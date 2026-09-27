@@ -3,7 +3,7 @@
   "verified_at": "2026-09-27",
   "task_count": 86,
   "mapped_task_count": 86,
-  "solution_count": 173,
+  "solution_count": 182,
   "map_files": [
     "data/task-solution-map/requirements.json",
     "data/task-solution-map/architecture.json",
@@ -38,12 +38,12 @@
     "eval_only_refs_in_active_map": [],
     "duplicate_solution_ids": [],
     "historical_observed_configurations": 138,
-    "mapping_audit_note": "Task-by-task refresh adds newly verified current products without changing historical scoring evidence; requirements and architecture domains completed on 2026-09-27."
+    "mapping_audit_note": "Requirements, architecture and development task-by-task audits completed on 2026-09-27; additions do not alter historical scoring evidence."
   },
   "candidate_count": {
     "min": 35,
     "max": 70,
     "average": 51.1
   },
-  "inventory_status": "task-by-task refresh in progress; requirements and architecture domains re-audited with current first-party sources"
+  "inventory_status": "task-by-task refresh in progress; requirements, architecture and development domains re-audited"
 }
