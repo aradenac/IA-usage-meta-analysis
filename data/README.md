@@ -1,8 +1,8 @@
 # Structured data
 
-These JSON files mirror the datasets currently embedded in `site/index.html`.
+These JSON files are the persistent data layer behind the standalone report.
 
-The HTML remains the executable standalone snapshot. The JSON layer is now the persistent source for future evidence collection and will progressively become the authoritative input to the site.
+`site/index.html` still embeds the historical scoring datasets, while `site/solution-inventory.js` is generated from the canonical solution inventory and current task mappings so the deployed site can expose the current availability landscape independently from older scored evidence.
 
 ## Files
 
@@ -33,8 +33,10 @@ The current availability-only inventory is canonical under:
 - `solutions/alm-security.json`;
 - `solutions/document-diagram-meeting.json`;
 - `solutions/backends.json`;
-- `task-solution-map/index.json` plus domain mapping files.
+- `solutions/task-refresh-2026-09-27.json` — additions from the explicit 86-task re-audit;
+- `task-solution-map/index.json` plus domain mapping files;
+- `task-solution-map/all-current.json` — merged current mapping used to generate the site inventory snapshot.
 
-The inventory currently contains **86 exploitable AI solution surfaces/platforms/backends** mapped to all **86 business tasks**. This phase contains no ranking or MetaScore.
+The task-by-task refresh completed on 2026-09-28 contains **210 exploitable AI solution surfaces/platforms/backends** mapped to all **86 business tasks**, with **4,838** current task→solution links. Availability/relevance mapping remains separate from ranking and MetaScore.
 
 `solutions.json` is an earlier monolithic snapshot retained temporarily for compatibility; the split files above are authoritative.
