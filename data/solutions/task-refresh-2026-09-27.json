@@ -1111,5 +1111,289 @@
     "official_url": "https://www.tasking.com/content/tasking-integrates-modern-ai-technology-to-enable-robust-software-verification-and-validation-vv/",
     "verified_at": "2026-09-27",
     "notes": "TASKING 2026 toolchain exposes embedded compile/debug/test capabilities for agentic AI workflows, including demonstrated MCP orchestration in safety-critical automotive contexts."
+  },
+  {
+    "id": "cybellum-product-security",
+    "name": "Cybellum Product Security Platform",
+    "vendor": "Cybellum",
+    "category": "product-security-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "platform"
+    ],
+    "capabilities": [
+      "sbom",
+      "vulnerability-triage",
+      "product-risk",
+      "ai-remediation",
+      "cra-compliance",
+      "iso-21434",
+      "iec-62443",
+      "psirt",
+      "vex",
+      "csaf",
+      "audit-evidence"
+    ],
+    "integrations": [
+      "ALM",
+      "PLM",
+      "CI/CD",
+      "ticketing",
+      "threat-feeds",
+      "TARA",
+      "SBOM-sources"
+    ],
+    "official_url": "https://cybellum.com/platform/",
+    "verified_at": "2026-09-28",
+    "notes": "AI-driven product-security platform for connected-device manufacturers. Combines SBOM/assets, product-context vulnerability triage, risk management, post-market monitoring and automated regulatory evidence including CRA and ISO/SAE 21434."
+  },
+  {
+    "id": "c2a-evsec",
+    "name": "C2A Security EVSec + AutoSynth AI",
+    "vendor": "C2A Security",
+    "category": "automotive-product-security-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "platform",
+      "mcp"
+    ],
+    "capabilities": [
+      "tara",
+      "threat-modeling",
+      "attack-trees",
+      "risk-analysis",
+      "iso-21434",
+      "un-r155",
+      "cra",
+      "iec-62443",
+      "compliance-work-products",
+      "ai-assisted-analysis",
+      "mcp",
+      "a2a"
+    ],
+    "integrations": [
+      "ALM",
+      "PLM",
+      "SBOM",
+      "CI/CD",
+      "MCP",
+      "product-architecture"
+    ],
+    "official_url": "https://c2a-sec.com/platform/",
+    "verified_at": "2026-09-28",
+    "notes": "Risk-driven product-security orchestration for automotive and cyber-physical systems. AutoSynth AI generates threat models/risk assessments from architecture inputs and the platform continuously updates risk and compliance work products."
+  },
+  {
+    "id": "finite-state-product-security-os",
+    "name": "Finite State Product Security OS",
+    "vendor": "Finite State",
+    "category": "product-security-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "cli"
+    ],
+    "capabilities": [
+      "firmware-analysis",
+      "sbom",
+      "vulnerability-context",
+      "reachability",
+      "vex",
+      "threat-models",
+      "security-requirements",
+      "cra-compliance",
+      "audit-evidence",
+      "post-market-monitoring",
+      "ai-copilot"
+    ],
+    "integrations": [
+      "GitHub Actions",
+      "GitLab CI",
+      "Jenkins",
+      "REST",
+      "GraphQL",
+      "ticketing"
+    ],
+    "official_url": "https://finitestate.io/platform",
+    "verified_at": "2026-09-28",
+    "notes": "AI-native product-security OS for connected devices. Grounds vulnerability applicability and compliance evidence in shipped firmware/binaries/source and maintains SBOM, VEX, verification and audit-ready evidence continuously."
+  },
+  {
+    "id": "assessoris",
+    "name": "Assessoris",
+    "vendor": "Assessoris",
+    "category": "aspice-audit-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "aspice-assessment",
+      "ai-gap-analysis",
+      "work-product-review",
+      "evidence-citations",
+      "ratings",
+      "audit-findings",
+      "iso-21434",
+      "iso-9001"
+    ],
+    "integrations": [
+      "uploaded-project-work-products"
+    ],
+    "official_url": "https://assessoris.com/",
+    "verified_at": "2026-09-28",
+    "notes": "AI-assisted audit and assessment workspace. Reads project work products, drafts per-requirement findings with citations, and supports Automotive SPICE plus ISO/SAE 21434 assessment workflows."
+  },
+  {
+    "id": "ketryx-automotive",
+    "name": "Ketryx for Automotive",
+    "vendor": "Ketryx",
+    "category": "functional-safety-compliance-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "integrations"
+    ],
+    "capabilities": [
+      "iso-26262",
+      "aspice",
+      "un-r155",
+      "traceability",
+      "safety-case",
+      "audit-evidence",
+      "work-product-generation",
+      "process-enforcement",
+      "change-impact"
+    ],
+    "integrations": [
+      "Jira",
+      "GitHub",
+      "development-and-compliance-tools"
+    ],
+    "official_url": "https://www.ketryx.com/industries/automotive",
+    "verified_at": "2026-09-28",
+    "notes": "Automotive compliance overlay for ISO 26262 and ASPICE. Maintains traceability, generates safety-case/work-product evidence and embeds process enforcement into existing engineering tools."
+  },
+  {
+    "id": "conformly-ai",
+    "name": "Conformly.AI",
+    "vendor": "Conformly",
+    "category": "automotive-compliance-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "eu-data-residency"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "iso-26262",
+      "aspice",
+      "iso-21434",
+      "gap-analysis",
+      "traceability",
+      "architecture-review",
+      "safety-case",
+      "test-plan",
+      "compliance-report",
+      "multi-agent-review"
+    ],
+    "integrations": [
+      "document-work-products"
+    ],
+    "official_url": "https://www.conformly.ai/",
+    "verified_at": "2026-09-28",
+    "notes": "AI compliance analysis for automotive work products. Specialized agents assess safety, process, traceability and architecture, then generate remediation plans and evidence artifacts."
+  },
+  {
+    "id": "auriga-nexus",
+    "name": "Auriga Nexus",
+    "vendor": "Auriga Mobility Solutions",
+    "category": "automotive-engineering-ai-suite",
+    "status": "active",
+    "deployment": [
+      "desktop",
+      "web",
+      "offline",
+      "air-gapped"
+    ],
+    "surfaces": [
+      "desktop",
+      "web"
+    ],
+    "capabilities": [
+      "requirements",
+      "architecture",
+      "aspice",
+      "iso-26262",
+      "iso-21434",
+      "tara",
+      "test-automation",
+      "log-analysis",
+      "fleet-analytics",
+      "traceability",
+      "automotive-ai"
+    ],
+    "integrations": [
+      "ARXML",
+      "CAPL",
+      "Python",
+      "Robot Framework",
+      "ASAM formats"
+    ],
+    "official_url": "https://www.auriga-nexus.com/",
+    "verified_at": "2026-09-28",
+    "notes": "AI-native automotive engineering suite spanning requirements, architecture, test, TARA/security, logs and fleet intelligence with a unified traceability model and standards-aware AI core."
+  },
+  {
+    "id": "siemens-questa-one-safety",
+    "name": "Siemens Questa One ISO 26262 Functional Safety",
+    "vendor": "Siemens EDA",
+    "category": "functional-safety-verification-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "eda-platform"
+    ],
+    "capabilities": [
+      "iso-26262",
+      "safety-analysis",
+      "ai-powered-verification",
+      "safety-metrics",
+      "safety-case",
+      "systematic-failure-analysis",
+      "random-failure-analysis"
+    ],
+    "integrations": [
+      "Siemens EDA safety workflow"
+    ],
+    "official_url": "https://www.siemens.com/en-us/products/ic/questa-one/functional-safety/iso-26262/",
+    "verified_at": "2026-09-28",
+    "notes": "AI-powered functional-safety verification platform focused on ISO 26262, spanning systematic/random failure workflows, safety metrics and safety-case support."
   }
 ]
