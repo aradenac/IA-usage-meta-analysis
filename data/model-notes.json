@@ -1,0 +1,12 @@
+{
+  "GPT-5 high": "Configuration OpenAI observée avec effort de raisonnement élevé. Dans l’étude, elle dispose notamment d’un résultat Aider Polyglot fort ; son intérêt dépend ensuite du coût et du temps humain pour T.",
+  "DeepSeek V4 Flash 0731": "Modèle DeepSeek orienté coût/agentique. Il bénéficie d’un rare comparatif same-model sur neuf harnesses, ce qui permet de mesurer fortement l’effet du harness.",
+  "GLM-5.2": "Modèle Z.ai/GLM avec plusieurs observations agentiques et cross-harness. Intéressant pour comparer Cline, OpenCode, Pi et autres surfaces.",
+  "Qwen3.8-27B": "Modèle Qwen multimodal avec preuves coding, terminal et visual-agent. Plusieurs signaux communautaires complètent les benchmarks officiels.",
+  "Qwen3.6-35B-A3B": "Modèle Qwen MoE compact avec coding, tool-use et vision ; l’étude dispose de plusieurs benchmarks, mais moins de comparaisons cross-harness strictes.",
+  "Qwen3.5-397B-A17B": "Grand modèle Qwen multimodal. Bonne couverture de capacités générales/agentiques mais données cross-harness quotidiennes encore limitées.",
+  "Gemma 4 26B A4B IT": "Modèle Google multimodal. Très bon signal en code isolé, mais résultats agentiques beaucoup plus contrastés ; le report corrige désormais ce décalage par des preuves repo-level et terrain.",
+  "Mistral Medium 3.5": "Modèle Mistral orienté tâches professionnelles/agentiques. Dans l’étude, ses résultats SWE et retours Vibe sont utilisés, avec signaux terrain à la fois positifs et négatifs.",
+  "Mistral Small 3.2 24B": "Modèle Mistral compact et multimodal. Les benchmarks code isolé ne sont plus surinterprétés pour les tâches repo agentiques.",
+  "GPT-OSS-120B": "Modèle open-weight OpenAI disponible notamment chez Scaleway. L’étude combine SWE-bench Verified et SWE-bench Pro, montrant un écart important selon la difficulté et le scaffold."
+}
