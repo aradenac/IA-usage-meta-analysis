@@ -1,0 +1,202 @@
+[
+  {
+    "id": "sentry-seer",
+    "name": "Sentry Seer",
+    "vendor": "Sentry",
+    "category": "observability-debug-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "sentry",
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "root-cause-analysis",
+      "issue-triage",
+      "error-debugging",
+      "performance-debugging",
+      "code-fix",
+      "pull-request-generation",
+      "automation"
+    ],
+    "integrations": [
+      "Sentry telemetry",
+      "GitHub",
+      "GitHub Copilot"
+    ],
+    "official_url": "https://docs.sentry.io/product/ai-in-sentry/seer",
+    "verified_at": "2026-09-27",
+    "notes": "Uses issue context, traces, logs, profiles and linked code to root-cause errors/performance problems and can generate fixes or PRs."
+  },
+  {
+    "id": "datadog-bits-ai",
+    "name": "Datadog Bits AI / Bits Investigation",
+    "vendor": "Datadog",
+    "category": "observability-debug-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "datadog",
+      "web"
+    ],
+    "capabilities": [
+      "autonomous-investigation",
+      "root-cause-analysis",
+      "metrics",
+      "logs",
+      "traces",
+      "infrastructure-context",
+      "incident-response"
+    ],
+    "integrations": [
+      "Datadog telemetry",
+      "incident workflows"
+    ],
+    "official_url": "https://www.datadoghq.com/blog/bits-ai-sre-deeper-reasoning/",
+    "verified_at": "2026-09-27",
+    "notes": "Autonomous SRE investigation agent that reasons across telemetry and incident context to identify likely root causes."
+  },
+  {
+    "id": "newrelic-autopilot",
+    "name": "New Relic Autopilot / New Relic AI",
+    "vendor": "New Relic",
+    "category": "observability-debug-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "new-relic",
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "incident-investigation",
+      "root-cause-analysis",
+      "metrics",
+      "logs",
+      "operations-assistant",
+      "mcp",
+      "next-step-recommendation"
+    ],
+    "integrations": [
+      "New Relic telemetry",
+      "ServiceNow",
+      "MCP"
+    ],
+    "official_url": "https://docs.newrelic.com/whats-new/2026/07/whats-new-07-21-autopilot/",
+    "verified_at": "2026-09-27",
+    "notes": "Autopilot guides incident investigations, surfaces likely root causes and recommends next actions; New Relic AI also exposes telemetry through conversational and MCP interfaces."
+  },
+  {
+    "id": "grafana-ai",
+    "name": "Grafana AI / Assistant Investigations",
+    "vendor": "Grafana Labs",
+    "category": "observability-debug-ai",
+    "status": "active",
+    "deployment": [
+      "grafana-cloud",
+      "self-managed-preview",
+      "oss-components"
+    ],
+    "surfaces": [
+      "grafana",
+      "web",
+      "cli",
+      "mcp"
+    ],
+    "capabilities": [
+      "root-cause-analysis",
+      "incident-investigation",
+      "metrics",
+      "logs",
+      "traces",
+      "assistant",
+      "automations",
+      "mcp"
+    ],
+    "integrations": [
+      "Grafana Cloud",
+      "Grafana OSS/Enterprise",
+      "gcx",
+      "MCP"
+    ],
+    "official_url": "https://grafana.com/ai/",
+    "verified_at": "2026-09-27",
+    "notes": "Grafana Assistant can investigate correlated telemetry and provide root-cause recommendations; AI foundations include MCP and CLI integration."
+  },
+  {
+    "id": "dynatrace-assist",
+    "name": "Dynatrace Assist / Dynatrace Intelligence",
+    "vendor": "Dynatrace",
+    "category": "observability-debug-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "dynatrace",
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "root-cause-analysis",
+      "causal-ai",
+      "incident-analysis",
+      "natural-language-query",
+      "automation",
+      "mcp",
+      "security-analysis"
+    ],
+    "integrations": [
+      "Dynatrace Grail",
+      "AutomationEngine",
+      "Dynatrace MCP"
+    ],
+    "official_url": "https://www.dynatrace.com/news/blog/dynatrace-assist-ask-analyze-and-act-with-dynatrace-intelligence/",
+    "verified_at": "2026-09-27",
+    "notes": "Combines predictive, causal and generative AI; Assist is the current successor to Davis CoPilot and Dynatrace also exposes analysis/root-cause tools over MCP."
+  },
+  {
+    "id": "harness-ai-devops",
+    "name": "Harness AI / Autonomous Worker Agents",
+    "vendor": "Harness",
+    "category": "devops-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "vpc-delegate"
+    ],
+    "surfaces": [
+      "web",
+      "pipeline"
+    ],
+    "capabilities": [
+      "ci-cd-pipeline-generation",
+      "pipeline-troubleshooting",
+      "autonomous-worker-agents",
+      "policy-as-code",
+      "governed-actions",
+      "audit-trail",
+      "rollback"
+    ],
+    "integrations": [
+      "Harness CI/CD",
+      "Git repositories",
+      "VPC/cluster delegate"
+    ],
+    "official_url": "https://www.harness.io/products/platform",
+    "verified_at": "2026-09-27",
+    "notes": "Agentic software-delivery platform: AI can generate pipelines, analyze CI logs, propose/apply fixes and run governed worker agents inside delivery pipelines."
+  }
+]
