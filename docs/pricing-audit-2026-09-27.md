@@ -6,10 +6,10 @@ Pricing has now been modeled for **all 157 solution entries** in the availabilit
 
 Current evidence state:
 
-- 89 solutions have at least one current public monetary price captured;
+- 90 solutions have at least one current public monetary price captured;
 - 30 are classified as **public exact** for the represented purchase path;
-- 40 are **public partial**: at least one rate is public but Enterprise, overage, region, model or negotiated terms remain variable;
-- 68 are **contact-sales** solutions with no usable public enterprise amount captured;
+- 41 are **public partial**: at least one rate is public but Enterprise, overage, region, model or negotiated terms remain variable;
+- 67 are **contact-sales** solutions with no usable public enterprise amount captured;
 - 18 have an explicit zero software-license/open-source path with external inference/compute cost;
 - 1 legacy/transition record is retained for historical continuity;
 - every contact-sales / estimate-only record has a low-confidence sensitivity range;
@@ -43,8 +43,8 @@ A quote-only product can therefore have a relatively high model confidence but l
 Evidence grades currently distribute as:
 
 - A: 81
-- B: 17
-- C: 59
+- B: 18
+- C: 58
 
 The old grade-E fallback bucket has been eliminated by the final targeted pass: each previously weak record now has at least a concrete official commercial model or stronger source.
 
@@ -99,7 +99,8 @@ The catalog captures current enterprise-usable cost functions such as:
 - Scaleway: token-priced serverless inference versus GPU-hour dedicated deployment;
 - Sentry Seer: active-contributor add-on;
 - Grafana Assistant: active AI user + token overage;
-- Elastic Agent Builder: execution + optional managed-LLM token usage.
+- Elastic Agent Builder: execution + optional managed-LLM token usage;
+- Modern Requirements Copilot4DevOps: public add-on tiers with 2M/30M/100M-token allowances; base Modern Requirements licensing remains a prerequisite.
 
 ## Next use in the MetaScore
 
