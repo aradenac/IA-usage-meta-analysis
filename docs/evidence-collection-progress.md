@@ -117,3 +117,15 @@ Extracted directly from the public replication CSVs for Claude Sonnet 4.5 multi-
 - F1: 0.792 / 0.842 / 0.809; mean ≈ **0.814**.
 
 Mean accuracy is stored as the conservative probability-like family signal; F1 is support-only. This gives `cyber-threat` a quantitative threat-modeling family prior while preserving the privacy→general-TARA transfer caveat.
+
+## Evidence-count reconciliation
+
+Source files were re-counted rather than trusting stale index counters:
+
+- historical configuration observations: **223**
+- direct product observations: **207**
+- family observations: **51**
+- practitioner/user signals: **17**
+- total preserved records: **498**
+
+The index now derives from these source-file counts; v1.8 remains pending.
