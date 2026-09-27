@@ -102,6 +102,132 @@
     "backend": []
   },
   {
+    "task_id": "debug-crash",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "direct": [
+      "mplab-ai-coding-assistant",
+      "byteask"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-embedded",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer"
+    ],
+    "direct": [
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp",
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-hw-sw",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer"
+    ],
+    "direct": [
+      "memfault-ai"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-intermittent",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "direct": [
+      "byteask"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-known",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "direct": [
+      "mplab-ai-coding-assistant",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp",
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-performance",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "direct": [
+      "byteask"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-vendor",
+    "native": [
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
     "task_id": "dev-driver-adapt",
     "native": [
       "embedder-ai",
@@ -366,6 +492,49 @@
       "arc-requirements-ai"
     ],
     "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-backport",
+    "native": [],
+    "direct": [
+      "embedder-ai",
+      "hydron",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-contribute",
+    "native": [],
+    "direct": [
+      "embedder-ai",
+      "hydron",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-search",
+    "native": [],
+    "direct": [
+      "embedder-ai",
+      "hydron"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
     "custom_workflow": [],
     "backend": []
   }
