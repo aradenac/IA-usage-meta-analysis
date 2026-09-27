@@ -1,11 +1,12 @@
 {
-  "schema_version": 4,
+  "schema_version": 6,
   "generated_at": "2026-09-27",
-  "scoring_version": "product-task-v1.3",
+  "scoring_version": "product-task-v1.5",
   "task_count": 86,
   "solution_count": 157,
   "scored_pairs": 4389,
   "human_rate_eur_h": 50,
+  "reference_users": 50,
   "reference_ai_eligible_hours_per_user_month": 80,
   "fx": {
     "date": "2026-09-25",
@@ -27,19 +28,19 @@
     "custom_workflow": 1.2,
     "backend": 1.35
   },
-  "family_benchmark_count": 15,
+  "family_benchmark_count": 28,
   "product_evidence_count": 82,
   "files": [
-    "data/task-scores/requirements.json",
     "data/task-scores/architecture.json",
-    "data/task-scores/development.json",
-    "data/task-scores/debug-upstream.json",
-    "data/task-scores/verification.json",
-    "data/task-scores/safety-cyber.json",
     "data/task-scores/ci-release.json",
-    "data/task-scores/documentation.json",
     "data/task-scores/collaboration.json",
-    "data/task-scores/learning-research.json"
+    "data/task-scores/debug-upstream.json",
+    "data/task-scores/development.json",
+    "data/task-scores/documentation.json",
+    "data/task-scores/learning-research.json",
+    "data/task-scores/requirements.json",
+    "data/task-scores/safety-cyber.json",
+    "data/task-scores/verification.json"
   ],
   "task_summary": {
     "req-system-impact": {
@@ -50,167 +51,167 @@
       "direct_product_evidence_count": 1,
       "family_prior_supported_count": 52,
       "meta_confidence_counts": {
-        "E": 52
+        "D": 52
       },
       "top_by_point_estimate": [
         {
           "solution_id": "qra-qvscribe",
           "solution_name": "QRA QVscribe + ReqWriter / QRAcloud",
-          "meta_score": 86.46,
+          "meta_score": 86.52,
           "range": [
-            26.65,
-            98.21
+            30.03,
+            98.07
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "modernrequirements-copilot",
           "solution_name": "Modern Requirements Copilot4DevOps / Agents4DevOps",
-          "meta_score": 85.8,
+          "meta_score": 85.86,
           "range": [
-            28.98,
-            98.03
+            32.53,
+            97.87
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "reqi-rex",
           "solution_name": "Reqi REX",
-          "meta_score": 85.54,
+          "meta_score": 85.6,
           "range": [
-            29.71,
-            97.89
+            33.31,
+            97.73
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "reqdrive",
           "solution_name": "ReqDrive / ReqM",
-          "meta_score": 84.78,
+          "meta_score": 84.85,
           "range": [
-            28.84,
-            97.65
+            32.39,
+            97.47
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
+        },
+        {
+          "solution_id": "gemini-notebook-enterprise",
+          "solution_name": "Gemini Notebook Enterprise",
+          "meta_score": 82.2,
+          "range": [
+            26.9,
+            97.22
+          ],
+          "p_success": 0.586,
+          "relationship_prior": 0.58,
+          "family_prior": 0.586,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "open-webui",
+          "solution_name": "Open WebUI",
+          "meta_score": 82.19,
+          "range": [
+            26.78,
+            97.26
+          ],
+          "p_success": 0.586,
+          "relationship_prior": 0.58,
+          "family_prior": 0.586,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
         },
         {
           "solution_id": "codebeamer-ai",
           "solution_name": "Codebeamer AI",
-          "meta_score": 82.06,
+          "meta_score": 82.13,
           "range": [
-            18.16,
-            97.72
+            20.77,
+            97.54
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "ibm-engineering-ai-hub",
           "solution_name": "IBM Engineering AI Hub",
-          "meta_score": 82.06,
+          "meta_score": 82.13,
           "range": [
-            18.16,
-            97.72
+            20.77,
+            97.54
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "jama-connect-advisor",
           "solution_name": "Jama Connect Advisor",
-          "meta_score": 82.06,
+          "meta_score": 82.13,
           "range": [
-            18.16,
-            97.72
+            20.77,
+            97.54
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "klugspice",
           "solution_name": "KlugSpice",
-          "meta_score": 82.06,
+          "meta_score": 82.13,
           "range": [
-            18.16,
-            97.72
+            20.77,
+            97.54
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
-        },
-        {
-          "solution_id": "polarion-copilot",
-          "solution_name": "Polarion Copilot / Industrial AI",
-          "meta_score": 82.06,
-          "range": [
-            18.16,
-            97.72
-          ],
-          "p_success": 0.653,
-          "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
-        },
-        {
-          "solution_id": "visure-vivia",
-          "solution_name": "Visure Vivia",
-          "meta_score": 82.06,
-          "range": [
-            18.16,
-            97.72
-          ],
-          "p_success": 0.653,
-          "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         }
       ],
@@ -218,17 +219,17 @@
         {
           "solution_id": "qra-qvscribe",
           "solution_name": "QRA QVscribe + ReqWriter / QRAcloud",
-          "meta_score": 86.46,
+          "meta_score": 86.52,
           "range": [
-            26.65,
-            98.21
+            30.03,
+            98.07
           ],
-          "p_success": 0.653,
+          "p_success": 0.656,
           "relationship_prior": 0.68,
-          "family_prior": 0.653,
-          "success_grade": "E",
+          "family_prior": 0.656,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         }
       ]
@@ -830,167 +831,167 @@
       "direct_product_evidence_count": 3,
       "family_prior_supported_count": 52,
       "meta_confidence_counts": {
-        "E": 52
+        "D": 52
       },
       "top_by_point_estimate": [
         {
           "solution_id": "modernrequirements-copilot",
           "solution_name": "Modern Requirements Copilot4DevOps / Agents4DevOps",
-          "meta_score": 87.36,
+          "meta_score": 87.66,
           "range": [
-            29.38,
-            98.88
+            33.23,
+            98.83
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "itemis-analyze-ai",
           "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
-          "meta_score": 87.22,
+          "meta_score": 87.53,
           "range": [
-            25.28,
-            99.02
+            28.81,
+            98.97
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "B",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "reqi-rex",
           "solution_name": "Reqi REX",
-          "meta_score": 87.11,
+          "meta_score": 87.41,
           "range": [
-            30.04,
-            98.78
+            33.93,
+            98.72
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "qra-qvscribe",
           "solution_name": "QRA QVscribe + ReqWriter / QRAcloud",
-          "meta_score": 86.58,
+          "meta_score": 86.9,
           "range": [
-            25.5,
-            98.84
+            29.05,
+            98.79
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "reqdrive",
           "solution_name": "ReqDrive / ReqM",
-          "meta_score": 86.39,
+          "meta_score": 86.71,
           "range": [
-            29.26,
-            98.61
+            33.09,
+            98.54
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "jama-connect-advisor",
           "solution_name": "Jama Connect Advisor",
-          "meta_score": 85.02,
+          "meta_score": 85.37,
           "range": [
-            20.27,
-            98.79
+            23.31,
+            98.73
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "B",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 83.82,
+          "meta_score": 84.46,
           "range": [
-            23.17,
-            98.53
+            27.7,
+            98.46
           ],
-          "p_success": 0.623,
+          "p_success": 0.654,
           "relationship_prior": 0.58,
-          "family_prior": 0.623,
-          "success_grade": "E",
+          "family_prior": 0.654,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "chatgpt-enterprise",
+          "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
+          "meta_score": 84.2,
+          "range": [
+            27.47,
+            98.39
+          ],
+          "p_success": 0.654,
+          "relationship_prior": 0.58,
+          "family_prior": 0.654,
+          "success_grade": "D",
+          "human_time_grade": "C",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "ibm-watsonx",
+          "solution_name": "IBM watsonx.ai",
+          "meta_score": 84.15,
+          "range": [
+            27.42,
+            98.37
+          ],
+          "p_success": 0.654,
+          "relationship_prior": 0.58,
+          "family_prior": 0.654,
+          "success_grade": "D",
+          "human_time_grade": "C",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "codebeamer-ai",
           "solution_name": "Codebeamer AI",
-          "meta_score": 83.77,
+          "meta_score": 84.14,
           "range": [
-            19.17,
-            98.65
+            22.1,
+            98.59
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
-        },
-        {
-          "solution_id": "ibm-engineering-ai-hub",
-          "solution_name": "IBM Engineering AI Hub",
-          "meta_score": 83.77,
-          "range": [
-            19.17,
-            98.65
-          ],
-          "p_success": 0.707,
-          "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
-          "human_time_grade": "C",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
-        },
-        {
-          "solution_id": "klugspice",
-          "solution_name": "KlugSpice",
-          "meta_score": 83.77,
-          "range": [
-            19.17,
-            98.65
-          ],
-          "p_success": 0.707,
-          "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
-          "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         }
       ],
@@ -998,49 +999,49 @@
         {
           "solution_id": "itemis-analyze-ai",
           "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
-          "meta_score": 87.22,
+          "meta_score": 87.53,
           "range": [
-            25.28,
-            99.02
+            28.81,
+            98.97
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "B",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "jama-connect-advisor",
           "solution_name": "Jama Connect Advisor",
-          "meta_score": 85.02,
+          "meta_score": 85.37,
           "range": [
-            20.27,
-            98.79
+            23.31,
+            98.73
           ],
-          "p_success": 0.707,
+          "p_success": 0.727,
           "relationship_prior": 0.68,
-          "family_prior": 0.707,
-          "success_grade": "E",
+          "family_prior": 0.727,
+          "success_grade": "D",
           "human_time_grade": "B",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "vectorcast-ai",
           "solution_name": "VectorCAST 2026 + Reqs2x",
-          "meta_score": 78.25,
+          "meta_score": 79.06,
           "range": [
-            15.07,
-            98.07
+            18.39,
+            97.99
           ],
-          "p_success": 0.623,
+          "p_success": 0.654,
           "relationship_prior": 0.58,
-          "family_prior": 0.623,
-          "success_grade": "E",
+          "family_prior": 0.654,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ]
@@ -1053,185 +1054,185 @@
       "direct_product_evidence_count": 1,
       "family_prior_supported_count": 54,
       "meta_confidence_counts": {
-        "E": 54
+        "D": 54
       },
       "top_by_point_estimate": [
         {
           "solution_id": "modernrequirements-copilot",
           "solution_name": "Modern Requirements Copilot4DevOps / Agents4DevOps",
-          "meta_score": 87.88,
+          "meta_score": 88.4,
           "range": [
-            34.32,
-            98.32
+            39.25,
+            98.26
           ],
-          "p_success": 0.698,
+          "p_success": 0.734,
           "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "family_prior": 0.734,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "reqi-rex",
           "solution_name": "Reqi REX",
-          "meta_score": 87.62,
+          "meta_score": 88.15,
           "range": [
-            35.13,
-            98.19
+            40.11,
+            98.13
           ],
-          "p_success": 0.698,
+          "p_success": 0.734,
           "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "family_prior": 0.734,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "qra-qvscribe",
           "solution_name": "QRA QVscribe + ReqWriter / QRAcloud",
-          "meta_score": 87.08,
+          "meta_score": 87.63,
           "range": [
-            29.58,
-            98.27
+            34.19,
+            98.21
           ],
-          "p_success": 0.698,
+          "p_success": 0.734,
           "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "family_prior": 0.734,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "itemis-analyze-ai",
           "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
-          "meta_score": 87,
+          "meta_score": 87.56,
           "range": [
-            27.89,
-            98.49
+            32.36,
+            98.43
           ],
-          "p_success": 0.698,
+          "p_success": 0.734,
           "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "family_prior": 0.734,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "reqdrive",
           "solution_name": "ReqDrive / ReqM",
-          "meta_score": 86.88,
+          "meta_score": 87.44,
           "range": [
-            34.16,
-            97.96
+            39.09,
+            97.89
           ],
-          "p_success": 0.698,
+          "p_success": 0.734,
           "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "family_prior": 0.734,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "augment-code",
           "solution_name": "Augment Code",
-          "meta_score": 84.49,
+          "meta_score": 85.62,
           "range": [
-            27.35,
-            97.83
+            33.76,
+            97.79
           ],
-          "p_success": 0.608,
+          "p_success": 0.664,
           "relationship_prior": 0.58,
-          "family_prior": 0.608,
-          "success_grade": "E",
+          "family_prior": 0.664,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 84.31,
+          "meta_score": 85.45,
           "range": [
-            27.2,
-            97.77
+            33.59,
+            97.74
           ],
-          "p_success": 0.608,
+          "p_success": 0.664,
           "relationship_prior": 0.58,
-          "family_prior": 0.608,
-          "success_grade": "E",
+          "family_prior": 0.664,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
-          "solution_id": "codebeamer-ai",
-          "solution_name": "Codebeamer AI",
-          "meta_score": 84.2,
+          "solution_id": "chatgpt-enterprise",
+          "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
+          "meta_score": 85.19,
           "range": [
-            21.99,
-            98.02
+            33.29,
+            97.65
           ],
-          "p_success": 0.698,
-          "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "p_success": 0.664,
+          "relationship_prior": 0.58,
+          "family_prior": 0.664,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
         },
         {
-          "solution_id": "ibm-engineering-ai-hub",
-          "solution_name": "IBM Engineering AI Hub",
-          "meta_score": 84.2,
+          "solution_id": "ibm-watsonx",
+          "solution_name": "IBM watsonx.ai",
+          "meta_score": 85.13,
           "range": [
-            21.99,
-            98.02
+            33.23,
+            97.63
           ],
-          "p_success": 0.698,
-          "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "p_success": 0.664,
+          "relationship_prior": 0.58,
+          "family_prior": 0.664,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
         },
         {
-          "solution_id": "jama-connect-advisor",
-          "solution_name": "Jama Connect Advisor",
-          "meta_score": 84.2,
+          "solution_id": "mistral-vibe-work",
+          "solution_name": "Mistral Vibe Work",
+          "meta_score": 85.07,
           "range": [
-            21.99,
-            98.02
+            33.16,
+            97.6
           ],
-          "p_success": 0.698,
-          "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "p_success": 0.664,
+          "relationship_prior": 0.58,
+          "family_prior": 0.664,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
         }
       ],
       "top_with_direct_or_success_evidence": [
         {
           "solution_id": "itemis-analyze-ai",
           "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
-          "meta_score": 87,
+          "meta_score": 87.56,
           "range": [
-            27.89,
-            98.49
+            32.36,
+            98.43
           ],
-          "p_success": 0.698,
+          "p_success": 0.734,
           "relationship_prior": 0.68,
-          "family_prior": 0.698,
-          "success_grade": "E",
+          "family_prior": 0.734,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         }
       ]
@@ -1242,7 +1243,7 @@
       "candidate_count": 44,
       "success_empirical_count": 1,
       "direct_product_evidence_count": 1,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 44,
       "meta_confidence_counts": {
         "E": 42,
         "D": 2
@@ -1251,14 +1252,14 @@
         {
           "solution_id": "augment-code",
           "solution_name": "Augment Code",
-          "meta_score": 84.72,
+          "meta_score": 82.66,
           "range": [
-            26.94,
-            97.89
+            21.75,
+            97.67
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1267,14 +1268,14 @@
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 84.53,
+          "meta_score": 82.45,
           "range": [
-            26.76,
-            97.84
+            21.59,
+            97.61
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1283,14 +1284,14 @@
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 84.23,
+          "meta_score": 82.12,
           "range": [
-            26.45,
-            97.74
+            21.32,
+            97.5
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1299,14 +1300,14 @@
         {
           "solution_id": "kiro",
           "solution_name": "Kiro",
-          "meta_score": 84.23,
+          "meta_score": 82.12,
           "range": [
-            26.45,
-            97.74
+            21.32,
+            97.5
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1315,14 +1316,14 @@
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 84.18,
+          "meta_score": 82.06,
           "range": [
-            26.39,
-            97.72
+            21.27,
+            97.48
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1331,14 +1332,14 @@
         {
           "solution_id": "mistral-vibe-code",
           "solution_name": "Mistral Vibe Code",
-          "meta_score": 84.1,
+          "meta_score": 81.98,
           "range": [
-            26.31,
-            97.7
+            21.2,
+            97.46
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1347,14 +1348,14 @@
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 84.1,
+          "meta_score": 81.98,
           "range": [
-            26.31,
-            97.7
+            21.2,
+            97.46
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1363,14 +1364,14 @@
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 84.1,
+          "meta_score": 81.97,
           "range": [
-            26.31,
-            97.7
+            21.2,
+            97.46
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1379,14 +1380,14 @@
         {
           "solution_id": "dust",
           "solution_name": "Dust",
-          "meta_score": 84.04,
+          "meta_score": 81.9,
           "range": [
-            26.25,
-            97.68
+            21.15,
+            97.44
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1395,14 +1396,14 @@
         {
           "solution_id": "m365-copilot",
           "solution_name": "Microsoft 365 Copilot",
-          "meta_score": 83.98,
+          "meta_score": 81.84,
           "range": [
-            26.19,
-            97.66
+            21.09,
+            97.41
           ],
-          "p_success": 0.58,
+          "p_success": 0.499,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1413,14 +1414,14 @@
         {
           "solution_id": "sparx-kernaro-assist",
           "solution_name": "Kernaro Assist for Sparx Enterprise Architect",
-          "meta_score": 82.59,
+          "meta_score": 80.2,
           "range": [
-            18.83,
-            97.78
+            15.13,
+            97.52
           ],
-          "p_success": 0.68,
+          "p_success": 0.581,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.581,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1429,14 +1430,14 @@
         {
           "solution_id": "claude-code",
           "solution_name": "Claude Code",
-          "meta_score": 81.81,
+          "meta_score": 80.08,
           "range": [
-            27.24,
-            97.07
+            24.42,
+            96.8
           ],
-          "p_success": 0.528,
+          "p_success": 0.472,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.499,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -1450,7 +1451,7 @@
       "candidate_count": 43,
       "success_empirical_count": 1,
       "direct_product_evidence_count": 1,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 43,
       "meta_confidence_counts": {
         "E": 41,
         "D": 2
@@ -1459,14 +1460,14 @@
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 80.46,
+          "meta_score": 78.36,
           "range": [
-            21.57,
-            97.16
+            17.81,
+            96.91
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1475,14 +1476,14 @@
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 80.19,
+          "meta_score": 78.07,
           "range": [
-            21.36,
-            97.07
+            17.64,
+            96.81
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1491,14 +1492,14 @@
         {
           "solution_id": "kiro",
           "solution_name": "Kiro",
-          "meta_score": 80.19,
+          "meta_score": 78.07,
           "range": [
-            21.36,
-            97.07
+            17.64,
+            96.81
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1507,14 +1508,14 @@
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 80.14,
+          "meta_score": 78.01,
           "range": [
-            21.32,
-            97.05
+            17.6,
+            96.79
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1523,14 +1524,14 @@
         {
           "solution_id": "mistral-vibe-code",
           "solution_name": "Mistral Vibe Code",
-          "meta_score": 80.07,
+          "meta_score": 77.94,
           "range": [
-            21.27,
-            97.03
+            17.56,
+            96.76
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1539,14 +1540,14 @@
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 80.07,
+          "meta_score": 77.94,
           "range": [
-            21.27,
-            97.03
+            17.56,
+            96.76
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1555,14 +1556,14 @@
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 80.07,
+          "meta_score": 77.94,
           "range": [
-            21.27,
-            97.03
+            17.56,
+            96.76
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1571,14 +1572,14 @@
         {
           "solution_id": "dust",
           "solution_name": "Dust",
-          "meta_score": 80.01,
+          "meta_score": 77.88,
           "range": [
-            21.23,
-            97.01
+            17.52,
+            96.74
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1587,14 +1588,14 @@
         {
           "solution_id": "m365-copilot",
           "solution_name": "Microsoft 365 Copilot",
-          "meta_score": 79.96,
+          "meta_score": 77.82,
           "range": [
-            21.19,
-            96.99
+            17.49,
+            96.72
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1603,14 +1604,14 @@
         {
           "solution_id": "microsoft-researcher",
           "solution_name": "Microsoft 365 Copilot Researcher",
-          "meta_score": 79.96,
+          "meta_score": 77.82,
           "range": [
-            21.19,
-            96.99
+            17.49,
+            96.72
           ],
-          "p_success": 0.58,
+          "p_success": 0.51,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1621,14 +1622,14 @@
         {
           "solution_id": "sparx-kernaro-assist",
           "solution_name": "Kernaro Assist for Sparx Enterprise Architect",
-          "meta_score": 79.73,
+          "meta_score": 77.47,
           "range": [
-            16.95,
-            97.26
+            14.06,
+            97
           ],
-          "p_success": 0.68,
+          "p_success": 0.595,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.595,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1637,14 +1638,14 @@
         {
           "solution_id": "claude-code",
           "solution_name": "Claude Code",
-          "meta_score": 77.63,
+          "meta_score": 75.93,
           "range": [
-            22.73,
-            96.22
+            20.6,
+            95.93
           ],
-          "p_success": 0.528,
+          "p_success": 0.48,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.51,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -1955,14 +1956,14 @@
         {
           "solution_id": "coderabbit",
           "solution_name": "CodeRabbit",
-          "meta_score": 81.9,
+          "meta_score": 80.76,
           "range": [
-            27.58,
-            97.92
+            25.03,
+            97.81
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1971,14 +1972,14 @@
         {
           "solution_id": "qodo",
           "solution_name": "Qodo",
-          "meta_score": 81.9,
+          "meta_score": 80.76,
           "range": [
-            27.58,
-            97.92
+            25.03,
+            97.81
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -1987,14 +1988,14 @@
         {
           "solution_id": "augment-code",
           "solution_name": "Augment Code",
-          "meta_score": 81.85,
+          "meta_score": 80.71,
           "range": [
-            27.51,
-            97.91
+            24.97,
+            97.8
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -2003,14 +2004,14 @@
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 81.68,
+          "meta_score": 80.53,
           "range": [
-            27.37,
-            97.86
+            24.84,
+            97.75
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -2019,14 +2020,14 @@
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 81.41,
+          "meta_score": 80.25,
           "range": [
-            27.13,
-            97.79
+            24.61,
+            97.67
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -2035,14 +2036,14 @@
         {
           "solution_id": "kiro",
           "solution_name": "Kiro",
-          "meta_score": 81.41,
+          "meta_score": 80.25,
           "range": [
-            27.13,
-            97.79
+            24.61,
+            97.67
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -2051,14 +2052,14 @@
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 81.36,
+          "meta_score": 80.2,
           "range": [
-            27.08,
-            97.77
+            24.56,
+            97.66
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -2067,14 +2068,14 @@
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 81.29,
+          "meta_score": 80.13,
           "range": [
-            27.02,
-            97.75
+            24.5,
+            97.64
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -2083,14 +2084,14 @@
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 81.29,
+          "meta_score": 80.13,
           "range": [
-            27.02,
-            97.75
+            24.5,
+            97.64
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -2099,14 +2100,14 @@
         {
           "solution_id": "dust",
           "solution_name": "Dust",
-          "meta_score": 81.23,
+          "meta_score": 80.07,
           "range": [
-            26.96,
-            97.74
+            24.46,
+            97.62
           ],
-          "p_success": 0.603,
+          "p_success": 0.56,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -2115,36 +2116,36 @@
       ],
       "top_with_direct_or_success_evidence": [
         {
-          "solution_id": "sparx-kernaro-assist",
-          "solution_name": "Kernaro Assist for Sparx Enterprise Architect",
-          "meta_score": 80.52,
-          "range": [
-            21.01,
-            97.9
-          ],
-          "p_success": 0.695,
-          "relationship_prior": 0.68,
-          "family_prior": 0.695,
-          "success_grade": "E",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
-        },
-        {
           "solution_id": "claude-code",
           "solution_name": "Claude Code",
-          "meta_score": 80.23,
+          "meta_score": 79.47,
           "range": [
-            30.4,
-            97.33
+            29.15,
+            97.23
           ],
-          "p_success": 0.595,
+          "p_success": 0.567,
           "relationship_prior": 0.58,
-          "family_prior": 0.603,
+          "family_prior": 0.56,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
           "relationship": "direct"
+        },
+        {
+          "solution_id": "sparx-kernaro-assist",
+          "solution_name": "Kernaro Assist for Sparx Enterprise Architect",
+          "meta_score": 79.27,
+          "range": [
+            19.03,
+            97.78
+          ],
+          "p_success": 0.643,
+          "relationship_prior": 0.68,
+          "family_prior": 0.643,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "native"
         }
       ]
     },
@@ -3921,6 +3922,22 @@
         }
       ],
       "top_with_direct_or_success_evidence": [
+        {
+          "solution_id": "cursor",
+          "solution_name": "Cursor",
+          "meta_score": 84.9,
+          "range": [
+            34.51,
+            97.6
+          ],
+          "p_success": 0.575,
+          "relationship_prior": 0.58,
+          "family_prior": 0.575,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
         {
           "solution_id": "codex-cli",
           "solution_name": "Codex CLI",
@@ -6690,6 +6707,22 @@
           "relationship": "direct"
         },
         {
+          "solution_id": "cursor",
+          "solution_name": "Cursor",
+          "meta_score": 82.12,
+          "range": [
+            27.37,
+            97.32
+          ],
+          "p_success": 0.606,
+          "relationship_prior": 0.58,
+          "family_prior": 0.606,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        },
+        {
           "solution_id": "gemini-cli",
           "solution_name": "Gemini CLI",
           "meta_score": 81.89,
@@ -8291,6 +8324,22 @@
           "relationship": "direct"
         },
         {
+          "solution_id": "cursor",
+          "solution_name": "Cursor",
+          "meta_score": 83.23,
+          "range": [
+            31.84,
+            97.24
+          ],
+          "p_success": 0.631,
+          "relationship_prior": 0.58,
+          "family_prior": 0.631,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        },
+        {
           "solution_id": "claude-code",
           "solution_name": "Claude Code",
           "meta_score": 81.93,
@@ -8908,7 +8957,7 @@
       "candidate_count": 62,
       "success_empirical_count": 13,
       "direct_product_evidence_count": 14,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 62,
       "meta_confidence_counts": {
         "E": 45,
         "D": 17
@@ -8917,14 +8966,14 @@
         {
           "solution_id": "deepsource",
           "solution_name": "DeepSource AI Review + Autofix AI",
-          "meta_score": 86.49,
+          "meta_score": 86.68,
           "range": [
-            36.66,
-            98.47
+            37.28,
+            98.49
           ],
-          "p_success": 0.68,
+          "p_success": 0.692,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -8933,14 +8982,30 @@
         {
           "solution_id": "pr-agent",
           "solution_name": "PR-Agent",
-          "meta_score": 86.32,
+          "meta_score": 86.52,
           "range": [
-            36.33,
-            98.45
+            36.94,
+            98.47
           ],
-          "p_success": 0.68,
+          "p_success": 0.692,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "native"
+        },
+        {
+          "solution_id": "checkmarx-assist",
+          "solution_name": "Checkmarx Assist Agents",
+          "meta_score": 86.41,
+          "range": [
+            32.39,
+            98.55
+          ],
+          "p_success": 0.692,
+          "relationship_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -8949,46 +9014,30 @@
         {
           "solution_id": "bito-code-review",
           "solution_name": "Bito AI Code Review Agent",
-          "meta_score": 86.24,
+          "meta_score": 86.41,
           "range": [
-            39.93,
-            98.27
+            40.4,
+            98.29
           ],
-          "p_success": 0.682,
+          "p_success": 0.692,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "D",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
-          "solution_id": "checkmarx-assist",
-          "solution_name": "Checkmarx Assist Agents",
-          "meta_score": 86.21,
-          "range": [
-            31.81,
-            98.53
-          ],
-          "p_success": 0.68,
-          "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
-        },
-        {
           "solution_id": "kodus",
           "solution_name": "Kodus / Kody",
-          "meta_score": 86.13,
+          "meta_score": 86.33,
           "range": [
-            35.87,
-            98.4
+            36.48,
+            98.42
           ],
-          "p_success": 0.68,
+          "p_success": 0.692,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -8997,30 +9046,14 @@
         {
           "solution_id": "coderabbit",
           "solution_name": "CodeRabbit",
-          "meta_score": 85.96,
+          "meta_score": 86.1,
           "range": [
-            41.67,
-            98.16
+            42,
+            98.18
           ],
-          "p_success": 0.651,
+          "p_success": 0.658,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "C",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "native"
-        },
-        {
-          "solution_id": "qodo",
-          "solution_name": "Qodo",
-          "meta_score": 85.9,
-          "range": [
-            41.52,
-            98.15
-          ],
-          "p_success": 0.648,
-          "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9029,30 +9062,46 @@
         {
           "solution_id": "mend-sast-ai",
           "solution_name": "Mend SAST AI Triage & Remediation",
-          "meta_score": 85.89,
+          "meta_score": 86.09,
           "range": [
-            35.86,
-            98.32
+            36.47,
+            98.34
           ],
-          "p_success": 0.68,
+          "p_success": 0.692,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
           "relationship": "native"
         },
         {
+          "solution_id": "qodo",
+          "solution_name": "Qodo",
+          "meta_score": 86.04,
+          "range": [
+            41.86,
+            98.17
+          ],
+          "p_success": 0.655,
+          "relationship_prior": 0.68,
+          "family_prior": 0.692,
+          "success_grade": "C",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "native"
+        },
+        {
           "solution_id": "cursor-bugbot",
           "solution_name": "Cursor Bugbot",
-          "meta_score": 85.74,
+          "meta_score": 85.88,
           "range": [
-            41.12,
-            98.13
+            41.45,
+            98.15
           ],
-          "p_success": 0.639,
+          "p_success": 0.646,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9061,14 +9110,14 @@
         {
           "solution_id": "greptile",
           "solution_name": "Greptile",
-          "meta_score": 85.37,
+          "meta_score": 85.51,
           "range": [
-            41.02,
-            97.96
+            41.34,
+            97.98
           ],
-          "p_success": 0.659,
+          "p_success": 0.666,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9077,48 +9126,48 @@
       ],
       "top_with_direct_or_success_evidence": [
         {
-          "solution_id": "bito-code-review",
-          "solution_name": "Bito AI Code Review Agent",
-          "meta_score": 86.24,
-          "range": [
-            39.93,
-            98.27
-          ],
-          "p_success": 0.682,
-          "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "D",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "native"
-        },
-        {
           "solution_id": "checkmarx-assist",
           "solution_name": "Checkmarx Assist Agents",
-          "meta_score": 86.21,
+          "meta_score": 86.41,
           "range": [
-            31.81,
-            98.53
+            32.39,
+            98.55
           ],
-          "p_success": 0.68,
+          "p_success": 0.692,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
           "relationship": "native"
         },
         {
+          "solution_id": "bito-code-review",
+          "solution_name": "Bito AI Code Review Agent",
+          "meta_score": 86.41,
+          "range": [
+            40.4,
+            98.29
+          ],
+          "p_success": 0.692,
+          "relationship_prior": 0.68,
+          "family_prior": 0.692,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "native"
+        },
+        {
           "solution_id": "coderabbit",
           "solution_name": "CodeRabbit",
-          "meta_score": 85.96,
+          "meta_score": 86.1,
           "range": [
-            41.67,
-            98.16
+            42,
+            98.18
           ],
-          "p_success": 0.651,
+          "p_success": 0.658,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9127,14 +9176,14 @@
         {
           "solution_id": "qodo",
           "solution_name": "Qodo",
-          "meta_score": 85.9,
+          "meta_score": 86.04,
           "range": [
-            41.52,
-            98.15
+            41.86,
+            98.17
           ],
-          "p_success": 0.648,
+          "p_success": 0.655,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9143,14 +9192,14 @@
         {
           "solution_id": "cursor-bugbot",
           "solution_name": "Cursor Bugbot",
-          "meta_score": 85.74,
+          "meta_score": 85.88,
           "range": [
-            41.12,
-            98.13
+            41.45,
+            98.15
           ],
-          "p_success": 0.639,
+          "p_success": 0.646,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9159,14 +9208,14 @@
         {
           "solution_id": "greptile",
           "solution_name": "Greptile",
-          "meta_score": 85.37,
+          "meta_score": 85.51,
           "range": [
-            41.02,
-            97.96
+            41.34,
+            97.98
           ],
-          "p_success": 0.659,
+          "p_success": 0.666,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9175,14 +9224,14 @@
         {
           "solution_id": "veracode-fix",
           "solution_name": "Veracode Fix",
-          "meta_score": 84.78,
+          "meta_score": 84.98,
           "range": [
-            33.17,
-            98.2
+            33.63,
+            98.22
           ],
-          "p_success": 0.69,
+          "p_success": 0.7,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "D",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9191,14 +9240,14 @@
         {
           "solution_id": "codeant-ai",
           "solution_name": "CodeAnt AI",
-          "meta_score": 84.3,
+          "meta_score": 84.46,
           "range": [
-            35.98,
-            97.93
+            36.34,
+            97.95
           ],
-          "p_success": 0.617,
+          "p_success": 0.625,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9207,14 +9256,14 @@
         {
           "solution_id": "gitlab-duo",
           "solution_name": "GitLab Duo Agent Platform",
-          "meta_score": 84.19,
+          "meta_score": 84.36,
           "range": [
-            35.56,
-            97.94
+            35.93,
+            97.97
           ],
-          "p_success": 0.624,
+          "p_success": 0.632,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.692,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -9223,14 +9272,14 @@
         {
           "solution_id": "penguin-harness",
           "solution_name": "PenguinHarness",
-          "meta_score": 84.03,
+          "meta_score": 84.25,
           "range": [
-            38.11,
-            97.86
+            38.6,
+            97.89
           ],
-          "p_success": 0.659,
+          "p_success": 0.67,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.598,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -10046,7 +10095,7 @@
       "candidate_count": 45,
       "success_empirical_count": 0,
       "direct_product_evidence_count": 2,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 45,
       "meta_confidence_counts": {
         "E": 45
       },
@@ -10054,14 +10103,14 @@
         {
           "solution_id": "iriusrisk-jeff",
           "solution_name": "IriusRisk Jeff AI",
-          "meta_score": 85.89,
+          "meta_score": 86.2,
           "range": [
-            27.03,
-            98.12
+            27.83,
+            98.15
           ],
-          "p_success": 0.68,
+          "p_success": 0.698,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.698,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -10070,14 +10119,14 @@
         {
           "solution_id": "itemis-secure-ai",
           "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 85.39,
+          "meta_score": 85.7,
           "range": [
-            24.29,
-            98.25
+            25.03,
+            98.28
           ],
-          "p_success": 0.68,
+          "p_success": 0.698,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.698,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -10086,14 +10135,14 @@
         {
           "solution_id": "threatmodeler-nexus",
           "solution_name": "ThreatModeler Nexus",
-          "meta_score": 83.37,
+          "meta_score": 83.72,
           "range": [
-            23.95,
-            97.7
+            24.69,
+            97.74
           ],
-          "p_success": 0.68,
+          "p_success": 0.698,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.698,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -10102,14 +10151,14 @@
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 80.46,
+          "meta_score": 81.17,
           "range": [
-            21.57,
-            97.16
+            22.94,
+            97.25
           ],
-          "p_success": 0.58,
+          "p_success": 0.607,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.607,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -10118,14 +10167,14 @@
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 80.19,
+          "meta_score": 80.91,
           "range": [
-            21.36,
-            97.07
+            22.73,
+            97.16
           ],
-          "p_success": 0.58,
+          "p_success": 0.607,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.607,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -10134,14 +10183,14 @@
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 80.14,
+          "meta_score": 80.86,
           "range": [
-            21.32,
-            97.05
+            22.68,
+            97.14
           ],
-          "p_success": 0.58,
+          "p_success": 0.607,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.607,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -10150,14 +10199,14 @@
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 80.07,
+          "meta_score": 80.79,
           "range": [
-            21.27,
-            97.03
+            22.63,
+            97.12
           ],
-          "p_success": 0.58,
+          "p_success": 0.607,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.607,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -10166,14 +10215,14 @@
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 80.07,
+          "meta_score": 80.79,
           "range": [
-            21.27,
-            97.03
+            22.63,
+            97.12
           ],
-          "p_success": 0.58,
+          "p_success": 0.607,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.607,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -10182,14 +10231,14 @@
         {
           "solution_id": "dust",
           "solution_name": "Dust",
-          "meta_score": 80.01,
+          "meta_score": 80.74,
           "range": [
-            21.23,
-            97.01
+            22.59,
+            97.1
           ],
-          "p_success": 0.58,
+          "p_success": 0.607,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.607,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -10198,14 +10247,14 @@
         {
           "solution_id": "m365-copilot",
           "solution_name": "Microsoft 365 Copilot",
-          "meta_score": 79.96,
+          "meta_score": 80.68,
           "range": [
-            21.19,
-            96.99
+            22.54,
+            97.08
           ],
-          "p_success": 0.58,
+          "p_success": 0.607,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.607,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -10216,14 +10265,14 @@
         {
           "solution_id": "iriusrisk-jeff",
           "solution_name": "IriusRisk Jeff AI",
-          "meta_score": 85.89,
+          "meta_score": 86.2,
           "range": [
-            27.03,
-            98.12
+            27.83,
+            98.15
           ],
-          "p_success": 0.68,
+          "p_success": 0.698,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.698,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -10232,14 +10281,14 @@
         {
           "solution_id": "itemis-secure-ai",
           "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 85.39,
+          "meta_score": 85.7,
           "range": [
-            24.29,
-            98.25
+            25.03,
+            98.28
           ],
-          "p_success": 0.68,
+          "p_success": 0.698,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.698,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -10253,7 +10302,7 @@
       "candidate_count": 70,
       "success_empirical_count": 3,
       "direct_product_evidence_count": 15,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 70,
       "meta_confidence_counts": {
         "E": 56,
         "D": 14
@@ -10262,14 +10311,14 @@
         {
           "solution_id": "iriusrisk-jeff",
           "solution_name": "IriusRisk Jeff AI",
-          "meta_score": 85.89,
+          "meta_score": 86.35,
           "range": [
-            31.35,
-            98.49
+            32.67,
+            98.52
           ],
-          "p_success": 0.68,
+          "p_success": 0.707,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.707,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -10278,14 +10327,14 @@
         {
           "solution_id": "itemis-secure-ai",
           "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 85.08,
+          "meta_score": 85.57,
           "range": [
-            28,
-            98.55
+            29.24,
+            98.58
           ],
-          "p_success": 0.68,
+          "p_success": 0.707,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.707,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -10294,94 +10343,62 @@
         {
           "solution_id": "threatmodeler-nexus",
           "solution_name": "ThreatModeler Nexus",
-          "meta_score": 83.86,
+          "meta_score": 84.38,
           "range": [
-            28.58,
-            98.22
+            29.84,
+            98.25
           ],
-          "p_success": 0.68,
+          "p_success": 0.707,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.707,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
           "relationship": "native"
         },
         {
-          "solution_id": "openhands",
-          "solution_name": "OpenHands",
-          "meta_score": 82.73,
-          "range": [
-            38.12,
-            97.46
-          ],
-          "p_success": 0.664,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "B",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "direct"
-        },
-        {
           "solution_id": "checkmarx-assist",
           "solution_name": "Checkmarx Assist Agents",
-          "meta_score": 82.19,
+          "meta_score": 83.19,
           "range": [
-            24.11,
-            98.09
+            26.37,
+            98.18
           ],
-          "p_success": 0.58,
+          "p_success": 0.622,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.622,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
           "relationship": "direct"
         },
         {
+          "solution_id": "openhands",
+          "solution_name": "OpenHands",
+          "meta_score": 83.12,
+          "range": [
+            38.85,
+            97.52
+          ],
+          "p_success": 0.682,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "B",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
           "solution_id": "semgrep-autofix",
           "solution_name": "Semgrep Autofix",
-          "meta_score": 81.84,
+          "meta_score": 82.72,
           "range": [
-            31.21,
-            97.73
+            33.08,
+            97.83
           ],
-          "p_success": 0.601,
+          "p_success": 0.638,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "D",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "direct"
-        },
-        {
-          "solution_id": "coderabbit",
-          "solution_name": "CodeRabbit",
-          "meta_score": 81.43,
-          "range": [
-            30.38,
-            97.68
-          ],
-          "p_success": 0.585,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "D",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "direct"
-        },
-        {
-          "solution_id": "qodo",
-          "solution_name": "Qodo",
-          "meta_score": 81.36,
-          "range": [
-            30.24,
-            97.68
-          ],
-          "p_success": 0.582,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.622,
           "success_grade": "D",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -10390,160 +10407,30 @@
         {
           "solution_id": "microsoft-security-copilot",
           "solution_name": "Microsoft Security Copilot",
-          "meta_score": 81.31,
+          "meta_score": 82.35,
           "range": [
-            26.24,
-            97.86
+            28.63,
+            97.96
           ],
-          "p_success": 0.58,
+          "p_success": 0.622,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.622,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
-          "relationship": "direct"
-        },
-        {
-          "solution_id": "snyk-deepcode-ai",
-          "solution_name": "Snyk DeepCode AI",
-          "meta_score": 81.29,
-          "range": [
-            30.72,
-            97.56
-          ],
-          "p_success": 0.603,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "D",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "direct"
-        }
-      ],
-      "top_with_direct_or_success_evidence": [
-        {
-          "solution_id": "iriusrisk-jeff",
-          "solution_name": "IriusRisk Jeff AI",
-          "meta_score": 85.89,
-          "range": [
-            31.35,
-            98.49
-          ],
-          "p_success": 0.68,
-          "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
-          "human_time_grade": "C",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
-        },
-        {
-          "solution_id": "itemis-secure-ai",
-          "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 85.08,
-          "range": [
-            28,
-            98.55
-          ],
-          "p_success": 0.68,
-          "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
-          "human_time_grade": "C",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
-        },
-        {
-          "solution_id": "openhands",
-          "solution_name": "OpenHands",
-          "meta_score": 82.73,
-          "range": [
-            38.12,
-            97.46
-          ],
-          "p_success": 0.664,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "B",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "direct"
-        },
-        {
-          "solution_id": "checkmarx-assist",
-          "solution_name": "Checkmarx Assist Agents",
-          "meta_score": 82.19,
-          "range": [
-            24.11,
-            98.09
-          ],
-          "p_success": 0.58,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
-          "human_time_grade": "C",
-          "meta_confidence_grade": "E",
-          "relationship": "direct"
-        },
-        {
-          "solution_id": "semgrep-autofix",
-          "solution_name": "Semgrep Autofix",
-          "meta_score": 81.84,
-          "range": [
-            31.21,
-            97.73
-          ],
-          "p_success": 0.601,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "D",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "coderabbit",
           "solution_name": "CodeRabbit",
-          "meta_score": 81.43,
+          "meta_score": 82.25,
           "range": [
-            30.38,
-            97.68
+            32.06,
+            97.78
           ],
-          "p_success": 0.585,
+          "p_success": 0.618,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "D",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "direct"
-        },
-        {
-          "solution_id": "qodo",
-          "solution_name": "Qodo",
-          "meta_score": 81.36,
-          "range": [
-            30.24,
-            97.68
-          ],
-          "p_success": 0.582,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "D",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "D",
-          "relationship": "direct"
-        },
-        {
-          "solution_id": "snyk-deepcode-ai",
-          "solution_name": "Snyk DeepCode AI",
-          "meta_score": 81.29,
-          "range": [
-            30.72,
-            97.56
-          ],
-          "p_success": 0.603,
-          "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.622,
           "success_grade": "D",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -10552,14 +10439,160 @@
         {
           "solution_id": "augment-code",
           "solution_name": "Augment Code",
-          "meta_score": 81.28,
+          "meta_score": 82.25,
           "range": [
-            30.11,
-            97.66
+            32.09,
+            97.77
           ],
-          "p_success": 0.581,
+          "p_success": 0.62,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "cline",
+          "solution_name": "Cline",
+          "meta_score": 82.22,
+          "range": [
+            28.44,
+            97.94
+          ],
+          "p_success": 0.622,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        }
+      ],
+      "top_with_direct_or_success_evidence": [
+        {
+          "solution_id": "iriusrisk-jeff",
+          "solution_name": "IriusRisk Jeff AI",
+          "meta_score": 86.35,
+          "range": [
+            32.67,
+            98.52
+          ],
+          "p_success": 0.707,
+          "relationship_prior": 0.68,
+          "family_prior": 0.707,
+          "success_grade": "E",
+          "human_time_grade": "C",
+          "meta_confidence_grade": "E",
+          "relationship": "native"
+        },
+        {
+          "solution_id": "itemis-secure-ai",
+          "solution_name": "itemis SECURE AI-Powered TARA + MCP",
+          "meta_score": 85.57,
+          "range": [
+            29.24,
+            98.58
+          ],
+          "p_success": 0.707,
+          "relationship_prior": 0.68,
+          "family_prior": 0.707,
+          "success_grade": "E",
+          "human_time_grade": "C",
+          "meta_confidence_grade": "E",
+          "relationship": "native"
+        },
+        {
+          "solution_id": "checkmarx-assist",
+          "solution_name": "Checkmarx Assist Agents",
+          "meta_score": 83.19,
+          "range": [
+            26.37,
+            98.18
+          ],
+          "p_success": 0.622,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "E",
+          "human_time_grade": "C",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "openhands",
+          "solution_name": "OpenHands",
+          "meta_score": 83.12,
+          "range": [
+            38.85,
+            97.52
+          ],
+          "p_success": 0.682,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "B",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "semgrep-autofix",
+          "solution_name": "Semgrep Autofix",
+          "meta_score": 82.72,
+          "range": [
+            33.08,
+            97.83
+          ],
+          "p_success": 0.638,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "coderabbit",
+          "solution_name": "CodeRabbit",
+          "meta_score": 82.25,
+          "range": [
+            32.06,
+            97.78
+          ],
+          "p_success": 0.618,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "augment-code",
+          "solution_name": "Augment Code",
+          "meta_score": 82.25,
+          "range": [
+            32.09,
+            97.77
+          ],
+          "p_success": 0.62,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "qodo",
+          "solution_name": "Qodo",
+          "meta_score": 82.19,
+          "range": [
+            31.95,
+            97.77
+          ],
+          "p_success": 0.615,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
           "success_grade": "D",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -10568,14 +10601,30 @@
         {
           "solution_id": "bito-code-review",
           "solution_name": "Bito AI Code Review Agent",
-          "meta_score": 81.24,
+          "meta_score": 82.19,
           "range": [
-            30.3,
-            97.61
+            32.25,
+            97.72
           ],
-          "p_success": 0.589,
+          "p_success": 0.627,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.622,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "snyk-deepcode-ai",
+          "solution_name": "Snyk DeepCode AI",
+          "meta_score": 82.19,
+          "range": [
+            32.56,
+            97.67
+          ],
+          "p_success": 0.641,
+          "relationship_prior": 0.58,
+          "family_prior": 0.622,
           "success_grade": "D",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -11691,167 +11740,167 @@
       "direct_product_evidence_count": 4,
       "family_prior_supported_count": 50,
       "meta_confidence_counts": {
-        "E": 50
+        "D": 50
       },
       "top_by_point_estimate": [
         {
           "solution_id": "itemis-analyze-ai",
           "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
-          "meta_score": 83.36,
+          "meta_score": 83.87,
           "range": [
-            20.34,
-            98.58
+            23.8,
+            98.52
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "qra-qvscribe",
           "solution_name": "QRA QVscribe + ReqWriter / QRAcloud",
-          "meta_score": 82.65,
+          "meta_score": 83.18,
           "range": [
-            20.39,
-            98.37
+            23.85,
+            98.29
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "modernrequirements-copilot",
           "solution_name": "Modern Requirements Copilot4DevOps / Agents4DevOps",
-          "meta_score": 82.58,
+          "meta_score": 83.11,
           "range": [
-            22,
-            98.32
+            25.65,
+            98.24
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "codebeamer-ai",
           "solution_name": "Codebeamer AI",
-          "meta_score": 79.24,
+          "meta_score": 79.85,
           "range": [
-            15.45,
-            98.09
+            18.27,
+            98
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "ibm-engineering-ai-hub",
           "solution_name": "IBM Engineering AI Hub",
-          "meta_score": 79.24,
+          "meta_score": 79.85,
           "range": [
-            15.45,
-            98.09
+            18.27,
+            98
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "jama-connect-advisor",
           "solution_name": "Jama Connect Advisor",
-          "meta_score": 79.24,
+          "meta_score": 79.85,
           "range": [
-            15.45,
-            98.09
+            18.27,
+            98
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "klugspice",
           "solution_name": "KlugSpice",
-          "meta_score": 79.24,
+          "meta_score": 79.85,
           "range": [
-            15.45,
-            98.09
+            18.27,
+            98
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "polarion-copilot",
           "solution_name": "Polarion Copilot / Industrial AI",
-          "meta_score": 79.24,
+          "meta_score": 79.85,
           "range": [
-            15.45,
-            98.09
+            18.27,
+            98
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "visure-vivia",
           "solution_name": "Visure Vivia",
-          "meta_score": 79.24,
+          "meta_score": 79.85,
           "range": [
-            15.45,
-            98.09
+            18.27,
+            98
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 77.86,
+          "meta_score": 78.97,
           "range": [
-            16.5,
-            97.79
+            20.69,
+            97.71
           ],
-          "p_success": 0.593,
+          "p_success": 0.633,
           "relationship_prior": 0.58,
-          "family_prior": 0.593,
-          "success_grade": "E",
+          "family_prior": 0.633,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ],
@@ -11859,65 +11908,65 @@
         {
           "solution_id": "itemis-analyze-ai",
           "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
-          "meta_score": 83.36,
+          "meta_score": 83.87,
           "range": [
-            20.34,
-            98.58
+            23.8,
+            98.52
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "C",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "qra-qvscribe",
           "solution_name": "QRA QVscribe + ReqWriter / QRAcloud",
-          "meta_score": 82.65,
+          "meta_score": 83.18,
           "range": [
-            20.39,
-            98.37
+            23.85,
+            98.29
           ],
-          "p_success": 0.68,
+          "p_success": 0.706,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.706,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "itemis-secure-ai",
           "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 76.2,
+          "meta_score": 77.37,
           "range": [
-            13.51,
-            97.81
+            17.11,
+            97.73
           ],
-          "p_success": 0.593,
+          "p_success": 0.633,
           "relationship_prior": 0.58,
-          "family_prior": 0.593,
-          "success_grade": "E",
+          "family_prior": 0.633,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "parasoft-cpptest-ai",
           "solution_name": "Parasoft C/C++test 2026.1 + MCP AI workflows",
-          "meta_score": 72.81,
+          "meta_score": 74.09,
           "range": [
-            11.65,
-            97.33
+            14.83,
+            97.23
           ],
-          "p_success": 0.593,
+          "p_success": 0.633,
           "relationship_prior": 0.58,
-          "family_prior": 0.593,
-          "success_grade": "E",
+          "family_prior": 0.633,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ]
@@ -14997,169 +15046,169 @@
       "candidate_count": 49,
       "success_empirical_count": 0,
       "direct_product_evidence_count": 1,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 49,
       "meta_confidence_counts": {
-        "E": 49
+        "D": 49
       },
       "top_by_point_estimate": [
         {
           "solution_id": "mistral-document-ai",
           "solution_name": "Mistral Document AI",
-          "meta_score": 86.49,
+          "meta_score": 85.41,
           "range": [
-            31.94,
-            98.41
+            32.53,
+            98.16
           ],
-          "p_success": 0.68,
+          "p_success": 0.622,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.622,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "aws-textract",
           "solution_name": "Amazon Textract",
-          "meta_score": 82.27,
+          "meta_score": 81.45,
           "range": [
-            23.44,
-            97.91
+            25.5,
+            97.63
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "azure-document-intelligence",
           "solution_name": "Azure AI Document Intelligence",
-          "meta_score": 82.27,
+          "meta_score": 81.45,
           "range": [
-            23.44,
-            97.91
+            25.5,
+            97.63
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "google-document-ai",
           "solution_name": "Google Document AI",
-          "meta_score": 82.27,
+          "meta_score": 81.45,
           "range": [
-            23.44,
-            97.91
+            25.5,
+            97.63
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "gitbook-ai",
           "solution_name": "GitBook Agent + Assistant + MCP",
-          "meta_score": 82.24,
+          "meta_score": 81.42,
           "range": [
-            23.41,
-            97.9
+            25.48,
+            97.62
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "open-webui",
           "solution_name": "Open WebUI",
-          "meta_score": 82.22,
+          "meta_score": 81.4,
           "range": [
-            23.38,
-            97.9
+            25.44,
+            97.62
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 82.04,
+          "meta_score": 81.22,
           "range": [
-            23.27,
-            97.85
+            25.33,
+            97.56
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "mintlify-ai",
           "solution_name": "Mintlify Assistant + Agent",
-          "meta_score": 82.04,
+          "meta_score": 81.22,
           "range": [
-            23.27,
-            97.85
+            25.33,
+            97.56
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 81.76,
+          "meta_score": 80.93,
           "range": [
-            23.08,
-            97.77
+            25.12,
+            97.47
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 81.71,
+          "meta_score": 80.87,
           "range": [
-            23.04,
-            97.76
+            25.08,
+            97.45
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ],
@@ -15167,17 +15216,17 @@
         {
           "solution_id": "adobe-acrobat-ai",
           "solution_name": "Adobe Acrobat AI Assistant / Acrobat Studio",
-          "meta_score": 81.38,
+          "meta_score": 80.54,
           "range": [
-            22.05,
-            97.77
+            24.03,
+            97.47
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ]
@@ -15188,23 +15237,22 @@
       "candidate_count": 44,
       "success_empirical_count": 3,
       "direct_product_evidence_count": 4,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 44,
       "meta_confidence_counts": {
-        "D": 3,
-        "E": 41
+        "D": 44
       },
       "top_by_point_estimate": [
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 82.97,
+          "meta_score": 82.5,
           "range": [
-            40.63,
-            97.64
+            39.65,
+            97.57
           ],
-          "p_success": 0.63,
+          "p_success": 0.61,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.549,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -15213,14 +15261,14 @@
         {
           "solution_id": "perplexity-enterprise",
           "solution_name": "Perplexity Enterprise Pro",
-          "meta_score": 82.86,
+          "meta_score": 82.42,
           "range": [
-            40.82,
-            97.54
+            39.91,
+            97.48
           ],
-          "p_success": 0.646,
+          "p_success": 0.627,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.549,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -15229,14 +15277,14 @@
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 82.67,
+          "meta_score": 82.19,
           "range": [
-            40.12,
-            97.57
+            39.13,
+            97.51
           ],
-          "p_success": 0.623,
+          "p_success": 0.602,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.549,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -15245,113 +15293,113 @@
         {
           "solution_id": "gitbook-ai",
           "solution_name": "GitBook Agent + Assistant + MCP",
-          "meta_score": 82.24,
+          "meta_score": 81.42,
           "range": [
-            31.15,
-            97.98
+            33.59,
+            97.71
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "open-webui",
           "solution_name": "Open WebUI",
-          "meta_score": 82.06,
+          "meta_score": 81.23,
           "range": [
-            30.86,
-            97.96
+            33.29,
+            97.69
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 82.04,
+          "meta_score": 81.22,
           "range": [
-            30.95,
-            97.93
+            33.39,
+            97.65
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "mintlify-ai",
           "solution_name": "Mintlify Assistant + Agent",
-          "meta_score": 82.04,
+          "meta_score": 81.22,
           "range": [
-            30.95,
-            97.93
+            33.39,
+            97.65
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 81.71,
+          "meta_score": 80.87,
           "range": [
-            30.62,
-            97.84
+            33.04,
+            97.55
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 81.64,
+          "meta_score": 80.8,
           "range": [
-            30.55,
-            97.82
+            32.97,
+            97.53
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "dust",
           "solution_name": "Dust",
-          "meta_score": 81.58,
+          "meta_score": 80.74,
           "range": [
-            30.49,
-            97.81
+            32.91,
+            97.51
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ],
@@ -15359,14 +15407,14 @@
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 82.97,
+          "meta_score": 82.5,
           "range": [
-            40.63,
-            97.64
+            39.65,
+            97.57
           ],
-          "p_success": 0.63,
+          "p_success": 0.61,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.549,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -15375,14 +15423,14 @@
         {
           "solution_id": "perplexity-enterprise",
           "solution_name": "Perplexity Enterprise Pro",
-          "meta_score": 82.86,
+          "meta_score": 82.42,
           "range": [
-            40.82,
-            97.54
+            39.91,
+            97.48
           ],
-          "p_success": 0.646,
+          "p_success": 0.627,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.549,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -15391,14 +15439,14 @@
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 82.67,
+          "meta_score": 82.19,
           "range": [
-            40.12,
-            97.57
+            39.13,
+            97.51
           ],
-          "p_success": 0.623,
+          "p_success": 0.602,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.549,
           "success_grade": "C",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
@@ -15407,17 +15455,17 @@
         {
           "solution_id": "adobe-acrobat-ai",
           "solution_name": "Adobe Acrobat AI Assistant / Acrobat Studio",
-          "meta_score": 81.38,
+          "meta_score": 80.54,
           "range": [
-            29.22,
-            97.86
+            31.58,
+            97.57
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ]
@@ -17421,187 +17469,219 @@
       "candidate_count": 45,
       "success_empirical_count": 0,
       "direct_product_evidence_count": 3,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 45,
       "meta_confidence_counts": {
-        "E": 45
+        "D": 45
       },
       "top_by_point_estimate": [
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 77.47,
+          "meta_score": 76.5,
           "range": [
-            25.46,
-            97.28
+            27.64,
+            96.92
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "open-webui",
           "solution_name": "Open WebUI",
-          "meta_score": 77.3,
+          "meta_score": 76.32,
           "range": [
-            25.18,
-            97.28
+            27.35,
+            96.92
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 77.23,
+          "meta_score": 76.25,
           "range": [
-            25.27,
-            97.21
+            27.44,
+            96.83
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 77.18,
+          "meta_score": 76.19,
           "range": [
-            25.23,
-            97.19
+            27.4,
+            96.82
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 77.11,
+          "meta_score": 76.13,
           "range": [
-            25.19,
-            97.18
+            27.35,
+            96.8
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 77.11,
+          "meta_score": 76.13,
           "range": [
-            25.19,
-            97.18
+            27.35,
+            96.8
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "dust",
           "solution_name": "Dust",
-          "meta_score": 77.06,
+          "meta_score": 76.07,
           "range": [
-            25.15,
-            97.16
+            27.31,
+            96.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "microsoft-researcher",
           "solution_name": "Microsoft 365 Copilot Researcher",
-          "meta_score": 77.01,
+          "meta_score": 76.02,
           "range": [
-            25.11,
-            97.14
+            27.27,
+            96.76
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "gemini-enterprise",
           "solution_name": "Gemini Enterprise / Deep Research",
-          "meta_score": 77.01,
+          "meta_score": 76.02,
           "range": [
-            25.11,
-            97.14
+            27.27,
+            96.76
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "notebooklm",
           "solution_name": "NotebookLM",
-          "meta_score": 77.01,
+          "meta_score": 76.02,
           "range": [
-            25.11,
-            97.14
+            27.27,
+            96.76
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ],
       "top_with_direct_or_success_evidence": [
         {
+          "solution_id": "chatgpt-enterprise",
+          "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
+          "meta_score": 76.25,
+          "range": [
+            27.44,
+            96.83
+          ],
+          "p_success": 0.549,
+          "relationship_prior": 0.58,
+          "family_prior": 0.549,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "gemini-enterprise",
+          "solution_name": "Gemini Enterprise / Deep Research",
+          "meta_score": 76.02,
+          "range": [
+            27.27,
+            96.76
+          ],
+          "p_success": 0.549,
+          "relationship_prior": 0.58,
+          "family_prior": 0.549,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
           "solution_id": "glean",
           "solution_name": "Glean",
-          "meta_score": 71.08,
+          "meta_score": 70.49,
           "range": [
-            14.45,
-            96.7
+            16.92,
+            96.31
           ],
-          "p_success": 0.52,
+          "p_success": 0.505,
           "relationship_prior": 0.52,
-          "family_prior": 0.52,
-          "success_grade": "E",
+          "family_prior": 0.505,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "connected"
         }
       ]
@@ -17826,6 +17906,22 @@
           "success_grade": "D",
           "human_time_grade": "D",
           "meta_confidence_grade": "D",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "gemini-enterprise",
+          "solution_name": "Gemini Enterprise / Deep Research",
+          "meta_score": 83.97,
+          "range": [
+            34.73,
+            98.12
+          ],
+          "p_success": 0.58,
+          "relationship_prior": 0.58,
+          "family_prior": 0.58,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
           "relationship": "direct"
         }
       ]
@@ -18652,169 +18748,169 @@
       "candidate_count": 55,
       "success_empirical_count": 0,
       "direct_product_evidence_count": 5,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 55,
       "meta_confidence_counts": {
-        "E": 55
+        "D": 55
       },
       "top_by_point_estimate": [
         {
           "solution_id": "mistral-document-ai",
           "solution_name": "Mistral Document AI",
-          "meta_score": 87.8,
+          "meta_score": 86.81,
           "range": [
-            44.19,
-            98.64
+            44.86,
+            98.42
           ],
-          "p_success": 0.68,
+          "p_success": 0.622,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.622,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "aws-textract",
           "solution_name": "Amazon Textract",
-          "meta_score": 83.92,
+          "meta_score": 83.17,
           "range": [
-            34.06,
-            98.21
+            36.61,
+            97.97
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "azure-document-intelligence",
           "solution_name": "Azure AI Document Intelligence",
-          "meta_score": 83.92,
+          "meta_score": 83.17,
           "range": [
-            34.06,
-            98.21
+            36.61,
+            97.97
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "google-document-ai",
           "solution_name": "Google Document AI",
-          "meta_score": 83.92,
+          "meta_score": 83.17,
           "range": [
-            34.06,
-            98.21
+            36.61,
+            97.97
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "workato-ai",
           "solution_name": "Workato AIRO + Workato GO",
-          "meta_score": 83.87,
+          "meta_score": 83.11,
           "range": [
-            34,
-            98.2
+            36.55,
+            97.95
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "open-webui",
           "solution_name": "Open WebUI",
-          "meta_score": 83.77,
+          "meta_score": 83.01,
           "range": [
-            33.8,
-            98.19
+            36.35,
+            97.95
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 83.68,
+          "meta_score": 82.92,
           "range": [
-            33.78,
-            98.15
+            36.33,
+            97.9
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 83.39,
+          "meta_score": 82.62,
           "range": [
-            33.45,
-            98.08
+            35.99,
+            97.82
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 83.34,
+          "meta_score": 82.56,
           "range": [
-            33.39,
-            98.06
+            35.92,
+            97.8
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "redocly-ai-assistant",
           "solution_name": "Redocly Realm AI Assistant",
-          "meta_score": 83.29,
+          "meta_score": 82.51,
           "range": [
-            33.34,
-            98.05
+            35.86,
+            97.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ],
@@ -18822,81 +18918,81 @@
         {
           "solution_id": "redocly-ai-assistant",
           "solution_name": "Redocly Realm AI Assistant",
-          "meta_score": 83.29,
+          "meta_score": 82.51,
           "range": [
-            33.34,
-            98.05
+            35.86,
+            97.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "adobe-acrobat-ai",
           "solution_name": "Adobe Acrobat AI Assistant / Acrobat Studio",
-          "meta_score": 83,
+          "meta_score": 82.21,
           "range": [
-            31.73,
-            98.08
+            34.2,
+            97.82
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "fern-ai",
           "solution_name": "Fern Agent + Ask Fern + MCP",
-          "meta_score": 82.87,
+          "meta_score": 82.08,
           "range": [
-            27.37,
-            98.14
+            29.65,
+            97.89
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "readme-ask-ai",
           "solution_name": "ReadMe Ask AI v2",
-          "meta_score": 82.61,
+          "meta_score": 81.81,
           "range": [
-            28.78,
-            98.04
+            31.13,
+            97.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "glean",
           "solution_name": "Glean",
-          "meta_score": 77.24,
+          "meta_score": 76.74,
           "range": [
-            17.62,
-            97.68
+            20.49,
+            97.4
           ],
-          "p_success": 0.52,
+          "p_success": 0.505,
           "relationship_prior": 0.52,
-          "family_prior": 0.52,
-          "success_grade": "E",
+          "family_prior": 0.505,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "connected"
         }
       ]
@@ -18907,169 +19003,169 @@
       "candidate_count": 54,
       "success_empirical_count": 0,
       "direct_product_evidence_count": 5,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 54,
       "meta_confidence_counts": {
-        "E": 54
+        "D": 54
       },
       "top_by_point_estimate": [
         {
           "solution_id": "workato-ai",
           "solution_name": "Workato AIRO + Workato GO",
-          "meta_score": 87.76,
+          "meta_score": 86.76,
           "range": [
-            44.11,
-            98.63
+            44.78,
+            98.41
           ],
-          "p_success": 0.68,
+          "p_success": 0.622,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
+          "family_prior": 0.622,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "native"
         },
         {
           "solution_id": "mistral-document-ai",
           "solution_name": "Mistral Document AI",
-          "meta_score": 83.92,
+          "meta_score": 83.17,
           "range": [
-            34.06,
-            98.21
+            36.61,
+            97.97
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
-        },
-        {
-          "solution_id": "guru-ai-search",
-          "solution_name": "Guru Enterprise AI Search",
-          "meta_score": 83.85,
-          "range": [
-            27.48,
-            98.38
-          ],
-          "p_success": 0.68,
-          "relationship_prior": 0.68,
-          "family_prior": 0.68,
-          "success_grade": "E",
-          "human_time_grade": "D",
-          "meta_confidence_grade": "E",
-          "relationship": "native"
         },
         {
           "solution_id": "open-webui",
           "solution_name": "Open WebUI",
-          "meta_score": 83.77,
+          "meta_score": 83.01,
           "range": [
-            33.8,
-            98.19
+            36.35,
+            97.95
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 83.68,
+          "meta_score": 82.92,
           "range": [
-            33.78,
-            98.15
+            36.33,
+            97.9
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 83.39,
+          "meta_score": 82.62,
           "range": [
-            33.45,
-            98.08
+            35.99,
+            97.82
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
+        },
+        {
+          "solution_id": "guru-ai-search",
+          "solution_name": "Guru Enterprise AI Search",
+          "meta_score": 82.6,
+          "range": [
+            28.02,
+            98.13
+          ],
+          "p_success": 0.622,
+          "relationship_prior": 0.68,
+          "family_prior": 0.622,
+          "success_grade": "D",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "D",
+          "relationship": "native"
         },
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 83.34,
+          "meta_score": 82.56,
           "range": [
-            33.39,
-            98.06
+            35.92,
+            97.8
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "redocly-ai-assistant",
           "solution_name": "Redocly Realm AI Assistant",
-          "meta_score": 83.29,
+          "meta_score": 82.51,
           "range": [
-            33.34,
-            98.05
+            35.86,
+            97.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 83.26,
+          "meta_score": 82.48,
           "range": [
-            33.31,
-            98.04
+            35.83,
+            97.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 83.26,
+          "meta_score": 82.48,
           "range": [
-            33.31,
-            98.04
+            35.83,
+            97.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         }
       ],
@@ -19077,81 +19173,81 @@
         {
           "solution_id": "redocly-ai-assistant",
           "solution_name": "Redocly Realm AI Assistant",
-          "meta_score": 83.29,
+          "meta_score": 82.51,
           "range": [
-            33.34,
-            98.05
+            35.86,
+            97.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "adobe-acrobat-ai",
           "solution_name": "Adobe Acrobat AI Assistant / Acrobat Studio",
-          "meta_score": 83,
+          "meta_score": 82.21,
           "range": [
-            31.73,
-            98.08
+            34.2,
+            97.82
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "fern-ai",
           "solution_name": "Fern Agent + Ask Fern + MCP",
-          "meta_score": 82.87,
+          "meta_score": 82.08,
           "range": [
-            27.37,
-            98.14
+            29.65,
+            97.89
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "readme-ask-ai",
           "solution_name": "ReadMe Ask AI v2",
-          "meta_score": 82.61,
+          "meta_score": 81.81,
           "range": [
-            28.78,
-            98.04
+            31.13,
+            97.78
           ],
-          "p_success": 0.58,
+          "p_success": 0.549,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
-          "success_grade": "E",
+          "family_prior": 0.549,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "direct"
         },
         {
           "solution_id": "glean",
           "solution_name": "Glean",
-          "meta_score": 77.24,
+          "meta_score": 76.74,
           "range": [
-            17.62,
-            97.68
+            20.49,
+            97.4
           ],
-          "p_success": 0.52,
+          "p_success": 0.505,
           "relationship_prior": 0.52,
-          "family_prior": 0.52,
-          "success_grade": "E",
+          "family_prior": 0.505,
+          "success_grade": "D",
           "human_time_grade": "D",
-          "meta_confidence_grade": "E",
+          "meta_confidence_grade": "D",
           "relationship": "connected"
         }
       ]
@@ -19379,6 +19475,22 @@
           "relationship": "direct"
         },
         {
+          "solution_id": "gemini-enterprise",
+          "solution_name": "Gemini Enterprise / Deep Research",
+          "meta_score": 80.57,
+          "range": [
+            29.39,
+            97.57
+          ],
+          "p_success": 0.58,
+          "relationship_prior": 0.58,
+          "family_prior": 0.58,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        },
+        {
           "solution_id": "scispace",
           "solution_name": "SciSpace Literature Review / Deep Review",
           "meta_score": 80.32,
@@ -19600,7 +19712,40 @@
           "relationship": "direct"
         }
       ],
-      "top_with_direct_or_success_evidence": []
+      "top_with_direct_or_success_evidence": [
+        {
+          "solution_id": "chatgpt-enterprise",
+          "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
+          "meta_score": 81.76,
+          "range": [
+            30.67,
+            97.86
+          ],
+          "p_success": 0.58,
+          "relationship_prior": 0.58,
+          "family_prior": 0.58,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "gemini-enterprise",
+          "solution_name": "Gemini Enterprise / Deep Research",
+          "meta_score": 81.52,
+          "range": [
+            30.43,
+            97.79
+          ],
+          "p_success": 0.58,
+          "relationship_prior": 0.58,
+          "family_prior": 0.58,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        }
+      ]
     },
     "learn-coach": {
       "task_label": "Se faire coacher / interroger pour consolider une compétence",
@@ -19774,7 +19919,40 @@
           "relationship": "direct"
         }
       ],
-      "top_with_direct_or_success_evidence": []
+      "top_with_direct_or_success_evidence": [
+        {
+          "solution_id": "chatgpt-enterprise",
+          "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
+          "meta_score": 77.23,
+          "range": [
+            25.03,
+            97.21
+          ],
+          "p_success": 0.58,
+          "relationship_prior": 0.58,
+          "family_prior": 0.58,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        },
+        {
+          "solution_id": "gemini-enterprise",
+          "solution_name": "Gemini Enterprise / Deep Research",
+          "meta_score": 77.01,
+          "range": [
+            24.86,
+            97.14
+          ],
+          "p_success": 0.58,
+          "relationship_prior": 0.58,
+          "family_prior": 0.58,
+          "success_grade": "E",
+          "human_time_grade": "D",
+          "meta_confidence_grade": "E",
+          "relationship": "direct"
+        }
+      ]
     },
     "watch-tech": {
       "task_label": "Faire de la veille technique ciblée",
@@ -20502,7 +20680,7 @@
       "candidate_count": 48,
       "success_empirical_count": 0,
       "direct_product_evidence_count": 1,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 48,
       "meta_confidence_counts": {
         "E": 46,
         "D": 2
@@ -20511,14 +20689,14 @@
         {
           "solution_id": "mermaid-chart-ai",
           "solution_name": "Mermaid Chart AI",
-          "meta_score": 83.64,
+          "meta_score": 81.13,
           "range": [
-            26.28,
-            97.71
+            21.05,
+            97.42
           ],
-          "p_success": 0.68,
+          "p_success": 0.572,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.572,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20527,14 +20705,14 @@
         {
           "solution_id": "lucid-ai",
           "solution_name": "Lucidchart + Lucid AI",
-          "meta_score": 83.53,
+          "meta_score": 81,
           "range": [
-            26.28,
-            97.71
+            21.05,
+            97.42
           ],
-          "p_success": 0.68,
+          "p_success": 0.572,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.572,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20543,14 +20721,14 @@
         {
           "solution_id": "miro-ai",
           "solution_name": "Miro AI",
-          "meta_score": 83.53,
+          "meta_score": 81,
           "range": [
-            26.28,
-            97.71
+            21.05,
+            97.42
           ],
-          "p_success": 0.68,
+          "p_success": 0.572,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.572,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20559,14 +20737,14 @@
         {
           "solution_id": "eraser",
           "solution_name": "Eraser",
-          "meta_score": 83.19,
+          "meta_score": 80.63,
           "range": [
-            27.06,
-            97.45
+            21.73,
+            97.12
           ],
-          "p_success": 0.68,
+          "p_success": 0.572,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.572,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20575,14 +20753,14 @@
         {
           "solution_id": "gitbook-ai",
           "solution_name": "GitBook Agent + Assistant + MCP",
-          "meta_score": 79.42,
+          "meta_score": 76.58,
           "range": [
-            20.3,
-            97.09
+            15.71,
+            96.75
           ],
-          "p_success": 0.58,
+          "p_success": 0.491,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.491,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20591,14 +20769,14 @@
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 79.24,
+          "meta_score": 76.38,
           "range": [
-            20.18,
-            97.03
+            15.6,
+            96.68
           ],
-          "p_success": 0.58,
+          "p_success": 0.491,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.491,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20607,14 +20785,14 @@
         {
           "solution_id": "mintlify-ai",
           "solution_name": "Mintlify Assistant + Agent",
-          "meta_score": 79.24,
+          "meta_score": 76.38,
           "range": [
-            20.18,
-            97.03
+            15.6,
+            96.68
           ],
-          "p_success": 0.58,
+          "p_success": 0.491,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.491,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20623,14 +20801,14 @@
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 78.98,
+          "meta_score": 76.09,
           "range": [
-            20,
-            96.93
+            15.46,
+            96.58
           ],
-          "p_success": 0.58,
+          "p_success": 0.491,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.491,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20639,14 +20817,14 @@
         {
           "solution_id": "kiro",
           "solution_name": "Kiro",
-          "meta_score": 78.98,
+          "meta_score": 76.09,
           "range": [
-            20,
-            96.93
+            15.46,
+            96.58
           ],
-          "p_success": 0.58,
+          "p_success": 0.491,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.491,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20655,14 +20833,14 @@
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 78.93,
+          "meta_score": 76.04,
           "range": [
-            19.96,
-            96.92
+            15.43,
+            96.56
           ],
-          "p_success": 0.58,
+          "p_success": 0.491,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.491,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -20673,14 +20851,14 @@
         {
           "solution_id": "sparx-kernaro-assist",
           "solution_name": "Kernaro Assist for Sparx Enterprise Architect",
-          "meta_score": 78.86,
+          "meta_score": 75.82,
           "range": [
-            16.38,
-            97.16
+            12.78,
+            96.8
           ],
-          "p_success": 0.68,
+          "p_success": 0.572,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.572,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21526,7 +21704,7 @@
       "candidate_count": 50,
       "success_empirical_count": 0,
       "direct_product_evidence_count": 2,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 50,
       "meta_confidence_counts": {
         "E": 50
       },
@@ -21534,14 +21712,14 @@
         {
           "solution_id": "iriusrisk-jeff",
           "solution_name": "IriusRisk Jeff AI",
-          "meta_score": 85.18,
+          "meta_score": 85.6,
           "range": [
-            30.34,
-            98.4
+            31.47,
+            98.43
           ],
-          "p_success": 0.68,
+          "p_success": 0.703,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.703,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -21550,14 +21728,14 @@
         {
           "solution_id": "itemis-secure-ai",
           "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 84.27,
+          "meta_score": 84.71,
           "range": [
-            27.03,
-            98.44
+            28.09,
+            98.47
           ],
-          "p_success": 0.68,
+          "p_success": 0.703,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.703,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -21566,14 +21744,14 @@
         {
           "solution_id": "threatmodeler-nexus",
           "solution_name": "ThreatModeler Nexus",
-          "meta_score": 83.37,
+          "meta_score": 83.84,
           "range": [
-            27.98,
-            98.15
+            29.05,
+            98.19
           ],
-          "p_success": 0.68,
+          "p_success": 0.703,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.703,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21582,14 +21760,14 @@
         {
           "solution_id": "microsoft-security-copilot",
           "solution_name": "Microsoft Security Copilot",
-          "meta_score": 80.68,
+          "meta_score": 81.7,
           "range": [
-            25.51,
-            97.77
+            27.75,
+            97.88
           ],
-          "p_success": 0.58,
+          "p_success": 0.62,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.62,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21598,14 +21776,14 @@
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 80.46,
+          "meta_score": 81.49,
           "range": [
-            25.32,
-            97.71
+            27.55,
+            97.82
           ],
-          "p_success": 0.58,
+          "p_success": 0.62,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.62,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21614,14 +21792,14 @@
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 80.19,
+          "meta_score": 81.23,
           "range": [
-            25.1,
-            97.64
+            27.31,
+            97.75
           ],
-          "p_success": 0.58,
+          "p_success": 0.62,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.62,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21630,14 +21808,14 @@
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 80.14,
+          "meta_score": 81.18,
           "range": [
-            25.05,
-            97.63
+            27.26,
+            97.73
           ],
-          "p_success": 0.58,
+          "p_success": 0.62,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.62,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21646,14 +21824,14 @@
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 80.07,
+          "meta_score": 81.11,
           "range": [
-            25,
-            97.61
+            27.2,
+            97.71
           ],
-          "p_success": 0.58,
+          "p_success": 0.62,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.62,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21662,14 +21840,14 @@
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 80.07,
+          "meta_score": 81.11,
           "range": [
-            25,
-            97.61
+            27.2,
+            97.71
           ],
-          "p_success": 0.58,
+          "p_success": 0.62,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.62,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21678,14 +21856,14 @@
         {
           "solution_id": "mend-sast-ai",
           "solution_name": "Mend SAST AI Triage & Remediation",
-          "meta_score": 80.07,
+          "meta_score": 81.11,
           "range": [
-            25,
-            97.61
+            27.2,
+            97.71
           ],
-          "p_success": 0.58,
+          "p_success": 0.62,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.62,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21696,14 +21874,14 @@
         {
           "solution_id": "iriusrisk-jeff",
           "solution_name": "IriusRisk Jeff AI",
-          "meta_score": 85.18,
+          "meta_score": 85.6,
           "range": [
-            30.34,
-            98.4
+            31.47,
+            98.43
           ],
-          "p_success": 0.68,
+          "p_success": 0.703,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.703,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -21712,14 +21890,14 @@
         {
           "solution_id": "itemis-secure-ai",
           "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 84.27,
+          "meta_score": 84.71,
           "range": [
-            27.03,
-            98.44
+            28.09,
+            98.47
           ],
-          "p_success": 0.68,
+          "p_success": 0.703,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.703,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -21733,7 +21911,7 @@
       "candidate_count": 47,
       "success_empirical_count": 0,
       "direct_product_evidence_count": 2,
-      "family_prior_supported_count": 0,
+      "family_prior_supported_count": 47,
       "meta_confidence_counts": {
         "E": 47
       },
@@ -21741,14 +21919,14 @@
         {
           "solution_id": "iriusrisk-jeff",
           "solution_name": "IriusRisk Jeff AI",
-          "meta_score": 86.53,
+          "meta_score": 86.82,
           "range": [
-            25.3,
-            98.86
+            26.05,
+            98.88
           ],
-          "p_success": 0.68,
+          "p_success": 0.697,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.697,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -21757,14 +21935,14 @@
         {
           "solution_id": "itemis-secure-ai",
           "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 85.63,
+          "meta_score": 85.94,
           "range": [
-            22.75,
-            98.88
+            23.44,
+            98.9
           ],
-          "p_success": 0.68,
+          "p_success": 0.697,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.697,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -21773,14 +21951,14 @@
         {
           "solution_id": "threatmodeler-nexus",
           "solution_name": "ThreatModeler Nexus",
-          "meta_score": 84.6,
+          "meta_score": 84.92,
           "range": [
-            22.81,
-            98.66
+            23.51,
+            98.68
           ],
-          "p_success": 0.68,
+          "p_success": 0.697,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.697,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21789,14 +21967,14 @@
         {
           "solution_id": "mistral-document-ai",
           "solution_name": "Mistral Document AI",
-          "meta_score": 82.27,
+          "meta_score": 82.98,
           "range": [
-            20.32,
-            98.43
+            21.74,
+            98.48
           ],
-          "p_success": 0.58,
+          "p_success": 0.609,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.609,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21805,14 +21983,14 @@
         {
           "solution_id": "gemini-notebook-enterprise",
           "solution_name": "Gemini Notebook Enterprise",
-          "meta_score": 82.04,
+          "meta_score": 82.76,
           "range": [
-            20.18,
-            98.37
+            21.59,
+            98.42
           ],
-          "p_success": 0.58,
+          "p_success": 0.609,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.609,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21821,14 +21999,14 @@
         {
           "solution_id": "chatgpt-enterprise",
           "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
-          "meta_score": 81.76,
+          "meta_score": 82.49,
           "range": [
-            20,
-            98.3
+            21.4,
+            98.35
           ],
-          "p_success": 0.58,
+          "p_success": 0.609,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.609,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21837,14 +22015,14 @@
         {
           "solution_id": "ibm-watsonx",
           "solution_name": "IBM watsonx.ai",
-          "meta_score": 81.71,
+          "meta_score": 82.43,
           "range": [
-            19.96,
-            98.28
+            21.37,
+            98.34
           ],
-          "p_success": 0.58,
+          "p_success": 0.609,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.609,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21853,14 +22031,14 @@
         {
           "solution_id": "mistral-vibe-work",
           "solution_name": "Mistral Vibe Work",
-          "meta_score": 81.64,
+          "meta_score": 82.37,
           "range": [
-            19.92,
-            98.27
+            21.32,
+            98.32
           ],
-          "p_success": 0.58,
+          "p_success": 0.609,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.609,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21869,14 +22047,14 @@
         {
           "solution_id": "claude-enterprise",
           "solution_name": "Claude Enterprise / Cowork",
-          "meta_score": 81.63,
+          "meta_score": 82.37,
           "range": [
-            19.92,
-            98.27
+            21.32,
+            98.32
           ],
-          "p_success": 0.58,
+          "p_success": 0.609,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.609,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21885,14 +22063,14 @@
         {
           "solution_id": "dust",
           "solution_name": "Dust",
-          "meta_score": 81.58,
+          "meta_score": 82.31,
           "range": [
-            19.88,
-            98.25
+            21.28,
+            98.31
           ],
-          "p_success": 0.58,
+          "p_success": 0.609,
           "relationship_prior": 0.58,
-          "family_prior": 0.58,
+          "family_prior": 0.609,
           "success_grade": "E",
           "human_time_grade": "D",
           "meta_confidence_grade": "E",
@@ -21903,14 +22081,14 @@
         {
           "solution_id": "iriusrisk-jeff",
           "solution_name": "IriusRisk Jeff AI",
-          "meta_score": 86.53,
+          "meta_score": 86.82,
           "range": [
-            25.3,
-            98.86
+            26.05,
+            98.88
           ],
-          "p_success": 0.68,
+          "p_success": 0.697,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.697,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -21919,14 +22097,14 @@
         {
           "solution_id": "itemis-secure-ai",
           "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-          "meta_score": 85.63,
+          "meta_score": 85.94,
           "range": [
-            22.75,
-            98.88
+            23.44,
+            98.9
           ],
-          "p_success": 0.68,
+          "p_success": 0.697,
           "relationship_prior": 0.68,
-          "family_prior": 0.68,
+          "family_prior": 0.697,
           "success_grade": "E",
           "human_time_grade": "C",
           "meta_confidence_grade": "E",
@@ -21944,21 +22122,6 @@
     "Prior-driven rows are hypotheses requiring benchmarking, not proven performance.",
     "Quote-only pricing uses sensitivity estimates, never vendor-list-price claims.",
     "Fixed subscription cost is amortized using the declared reference workload.",
-    "Bundle/prerequisite rules must be applied when composing multi-product stacks.",
-    "The domain score files remain the last full numeric calculation (product-task-v1.3). Evidence added later without probability/time transfer is synchronized through data/task-scores/evidence-overlay-2026-09-27.json.",
-    "Do not interpret evidence-overlay capability rows as new P(success) measurements."
-  ],
-  "latest_evidence_snapshot": "2026-09-27",
-  "numeric_scoring_version": "product-task-v1.3",
-  "evidence_overlay": "data/task-scores/evidence-overlay-2026-09-27.json",
-  "direct_product_evidence_pairs": 293,
-  "success_empirical_pairs": 245,
-  "family_prior_supported_pairs": 1503,
-  "meta_confidence_counts": {
-    "C": 16,
-    "D": 762,
-    "E": 3611
-  },
-  "tasks_with_direct_product_evidence": 86,
-  "tasks_with_empirical_success_evidence": 63
+    "Bundle/prerequisite rules must be applied when composing multi-product stacks."
+  ]
 }
