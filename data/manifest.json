@@ -2,12 +2,12 @@
   "schema_version": 1,
   "generated_from": "site/index.html standalone report",
   "generated_at": "2026-09-27",
-  "status": "provisional business taxonomy; task-specific evidence enrichment pending",
+  "status": "evidence meta-analysis in progress; product-task v1.2 scores available",
   "datasets": {
     "tasks.json": 86,
     "task-info.json": 86,
     "task-domains.json": 10,
-    "observations.json": 197,
+    "observations.json": 200,
     "sources.json": 29,
     "scaleway-models.json": 32,
     "harness-matrix.json": 66,
@@ -24,7 +24,7 @@
     "mapping_candidate_count": {
       "min": 35,
       "max": 70,
-      "average": 50.5
+      "average": 51
     },
     "scoring": false,
     "lifecycle_exclusions": "data/solution-exclusions.json"
@@ -47,5 +47,35 @@
     "bundle_rules": 17,
     "scoring": false,
     "principle": "Keep vendor-published prices separate from sensitivity estimates; model fixed, variable, prerequisite and inference costs independently."
+  },
+  "evidence_catalog": {
+    "checked_at": "2026-09-27",
+    "index": "data/evidence/index.json",
+    "methodology": "docs/evidence-meta-analysis-methodology.md",
+    "historical_configuration_observations": 200,
+    "direct_product_observations": 70,
+    "cross_product_family_observations": 10,
+    "practitioner_user_signals": 6,
+    "total_preserved_evidence_records": 286,
+    "tasks_with_direct_product_evidence": 69,
+    "tasks_with_empirical_success_evidence": 59,
+    "tasks_with_family_prior_support": 24
+  },
+  "task_scores": {
+    "checked_at": "2026-09-27",
+    "index": "data/task-scores/index.json",
+    "scoring_version": "product-task-v1.2",
+    "task_count": 86,
+    "solution_count": 157,
+    "scored_pairs": 4389,
+    "direct_product_evidence_pairs": 243,
+    "family_prior_supported_pairs": 1176,
+    "empirical_success_pairs": 235,
+    "meta_confidence_counts": {
+      "C": 11,
+      "D": 703,
+      "E": 3675
+    },
+    "principle": "Success, active-human time and monetary cost retain separate confidence; global MetaScore confidence is the weakest input dimension."
   }
 }
