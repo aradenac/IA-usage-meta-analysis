@@ -101,7 +101,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -215,7 +215,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -313,7 +313,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -413,7 +413,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -531,7 +531,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -643,7 +643,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -688,7 +688,7 @@
       "high": 0.23677979479084452,
       "fixed_point": 0.08769622029290537,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -737,7 +737,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -831,7 +831,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -925,7 +925,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1019,7 +1019,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1113,7 +1113,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1207,7 +1207,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1301,7 +1301,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1395,7 +1395,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1489,7 +1489,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1583,7 +1583,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1677,7 +1677,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1771,7 +1771,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1871,7 +1871,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -1965,7 +1965,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2059,7 +2059,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2159,7 +2159,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2253,7 +2253,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2347,7 +2347,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2441,7 +2441,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2535,7 +2535,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2645,7 +2645,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2743,7 +2743,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2865,7 +2865,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -2963,6 +2963,13 @@
           "family": "coding-productivity-field",
           "type": "field-experiment-update",
           "metric": "suggestive human time multiplier"
+        },
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
         }
       ],
       "success_observations": [],
@@ -2977,7 +2984,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3071,7 +3078,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3165,7 +3172,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3259,7 +3266,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3353,7 +3360,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3447,7 +3454,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3541,7 +3548,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3635,7 +3642,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3680,7 +3687,7 @@
       "high": 0.23239498377619922,
       "fixed_point": 0.11619749188809961,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -3729,7 +3736,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3774,7 +3781,7 @@
       "high": 1.334,
       "fixed_point": 0.667,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -3823,7 +3830,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -3917,7 +3924,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4011,7 +4018,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4105,7 +4112,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4199,7 +4206,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4293,7 +4300,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4387,7 +4394,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4481,7 +4488,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4575,7 +4582,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4669,7 +4676,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4763,7 +4770,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4857,7 +4864,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-adapt",
@@ -4951,7 +4958,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5045,7 +5052,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5090,7 +5097,7 @@
       "high": 0.4143646408839779,
       "fixed_point": 0.1534683855125844,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -5139,7 +5146,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5233,7 +5240,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5327,7 +5334,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5421,7 +5428,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5515,7 +5522,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5609,7 +5616,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5703,7 +5710,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5797,7 +5804,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5891,7 +5898,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -5985,7 +5992,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6079,7 +6086,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6173,7 +6180,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6267,7 +6274,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6361,7 +6368,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6455,7 +6462,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6549,7 +6556,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6643,7 +6650,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6737,7 +6744,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6831,7 +6838,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -6925,7 +6932,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7019,7 +7026,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7100,7 +7107,15 @@
       "human_time_grade": "D",
       "cost_grade": "A",
       "meta_confidence_grade": "D",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [
         "fam-embedded-embedbench-2025"
@@ -7113,7 +7128,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7207,7 +7222,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7301,7 +7316,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7395,7 +7410,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7489,7 +7504,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7583,7 +7598,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7677,7 +7692,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7771,7 +7786,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7873,7 +7888,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -7967,7 +7982,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8061,7 +8076,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8155,7 +8170,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8249,7 +8264,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8343,7 +8358,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8455,7 +8470,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8561,7 +8576,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8655,7 +8670,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8749,7 +8764,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8843,7 +8858,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8888,7 +8903,7 @@
       "high": 0.40669122160834864,
       "fixed_point": 0.20334561080417432,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -8937,7 +8952,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -8982,7 +8997,7 @@
       "high": 2.3345000000000002,
       "fixed_point": 1.1672500000000001,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -9031,7 +9046,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9125,7 +9140,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9219,7 +9234,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9313,7 +9328,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9407,7 +9422,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9501,7 +9516,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9595,7 +9610,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9689,7 +9704,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9783,7 +9798,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9877,7 +9892,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -9971,7 +9986,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -10065,7 +10080,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-datasheet",
@@ -10159,7 +10174,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -10263,7 +10278,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -10377,7 +10392,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -10475,7 +10490,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -10575,7 +10590,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -10687,7 +10702,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -10805,7 +10820,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -10850,7 +10865,7 @@
       "high": 0.3551696921862668,
       "fixed_point": 0.13154433043935806,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -10899,7 +10914,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -10993,7 +11008,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11087,7 +11102,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11181,7 +11196,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11275,7 +11290,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11369,7 +11384,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11463,7 +11478,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11557,7 +11572,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11651,7 +11666,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11745,7 +11760,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11845,7 +11860,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -11939,7 +11954,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12033,7 +12048,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12127,7 +12142,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12221,7 +12236,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12315,7 +12330,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12409,7 +12424,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12503,7 +12518,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12603,7 +12618,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12697,7 +12712,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12791,7 +12806,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12901,7 +12916,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -12995,7 +13010,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13089,7 +13104,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13183,7 +13198,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13281,7 +13296,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13379,6 +13394,13 @@
           "family": "coding-productivity-field",
           "type": "field-experiment-update",
           "metric": "suggestive human time multiplier"
+        },
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
         }
       ],
       "success_observations": [],
@@ -13393,7 +13415,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13515,7 +13537,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13609,7 +13631,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13703,7 +13725,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13797,7 +13819,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13891,7 +13913,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -13985,7 +14007,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14079,7 +14101,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14173,7 +14195,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14218,7 +14240,7 @@
       "high": 0.34859247566429885,
       "fixed_point": 0.17429623783214943,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -14267,7 +14289,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14312,7 +14334,7 @@
       "high": 2.0010000000000003,
       "fixed_point": 1.0005000000000002,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -14361,7 +14383,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14455,7 +14477,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14549,7 +14571,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14643,7 +14665,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14737,7 +14759,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14831,7 +14853,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -14925,7 +14947,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -15019,7 +15041,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -15113,7 +15135,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -15207,7 +15229,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -15301,7 +15323,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -15395,7 +15417,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-driver-port",
@@ -15489,7 +15511,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -15593,7 +15615,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -15701,7 +15723,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -15823,7 +15845,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -15917,7 +15939,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16011,7 +16033,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16056,7 +16078,7 @@
       "high": 0.1775848460931334,
       "fixed_point": 0.06577216521967903,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -16105,7 +16127,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16199,7 +16221,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16293,7 +16315,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16387,7 +16409,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16481,7 +16503,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16575,7 +16597,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16669,7 +16691,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16763,7 +16785,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16857,7 +16879,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -16951,7 +16973,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17045,7 +17067,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17139,7 +17161,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17233,7 +17255,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17327,7 +17349,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17421,7 +17443,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17515,7 +17537,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17609,7 +17631,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17703,7 +17725,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17833,7 +17855,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -17927,7 +17949,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18021,7 +18043,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18115,7 +18137,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18209,7 +18231,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18311,7 +18333,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18405,7 +18427,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18499,7 +18521,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18593,7 +18615,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18687,7 +18709,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18785,6 +18807,13 @@
           "family": "coding-productivity-field",
           "type": "field-experiment-update",
           "metric": "suggestive human time multiplier"
+        },
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
         }
       ],
       "success_observations": [],
@@ -18799,7 +18828,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18893,7 +18922,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -18987,7 +19016,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19081,7 +19110,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19175,7 +19204,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19285,7 +19314,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19379,7 +19408,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19424,7 +19453,7 @@
       "high": 0.17429623783214943,
       "fixed_point": 0.08714811891607471,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -19473,7 +19502,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19518,7 +19547,7 @@
       "high": 1.0005000000000002,
       "fixed_point": 0.5002500000000001,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -19567,7 +19596,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19661,7 +19690,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19755,7 +19784,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19849,7 +19878,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -19943,7 +19972,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -20037,7 +20066,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -20131,7 +20160,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -20225,7 +20254,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -20319,7 +20348,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -20413,7 +20442,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -20507,7 +20536,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -20601,7 +20630,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-feature",
@@ -20695,7 +20724,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -20803,7 +20832,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -20907,7 +20936,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21001,7 +21030,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21095,7 +21124,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21140,7 +21169,7 @@
       "high": 0.2131018153117601,
       "fixed_point": 0.07892659826361484,
       "variable_point": 0,
-      "fixed_basis": "Pro annual equivalent/50 users",
+      "fixed_basis": "Pro annual equivalent",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -21189,7 +21218,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21234,7 +21263,7 @@
       "high": 0.23677979479084452,
       "fixed_point": 0.08769622029290537,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -21283,7 +21312,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21377,7 +21406,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21471,7 +21500,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21565,7 +21594,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21659,7 +21688,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21753,7 +21782,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21847,7 +21876,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -21941,7 +21970,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22035,7 +22064,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22129,7 +22158,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22223,7 +22252,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22317,7 +22346,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22411,7 +22440,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22505,7 +22534,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22599,7 +22628,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22693,7 +22722,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22787,7 +22816,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22881,7 +22910,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -22975,7 +23004,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23069,7 +23098,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23163,7 +23192,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23257,7 +23286,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23351,7 +23380,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23445,7 +23474,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23539,7 +23568,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23633,7 +23662,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23727,7 +23756,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23829,7 +23858,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -23941,7 +23970,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24035,7 +24064,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24129,7 +24158,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24223,7 +24252,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24317,7 +24346,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24423,7 +24452,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24535,7 +24564,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24629,7 +24658,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24674,7 +24703,7 @@
       "high": 0.23239498377619922,
       "fixed_point": 0.11619749188809961,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -24723,7 +24752,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24768,7 +24797,7 @@
       "high": 1.334,
       "fixed_point": 0.667,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -24817,7 +24846,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -24911,7 +24940,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25005,7 +25034,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25099,7 +25128,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25193,7 +25222,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25287,7 +25316,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25381,7 +25410,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25475,7 +25504,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25569,7 +25598,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25663,7 +25692,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25757,7 +25786,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25851,7 +25880,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-module",
@@ -25945,7 +25974,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26049,7 +26078,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26171,7 +26200,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26216,7 +26245,7 @@
       "high": 0.2959747434885556,
       "fixed_point": 0.10962027536613171,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -26265,7 +26294,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26359,7 +26388,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26453,7 +26482,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26547,7 +26576,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26641,7 +26670,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26735,7 +26764,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26829,7 +26858,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -26923,7 +26952,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27017,7 +27046,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27111,7 +27140,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27205,7 +27234,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27299,7 +27328,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27393,7 +27422,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27523,7 +27552,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27617,7 +27646,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27711,7 +27740,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27805,7 +27834,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27899,7 +27928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -27993,7 +28022,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28087,7 +28116,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28181,7 +28210,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28275,7 +28304,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28369,7 +28398,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28463,7 +28492,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28557,7 +28586,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28651,7 +28680,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28753,7 +28782,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28847,7 +28876,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -28941,7 +28970,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29035,7 +29064,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29129,7 +29158,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29227,6 +29256,13 @@
           "family": "coding-productivity-field",
           "type": "field-experiment-update",
           "metric": "suggestive human time multiplier"
+        },
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
         }
       ],
       "success_observations": [],
@@ -29241,7 +29277,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29335,7 +29371,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29429,7 +29465,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29523,7 +29559,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29617,7 +29653,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29727,7 +29763,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29821,7 +29857,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -29915,7 +29951,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30009,7 +30045,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30054,7 +30090,7 @@
       "high": 0.290493729720249,
       "fixed_point": 0.1452468648601245,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -30103,7 +30139,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30148,7 +30184,7 @@
       "high": 1.6675,
       "fixed_point": 0.83375,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -30197,7 +30233,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30291,7 +30327,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30385,7 +30421,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30479,7 +30515,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30573,7 +30609,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30667,7 +30703,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30761,7 +30797,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30855,7 +30891,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -30949,7 +30985,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -31043,7 +31079,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -31137,7 +31173,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -31231,7 +31267,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -31325,7 +31361,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-protocol",
@@ -31419,7 +31455,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -31519,7 +31555,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -31623,7 +31659,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -31666,7 +31702,7 @@
       "high": 0.13318863456985003,
       "fixed_point": 0.04932912391475927,
       "variable_point": 0,
-      "fixed_basis": "Pro annual equivalent/50 users",
+      "fixed_basis": "Pro annual equivalent",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -31713,7 +31749,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -31756,7 +31792,7 @@
       "high": 0.1479873717442778,
       "fixed_point": 0.054810137683065856,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -31803,7 +31839,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -31893,7 +31929,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -31983,7 +32019,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32073,7 +32109,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32163,7 +32199,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32253,7 +32289,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32343,7 +32379,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32433,7 +32469,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32523,7 +32559,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32613,7 +32649,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32703,7 +32739,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32793,7 +32829,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32883,7 +32919,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -32973,7 +33009,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33063,7 +33099,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33153,7 +33189,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33243,7 +33279,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33333,7 +33369,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33423,7 +33459,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33513,7 +33549,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33603,7 +33639,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33693,7 +33729,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33783,7 +33819,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33873,7 +33909,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -33963,7 +33999,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34053,7 +34089,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34143,7 +34179,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34233,7 +34269,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34331,7 +34367,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34439,7 +34475,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34529,7 +34565,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34631,7 +34667,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34739,7 +34775,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34829,7 +34865,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34872,7 +34908,7 @@
       "high": 0.1452468648601245,
       "fixed_point": 0.07262343243006225,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -34919,7 +34955,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -34962,7 +34998,7 @@
       "high": 0.83375,
       "fixed_point": 0.416875,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -35009,7 +35045,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35099,7 +35135,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35189,7 +35225,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35279,7 +35315,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35369,7 +35405,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35459,7 +35495,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35549,7 +35585,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35639,7 +35675,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35729,7 +35765,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35819,7 +35855,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35909,7 +35945,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -35999,7 +36035,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-python-tooling",
@@ -36089,7 +36125,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -36200,7 +36236,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -36304,7 +36340,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -36414,7 +36450,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -36508,7 +36544,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -36604,7 +36640,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -36694,7 +36730,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -36803,7 +36839,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -36848,7 +36884,7 @@
       "high": 0.23677979479084452,
       "fixed_point": 0.08769622029290537,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -36905,7 +36941,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37019,7 +37055,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37137,7 +37173,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37227,7 +37263,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37317,7 +37353,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37407,7 +37443,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37497,7 +37533,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37587,7 +37623,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37677,7 +37713,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37767,7 +37803,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37857,7 +37893,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -37959,7 +37995,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38061,7 +38097,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38151,7 +38187,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38241,7 +38277,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38331,7 +38367,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38427,7 +38463,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38517,7 +38553,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38607,7 +38643,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38703,7 +38739,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38793,7 +38829,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38895,7 +38931,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -38985,7 +39021,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39075,7 +39111,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39169,7 +39205,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39275,7 +39311,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39386,7 +39422,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39504,7 +39540,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39594,7 +39630,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39684,7 +39720,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39774,7 +39810,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39882,7 +39918,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -39984,7 +40020,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40074,7 +40110,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40117,7 +40153,7 @@
       "high": 0.23239498377619922,
       "fixed_point": 0.11619749188809961,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -40164,7 +40200,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40207,7 +40243,7 @@
       "high": 1.334,
       "fixed_point": 0.667,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -40254,7 +40290,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40344,7 +40380,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40434,7 +40470,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40524,7 +40560,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40614,7 +40650,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40704,7 +40740,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40794,7 +40830,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40884,7 +40920,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -40974,7 +41010,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -41064,7 +41100,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -41154,7 +41190,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -41244,7 +41280,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-refactor",
@@ -41334,7 +41370,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -41434,7 +41470,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -41552,7 +41588,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -41642,7 +41678,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -41732,7 +41768,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -41775,7 +41811,7 @@
       "high": 0.02466456195737964,
       "fixed_point": 0.009135022947177643,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -41822,7 +41858,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -41912,7 +41948,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42002,7 +42038,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42092,7 +42128,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42182,7 +42218,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42272,7 +42308,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42362,7 +42398,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42452,7 +42488,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42542,7 +42578,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42632,7 +42668,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42722,7 +42758,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42812,7 +42848,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42902,7 +42938,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -42992,7 +43028,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43082,7 +43118,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43172,7 +43208,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43262,7 +43298,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43372,7 +43408,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43462,7 +43498,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43552,7 +43588,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43642,7 +43678,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43732,7 +43768,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43822,7 +43858,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -43912,7 +43948,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44002,7 +44038,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44092,7 +44128,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44182,7 +44218,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44272,7 +44308,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44362,7 +44398,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44452,7 +44488,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44542,7 +44578,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44638,7 +44674,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44728,7 +44764,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44826,7 +44862,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -44934,7 +44970,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45024,7 +45060,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45067,7 +45103,7 @@
       "high": 0.02420781081002075,
       "fixed_point": 0.012103905405010376,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -45114,7 +45150,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45157,7 +45193,7 @@
       "high": 0.13895833333333335,
       "fixed_point": 0.06947916666666668,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -45204,7 +45240,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45294,7 +45330,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45384,7 +45420,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45474,7 +45510,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45564,7 +45600,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45654,7 +45690,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45744,7 +45780,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45834,7 +45870,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -45924,7 +45960,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -46014,7 +46050,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -46104,7 +46140,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -46194,7 +46230,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "dev-small-change",
@@ -46284,6 +46320,6 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   }
 ]
