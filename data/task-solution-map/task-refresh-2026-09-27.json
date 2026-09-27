@@ -1,16 +1,64 @@
 [
   {
-    "task_id": "req-system-impact",
+    "task_id": "arch-choice",
     "native": [
-      "reqsuite-rm-ai",
-      "spread-requirements-manager"
+      "dalus-ai-mbse"
     ],
     "direct": [
-      "valispace-ai",
+      "spread-product-explorer",
+      "valispace-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-detailed-design",
+    "native": [
+      "dalus-ai-mbse",
+      "visual-paradigm-ai",
+      "archtect",
+      "innoslate-ai"
+    ],
+    "direct": [
+      "trace-space"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-diagram",
+    "native": [
+      "dalus-ai-mbse",
+      "visual-paradigm-ai",
+      "archtect",
+      "codeatlas",
+      "jigsawml",
+      "innoslate-ai"
+    ],
+    "direct": [
+      "softagram-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-review",
+    "native": [
+      "softagram-ai",
+      "codeatlas",
+      "jigsawml",
+      "striff"
+    ],
+    "direct": [
+      "dalus-ai-mbse",
+      "visual-paradigm-ai",
+      "archtect",
+      "spread-product-explorer",
       "innoslate-ai",
       "trace-space",
-      "requirementmatrix-ai",
-      "arc-requirements-ai",
       "modelgraphx"
     ],
     "connected": [],
@@ -18,15 +66,69 @@
     "backend": []
   },
   {
-    "task_id": "req-write-sw",
+    "task_id": "arch-software",
     "native": [
-      "valispace-ai",
-      "innoslate-ai",
-      "reqsuite-rm-ai",
-      "requirementmatrix-ai"
+      "dalus-ai-mbse",
+      "archtect",
+      "innoslate-ai"
     ],
     "direct": [
+      "visual-paradigm-ai",
+      "valispace-ai",
       "trace-space",
+      "modelgraphx",
+      "spread-product-explorer"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-understand",
+    "native": [
+      "softagram-ai",
+      "codeatlas",
+      "jigsawml",
+      "spread-product-explorer"
+    ],
+    "direct": [
+      "dalus-ai-mbse",
+      "visual-paradigm-ai",
+      "striff",
+      "trace-space"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-change-impact",
+    "native": [
+      "reqsuite-rm-ai",
+      "trace-space",
+      "spread-requirements-manager",
+      "requirementmatrix-ai",
+      "arc-requirements-ai"
+    ],
+    "direct": [
+      "valispace-ai",
+      "innoslate-ai",
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-decompose",
+    "native": [
+      "valispace-ai",
+      "reqsuite-rm-ai"
+    ],
+    "direct": [
+      "innoslate-ai",
+      "trace-space",
+      "requirementmatrix-ai",
       "arc-requirements-ai"
     ],
     "connected": [],
@@ -52,16 +154,18 @@
     "backend": []
   },
   {
-    "task_id": "req-decompose",
+    "task_id": "req-system-impact",
     "native": [
-      "valispace-ai",
-      "reqsuite-rm-ai"
+      "reqsuite-rm-ai",
+      "spread-requirements-manager"
     ],
     "direct": [
+      "valispace-ai",
       "innoslate-ai",
       "trace-space",
       "requirementmatrix-ai",
-      "arc-requirements-ai"
+      "arc-requirements-ai",
+      "modelgraphx"
     ],
     "connected": [],
     "custom_workflow": [],
@@ -86,18 +190,16 @@
     "backend": []
   },
   {
-    "task_id": "req-change-impact",
+    "task_id": "req-write-sw",
     "native": [
-      "reqsuite-rm-ai",
-      "trace-space",
-      "spread-requirements-manager",
-      "requirementmatrix-ai",
-      "arc-requirements-ai"
-    ],
-    "direct": [
       "valispace-ai",
       "innoslate-ai",
-      "modelgraphx"
+      "reqsuite-rm-ai",
+      "requirementmatrix-ai"
+    ],
+    "direct": [
+      "trace-space",
+      "arc-requirements-ai"
     ],
     "connected": [],
     "custom_workflow": [],
