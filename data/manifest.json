@@ -18,13 +18,13 @@
   "solution_inventory": {
     "verified_at": "2026-09-27",
     "canonical_index": "data/solutions/index.json",
-    "solution_entries": 128,
+    "solution_entries": 157,
     "current_mapping": "data/task-solution-map/index.json",
     "mapped_tasks": 86,
     "mapping_candidate_count": {
-      "min": 33,
-      "max": 68,
-      "average": 48.3
+      "min": 35,
+      "max": 70,
+      "average": 50.5
     },
     "scoring": false,
     "lifecycle_exclusions": "data/solution-exclusions.json"
