@@ -1,0 +1,512 @@
+{
+  "Aider": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Aider-AI",
+    "access": "Open source, Apache-2.0",
+    "pricing": "Harness gratuit ; coût du modèle/backend séparé.",
+    "desc": "Agent de pair-programming en terminal. Travaille directement dans un dépôt Git, construit une repo map, édite plusieurs fichiers et peut lancer lint/tests.",
+    "strengths": "Très adapté aux modifications ciblées, boucles édition-test et comparaison de modèles sur un harness stable.",
+    "url": "https://aider.chat/"
+  },
+  "Claude Code": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Anthropic",
+    "access": "Produit commercial Anthropic",
+    "pricing": "Accès via plans Claude compatibles ou facturation API/usage selon le mode.",
+    "desc": "Agent de développement en terminal capable d’explorer un dépôt, modifier des fichiers, exécuter des commandes et travailler sur des tâches longues.",
+    "strengths": "Fort intérêt pour investigation longue, travail repo complexe et boucles autonomes de vérification.",
+    "url": "https://docs.anthropic.com/en/docs/claude-code/"
+  },
+  "Codex CLI": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "OpenAI",
+    "access": "CLI OpenAI",
+    "pricing": "Accès selon plan ChatGPT/Codex, crédits ou tarification applicable.",
+    "desc": "Agent de coding en terminal pour lecture/édition de dépôts, commandes shell, tests et tâches agentiques.",
+    "strengths": "Dans l’étude, apparaît souvent très compétitif sur Terminal-Bench et avec certains modèles non-OpenAI via routes compatibles.",
+    "url": "https://developers.openai.com/codex/cli/"
+  },
+  "Cline CLI": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Cline",
+    "access": "CLI installable ; noyau agent partagé avec IDE/SDK",
+    "pricing": "Client/harness installable ; coût dépend du provider/modèle choisi.",
+    "desc": "Agent terminal avec modes plan/act, MCP, checkpoints, skills, règles, exécution headless et sélection de provider.",
+    "strengths": "Intéressant pour workflows automatisés, CI/scripts et comparaison de modèles via un même agent.",
+    "url": "https://cline.bot/"
+  },
+  "OpenCode": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "OpenCode",
+    "access": "Open source",
+    "pricing": "Harness gratuit ; modèles gratuits possibles ou backend/abonnement séparé.",
+    "desc": "Agent de coding pour terminal, IDE et desktop, provider-agnostic, avec LSP et multi-session.",
+    "strengths": "Bon choix lorsque l’on veut changer facilement de modèle/provider sans changer de workflow.",
+    "url": "https://opencode.ai/"
+  },
+  "OpenHands": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "OpenHands",
+    "access": "Open source + options cloud/self-host",
+    "pricing": "Open source en local/self-host ; coûts éventuels du cloud et du modèle séparés.",
+    "desc": "Plateforme/agent logiciel avec CLI, interface web, sandbox, SDK, MCP et possibilités d’exécution locale ou distante.",
+    "strengths": "Pertinent pour workflows agentiques complets, automatisation SDLC et exécution sandboxée.",
+    "url": "https://docs.openhands.dev/"
+  },
+  "PenguinHarness": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "PrismShadow",
+    "access": "Open source, Apache-2.0",
+    "pricing": "Harness gratuit ; backend IA séparé.",
+    "desc": "Plateforme multi-agent local-first orientée création, évaluation, optimisation et déploiement d’agents/applications IA.",
+    "strengths": "Particulièrement intéressant dans l’étude pour modèles ouverts, skills/AGENTS.md et goal mode.",
+    "url": "https://github.com/Prism-Shadow/penguin-harness"
+  },
+  "DeepSeek Harness": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "DeepSeek AI",
+    "access": "Open source, MIT · developer preview",
+    "pricing": "Harness gratuit ; coût du backend IA séparé.",
+    "desc": "Harness officiel DeepSeek à architecture « everything is a plugin », utilisable via Web UI ou comme base d’orchestration.",
+    "strengths": "Optimisé autour de l’écosystème DeepSeek ; encore pré-stable, donc à considérer avec prudence opérationnelle.",
+    "url": "https://github.com/deepseek-ai/deepseek-harness"
+  },
+  "Maka": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Apache Maka (Incubating)",
+    "access": "Projet open source Apache",
+    "pricing": "Harness open source ; backend IA séparé.",
+    "desc": "Workspace agentique qui conserve un journal complet des actions et publie des comparaisons same-model/same-task entre harnesses.",
+    "strengths": "Traçabilité et reproductibilité fortes ; intéressant pour tâches agentiques terminal et audit des trajectoires.",
+    "url": "https://github.com/apache/maka"
+  },
+  "Reasonix": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Reasonix",
+    "access": "CLI public/open source",
+    "pricing": "Harness gratuit ; provider IA séparé.",
+    "desc": "Agent coding terminal conçu autour de la stabilité du prefix-cache, configurable par providers, outils et plugins.",
+    "strengths": "Pertinent pour longues sessions et optimisation des coûts avec backends compatibles.",
+    "url": "https://github.com/MitsuhaYuki/reasonix"
+  },
+  "ZCode": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Z.ai",
+    "access": "Coding agent public",
+    "pricing": "Harness accessible ; backend/plan modèle séparé.",
+    "desc": "Harness de coding de Z.ai avec CLI et architecture extensible.",
+    "strengths": "Alternative orientée Z.ai/GLM pour tâches terminal et coding agentique.",
+    "url": "https://github.com/zai-org/ZCode"
+  },
+  "Qwen Code": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Qwen",
+    "access": "Open source",
+    "pricing": "Harness gratuit ; Alibaba/Qwen ou provider tiers selon authentification.",
+    "desc": "Agent de coding multi-protocole disponible en terminal, éditeur, desktop et web, avec MCP, skills, subagents et équipes d’agents.",
+    "strengths": "Très intéressant pour Qwen, mais également provider-agnostic ; bonne surface pour comparer modèles via un même workflow.",
+    "url": "https://github.com/QwenLM/qwen-code"
+  },
+  "Kimi Code": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Moonshot AI",
+    "access": "CLI/desktop/VS Code officiels",
+    "pricing": "Client installable ; accès via compte Kimi ou API selon le mode.",
+    "desc": "Agent de développement en terminal capable de lire/éditer le code, lancer le shell, chercher des fichiers et pages web et ajuster son plan.",
+    "strengths": "Surface quotidienne complète pour Kimi et autres providers compatibles.",
+    "url": "https://www.kimi.com/code/docs/en/"
+  },
+  "Gemini CLI": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Google",
+    "access": "Open source, Apache-2.0",
+    "pricing": "Free tier disponible avec compte Google ; quotas/tarifs dépendent ensuite du mode d’accès.",
+    "desc": "Agent terminal Google avec opérations fichiers, shell, web fetch, Google Search grounding et MCP.",
+    "strengths": "Très adapté aux grands contextes, recherche outillée et développement terminal avec Gemini.",
+    "url": "https://github.com/google-gemini/gemini-cli"
+  },
+  "Droid": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Factory",
+    "access": "Produit commercial",
+    "pricing": "Factory Pro est affiché à 20 $/mois ; plans supérieurs disponibles.",
+    "desc": "Agent de développement Factory disponible en desktop/CLI/SDK, avec agents locaux et cloud/background.",
+    "strengths": "Surface produit orientée tâches longues et exécution agentique gérée.",
+    "url": "https://factory.ai/"
+  },
+  "Pi": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Pi ecosystem",
+    "access": "Agent coding terminal",
+    "pricing": "Harness/client séparé du coût modèle.",
+    "desc": "Agent de coding minimaliste utilisé comme base de plusieurs forks et expériences de harness.",
+    "strengths": "Surface légère, utile pour comparer le comportement du modèle avec peu de surcouche.",
+    "url": "https://github.com/badlogic/pi-mono"
+  },
+  "Pi-Code": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Pi ecosystem",
+    "access": "Agent coding terminal",
+    "pricing": "Harness/client séparé du coût modèle.",
+    "desc": "Variante/entrée de la famille Pi utilisée dans certains benchmarks de coding agentique.",
+    "strengths": "Harness relativement léger, intéressant pour modèles ouverts.",
+    "url": "https://github.com/badlogic/pi-mono"
+  },
+  "Oh My Pi": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Stencil Labs / community",
+    "access": "Open source",
+    "pricing": "Harness gratuit ; backend IA séparé.",
+    "desc": "Fork enrichi de Pi avec LSP, debugger, browser, subagents et nombreux outils intégrés.",
+    "strengths": "Plus riche que Pi pour tâches repo complexes nécessitant IDE/LSP et outillage.",
+    "url": "https://github.com/can1357/oh-my-pi"
+  },
+  "Cursor": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Cursor",
+    "access": "IDE commercial",
+    "pricing": "Abonnement/usage selon offre Cursor.",
+    "desc": "IDE orienté IA permettant d’utiliser des modèles pour édition, compréhension et tâches agentiques sur le code.",
+    "strengths": "Surface quotidienne IDE plutôt que terminal ; utile quand l’interaction et la revue manuelle restent importantes.",
+    "url": "https://www.cursor.com/"
+  },
+  "Mistral Vibe Code": {
+    "kind": "harness",
+    "usable": true,
+    "provider": "Mistral AI",
+    "access": "CLI / VS Code / sessions web",
+    "pricing": "Accès/modèles selon offre Mistral ; coût du backend à considérer séparément.",
+    "desc": "Agent de coding Mistral utilisable en CLI, VS Code et web, avec accès filesystem/shell et agents configurables.",
+    "strengths": "Surface naturelle pour exploiter Mistral Medium/Devstral dans un workflow quotidien.",
+    "url": "https://docs.mistral.ai/vibe/code/"
+  },
+  "Scaleway audio transcription API": {
+    "kind": "api",
+    "usable": true,
+    "provider": "Scaleway",
+    "access": "API fournisseur",
+    "pricing": "Facturation par minute selon modèle/audio.",
+    "desc": "API de transcription audio Scaleway. Dans l’étude, elle est notamment utilisée avec Whisper Large V3.",
+    "strengths": "Configuration directement exploitable pour transcription : pas besoin d’un harness de coding.",
+    "url": "https://www.scaleway.com/en/docs/generative-apis/how-to/query-audio-models/"
+  },
+  "Scaleway Embeddings API": {
+    "kind": "api",
+    "usable": true,
+    "provider": "Scaleway",
+    "access": "API fournisseur",
+    "pricing": "Facturation au volume de tokens selon modèle.",
+    "desc": "Surface API pour produire des embeddings avec les modèles d’embedding disponibles chez Scaleway.",
+    "strengths": "Configuration directement exploitable pour RAG, indexation et recherche sémantique.",
+    "url": "https://www.scaleway.com/en/docs/generative-apis/"
+  },
+  "Scaleway Multimodal API": {
+    "kind": "api",
+    "usable": true,
+    "provider": "Scaleway",
+    "access": "API fournisseur",
+    "pricing": "Facturation token selon le modèle multimodal.",
+    "desc": "Surface OpenAI-compatible Scaleway pour interroger directement des modèles texte/vision.",
+    "strengths": "Pertinent pour analyse d’image/document lorsqu’un agent de coding n’est pas nécessaire.",
+    "url": "https://www.scaleway.com/en/docs/generative-apis/"
+  },
+  "Ollama": {
+    "kind": "runtime",
+    "usable": true,
+    "provider": "Ollama",
+    "access": "Runtime local",
+    "pricing": "Runtime gratuit ; nécessite du matériel local.",
+    "desc": "Runtime local permettant d’exécuter des modèles et de les exposer via API.",
+    "strengths": "Utile pour usage local/offline ; moins aligné avec un workflow cloud-only.",
+    "url": "https://ollama.com/"
+  },
+  "Claude ACP": {
+    "kind": "bridge",
+    "usable": true,
+    "provider": "ACP / Claude Code",
+    "access": "Bridge vers Claude Code",
+    "pricing": "Nécessite Claude Code et son accès/abonnement.",
+    "desc": "Utilisation de Claude Code via Agent Client Protocol dans un hôte compatible plutôt qu’en CLI native.",
+    "strengths": "Permet de conserver le moteur Claude Code dans une autre interface, par exemple Agent Canvas.",
+    "url": "https://github.com/OpenHands/OpenHands/blob/main/docs/ACP_AGENTS.md"
+  },
+  "Codex ACP": {
+    "kind": "bridge",
+    "usable": true,
+    "provider": "ACP / Codex",
+    "access": "Bridge vers Codex",
+    "pricing": "Nécessite Codex et son mode d’accès.",
+    "desc": "Utilisation de Codex via Agent Client Protocol dans un hôte compatible.",
+    "strengths": "Permet d’évaluer le même agent Codex avec une autre surface cliente.",
+    "url": "https://github.com/OpenHands/OpenHands/blob/main/docs/ACP_AGENTS.md"
+  },
+  "Gemini CLI / ACP": {
+    "kind": "bridge",
+    "usable": true,
+    "provider": "ACP / Gemini CLI",
+    "access": "Bridge vers Gemini CLI",
+    "pricing": "Dépend de l’accès Gemini CLI/Google.",
+    "desc": "Gemini CLI exécuté derrière un hôte ACP compatible.",
+    "strengths": "Sépare la surface de contrôle de l’agent Gemini lui-même.",
+    "url": "https://github.com/OpenHands/OpenHands/blob/main/docs/ACP_AGENTS.md"
+  },
+  "Terminus 2": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Harbor / Terminal-Bench",
+    "access": "Evaluation framework",
+    "pricing": "Non considéré comme choix quotidien.",
+    "desc": "Agent/framework de référence utilisé pour exécuter Terminal-Bench. Sert à mesurer un modèle dans un environnement reproductible, pas comme recommandation de développement quotidienne.",
+    "strengths": "Preuve comparative contrôlée.",
+    "url": "https://github.com/stanford-iris-lab/meta-harness"
+  },
+  "OSWorld scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "OSWorld",
+    "access": "Benchmark environment",
+    "pricing": "N/A",
+    "desc": "Runner/environnement de benchmark pour agents qui pilotent une interface graphique d’ordinateur. Ce n’est pas un produit quotidien recommandé ici.",
+    "strengths": "Mesure le computer-use dans des environnements réels.",
+    "url": "https://os-world.github.io/"
+  },
+  "AndroidWorld scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "AndroidWorld",
+    "access": "Benchmark environment",
+    "pricing": "N/A",
+    "desc": "Runner de benchmark pour tâches agentiques sur Android. Utilisé comme preuve, pas comme configuration utilisateur.",
+    "strengths": "Mesure les capacités de contrôle d’applications Android.",
+    "url": "https://github.com/google-research/android_world"
+  },
+  "Google eval scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Google",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Nom générique utilisé dans l’étude pour le runner de benchmark Google associé à une model card. Ce n’est pas un harness installable recommandé.",
+    "strengths": "Fournit une mesure contrôlée du modèle.",
+    "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+  },
+  "Google multimodal eval": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Google",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner de benchmark multimodal Google ; preuve de capacité vision, pas surface utilisateur.",
+    "strengths": "Mesure des capacités multimodales.",
+    "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+  },
+  "Google tool-use scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Google",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner de benchmark tool-use Google ; utilisé uniquement comme source de preuve.",
+    "strengths": "Mesure l’usage d’outils.",
+    "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
+  },
+  "Mistral eval scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Mistral AI",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner de benchmark utilisé dans une model card Mistral. Les résultats alimentent les estimations de vraies surfaces comme Vibe Code/OpenCode.",
+    "strengths": "Preuve modèle ; pas recommandation utilisateur.",
+    "url": "https://huggingface.co/mistralai/"
+  },
+  "Mistral multimodal eval": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Mistral AI",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner interne/model-card pour benchmarks visuels Mistral.",
+    "strengths": "Preuve multimodale uniquement.",
+    "url": "https://huggingface.co/mistralai/"
+  },
+  "Mistral agent scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Mistral AI",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Scaffold agentique de benchmark Mistral ; ne doit pas être confondu avec Mistral Vibe Code.",
+    "strengths": "Mesure agentique du modèle.",
+    "url": "https://huggingface.co/mistralai/"
+  },
+  "Vibe CLI / Mistral agent scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Mistral AI",
+    "access": "Benchmark configuration",
+    "pricing": "N/A",
+    "desc": "Libellé historique mixant Vibe et le scaffold de benchmark. Il reste comme source de preuve mais la recommandation utilisateur est désormais « Mistral Vibe Code ».",
+    "strengths": "Preuve transférée vers la surface quotidienne Vibe.",
+    "url": "https://docs.mistral.ai/vibe/code/"
+  },
+  "Meta eval scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Meta",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner de model-card Meta utilisé pour benchmarker le modèle ; pas un agent de développement.",
+    "strengths": "Preuve modèle.",
+    "url": "https://huggingface.co/meta-llama/"
+  },
+  "Meta tool-use scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Meta",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner de benchmark tool-use Meta.",
+    "strengths": "Preuve d’usage d’outils.",
+    "url": "https://huggingface.co/meta-llama/"
+  },
+  "OpenAI SWE scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "OpenAI",
+    "access": "Evaluation scaffold",
+    "pricing": "N/A",
+    "desc": "Scaffold utilisé pour évaluer GPT-OSS sur SWE-bench. Les résultats servent à estimer les configurations utilisateur, mais le scaffold n’est pas proposé comme outil quotidien.",
+    "strengths": "Mesure repo-level du modèle.",
+    "url": "https://deploymentsafety.openai.com/gpt-oss/evaluation"
+  },
+  "Official eval scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Model vendor",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner officiel non spécifié utilisé pour un benchmark de model card. Source de preuve uniquement.",
+    "strengths": "Mesure modèle.",
+    "url": "about:blank"
+  },
+  "Qwen eval scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Qwen",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner de benchmark Qwen utilisé dans les model cards.",
+    "strengths": "Preuve modèle.",
+    "url": "https://huggingface.co/Qwen/"
+  },
+  "Qwen function-calling scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Qwen",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner Qwen pour benchmarks de function calling.",
+    "strengths": "Mesure capacité tool/function calling.",
+    "url": "https://huggingface.co/Qwen/"
+  },
+  "Qwen internal coding scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Qwen",
+    "access": "Internal evaluation runner",
+    "pricing": "N/A",
+    "desc": "Scaffold interne Qwen pour SWE/coding. Les résultats sont transférés vers de vraies surfaces comme Qwen Code/OpenCode.",
+    "strengths": "Preuve coding du modèle.",
+    "url": "https://huggingface.co/Qwen/"
+  },
+  "Qwen internal web scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Qwen",
+    "access": "Internal evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner interne Qwen pour génération web/front-end ; pas un produit quotidien.",
+    "strengths": "Preuve front-end.",
+    "url": "https://huggingface.co/Qwen/"
+  },
+  "Qwen search-agent scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Qwen",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner de benchmark recherche/search-agent Qwen.",
+    "strengths": "Preuve recherche agentique.",
+    "url": "https://huggingface.co/Qwen/"
+  },
+  "Qwen visual-agent scaffold": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "Qwen",
+    "access": "Evaluation runner",
+    "pricing": "N/A",
+    "desc": "Runner de benchmark visual/computer-use Qwen.",
+    "strengths": "Preuve computer-use/vision.",
+    "url": "https://huggingface.co/Qwen/"
+  },
+  "SWE-Agent": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "SWE-agent project",
+    "access": "Research agent",
+    "pricing": "Open source, mais exclu des recommandations quotidiennes",
+    "desc": "Agent de recherche largement utilisé pour SWE-bench. Techniquement exécutable, mais ici traité comme surface d’évaluation afin de ne pas le confondre avec les outils quotidiens ciblés.",
+    "strengths": "Référence de recherche pour tâches SWE.",
+    "url": "https://github.com/SWE-agent/SWE-agent"
+  },
+  "mini-swe": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "research/community",
+    "access": "Minimal research agent",
+    "pricing": "N/A",
+    "desc": "Agent minimal utilisé pour expériences contrôlées ; conservé comme preuve seulement.",
+    "strengths": "Réduit la surcouche harness lors d’évaluations.",
+    "url": "https://github.com/SWE-agent/mini-swe-agent"
+  },
+  "mini-swe-agent 2.4.0": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "research/community",
+    "access": "Minimal research agent",
+    "pricing": "N/A",
+    "desc": "Version de mini-swe-agent utilisée dans un benchmark. Source de preuve uniquement dans ce report.",
+    "strengths": "Comparaison same-scaffold.",
+    "url": "https://github.com/SWE-agent/mini-swe-agent"
+  },
+  "Custom agent harness": {
+    "kind": "eval",
+    "usable": false,
+    "provider": "benchmark author",
+    "access": "Custom benchmark harness",
+    "pricing": "N/A",
+    "desc": "Harness spécifique à une expérience publiée, non proposé comme produit quotidien.",
+    "strengths": "Signal empirique faible/contrôlé selon l’expérience.",
+    "url": "about:blank"
+  }
+}
