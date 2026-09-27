@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-27",
+  "task_count": 86,
+  "mapped_task_count": 86,
+  "solution_count": 86,
+  "map_files": [
+    "data/task-solution-map/requirements.json",
+    "data/task-solution-map/architecture.json",
+    "data/task-solution-map/development.json",
+    "data/task-solution-map/debug-upstream.json",
+    "data/task-solution-map/verification.json",
+    "data/task-solution-map/safety-cyber.json",
+    "data/task-solution-map/ci-tooling.json",
+    "data/task-solution-map/release.json",
+    "data/task-solution-map/documentation.json",
+    "data/task-solution-map/collaboration.json",
+    "data/task-solution-map/learning-research.json"
+  ],
+  "relationship_types": {
+    "native": "First-class product workflow for the task.",
+    "direct": "Usable directly in the normal product interface.",
+    "connected": "Requires connector/MCP/product integration.",
+    "custom_workflow": "Requires orchestration, scripting or a custom agent/workflow.",
+    "backend": "Model/API/runtime substrate; requires a user-facing surface or custom workflow."
+  },
+  "scoring": false,
+  "validation": {
+    "missing_tasks": [],
+    "extra_tasks": [],
+    "invalid_solution_refs": []
+  },
+  "candidate_count": {
+    "min": 21,
+    "max": 62,
+    "average": 37.9
+  }
+}
