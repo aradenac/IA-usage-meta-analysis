@@ -344,6 +344,11 @@
       "arch-detailed-design": 0.4,
       "arch-understand": 0.45,
       "learn-explain": 0.25
+    },
+    "security-operations-triage": {
+      "cyber-vuln": 0.25,
+      "cyber-review": 0.2,
+      "cyber-impact": 0.15
     }
   }
 }
