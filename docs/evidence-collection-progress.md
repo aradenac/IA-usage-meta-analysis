@@ -108,3 +108,12 @@ SWE-Mutation (ACL Findings 2026) is now preserved at two levels:
 - 14 exact model × harness observations across Mini-SWE-Agent and Claude Code for seven models.
 
 Historical exact-configuration corpus is now **223 observations**. Family corpus is **49 observations**. v1.8 rescore is pending.
+
+## PILLAR GO reproducible threat-modeling metrics
+
+Extracted directly from the public replication CSVs for Claude Sonnet 4.5 multi-agent across three LINDDUN GO systems:
+
+- accuracy: 0.697 / 0.727 / 0.727; mean ≈ **0.717**;
+- F1: 0.792 / 0.842 / 0.809; mean ≈ **0.814**.
+
+Mean accuracy is stored as the conservative probability-like family signal; F1 is support-only. This gives `cyber-threat` a quantitative threat-modeling family prior while preserving the privacy→general-TARA transfer caveat.
