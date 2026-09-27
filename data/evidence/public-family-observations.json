@@ -568,5 +568,50 @@
     "source_grade": "A",
     "source": "https://doi.org/10.1016/j.future.2025.108243",
     "notes": "Six LLM-based threat-elicitation tools evaluated on two realistic biometric-authentication cases against 76 human threat models with novice/expert baselines. Paper reports relatively low performance overall and particular inefficiency at eliciting expert-level threats; replication package publishes F1/redundancy/sensitivity results. Kept as a strong cautionary family signal until per-tool F1 values are ingested."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-devops-fdebench-2026",
+    "family": "devops-agent",
+    "benchmark": "FDE-Bench",
+    "version": "2026-09-23",
+    "evidence_type": "academic-benchmark",
+    "metric": "best autonomous deployment resolution rate",
+    "value": 0.75,
+    "probability_proxy": 0.75,
+    "n": 136,
+    "source_grade": "A",
+    "source": "https://arxiv.org/abs/2609.27571",
+    "notes": "136 deployment-configuration tasks across Docker, Compose and Kubernetes with pristine rebuild/redeploy and programmatic build/readiness/behavior/conformance gates. Seven models on the same four-tool scaffold resolve 52.9–75.0%. Strong family prior for CI/deployment/release-preparation work, but not direct evidence for any catalog product."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-devops-deploybench-2026",
+    "family": "devops-agent",
+    "benchmark": "DeployBench",
+    "version": "v2 2026-08-30",
+    "evidence_type": "academic-benchmark",
+    "metric": "best research-artifact deployment pass rate",
+    "value": 0.51,
+    "probability_proxy": 0.51,
+    "n": 51,
+    "source_grade": "A",
+    "source": "https://arxiv.org/abs/2606.05238",
+    "notes": "51 fresh-machine deployment tasks spanning AI/ML, systems and scientific computing, hidden executable verifier. Best evaluated OpenHands/model combination passes 51.0%; dominant failure is premature self-termination after validating a weaker target. Relevant conservative family evidence for deployment/release preparation."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-doc-xldocbench-strict-2026",
+    "family": "technical-document-qa",
+    "benchmark": "XL-DocBench strict reproducible release",
+    "version": "2026-09 snapshot",
+    "evidence_type": "academic-benchmark",
+    "metric": "best strict overall accuracy",
+    "value": 0.3836,
+    "probability_proxy": 0.3836,
+    "n": 1345,
+    "source_grade": "A",
+    "source": "https://huggingface.co/datasets/microsoft/XL-DocBench",
+    "notes": "Strict retained release over 1,345 expert-verified professional-document questions. GPT-5.4 OCR scores 38.36% accuracy; SimpleDoc+GPT-5.4 agent 36.21%. Contexts include technical manuals, cross-document and multimodal evidence. This stricter reproducible score is kept alongside the earlier 44.0% project-page snapshot rather than replacing it."
   }
 ]
