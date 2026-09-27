@@ -1,0 +1,106 @@
+[
+  {
+    "task_id": "req-system-impact",
+    "native": [
+      "reqsuite-rm-ai",
+      "spread-requirements-manager"
+    ],
+    "direct": [
+      "valispace-ai",
+      "innoslate-ai",
+      "trace-space",
+      "requirementmatrix-ai",
+      "arc-requirements-ai",
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-write-sw",
+    "native": [
+      "valispace-ai",
+      "innoslate-ai",
+      "reqsuite-rm-ai",
+      "requirementmatrix-ai"
+    ],
+    "direct": [
+      "trace-space",
+      "arc-requirements-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-review",
+    "native": [
+      "valispace-ai",
+      "innoslate-ai",
+      "reqsuite-rm-ai",
+      "requirementmatrix-ai",
+      "spread-requirements-manager"
+    ],
+    "direct": [
+      "trace-space",
+      "arc-requirements-ai",
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-decompose",
+    "native": [
+      "valispace-ai",
+      "reqsuite-rm-ai"
+    ],
+    "direct": [
+      "innoslate-ai",
+      "trace-space",
+      "requirementmatrix-ai",
+      "arc-requirements-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-traceability",
+    "native": [
+      "valispace-ai",
+      "innoslate-ai",
+      "reqsuite-rm-ai",
+      "trace-space",
+      "spread-requirements-manager",
+      "requirementmatrix-ai",
+      "arc-requirements-ai"
+    ],
+    "direct": [
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-change-impact",
+    "native": [
+      "reqsuite-rm-ai",
+      "trace-space",
+      "spread-requirements-manager",
+      "requirementmatrix-ai",
+      "arc-requirements-ai"
+    ],
+    "direct": [
+      "valispace-ai",
+      "innoslate-ai",
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  }
+]
