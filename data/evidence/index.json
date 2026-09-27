@@ -7,7 +7,7 @@
   "task_family_relevance": "data/evidence/task-product-family-relevance.json",
   "historical_configuration_observations": {
     "path": "data/observations.json",
-    "count": 209
+    "count": 223
   },
   "direct_product_observations": {
     "path": "data/evidence/public-product-observations.json",
@@ -15,13 +15,13 @@
   },
   "cross_product_family_observations": {
     "path": "data/evidence/public-family-observations.json",
-    "count": 47
+    "count": 49
   },
   "practitioner_user_signals": {
     "path": "data/evidence/public-user-signals.json",
     "count": 6
   },
-  "total_preserved_evidence_records": 469,
+  "total_preserved_evidence_records": 485,
   "scoring": {
     "index": "data/task-scores/index.json",
     "version": "product-task-v1.7",
@@ -232,7 +232,7 @@
   "interpretation": "Capability evidence proves fit but does not create P(success). Family benchmarks update priors only. Direct product evidence is kept separate from historical exact model+harness+configuration evidence.",
   "pending_rescore": {
     "required": true,
-    "reason": "EmbedEval plus AutoHIL family evidence added after product-task-v1.7. AutoHIL adds direct industrial HIL task evidence (89.69%/84.00% functional correctness on two ECUs).",
+    "reason": "Major verification/embedded batch after v1.7: EmbedEval, AutoHIL and SWE-Mutation; 14 exact SWE-Mutation model×harness observations added.",
     "target_version": "product-task-v1.8"
   }
 }
