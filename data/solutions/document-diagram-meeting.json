@@ -1,0 +1,320 @@
+[
+  {
+    "id": "eraser",
+    "name": "Eraser",
+    "vendor": "Eraser",
+    "category": "diagram-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "vscode",
+      "mcp",
+      "api"
+    ],
+    "capabilities": [
+      "diagram-generation",
+      "codebase-diagrams",
+      "diagram-as-code",
+      "architecture",
+      "sequence",
+      "mcp"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitLab",
+      "Confluence",
+      "MCP"
+    ],
+    "official_url": "https://docs.eraser.io/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "lucid-ai",
+    "name": "Lucidchart + Lucid AI",
+    "vendor": "Lucid",
+    "category": "diagram-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "diagram-generation",
+      "uml",
+      "sequence",
+      "data-linking",
+      "collaboration"
+    ],
+    "integrations": [
+      "Excel",
+      "CSV",
+      "Microsoft Graph",
+      "Copilot"
+    ],
+    "official_url": "https://www.lucidchart.com/pages/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "miro-ai",
+    "name": "Miro AI",
+    "vendor": "Miro",
+    "category": "diagram-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "diagram-generation",
+      "uml",
+      "sequence",
+      "flowcharts",
+      "collaboration"
+    ],
+    "integrations": [
+      "Confluence",
+      "Microsoft ecosystem"
+    ],
+    "official_url": "https://miro.com/ai/diagram-ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "mistral-document-ai",
+    "name": "Mistral Document AI",
+    "vendor": "Mistral AI",
+    "category": "document-ai",
+    "status": "active",
+    "deployment": [
+      "api",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "studio"
+    ],
+    "capabilities": [
+      "ocr",
+      "structured-extraction",
+      "document-qna",
+      "pdf",
+      "docx",
+      "pptx",
+      "tables"
+    ],
+    "integrations": [
+      "Mistral API"
+    ],
+    "official_url": "https://docs.mistral.ai/studio/document-processing/overview",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "azure-document-intelligence",
+    "name": "Azure AI Document Intelligence",
+    "vendor": "Microsoft",
+    "category": "document-ai",
+    "status": "active",
+    "deployment": [
+      "azure",
+      "api"
+    ],
+    "surfaces": [
+      "api",
+      "studio"
+    ],
+    "capabilities": [
+      "ocr",
+      "structured-extraction",
+      "document-processing",
+      "tables"
+    ],
+    "integrations": [
+      "Azure"
+    ],
+    "official_url": "https://azure.microsoft.com/products/ai-services/ai-document-intelligence",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "google-document-ai",
+    "name": "Google Document AI",
+    "vendor": "Google Cloud",
+    "category": "document-ai",
+    "status": "active",
+    "deployment": [
+      "google-cloud",
+      "api"
+    ],
+    "surfaces": [
+      "api",
+      "console"
+    ],
+    "capabilities": [
+      "ocr",
+      "structured-extraction",
+      "document-processing"
+    ],
+    "integrations": [
+      "Google Cloud"
+    ],
+    "official_url": "https://cloud.google.com/document-ai",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "aws-textract",
+    "name": "Amazon Textract",
+    "vendor": "Amazon Web Services",
+    "category": "document-ai",
+    "status": "active",
+    "deployment": [
+      "aws",
+      "api"
+    ],
+    "surfaces": [
+      "api",
+      "console"
+    ],
+    "capabilities": [
+      "ocr",
+      "forms",
+      "tables",
+      "structured-extraction"
+    ],
+    "integrations": [
+      "AWS"
+    ],
+    "official_url": "https://aws.amazon.com/textract/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "teams-copilot",
+    "name": "Microsoft Teams Copilot / Intelligent Recap",
+    "vendor": "Microsoft",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "teams"
+    ],
+    "capabilities": [
+      "meeting-transcription",
+      "meeting-summary",
+      "action-items",
+      "recap",
+      "meeting-qa"
+    ],
+    "integrations": [
+      "Teams",
+      "OneDrive",
+      "SharePoint"
+    ],
+    "official_url": "https://support.microsoft.com/en-us/teams/meetings/recap-in-microsoft-teams",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "fireflies",
+    "name": "Fireflies.ai",
+    "vendor": "Fireflies.ai",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "meeting-bot"
+    ],
+    "capabilities": [
+      "meeting-transcription",
+      "meeting-summary",
+      "action-items",
+      "meeting-search",
+      "workflow"
+    ],
+    "integrations": [
+      "Microsoft Teams",
+      "Zoom",
+      "Google Meet"
+    ],
+    "official_url": "https://fireflies.ai/integrations/videoconferencing/microsoft-teams",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "otter",
+    "name": "Otter.ai",
+    "vendor": "Otter.ai",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "mobile",
+      "meeting-bot"
+    ],
+    "capabilities": [
+      "meeting-transcription",
+      "meeting-summary",
+      "action-items",
+      "meeting-search"
+    ],
+    "integrations": [
+      "Microsoft Teams",
+      "Zoom",
+      "Google Meet"
+    ],
+    "official_url": "https://otter.ai/integration/microsoft-teams",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "read-ai",
+    "name": "Read AI",
+    "vendor": "Read AI",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "meeting-bot"
+    ],
+    "capabilities": [
+      "meeting-transcription",
+      "meeting-summary",
+      "action-items",
+      "enterprise-search",
+      "chat-channel-summary"
+    ],
+    "integrations": [
+      "Microsoft Teams",
+      "Zoom",
+      "Google Meet"
+    ],
+    "official_url": "https://www.read.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  }
+]
