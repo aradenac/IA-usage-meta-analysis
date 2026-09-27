@@ -1375,5 +1375,22 @@
     "independence_cluster": "chatgpt-study-mode-rct-2026",
     "source": "https://openai.com/index/understanding-ai-and-learning-outcomes/",
     "notes": "Over 300 college students. Microeconomics study-mode access produced roughly 15% higher exam scores relative to no-AI control; neuroscience differences were directionally positive but not statistically distinguishable. Kept as learning-outcome evidence, not engineering-task P(success)."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-cursor-espressif-zephyr-field-2026",
+    "solution_id": "cursor",
+    "family": "embedded-agent-field",
+    "benchmark": "Espressif Zephyr IoT agent workflow field report",
+    "version": "2026-06-15",
+    "evidence_type": "vendor-engineer-field-report",
+    "metric": "successful end-to-end embedded workflow",
+    "value": 1,
+    "probability_proxy": null,
+    "n": 1,
+    "source_grade": "C",
+    "independence_cluster": "espressif-zephyr-cursor-2026",
+    "source": "https://developer.espressif.com/blog/2026/06/zephyr-coding-with-ai/",
+    "notes": "Espressif senior software manager reports an end-to-end Cursor-assisted Zephyr C/ESP32 provisioning experiment. The useful evidence is qualitative/process-oriented: explicit specs and boundaries, plan→execute→commit→bench-test loops, reference implementations and proof-before-product. Single project; no pass-rate or time-saving metric."
   }
 ]
