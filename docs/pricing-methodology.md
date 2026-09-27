@@ -123,3 +123,99 @@ The dataset is designed to support scenarios such as:
 - negotiated enterprise discount ranges.
 
 The future MetaScore should use expected total cost under a declared scenario, not the cheapest advertised entry plan.
+
+
+## Reference scoring normalization currently used
+
+The pricing catalog stores the vendor's commercial function. The current `product-task-v1.2` scorer then needs one reproducible reference scenario in order to allocate a fixed subscription to a task.
+
+This normalization is a **scenario assumption**, not an accounting rule and not a claim about the contract a company would actually sign.
+
+### Reference organization
+
+Current point scenario:
+
+- 50 users / engineers;
+- 80 AI-eligible engineering hours per licensed user per month;
+- low-cost sensitivity: 120 AI-eligible hours/month;
+- high-cost sensitivity: 40 AI-eligible hours/month.
+
+For a task whose human-only reference duration is `H` hours:
+
+`allocated fixed license cost = normalized monthly per-user cost / 80 × H`
+
+Sensitivity bounds use 120 h/month for the low allocated cost and 40 h/month for the high allocated cost.
+
+This allocation prevents a 20 €/month seat from being treated as either “free” or as a full 20 € charge on every task.
+
+### Reference plan selection
+
+When several current public non-metered plans exist, the current baseline scorer selects an enterprise-usable public purchase path in this preference order:
+
+1. Enterprise when an exact public amount exists;
+2. Business;
+3. Team / Teams;
+4. Standard;
+5. Pro;
+6. Premium / Core / Max / Starter;
+7. free/open-source only when no paid enterprise-usable public plan is applicable.
+
+A custom Enterprise row with no published amount does not erase a lower public Business/Team price. The public plan remains a reproducible baseline, while the custom contract remains represented separately as an uncertainty.
+
+Organization/workspace/team/site subscriptions are divided by the 50-user reference organization. Project subscriptions are divided by 10 reference users/project in the current point scenario.
+
+This rule is intentionally simple. A later scenario optimizer should select the economically valid tier from team size, included quotas, minimum seats and negotiated terms rather than using this baseline heuristic.
+
+## Quote-only sensitivity bands
+
+When no usable vendor amount exists, the following coarse ranges were used as **initial sensitivity priors only**. Individual records may use a more specific range where better evidence exists.
+
+| Category | Low | Typical | High | Unit |
+| --- | ---: | ---: | ---: | --- |
+| Sovereign/private AI platform | $100k | $500k | $2m | organization/year |
+| Specialist HIL/SIL engineering tool | $5k | $15k | $50k | engineering seat/year |
+| Embedded static analysis / verification | $1k | $3k | $8k | engineering seat/year |
+| Requirements / ALM / compliance platform | $25k | $100k | $300k | organization/year |
+| AppSec/security AI | $25 | $80 | $200 | contributing developer/month |
+| Enterprise knowledge/workflow/observability/DevOps platform | $25k | $100k | $300k | organization/year |
+| Documentation/meeting/research SaaS | $15 | $40 | $100 | user/month |
+| Architecture/modeling add-on | $1k | $3k | $10k | engineering seat/year |
+| General developer AI tooling | $20 | $60 | $150 | user/month |
+
+These values are never written into vendor `plans`; they live only in `estimated_enterprise_cost` with low monetary confidence.
+
+## Variable inference and BYOK
+
+For products with published token/page/compute rates, task cost uses the published unit price and the task workload model.
+
+For BYOK or self-hosted products:
+
+1. prefer an empirical API cost measured for the same harness on relevant historical observations;
+2. otherwise use the current generic sensitivity proxy of **$2/M input tokens + $10/M output tokens**;
+3. widen that external-inference proxy to roughly **0.35×–3×** in the sensitivity interval.
+
+The generic proxy is a fallback cost prior, not a model recommendation.
+
+Self-hosted/open-source software therefore has zero software-license cost but not zero TCO.
+
+## FX normalization
+
+The scoring snapshot uses ECB reference rates for **2026-09-25**:
+
+- 1 EUR = 1.1403 USD;
+- 1 EUR = 7.6551 CNY.
+
+All converted values keep the original currency and source in the pricing record. FX affects only the economic scenario.
+
+## Prerequisites and bundles
+
+The scorer must apply the catalog's `commercial_bundle_id`, `marginal_cost_rule` and `prerequisite_costs` before evaluating a stack.
+
+Examples:
+
+- one Microsoft 365 Copilot entitlement can cover several catalog capabilities;
+- one JetBrains AI entitlement can cover Junie and AI Assistant;
+- an open-source harness may require separately priced model inference;
+- Sentry Seer, Grafana AI, Datadog Bits, New Relic Autopilot, Dynatrace Assist and similar add-ons require their underlying observability platform.
+
+The current per-solution score is therefore a **marginal single-solution scenario**. A future portfolio optimizer must cost the shared prerequisite/bundle once across all tasks that use it.
