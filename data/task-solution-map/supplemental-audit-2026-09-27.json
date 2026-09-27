@@ -721,7 +721,8 @@
       "cursor-bugbot",
       "checkmarx-assist",
       "veracode-fix",
-      "mend-sast-ai"
+      "mend-sast-ai",
+      "pr-agent"
     ],
     "direct": [
       "kilo-code",
@@ -741,7 +742,8 @@
       "cursor-bugbot",
       "checkmarx-assist",
       "veracode-fix",
-      "mend-sast-ai"
+      "mend-sast-ai",
+      "pr-agent"
     ],
     "direct": [
       "kilo-code",
@@ -2095,7 +2097,8 @@
       "cursor-bugbot",
       "checkmarx-assist",
       "veracode-fix",
-      "mend-sast-ai"
+      "mend-sast-ai",
+      "pr-agent"
     ],
     "direct": [
       "kilo-code",
