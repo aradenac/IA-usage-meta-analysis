@@ -238,6 +238,32 @@
       "dev-driver-datasheet": 0.3,
       "debug-hw-sw": 0.4,
       "verify-integration": 0.3
+    },
+    "requirements-change-impact": {
+      "req-change-impact": 1,
+      "req-system-impact": 0.65,
+      "req-traceability": 0.55,
+      "process-evidence": 0.35
+    },
+    "requirements-generation": {
+      "req-write-sw": 1,
+      "req-decompose": 0.55,
+      "req-system-impact": 0.45,
+      "req-review": 0.3
+    },
+    "architecture-generation": {
+      "arch-diagram": 1,
+      "arch-software": 0.9,
+      "arch-detailed-design": 0.75,
+      "arch-review": 0.45,
+      "req-system-impact": 0.3
+    },
+    "technical-document-qa": {
+      "doc-datasheet": 1,
+      "research-docs": 0.9,
+      "research-multidoc": 0.8,
+      "doc-vendor-diff": 0.65,
+      "learn-explain": 0.45
     }
   }
 }
