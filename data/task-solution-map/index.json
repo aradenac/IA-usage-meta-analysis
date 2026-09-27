@@ -18,7 +18,8 @@
     "data/task-solution-map/learning-research.json",
     "data/task-solution-map/supplemental-audit-2026-09-27.json",
     "data/task-solution-map/third-pass-audit-2026-09-27.json",
-    "data/task-solution-map/observability-devops-audit-2026-09-27.json"
+    "data/task-solution-map/observability-devops-audit-2026-09-27.json",
+    "data/task-solution-map/evidence-audit-corrections-2026-09-27.json"
   ],
   "relationship_types": {
     "native": "First-class product workflow for the task.",
@@ -34,12 +35,13 @@
     "legacy_or_discontinued_active_refs": [],
     "eval_only_refs_in_active_map": [],
     "duplicate_solution_ids": [],
-    "historical_observed_configurations": 138
+    "historical_observed_configurations": 138,
+    "mapping_audit_note": "Evidence audit added missing active mappings for PenguinHarness and Open WebUI and corrected Parasoft/VectorCAST specialist task relations. Continue remains intentionally historical-only."
   },
   "candidate_count": {
     "min": 35,
     "max": 70,
-    "average": 50.5
+    "average": 51
   },
-  "inventory_status": "extended multi-pass inventory complete; availability mapping only; no scoring"
+  "inventory_status": "extended inventory plus evidence-audit mapping corrections; availability mapping only; scoring maintained separately"
 }
