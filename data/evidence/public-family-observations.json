@@ -793,5 +793,35 @@
     "source_grade": "B",
     "source": "https://papers.ssrn.com/sol3/Delivery.cfm/21ac8522-ff09-40f7-9345-67663af0f9c5-MECA.pdf?abstractid=7153923&mirid=1",
     "notes": "25 explicit verification rules from industrial automotive RSP practice; 80 clean + 80 defect-injected production requirements; >8,000 inferences across five LLMs and three prompting strategies. GPT-5-Mini and DeepSeek-V4-Flash report zero false positives and F1 >0.96. Narrow rule-based task, therefore kept separate from open-ended requirements quality review."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-hardsecbench-security-median-2026",
+    "family": "embedded-secure-code-generation",
+    "benchmark": "HardSecBench",
+    "version": "IJCAI 2026",
+    "evidence_type": "peer-reviewed-execution-grounded-benchmark",
+    "metric": "median single-attempt security requirement pass rate across 18 evaluated models",
+    "value": 0.33565,
+    "probability_proxy": 0.33565,
+    "n": 924,
+    "source_grade": "A",
+    "source": "https://arxiv.org/abs/2601.13864",
+    "notes": "924 tasks: 599 Verilog + 325 firmware-C, spanning 76 hardware-relevant CWE entries and 4,425 executable test cases. Median across the 18 published model rows is 33.565% security pass@1 despite median functional pass@1 around 88.195%. Used as a family security-awareness prior, not as direct performance of any catalog product."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-hardsecbench-functional-security-gap-2026",
+    "family": "embedded-secure-code-generation",
+    "benchmark": "HardSecBench",
+    "version": "IJCAI 2026",
+    "evidence_type": "peer-reviewed-execution-grounded-benchmark",
+    "metric": "median single-attempt functional requirement pass rate across 18 evaluated models",
+    "value": 0.88195,
+    "probability_proxy": null,
+    "n": 924,
+    "source_grade": "A",
+    "source": "https://arxiv.org/abs/2601.13864",
+    "notes": "Supporting contrast: median functional pass@1 is ~88.195% while median security pass@1 is ~33.565%. This demonstrates that functional success must not be treated as evidence of secure firmware/code generation."
   }
 ]
