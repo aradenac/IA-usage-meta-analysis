@@ -37,7 +37,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | Debug / upstream | 10 | complete | 10/10 tasks explicitly searched; 3 new connected/observability solutions added; embedded agents remapped. |
 | Verification | 11 | complete | 11/11 tasks explicitly searched; corrected baseline count from 12 to 11; 4 industrial verification solutions added. |
 | Safety / cyber | 10 | complete | 10/10 tasks explicitly searched; 8 product-security, safety and assessment solutions added. |
-| CI / tooling / release | 8 | pending | |
+| CI / tooling / release | 8 | complete | 8/8 tasks explicitly searched; 4 agentic CI/container solutions added and existing tools remapped. |
 | Documentation | 5 | pending | |
 | Collaboration | 8 | pending | |
 | Learning / research | 12 | pending | |
@@ -236,3 +236,29 @@ Research prototypes such as AutoTARA were not promoted into the production inven
 Change log:
 - 2026-09-28 — safety/cyber domain completed; canonical inventory increased from 189 to 197 solutions.
 - 2026-09-28 — website snapshot regenerated from the 197-solution inventory.
+
+## CI / tooling / release-domain audit
+
+Status: **complete (8/8 tasks searched explicitly)**.
+
+New solutions accepted:
+
+- **Docker Gordon** — GA Docker-native AI agent for Dockerfile generation, failed-build/container diagnosis and approved Docker actions in Docker Desktop and `docker ai`.
+  - https://docs.docker.com/ai/gordon
+- **GitHub Agentic Workflows** — public-preview natural-language automations compiled into hardened GitHub Actions workflows, with Copilot, Claude, Codex or Gemini engines and explicit permissions/safe outputs.
+  - https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows
+- **Buildkite AI Agents + MCP** — Buildkite agent skills, remote/local MCP tools and agentic pipeline steps for build failure analysis, pipeline maintenance, logs/tests and CI automation.
+  - https://buildkite.com/docs/platform/ai-agents
+  - https://buildkite.com/docs/apis/mcp-server
+- **CircleCI MCP + Agent Skills** — hosted/CLI MCP and reusable skills for failed-build diagnosis, config optimization, test/log analysis and workflow reruns/cancellation.
+  - https://circleci.com/docs/guides/toolkit/circleci-mcp-overview/
+  - https://circleci.com/docs/guides/toolkit/circleci-agent-skills/
+
+Existing products were also remapped where current first-party capabilities had advanced:
+- **GitHub Copilot** now supports CI investigation and GitHub Actions agentic automation.
+- **Atlassian Rovo** now drafts Jira release notes natively.
+- Embedded-specific agents (Embedder, Hydron, MPLAB AI Coding Assistant, TASKING) were mapped to build/toolchain diagnosis where their toolchain-aware workflows apply.
+
+Change log:
+- 2026-09-28 — CI/tooling/release domain completed; inventory increased from 197 to 201 solutions.
+- 2026-09-28 — website snapshot regenerated from the 201-solution inventory.
