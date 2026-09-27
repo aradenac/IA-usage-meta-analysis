@@ -93,7 +93,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -189,7 +189,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -285,7 +285,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -381,7 +381,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -477,7 +477,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -573,7 +573,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -677,7 +677,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -788,7 +788,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -912,7 +912,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1008,7 +1008,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1104,7 +1104,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1200,7 +1200,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1296,7 +1296,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1392,7 +1392,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1488,7 +1488,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1584,7 +1584,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1680,7 +1680,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1776,7 +1776,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1872,7 +1872,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -1968,7 +1968,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2064,7 +2064,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2160,7 +2160,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2256,7 +2256,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2352,7 +2352,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2448,7 +2448,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2544,7 +2544,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2640,7 +2640,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2736,7 +2736,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2832,7 +2832,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -2928,7 +2928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -3024,7 +3024,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -3120,7 +3120,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -3216,7 +3216,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -3312,7 +3312,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -3408,7 +3408,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-backlog",
@@ -3504,7 +3504,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -3534,15 +3534,17 @@
       "secondary_adjustment": 0
     },
     "human_active_minutes": {
-      "point": 10.2,
-      "low": 3.6125,
-      "high": 29.325,
+      "point": 9.442649999999999,
+      "low": 3.344271875,
+      "high": 27.14761875,
       "baseline": 12,
       "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
+      "evidence_factor": 0.92575,
+      "observations": [
+        "prod-rovo-jira-start-work-2026"
+      ],
       "family_observations": [],
-      "grade": "D"
+      "grade": "C"
     },
     "service_cost_eur_attempt": {
       "point": 0,
@@ -3560,19 +3562,19 @@
       "high": 125
     },
     "expected_cost_success_eur": {
-      "point": 13.575881074129308,
-      "low": 3.7344968596793535,
-      "high": 54.77904422369351
+      "point": 12.567871904375206,
+      "low": 3.4572104678481614,
+      "high": 50.71170019008428
     },
     "meta_score": {
-      "point": 82.15481584642995,
-      "low": 27.552808159776273,
-      "high": 97.09907060595424
+      "point": 83.25798829040376,
+      "low": 29.119188722602686,
+      "high": 97.308667644847
     },
     "profitability_factor": {
-      "point": 4.603752762618278,
-      "low": 0.38031575082360275,
-      "high": 33.47171110239803
+      "point": 4.972997853219852,
+      "low": 0.4108190665121282,
+      "high": 36.156317690951155
     },
     "pricing": {
       "status": "public_partial",
@@ -3583,10 +3585,18 @@
     },
     "evidence": {
       "success_grade": "D",
-      "human_time_grade": "D",
+      "human_time_grade": "C",
       "cost_grade": "A",
       "meta_confidence_grade": "D",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-rovo-jira-start-work-2026",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-field-telemetry",
+          "metric": "time to start work reduction"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
@@ -3597,10 +3607,10 @@
     },
     "prior_driven": {
       "success": true,
-      "human_time": true,
+      "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -3696,7 +3706,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -3792,7 +3802,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -3888,7 +3898,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -3984,7 +3994,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4080,7 +4090,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4184,7 +4194,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4295,7 +4305,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4419,7 +4429,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4515,7 +4525,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4527,9 +4537,9 @@
     "category": "technical-knowledge-ai",
     "relationship": "connected",
     "success_probability": {
-      "point": 0.5073088568387323,
-      "low": 0.3273088568387323,
-      "high": 0.6873088568387322,
+      "point": 0.5339856937541165,
+      "low": 0.35398569375411654,
+      "high": 0.7139856937541165,
       "relationship_prior": 0.52,
       "family_prior": 0.5073088568387323,
       "family_prior_weight": 0.6935682558937353,
@@ -4538,9 +4548,11 @@
         "fam-workflow-automationbench-public-2026"
       ],
       "grade": "D",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
+      "clusters": 1,
+      "weight": 0.11700000000000002,
+      "observations": [
+        "prod-kapa-tech-accuracy-2026"
+      ],
       "prior_driven": true,
       "secondary_adjustment": 0
     },
@@ -4571,19 +4583,19 @@
       "high": 125
     },
     "expected_cost_success_eur": {
-      "point": 22.318065045817193,
-      "low": 5.676415224573449,
-      "high": 109.18441616756597
+      "point": 21.20310000376055,
+      "low": 5.464325816431751,
+      "high": 100.95613204423414
     },
     "meta_score": {
-      "point": 73.68713253036205,
-      "low": 16.023453269500898,
-      "high": 95.65612875527825
+      "point": 74.66868012916134,
+      "low": 17.106022486219608,
+      "high": 95.81163219735619
     },
     "profitability_factor": {
-      "point": 2.800421984239786,
-      "low": 0.19080867091289197,
-      "high": 22.02094016288124
+      "point": 2.9476821780265667,
+      "low": 0.20636025679158515,
+      "high": 22.87564911010852
     },
     "pricing": {
       "status": "contact_sales",
@@ -4597,21 +4609,38 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "D",
-      "direct_product_observations": [],
-      "success_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-kapa-tech-accuracy-2026",
+          "grade": "D",
+          "family": "documentation-assistant",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "technical answer accuracy"
+        },
+        {
+          "id": "prod-kapa-support-deflection-2026",
+          "grade": "D",
+          "family": "documentation-assistant",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "support request deflection"
+        }
+      ],
+      "success_observations": [
+        "prod-kapa-tech-accuracy-2026"
+      ],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
         "fam-workflow-automationbench-public-2026"
       ],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
+      "independent_success_clusters": 1,
+      "success_coverage_weight": 0.11700000000000002
     },
     "prior_driven": {
       "success": true,
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4707,7 +4736,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4811,7 +4840,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -4907,7 +4936,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5003,7 +5032,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5099,7 +5128,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5195,7 +5224,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5291,7 +5320,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5387,7 +5416,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5483,7 +5512,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5579,7 +5608,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5675,7 +5704,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5771,7 +5800,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5867,7 +5896,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -5963,7 +5992,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6059,7 +6088,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6155,7 +6184,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6251,7 +6280,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6347,7 +6376,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6443,7 +6472,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6539,7 +6568,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6635,7 +6664,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6731,7 +6760,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6827,7 +6856,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -6923,7 +6952,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -7019,7 +7048,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -7115,7 +7144,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -7211,7 +7240,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-confluence",
@@ -7307,7 +7336,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -7337,13 +7366,15 @@
       "secondary_adjustment": 0
     },
     "human_active_minutes": {
-      "point": 8.5,
-      "low": 2.1675,
-      "high": 29.325,
+      "point": 8.041,
+      "low": 2.0504549999999995,
+      "high": 27.741449999999997,
       "baseline": 10,
       "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
+      "evidence_factor": 0.946,
+      "observations": [
+        "prod-rovo-jira-start-work-2026"
+      ],
       "family_observations": [],
       "grade": "D"
     },
@@ -7363,19 +7394,19 @@
       "high": 133.33333333333331
     },
     "expected_cost_success_eur": {
-      "point": 11.37114911054756,
-      "low": 2.2495972341305324,
-      "high": 55.17343287109322
+      "point": 10.757107058577992,
+      "low": 2.128118983487483,
+      "high": 52.19406749605418
     },
     "meta_score": {
-      "point": 81.47150692898911,
-      "low": 23.199670899546145,
-      "high": 98.34079612771671
+      "point": 82.29489918240067,
+      "low": 24.203440275967175,
+      "high": 98.42898555486458
     },
     "profitability_factor": {
-      "point": 4.397092986285916,
-      "low": 0.3020777537190143,
-      "high": 59.26986898384348
+      "point": 4.648089837511538,
+      "low": 0.31932109272623077,
+      "high": 62.6531384607225
     },
     "pricing": {
       "status": "public_partial",
@@ -7389,7 +7420,15 @@
       "human_time_grade": "D",
       "cost_grade": "A",
       "meta_confidence_grade": "D",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-rovo-jira-start-work-2026",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-field-telemetry",
+          "metric": "time to start work reduction"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
@@ -7400,10 +7439,10 @@
     },
     "prior_driven": {
       "success": true,
-      "human_time": true,
+      "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -7499,7 +7538,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -7595,7 +7634,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -7691,7 +7730,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -7787,7 +7826,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -7883,7 +7922,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -7987,7 +8026,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8098,7 +8137,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8222,7 +8261,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8318,7 +8357,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8422,7 +8461,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8526,7 +8565,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8622,7 +8661,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8718,7 +8757,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8814,7 +8853,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -8910,7 +8949,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9006,7 +9045,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9102,7 +9141,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9198,7 +9237,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9294,7 +9333,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9390,7 +9429,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9486,7 +9525,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9582,7 +9621,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9678,7 +9717,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9774,7 +9813,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9870,7 +9909,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -9966,7 +10005,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10062,7 +10101,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10158,7 +10197,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10254,7 +10293,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10350,7 +10389,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10446,7 +10485,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10542,7 +10581,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10638,7 +10677,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10734,7 +10773,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10830,7 +10869,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -10926,7 +10965,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-jira",
@@ -11022,7 +11061,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11124,7 +11163,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11226,7 +11265,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11328,7 +11367,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11430,7 +11469,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11532,7 +11571,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11634,7 +11673,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11724,7 +11763,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11814,7 +11853,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11904,7 +11943,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -11994,7 +12033,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12084,7 +12123,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12174,7 +12213,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12264,7 +12303,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12354,7 +12393,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12444,7 +12483,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12534,7 +12573,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12624,7 +12663,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12714,7 +12753,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12804,7 +12843,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12894,7 +12933,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -12984,7 +13023,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13074,7 +13113,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13164,7 +13203,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13254,7 +13293,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13344,7 +13383,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13434,7 +13473,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13524,7 +13563,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13614,7 +13653,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13704,7 +13743,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13794,7 +13833,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13884,7 +13923,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -13974,7 +14013,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14064,7 +14103,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14154,7 +14193,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14244,7 +14283,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14334,7 +14373,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14424,7 +14463,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14514,7 +14553,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14604,7 +14643,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14694,7 +14733,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14784,7 +14823,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14874,7 +14913,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -14964,7 +15003,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-meeting",
@@ -15054,7 +15093,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15150,7 +15189,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15246,7 +15285,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15342,7 +15381,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15438,7 +15477,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15534,7 +15573,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15630,7 +15669,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15734,7 +15773,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15845,7 +15884,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15969,7 +16008,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16065,7 +16104,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16169,7 +16208,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16265,7 +16304,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16361,7 +16400,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16457,7 +16496,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16553,7 +16592,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16649,7 +16688,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16745,7 +16784,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16841,7 +16880,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16937,7 +16976,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17033,7 +17072,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17129,7 +17168,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17225,7 +17264,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17321,7 +17360,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17417,7 +17456,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17513,7 +17552,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17609,7 +17648,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17705,7 +17744,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17801,7 +17840,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17897,7 +17936,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17993,7 +18032,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18089,7 +18128,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18185,7 +18224,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18281,7 +18320,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18377,7 +18416,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18473,7 +18512,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18569,7 +18608,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18665,7 +18704,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18761,7 +18800,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -18773,15 +18812,16 @@
     "category": "enterprise-knowledge",
     "relationship": "native",
     "success_probability": {
-      "point": 0.6261103757160859,
-      "low": 0.44611037571608586,
-      "high": 0.8061103757160859,
+      "point": 0.6461954556885289,
+      "low": 0.4661954556885289,
+      "high": 0.8261954556885289,
       "relationship_prior": 0.68,
-      "family_prior": 0.6261103757160859,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.6461954556885289,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -18791,15 +18831,17 @@
       "secondary_adjustment": 0
     },
     "human_active_minutes": {
-      "point": 12.75,
-      "low": 3.6125,
-      "high": 43.9875,
+      "point": 11.2869375,
+      "low": 3.1979656249999997,
+      "high": 38.939934375,
       "baseline": 15,
       "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
+      "evidence_factor": 0.88525,
+      "observations": [
+        "prod-rovo-jira-start-work-2026"
+      ],
       "family_observations": [],
-      "grade": "D"
+      "grade": "C"
     },
     "service_cost_eur_attempt": {
       "point": 0,
@@ -18817,19 +18859,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 16.969851342661634,
-      "low": 3.7344968596793535,
-      "high": 82.16856633554026
+      "point": 14.555628900203313,
+      "low": 3.225594301950925,
+      "high": 69.60588078786469
     },
     "meta_score": {
-      "point": 81.54846278979478,
-      "low": 23.327735785627713,
-      "high": 98.16697863285692
+      "point": 83.74682967563832,
+      "low": 26.425418580540086,
+      "high": 98.41280114690753
     },
     "profitability_factor": {
-      "point": 4.419602652113547,
-      "low": 0.30425260065888216,
-      "high": 53.55473776383685
+      "point": 5.152645791825072,
+      "low": 0.35916505497849516,
+      "high": 62.004077784684426
     },
     "pricing": {
       "status": "public_partial",
@@ -18840,24 +18882,33 @@
     },
     "evidence": {
       "success_grade": "D",
-      "human_time_grade": "D",
+      "human_time_grade": "C",
       "cost_grade": "A",
       "meta_confidence_grade": "D",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-rovo-jira-start-work-2026",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-field-telemetry",
+          "metric": "time to start work reduction"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
     },
     "prior_driven": {
       "success": true,
-      "human_time": true,
+      "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -18869,15 +18920,16 @@
     "category": "enterprise-agent-platform",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -18913,19 +18965,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 22.71028722652071,
-      "low": 4.869228424347468,
-      "high": 116.14811699488824
+      "point": 21.69342685237232,
+      "low": 4.702998651863681,
+      "high": 108.59391940467003
     },
     "meta_score": {
-      "point": 76.75752689799009,
-      "low": 17.711890553173575,
-      "high": 97.62325046967923
+      "point": 77.56473468926386,
+      "low": 18.713426562680873,
+      "high": 97.70252576521264
     },
     "profitability_factor": {
-      "point": 3.3024681393028,
-      "low": 0.21524240467109998,
-      "high": 41.07426938525733
+      "point": 3.4572684394396753,
+      "low": 0.23021546820534858,
+      "high": 42.526059394200544
     },
     "pricing": {
       "status": "public_partial",
@@ -18958,7 +19010,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -18968,7 +19021,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -18980,15 +19033,16 @@
     "category": "enterprise-knowledge",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -19024,19 +19078,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 22.990456251436704,
-      "low": 4.873431342033217,
-      "high": 124.1396525689843
+      "point": 21.961051219589393,
+      "low": 4.7070580868474945,
+      "high": 116.0656907299954
     },
     "meta_score": {
-      "point": 76.53806591894542,
-      "low": 16.762812283229835,
-      "high": 97.62124775764745
+      "point": 77.3506465293432,
+      "low": 17.722239809430956,
+      "high": 97.70058827925195
     },
     "profitability_factor": {
-      "point": 3.2622232103511712,
-      "low": 0.2013860960832601,
-      "high": 41.03884634118168
+      "point": 3.41513706470934,
+      "low": 0.21539526317176463,
+      "high": 42.48938430542038
     },
     "pricing": {
       "status": "contact_sales",
@@ -19054,7 +19108,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -19064,7 +19119,115 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "collab-status",
+    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
+    "domain": "collaboration",
+    "solution_id": "m365-copilot",
+    "solution_name": "Microsoft 365 Copilot",
+    "vendor": "Microsoft",
+    "category": "productivity-ai",
+    "relationship": "direct",
+    "success_probability": {
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
+      "relationship_prior": 0.58,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "grade": "D",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 14.676,
+      "low": 4.1582,
+      "high": 50.6322,
+      "baseline": 15,
+      "relationship_factor": 1,
+      "evidence_factor": 0.9784,
+      "observations": [
+        "prod-m365-rct-doc-time-2025"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 0.48750000000000004,
+      "low": 0.325,
+      "high": 0.9750000000000001,
+      "fixed_point": 0.48750000000000004,
+      "variable_point": 0,
+      "fixed_basis": "Microsoft 365 Copilot",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 25,
+      "high": 200
+    },
+    "expected_cost_success_eur": {
+      "point": 22.012978828384487,
+      "low": 5.002019063224247,
+      "high": 108.53792082919699
+    },
+    "meta_score": {
+      "point": 77.30924347006668,
+      "low": 18.721273960807356,
+      "high": 97.56001473249803
+    },
+    "profitability_factor": {
+      "point": 3.4070809127973067,
+      "low": 0.23033424455717907,
+      "high": 39.98385401415927
+    },
+    "pricing": {
+      "status": "public_exact",
+      "grade": "A",
+      "model_confidence": 0.97,
+      "monetary_confidence": 0.97,
+      "bundle_id": "microsoft-365-copilot-seat"
+    },
+    "evidence": {
+      "success_grade": "D",
+      "human_time_grade": "C",
+      "cost_grade": "A",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [
+        {
+          "id": "prod-m365-rct-doc-time-2025",
+          "grade": "B",
+          "family": "office-knowledge-productivity",
+          "type": "randomized-field-experiment",
+          "metric": "document completion time reduction"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": false
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19076,15 +19239,16 @@
     "category": "general-assistant",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -19120,19 +19284,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 23.246609937196872,
-      "low": 5.138838254509593,
-      "high": 117.73998059958313
+      "point": 22.205735542142328,
+      "low": 4.963404317254414,
+      "high": 110.08224924129641
     },
     "meta_score": {
-      "point": 76.33851188142062,
-      "low": 17.51436415711059,
-      "high": 97.49494620412446
+      "point": 77.15594103753754,
+      "low": 18.507242913421354,
+      "high": 97.57839486820205
     },
     "profitability_factor": {
-      "point": 3.226276872310426,
-      "low": 0.21233229250326982,
-      "high": 38.91930239767515
+      "point": 3.3775057735720595,
+      "low": 0.2271029177937751,
+      "high": 40.29492405136827
     },
     "pricing": {
       "status": "public_partial",
@@ -19150,7 +19314,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -19160,7 +19325,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19172,15 +19337,16 @@
     "category": "enterprise-ai-platform",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -19216,19 +19382,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 23.312160490723958,
-      "low": 5.1717905670849635,
-      "high": 117.93454170682361
+      "point": 22.26835104866977,
+      "low": 4.995231676357726,
+      "high": 110.26415622132852
     },
     "meta_score": {
-      "point": 76.28761246384823,
-      "low": 17.490523775056477,
-      "high": 97.47928769701215
+      "point": 77.10627268932785,
+      "low": 18.482353861057828,
+      "high": 97.56324494208525
     },
     "profitability_factor": {
-      "point": 3.2172050303893083,
-      "low": 0.2119819998296014,
-      "high": 38.67132618881904
+      "point": 3.3680086970103797,
+      "low": 0.22672825745674388,
+      "high": 40.03818300292131
     },
     "pricing": {
       "status": "public_exact",
@@ -19246,7 +19412,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -19256,7 +19423,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19268,15 +19435,16 @@
     "category": "general-assistant",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -19312,19 +19480,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 23.395290510878763,
-      "low": 5.213580090760093,
-      "high": 118.18128056555132
+      "point": 22.347758895584125,
+      "low": 5.035594554493289,
+      "high": 110.49484734600563
     },
     "meta_score": {
-      "point": 76.22316028601782,
-      "low": 17.460383020219243,
-      "high": 97.4594370955108
+      "point": 77.04337608885842,
+      "low": 18.450886133078473,
+      "high": 97.54403884582345
     },
     "profitability_factor": {
-      "point": 3.2057733997842495,
-      "low": 0.2115394238441452,
-      "high": 38.361355636303614
+      "point": 3.356041218738039,
+      "low": 0.22625489423696413,
+      "high": 39.71725639061606
     },
     "pricing": {
       "status": "public_partial",
@@ -19342,7 +19510,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -19352,7 +19521,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19364,15 +19533,16 @@
     "category": "general-assistant",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -19408,19 +19578,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 23.39558846794025,
-      "low": 5.213729873999072,
-      "high": 118.1821649342206
+      "point": 22.348043511522885,
+      "low": 5.035739224307395,
+      "high": 110.49567419591484
     },
     "meta_score": {
-      "point": 76.22292947049844,
-      "low": 17.46027517567238,
-      "high": 97.45936596094214
+      "point": 77.04315083756399,
+      "low": 18.450773538240195,
+      "high": 97.54397002036882
     },
     "profitability_factor": {
-      "point": 3.2057325723084498,
-      "low": 0.21153784087400018,
-      "high": 38.3602535676814
+      "point": 3.355998477510088,
+      "low": 0.22625320114951866,
+      "high": 39.71611536884291
     },
     "pricing": {
       "status": "public_partial",
@@ -19438,7 +19608,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -19448,7 +19619,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19460,15 +19631,16 @@
     "category": "enterprise-agent-platform",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -19504,19 +19676,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 23.466120863535394,
-      "low": 5.249186562330172,
-      "high": 118.39151268561135
+      "point": 22.415417796546414,
+      "low": 5.069985462702559,
+      "high": 110.6914061064294
     },
     "meta_score": {
-      "point": 76.16833012437121,
-      "low": 17.434783643584943,
-      "high": 97.44252990706197
+      "point": 76.9898663850507,
+      "low": 18.42415869756061,
+      "high": 97.52768039103184
     },
     "profitability_factor": {
-      "point": 3.1960970641954045,
-      "low": 0.21116378558645077,
-      "high": 38.10114150547886
+      "point": 3.345911313397665,
+      "low": 0.22585312518265951,
+      "high": 39.44784486490221
     },
     "pricing": {
       "status": "public_partial",
@@ -19534,7 +19706,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -19544,103 +19717,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "collab-status",
-    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
-    "domain": "collaboration",
-    "solution_id": "m365-copilot",
-    "solution_name": "Microsoft 365 Copilot",
-    "vendor": "Microsoft",
-    "category": "productivity-ai",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
-      "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "grade": "D",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 15,
-      "low": 4.25,
-      "high": 51.74999999999999,
-      "baseline": 15,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 0.48750000000000004,
-      "low": 0.325,
-      "high": 0.9750000000000001,
-      "fixed_point": 0.48750000000000004,
-      "variable_point": 0,
-      "fixed_basis": "Microsoft 365 Copilot",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 25,
-      "high": 200
-    },
-    "expected_cost_success_eur": {
-      "point": 23.534072950978068,
-      "low": 5.283346127811712,
-      "high": 118.5932018043262
-    },
-    "meta_score": {
-      "point": 76.1158021320335,
-      "low": 17.41029497626732,
-      "high": 97.42631527229577
-    },
-    "profitability_factor": {
-      "point": 3.1868686799869472,
-      "low": 0.21080466350212004,
-      "high": 37.85479791815896
-    },
-    "pricing": {
-      "status": "public_exact",
-      "grade": "A",
-      "model_confidence": 0.97,
-      "monetary_confidence": 0.97,
-      "bundle_id": "microsoft-365-copilot-seat"
-    },
-    "evidence": {
-      "success_grade": "D",
-      "human_time_grade": "D",
-      "cost_grade": "A",
-      "meta_confidence_grade": "D",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": false
-    },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19652,15 +19729,16 @@
     "category": "general-assistant",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -19696,19 +19774,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 23.5374705553502,
-      "low": 5.28505410608579,
-      "high": 118.60328626026192
+      "point": 22.483572783089972,
+      "low": 5.1046285303978145,
+      "high": 110.88940606624499
     },
     "meta_score": {
-      "point": 76.11317763415818,
-      "low": 17.409072348588744,
-      "high": 97.42550468220905
+      "point": 76.93603943597962,
+      "low": 18.397313465195882,
+      "high": 97.51120753979413
     },
     "profitability_factor": {
-      "point": 3.186408659487503,
-      "low": 0.21078673945964901,
-      "high": 37.842564330552094
+      "point": 3.3357687732088532,
+      "low": 0.22544985032262754,
+      "high": 39.180128154087946
     },
     "pricing": {
       "status": "public_exact",
@@ -19726,7 +19804,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -19736,7 +19815,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19748,15 +19827,16 @@
     "category": "meeting-ai",
     "relationship": "connected",
     "success_probability": {
-      "point": 0.5638443687591639,
-      "low": 0.3838443687591639,
-      "high": 0.7438443687591638,
+      "point": 0.5891900579710964,
+      "low": 0.40919005797109637,
+      "high": 0.7691900579710964,
       "relationship_prior": 0.52,
-      "family_prior": 0.5073088568387323,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5366464921015441,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 1,
@@ -19794,19 +19874,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 24.29838303754368,
-      "low": 5.5151603427809395,
-      "high": 120.9663777052242
+      "point": 23.25311885412753,
+      "low": 5.3334295227404205,
+      "high": 113.47358516375337
     },
     "meta_score": {
-      "point": 75.5299308062683,
-      "low": 17.127231896161,
-      "high": 97.3164216529904
+      "point": 76.33345472864784,
+      "low": 18.053984787377313,
+      "high": 97.40255177389429
     },
     "profitability_factor": {
-      "point": 3.086625142262213,
-      "low": 0.20666899740455996,
-      "high": 36.26367821958063
+      "point": 3.2253737862216783,
+      "low": 0.2203155911917525,
+      "high": 37.49932368042919
     },
     "pricing": {
       "status": "public_exact",
@@ -19834,7 +19914,8 @@
       ],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 1,
       "success_coverage_weight": 0.315
@@ -19844,7 +19925,137 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "collab-status",
+    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
+    "domain": "collaboration",
+    "solution_id": "itemis-analyze-ai",
+    "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
+    "vendor": "itemis",
+    "category": "regulated-engineering-ai",
+    "relationship": "connected",
+    "success_probability": {
+      "point": 0.5366464921015441,
+      "low": 0.35664649210154414,
+      "high": 0.7166464921015441,
+      "relationship_prior": 0.52,
+      "family_prior": 0.5366464921015441,
+      "family_prior_weight": 0.9210682558937353,
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "grade": "D",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 12.382268213109377,
+      "low": 3.508309327047656,
+      "high": 42.71882533522734,
+      "baseline": 15,
+      "relationship_factor": 1.05,
+      "evidence_factor": 0.7861757595625001,
+      "observations": [
+        "prod-itemis-aspice-time",
+        "prod-itemis-bauerhin-trace-efficiency"
+      ],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 2.7405068841532936,
+      "low": 0.4567511473588822,
+      "high": 16.443041304919753,
+      "fixed_point": 2.7405068841532936,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 25,
+      "high": 200
+    },
+    "expected_cost_success_eur": {
+      "point": 24.33457391526203,
+      "low": 4.716889415476211,
+      "high": 145.9205784163211
+    },
+    "meta_score": {
+      "point": 75.50241274903863,
+      "low": 14.626676455017641,
+      "high": 97.69589630394236
+    },
+    "profitability_factor": {
+      "point": 3.0820346500072433,
+      "low": 0.17132607526179988,
+      "high": 42.400824438197745
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "D",
+      "human_time_grade": "D",
+      "cost_grade": "C",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        },
+        {
+          "id": "prod-itemis-bauerhin-trace-efficiency",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-customer-case-study",
+          "metric": "traceability process efficiency improvement"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19856,15 +20067,16 @@
     "category": "workflow-platform",
     "relationship": "connected",
     "success_probability": {
-      "point": 0.5073088568387323,
-      "low": 0.3273088568387323,
-      "high": 0.6873088568387322,
+      "point": 0.5366464921015441,
+      "low": 0.35664649210154414,
+      "high": 0.7166464921015441,
       "relationship_prior": 0.52,
-      "family_prior": 0.5073088568387323,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5366464921015441,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -19900,19 +20112,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 25.897743072954874,
-      "low": 5.413785037809271,
-      "high": 138.64552486029598
+      "point": 24.48195343939365,
+      "low": 5.192158821005001,
+      "high": 127.24058487279046
     },
     "meta_score": {
-      "point": 74.33268348308908,
-      "low": 15.276922495340141,
-      "high": 97.36444901357872
+      "point": 75.39055819374462,
+      "low": 16.421376744505782,
+      "high": 97.46961148474769
     },
     "profitability_factor": {
-      "point": 2.89600525376757,
-      "low": 0.18031595340124296,
-      "high": 36.94273019767543
+      "point": 3.063481032494666,
+      "low": 0.19647819149050516,
+      "high": 38.519622934278374
     },
     "pricing": {
       "status": "contact_sales",
@@ -19938,7 +20150,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -19948,7 +20161,113 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "collab-status",
+    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
+    "domain": "collaboration",
+    "solution_id": "tines-ai-agent",
+    "solution_name": "Tines AI Agent",
+    "vendor": "Tines",
+    "category": "workflow-platform",
+    "relationship": "connected",
+    "success_probability": {
+      "point": 0.5366464921015441,
+      "low": 0.35664649210154414,
+      "high": 0.7166464921015441,
+      "relationship_prior": 0.52,
+      "family_prior": 0.5366464921015441,
+      "family_prior_weight": 0.9210682558937353,
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "grade": "D",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 15.75,
+      "low": 4.4624999999999995,
+      "high": 54.3375,
+      "baseline": 15,
+      "relationship_factor": 1.05,
+      "evidence_factor": 1,
+      "observations": [],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 0.20170130667368236,
+      "low": 0.07059545733578881,
+      "high": 0.6051039200210471,
+      "fixed_point": 0,
+      "variable_point": 0.20170130667368236,
+      "fixed_basis": "Free",
+      "variable_basis": "generic external-model proxy",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 25,
+      "high": 200
+    },
+    "expected_cost_success_eur": {
+      "point": 24.833296225389294,
+      "low": 5.287607626772369,
+      "high": 128.66060633215568
+    },
+    "meta_score": {
+      "point": 75.12523660510594,
+      "low": 16.26962212159929,
+      "high": 97.42429283097029
+    },
+    "profitability_factor": {
+      "point": 3.020138741119707,
+      "low": 0.1943096703233229,
+      "high": 37.82428919032384
+    },
+    "pricing": {
+      "status": "public_partial",
+      "grade": "A",
+      "model_confidence": 0.97,
+      "monetary_confidence": 0.97,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "D",
+      "human_time_grade": "D",
+      "cost_grade": "A",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [
+        {
+          "id": "prod-tines-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "tool-using workflow agent"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": true,
+      "cost": false
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -19960,15 +20279,16 @@
     "category": "workflow-platform",
     "relationship": "connected",
     "success_probability": {
-      "point": 0.501497587627778,
-      "low": 0.38149758762777797,
-      "high": 0.621497587627778,
+      "point": 0.5231529744244651,
+      "low": 0.40315297442446507,
+      "high": 0.6431529744244651,
       "relationship_prior": 0.52,
-      "family_prior": 0.5073088568387323,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5366464921015441,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "C",
       "clusters": 2,
@@ -20007,19 +20327,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 26.193470021806768,
-      "low": 5.995289591677902,
-      "high": 118.75087949251967
+      "point": 25.109217895564573,
+      "low": 5.793424218697052,
+      "high": 112.37216870282883
     },
     "meta_score": {
-      "point": 74.11545427174086,
-      "low": 17.39119794484521,
-      "high": 97.08959869734802
+      "point": 74.91817594483769,
+      "low": 18.198737223171747,
+      "high": 97.18483511283608
     },
     "profitability_factor": {
-      "point": 2.8633090589967836,
-      "low": 0.2105247565899063,
-      "high": 33.35952282899248
+      "point": 2.9869508605143933,
+      "low": 0.22247501573199285,
+      "high": 34.52189800887397
     },
     "pricing": {
       "status": "public_partial",
@@ -20062,7 +20382,8 @@
       ],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 2,
       "success_coverage_weight": 0.7095
@@ -20072,311 +20393,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "collab-status",
-    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
-    "domain": "collaboration",
-    "solution_id": "tines-ai-agent",
-    "solution_name": "Tines AI Agent",
-    "vendor": "Tines",
-    "category": "workflow-platform",
-    "relationship": "connected",
-    "success_probability": {
-      "point": 0.5073088568387323,
-      "low": 0.3273088568387323,
-      "high": 0.6873088568387322,
-      "relationship_prior": 0.52,
-      "family_prior": 0.5073088568387323,
-      "family_prior_weight": 0.6935682558937353,
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "grade": "D",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 15.75,
-      "low": 4.4624999999999995,
-      "high": 54.3375,
-      "baseline": 15,
-      "relationship_factor": 1.05,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 0.20170130667368236,
-      "low": 0.07059545733578881,
-      "high": 0.6051039200210471,
-      "fixed_point": 0,
-      "variable_point": 0.20170130667368236,
-      "fixed_basis": "Free",
-      "variable_basis": "generic external-model proxy",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 25,
-      "high": 200
-    },
-    "expected_cost_success_eur": {
-      "point": 26.269403987382166,
-      "low": 5.5133080559514855,
-      "high": 140.19282693174912
-    },
-    "meta_score": {
-      "point": 74.0598809185692,
-      "low": 15.133829031407624,
-      "high": 97.31729876371293
-    },
-    "profitability_factor": {
-      "point": 2.8550324185514193,
-      "low": 0.17832581414576149,
-      "high": 36.2758616007507
-    },
-    "pricing": {
-      "status": "public_partial",
-      "grade": "A",
-      "model_confidence": 0.97,
-      "monetary_confidence": 0.97,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "D",
-      "human_time_grade": "D",
-      "cost_grade": "A",
-      "meta_confidence_grade": "D",
-      "direct_product_observations": [
-        {
-          "id": "prod-tines-workflow-cap-2026",
-          "grade": "C",
-          "family": "workflow-agent",
-          "type": "capability-evidence",
-          "metric": "tool-using workflow agent"
-        }
-      ],
-      "success_observations": [],
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": false
-    },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "collab-status",
-    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
-    "domain": "collaboration",
-    "solution_id": "glean",
-    "solution_name": "Glean",
-    "vendor": "Glean",
-    "category": "enterprise-knowledge",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
-      "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "grade": "D",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 15,
-      "low": 4.25,
-      "high": 51.74999999999999,
-      "baseline": 15,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 2.7405068841532936,
-      "low": 0.4567511473588822,
-      "high": 22.198105761641667,
-      "fixed_point": 2.7405068841532936,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": true
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 25,
-      "high": 200
-    },
-    "expected_cost_success_eur": {
-      "point": 27.616646839002662,
-      "low": 5.463368605630669,
-      "high": 175.666128437091
-    },
-    "meta_score": {
-      "point": 73.08755675642863,
-      "low": 12.458505177089476,
-      "high": 97.34095248086916
-    },
-    "profitability_factor": {
-      "point": 2.7157533076781206,
-      "low": 0.14231542655619533,
-      "high": 36.6074512698769
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "D",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "D",
-      "direct_product_observations": [
-        {
-          "id": "prod-glean-enterprise-search",
-          "grade": "C",
-          "family": "enterprise-search",
-          "type": "vendor-benchmark",
-          "metric": "preference ratio vs ChatGPT Business"
-        }
-      ],
-      "success_observations": [],
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "collab-status",
-    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
-    "domain": "collaboration",
-    "solution_id": "guru-ai-search",
-    "solution_name": "Guru Enterprise AI Search",
-    "vendor": "Guru",
-    "category": "enterprise-knowledge",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
-      "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "grade": "D",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 15,
-      "low": 4.25,
-      "high": 51.74999999999999,
-      "baseline": 15,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 2.7405068841532936,
-      "low": 0.4567511473588822,
-      "high": 22.198105761641667,
-      "fixed_point": 2.7405068841532936,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": true
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 25,
-      "high": 200
-    },
-    "expected_cost_success_eur": {
-      "point": 27.616646839002662,
-      "low": 5.463368605630669,
-      "high": 175.666128437091
-    },
-    "meta_score": {
-      "point": 73.08755675642863,
-      "low": 12.458505177089476,
-      "high": 97.34095248086916
-    },
-    "profitability_factor": {
-      "point": 2.7157533076781206,
-      "low": 0.14231542655619533,
-      "high": 36.6074512698769
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "D",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "D",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -20388,15 +20405,16 @@
     "category": "technical-knowledge-ai",
     "relationship": "connected",
     "success_probability": {
-      "point": 0.5073088568387323,
-      "low": 0.3273088568387323,
-      "high": 0.6873088568387322,
+      "point": 0.5366464921015441,
+      "low": 0.35664649210154414,
+      "high": 0.7166464921015441,
       "relationship_prior": 0.52,
-      "family_prior": 0.5073088568387323,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5366464921015441,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -20432,19 +20450,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 27.816550584649256,
-      "low": 5.729579229991299,
-      "high": 158.69011987684797
+      "point": 26.29586270662698,
+      "low": 5.495025223920689,
+      "high": 145.63631741456743
     },
     "meta_score": {
-      "point": 72.94545437823477,
-      "low": 13.609877339489374,
-      "high": 97.21499492127673
+      "point": 74.04053630227224,
+      "low": 14.65104286050756,
+      "high": 97.32595705519735
     },
     "profitability_factor": {
-      "point": 2.696236536293944,
-      "low": 0.1575397385760458,
-      "high": 34.9065772497056
+      "point": 2.8521597042373816,
+      "low": 0.1716604789506944,
+      "high": 36.39655722222516
     },
     "pricing": {
       "status": "contact_sales",
@@ -20462,7 +20480,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -20472,27 +20491,28 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
     "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
     "domain": "collaboration",
-    "solution_id": "itemis-analyze-ai",
-    "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
-    "vendor": "itemis",
-    "category": "regulated-engineering-ai",
-    "relationship": "connected",
+    "solution_id": "glean",
+    "solution_name": "Glean",
+    "vendor": "Glean",
+    "category": "enterprise-knowledge",
+    "relationship": "direct",
     "success_probability": {
-      "point": 0.5073088568387323,
-      "low": 0.3273088568387323,
-      "high": 0.6873088568387322,
-      "relationship_prior": 0.52,
-      "family_prior": 0.5073088568387323,
-      "family_prior_weight": 0.6935682558937353,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
+      "relationship_prior": 0.58,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -20502,27 +20522,25 @@
       "secondary_adjustment": 0
     },
     "human_active_minutes": {
-      "point": 13.9165700625,
-      "low": 3.9430281843749997,
-      "high": 48.012166715625,
+      "point": 15,
+      "low": 4.25,
+      "high": 51.74999999999999,
       "baseline": 15,
-      "relationship_factor": 1.05,
-      "evidence_factor": 0.88359175,
-      "observations": [
-        "prod-itemis-aspice-time"
-      ],
+      "relationship_factor": 1,
+      "evidence_factor": 1,
+      "observations": [],
       "family_observations": [],
       "grade": "D"
     },
     "service_cost_eur_attempt": {
       "point": 2.7405068841532936,
       "low": 0.4567511473588822,
-      "high": 16.443041304919753,
+      "high": 22.198105761641667,
       "fixed_point": 2.7405068841532936,
       "variable_point": 0,
       "fixed_basis": "sensitivity estimate normalized",
       "variable_basis": "bundled/no variable modeled",
-      "partial": false
+      "partial": true
     },
     "human_only_cost_eur": {
       "point": 75,
@@ -20530,19 +20548,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 28.262168912736072,
-      "low": 5.445307346809783,
-      "high": 172.47678776508693
+      "point": 26.38010264397204,
+      "low": 5.276855581150666,
+      "high": 164.24091829631155
     },
     "meta_score": {
-      "point": 72.63066502445864,
-      "low": 12.659715748333586,
-      "high": 97.34950999020988
+      "point": 73.97901367626937,
+      "low": 13.210673582155868,
+      "high": 97.4293957464364
     },
     "profitability_factor": {
-      "point": 2.6537241438041925,
-      "low": 0.14494704083919951,
-      "high": 36.72887263510903
+      "point": 2.8430518642101568,
+      "low": 0.15221541781017575,
+      "high": 37.901359422155764
     },
     "pricing": {
       "status": "contact_sales",
@@ -20558,41 +20576,126 @@
       "meta_confidence_grade": "D",
       "direct_product_observations": [
         {
-          "id": "prod-itemis-aspice-time",
+          "id": "prod-glean-enterprise-search",
           "grade": "C",
-          "family": "requirements-traceability",
-          "type": "vendor-reference-model",
-          "metric": "assessment preparation time multiplier"
-        },
-        {
-          "id": "prod-itemis-traceability-cap",
-          "grade": "C",
-          "family": "requirements-traceability",
-          "type": "capability-evidence",
-          "metric": "capability"
-        },
-        {
-          "id": "prod-itemis-analyze-safety-impact-cap-2026",
-          "grade": "C",
-          "family": "requirements-traceability",
-          "type": "capability-evidence",
-          "metric": "change impact across safety evidence"
+          "family": "enterprise-search",
+          "type": "vendor-benchmark",
+          "metric": "preference ratio vs ChatGPT Business"
         }
       ],
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
     },
     "prior_driven": {
       "success": true,
-      "human_time": false,
+      "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "collab-status",
+    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
+    "domain": "collaboration",
+    "solution_id": "guru-ai-search",
+    "solution_name": "Guru Enterprise AI Search",
+    "vendor": "Guru",
+    "category": "enterprise-knowledge",
+    "relationship": "direct",
+    "success_probability": {
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
+      "relationship_prior": 0.58,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "grade": "D",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 15,
+      "low": 4.25,
+      "high": 51.74999999999999,
+      "baseline": 15,
+      "relationship_factor": 1,
+      "evidence_factor": 1,
+      "observations": [],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 2.7405068841532936,
+      "low": 0.4567511473588822,
+      "high": 22.198105761641667,
+      "fixed_point": 2.7405068841532936,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": true
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 25,
+      "high": 200
+    },
+    "expected_cost_success_eur": {
+      "point": 26.38010264397204,
+      "low": 5.276855581150666,
+      "high": 164.24091829631155
+    },
+    "meta_score": {
+      "point": 73.97901367626937,
+      "low": 13.210673582155868,
+      "high": 97.4293957464364
+    },
+    "profitability_factor": {
+      "point": 2.8430518642101568,
+      "low": 0.15221541781017575,
+      "high": 37.901359422155764
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "D",
+      "human_time_grade": "D",
+      "cost_grade": "C",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [],
+      "success_observations": [],
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": true,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -20604,15 +20707,16 @@
     "category": "workflow-platform",
     "relationship": "custom_workflow",
     "success_probability": {
-      "point": 0.47760847711939386,
-      "low": 0.29760847711939387,
-      "high": 0.6576084771193939,
+      "point": 0.509259251204798,
+      "low": 0.329259251204798,
+      "high": 0.6892592512047979,
       "relationship_prior": 0.48,
-      "family_prior": 0.47760847711939386,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.509259251204798,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -20648,19 +20752,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 31.40647772935207,
-      "low": 6.462812065040305,
-      "high": 173.88617589424058
+      "point": 29.454545920399525,
+      "low": 6.1660398356223265,
+      "high": 157.17098247244598
     },
     "meta_score": {
-      "point": 70.48443064788277,
-      "low": 12.570003866580432,
-      "high": 96.86974520960976
+      "point": 71.80156625940856,
+      "low": 13.723371121293338,
+      "high": 97.0091874294435
     },
     "profitability_factor": {
-      "point": 2.388042385596969,
-      "low": 0.14377221116878933,
-      "high": 30.94628127620677
+      "point": 2.54629625602399,
+      "low": 0.1590624401955546,
+      "high": 32.435729468461076
     },
     "pricing": {
       "status": "public_partial",
@@ -20678,7 +20782,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -20688,7 +20793,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -20700,15 +20805,16 @@
     "category": "workflow-platform",
     "relationship": "custom_workflow",
     "success_probability": {
-      "point": 0.47760847711939386,
-      "low": 0.29760847711939387,
-      "high": 0.6576084771193939,
+      "point": 0.509259251204798,
+      "low": 0.329259251204798,
+      "high": 0.6892592512047979,
       "relationship_prior": 0.48,
-      "family_prior": 0.47760847711939386,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.509259251204798,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -20744,19 +20850,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 31.497711577881823,
-      "low": 6.50698633283453,
-      "high": 174.17900397413803
+      "point": 29.54010952941586,
+      "low": 6.208185621727115,
+      "high": 157.43566180521245
     },
     "meta_score": {
-      "point": 70.42404845023592,
-      "low": 12.551523755609336,
-      "high": 96.84902363431569
+      "point": 71.74279837433711,
+      "low": 13.703461128500543,
+      "high": 96.98936024144281
     },
     "profitability_factor": {
-      "point": 2.381125365712795,
-      "low": 0.14353050269889006,
-      "high": 30.7361948788476
+      "point": 2.538920850151739,
+      "low": 0.15879502593847697,
+      "high": 32.21553158785224
     },
     "pricing": {
       "status": "public_partial",
@@ -20774,7 +20880,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -20784,7 +20891,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -20796,15 +20903,16 @@
     "category": "workflow-platform",
     "relationship": "custom_workflow",
     "success_probability": {
-      "point": 0.47760847711939386,
-      "low": 0.29760847711939387,
-      "high": 0.6576084771193939,
+      "point": 0.509259251204798,
+      "low": 0.329259251204798,
+      "high": 0.6892592512047979,
       "relationship_prior": 0.48,
-      "family_prior": 0.47760847711939386,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.509259251204798,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -20840,19 +20948,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 31.828792902420616,
-      "low": 6.570163870547781,
-      "high": 175.91939727918887
+      "point": 29.850613947041165,
+      "low": 6.268462047892079,
+      "high": 159.00875595278677
     },
     "meta_score": {
-      "point": 70.2057918678407,
-      "low": 12.442800614846105,
-      "high": 96.8194032732311
+      "point": 71.53033938159068,
+      "low": 13.586309994082312,
+      "high": 96.96101770204858
     },
     "profitability_factor": {
-      "point": 2.356357032763758,
-      "low": 0.14211053690869757,
-      "high": 30.44064104649572
+      "point": 2.5125111373943487,
+      "low": 0.1572240462495226,
+      "high": 31.905752714456458
     },
     "pricing": {
       "status": "open_source_external_cost",
@@ -20870,7 +20978,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -20880,7 +20989,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -20892,15 +21001,16 @@
     "category": "self-hosted-assistant",
     "relationship": "custom_workflow",
     "success_probability": {
-      "point": 0.47760847711939386,
-      "low": 0.29760847711939387,
-      "high": 0.6576084771193939,
+      "point": 0.509259251204798,
+      "low": 0.329259251204798,
+      "high": 0.6892592512047979,
       "relationship_prior": 0.48,
-      "family_prior": 0.47760847711939386,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.509259251204798,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -20936,19 +21046,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 31.828792902420616,
-      "low": 6.570163870547781,
-      "high": 175.91939727918887
+      "point": 29.850613947041165,
+      "low": 6.268462047892079,
+      "high": 159.00875595278677
     },
     "meta_score": {
-      "point": 70.2057918678407,
-      "low": 12.442800614846105,
-      "high": 96.8194032732311
+      "point": 71.53033938159068,
+      "low": 13.586309994082312,
+      "high": 96.96101770204858
     },
     "profitability_factor": {
-      "point": 2.356357032763758,
-      "low": 0.14211053690869757,
-      "high": 30.44064104649572
+      "point": 2.5125111373943487,
+      "low": 0.1572240462495226,
+      "high": 31.905752714456458
     },
     "pricing": {
       "status": "open_source_external_cost",
@@ -20966,7 +21076,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -20976,7 +21087,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -20988,15 +21099,16 @@
     "category": "workflow-platform",
     "relationship": "custom_workflow",
     "success_probability": {
-      "point": 0.47760847711939386,
-      "low": 0.29760847711939387,
-      "high": 0.6576084771193939,
+      "point": 0.509259251204798,
+      "low": 0.329259251204798,
+      "high": 0.6892592512047979,
       "relationship_prior": 0.48,
-      "family_prior": 0.47760847711939386,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.509259251204798,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21032,19 +21144,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 31.930180745489015,
-      "low": 6.71638239723924,
-      "high": 175.56707559455157
+      "point": 29.94570047362219,
+      "low": 6.407966222114097,
+      "high": 158.69030196967964
     },
     "meta_score": {
-      "point": 70.1392249382913,
-      "low": 12.464657983316146,
-      "high": 96.75091914856917
+      "point": 71.46552899406397,
+      "low": 13.609863847970896,
+      "high": 96.89548502444013
     },
     "profitability_factor": {
-      "point": 2.348874896694587,
-      "low": 0.14239571921636446,
-      "high": 29.77793522927011
+      "point": 2.504533165489453,
+      "low": 0.15753955780345452,
+      "high": 31.211150787560893
     },
     "pricing": {
       "status": "public_partial",
@@ -21062,7 +21174,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -21072,199 +21185,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "collab-status",
-    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
-    "domain": "collaboration",
-    "solution_id": "cohere-north",
-    "solution_name": "Cohere North",
-    "vendor": "Cohere",
-    "category": "enterprise-knowledge",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
-      "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "grade": "D",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 15,
-      "low": 4.25,
-      "high": 51.74999999999999,
-      "baseline": 15,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 5.481013768306587,
-      "low": 0.9135022947177645,
-      "high": 44.396211523283334,
-      "fixed_point": 5.481013768306587,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": true
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 25,
-      "high": 200
-    },
-    "expected_cost_success_eur": {
-      "point": 32.58259786378196,
-      "low": 6.087465434709663,
-      "high": 235.36101361314877
-    },
-    "meta_score": {
-      "point": 69.71387704818476,
-      "low": 9.602052032700124,
-      "high": 97.04617385542149
-    },
-    "profitability_factor": {
-      "point": 2.3018422384105905,
-      "low": 0.10621980087616066,
-      "high": 32.854395995357116
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "D",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "D",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "collab-status",
-    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
-    "domain": "collaboration",
-    "solution_id": "moveworks",
-    "solution_name": "Moveworks AI Assistant / Enterprise Search / Agent Studio",
-    "vendor": "Moveworks",
-    "category": "enterprise-knowledge",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
-      "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "grade": "D",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 15,
-      "low": 4.25,
-      "high": 51.74999999999999,
-      "baseline": 15,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 5.481013768306587,
-      "low": 0.9135022947177645,
-      "high": 44.396211523283334,
-      "fixed_point": 5.481013768306587,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": true
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 25,
-      "high": 200
-    },
-    "expected_cost_success_eur": {
-      "point": 32.58259786378196,
-      "low": 6.087465434709663,
-      "high": 235.36101361314877
-    },
-    "meta_score": {
-      "point": 69.71387704818476,
-      "low": 9.602052032700124,
-      "high": 97.04617385542149
-    },
-    "profitability_factor": {
-      "point": 2.3018422384105905,
-      "low": 0.10621980087616066,
-      "high": 32.854395995357116
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "D",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "D",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [
-        "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
-      ],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -21276,15 +21197,16 @@
     "category": "workflow-platform",
     "relationship": "custom_workflow",
     "success_probability": {
-      "point": 0.47760847711939386,
-      "low": 0.29760847711939387,
-      "high": 0.6576084771193939,
+      "point": 0.509259251204798,
+      "low": 0.329259251204798,
+      "high": 0.6892592512047979,
       "relationship_prior": 0.48,
-      "family_prior": 0.47760847711939386,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.509259251204798,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21320,19 +21242,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 32.74916455677109,
-      "low": 7.112923930691171,
-      "high": 178.19572122103315
+      "point": 30.713783939885168,
+      "low": 6.786298574523005,
+      "high": 161.0662632188205
     },
     "meta_score": {
-      "point": 69.6061081387632,
-      "low": 12.303408678967894,
-      "high": 96.56567837694597
+      "point": 70.94628269351256,
+      "low": 13.436073561921924,
+      "high": 96.7182068534984
     },
     "profitability_factor": {
-      "point": 2.2901347565671957,
-      "low": 0.14029517560070995,
-      "high": 28.117831984260484
+      "point": 2.4419003580540397,
+      "low": 0.15521562057993263,
+      "high": 29.471146576255318
     },
     "pricing": {
       "status": "public_partial",
@@ -21350,7 +21272,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -21360,7 +21283,203 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "collab-status",
+    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
+    "domain": "collaboration",
+    "solution_id": "cohere-north",
+    "solution_name": "Cohere North",
+    "vendor": "Cohere",
+    "category": "enterprise-knowledge",
+    "relationship": "direct",
+    "success_probability": {
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
+      "relationship_prior": 0.58,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "grade": "D",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 15,
+      "low": 4.25,
+      "high": 51.74999999999999,
+      "baseline": 15,
+      "relationship_factor": 1,
+      "evidence_factor": 1,
+      "observations": [],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 5.481013768306587,
+      "low": 0.9135022947177645,
+      "high": 44.396211523283334,
+      "fixed_point": 5.481013768306587,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": true
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 25,
+      "high": 200
+    },
+    "expected_cost_success_eur": {
+      "point": 31.12370162332399,
+      "low": 5.879646473258844,
+      "high": 220.05328716980046
+    },
+    "meta_score": {
+      "point": 70.67224272500914,
+      "low": 10.20186274125643,
+      "high": 97.14413417062937
+    },
+    "profitability_factor": {
+      "point": 2.4097390762734747,
+      "low": 0.11360884593698056,
+      "high": 34.015650585391114
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "D",
+      "human_time_grade": "D",
+      "cost_grade": "C",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [],
+      "success_observations": [],
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": true,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "collab-status",
+    "task_label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
+    "domain": "collaboration",
+    "solution_id": "moveworks",
+    "solution_name": "Moveworks AI Assistant / Enterprise Search / Agent Studio",
+    "vendor": "Moveworks",
+    "category": "enterprise-knowledge",
+    "relationship": "direct",
+    "success_probability": {
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
+      "relationship_prior": 0.58,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "grade": "D",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 15,
+      "low": 4.25,
+      "high": 51.74999999999999,
+      "baseline": 15,
+      "relationship_factor": 1,
+      "evidence_factor": 1,
+      "observations": [],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 5.481013768306587,
+      "low": 0.9135022947177645,
+      "high": 44.396211523283334,
+      "fixed_point": 5.481013768306587,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": true
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 25,
+      "high": 200
+    },
+    "expected_cost_success_eur": {
+      "point": 31.12370162332399,
+      "low": 5.879646473258844,
+      "high": 220.05328716980046
+    },
+    "meta_score": {
+      "point": 70.67224272500914,
+      "low": 10.20186274125643,
+      "high": 97.14413417062937
+    },
+    "profitability_factor": {
+      "point": 2.4097390762734747,
+      "low": 0.11360884593698056,
+      "high": 34.015650585391114
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "D",
+      "human_time_grade": "D",
+      "cost_grade": "C",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [],
+      "success_observations": [],
+      "family_prior_observations": [
+        "fam-workflow-automationbench-2026",
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
+      ],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": true,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -21372,15 +21491,16 @@
     "category": "workflow-platform",
     "relationship": "custom_workflow",
     "success_probability": {
-      "point": 0.47760847711939386,
-      "low": 0.29760847711939387,
-      "high": 0.6576084771193939,
+      "point": 0.509259251204798,
+      "low": 0.329259251204798,
+      "high": 0.6892592512047979,
       "relationship_prior": 0.48,
-      "family_prior": 0.47760847711939386,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.509259251204798,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21416,19 +21536,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 35.70996115056688,
-      "low": 7.157376024069007,
-      "high": 236.04307964605667
+      "point": 33.49056521362273,
+      "low": 6.828709428464931,
+      "high": 213.35291631438616
     },
     "meta_score": {
-      "point": 67.74458162621798,
-      "low": 9.576963324941241,
-      "high": 96.54495719078938
+      "point": 69.13043530773545,
+      "low": 10.488648675489726,
+      "high": 96.69837449194802
     },
     "profitability_factor": {
-      "point": 2.1002543151411244,
-      "low": 0.10591286996207283,
-      "high": 27.94320143687224
+      "point": 2.2394366748248475,
+      "low": 0.11717674373459819,
+      "high": 29.288111039886385
     },
     "pricing": {
       "status": "contact_sales",
@@ -21446,7 +21566,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -21456,7 +21577,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -21468,15 +21589,16 @@
     "category": "enterprise-knowledge",
     "relationship": "connected",
     "success_probability": {
-      "point": 0.5073088568387323,
-      "low": 0.3273088568387323,
-      "high": 0.6873088568387322,
+      "point": 0.5366464921015441,
+      "low": 0.35664649210154414,
+      "high": 0.7166464921015441,
       "relationship_prior": 0.52,
-      "family_prior": 0.5073088568387323,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5366464921015441,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21512,19 +21634,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 36.675909591346304,
-      "low": 6.739695332930447,
-      "high": 273.98421903220344
+      "point": 34.67089423326737,
+      "low": 6.463789812371544,
+      "high": 251.44635797441248
     },
     "meta_score": {
-      "point": 67.15862022028402,
-      "low": 8.36164533396569,
-      "high": 96.74000906208315
+      "point": 68.3864215062173,
+      "low": 9.043345762693669,
+      "high": 96.86928646507668
     },
     "profitability_factor": {
-      "point": 2.0449390576995063,
-      "low": 0.09124613121262126,
-      "high": 29.674931895332303
+      "point": 2.1631977385814323,
+      "low": 0.09942478467929941,
+      "high": 30.941600176602996
     },
     "pricing": {
       "status": "contact_sales",
@@ -21542,7 +21664,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -21552,7 +21675,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -21564,15 +21687,16 @@
     "category": "enterprise-knowledge",
     "relationship": "connected",
     "success_probability": {
-      "point": 0.5073088568387323,
-      "low": 0.3273088568387323,
-      "high": 0.6873088568387322,
+      "point": 0.5366464921015441,
+      "low": 0.35664649210154414,
+      "high": 0.7166464921015441,
       "relationship_prior": 0.52,
-      "family_prior": 0.5073088568387323,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5366464921015441,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21608,19 +21732,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 36.675909591346304,
-      "low": 6.739695332930447,
-      "high": 273.98421903220344
+      "point": 34.67089423326737,
+      "low": 6.463789812371544,
+      "high": 251.44635797441248
     },
     "meta_score": {
-      "point": 67.15862022028402,
-      "low": 8.36164533396569,
-      "high": 96.74000906208315
+      "point": 68.3864215062173,
+      "low": 9.043345762693669,
+      "high": 96.86928646507668
     },
     "profitability_factor": {
-      "point": 2.0449390576995063,
-      "low": 0.09124613121262126,
-      "high": 29.674931895332303
+      "point": 2.1631977385814323,
+      "low": 0.09942478467929941,
+      "high": 30.941600176602996
     },
     "pricing": {
       "status": "contact_sales",
@@ -21638,7 +21762,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -21648,7 +21773,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -21660,15 +21785,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21704,19 +21830,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.35076180225662,
-      "low": 7.992625067655696,
-      "high": 244.40329040066533
+      "point": 37.129957120143324,
+      "low": 7.53564187905754,
+      "high": 212.10193237629628
     },
     "meta_score": {
-      "point": 65.01907644838178,
-      "low": 9.279767876190073,
-      "high": 96.15725554449065
+      "point": 66.88667500304145,
+      "low": 10.543988296275614,
+      "high": 96.36898905131245
     },
     "profitability_factor": {
-      "point": 1.8587009674698538,
-      "low": 0.10228994854781195,
-      "high": 25.023067929128032
+      "point": 2.0199323084946914,
+      "low": 0.11786785589320688,
+      "high": 26.54053937406768
     },
     "pricing": {
       "status": "contact_sales",
@@ -21734,7 +21860,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -21744,7 +21871,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -21756,15 +21883,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21800,19 +21928,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.35076180225662,
-      "low": 7.992625067655696,
-      "high": 244.40329040066533
+      "point": 37.129957120143324,
+      "low": 7.53564187905754,
+      "high": 212.10193237629628
     },
     "meta_score": {
-      "point": 65.01907644838178,
-      "low": 9.279767876190073,
-      "high": 96.15725554449065
+      "point": 66.88667500304145,
+      "low": 10.543988296275614,
+      "high": 96.36898905131245
     },
     "profitability_factor": {
-      "point": 1.8587009674698538,
-      "low": 0.10228994854781195,
-      "high": 25.023067929128032
+      "point": 2.0199323084946914,
+      "low": 0.11786785589320688,
+      "high": 26.54053937406768
     },
     "pricing": {
       "status": "contact_sales",
@@ -21830,7 +21958,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -21840,7 +21969,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -21852,15 +21981,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21896,19 +22026,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.35076180225662,
-      "low": 7.992625067655696,
-      "high": 244.40329040066533
+      "point": 37.129957120143324,
+      "low": 7.53564187905754,
+      "high": 212.10193237629628
     },
     "meta_score": {
-      "point": 65.01907644838178,
-      "low": 9.279767876190073,
-      "high": 96.15725554449065
+      "point": 66.88667500304145,
+      "low": 10.543988296275614,
+      "high": 96.36898905131245
     },
     "profitability_factor": {
-      "point": 1.8587009674698538,
-      "low": 0.10228994854781195,
-      "high": 25.023067929128032
+      "point": 2.0199323084946914,
+      "low": 0.11786785589320688,
+      "high": 26.54053937406768
     },
     "pricing": {
       "status": "public_partial",
@@ -21926,7 +22056,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -21936,7 +22067,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -21948,15 +22079,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -21992,19 +22124,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.35076180225662,
-      "low": 7.992625067655696,
-      "high": 244.40329040066533
+      "point": 37.129957120143324,
+      "low": 7.53564187905754,
+      "high": 212.10193237629628
     },
     "meta_score": {
-      "point": 65.01907644838178,
-      "low": 9.279767876190073,
-      "high": 96.15725554449065
+      "point": 66.88667500304145,
+      "low": 10.543988296275614,
+      "high": 96.36898905131245
     },
     "profitability_factor": {
-      "point": 1.8587009674698538,
-      "low": 0.10228994854781195,
-      "high": 25.023067929128032
+      "point": 2.0199323084946914,
+      "low": 0.11786785589320688,
+      "high": 26.54053937406768
     },
     "pricing": {
       "status": "contact_sales",
@@ -22022,7 +22154,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22032,7 +22165,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22044,15 +22177,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22088,19 +22222,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.35076180225662,
-      "low": 7.992625067655696,
-      "high": 244.40329040066533
+      "point": 37.129957120143324,
+      "low": 7.53564187905754,
+      "high": 212.10193237629628
     },
     "meta_score": {
-      "point": 65.01907644838178,
-      "low": 9.279767876190073,
-      "high": 96.15725554449065
+      "point": 66.88667500304145,
+      "low": 10.543988296275614,
+      "high": 96.36898905131245
     },
     "profitability_factor": {
-      "point": 1.8587009674698538,
-      "low": 0.10228994854781195,
-      "high": 25.023067929128032
+      "point": 2.0199323084946914,
+      "low": 0.11786785589320688,
+      "high": 26.54053937406768
     },
     "pricing": {
       "status": "public_exact",
@@ -22118,7 +22252,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22128,7 +22263,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22140,15 +22275,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22184,19 +22320,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.40276625294742,
-      "low": 8.021710165677447,
-      "high": 244.52198202702286
+      "point": 37.177810566719344,
+      "low": 7.563064018949496,
+      "high": 212.2049372223687
     },
     "meta_score": {
-      "point": 64.98977661905437,
-      "low": 9.275681267991507,
-      "high": 96.14381106698497
+      "point": 66.8581421059138,
+      "low": 10.539409631496689,
+      "high": 96.35625728753983
     },
     "profitability_factor": {
-      "point": 1.8563085391344627,
-      "low": 0.10224029673224706,
-      "high": 24.93233934775424
+      "point": 2.01733235111855,
+      "low": 0.11781064251960642,
+      "high": 26.44430874826574
     },
     "pricing": {
       "status": "public_exact",
@@ -22214,7 +22350,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22224,7 +22361,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22236,15 +22373,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22280,19 +22418,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.43493050243081,
-      "low": 8.039699017335211,
-      "high": 244.59539164929632
+      "point": 37.20740746032875,
+      "low": 7.580024347097123,
+      "high": 212.2686447228434
     },
     "meta_score": {
-      "point": 64.9716681714645,
-      "low": 9.273155541368192,
-      "high": 96.13549766928605
+      "point": 66.84050696609889,
+      "low": 10.5365797613936,
+      "high": 96.34838449848986
     },
     "profitability_factor": {
-      "point": 1.8548319254682843,
-      "low": 0.10220961168330304,
-      "high": 24.876553160604608
+      "point": 2.015727649930096,
+      "low": 0.11777528439323763,
+      "high": 26.385139524860868
     },
     "pricing": {
       "status": "public_exact",
@@ -22310,7 +22448,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22320,7 +22459,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22332,15 +22471,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22376,19 +22516,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.45246405461566,
-      "low": 8.04950519886759,
-      "high": 244.63540910543708
+      "point": 37.2235414813908,
+      "low": 7.58926985424947,
+      "high": 212.30337330510724
     },
     "meta_score": {
-      "point": 64.96180104438541,
-      "low": 9.27177928260309,
-      "high": 96.1309664297575
+      "point": 66.83089751933795,
+      "low": 10.53503776697554,
+      "high": 96.3440933822938
     },
     "profitability_factor": {
-      "point": 1.8540279746306934,
-      "low": 0.10219289223672882,
-      "high": 24.846247695838017
+      "point": 2.0148539611013323,
+      "low": 0.11775601871418118,
+      "high": 26.352996248777966
     },
     "pricing": {
       "status": "public_exact",
@@ -22406,7 +22546,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22416,7 +22557,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22428,15 +22569,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22472,19 +22614,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.59191147279866,
-      "low": 8.127495481869467,
-      "high": 244.9536749583715
+      "point": 37.35185818289505,
+      "low": 7.662800995492015,
+      "high": 212.57957581574496
     },
     "meta_score": {
-      "point": 64.88343262465139,
-      "low": 9.260848182139085,
-      "high": 96.09494388857551
+      "point": 66.7545701628799,
+      "low": 10.522790064828119,
+      "high": 96.3099789857605
     },
     "profitability_factor": {
-      "point": 1.8476587398516278,
-      "low": 0.10206011403686273,
-      "high": 24.607826660273513
+      "point": 2.007932232789039,
+      "low": 0.11760301950018448,
+      "high": 26.100116669825947
     },
     "pricing": {
       "status": "public_exact",
@@ -22502,7 +22644,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22512,7 +22655,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22524,15 +22667,16 @@
     "category": "model-backend",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22568,19 +22712,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.83306114334069,
-      "low": 8.262365896083239,
-      "high": 245.50405951607763
+      "point": 37.57375924564678,
+      "low": 7.789960111926489,
+      "high": 213.05721925519364
     },
     "meta_score": {
-      "point": 64.7483535872278,
-      "low": 9.242005478484918,
-      "high": 96.03271293854124
+      "point": 66.62298612267428,
+      "low": 10.501676898611668,
+      "high": 96.2510411437923
     },
     "profitability_factor": {
-      "point": 1.836746937407397,
-      "low": 0.10183131003731037,
-      "high": 24.20614174141207
+      "point": 1.9960738958716078,
+      "low": 0.11733937055686312,
+      "high": 25.674072411975313
     },
     "pricing": {
       "status": "public_exact",
@@ -22598,7 +22742,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22608,7 +22753,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22620,15 +22765,16 @@
     "category": "model-runtime",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22664,19 +22810,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.83306114334069,
-      "low": 8.110636680092744,
-      "high": 246.94352682084758
+      "point": 37.57375924564678,
+      "low": 7.646906105937705,
+      "high": 214.30644055836711
     },
     "meta_score": {
-      "point": 64.7483535872278,
-      "low": 9.193085157150895,
-      "high": 96.10272842874419
+      "point": 66.62298612267428,
+      "low": 10.446856315972186,
+      "high": 96.31735129150617
     },
     "profitability_factor": {
-      "point": 1.836746937407397,
-      "low": 0.10123772152220448,
-      "high": 24.658976586991322
+      "point": 1.9960738958716078,
+      "low": 0.11665538345400853,
+      "high": 26.15436847651406
     },
     "pricing": {
       "status": "open_source_external_cost",
@@ -22694,7 +22840,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22704,7 +22851,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22716,15 +22863,16 @@
     "category": "model-runtime",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22760,19 +22908,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 40.83306114334069,
-      "low": 8.110636680092744,
-      "high": 246.94352682084758
+      "point": 37.57375924564678,
+      "low": 7.646906105937705,
+      "high": 214.30644055836711
     },
     "meta_score": {
-      "point": 64.7483535872278,
-      "low": 9.193085157150895,
-      "high": 96.10272842874419
+      "point": 66.62298612267428,
+      "low": 10.446856315972186,
+      "high": 96.31735129150617
     },
     "profitability_factor": {
-      "point": 1.836746937407397,
-      "low": 0.10123772152220448,
-      "high": 24.658976586991322
+      "point": 1.9960738958716078,
+      "low": 0.11665538345400853,
+      "high": 26.15436847651406
     },
     "pricing": {
       "status": "open_source_external_cost",
@@ -22790,7 +22938,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22800,7 +22949,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22812,15 +22961,16 @@
     "category": "enterprise-ai-platform",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22856,19 +23006,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 47.480450938119866,
-      "low": 7.335659092867649,
-      "high": 414.445669141322
+      "point": 45.35449856137981,
+      "low": 7.0852282574751975,
+      "high": 387.49039379026715
     },
     "meta_score": {
-      "point": 61.23426181529315,
-      "low": 5.688985409470542,
-      "high": 96.46194044721369
+      "point": 62.31590916541488,
+      "low": 6.06074720196063,
+      "high": 96.57859311497297
     },
     "profitability_factor": {
-      "point": 1.5795974662866135,
-      "low": 0.06032153756557953,
-      "high": 27.26408049611479
+      "point": 1.6536397133461833,
+      "low": 0.0645177284408539,
+      "high": 28.227742668557227
     },
     "pricing": {
       "status": "contact_sales",
@@ -22886,7 +23036,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22896,7 +23047,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -22908,15 +23059,16 @@
     "category": "sovereign-enterprise-ai",
     "relationship": "direct",
     "success_probability": {
-      "point": 0.5518594264177398,
-      "low": 0.3718594264177398,
-      "high": 0.7318594264177398,
+      "point": 0.5777273534466634,
+      "low": 0.3977273534466634,
+      "high": 0.7577273534466633,
       "relationship_prior": 0.58,
-      "family_prior": 0.5518594264177398,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.5777273534466634,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -22952,19 +23104,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 47.480450938119866,
-      "low": 7.335659092867649,
-      "high": 410.76079968600976
+      "point": 45.35449856137981,
+      "low": 7.0852282574751975,
+      "high": 384.04518583511344
     },
     "meta_score": {
-      "point": 61.23426181529315,
-      "low": 5.737092464033918,
-      "high": 96.46194044721369
+      "point": 62.31590916541488,
+      "low": 6.11179421387385,
+      "high": 96.57859311497297
     },
     "profitability_factor": {
-      "point": 1.5795974662866135,
-      "low": 0.06086267243395739,
-      "high": 27.26408049611479
+      "point": 1.6536397133461833,
+      "low": 0.06509650666662319,
+      "high": 28.227742668557227
     },
     "pricing": {
       "status": "contact_sales",
@@ -22982,7 +23134,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -22992,7 +23145,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-status",
@@ -23004,15 +23157,16 @@
     "category": "sovereign-ai-infrastructure",
     "relationship": "backend",
     "success_probability": {
-      "point": 0.4182077176807171,
-      "low": 0.23820771768071708,
-      "high": 0.598207717680717,
+      "point": 0.4544847694113055,
+      "low": 0.2744847694113055,
+      "high": 0.6344847694113055,
       "relationship_prior": 0.4,
-      "family_prior": 0.4182077176807171,
-      "family_prior_weight": 0.6935682558937353,
+      "family_prior": 0.4544847694113055,
+      "family_prior_weight": 0.9210682558937353,
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "grade": "D",
       "clusters": 0,
@@ -23048,19 +23202,19 @@
       "high": 200
     },
     "expected_cost_success_eur": {
-      "point": 73.11566269112002,
-      "low": 11.04675582430812,
-      "high": 704.591047680057
+      "point": 67.2795580374972,
+      "low": 10.41515085628749,
+      "high": 611.4693566644894
     },
     "meta_score": {
-      "point": 50.63610332447068,
-      "low": 3.426577132421599,
-      "high": 94.76573056943633
+      "point": 52.71312410194165,
+      "low": 3.9279188759402572,
+      "high": 95.05018967792819
     },
     "profitability_factor": {
-      "point": 1.0257720061546927,
-      "low": 0.03548157485439991,
-      "high": 18.104862928164376
+      "point": 1.1147516747687305,
+      "low": 0.04088512323229534,
+      "high": 19.20279434831831
     },
     "pricing": {
       "status": "contact_sales",
@@ -23078,7 +23232,8 @@
       "success_observations": [],
       "family_prior_observations": [
         "fam-workflow-automationbench-2026",
-        "fam-workflow-automationbench-public-2026"
+        "fam-workflow-automationbench-public-2026",
+        "fam-req-trace-lusgen-2026"
       ],
       "independent_success_clusters": 0,
       "success_coverage_weight": 0
@@ -23088,7 +23243,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23184,7 +23339,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23280,7 +23435,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23376,7 +23531,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23472,7 +23627,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23568,7 +23723,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23664,7 +23819,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23760,7 +23915,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23864,7 +24019,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -23975,7 +24130,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24099,7 +24254,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24195,7 +24350,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24299,7 +24454,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24395,7 +24550,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24491,7 +24646,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24587,7 +24742,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24683,7 +24838,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24779,7 +24934,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24875,7 +25030,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -24971,7 +25126,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25067,7 +25222,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25163,7 +25318,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25259,7 +25414,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25355,7 +25510,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25451,7 +25606,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25547,7 +25702,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25643,7 +25798,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25739,7 +25894,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25835,7 +25990,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -25931,7 +26086,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26027,7 +26182,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26123,7 +26278,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26219,7 +26374,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26315,7 +26470,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26411,7 +26566,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26507,7 +26662,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26603,7 +26758,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26699,7 +26854,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-ticket",
@@ -26795,7 +26950,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -26891,7 +27046,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -26995,7 +27150,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27106,7 +27261,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27210,7 +27365,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27306,7 +27461,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27430,7 +27585,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27526,7 +27681,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27622,7 +27777,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27718,7 +27873,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27814,7 +27969,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -27910,7 +28065,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28006,7 +28161,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28102,7 +28257,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28198,7 +28353,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28294,7 +28449,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28390,7 +28545,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28486,7 +28641,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28582,7 +28737,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28678,7 +28833,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28774,7 +28929,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28870,7 +29025,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -28966,7 +29121,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29062,7 +29217,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29158,7 +29313,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29254,7 +29409,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29350,7 +29505,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29446,7 +29601,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29542,7 +29697,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29638,7 +29793,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29734,7 +29889,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29830,7 +29985,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -29926,7 +30081,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -30022,7 +30177,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -30118,7 +30273,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -30214,7 +30369,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -30310,7 +30465,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -30406,7 +30561,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "collab-workflow",
@@ -30502,6 +30657,6 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   }
 ]
