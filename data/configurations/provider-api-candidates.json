@@ -1,0 +1,152 @@
+[
+  {
+    "id": "api-1",
+    "model": "Qwen3.8-27B",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-2",
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-3",
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-4",
+    "model": "qwen3.5-35b-a3b",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-5",
+    "model": "qwen3.5-122b-a10b",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-6",
+    "model": "Qwen3 Embedding 8B",
+    "harness": "Scaleway Embeddings API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-7",
+    "model": "gemma-4-31b-it",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-8",
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-9",
+    "model": "Whisper Large V3",
+    "harness": "Scaleway audio transcription API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-audio",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-10",
+    "model": "mistral-large-3-675b-instruct-2512",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-11",
+    "model": "Mistral Medium 3.5",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-12",
+    "model": "Mistral Small 3.2 24B",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-13",
+    "model": "pixtral-12b-2409",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-14",
+    "model": "molmo-72b-0924",
+    "harness": "Scaleway Multimodal API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  },
+  {
+    "id": "api-15",
+    "model": "BGE Multilingual Gemma2",
+    "harness": "Scaleway Embeddings API",
+    "config": "API fournisseur",
+    "surface_class": "api",
+    "user_selectable": true,
+    "solution_id": "scaleway-genai-serverless",
+    "provenance": "scaleway-catalog"
+  }
+]
