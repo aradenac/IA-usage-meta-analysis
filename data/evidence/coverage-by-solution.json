@@ -1,12 +1,16 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "checked_at": "2026-09-27",
-  "active_solution_records": 157,
+  "solution_records": 157,
+  "active_solution_evidence_coverage": 156,
+  "historical_only_solution_ids": [
+    "continue"
+  ],
   "tier_counts": {
     "historical_harness_quantitative": 12,
-    "direct_success_quantitative": 28,
-    "capability_only": 103,
-    "direct_effort_or_relative_quantitative": 11,
+    "direct_success_quantitative": 34,
+    "capability_only": 90,
+    "direct_effort_or_relative_quantitative": 18,
     "field_qualitative": 3
   },
   "records": [
@@ -43,7 +47,7 @@
       "direct_probability_count": 0,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
-      "historical_harness_observation_count": 16,
+      "historical_harness_observation_count": 21,
       "public_user_signal_count": 3,
       "direct_observation_ids": [
         "cap-claude-code-20260927"
@@ -78,7 +82,7 @@
       "direct_probability_count": 1,
       "direct_human_time_count": 0,
       "capability_only_count": 0,
-      "historical_harness_observation_count": 9,
+      "historical_harness_observation_count": 13,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
         "prod-martian-codex-202609"
@@ -474,16 +478,17 @@
       "solution_name": "Junie",
       "vendor": "JetBrains",
       "category": "coding",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
-      "direct_probability_count": 0,
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-jetbrains-junie-20260927"
+        "cap-jetbrains-junie-20260927",
+        "prod-junie-swerebench-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -511,15 +516,16 @@
       "vendor": "Augment",
       "category": "coding",
       "evidence_tier": "direct_success_quantitative",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 1,
-      "direct_probability_count": 1,
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 2,
       "direct_human_time_count": 0,
       "capability_only_count": 0,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "prod-augment-review-202606"
+        "prod-augment-review-202606",
+        "prod-augment-sweverified-2025"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -647,16 +653,17 @@
       "solution_name": "Amazon Q Developer",
       "vendor": "Amazon Web Services",
       "category": "coding",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
-      "direct_probability_count": 0,
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-amazon-q-developer-20260927"
+        "cap-amazon-q-developer-20260927",
+        "prod-amazonq-polybench-2025"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -810,16 +817,17 @@
       "solution_name": "Gemini Notebook Enterprise",
       "vendor": "Google Cloud",
       "category": "enterprise-knowledge",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
       "direct_probability_count": 0,
-      "direct_human_time_count": 0,
+      "direct_human_time_count": 1,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-gemini-notebook-enterprise-20260927"
+        "cap-gemini-notebook-enterprise-20260927",
+        "prod-gemini-notebook-mantel-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -852,16 +860,17 @@
       "solution_name": "Microsoft 365 Copilot",
       "vendor": "Microsoft",
       "category": "productivity-ai",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
       "direct_probability_count": 0,
-      "direct_human_time_count": 0,
+      "direct_human_time_count": 1,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-m365-copilot-20260927"
+        "cap-m365-copilot-20260927",
+        "prod-m365-rct-doc-time-2025"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -871,16 +880,18 @@
       "solution_name": "Atlassian Rovo",
       "vendor": "Atlassian",
       "category": "enterprise-knowledge",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
       "direct_probability_count": 0,
-      "direct_human_time_count": 0,
+      "direct_human_time_count": 2,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-atlassian-rovo-20260927"
+        "cap-atlassian-rovo-20260927",
+        "prod-rovo-jira-start-work-2026",
+        "prod-rovo-dev-time-saved-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -1009,16 +1020,17 @@
       "solution_name": "Microsoft 365 Copilot Researcher",
       "vendor": "Microsoft",
       "category": "research-assistant",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
       "direct_probability_count": 0,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-microsoft-researcher-20260927"
+        "cap-microsoft-researcher-20260927",
+        "prod-ms-researcher-draco-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -1028,16 +1040,18 @@
       "solution_name": "NotebookLM",
       "vendor": "Google",
       "category": "research-assistant",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
       "direct_probability_count": 0,
-      "direct_human_time_count": 0,
+      "direct_human_time_count": 2,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-notebooklm-20260927"
+        "cap-notebooklm-20260927",
+        "prod-notebooklm-carbon-research-2025",
+        "prod-notebooklm-docusign-review-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -2136,16 +2150,17 @@
       "solution_name": "Modern Requirements Copilot4DevOps / Agents4DevOps",
       "vendor": "Modern Requirements",
       "category": "requirements-ai",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
       "direct_probability_count": 0,
-      "direct_human_time_count": 0,
+      "direct_human_time_count": 1,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-modernrequirements-copilot-20260927"
+        "cap-modernrequirements-copilot-20260927",
+        "prod-modernreq-manual-work-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -2194,16 +2209,17 @@
       "solution_name": "Mend SAST AI Triage & Remediation",
       "vendor": "Mend.io",
       "category": "security-ai",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
-      "direct_probability_count": 0,
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-mend-sast-ai-20260927"
+        "cap-mend-sast-ai-20260927",
+        "prod-mend-sast-fix-accuracy-2025"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -2310,16 +2326,18 @@
       "solution_name": "Kapa.ai",
       "vendor": "Kapa.ai",
       "category": "technical-knowledge-ai",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
-      "direct_probability_count": 0,
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-kapa-ai-20260927"
+        "cap-kapa-ai-20260927",
+        "prod-kapa-tech-accuracy-2026",
+        "prod-kapa-support-deflection-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -2716,16 +2734,18 @@
       "solution_name": "Warp Agentic Development Environment",
       "vendor": "Warp",
       "category": "coding",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
-      "direct_probability_count": 0,
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 2,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-warp-ade-20260927"
+        "cap-warp-ade-20260927",
+        "prod-warp-terminalbench-2025",
+        "prod-warp-sweverified-2025"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -2887,16 +2907,18 @@
       "solution_name": "Elastic Agent Builder / Elastic AI Agent",
       "vendor": "Elastic",
       "category": "observability-ai",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
-      "direct_probability_count": 0,
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 1,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-elastic-agent-builder-20260927"
+        "cap-elastic-agent-builder-20260927",
+        "prod-elastic-soc-triage-2026",
+        "prod-elastic-soc-triage-time-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
@@ -3006,16 +3028,18 @@
       "solution_name": "Datadog Bits AI / Bits Investigation",
       "vendor": "Datadog",
       "category": "observability-debug-ai",
-      "evidence_tier": "capability_only",
-      "direct_product_observation_count": 1,
-      "direct_quantitative_count": 0,
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
       "direct_probability_count": 0,
       "direct_human_time_count": 0,
       "capability_only_count": 1,
       "historical_harness_observation_count": 0,
       "public_user_signal_count": 0,
       "direct_observation_ids": [
-        "cap-datadog-bits-ai-20260927"
+        "cap-datadog-bits-ai-20260927",
+        "prod-datadog-bits-mttr-2026",
+        "prod-datadog-security-time-2026"
       ],
       "historical_benchmarks": [],
       "user_signal_ids": []
