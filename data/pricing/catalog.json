@@ -7,19 +7,17 @@
     "by_status": {
       "open_source_external_cost": 18,
       "contact_sales": 68,
-      "public_partial": 36,
-      "estimated_only": 7,
-      "public_exact": 27,
+      "public_partial": 40,
+      "public_exact": 30,
       "legacy_or_transition": 1
     },
     "by_evidence_grade": {
-      "A": 75,
-      "B": 16,
-      "E": 7,
+      "A": 81,
+      "B": 17,
       "C": 59
     },
-    "records_with_public_price": 82,
-    "quote_or_estimate_records": 75
+    "records_with_public_price": 89,
+    "quote_or_estimate_records": 68
   },
   "records": [
     {
@@ -213,41 +211,70 @@
       "vendor": "OpenCode",
       "category": "coding",
       "checked_at": "2026-09-27",
-      "pricing_status": "estimated_only",
+      "pricing_status": "public_partial",
       "commercial_models": [
-        "custom_contract"
+        "open_source",
+        "seat_subscription",
+        "custom_contract",
+        "token_usage"
       ],
-      "public_price": false,
-      "plans": [],
-      "variable_charges": [],
-      "inference_cost": "unknown",
+      "public_price": true,
+      "plans": [
+        {
+          "name": "Open-source agent",
+          "amount": 0,
+          "currency": "USD",
+          "unit": "deployment",
+          "period": "once"
+        },
+        {
+          "name": "OpenCode Go",
+          "amount": 10,
+          "currency": "USD",
+          "unit": "user",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "amount": null,
+          "currency": "USD",
+          "unit": "seat",
+          "period": "month",
+          "pricing": "custom"
+        }
+      ],
+      "variable_charges": [
+        {
+          "name": "BYOK/provider inference",
+          "amount": null,
+          "currency": "USD",
+          "unit": "provider usage",
+          "pricing": "provider-billed"
+        }
+      ],
+      "inference_cost": "mixed",
       "prerequisite_costs": [],
-      "cost_function": "No usable current public monetary price captured; model as a custom enterprise contract.",
-      "estimated_enterprise_cost": {
-        "low": 20,
-        "typical": 60,
-        "high": 150,
-        "currency": "USD",
-        "unit": "user",
-        "period": "month",
-        "basis": "Coarse sensitivity band for enterprise developer/general AI tooling.",
-        "grade": "E",
-        "is_vendor_price": false
-      },
+      "cost_function": "Core software can be free; Go is a hosted subscription; Enterprise is per-seat custom. BYOK tokens are billed by the provider.",
+      "estimated_enterprise_cost": null,
       "confidence": {
-        "pricing_model": 0.55,
-        "monetary": 0.18,
-        "grade": "E"
+        "pricing_model": 0.96,
+        "monetary": 0.92,
+        "grade": "A"
       },
       "sources": [
         {
           "type": "official",
-          "url": "https://opencode.ai/",
-          "label": "Official product page"
+          "url": "https://opencode.ai/v2/docs",
+          "label": "Official docs"
+        },
+        {
+          "type": "official",
+          "url": "https://dev.opencode.ai/docs/enterprise",
+          "label": "Official enterprise docs"
         }
       ],
-      "evidence_scope": "official_product_page_only",
-      "notes": "Sensitivity estimate only; not a vendor quote and must not be treated as list price."
+      "evidence_scope": "official_price_verified",
+      "notes": "Enterprise confirms per-seat pricing but does not publish the seat amount."
     },
     {
       "solution_id": "openhands",
@@ -549,41 +576,42 @@
       "vendor": "Moonshot AI",
       "category": "coding",
       "checked_at": "2026-09-27",
-      "pricing_status": "estimated_only",
+      "pricing_status": "public_exact",
       "commercial_models": [
-        "custom_contract"
+        "seat_subscription",
+        "credit_usage"
       ],
-      "public_price": false,
-      "plans": [],
+      "public_price": true,
+      "plans": [
+        {
+          "name": "Kimi Business Enterprise",
+          "amount": 4200,
+          "currency": "CNY",
+          "unit": "seat",
+          "period": "year",
+          "monthly_equivalent_cny": 350,
+          "minimum_seats": 2
+        }
+      ],
       "variable_charges": [],
-      "inference_cost": "unknown",
+      "inference_cost": "included_quota_plus_overage",
       "prerequisite_costs": [],
-      "cost_function": "No usable current public monetary price captured; model as a custom enterprise contract.",
-      "estimated_enterprise_cost": {
-        "low": 20,
-        "typical": 60,
-        "high": 150,
-        "currency": "USD",
-        "unit": "user",
-        "period": "month",
-        "basis": "Coarse sensitivity band for enterprise developer/general AI tooling.",
-        "grade": "E",
-        "is_vendor_price": false
-      },
+      "cost_function": "Annual per-seat enterprise subscription; Kimi Code and other Kimi Business features share the enterprise entitlement/credit system.",
+      "estimated_enterprise_cost": null,
       "confidence": {
-        "pricing_model": 0.55,
-        "monetary": 0.18,
-        "grade": "E"
+        "pricing_model": 0.98,
+        "monetary": 0.98,
+        "grade": "A"
       },
       "sources": [
         {
           "type": "official",
-          "url": "https://www.kimi.com/code/docs/en/",
-          "label": "Official product page"
+          "url": "https://www.kimi.com/en/help/kimi-business/kimi-business",
+          "label": "Official Kimi Business help"
         }
       ],
-      "evidence_scope": "official_product_page_only",
-      "notes": "Sensitivity estimate only; not a vendor quote and must not be treated as list price."
+      "evidence_scope": "official_price_verified",
+      "notes": "Minimum 2 seats; annual billing; up to 150 seats per online purchase."
     },
     {
       "solution_id": "gemini-cli",
@@ -591,41 +619,64 @@
       "vendor": "Google",
       "category": "coding",
       "checked_at": "2026-09-27",
-      "pricing_status": "estimated_only",
+      "pricing_status": "public_exact",
       "commercial_models": [
-        "custom_contract"
+        "seat_subscription"
       ],
-      "public_price": false,
-      "plans": [],
+      "public_price": true,
+      "plans": [
+        {
+          "name": "Gemini Code Assist Standard annual commitment",
+          "amount": 19,
+          "currency": "USD",
+          "unit": "license",
+          "period": "month",
+          "derived_from_hourly_rate": 0.026027397
+        },
+        {
+          "name": "Gemini Code Assist Standard monthly commitment",
+          "amount": 22.8,
+          "currency": "USD",
+          "unit": "license",
+          "period": "month",
+          "derived_from_hourly_rate": 0.031232877
+        },
+        {
+          "name": "Gemini Code Assist Enterprise annual commitment",
+          "amount": 45,
+          "currency": "USD",
+          "unit": "license",
+          "period": "month",
+          "derived_from_hourly_rate": 0.061643836
+        },
+        {
+          "name": "Gemini Code Assist Enterprise monthly commitment",
+          "amount": 54,
+          "currency": "USD",
+          "unit": "license",
+          "period": "month",
+          "derived_from_hourly_rate": 0.073972603
+        }
+      ],
       "variable_charges": [],
-      "inference_cost": "unknown",
+      "inference_cost": "included",
       "prerequisite_costs": [],
-      "cost_function": "No usable current public monetary price captured; model as a custom enterprise contract.",
-      "estimated_enterprise_cost": {
-        "low": 20,
-        "typical": 60,
-        "high": 150,
-        "currency": "USD",
-        "unit": "user",
-        "period": "month",
-        "basis": "Coarse sensitivity band for enterprise developer/general AI tooling.",
-        "grade": "E",
-        "is_vendor_price": false
-      },
+      "cost_function": "Per-license subscription; Gemini CLI receives higher enterprise usage limits through Gemini Code Assist editions.",
+      "estimated_enterprise_cost": null,
       "confidence": {
-        "pricing_model": 0.55,
-        "monetary": 0.18,
-        "grade": "E"
+        "pricing_model": 0.98,
+        "monetary": 0.98,
+        "grade": "A"
       },
       "sources": [
         {
           "type": "official",
-          "url": "https://github.com/google-gemini/gemini-cli",
-          "label": "Official product page"
+          "url": "https://cloud.google.com/products/gemini/pricing",
+          "label": "Official Google Cloud Gemini pricing"
         }
       ],
-      "evidence_scope": "official_product_page_only",
-      "notes": "Sensitivity estimate only; not a vendor quote and must not be treated as list price."
+      "evidence_scope": "official_price_verified",
+      "notes": "Monthly equivalents are derived from Google's published hourly license rates using a 730-hour billing month."
     },
     {
       "solution_id": "factory-droid",
@@ -4417,41 +4468,80 @@
       "vendor": "Replit",
       "category": "coding",
       "checked_at": "2026-09-27",
-      "pricing_status": "estimated_only",
+      "pricing_status": "public_partial",
       "commercial_models": [
+        "workspace_subscription",
+        "usage_based",
         "custom_contract"
       ],
-      "public_price": false,
-      "plans": [],
-      "variable_charges": [],
-      "inference_cost": "unknown",
+      "public_price": true,
+      "plans": [
+        {
+          "name": "Core monthly",
+          "amount": 20,
+          "currency": "USD",
+          "unit": "workspace",
+          "period": "month",
+          "included_model_credit_usd": 20
+        },
+        {
+          "name": "Core annual equivalent",
+          "amount": 18,
+          "currency": "USD",
+          "unit": "workspace",
+          "period": "month"
+        },
+        {
+          "name": "Pro monthly",
+          "amount": 100,
+          "currency": "USD",
+          "unit": "workspace",
+          "period": "month",
+          "included_model_credit_usd": 100
+        },
+        {
+          "name": "Pro annual equivalent",
+          "amount": 90,
+          "currency": "USD",
+          "unit": "workspace",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "amount": null,
+          "currency": "USD",
+          "unit": "organization",
+          "period": "year",
+          "pricing": "custom"
+        }
+      ],
+      "variable_charges": [
+        {
+          "name": "Agent effort/compute beyond included credits",
+          "amount": null,
+          "currency": "USD",
+          "unit": "usage",
+          "pricing": "effort-based PAYG"
+        }
+      ],
+      "inference_cost": "included_quota_plus_overage",
       "prerequisite_costs": [],
-      "cost_function": "No usable current public monetary price captured; model as a custom enterprise contract.",
-      "estimated_enterprise_cost": {
-        "low": 20,
-        "typical": 60,
-        "high": 150,
-        "currency": "USD",
-        "unit": "user",
-        "period": "month",
-        "basis": "Coarse sensitivity band for enterprise developer/general AI tooling.",
-        "grade": "E",
-        "is_vendor_price": false
-      },
+      "cost_function": "Workspace subscription includes model/agent credits, with effort-based PAYG for additional consumption; Enterprise is custom.",
+      "estimated_enterprise_cost": null,
       "confidence": {
-        "pricing_model": 0.55,
-        "monetary": 0.18,
-        "grade": "E"
+        "pricing_model": 0.97,
+        "monetary": 0.95,
+        "grade": "A"
       },
       "sources": [
         {
           "type": "official",
-          "url": "https://replit.com/enterprise",
-          "label": "Official product page"
+          "url": "https://replit.com/pricing",
+          "label": "Official Replit pricing"
         }
       ],
-      "evidence_scope": "official_product_page_only",
-      "notes": "Sensitivity estimate only; not a vendor quote and must not be treated as list price."
+      "evidence_scope": "official_price_verified",
+      "notes": "Teams plan was sunset in 2026 and existing Teams customers migrated to Pro."
     },
     {
       "solution_id": "zed-ai",
@@ -4797,41 +4887,94 @@
       "vendor": "IBM",
       "category": "enterprise-ai-platform",
       "checked_at": "2026-09-27",
-      "pricing_status": "estimated_only",
+      "pricing_status": "public_exact",
       "commercial_models": [
-        "custom_contract"
+        "usage_based",
+        "compute_usage",
+        "gpu_hour"
       ],
-      "public_price": false,
-      "plans": [],
-      "variable_charges": [],
-      "inference_cost": "unknown",
+      "public_price": true,
+      "plans": [
+        {
+          "name": "Essentials",
+          "amount": 0,
+          "currency": "USD",
+          "unit": "organization",
+          "period": "month",
+          "pricing": "starts at"
+        },
+        {
+          "name": "Standard",
+          "amount": 1110,
+          "currency": "USD",
+          "unit": "organization",
+          "period": "month",
+          "pricing": "starts at"
+        },
+        {
+          "name": "Advanced support",
+          "amount": 200,
+          "currency": "USD",
+          "unit": "organization",
+          "period": "month",
+          "pricing": "starts at"
+        }
+      ],
+      "variable_charges": [
+        {
+          "name": "ML capacity",
+          "amount": 0.55,
+          "currency": "USD",
+          "unit": "capacity-unit-hour",
+          "plan": "Essentials"
+        },
+        {
+          "name": "ML capacity",
+          "amount": 0.45,
+          "currency": "USD",
+          "unit": "capacity-unit-hour",
+          "plan": "Standard"
+        },
+        {
+          "name": "Text extraction",
+          "amount": 0.0403,
+          "currency": "USD",
+          "unit": "page",
+          "plan": "Essentials"
+        },
+        {
+          "name": "Text extraction",
+          "amount": 0.0318,
+          "currency": "USD",
+          "unit": "page",
+          "plan": "Standard"
+        },
+        {
+          "name": "H100 on-demand hosting",
+          "amount": 14.5,
+          "currency": "USD",
+          "unit": "GPU-hour",
+          "plan": "Standard"
+        }
+      ],
+      "inference_cost": "vendor_usage",
       "prerequisite_costs": [],
-      "cost_function": "No usable current public monetary price captured; model as a custom enterprise contract.",
-      "estimated_enterprise_cost": {
-        "low": 25000,
-        "typical": 100000,
-        "high": 300000,
-        "currency": "USD",
-        "unit": "organization",
-        "period": "year",
-        "basis": "Coarse sensitivity band for enterprise platform contracts; usage and support can materially change spend.",
-        "grade": "E",
-        "is_vendor_price": false
-      },
+      "cost_function": "Base SaaS tier plus model/token, compute, document extraction and optional GPU hosting consumption.",
+      "estimated_enterprise_cost": null,
       "confidence": {
-        "pricing_model": 0.55,
-        "monetary": 0.18,
-        "grade": "E"
+        "pricing_model": 0.98,
+        "monetary": 0.96,
+        "grade": "A"
       },
       "sources": [
         {
           "type": "official",
-          "url": "https://www.ibm.com/products/watsonx-ai",
-          "label": "Official product page"
+          "url": "https://www.ibm.com/products/watsonx-ai/pricing",
+          "label": "Official IBM watsonx.ai pricing"
         }
       ],
-      "evidence_scope": "official_product_page_only",
-      "notes": "Sensitivity estimate only; not a vendor quote and must not be treated as list price."
+      "evidence_scope": "official_price_verified",
+      "notes": "Foundation model token rates vary by model; listed charges are representative public platform dimensions."
     },
     {
       "solution_id": "adobe-acrobat-ai",
@@ -4968,41 +5111,62 @@
       "vendor": "tl;dv",
       "category": "meeting-ai",
       "checked_at": "2026-09-27",
-      "pricing_status": "estimated_only",
+      "pricing_status": "public_partial",
       "commercial_models": [
+        "seat_subscription",
         "custom_contract"
       ],
-      "public_price": false,
-      "plans": [],
+      "public_price": true,
+      "plans": [
+        {
+          "name": "Pro annual",
+          "amount": 18,
+          "currency": "USD",
+          "unit": "seat",
+          "period": "month"
+        },
+        {
+          "name": "Business annual",
+          "amount": 29,
+          "currency": "USD",
+          "unit": "seat",
+          "period": "month"
+        },
+        {
+          "name": "Business monthly",
+          "amount": 39,
+          "currency": "USD",
+          "unit": "seat",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "amount": null,
+          "currency": "USD",
+          "unit": "organization",
+          "period": "year",
+          "pricing": "custom"
+        }
+      ],
       "variable_charges": [],
-      "inference_cost": "unknown",
+      "inference_cost": "included",
       "prerequisite_costs": [],
-      "cost_function": "No usable current public monetary price captured; model as a custom enterprise contract.",
-      "estimated_enterprise_cost": {
-        "low": 15,
-        "typical": 40,
-        "high": 100,
-        "currency": "USD",
-        "unit": "user",
-        "period": "month",
-        "basis": "Coarse sensitivity band for enterprise knowledge/document/research SaaS.",
-        "grade": "E",
-        "is_vendor_price": false
-      },
+      "cost_function": "Per-seat SaaS subscription; Enterprise is negotiated.",
+      "estimated_enterprise_cost": null,
       "confidence": {
-        "pricing_model": 0.55,
-        "monetary": 0.18,
-        "grade": "E"
+        "pricing_model": 0.95,
+        "monetary": 0.88,
+        "grade": "B"
       },
       "sources": [
         {
           "type": "official",
-          "url": "https://tldv.io/",
-          "label": "Official product page"
+          "url": "https://tldv.io/blog/cluely-review/",
+          "label": "Vendor-published pricing comparison citing tl;dv pricing"
         }
       ],
-      "evidence_scope": "official_product_page_only",
-      "notes": "Sensitivity estimate only; not a vendor quote and must not be treated as list price."
+      "evidence_scope": "vendor_published_secondary_pricing",
+      "notes": "Vendor's own 2026 comparison pages cite these current tl;dv plan prices; Enterprise remains custom."
     },
     {
       "solution_id": "elicit",
@@ -6230,41 +6394,66 @@
       "vendor": "Dust",
       "category": "enterprise-agent-platform",
       "checked_at": "2026-09-27",
-      "pricing_status": "estimated_only",
+      "pricing_status": "public_partial",
       "commercial_models": [
+        "seat_subscription",
+        "credit_usage",
         "custom_contract"
       ],
-      "public_price": false,
-      "plans": [],
+      "public_price": true,
+      "plans": [
+        {
+          "name": "Business Free",
+          "amount": 0,
+          "currency": "EUR",
+          "unit": "workspace",
+          "period": "once",
+          "credits": 500
+        },
+        {
+          "name": "Business Pro annual",
+          "amount": 24,
+          "currency": "EUR",
+          "unit": "seat",
+          "period": "month",
+          "credits_per_month": 8000
+        },
+        {
+          "name": "Business Max annual",
+          "amount": 120,
+          "currency": "EUR",
+          "unit": "seat",
+          "period": "month",
+          "credits_per_month": 40000
+        },
+        {
+          "name": "Enterprise",
+          "amount": null,
+          "currency": "EUR",
+          "unit": "organization",
+          "period": "year",
+          "pricing": "custom"
+        }
+      ],
       "variable_charges": [],
-      "inference_cost": "unknown",
+      "inference_cost": "included_quota_plus_overage",
       "prerequisite_costs": [],
-      "cost_function": "No usable current public monetary price captured; model as a custom enterprise contract.",
-      "estimated_enterprise_cost": {
-        "low": 25000,
-        "typical": 100000,
-        "high": 300000,
-        "currency": "USD",
-        "unit": "organization",
-        "period": "year",
-        "basis": "Coarse sensitivity band for enterprise platform contracts; usage and support can materially change spend.",
-        "grade": "E",
-        "is_vendor_price": false
-      },
+      "cost_function": "Per-seat subscription with included monthly credits; Enterprise uses pooled credits and volume pricing.",
+      "estimated_enterprise_cost": null,
       "confidence": {
-        "pricing_model": 0.55,
-        "monetary": 0.18,
-        "grade": "E"
+        "pricing_model": 0.98,
+        "monetary": 0.98,
+        "grade": "A"
       },
       "sources": [
         {
           "type": "official",
-          "url": "https://dust.tt/home/enterprise",
-          "label": "Official product page"
+          "url": "https://dust.tt/home/pricing",
+          "label": "Official Dust pricing"
         }
       ],
-      "evidence_scope": "official_product_page_only",
-      "notes": "Sensitivity estimate only; not a vendor quote and must not be treated as list price."
+      "evidence_scope": "official_price_verified",
+      "notes": "Business self-serve plans support teams up to 100; Enterprise adds pooled credits and negotiated volume pricing."
     },
     {
       "solution_id": "cursor-bugbot",
