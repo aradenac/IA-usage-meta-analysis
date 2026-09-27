@@ -1,0 +1,383 @@
+[
+  {
+    "id": "scaleway-genai-serverless",
+    "name": "Scaleway Generative APIs — Serverless",
+    "vendor": "Scaleway",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "eu-cloud",
+      "serverless",
+      "api"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "vision",
+      "embeddings",
+      "audio",
+      "openai-compatible",
+      "tool-calling"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients"
+    ],
+    "official_url": "https://www.scaleway.com/en/docs/generative-apis/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "scaleway-genai-dedicated",
+    "name": "Scaleway Generative APIs — Dedicated Deployment",
+    "vendor": "Scaleway",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "eu-cloud",
+      "dedicated",
+      "private-network",
+      "api"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "custom-models",
+      "private-network",
+      "openai-compatible",
+      "vision",
+      "embeddings"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients",
+      "VPC"
+    ],
+    "official_url": "https://www.scaleway.com/en/docs/generative-apis/how-to/create-deployment/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "scaleway-audio",
+    "name": "Scaleway Audio Transcription API",
+    "vendor": "Scaleway",
+    "category": "audio-ai",
+    "status": "active",
+    "deployment": [
+      "eu-cloud",
+      "api"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "transcription",
+      "audio"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients"
+    ],
+    "official_url": "https://www.scaleway.com/en/docs/generative-apis/how-to/query-audio-models/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "ovh-ai-endpoints",
+    "name": "OVHcloud AI Endpoints",
+    "vendor": "OVHcloud",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "eu-cloud",
+      "serverless",
+      "api"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "openai-compatible",
+      "tool-calling",
+      "structured-outputs",
+      "vision"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients"
+    ],
+    "official_url": "https://endpoints.ai.cloud.ovh.net/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "mistral-platform",
+    "name": "Mistral AI Studio / La Plateforme",
+    "vendor": "Mistral AI",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "studio"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "agents",
+      "connectors",
+      "mcp",
+      "tool-calling",
+      "structured-outputs",
+      "document-ai",
+      "audio"
+    ],
+    "integrations": [
+      "MCP",
+      "enterprise connectors"
+    ],
+    "official_url": "https://console.mistral.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "openai-api",
+    "name": "OpenAI API / Responses API",
+    "vendor": "OpenAI",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "api",
+      "saas"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "agents",
+      "web-search",
+      "tools",
+      "mcp",
+      "structured-outputs",
+      "vision",
+      "audio"
+    ],
+    "integrations": [
+      "MCP",
+      "connectors"
+    ],
+    "official_url": "https://developers.openai.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "anthropic-api",
+    "name": "Claude API / Anthropic Platform",
+    "vendor": "Anthropic",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "api",
+      "saas",
+      "cloud-provider"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "tools",
+      "mcp",
+      "web-search",
+      "long-context"
+    ],
+    "integrations": [
+      "MCP",
+      "AWS",
+      "Google Cloud"
+    ],
+    "official_url": "https://docs.anthropic.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "google-vertex-ai",
+    "name": "Google Vertex AI / Gemini API",
+    "vendor": "Google Cloud",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "google-cloud",
+      "api",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "console"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "agents",
+      "search",
+      "vision",
+      "audio",
+      "enterprise-governance"
+    ],
+    "integrations": [
+      "Google Cloud"
+    ],
+    "official_url": "https://cloud.google.com/vertex-ai",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "azure-ai-foundry",
+    "name": "Microsoft Foundry / Azure AI Foundry",
+    "vendor": "Microsoft",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "azure",
+      "api",
+      "private-network",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "studio"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "agents",
+      "mcp",
+      "private-network",
+      "rbac",
+      "multi-model"
+    ],
+    "integrations": [
+      "Azure",
+      "MCP"
+    ],
+    "official_url": "https://ai.azure.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "aws-bedrock",
+    "name": "Amazon Bedrock",
+    "vendor": "Amazon Web Services",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "aws",
+      "api",
+      "vpc",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "console"
+    ],
+    "capabilities": [
+      "llm-backend",
+      "agents",
+      "multi-model",
+      "enterprise-governance",
+      "private-network"
+    ],
+    "integrations": [
+      "AWS"
+    ],
+    "official_url": "https://aws.amazon.com/bedrock/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "huggingface-endpoints",
+    "name": "Hugging Face Inference Endpoints",
+    "vendor": "Hugging Face",
+    "category": "model-backend",
+    "status": "active",
+    "deployment": [
+      "managed",
+      "dedicated",
+      "private-endpoint",
+      "api"
+    ],
+    "surfaces": [
+      "api",
+      "web"
+    ],
+    "capabilities": [
+      "model-hosting",
+      "open-models",
+      "private-endpoint",
+      "autoscaling"
+    ],
+    "integrations": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "official_url": "https://huggingface.co/docs/inference-endpoints/index",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "vendor": "Ollama",
+    "category": "model-runtime",
+    "status": "active",
+    "deployment": [
+      "local",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "api",
+      "cli"
+    ],
+    "capabilities": [
+      "local-models",
+      "open-models",
+      "api-backend",
+      "offline"
+    ],
+    "integrations": [
+      "OpenAI-compatible ecosystem"
+    ],
+    "official_url": "https://ollama.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "vendor": "vLLM community",
+    "category": "model-runtime",
+    "status": "active",
+    "deployment": [
+      "self-hosted"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "model-serving",
+      "open-models",
+      "openai-compatible",
+      "high-throughput"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients"
+    ],
+    "official_url": "https://docs.vllm.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  }
+]
