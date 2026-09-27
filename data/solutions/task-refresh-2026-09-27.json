@@ -1395,5 +1395,150 @@
     "official_url": "https://www.siemens.com/en-us/products/ic/questa-one/functional-safety/iso-26262/",
     "verified_at": "2026-09-28",
     "notes": "AI-powered functional-safety verification platform focused on ISO 26262, spanning systematic/random failure workflows, safety metrics and safety-case support."
+  },
+  {
+    "id": "docker-gordon",
+    "name": "Docker Gordon",
+    "vendor": "Docker",
+    "category": "container-devops-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "saas-account"
+    ],
+    "surfaces": [
+      "docker-desktop",
+      "cli"
+    ],
+    "capabilities": [
+      "dockerfile-generation",
+      "container-debugging",
+      "build-failure-debugging",
+      "logs",
+      "images",
+      "volumes",
+      "networks",
+      "containerization",
+      "command-execution"
+    ],
+    "integrations": [
+      "Docker Desktop",
+      "Docker CLI"
+    ],
+    "official_url": "https://docs.docker.com/ai/gordon",
+    "verified_at": "2026-09-28",
+    "notes": "GA Docker-native AI agent. Reads Docker environment/build context, writes or modifies Dockerfiles, diagnoses failed builds and containers, and executes approved Docker actions from Desktop or `docker ai`."
+  },
+  {
+    "id": "github-agentic-workflows",
+    "name": "GitHub Agentic Workflows",
+    "vendor": "GitHub",
+    "category": "devops-ai",
+    "status": "public-preview",
+    "deployment": [
+      "saas",
+      "github-actions"
+    ],
+    "surfaces": [
+      "github-actions",
+      "workflow-markdown"
+    ],
+    "capabilities": [
+      "ci-failure-investigation",
+      "repository-automation",
+      "test-coverage",
+      "documentation-sync",
+      "issue-triage",
+      "status-reports",
+      "multi-agent-engine",
+      "guardrailed-actions"
+    ],
+    "integrations": [
+      "GitHub Actions",
+      "GitHub Copilot",
+      "Claude Code",
+      "OpenAI Codex",
+      "Gemini CLI"
+    ],
+    "official_url": "https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows",
+    "verified_at": "2026-09-28",
+    "notes": "Natural-language agentic workflows compiled into hardened GitHub Actions workflows. Supports Copilot, Claude, Codex and Gemini engines with declared permissions and safe outputs."
+  },
+  {
+    "id": "buildkite-agentic-ci",
+    "name": "Buildkite AI Agents + MCP",
+    "vendor": "Buildkite",
+    "category": "devops-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted-agent",
+      "remote-mcp",
+      "local-mcp"
+    ],
+    "surfaces": [
+      "pipeline",
+      "mcp",
+      "skills"
+    ],
+    "capabilities": [
+      "ci-failure-investigation",
+      "pipeline-management",
+      "pipeline-generation",
+      "build-logs",
+      "test-results",
+      "agentic-steps",
+      "mcp",
+      "skills",
+      "self-healing-ci"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Cursor",
+      "GitHub Copilot",
+      "Buildkite Pipelines",
+      "Buildkite Test Engine"
+    ],
+    "official_url": "https://buildkite.com/docs/platform/ai-agents",
+    "verified_at": "2026-09-28",
+    "notes": "Buildkite provides agent skills, a remote/local MCP server with pipeline/build/log/test tools, and agentic pipeline steps. Agents can inspect failures, alter pipelines, trigger builds and run inside CI."
+  },
+  {
+    "id": "circleci-agentic-ci",
+    "name": "CircleCI MCP + Agent Skills",
+    "vendor": "CircleCI",
+    "category": "devops-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "hosted-mcp",
+      "local-cli-mcp"
+    ],
+    "surfaces": [
+      "mcp",
+      "cli",
+      "skills",
+      "web"
+    ],
+    "capabilities": [
+      "ci-failure-investigation",
+      "pipeline-management",
+      "rerun-failed-jobs",
+      "config-validation",
+      "build-logs",
+      "test-failures",
+      "agent-skills",
+      "ci-optimization"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "GitHub Copilot",
+      "CircleCI CLI"
+    ],
+    "official_url": "https://circleci.com/docs/guides/toolkit/circleci-mcp-overview/",
+    "verified_at": "2026-09-28",
+    "notes": "Hosted and CLI MCP servers plus reusable agent skills let coding agents diagnose/fix failed builds, inspect tests/logs, optimize config and rerun/cancel workflows through structured CI tools."
   }
 ]
