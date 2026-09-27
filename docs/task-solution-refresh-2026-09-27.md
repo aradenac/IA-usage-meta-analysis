@@ -38,7 +38,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | Verification | 11 | complete | 11/11 tasks explicitly searched; corrected baseline count from 12 to 11; 4 industrial verification solutions added. |
 | Safety / cyber | 10 | complete | 10/10 tasks explicitly searched; 8 product-security, safety and assessment solutions added. |
 | CI / tooling / release | 8 | complete | 8/8 tasks explicitly searched; 4 agentic CI/container solutions added and existing tools remapped. |
-| Documentation | 5 | pending | |
+| Documentation | 5 | complete | 5/5 tasks explicitly searched; no net-new mature product required, but current embedded/agentic tools were remapped. |
 | Collaboration | 8 | pending | |
 | Learning / research | 12 | pending | |
 
@@ -262,3 +262,23 @@ Existing products were also remapped where current first-party capabilities had 
 Change log:
 - 2026-09-28 — CI/tooling/release domain completed; inventory increased from 197 to 201 solutions.
 - 2026-09-28 — website snapshot regenerated from the 201-solution inventory.
+
+## Documentation-domain audit
+
+Status: **complete (5/5 tasks searched explicitly)**.
+
+This pass found **no net-new mature product** that materially improved the already broad documentation inventory. The useful change was to map current engineering-specific tools that had been added in earlier domains:
+
+- **GitHub Agentic Workflows** → code-documentation maintenance and documentation drift automation.
+- **Auriga Nexus / ArchTect / Visual Paradigm AI / Dalus / Softagram / SPREAD Product Explorer** → architecture documentation and architecture-derived artifacts.
+- **Embedder / Hydron / MPLAB AI Coding Assistant** → datasheet/reference-manual analysis and vendor-document grounding.
+- **fw-context MCP** → connected code context for documentation generation/synchronization.
+
+Important lifecycle correction:
+- **Swimm's old continuous-documentation/autosync product** is no longer counted as a current standalone documentation solution. Its 2026 offering has shifted toward agentic modernization services/platform work. This is now recorded in `data/solution-exclusions.json`.
+
+Very small community-only documentation-drift tools were reviewed but not promoted because they did not meet the maturity threshold already applied elsewhere in the inventory.
+
+Change log:
+- 2026-09-28 — documentation domain completed; inventory remains at 201 solutions.
+- 2026-09-28 — website snapshot regenerated with updated documentation mappings.
