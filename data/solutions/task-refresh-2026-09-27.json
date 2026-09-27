@@ -962,5 +962,154 @@
     "official_url": "https://github.com/microhenrio/openocd-mcp",
     "verified_at": "2026-09-27",
     "notes": "Community MCP layer over OpenOCD, enabling assistants to flash and inspect live targets through standard probes; treated as a connected tool, not a turnkey AI debugger."
+  },
+  {
+    "id": "btc-teststack",
+    "name": "BTC TestStack + AI Assistant/MCP",
+    "vendor": "BTC Embedded Systems",
+    "category": "safety-critical-verification-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "cloud"
+    ],
+    "surfaces": [
+      "vscode",
+      "simulink",
+      "cloud",
+      "mcp"
+    ],
+    "capabilities": [
+      "unit-testing",
+      "integration-testing",
+      "requirements-based-testing",
+      "test-generation",
+      "mcdc",
+      "coverage",
+      "formal-verification",
+      "traceability",
+      "ai-assistant",
+      "mcp",
+      "c-cpp"
+    ],
+    "integrations": [
+      "VS Code",
+      "Simulink",
+      "GoogleTest",
+      "CI/CD",
+      "ALM-PLM",
+      "MCP-capable agents"
+    ],
+    "official_url": "https://www.btc-embedded.com/products/btc-teststack",
+    "verified_at": "2026-09-27",
+    "notes": "Certified safety-critical verification stack for model-based, handwritten and AI-generated C/C++. Built-in AI Assistant drafts artifacts and MCP exposes verification actions to external agents."
+  },
+  {
+    "id": "btc-testagent",
+    "name": "BTC TestAgent",
+    "vendor": "BTC Embedded Systems",
+    "category": "hil-testing-ai",
+    "status": "partner-preview",
+    "deployment": [
+      "local-client",
+      "cloud-ready"
+    ],
+    "surfaces": [
+      "agent"
+    ],
+    "capabilities": [
+      "requirements-extraction",
+      "requirements-formalization",
+      "test-generation",
+      "symbolic-validation",
+      "hil",
+      "virtual-hil",
+      "result-verification",
+      "traceability",
+      "closed-loop-testing"
+    ],
+    "integrations": [
+      "dSPACE Test Automation SDK",
+      "HIL",
+      "SIL",
+      "OpenAI-class models"
+    ],
+    "official_url": "https://www.btc-embedded.com/products/btc-testagent",
+    "verified_at": "2026-09-27",
+    "notes": "AI-driven virtual tester for system-level HIL/vHIL. Extracts/formalizes requirements, generates and symbolically validates tests, executes them and verifies results. Initial rollout is to selected partner customers."
+  },
+  {
+    "id": "cantata-ai",
+    "name": "Cantata 26.04 + Test Automation Skill",
+    "vendor": "QA Systems",
+    "category": "embedded-unit-test-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "ci"
+    ],
+    "surfaces": [
+      "vscode",
+      "eclipse",
+      "agent-skill"
+    ],
+    "capabilities": [
+      "c-cpp-unit-testing",
+      "integration-testing",
+      "ai-test-generation",
+      "coverage-gap-analysis",
+      "iterative-test-refinement",
+      "mcdc",
+      "requirements-traceability",
+      "embedded-target-testing"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "GitHub Copilot",
+      "CMake",
+      "embedded toolchains"
+    ],
+    "official_url": "https://www.qa-systems.com/tools/cantata",
+    "verified_at": "2026-09-27",
+    "notes": "Cantata 26.04 adds AI-assisted C/C++ test generation via a Test Automation Skill with Claude Code/Codex/OpenCode/Copilot integrations, while preserving Cantata coverage and safety-certification workflows."
+  },
+  {
+    "id": "tasking-agentic-toolchain",
+    "name": "TASKING Toolchain Agentic AI Workflows",
+    "vendor": "TASKING",
+    "category": "embedded-vv-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "local-client"
+    ],
+    "surfaces": [
+      "toolchain",
+      "mcp"
+    ],
+    "capabilities": [
+      "embedded-vv",
+      "agentic-workflows",
+      "compile",
+      "debug",
+      "test",
+      "safety-critical",
+      "autosar",
+      "performance-analysis",
+      "verification"
+    ],
+    "integrations": [
+      "MCP",
+      "Kiro",
+      "TASKING compiler",
+      "winIDEA",
+      "BlueBox",
+      "LDRA"
+    ],
+    "official_url": "https://www.tasking.com/content/tasking-integrates-modern-ai-technology-to-enable-robust-software-verification-and-validation-vv/",
+    "verified_at": "2026-09-27",
+    "notes": "TASKING 2026 toolchain exposes embedded compile/debug/test capabilities for agentic AI workflows, including demonstrated MCP orchestration in safety-critical automotive contexts."
   }
 ]
