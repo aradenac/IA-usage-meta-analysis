@@ -1,0 +1,53 @@
+[
+  {
+    "id": "roo-code",
+    "name": "Roo Code",
+    "status": "discontinued",
+    "reason": "Product/service shut down in May 2026; not considered an exploitable current solution.",
+    "checked_at": "2026-09-27"
+  },
+  {
+    "id": "windsurf-standalone",
+    "name": "Windsurf (standalone product identity)",
+    "status": "subsumed",
+    "reason": "The current Windsurf desktop experience has been renamed/evolved into Devin Desktop; avoid double counting. JetBrains support may remain under Windsurf branding.",
+    "replacement": "devin-desktop",
+    "checked_at": "2026-09-27"
+  },
+  {
+    "id": "cody-free-pro",
+    "name": "Sourcegraph Cody Free / Pro",
+    "status": "discontinued",
+    "reason": "Individual Free/Pro offerings are not treated as current choices; Cody Enterprise remains active and Amp covers newer agentic use cases.",
+    "replacement": "sourcegraph-cody",
+    "checked_at": "2026-09-27"
+  },
+  {
+    "id": "eval-scaffolds",
+    "name": "Evaluation-only scaffolds / benchmark runners",
+    "status": "excluded_by_methodology",
+    "reason": "May contribute evidence but are not user-facing tools an engineer would choose for daily work.",
+    "checked_at": "2026-09-27"
+  },
+  {
+    "id": "reqtify",
+    "name": "Reqtify",
+    "status": "non_ai_tool",
+    "reason": "Important traceability platform/source in the company context, but no native AI product was identified in this inventory phase. It remains a target data/tool integration for AI solutions.",
+    "checked_at": "2026-09-27"
+  },
+  {
+    "id": "openfasttrace",
+    "name": "OpenFastTrace",
+    "status": "non_ai_tool",
+    "reason": "Traceability tool/output target, not itself an AI solution.",
+    "checked_at": "2026-09-27"
+  },
+  {
+    "id": "plantuml-mermaid-drawio",
+    "name": "PlantUML / Mermaid / Draw.io",
+    "status": "non_ai_formats_tools",
+    "reason": "Important diagram formats/tools, but not counted as AI solutions unless used through an AI-enabled product such as Eraser, Lucid AI, Miro AI or a general/coding assistant.",
+    "checked_at": "2026-09-27"
+  }
+]
