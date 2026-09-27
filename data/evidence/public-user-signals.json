@@ -138,5 +138,35 @@
     "source_grade": "E",
     "source": "https://www.reddit.com/r/ClaudeAI/comments/1r0dxob/ive_used_ai_to_write_100_of_my_code_for_1_year_as/",
     "signal": "Experienced user shipping AI-generated production code emphasizes that guardrails and early codebase patterns dominate later agent behavior; AI amplifies existing engineering quality rather than replacing it."
+  },
+  {
+    "id": "usr-glean-enterprise-search-field-2026",
+    "solution_id": "glean",
+    "family": "enterprise-search",
+    "date": "2026-05-26",
+    "sentiment": "mixed",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/SaaS/comments/1tnz9lm/we_evaluated_glean_60x_and_guru_for_internal/",
+    "signal": "A 400-person services firm evaluating Glean/60x/Guru reports Glean's connector ecosystem and document retrieval as very strong, but says multi-hop synthesis across Slack/SharePoint/contracts was weaker and often returned links rather than resolving the cross-source question. Self-reported evaluation; no reproducible protocol."
+  },
+  {
+    "id": "usr-perplexity-enterprise-research-2026",
+    "solution_id": "perplexity-enterprise",
+    "family": "deep-research",
+    "date": "2026-01-02",
+    "sentiment": "positive-mixed",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/perplexity_ai/comments/1q244rm/so_im_not_sure_if_its_just_me_but_perplexity/",
+    "signal": "User with simultaneous ChatGPT Enterprise/Pro, Perplexity Enterprise/Pro, Claude and Gemini subscriptions reports Perplexity as preferred for day-to-day detailed research, while using ChatGPT deep/heavy research for more complex engineering scopes. Single-user qualitative comparison."
+  },
+  {
+    "id": "usr-perplexity-enterprise-value-2026",
+    "solution_id": "perplexity-enterprise",
+    "family": "deep-research",
+    "date": "2026-09-04",
+    "sentiment": "mixed-negative",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/perplexity_ai/comments/1w6z5f5/enterprise_pro/",
+    "signal": "Small-organization user reports Perplexity research remains valuable but criticizes feature migration, high token consumption and declining value on Max; considering Enterprise Pro as a lower-cost path. Useful cost/usage sentiment, not quality measurement."
   }
 ]
