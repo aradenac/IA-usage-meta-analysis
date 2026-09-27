@@ -4318,6 +4318,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "datadog-bits-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "devin-desktop",
         "relationship": "direct"
       },
@@ -4327,6 +4331,10 @@
       },
       {
         "solution_id": "dust",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "elastic-agent-builder",
         "relationship": "direct"
       },
       {
@@ -4748,11 +4756,19 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "datadog-bits-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "dify",
         "relationship": "custom_workflow"
       },
       {
         "solution_id": "dust",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "elastic-agent-builder",
         "relationship": "direct"
       },
       {
