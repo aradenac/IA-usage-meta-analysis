@@ -93,7 +93,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -189,7 +189,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -235,7 +235,7 @@
       "high": 0.7300710339384373,
       "fixed_point": 0.36503551696921865,
       "variable_point": 0,
-      "fixed_basis": "Standard/50 users",
+      "fixed_basis": "Standard",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -285,7 +285,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -381,7 +381,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -477,7 +477,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -573,7 +573,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -677,7 +677,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -723,7 +723,7 @@
       "high": 0.06577216521967903,
       "fixed_point": 0.032886082609839516,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -788,7 +788,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -837,7 +837,7 @@
       "high": 0.02192405507322634,
       "fixed_point": 0.01096202753661317,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -912,7 +912,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1008,7 +1008,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1104,7 +1104,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1200,7 +1200,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1246,7 +1246,7 @@
       "high": 0.08714811891607471,
       "fixed_point": 0.043574059458037356,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -1296,7 +1296,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1392,7 +1392,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1438,7 +1438,7 @@
       "high": 0.5002500000000001,
       "fixed_point": 0.25012500000000004,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -1488,7 +1488,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1584,7 +1584,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1680,7 +1680,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1776,7 +1776,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1872,7 +1872,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -1968,7 +1968,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2064,7 +2064,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2160,7 +2160,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2256,7 +2256,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2352,7 +2352,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2448,7 +2448,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2544,7 +2544,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2640,7 +2640,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2736,7 +2736,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2832,7 +2832,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -2928,7 +2928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -3024,7 +3024,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -3120,7 +3120,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -3216,7 +3216,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -3312,7 +3312,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -3408,7 +3408,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-backlog",
@@ -3504,7 +3504,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -3600,7 +3600,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -3696,7 +3696,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -3742,7 +3742,7 @@
       "high": 0.608392528282031,
       "fixed_point": 0.3041962641410155,
       "variable_point": 0,
-      "fixed_basis": "Standard/50 users",
+      "fixed_basis": "Standard",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -3792,7 +3792,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -3888,7 +3888,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -3984,7 +3984,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4080,7 +4080,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4184,7 +4184,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4230,7 +4230,7 @@
       "high": 0.054810137683065856,
       "fixed_point": 0.027405068841532928,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -4295,7 +4295,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4344,7 +4344,7 @@
       "high": 0.018270045894355283,
       "fixed_point": 0.009135022947177641,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -4419,7 +4419,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4515,7 +4515,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4611,7 +4611,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4707,7 +4707,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4811,7 +4811,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4907,7 +4907,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -4953,7 +4953,7 @@
       "high": 0.07262343243006225,
       "fixed_point": 0.036311716215031126,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -5003,7 +5003,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5099,7 +5099,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5195,7 +5195,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5241,7 +5241,7 @@
       "high": 0.416875,
       "fixed_point": 0.2084375,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -5291,7 +5291,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5387,7 +5387,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5483,7 +5483,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5579,7 +5579,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5675,7 +5675,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5771,7 +5771,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5867,7 +5867,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -5963,7 +5963,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6059,7 +6059,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6155,7 +6155,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6251,7 +6251,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6347,7 +6347,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6443,7 +6443,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6539,7 +6539,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6635,7 +6635,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6731,7 +6731,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6827,7 +6827,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -6923,7 +6923,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -7019,7 +7019,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -7115,7 +7115,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -7211,7 +7211,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-confluence",
@@ -7307,7 +7307,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -7403,7 +7403,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -7499,7 +7499,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -7545,7 +7545,7 @@
       "high": 0.48671402262562485,
       "fixed_point": 0.24335701131281243,
       "variable_point": 0,
-      "fixed_basis": "Standard/50 users",
+      "fixed_basis": "Standard",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -7595,7 +7595,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -7691,7 +7691,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -7787,7 +7787,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -7883,7 +7883,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -7987,7 +7987,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8033,7 +8033,7 @@
       "high": 0.043848110146452686,
       "fixed_point": 0.021924055073226343,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -8098,7 +8098,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8147,7 +8147,7 @@
       "high": 0.014616036715484226,
       "fixed_point": 0.007308018357742113,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -8222,7 +8222,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8318,7 +8318,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8364,7 +8364,7 @@
       "high": 0.6051039200210471,
       "fixed_point": 0,
       "variable_point": 0.20170130667368236,
-      "fixed_basis": "Free/50 users",
+      "fixed_basis": "Free",
       "variable_basis": "generic external-model proxy",
       "partial": false
     },
@@ -8422,7 +8422,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8526,7 +8526,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8622,7 +8622,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8718,7 +8718,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8764,7 +8764,7 @@
       "high": 0.058098745944049804,
       "fixed_point": 0.029049372972024902,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -8814,7 +8814,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -8860,7 +8860,7 @@
       "high": 0.3335,
       "fixed_point": 0.16675,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -8910,7 +8910,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9006,7 +9006,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9102,7 +9102,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9198,7 +9198,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9294,7 +9294,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9390,7 +9390,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9486,7 +9486,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9582,7 +9582,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9678,7 +9678,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9774,7 +9774,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9870,7 +9870,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -9966,7 +9966,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10062,7 +10062,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10158,7 +10158,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10254,7 +10254,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10350,7 +10350,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10446,7 +10446,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10542,7 +10542,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10638,7 +10638,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10734,7 +10734,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10830,7 +10830,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -10926,7 +10926,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-jira",
@@ -11022,7 +11022,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11124,7 +11124,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11226,7 +11226,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11328,7 +11328,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11430,7 +11430,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11532,7 +11532,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11634,7 +11634,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11724,7 +11724,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11814,7 +11814,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11904,7 +11904,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -11994,7 +11994,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12037,7 +12037,7 @@
       "high": 0.48671402262562485,
       "fixed_point": 0.24335701131281243,
       "variable_point": 0,
-      "fixed_basis": "Standard/50 users",
+      "fixed_basis": "Standard",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -12084,7 +12084,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12174,7 +12174,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12264,7 +12264,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12354,7 +12354,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12444,7 +12444,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12534,7 +12534,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12624,7 +12624,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12714,7 +12714,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12804,7 +12804,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12894,7 +12894,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -12984,7 +12984,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13074,7 +13074,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13117,7 +13117,7 @@
       "high": 0.058098745944049804,
       "fixed_point": 0.029049372972024902,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -13164,7 +13164,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13207,7 +13207,7 @@
       "high": 0.3335,
       "fixed_point": 0.16675,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -13254,7 +13254,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13344,7 +13344,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13434,7 +13434,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13524,7 +13524,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13614,7 +13614,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13704,7 +13704,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13794,7 +13794,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13884,7 +13884,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -13974,7 +13974,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14064,7 +14064,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14154,7 +14154,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14244,7 +14244,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14334,7 +14334,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14424,7 +14424,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14514,7 +14514,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14604,7 +14604,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14694,7 +14694,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14784,7 +14784,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14874,7 +14874,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -14964,7 +14964,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-meeting",
@@ -15054,7 +15054,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15150,7 +15150,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15246,7 +15246,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15292,7 +15292,7 @@
       "high": 0.48671402262562485,
       "fixed_point": 0.24335701131281243,
       "variable_point": 0,
-      "fixed_basis": "Standard/50 users",
+      "fixed_basis": "Standard",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -15342,7 +15342,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15438,7 +15438,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15534,7 +15534,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15630,7 +15630,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15734,7 +15734,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15780,7 +15780,7 @@
       "high": 0.043848110146452686,
       "fixed_point": 0.021924055073226343,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -15845,7 +15845,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -15894,7 +15894,7 @@
       "high": 0.014616036715484226,
       "fixed_point": 0.007308018357742113,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -15969,7 +15969,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16065,7 +16065,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16169,7 +16169,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16265,7 +16265,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16361,7 +16361,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16407,7 +16407,7 @@
       "high": 0.058098745944049804,
       "fixed_point": 0.029049372972024902,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -16457,7 +16457,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16503,7 +16503,7 @@
       "high": 0.3335,
       "fixed_point": 0.16675,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -16553,7 +16553,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16649,7 +16649,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16745,7 +16745,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16841,7 +16841,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -16937,7 +16937,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17033,7 +17033,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17129,7 +17129,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17225,7 +17225,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17321,7 +17321,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17417,7 +17417,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17513,7 +17513,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17609,7 +17609,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17705,7 +17705,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17801,7 +17801,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17897,7 +17897,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -17993,7 +17993,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18089,7 +18089,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18185,7 +18185,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18281,7 +18281,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18377,7 +18377,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18473,7 +18473,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18569,7 +18569,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18665,7 +18665,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-sharepoint",
@@ -18761,7 +18761,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -18857,7 +18857,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -18903,7 +18903,7 @@
       "high": 0.06577216521967903,
       "fixed_point": 0.032886082609839516,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -18968,7 +18968,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19064,7 +19064,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19160,7 +19160,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19206,7 +19206,7 @@
       "high": 0.7300710339384373,
       "fixed_point": 0.36503551696921865,
       "variable_point": 0,
-      "fixed_basis": "Standard/50 users",
+      "fixed_basis": "Standard",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -19256,7 +19256,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19352,7 +19352,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19448,7 +19448,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19544,7 +19544,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19640,7 +19640,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19736,7 +19736,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19844,7 +19844,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19948,7 +19948,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -19997,7 +19997,7 @@
       "high": 0.02192405507322634,
       "fixed_point": 0.01096202753661317,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -20072,7 +20072,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20118,7 +20118,7 @@
       "high": 0.6051039200210471,
       "fixed_point": 0,
       "variable_point": 0.20170130667368236,
-      "fixed_basis": "Free/50 users",
+      "fixed_basis": "Free",
       "variable_basis": "generic external-model proxy",
       "partial": false
     },
@@ -20176,7 +20176,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20280,7 +20280,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20376,7 +20376,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20472,7 +20472,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20592,7 +20592,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20688,7 +20688,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20734,7 +20734,7 @@
       "high": 0.08714811891607471,
       "fixed_point": 0.043574059458037356,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -20784,7 +20784,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20880,7 +20880,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -20976,7 +20976,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21022,7 +21022,7 @@
       "high": 0.5002500000000001,
       "fixed_point": 0.25012500000000004,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -21072,7 +21072,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21168,7 +21168,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21264,7 +21264,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21360,7 +21360,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21456,7 +21456,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21552,7 +21552,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21648,7 +21648,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21744,7 +21744,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21840,7 +21840,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -21936,7 +21936,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22032,7 +22032,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22128,7 +22128,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22224,7 +22224,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22320,7 +22320,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22416,7 +22416,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22512,7 +22512,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22608,7 +22608,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22704,7 +22704,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22800,7 +22800,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22896,7 +22896,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -22992,7 +22992,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-status",
@@ -23088,7 +23088,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23184,7 +23184,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23280,7 +23280,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23326,7 +23326,7 @@
       "high": 0.608392528282031,
       "fixed_point": 0.3041962641410155,
       "variable_point": 0,
-      "fixed_basis": "Standard/50 users",
+      "fixed_basis": "Standard",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -23376,7 +23376,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23472,7 +23472,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23568,7 +23568,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23664,7 +23664,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23760,7 +23760,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23864,7 +23864,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -23910,7 +23910,7 @@
       "high": 0.054810137683065856,
       "fixed_point": 0.027405068841532928,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -23975,7 +23975,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24024,7 +24024,7 @@
       "high": 0.018270045894355283,
       "fixed_point": 0.009135022947177641,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -24099,7 +24099,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24195,7 +24195,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24241,7 +24241,7 @@
       "high": 0.473559589581689,
       "fixed_point": 0,
       "variable_point": 0.15785319652722965,
-      "fixed_basis": "Free/50 users",
+      "fixed_basis": "Free",
       "variable_basis": "generic external-model proxy",
       "partial": false
     },
@@ -24299,7 +24299,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24395,7 +24395,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24441,7 +24441,7 @@
       "high": 0.07262343243006225,
       "fixed_point": 0.036311716215031126,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -24491,7 +24491,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24587,7 +24587,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24683,7 +24683,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24729,7 +24729,7 @@
       "high": 0.416875,
       "fixed_point": 0.2084375,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -24779,7 +24779,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24875,7 +24875,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -24971,7 +24971,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25067,7 +25067,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25163,7 +25163,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25259,7 +25259,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25355,7 +25355,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25451,7 +25451,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25547,7 +25547,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25643,7 +25643,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25739,7 +25739,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25835,7 +25835,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -25931,7 +25931,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26027,7 +26027,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26123,7 +26123,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26219,7 +26219,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26315,7 +26315,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26411,7 +26411,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26507,7 +26507,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26603,7 +26603,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26699,7 +26699,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-ticket",
@@ -26795,7 +26795,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -26891,7 +26891,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -26995,7 +26995,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27041,7 +27041,7 @@
       "high": 0.08769622029290537,
       "fixed_point": 0.043848110146452686,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -27106,7 +27106,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27152,7 +27152,7 @@
       "high": 0.6051039200210471,
       "fixed_point": 0,
       "variable_point": 0.20170130667368236,
-      "fixed_basis": "Free/50 users",
+      "fixed_basis": "Free",
       "variable_basis": "generic external-model proxy",
       "partial": false
     },
@@ -27210,7 +27210,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27256,7 +27256,7 @@
       "high": 0.667,
       "fixed_point": 0.3335,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -27306,7 +27306,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27355,7 +27355,7 @@
       "high": 0.029232073430968453,
       "fixed_point": 0.014616036715484226,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -27430,7 +27430,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27526,7 +27526,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27572,7 +27572,7 @@
       "high": 0.9734280452512497,
       "fixed_point": 0.48671402262562485,
       "variable_point": 0,
-      "fixed_basis": "Standard/50 users",
+      "fixed_basis": "Standard",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -27622,7 +27622,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27718,7 +27718,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27814,7 +27814,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -27910,7 +27910,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28006,7 +28006,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28102,7 +28102,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28198,7 +28198,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28294,7 +28294,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28340,7 +28340,7 @@
       "high": 0.11619749188809961,
       "fixed_point": 0.058098745944049804,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -28390,7 +28390,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28486,7 +28486,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28582,7 +28582,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28678,7 +28678,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28774,7 +28774,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28870,7 +28870,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -28966,7 +28966,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29062,7 +29062,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29158,7 +29158,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29254,7 +29254,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29350,7 +29350,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29446,7 +29446,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29542,7 +29542,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29638,7 +29638,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29734,7 +29734,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29830,7 +29830,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -29926,7 +29926,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -30022,7 +30022,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -30118,7 +30118,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -30214,7 +30214,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -30310,7 +30310,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -30406,7 +30406,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "collab-workflow",
@@ -30502,6 +30502,6 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   }
 ]
