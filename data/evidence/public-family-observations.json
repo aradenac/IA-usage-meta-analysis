@@ -658,5 +658,50 @@
     "source_grade": "B",
     "source": "https://edgelog.dev/blog/llm-firmware-trust/",
     "notes": "Explicit prompts were reported near 95% while implicit-domain-knowledge prompts fell to about 60%, a ~35pp gap. Weak categories include DMA coherency, ISR concurrency, threading, storage and memory constraints. Kept as cautionary support rather than a second independent P(success) observation."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-hil-autohil-acu-2026",
+    "family": "hil-test-agent",
+    "benchmark": "AutoHIL",
+    "version": "ISSTA 2026",
+    "evidence_type": "academic-industrial-benchmark",
+    "metric": "ACU HIL generated-script functional correctness",
+    "value": 0.8969,
+    "probability_proxy": 0.8969,
+    "n": null,
+    "source_grade": "A",
+    "source": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/64/AutoHIL-LLM-Based-ECU-Functional-Test-Generation-through-Domain-Knowledge-Augmentati",
+    "notes": "Industrial Airbag Control Unit on an in-house HIL bench. Generated-script executability 90.33%; manually evaluated functional equivalence/correctness 89.69%. AutoHIL augments requirements with tacit knowledge extracted from AUTOSAR source/config and grounds generation in bench test-harness primitives."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-hil-autohil-asdm-2026",
+    "family": "hil-test-agent",
+    "benchmark": "AutoHIL",
+    "version": "ISSTA 2026",
+    "evidence_type": "academic-industrial-benchmark",
+    "metric": "ASDM HIL generated-script functional correctness",
+    "value": 0.84,
+    "probability_proxy": 0.84,
+    "n": null,
+    "source_grade": "A",
+    "source": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/64/AutoHIL-LLM-Based-ECU-Functional-Test-Generation-through-Domain-Knowledge-Augmentati",
+    "notes": "Industrial Active Safety Domain Master on a dSPACE HIL platform. Generated-script executability 81.31%; manually evaluated functional correctness 84.00%. The evaluation also reports 25 new functional defects found on this ECU, later patched by supplier technicians."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-hil-autohil-defects-2026",
+    "family": "hil-test-agent",
+    "benchmark": "AutoHIL",
+    "version": "ISSTA 2026",
+    "evidence_type": "academic-industrial-benchmark",
+    "metric": "new industrial defects discovered",
+    "value": 64,
+    "probability_proxy": null,
+    "n": 2,
+    "source_grade": "A",
+    "source": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/64/AutoHIL-LLM-Based-ECU-Functional-Test-Generation-through-Domain-Knowledge-Augmentati",
+    "notes": "39 new ACU defects and 25 new ASDM defects were discovered and subsequently patched by supplier technicians. Supporting external-validity signal; not an independent success probability."
   }
 ]
