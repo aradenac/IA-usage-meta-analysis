@@ -6,7 +6,7 @@ This phase inventories currently exploitable AI solutions for the embedded-softw
 
 ## Coverage
 
-The catalog includes coding agents, code-review products, general assistants, deep-research tools, enterprise knowledge/search agents, requirements/ALM AI, cybersecurity and threat-modeling AI, diagram/document/meeting AI, workflow platforms, sovereign/private model backends and self-hosted runtimes.
+The catalog now includes generic coding agents and IDEs, GitLab review products, embedded static-analysis/MCP tools, requirements/ALM AI, ASPICE/traceability agents, architecture-modeling AI, TARA/cybersecurity AI, HIL/SIL test agents, document/diagram/meeting AI, telemetry-grounded debugging agents, AI DevOps/workflow platforms, enterprise knowledge/search, sovereign/private model backends and self-hosted runtimes.
 
 The canonical catalog is split under `data/solutions/`; `data/solutions/index.json` gives counts and relationship semantics.
 
@@ -28,6 +28,22 @@ Reqtify, OpenFastTrace, GitLab, Jira, Confluence, SharePoint, PlantUML, Mermaid 
 
 Backends are separate from front ends. A private model deployment can be paired with a coding harness, Open WebUI, an orchestration platform or a company-specific workflow.
 
+Specialized engineering tools are also kept distinct from generic harnesses. A solution such as Klocwork, Coverity, itemis ANALYZE/SECURE, CANoe or ecu.test may expose deterministic defects, traceability graphs, risk models or test-bench state to an LLM. That context is part of the solution and must be represented when evidence is later compared.
+
+## Historical configuration preservation
+
+The solution inventory does not replace the historical model × harness × configuration dataset.
+
+The configuration catalog keeps:
+
+- 138 observed historical configurations;
+- 42 compatibility-only historical combinations;
+- 15 specialist provider/API configurations.
+
+Historical/evaluation-only rows remain available as evidence even when their execution surface is not a recommendation candidate.
+
 ## Next phase
 
-For every task × candidate solution, collect evidence for capability/success, active human intervention, autonomous runtime, service/API price, setup/integration burden, data path/sovereignty and reproducibility. MetaScore is rebuilt only after that evidence phase.
+For every task × candidate solution, collect evidence for capability/success, active human intervention, autonomous runtime, service/API price, setup/integration burden, data path/sovereignty and reproducibility.
+
+Each observation/source remains separate. Comparable observations may then be aggregated with explicit weighting for task relevance, evidence quality and uncertainty. MetaScore is rebuilt only after that evidence phase.
