@@ -1,0 +1,477 @@
+[
+  {
+    "id": "vectorcast-ai",
+    "name": "VectorCAST 2026 + Reqs2x",
+    "vendor": "Vector Informatik",
+    "category": "embedded-verification-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "toolchain-integrated",
+      "model-choice"
+    ],
+    "surfaces": [
+      "vectorcast"
+    ],
+    "capabilities": [
+      "requirements-to-code-mapping",
+      "ai-test-generation",
+      "unit-testing",
+      "traceability",
+      "coverage",
+      "safety-critical-c-cpp-ada"
+    ],
+    "integrations": [
+      "Requirements Gateway",
+      "embedded toolchains"
+    ],
+    "official_url": "https://www.vector.com/fr/product/vectorcast/",
+    "verified_at": "2026-09-27",
+    "notes": "Reqs2x maps requirements to implementing functions and generates executable requirement-based unit tests with human approval."
+  },
+  {
+    "id": "parasoft-cpptest-ai",
+    "name": "Parasoft C/C++test 2026.1 + MCP AI workflows",
+    "vendor": "Parasoft",
+    "category": "embedded-verification-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "on-prem-tool",
+      "ci-integrated",
+      "byo-agent"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "ci",
+      "mcp"
+    ],
+    "capabilities": [
+      "static-analysis",
+      "ai-remediation",
+      "unit-test-generation",
+      "coverage",
+      "mcdc",
+      "requirements-traceability",
+      "coding-rules",
+      "embedded-c-cpp",
+      "mcp"
+    ],
+    "integrations": [
+      "GitHub Copilot",
+      "Codex CLI",
+      "MCP-capable agents",
+      "CI/CD",
+      "GoogleTest"
+    ],
+    "official_url": "https://www.parasoft.com/products/parasoft-c-ctest/",
+    "verified_at": "2026-09-27",
+    "notes": "MCP exposes static-analysis and MC/DC data to agents, including iterative remediation and coverage-driven test generation."
+  },
+  {
+    "id": "kapa-ai",
+    "name": "Kapa.ai",
+    "vendor": "Kapa.ai",
+    "category": "technical-knowledge-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api",
+      "mcp"
+    ],
+    "surfaces": [
+      "web",
+      "widget",
+      "api",
+      "mcp"
+    ],
+    "capabilities": [
+      "technical-doc-search",
+      "code-search",
+      "ticket-search",
+      "grounded-qa",
+      "citations",
+      "agentic-retrieval",
+      "knowledge-gap-analysis"
+    ],
+    "integrations": [
+      "documentation sites",
+      "GitHub",
+      "PDF",
+      "community threads",
+      "MCP",
+      "Claude Code",
+      "Codex"
+    ],
+    "official_url": "https://docs.kapa.ai/",
+    "verified_at": "2026-09-27",
+    "notes": "Especially relevant to Zephyr: the official Zephyr docs expose a Kapa assistant and MCP server grounded in docs, source, issues and PRs."
+  },
+  {
+    "id": "deepwiki",
+    "name": "DeepWiki",
+    "vendor": "Cognition",
+    "category": "technical-knowledge-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "repo-understanding",
+      "generated-documentation",
+      "repo-qa",
+      "public-code-research"
+    ],
+    "integrations": [
+      "GitHub repositories"
+    ],
+    "official_url": "https://deepwiki.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "gitbook-ai",
+    "name": "GitBook Agent + Assistant + MCP",
+    "vendor": "GitBook",
+    "category": "documentation-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "documentation-authoring",
+      "documentation-qa",
+      "grounded-assistant",
+      "content-maintenance",
+      "mcp",
+      "ai-insights"
+    ],
+    "integrations": [
+      "Git",
+      "MCP",
+      "documentation sites"
+    ],
+    "official_url": "https://www.gitbook.com/features/ai/gitbook-assistant",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "mintlify-ai",
+    "name": "Mintlify Assistant + Agent",
+    "vendor": "Mintlify",
+    "category": "documentation-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "mcp"
+    ],
+    "capabilities": [
+      "documentation-qa",
+      "citations",
+      "documentation-authoring",
+      "repo-monitoring",
+      "documentation-prs",
+      "mcp",
+      "api-docs"
+    ],
+    "integrations": [
+      "Git repositories",
+      "Slack",
+      "MCP",
+      "OpenAPI"
+    ],
+    "official_url": "https://www.mintlify.com/docs/fr/ai-native",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "codeant-ai",
+    "name": "CodeAnt AI",
+    "vendor": "CodeAnt",
+    "category": "code-review",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "git-platform"
+    ],
+    "capabilities": [
+      "gitlab-review",
+      "code-quality",
+      "security-analysis",
+      "ci-status",
+      "autofix"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub"
+    ],
+    "official_url": "https://codeant.ai/git-platform/gitlab-ai-code-review",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "kodus",
+    "name": "Kodus / Kody",
+    "vendor": "Kodus",
+    "category": "code-review",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted",
+      "air-gapped-capable",
+      "byo-model"
+    ],
+    "surfaces": [
+      "git-platform",
+      "cli"
+    ],
+    "capabilities": [
+      "gitlab-review",
+      "repo-context",
+      "custom-rules",
+      "security-review",
+      "performance-review",
+      "self-hosted"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub",
+      "Bitbucket",
+      "OpenAI-compatible models",
+      "vLLM",
+      "Ollama"
+    ],
+    "official_url": "https://kodus.io/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "deepsource",
+    "name": "DeepSource AI Review + Autofix AI",
+    "vendor": "DeepSource",
+    "category": "code-review-security",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "git-platform",
+      "web"
+    ],
+    "capabilities": [
+      "ai-review",
+      "static-analysis",
+      "security",
+      "autofix-ai",
+      "policy-enforcement",
+      "coverage-regression"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub"
+    ],
+    "official_url": "https://deepsource.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "outscale-ai-factories",
+    "name": "OUTSCALE AI Factories",
+    "vendor": "Dassault Systèmes OUTSCALE",
+    "category": "sovereign-ai-infrastructure",
+    "status": "active",
+    "deployment": [
+      "sovereign-cloud",
+      "private",
+      "enterprise"
+    ],
+    "surfaces": [
+      "infrastructure",
+      "platform"
+    ],
+    "capabilities": [
+      "model-training",
+      "model-serving",
+      "sovereign-ai",
+      "sensitive-data",
+      "non-persistence",
+      "controlled-infrastructure"
+    ],
+    "integrations": [
+      "enterprise AI stacks"
+    ],
+    "official_url": "https://en.outscale.com/press-releases/strengthens-its-sovereign-cloud-and-ai-foundation-for-critical-organizations/",
+    "verified_at": "2026-09-27",
+    "notes": "Infrastructure/platform rather than turnkey assistant; relevant for controlled sovereign deployments."
+  },
+  {
+    "id": "atos-mogwai",
+    "name": "Atos MogwAI",
+    "vendor": "Atos",
+    "category": "sovereign-enterprise-ai",
+    "status": "active",
+    "deployment": [
+      "saas-secnumcloud-oriented",
+      "on-prem",
+      "multicloud",
+      "sovereign"
+    ],
+    "surfaces": [
+      "enterprise-platform"
+    ],
+    "capabilities": [
+      "enterprise-assistants",
+      "specialized-agents",
+      "internal-knowledge",
+      "workflows",
+      "connectors",
+      "multi-model",
+      "governance"
+    ],
+    "integrations": [
+      "enterprise systems"
+    ],
+    "official_url": "https://atos.net/fr/2026/communiques-de-presse_2026_07_07/atos-annonce-atos-mogwai-sa-plateforme-dia-souveraine",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "dust",
+    "name": "Dust",
+    "vendor": "Dust",
+    "category": "enterprise-agent-platform",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "eu-residency",
+      "single-tenant-options"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "mcp"
+    ],
+    "capabilities": [
+      "enterprise-agents",
+      "knowledge-search",
+      "multi-model",
+      "skills",
+      "workflows",
+      "read-write-actions",
+      "governance"
+    ],
+    "integrations": [
+      "GitHub",
+      "Confluence",
+      "Google Drive",
+      "MCP",
+      "70+ connectors"
+    ],
+    "official_url": "https://dust.tt/home/enterprise",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "cursor-bugbot",
+    "name": "Cursor Bugbot",
+    "vendor": "Cursor",
+    "category": "code-review",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "git-platform",
+      "cursor"
+    ],
+    "capabilities": [
+      "gitlab-review",
+      "security-review",
+      "incremental-review",
+      "autofix",
+      "rule-aware-review"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitLab Self-Hosted",
+      "GitHub",
+      "Bitbucket"
+    ],
+    "official_url": "https://prod.cursor.com/docs/bugbot",
+    "verified_at": "2026-09-27",
+    "notes": "Kept as a distinct review surface from the Cursor coding IDE because task economics and billing/workflow differ."
+  },
+  {
+    "id": "gitbook-ai-docs-platform",
+    "name": "GitBook AI documentation platform",
+    "vendor": "GitBook",
+    "category": "documentation-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "mcp",
+      "cli"
+    ],
+    "capabilities": [
+      "documentation-authoring",
+      "agent-maintenance",
+      "assistant",
+      "mcp",
+      "publishing",
+      "content-gap-analysis"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://www.gitbook.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "mintlify-ai-docs-platform",
+    "name": "Mintlify AI-native documentation",
+    "vendor": "Mintlify",
+    "category": "documentation-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "mcp"
+    ],
+    "capabilities": [
+      "documentation-authoring",
+      "assistant",
+      "agentic-rag",
+      "repo-monitoring",
+      "pull-request-updates",
+      "mcp"
+    ],
+    "integrations": [
+      "Git repositories",
+      "Slack",
+      "OpenAPI",
+      "MCP"
+    ],
+    "official_url": "https://www.mintlify.com/docs/fr/ai-native",
+    "verified_at": "2026-09-27"
+  }
+]
