@@ -1,0 +1,464 @@
+[
+  {
+    "model": "GLM-5.2",
+    "harness": "Cline CLI",
+    "status": "same",
+    "detail": "TB2.0, reasoning=medium/off",
+    "source": "https://github.com/cline/benchmark-results/blob/main/terminal-bench/2026-06-open-weights/summary.md"
+  },
+  {
+    "model": "GLM-5.2",
+    "harness": "OpenCode",
+    "status": "same",
+    "detail": "TB2.0, reasoning=medium",
+    "source": "https://github.com/cline/benchmark-results/blob/main/terminal-bench/2026-06-open-weights/summary.md"
+  },
+  {
+    "model": "GLM-5.2",
+    "harness": "Pi",
+    "status": "same",
+    "detail": "TB2.0, reasoning=medium",
+    "source": "https://github.com/cline/benchmark-results/blob/main/terminal-bench/2026-06-open-weights/summary.md"
+  },
+  {
+    "model": "GLM-5.2",
+    "harness": "Terminus 2",
+    "status": "bench",
+    "detail": "TB2.1 model-card eval",
+    "source": "https://huggingface.co/zai-org/GLM-5.2"
+  },
+  {
+    "model": "GLM-5.2",
+    "harness": "Claude Code",
+    "status": "bench",
+    "detail": "TB2.1 model-card eval",
+    "source": "https://huggingface.co/zai-org/GLM-5.2"
+  },
+  {
+    "model": "GLM-5.2",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway OpenAI-compatible provider integration; no matched benchmark found",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Codex CLI",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Maka",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Pi",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "DeepSeek Harness",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "ZCode",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Reasonix",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "OpenCode",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Kimi Code",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Claude Code",
+    "status": "same",
+    "detail": "TB2.1 nine-arm · reasoning=max",
+    "source": "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md"
+  },
+  {
+    "model": "Qwen3.8-27B",
+    "harness": "Terminus 2",
+    "status": "bench",
+    "detail": "official TB2.1",
+    "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+  },
+  {
+    "model": "Qwen3.8-27B",
+    "harness": "Claude Code",
+    "status": "bench",
+    "detail": "official SWE-bench Pro / NL2Repo / DeepSWE",
+    "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+  },
+  {
+    "model": "Qwen3.8-27B",
+    "harness": "Qwen Code",
+    "status": "same",
+    "detail": "12-task same-model shootout (weak sample)",
+    "source": "https://github.com/01554/deepswe-local-subset-evals"
+  },
+  {
+    "model": "Qwen3.8-27B",
+    "harness": "mini-swe",
+    "status": "same",
+    "detail": "12-task same-model shootout (weak sample)",
+    "source": "https://github.com/01554/deepswe-local-subset-evals"
+  },
+  {
+    "model": "Qwen3.8-27B",
+    "harness": "OpenCode",
+    "status": "same",
+    "detail": "12-task same-model shootout (weak sample)",
+    "source": "https://github.com/01554/deepswe-local-subset-evals"
+  },
+  {
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Terminus 2",
+    "status": "bench",
+    "detail": "Terminal-Bench 2.0",
+    "source": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "OpenCode",
+    "status": "bench",
+    "detail": "SkillsBench",
+    "source": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Claude Code",
+    "status": "bench",
+    "detail": "NL2Repo",
+    "source": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documented provider integration; no matched benchmark found",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Terminus 2",
+    "status": "bench",
+    "detail": "FACET TB2.1 reference",
+    "source": "https://arxiv.org/abs/2608.18580"
+  },
+  {
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Qwen recommends Qwen Code; Scaleway documents Qwen Code integration",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway integration explicitly uses this model as example",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents routing via y-router; no matched harness benchmark found",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "GLM-5.2",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "DeepSeek V4 Flash 0731",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Qwen3.8-27B",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Qwen3.6-35B-A3B",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Qwen3.5-397B-A17B",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Qwen3 235B A22B Instruct 2507",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway documents OpenCode integration through its OpenAI-compatible API.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "Qwen3 235B A22B Instruct 2507",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents Claude Code integration via a routing/proxy layer.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "Qwen3 235B A22B Instruct 2507",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "Qwen3 235B A22B Instruct 2507",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Qwen3 Coder 30B A3B Instruct",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway documents OpenCode integration through its OpenAI-compatible API.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "Qwen3 Coder 30B A3B Instruct",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents Claude Code integration via a routing/proxy layer.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "Qwen3 Coder 30B A3B Instruct",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "Qwen3 Coder 30B A3B Instruct",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway documents OpenCode integration through its OpenAI-compatible API.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents Claude Code integration via a routing/proxy layer.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "Gemma 4 26B A4B IT",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "GPT-OSS-120B",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway documents OpenCode integration through its OpenAI-compatible API.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "GPT-OSS-120B",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents Claude Code integration via a routing/proxy layer.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "GPT-OSS-120B",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "GPT-OSS-120B",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Llama 3.3 70B Instruct",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway documents OpenCode integration through its OpenAI-compatible API.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "Llama 3.3 70B Instruct",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents Claude Code integration via a routing/proxy layer.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "Llama 3.3 70B Instruct",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "Llama 3.3 70B Instruct",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Mistral Medium 3.5",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway documents OpenCode integration through its OpenAI-compatible API.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "Mistral Medium 3.5",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents Claude Code integration via a routing/proxy layer.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "Mistral Medium 3.5",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "Mistral Medium 3.5",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "Mistral Small 3.2 24B",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway documents OpenCode integration through its OpenAI-compatible API.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "Mistral Small 3.2 24B",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents Claude Code integration via a routing/proxy layer.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "Mistral Small 3.2 24B",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "Mistral Small 3.2 24B",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  },
+  {
+    "model": "pixtral-12b-2409",
+    "harness": "OpenCode",
+    "status": "compat",
+    "detail": "Scaleway documents OpenCode integration through its OpenAI-compatible API.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-opencode/"
+  },
+  {
+    "model": "pixtral-12b-2409",
+    "harness": "Claude Code",
+    "status": "compat",
+    "detail": "Scaleway documents Claude Code integration via a routing/proxy layer.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-claude-code/"
+  },
+  {
+    "model": "pixtral-12b-2409",
+    "harness": "Qwen Code",
+    "status": "compat",
+    "detail": "Scaleway documents Qwen Code integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-qwen-code/"
+  },
+  {
+    "model": "pixtral-12b-2409",
+    "harness": "Cursor",
+    "status": "compat",
+    "detail": "Scaleway documents Cursor integration.",
+    "source": "https://www.scaleway.com/en/docs/generative-apis/reference-content/integrate-with-cursor/"
+  }
+]
