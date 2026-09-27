@@ -1,0 +1,521 @@
+[
+  {
+    "task_id": "learn-explain",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "learn-operational",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise",
+      "sourcegraph-cody",
+      "augment-code",
+      "claude-code",
+      "codex-cli",
+      "gemini-cli",
+      "mistral-vibe-code",
+      "gitlab-duo",
+      "github-copilot"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "research-state-art",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "research-web",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "research-source",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "research-docs",
+    "native": [
+      "mistral-document-ai"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise",
+      "mistral-document-ai",
+      "azure-document-intelligence",
+      "google-document-ai",
+      "aws-textract"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "research-multidoc",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise",
+      "m365-copilot",
+      "mistral-document-ai"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "research-relevant",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "learn-path",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "learn-coach",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "watch-tech",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "research-version",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise",
+      "sourcegraph-cody",
+      "augment-code",
+      "claude-code",
+      "codex-cli",
+      "gemini-cli",
+      "mistral-vibe-code",
+      "gitlab-duo",
+      "github-copilot"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "research-field",
+    "native": [],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "notebooklm",
+      "gemini-notebook-enterprise",
+      "youcom-enterprise"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  }
+]
