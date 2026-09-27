@@ -733,5 +733,35 @@
     "source_grade": "A",
     "source": "https://github.com/Sunny4Coding/SWE-Mutation",
     "notes": "Best test-generation RDR is 71.71% (Claude Sonnet 4.5 + Claude Code). Agentic realistic mutants reduce average detection from 71.04% with conventional rule-based mutants to 39.81%, exposing how simpler mutation benchmarks can overestimate test quality."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-threat-pillar-go-multiagent-2026",
+    "family": "threat-modeling",
+    "benchmark": "PILLAR GO multi-agent benchmark",
+    "version": "JISA 100 (2026) replication snapshot",
+    "evidence_type": "peer-reviewed-reproducible-benchmark",
+    "metric": "mean LINDDUN GO classification accuracy across 3 benchmark systems",
+    "value": 0.7171717172,
+    "probability_proxy": 0.7171717172,
+    "n": 99,
+    "source_grade": "B",
+    "source": "https://github.com/stfbk/PILLAR-Benchmarking",
+    "notes": "Claude Sonnet 4.5 multi-agent metrics from the public replication CSVs: benchmark accuracies 0.69697, 0.72727, 0.72727; F1 0.79167, 0.84211, 0.80851. Mean accuracy is used as the conservative probability-like family signal. This evaluates LINDDUN GO privacy-threat card applicability, so transfer to general STRIDE/TARA is material and handled by task relevance."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-threat-pillar-go-f1-2026",
+    "family": "threat-modeling",
+    "benchmark": "PILLAR GO multi-agent benchmark",
+    "version": "JISA 100 (2026) replication snapshot",
+    "evidence_type": "peer-reviewed-reproducible-benchmark",
+    "metric": "mean F1 across 3 benchmark systems",
+    "value": 0.8140941894,
+    "probability_proxy": null,
+    "n": 99,
+    "source_grade": "B",
+    "source": "https://github.com/stfbk/PILLAR-Benchmarking",
+    "notes": "Mean of public multi-agent Claude Sonnet 4.5 F1 values 0.79167, 0.84211 and 0.80851. Kept as supporting retrieval/classification-quality evidence rather than a second independent P(success) observation."
   }
 ]
