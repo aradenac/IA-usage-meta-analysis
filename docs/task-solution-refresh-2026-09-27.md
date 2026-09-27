@@ -33,7 +33,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | --- | ---: | --- | --- |
 | Requirements | 6 | complete | 6/6 tasks explicitly searched; 8 newly verified current solutions added and published to site snapshot. |
 | Architecture | 6 | complete | 6/6 tasks explicitly searched; 8 additional current solutions added. |
-| Development | 9 | pending | |
+| Development | 9 | complete | 9/9 tasks explicitly searched; 9 additional current solution surfaces added. |
 | Debug / upstream | 10 | pending | |
 | Verification | 12 | pending | includes HIL/results/coding-rules |
 | Safety / cyber | 10 | pending | |
@@ -117,3 +117,39 @@ Low-maturity research prototypes and small GitHub-only architecture experiments 
 Change log:
 - 2026-09-27 — architecture domain completed; canonical inventory increased from 165 to 173 solutions.
 - 2026-09-27 — website snapshot regenerated from the 173-solution canonical inventory.
+
+## Development-domain audit
+
+Status: **complete (9/9 tasks searched explicitly)**.
+
+New solutions accepted during this pass:
+
+- **Embedder** — purpose-built firmware agent combining repository, datasheet/reference-manual/errata, schematic, compiler, debugger and live-board context. It writes part-specific drivers and closes build→flash→test/debug loops on real hardware.
+  - https://embedder.com/
+  - https://embedder.com/news/migrate-from-freertos-to-zephyr-with-ai
+- **Hydron** — embedded/system-software coding assistant with a hardware knowledge graph, spec-cited code generation, codebase/datasheet/BSP grounding and HIL/debug workflows.
+  - https://www.hydron.sh/
+  - https://docs.hydron.sh/get-started/overview/
+- **MPLAB AI Coding Assistant** — Microchip-specific VS Code assistant with Agent Mode, codebase/terminal tools and an MCP server exposing device datasheets, board guides, compiler docs and examples.
+  - https://www.microchip.com/en-us/tools-resources/develop/mplab-tools-vs-code/mplab-ai-coding-assistant
+  - https://developerhelp.microchip.com/xwiki/bin/view/software-tools/ides/extensions/ai-coding-assistant/
+- **IOcomposer** — embedded C/C++ IDE with AI grounded in the installed SDK/project and integrated build→flash→debug loop; currently strongest on Nordic bare-metal targets.
+  - https://iocomposer.io/
+- **TuyaOpen IDE** — VS Code/Cursor embedded AI workflow that creates projects/firmware from natural language with board/pin context and integrates build, flash, logs, cloud Agent and app generation.
+  - https://docs.tuyaopen.ai/docs/ide
+- **ByteAsk** — C/C++-specialized terminal agent with compiler/test/sanitizer/debugger/profiler tools and grounded standards/datasheet corpora.
+  - https://www.byteask.ai/
+- **fw-context MCP** — compiler-aware local MCP code intelligence for embedded C/C++ firmware, useful as a connected context layer for coding agents.
+  - https://pypi.org/project/fw-context-mcp/
+- **Refact.ai** — current autonomous coding agent with C/C++/Python support, BYOK and self-hosted deployment; added as a missing general direct coding surface.
+  - https://refact.ai/
+- **QodeAssist** — Qt Creator C++/QML AI assistant with completion, inline refactoring, project-aware tools, build/terminal access and MCP.
+  - https://github.com/Palm1r/QodeAssist
+
+Not promoted:
+- single-purpose or near-zero-adoption GitHub prototypes were kept out when a more mature production surface covers the same task family;
+- ordinary embedded IDE/configuration tools without an AI workflow were not counted merely because they generate code deterministically.
+
+Change log:
+- 2026-09-27 — development domain completed; canonical inventory increased from 173 to 182 solutions.
+- 2026-09-27 — website snapshot regenerated from the 182-solution canonical inventory.
