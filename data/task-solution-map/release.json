@@ -1,0 +1,87 @@
+[
+  {
+    "task_id": "release-prepare",
+    "native": [
+      "gitlab-duo"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "m365-copilot",
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  },
+  {
+    "task_id": "release-notes",
+    "native": [
+      "gitlab-duo",
+      "m365-copilot"
+    ],
+    "direct": [
+      "chatgpt-enterprise",
+      "claude-enterprise",
+      "mistral-vibe-work",
+      "gemini-enterprise",
+      "perplexity-enterprise",
+      "microsoft-researcher",
+      "m365-copilot",
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "connected": [
+      "atlassian-rovo",
+      "glean",
+      "lighton-paradigm"
+    ],
+    "custom_workflow": [
+      "n8n",
+      "dify",
+      "copilot-studio"
+    ],
+    "backend": [
+      "scaleway-genai-serverless",
+      "scaleway-genai-dedicated",
+      "ovh-ai-endpoints",
+      "mistral-platform",
+      "openai-api",
+      "anthropic-api",
+      "google-vertex-ai",
+      "azure-ai-foundry",
+      "aws-bedrock",
+      "huggingface-endpoints",
+      "ollama",
+      "vllm"
+    ]
+  }
+]
