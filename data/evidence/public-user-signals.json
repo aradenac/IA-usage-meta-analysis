@@ -1,0 +1,62 @@
+[
+  {
+    "id": "usr-coderabbit-mixed-2025",
+    "solution_id": "coderabbit",
+    "family": "code-review-specialist",
+    "date": "2025-10-09",
+    "sentiment": "mixed",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/programming/comments/1o2g3ee/removed/",
+    "signal": "Practitioners report both production-worthy catches and annoying false-positive/nitpick volume; supports treating precision/noise as a material human-effort variable."
+  },
+  {
+    "id": "usr-coderabbit-noise-2026",
+    "solution_id": "coderabbit",
+    "family": "code-review-specialist",
+    "date": "2026-08-19",
+    "sentiment": "negative",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/codereview/comments/1vssbl8/coderabbit_noise_is_seriously_getting_out_of_hand/",
+    "signal": "Recent users complain that comment volume/noise can reduce attention to valuable findings; small self-selected community signal."
+  },
+  {
+    "id": "usr-coderabbit-security-catch-2026",
+    "solution_id": "coderabbit",
+    "family": "code-review-specialist",
+    "date": "2026-08-21",
+    "sentiment": "mixed-positive",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/codereview/comments/1vuddna/how_are_you_actually_reviewing_ai_generated_code/",
+    "signal": "Team reports mostly low-level findings but one material authorization bug caught after three humans missed it; anecdotal and unverified."
+  },
+  {
+    "id": "usr-deep-research-comparison-2025",
+    "solution_id": "chatgpt-enterprise",
+    "family": "deep-research",
+    "date": "2025-05-12",
+    "sentiment": "positive",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/perplexity_ai/comments/1kl5aiw/may_be_jumping_off_the_perplexity_bandwagon/",
+    "signal": "Experienced Perplexity user reports ChatGPT Deep Research stronger on complex technical/scientific prompts for depth and source handling; single-user qualitative comparison."
+  },
+  {
+    "id": "usr-deep-research-comparison-2025-perplexity",
+    "solution_id": "perplexity-enterprise",
+    "family": "deep-research",
+    "date": "2025-05-12",
+    "sentiment": "mixed",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/perplexity_ai/comments/1kl5aiw/may_be_jumping_off_the_perplexity_bandwagon/",
+    "signal": "Same user still finds Perplexity competitive for many prompts but weaker on especially deep/wide technical research; single-user qualitative comparison."
+  },
+  {
+    "id": "usr-deep-research-controlled-prompt-2025",
+    "solution_id": "gemini-enterprise",
+    "family": "deep-research",
+    "date": "2025-08-08",
+    "sentiment": "positive",
+    "source_grade": "E",
+    "source": "https://www.reddit.com/r/perplexity_ai/comments/1mkgu50",
+    "signal": "One controlled same-prompt experiment found Gemini most comprehensive on an obscure historical research task, with ChatGPT and Perplexity showing different strengths; fact validity was not independently adjudicated."
+  }
+]
