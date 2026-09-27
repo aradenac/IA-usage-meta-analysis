@@ -217,6 +217,27 @@
       "learn-explain": 0.75,
       "learn-operational": 0.55,
       "research-relevant": 0.25
+    },
+    "release-note-generation": {
+      "release-notes": 1,
+      "release-prepare": 0.45,
+      "doc-sync": 0.3,
+      "research-version": 0.25
+    },
+    "datasheet-engineering": {
+      "doc-datasheet": 0.65,
+      "dev-driver-datasheet": 0.35,
+      "debug-hw-sw": 0.3,
+      "req-system-impact": 0.2
+    },
+    "embedded-agent-field": {
+      "dev-feature": 0.8,
+      "dev-protocol": 0.7,
+      "dev-driver-adapt": 0.55,
+      "dev-driver-port": 0.45,
+      "dev-driver-datasheet": 0.3,
+      "debug-hw-sw": 0.4,
+      "verify-integration": 0.3
     }
   }
 }
