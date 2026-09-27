@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "verified_at": "2026-09-27",
+  "verified_at": "2026-09-28",
   "phase": "availability-inventory-only",
-  "total_solutions": 157,
+  "total_solutions": 210,
   "files": [
     {
       "path": "data/solutions/coding.json",
@@ -39,6 +39,10 @@
     {
       "path": "data/solutions/observability-devops-audit-2026-09-27.json",
       "count": 6
+    },
+    {
+      "path": "data/solutions/task-refresh-2026-09-27.json",
+      "count": 53
     }
   ],
   "relationship_types": {
@@ -50,5 +54,5 @@
   },
   "scoring": false,
   "audit_note": "Extended inventory added embedded static-analysis/MCP, traceability/ASPICE, TARA, architecture modeling, HIL/SIL agents, documentation, meeting, enterprise workflow, observability and AI DevOps products. Lifecycle exclusions are in data/solution-exclusions.json.",
-  "current_inventory_note": "Includes four explicit 2026-09-27 gap-audit passes. Lifecycle/legacy entries are retained in source catalogs but excluded from active task mappings when marked non-current."
+  "current_inventory_note": "Task-by-task refresh completed across all 86 business tasks; 53 current solution additions verified through 2026-09-28."
 }

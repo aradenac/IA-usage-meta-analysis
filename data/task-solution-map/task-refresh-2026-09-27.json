@@ -1,0 +1,1311 @@
+[
+  {
+    "task_id": "arch-choice",
+    "native": [
+      "dalus-ai-mbse"
+    ],
+    "direct": [
+      "spread-product-explorer",
+      "valispace-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-detailed-design",
+    "native": [
+      "dalus-ai-mbse",
+      "visual-paradigm-ai",
+      "archtect",
+      "innoslate-ai"
+    ],
+    "direct": [
+      "trace-space"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-diagram",
+    "native": [
+      "dalus-ai-mbse",
+      "visual-paradigm-ai",
+      "archtect",
+      "codeatlas",
+      "jigsawml",
+      "innoslate-ai"
+    ],
+    "direct": [
+      "softagram-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-review",
+    "native": [
+      "softagram-ai",
+      "codeatlas",
+      "jigsawml",
+      "striff"
+    ],
+    "direct": [
+      "dalus-ai-mbse",
+      "visual-paradigm-ai",
+      "archtect",
+      "spread-product-explorer",
+      "innoslate-ai",
+      "trace-space",
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-software",
+    "native": [
+      "dalus-ai-mbse",
+      "archtect",
+      "innoslate-ai"
+    ],
+    "direct": [
+      "visual-paradigm-ai",
+      "valispace-ai",
+      "trace-space",
+      "modelgraphx",
+      "spread-product-explorer"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-understand",
+    "native": [
+      "softagram-ai",
+      "codeatlas",
+      "jigsawml",
+      "spread-product-explorer"
+    ],
+    "direct": [
+      "dalus-ai-mbse",
+      "visual-paradigm-ai",
+      "striff",
+      "trace-space"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-automation",
+    "native": [
+      "github-agentic-workflows"
+    ],
+    "direct": [
+      "buildkite-agentic-ci",
+      "circleci-agentic-ci",
+      "github-copilot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-build",
+    "native": [
+      "github-agentic-workflows",
+      "buildkite-agentic-ci",
+      "circleci-agentic-ci"
+    ],
+    "direct": [
+      "docker-gordon",
+      "github-copilot",
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "tasking-agentic-toolchain"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-create",
+    "native": [],
+    "direct": [
+      "github-copilot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-docker",
+    "native": [
+      "docker-gordon"
+    ],
+    "direct": [
+      "github-copilot",
+      "github-agentic-workflows"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-gitlab",
+    "native": [],
+    "direct": [
+      "github-copilot",
+      "embedder-ai",
+      "hydron"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-toolchain",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "tasking-agentic-toolchain"
+    ],
+    "direct": [
+      "docker-gordon",
+      "byteask",
+      "github-copilot",
+      "fw-context-mcp"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-backlog",
+    "native": [],
+    "direct": [
+      "loom-ai",
+      "zoom-ai-companion"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-confluence",
+    "native": [
+      "loom-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-jira",
+    "native": [
+      "loom-ai",
+      "zoom-ai-companion"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-meeting",
+    "native": [
+      "loom-ai",
+      "zoom-ai-companion"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-status",
+    "native": [],
+    "direct": [
+      "zoom-ai-companion"
+    ],
+    "connected": [
+      "loom-ai"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-ticket",
+    "native": [
+      "loom-ai"
+    ],
+    "direct": [
+      "zoom-ai-companion"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-workflow",
+    "native": [],
+    "direct": [
+      "loom-ai",
+      "zoom-ai-companion"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-artifacts",
+    "native": [
+      "cybellum-product-security",
+      "c2a-evsec",
+      "finite-state-product-security-os",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "conformly-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-compliance",
+    "native": [
+      "cybellum-product-security",
+      "c2a-evsec",
+      "finite-state-product-security-os",
+      "conformly-ai",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "ketryx-automotive"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-impact",
+    "native": [
+      "c2a-evsec",
+      "cybellum-product-security",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "finite-state-product-security-os",
+      "conformly-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-review",
+    "native": [
+      "c2a-evsec",
+      "cybellum-product-security",
+      "finite-state-product-security-os",
+      "auriga-nexus",
+      "conformly-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-threat",
+    "native": [
+      "c2a-evsec",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "finite-state-product-security-os",
+      "cybellum-product-security"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-vuln",
+    "native": [
+      "cybellum-product-security",
+      "finite-state-product-security-os"
+    ],
+    "direct": [
+      "c2a-evsec",
+      "auriga-nexus"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-crash",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "direct": [
+      "mplab-ai-coding-assistant",
+      "byteask"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-embedded",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer"
+    ],
+    "direct": [
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp",
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-hw-sw",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer"
+    ],
+    "direct": [
+      "memfault-ai"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-intermittent",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "direct": [
+      "byteask"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-known",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "direct": [
+      "mplab-ai-coding-assistant",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp",
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-performance",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "direct": [
+      "byteask"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-vendor",
+    "native": [
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "embedder-ai",
+      "hydron",
+      "memfault-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-adapt",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer"
+    ],
+    "direct": [
+      "tuyaopen-ide",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-datasheet",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "iocomposer",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-port",
+    "native": [
+      "embedder-ai"
+    ],
+    "direct": [
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-feature",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer",
+      "tuyaopen-ide"
+    ],
+    "direct": [
+      "byteask",
+      "refact-ai",
+      "qodeassist"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-module",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer",
+      "tuyaopen-ide"
+    ],
+    "direct": [
+      "byteask",
+      "refact-ai",
+      "qodeassist"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-protocol",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "tuyaopen-ide"
+    ],
+    "direct": [
+      "iocomposer",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-python-tooling",
+    "native": [],
+    "direct": [
+      "refact-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-refactor",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "iocomposer",
+      "tuyaopen-ide",
+      "byteask",
+      "refact-ai",
+      "qodeassist"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-small-change",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "iocomposer",
+      "tuyaopen-ide",
+      "byteask",
+      "refact-ai",
+      "qodeassist"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-architecture",
+    "native": [
+      "auriga-nexus",
+      "archtect",
+      "visual-paradigm-ai"
+    ],
+    "direct": [
+      "dalus-ai-mbse",
+      "softagram-ai",
+      "spread-product-explorer"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-code",
+    "native": [
+      "github-agentic-workflows"
+    ],
+    "direct": [
+      "auriga-nexus",
+      "embedder-ai",
+      "hydron",
+      "softagram-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-datasheet",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "iocomposer",
+      "byteask"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-sync",
+    "native": [
+      "github-agentic-workflows"
+    ],
+    "direct": [
+      "auriga-nexus",
+      "softagram-ai",
+      "archtect",
+      "spread-product-explorer"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-vendor-diff",
+    "native": [
+      "embedder-ai",
+      "hydron"
+    ],
+    "direct": [
+      "mplab-ai-coding-assistant",
+      "byteask"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-coach",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-explain",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [
+      "scite-ai",
+      "accuris-ai-assistant",
+      "scopus-ai",
+      "web-of-science-research-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-operational",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [
+      "scite-ai",
+      "accuris-ai-assistant",
+      "feedly-ai-intelligence"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-path",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [
+      "scite-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "process-aspice",
+    "native": [
+      "assessoris",
+      "ketryx-automotive",
+      "conformly-ai",
+      "auriga-nexus"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "process-evidence",
+    "native": [
+      "assessoris",
+      "ketryx-automotive",
+      "conformly-ai",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "finite-state-product-security-os",
+      "cybellum-product-security"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "release-notes",
+    "native": [
+      "atlassian-rovo",
+      "github-agentic-workflows"
+    ],
+    "direct": [
+      "github-copilot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "release-prepare",
+    "native": [
+      "buildkite-agentic-ci"
+    ],
+    "direct": [
+      "circleci-agentic-ci",
+      "github-agentic-workflows",
+      "github-copilot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-change-impact",
+    "native": [
+      "reqsuite-rm-ai",
+      "trace-space",
+      "spread-requirements-manager",
+      "requirementmatrix-ai",
+      "arc-requirements-ai"
+    ],
+    "direct": [
+      "valispace-ai",
+      "innoslate-ai",
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-decompose",
+    "native": [
+      "valispace-ai",
+      "reqsuite-rm-ai"
+    ],
+    "direct": [
+      "innoslate-ai",
+      "trace-space",
+      "requirementmatrix-ai",
+      "arc-requirements-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-review",
+    "native": [
+      "valispace-ai",
+      "innoslate-ai",
+      "reqsuite-rm-ai",
+      "requirementmatrix-ai",
+      "spread-requirements-manager"
+    ],
+    "direct": [
+      "trace-space",
+      "arc-requirements-ai",
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-system-impact",
+    "native": [
+      "reqsuite-rm-ai",
+      "spread-requirements-manager"
+    ],
+    "direct": [
+      "valispace-ai",
+      "innoslate-ai",
+      "trace-space",
+      "requirementmatrix-ai",
+      "arc-requirements-ai",
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-traceability",
+    "native": [
+      "valispace-ai",
+      "innoslate-ai",
+      "reqsuite-rm-ai",
+      "trace-space",
+      "spread-requirements-manager",
+      "requirementmatrix-ai",
+      "arc-requirements-ai"
+    ],
+    "direct": [
+      "modelgraphx"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-write-sw",
+    "native": [
+      "valispace-ai",
+      "innoslate-ai",
+      "reqsuite-rm-ai",
+      "requirementmatrix-ai"
+    ],
+    "direct": [
+      "trace-space",
+      "arc-requirements-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-docs",
+    "native": [
+      "accuris-ai-assistant"
+    ],
+    "direct": [
+      "scite-ai",
+      "kagi-research",
+      "scopus-ai",
+      "web-of-science-research-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-field",
+    "native": [
+      "feedly-ai-intelligence"
+    ],
+    "direct": [
+      "kagi-research",
+      "scite-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-multidoc",
+    "native": [],
+    "direct": [
+      "scite-ai",
+      "accuris-ai-assistant",
+      "kagi-research"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-relevant",
+    "native": [],
+    "direct": [
+      "scite-ai",
+      "scopus-ai",
+      "web-of-science-research-assistant",
+      "kagi-research",
+      "feedly-ai-intelligence"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-source",
+    "native": [
+      "scite-ai",
+      "accuris-ai-assistant",
+      "scopus-ai",
+      "web-of-science-research-assistant"
+    ],
+    "direct": [
+      "kagi-research"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-state-art",
+    "native": [
+      "scite-ai",
+      "scopus-ai",
+      "web-of-science-research-assistant"
+    ],
+    "direct": [
+      "kagi-research",
+      "feedly-ai-intelligence"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-version",
+    "native": [
+      "accuris-ai-assistant"
+    ],
+    "direct": [
+      "feedly-ai-intelligence",
+      "kagi-research",
+      "scite-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "research-web",
+    "native": [
+      "kagi-research"
+    ],
+    "direct": [
+      "feedly-ai-intelligence"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  },
+  {
+    "task_id": "safety-impact",
+    "native": [
+      "ketryx-automotive",
+      "conformly-ai",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "siemens-questa-one-safety"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "safety-review",
+    "native": [
+      "ketryx-automotive",
+      "conformly-ai",
+      "auriga-nexus",
+      "siemens-questa-one-safety"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-backport",
+    "native": [],
+    "direct": [
+      "embedder-ai",
+      "hydron",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-contribute",
+    "native": [],
+    "direct": [
+      "embedder-ai",
+      "hydron",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-search",
+    "native": [],
+    "direct": [
+      "embedder-ai",
+      "hydron"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-coding-rules",
+    "native": [
+      "tasking-agentic-toolchain"
+    ],
+    "direct": [
+      "byteask",
+      "btc-teststack"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-coverage",
+    "native": [
+      "btc-teststack",
+      "cantata-ai"
+    ],
+    "direct": [
+      "tasking-agentic-toolchain"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-hil",
+    "native": [
+      "btc-testagent",
+      "embedder-ai",
+      "hydron"
+    ],
+    "direct": [
+      "tasking-agentic-toolchain",
+      "tuyaopen-ide",
+      "iocomposer"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-integration",
+    "native": [
+      "btc-teststack",
+      "cantata-ai",
+      "tasking-agentic-toolchain",
+      "embedder-ai"
+    ],
+    "direct": [
+      "hydron"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-loop",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "btc-teststack",
+      "cantata-ai",
+      "tasking-agentic-toolchain"
+    ],
+    "direct": [
+      "btc-testagent"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-mr",
+    "native": [],
+    "direct": [
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-prevalidation",
+    "native": [
+      "btc-teststack",
+      "cantata-ai",
+      "tasking-agentic-toolchain",
+      "embedder-ai"
+    ],
+    "direct": [
+      "hydron"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-req-tests",
+    "native": [
+      "btc-teststack",
+      "btc-testagent"
+    ],
+    "direct": [
+      "cantata-ai",
+      "tasking-agentic-toolchain",
+      "reqsuite-rm-ai",
+      "innoslate-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-results",
+    "native": [
+      "btc-testagent",
+      "btc-teststack"
+    ],
+    "direct": [
+      "tasking-agentic-toolchain",
+      "memfault-ai",
+      "embedder-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-static",
+    "native": [
+      "tasking-agentic-toolchain"
+    ],
+    "direct": [
+      "byteask",
+      "btc-teststack"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-unit",
+    "native": [
+      "btc-teststack",
+      "cantata-ai"
+    ],
+    "direct": [
+      "embedder-ai",
+      "hydron",
+      "tasking-agentic-toolchain"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "watch-tech",
+    "native": [
+      "feedly-ai-intelligence",
+      "scite-ai"
+    ],
+    "direct": [
+      "kagi-research"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": [
+      "exa-agent"
+    ]
+  }
+]

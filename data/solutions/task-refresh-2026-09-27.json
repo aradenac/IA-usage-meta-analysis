@@ -1,0 +1,1860 @@
+[
+  {
+    "id": "valispace-ai",
+    "name": "Valispace / Requirements and Systems Portal + ValiAssistant",
+    "vendor": "Valispace",
+    "category": "requirements-systems-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "on-premise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-generation",
+      "requirements-refinement",
+      "requirements-decomposition",
+      "requirements-traceability",
+      "parameterized-requirements",
+      "verification"
+    ],
+    "integrations": [
+      "requirements-and-systems-engineering-workspace"
+    ],
+    "official_url": "https://www.valispace.com/ai/",
+    "verified_at": "2026-09-27",
+    "notes": "ValiAssistant generates, improves and breaks down requirements; Valispace links requirements to engineering parameters, design and verification."
+  },
+  {
+    "id": "innoslate-ai",
+    "name": "Innoslate AI",
+    "vendor": "SPEC Innovations",
+    "category": "mbse-requirements-ai",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "enterprise",
+      "government",
+      "air-gapped-options"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-drafting",
+      "requirements-quality",
+      "traceability-matrix",
+      "test-case-generation",
+      "risk-analysis",
+      "mbse",
+      "multi-model-ai"
+    ],
+    "integrations": [
+      "Innoslate",
+      "local-or-secure-LLM-options"
+    ],
+    "official_url": "https://specinnovations.com/innoslate/artificial-intelligence-in-mbse",
+    "verified_at": "2026-09-27",
+    "notes": "AI Assistant, optional LLM-powered engineering tools and built-in NLP support requirements, MBSE models, quality checks and verification workflows."
+  },
+  {
+    "id": "reqsuite-rm-ai",
+    "name": "reqSuite rm + AI assistance",
+    "vendor": "OSSENO Software",
+    "category": "requirements-management-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-quality",
+      "requirements-rewrite",
+      "requirements-refinement",
+      "traceability-suggestions",
+      "change-impact-analysis",
+      "test-case-generation",
+      "project-chat"
+    ],
+    "integrations": [
+      "reqSuite rm"
+    ],
+    "official_url": "https://www.reqsuite.io/en/blog/ai-assistance-reqsuite",
+    "verified_at": "2026-09-27",
+    "notes": "Integrated quality checks plus optional LLM features for revision, refinements, trace-link suggestions and project-context questions including change impact."
+  },
+  {
+    "id": "trace-space",
+    "name": "Trace.Space",
+    "vendor": "Trace.Space",
+    "category": "agentic-systems-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "private-cloud",
+      "on-premise",
+      "air-gapped"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "requirements-management",
+      "agentic-systems-engineering",
+      "traceability",
+      "coverage-analysis",
+      "change-impact-analysis",
+      "architecture",
+      "tests"
+    ],
+    "integrations": [
+      "api-first-engineering-stack"
+    ],
+    "official_url": "https://www.trace.space/",
+    "verified_at": "2026-09-27",
+    "notes": "Space Agent operates in the requirements/traceability chain, generates trace links, flags missing coverage and provides impact analysis."
+  },
+  {
+    "id": "spread-requirements-manager",
+    "name": "SPREAD Requirements Manager",
+    "vendor": "SPREAD",
+    "category": "engineering-intelligence-requirements-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "platform"
+    ],
+    "capabilities": [
+      "requirements-extraction",
+      "requirements-classification",
+      "gap-analysis",
+      "conflict-detection",
+      "traceability",
+      "change-impact",
+      "engineering-knowledge-graph",
+      "automotive"
+    ],
+    "integrations": [
+      "PLM",
+      "ALM",
+      "CAD",
+      "ERP",
+      "MES",
+      "engineering-data"
+    ],
+    "official_url": "https://www.spread.ai/requirements-manager",
+    "verified_at": "2026-09-27",
+    "notes": "Extracts and classifies requirements from raw specifications, compares them with prior programs, flags gaps/conflicts and links requirements to architectures, systems and tests."
+  },
+  {
+    "id": "requirementmatrix-ai",
+    "name": "RequirementMatrix AI",
+    "vendor": "RequirementMatrix",
+    "category": "requirements-management-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-generation",
+      "requirements-quality",
+      "consistency-analysis",
+      "dependency-analysis",
+      "testability-analysis",
+      "traceability",
+      "change-review",
+      "standards-aware-analysis"
+    ],
+    "integrations": [
+      "Jira",
+      "Azure DevOps"
+    ],
+    "official_url": "https://reqmatrix.com/",
+    "verified_at": "2026-09-27",
+    "notes": "Specialist AI agents review requirement changes for quality, consistency, dependencies, testability, security and standards; includes live traceability coverage."
+  },
+  {
+    "id": "arc-requirements-ai",
+    "name": "Arc AI-assisted Requirements Management",
+    "vendor": "Arc",
+    "category": "requirements-systems-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-management",
+      "traceability",
+      "change-impact",
+      "architecture",
+      "tests",
+      "verification-evidence",
+      "agentic-maintenance"
+    ],
+    "integrations": [
+      "engineering-program-workspace"
+    ],
+    "official_url": "https://www.archelps.com/",
+    "verified_at": "2026-09-27",
+    "notes": "Space-oriented engineering workspace connecting requirements, architecture, tests and verification evidence, with agents helping maintain dependencies and change impact."
+  },
+  {
+    "id": "modelgraphx",
+    "name": "ModelgraphX",
+    "vendor": "ModelgraphX",
+    "category": "safety-systems-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-management",
+      "traceability",
+      "fmea",
+      "fta",
+      "hazop",
+      "hazid",
+      "functional-safety",
+      "tara",
+      "safety-case"
+    ],
+    "integrations": [
+      "systems-and-risk-models"
+    ],
+    "official_url": "https://www.modelgraphx.com/",
+    "verified_at": "2026-09-27",
+    "notes": "AI-enabled multimodel systems/risk engineering platform linking requirements with hazards, analyses and verification evidence across ISO 26262, IEC 61508 and ISO 21434 workflows."
+  },
+  {
+    "id": "dalus-ai-mbse",
+    "name": "Dalus AI-Native MBSE",
+    "vendor": "Dalus",
+    "category": "mbse-architecture-ai",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "on-premise",
+      "eu-data-residency",
+      "govcloud"
+    ],
+    "surfaces": [
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "sysml-v2",
+      "architecture-modeling",
+      "requirements-management",
+      "trade-studies",
+      "hazard-analysis",
+      "verification",
+      "ai-copilot",
+      "mcp"
+    ],
+    "integrations": [
+      "Claude",
+      "ChatGPT",
+      "MCP",
+      "Excel",
+      "OneDrive",
+      "Python",
+      "DOORS",
+      "Jama",
+      "Cameo"
+    ],
+    "official_url": "https://dalus.io/",
+    "verified_at": "2026-09-27",
+    "notes": "AI-native SysML v2 systems engineering platform for aerospace, automotive, IoT and other complex hardware; AI Copilot generates structured system architectures and the MCP connector exposes the live model to assistants."
+  },
+  {
+    "id": "visual-paradigm-ai",
+    "name": "Visual Paradigm AI Modeling",
+    "vendor": "Visual Paradigm",
+    "category": "uml-architecture-ai",
+    "status": "active",
+    "deployment": [
+      "desktop",
+      "saas"
+    ],
+    "surfaces": [
+      "desktop",
+      "web",
+      "chatbot"
+    ],
+    "capabilities": [
+      "uml-generation",
+      "architecture-modeling",
+      "diagram-generation",
+      "model-traceability",
+      "reverse-engineering",
+      "code-generation",
+      "documentation"
+    ],
+    "integrations": [
+      "PlantUML",
+      "Mermaid",
+      "Graphviz",
+      "Visual Paradigm Desktop"
+    ],
+    "official_url": "https://www.visual-paradigm.com/features/uml-diagram-generator/",
+    "verified_at": "2026-09-27",
+    "notes": "AI-powered UML generation and iterative modeling across class, sequence, component, deployment and other diagrams, integrated with a mature modeling environment."
+  },
+  {
+    "id": "softagram-ai",
+    "name": "Softagram Analyzer + MCP",
+    "vendor": "Softagram",
+    "category": "software-architecture-intelligence",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted",
+      "desktop"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "github",
+      "mcp"
+    ],
+    "capabilities": [
+      "architecture-visualization",
+      "dependency-analysis",
+      "impact-analysis",
+      "architecture-violations",
+      "security-audit",
+      "mcp",
+      "c-cpp",
+      "multi-language"
+    ],
+    "integrations": [
+      "GitHub",
+      "Claude Code",
+      "Cursor",
+      "MCP"
+    ],
+    "official_url": "https://softagram.com/en/softagram-analyzer/mcp",
+    "verified_at": "2026-09-27",
+    "notes": "Builds architecture models across 30+ languages including C/C++; MCP exposes dependencies, blast radius, cycles, hubs, boundary violations and security audit data to AI agents."
+  },
+  {
+    "id": "codeatlas",
+    "name": "CodeAtlas",
+    "vendor": "CodeAtlas",
+    "category": "software-architecture-intelligence",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "vscode",
+      "browser",
+      "mcp"
+    ],
+    "capabilities": [
+      "architecture-visualization",
+      "dependency-analysis",
+      "impact-analysis",
+      "architecture-rules",
+      "ai-code-review",
+      "mcp",
+      "knowledge-map"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Cursor",
+      "Codex CLI",
+      "Gemini CLI",
+      "VS Code Copilot Chat",
+      "MCP"
+    ],
+    "official_url": "https://www.codeatlas.live/",
+    "verified_at": "2026-09-27",
+    "notes": "Live five-layer architecture map plus MCP and evidence-gated AI review. Current language support is broad but does not list C/C++, so applicability to embedded C/C++ is limited."
+  },
+  {
+    "id": "jigsawml",
+    "name": "JigsawML Architectural Intelligence",
+    "vendor": "JigsawML",
+    "category": "software-architecture-intelligence",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "architecture-visualization",
+      "dependency-analysis",
+      "change-impact",
+      "architecture-drift",
+      "codebase-understanding",
+      "cloud-context"
+    ],
+    "integrations": [
+      "GitHub",
+      "Bitbucket",
+      "cloud-accounts"
+    ],
+    "official_url": "https://www.jigsawml.com/",
+    "verified_at": "2026-09-27",
+    "notes": "Generates interactive architecture maps from repositories and cloud accounts, tracks structural change and supports natural-language architecture queries."
+  },
+  {
+    "id": "striff",
+    "name": "Striff",
+    "vendor": "HADI Technology",
+    "category": "architecture-review",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted-enterprise"
+    ],
+    "surfaces": [
+      "github",
+      "browser-extension"
+    ],
+    "capabilities": [
+      "architecture-review",
+      "structural-diff",
+      "dependency-analysis",
+      "boundary-checks",
+      "architecture-doc-enforcement",
+      "coupling-analysis",
+      "pr-review"
+    ],
+    "integrations": [
+      "GitHub"
+    ],
+    "official_url": "https://striff.io/",
+    "verified_at": "2026-09-27",
+    "notes": "Architecture-aware PR review with deterministic structural checks plus AI explanation. Supports Java, TypeScript, Python and C#; no C/C++ support currently."
+  },
+  {
+    "id": "archtect",
+    "name": "ArchTect",
+    "vendor": "nicobit",
+    "category": "architecture-modeling-ai",
+    "status": "active",
+    "deployment": [
+      "local-client"
+    ],
+    "surfaces": [
+      "vscode",
+      "mcp"
+    ],
+    "capabilities": [
+      "c4-modeling",
+      "structurizr-dsl",
+      "architecture-as-code",
+      "ai-generation",
+      "architecture-query",
+      "documentation",
+      "mcp"
+    ],
+    "integrations": [
+      "VS Code",
+      "Structurizr DSL",
+      "MCP"
+    ],
+    "official_url": "https://marketplace.visualstudio.com/items?itemName=nicobit.c4archtect",
+    "verified_at": "2026-09-27",
+    "notes": "Visual architecture IDE for VS Code with live Structurizr DSL synchronization and AI/MCP support to generate, query and evolve C4 architecture."
+  },
+  {
+    "id": "spread-product-explorer",
+    "name": "SPREAD Product Explorer",
+    "vendor": "SPREAD",
+    "category": "engineering-intelligence-architecture",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "platform"
+    ],
+    "capabilities": [
+      "product-architecture",
+      "dependency-graph",
+      "change-impact",
+      "natural-language-query",
+      "traceability",
+      "software-hardware-context",
+      "automotive"
+    ],
+    "integrations": [
+      "PLM",
+      "ALM",
+      "CAD",
+      "ERP",
+      "MES",
+      "engineering-data"
+    ],
+    "official_url": "https://www.spread.ai/product-explorer",
+    "verified_at": "2026-09-27",
+    "notes": "Navigable engineering product model connecting functions, components, signals, requirements, software and variants; natural-language queries trace answers back to source data."
+  },
+  {
+    "id": "embedder-ai",
+    "name": "Embedder",
+    "vendor": "Embedder Tech",
+    "category": "embedded-firmware-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "on-premise",
+      "byoc"
+    ],
+    "surfaces": [
+      "vscode",
+      "cli",
+      "daemon",
+      "ci"
+    ],
+    "capabilities": [
+      "firmware-code-generation",
+      "datasheet-grounding",
+      "schematic-ingestion",
+      "device-drivers",
+      "board-bring-up",
+      "build-flash-debug",
+      "hil",
+      "sil",
+      "rtos-migration",
+      "performance-optimization",
+      "hardware-debug"
+    ],
+    "integrations": [
+      "J-Link",
+      "J-Trace",
+      "GDB",
+      "logic-analyzers",
+      "oscilloscopes",
+      "power-profilers",
+      "CI",
+      "GitHub",
+      "Slack"
+    ],
+    "official_url": "https://embedder.com/",
+    "verified_at": "2026-09-27",
+    "notes": "Purpose-built firmware agent. Reads datasheets/reference manuals/errata and schematics, writes part-specific drivers, builds/flashes/tests on real hardware, and supports major MCU ecosystems plus Zephyr/RTOS migration."
+  },
+  {
+    "id": "hydron",
+    "name": "Hydron",
+    "vendor": "H2Loop",
+    "category": "embedded-firmware-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "vscode",
+      "cli"
+    ],
+    "capabilities": [
+      "spec-aware-code-generation",
+      "datasheet-grounding",
+      "hardware-knowledge-graph",
+      "codebase-indexing",
+      "firmware-debug",
+      "build-loop",
+      "hardware-in-the-loop",
+      "serial-monitor",
+      "c-cpp-rust"
+    ],
+    "integrations": [
+      "vendor-toolchains",
+      "BSPs",
+      "serial",
+      "project-datasources"
+    ],
+    "official_url": "https://www.hydron.sh/",
+    "verified_at": "2026-09-27",
+    "notes": "Hardware-native embedded coding assistant grounded in indexed datasheets, reference manuals, errata, schematics, BSPs and project code; provides agentic build/debug and HIL workflows."
+  },
+  {
+    "id": "mplab-ai-coding-assistant",
+    "name": "MPLAB AI Coding Assistant",
+    "vendor": "Microchip",
+    "category": "embedded-firmware-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "vendor-service"
+    ],
+    "surfaces": [
+      "vscode",
+      "mcp"
+    ],
+    "capabilities": [
+      "microchip-code-generation",
+      "autocomplete",
+      "agent-mode",
+      "codebase-query",
+      "inline-edit",
+      "terminal-fix",
+      "datasheet-retrieval",
+      "example-project-search",
+      "embedded-debug-assistance"
+    ],
+    "integrations": [
+      "MPLAB Tools for VS Code",
+      "Microchip datasheets",
+      "Microchip Developer Help",
+      "MCP"
+    ],
+    "official_url": "https://www.microchip.com/en-us/tools-resources/develop/mplab-tools-vs-code/mplab-ai-coding-assistant",
+    "verified_at": "2026-09-27",
+    "notes": "Free Microchip-specific assistant with Agent Mode and an MCP server exposing datasheets, board guides, compiler guides and examples. Can create/edit files, query codebases and fix terminal errors."
+  },
+  {
+    "id": "iocomposer",
+    "name": "IOcomposer",
+    "vendor": "I-SYST",
+    "category": "embedded-firmware-ai",
+    "status": "preview",
+    "deployment": [
+      "local-client"
+    ],
+    "surfaces": [
+      "ide"
+    ],
+    "capabilities": [
+      "embedded-c-cpp",
+      "sdk-grounding",
+      "code-generation",
+      "build",
+      "flash",
+      "swd-jtag-debug",
+      "project-generation",
+      "ble",
+      "hardware-context"
+    ],
+    "integrations": [
+      "GCC Arm",
+      "OpenOCD",
+      "Nordic SDK",
+      "local SDK headers"
+    ],
+    "official_url": "https://iocomposer.io/",
+    "verified_at": "2026-09-27",
+    "notes": "Embedded C/C++ IDE with AI grounded in installed SDK headers and deterministic build→flash→debug workflow. Current highlighted targets are Nordic nRF52832/nRF52840/nRF54L15; other vendors are preview."
+  },
+  {
+    "id": "tuyaopen-ide",
+    "name": "TuyaOpen IDE",
+    "vendor": "Tuya",
+    "category": "embedded-iot-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "cloud-connected"
+    ],
+    "surfaces": [
+      "vscode",
+      "cursor"
+    ],
+    "capabilities": [
+      "firmware-generation",
+      "hardware-context",
+      "project-generation",
+      "build",
+      "flash",
+      "debug",
+      "iot-cloud",
+      "app-generation",
+      "c-cpp",
+      "hil"
+    ],
+    "integrations": [
+      "TuyaOpen SDK",
+      "Tuya Cloud",
+      "ESP32",
+      "Tuya T-series",
+      "PlatformIO ecosystem"
+    ],
+    "official_url": "https://docs.tuyaopen.ai/docs/ide",
+    "verified_at": "2026-09-27",
+    "notes": "AI-era embedded environment for TuyaOpen/ESP32-class devices; natural-language agent creates projects and firmware with board/pin context and a build/flash/log hardware loop."
+  },
+  {
+    "id": "byteask",
+    "name": "ByteAsk",
+    "vendor": "ByteAsk",
+    "category": "c-cpp-coding-agent",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "saas"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "c-cpp",
+      "repo-edit",
+      "compile",
+      "tests",
+      "sanitizers",
+      "gdb",
+      "lldb",
+      "profiling",
+      "binary-analysis",
+      "datasheet-reference",
+      "standards-reference"
+    ],
+    "integrations": [
+      "GCC",
+      "Clang",
+      "CMake",
+      "Make",
+      "gdb",
+      "lldb",
+      "Valgrind",
+      "ASan",
+      "UBSan",
+      "TSan",
+      "Git"
+    ],
+    "official_url": "https://www.byteask.ai/",
+    "verified_at": "2026-09-27",
+    "notes": "C/C++-specialized coding agent that runs the project compiler, tests, sanitizers and debugger and exposes raw tool output; grounded reference corpora include standards and datasheets."
+  },
+  {
+    "id": "fw-context-mcp",
+    "name": "fw-context MCP",
+    "vendor": "community",
+    "category": "embedded-code-intelligence",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "mcp"
+    ],
+    "capabilities": [
+      "embedded-c-cpp",
+      "compiler-aware-indexing",
+      "call-graph",
+      "conditional-compilation",
+      "code-intelligence",
+      "mcp",
+      "zephyr-context"
+    ],
+    "integrations": [
+      "Claude",
+      "OpenCode",
+      "Cursor",
+      "MCP-capable assistants",
+      "compile_commands.json"
+    ],
+    "official_url": "https://pypi.org/project/fw-context-mcp/",
+    "verified_at": "2026-09-27",
+    "notes": "Build-aware local MCP server for embedded C/C++ firmware, designed to give coding agents compiler-accurate context rather than grep-based approximations."
+  },
+  {
+    "id": "refact-ai",
+    "name": "Refact.ai",
+    "vendor": "Refact.ai",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "ide",
+      "agent"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "debug",
+      "refactor",
+      "review",
+      "c",
+      "c-plus-plus",
+      "python",
+      "multi-model"
+    ],
+    "integrations": [
+      "GitHub",
+      "Docker",
+      "databases",
+      "IDE"
+    ],
+    "official_url": "https://refact.ai/",
+    "verified_at": "2026-09-27",
+    "notes": "General autonomous coding agent with C/C++ and Python support, BYOK and self-hosted deployment; relevant as another current direct coding surface."
+  },
+  {
+    "id": "qodeassist",
+    "name": "QodeAssist",
+    "vendor": "Palm1r",
+    "category": "c-plus-plus-coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "qt-creator",
+      "mcp"
+    ],
+    "capabilities": [
+      "c-plus-plus",
+      "qml",
+      "completion",
+      "chat",
+      "refactor",
+      "project-aware-tools",
+      "build",
+      "terminal",
+      "compiler-diagnostics",
+      "mcp"
+    ],
+    "integrations": [
+      "Qt Creator",
+      "Ollama",
+      "llama.cpp",
+      "OpenAI",
+      "Claude",
+      "Google AI",
+      "Mistral",
+      "Qwen",
+      "DeepSeek",
+      "MCP"
+    ],
+    "official_url": "https://github.com/Palm1r/QodeAssist",
+    "verified_at": "2026-09-27",
+    "notes": "AI assistant for Qt Creator with C++/QML completion, inline refactoring and agent tools that can inspect/edit files, build projects and consume compiler diagnostics."
+  },
+  {
+    "id": "memfault-ai",
+    "name": "Memfault AI + MCP",
+    "vendor": "Memfault",
+    "category": "embedded-observability-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "embedded-observability",
+      "issue-root-cause",
+      "fleet-metrics",
+      "logs",
+      "traces",
+      "coredumps",
+      "release-summary",
+      "mcp",
+      "field-debugging"
+    ],
+    "integrations": [
+      "Memfault Device SDK",
+      "MCP-capable assistants",
+      "Zephyr",
+      "FreeRTOS",
+      "ThreadX",
+      "ESP-IDF"
+    ],
+    "official_url": "https://docs.memfault.com/docs/platform/ai-features",
+    "verified_at": "2026-09-27",
+    "notes": "Issue Insights performs AI analysis of root cause, scope and next steps over device issue context; MCP lets assistants query fleet data. Particularly relevant to deployed-device and intermittent debugging."
+  },
+  {
+    "id": "jlink-mcp",
+    "name": "J-Link MCP",
+    "vendor": "community",
+    "category": "embedded-debug-mcp",
+    "status": "active",
+    "deployment": [
+      "local-client"
+    ],
+    "surfaces": [
+      "mcp",
+      "vscode"
+    ],
+    "capabilities": [
+      "flash",
+      "halt-resume",
+      "breakpoints",
+      "registers",
+      "memory",
+      "rtt",
+      "hardfault-diagnosis",
+      "embedded-debug",
+      "mcp"
+    ],
+    "integrations": [
+      "SEGGER J-Link",
+      "MCP-capable assistants",
+      "ARM Cortex-M"
+    ],
+    "official_url": "https://marketplace.visualstudio.com/items?itemName=Klievan.jlink-mcp",
+    "verified_at": "2026-09-27",
+    "notes": "Community MCP server that exposes J-Link target control and crash diagnosis to LLM agents. Useful as a connected hardware-debug layer rather than a standalone reasoning product."
+  },
+  {
+    "id": "openocd-mcp",
+    "name": "OpenOCD MCP Server",
+    "vendor": "community",
+    "category": "embedded-debug-mcp",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "mcp"
+    ],
+    "capabilities": [
+      "flash",
+      "halt-resume",
+      "single-step",
+      "registers",
+      "memory",
+      "breakpoints",
+      "watchpoints",
+      "elf-symbols",
+      "peripheral-registers",
+      "embedded-debug",
+      "mcp"
+    ],
+    "integrations": [
+      "OpenOCD",
+      "ST-Link",
+      "J-Link",
+      "CMSIS-DAP",
+      "MCP-capable assistants"
+    ],
+    "official_url": "https://github.com/microhenrio/openocd-mcp",
+    "verified_at": "2026-09-27",
+    "notes": "Community MCP layer over OpenOCD, enabling assistants to flash and inspect live targets through standard probes; treated as a connected tool, not a turnkey AI debugger."
+  },
+  {
+    "id": "btc-teststack",
+    "name": "BTC TestStack + AI Assistant/MCP",
+    "vendor": "BTC Embedded Systems",
+    "category": "safety-critical-verification-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "cloud"
+    ],
+    "surfaces": [
+      "vscode",
+      "simulink",
+      "cloud",
+      "mcp"
+    ],
+    "capabilities": [
+      "unit-testing",
+      "integration-testing",
+      "requirements-based-testing",
+      "test-generation",
+      "mcdc",
+      "coverage",
+      "formal-verification",
+      "traceability",
+      "ai-assistant",
+      "mcp",
+      "c-cpp"
+    ],
+    "integrations": [
+      "VS Code",
+      "Simulink",
+      "GoogleTest",
+      "CI/CD",
+      "ALM-PLM",
+      "MCP-capable agents"
+    ],
+    "official_url": "https://www.btc-embedded.com/products/btc-teststack",
+    "verified_at": "2026-09-27",
+    "notes": "Certified safety-critical verification stack for model-based, handwritten and AI-generated C/C++. Built-in AI Assistant drafts artifacts and MCP exposes verification actions to external agents."
+  },
+  {
+    "id": "btc-testagent",
+    "name": "BTC TestAgent",
+    "vendor": "BTC Embedded Systems",
+    "category": "hil-testing-ai",
+    "status": "partner-preview",
+    "deployment": [
+      "local-client",
+      "cloud-ready"
+    ],
+    "surfaces": [
+      "agent"
+    ],
+    "capabilities": [
+      "requirements-extraction",
+      "requirements-formalization",
+      "test-generation",
+      "symbolic-validation",
+      "hil",
+      "virtual-hil",
+      "result-verification",
+      "traceability",
+      "closed-loop-testing"
+    ],
+    "integrations": [
+      "dSPACE Test Automation SDK",
+      "HIL",
+      "SIL",
+      "OpenAI-class models"
+    ],
+    "official_url": "https://www.btc-embedded.com/products/btc-testagent",
+    "verified_at": "2026-09-27",
+    "notes": "AI-driven virtual tester for system-level HIL/vHIL. Extracts/formalizes requirements, generates and symbolically validates tests, executes them and verifies results. Initial rollout is to selected partner customers."
+  },
+  {
+    "id": "cantata-ai",
+    "name": "Cantata 26.04 + Test Automation Skill",
+    "vendor": "QA Systems",
+    "category": "embedded-unit-test-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "ci"
+    ],
+    "surfaces": [
+      "vscode",
+      "eclipse",
+      "agent-skill"
+    ],
+    "capabilities": [
+      "c-cpp-unit-testing",
+      "integration-testing",
+      "ai-test-generation",
+      "coverage-gap-analysis",
+      "iterative-test-refinement",
+      "mcdc",
+      "requirements-traceability",
+      "embedded-target-testing"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Codex",
+      "OpenCode",
+      "GitHub Copilot",
+      "CMake",
+      "embedded toolchains"
+    ],
+    "official_url": "https://www.qa-systems.com/tools/cantata",
+    "verified_at": "2026-09-27",
+    "notes": "Cantata 26.04 adds AI-assisted C/C++ test generation via a Test Automation Skill with Claude Code/Codex/OpenCode/Copilot integrations, while preserving Cantata coverage and safety-certification workflows."
+  },
+  {
+    "id": "tasking-agentic-toolchain",
+    "name": "TASKING Toolchain Agentic AI Workflows",
+    "vendor": "TASKING",
+    "category": "embedded-vv-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "local-client"
+    ],
+    "surfaces": [
+      "toolchain",
+      "mcp"
+    ],
+    "capabilities": [
+      "embedded-vv",
+      "agentic-workflows",
+      "compile",
+      "debug",
+      "test",
+      "safety-critical",
+      "autosar",
+      "performance-analysis",
+      "verification"
+    ],
+    "integrations": [
+      "MCP",
+      "Kiro",
+      "TASKING compiler",
+      "winIDEA",
+      "BlueBox",
+      "LDRA"
+    ],
+    "official_url": "https://www.tasking.com/content/tasking-integrates-modern-ai-technology-to-enable-robust-software-verification-and-validation-vv/",
+    "verified_at": "2026-09-27",
+    "notes": "TASKING 2026 toolchain exposes embedded compile/debug/test capabilities for agentic AI workflows, including demonstrated MCP orchestration in safety-critical automotive contexts."
+  },
+  {
+    "id": "cybellum-product-security",
+    "name": "Cybellum Product Security Platform",
+    "vendor": "Cybellum",
+    "category": "product-security-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "platform"
+    ],
+    "capabilities": [
+      "sbom",
+      "vulnerability-triage",
+      "product-risk",
+      "ai-remediation",
+      "cra-compliance",
+      "iso-21434",
+      "iec-62443",
+      "psirt",
+      "vex",
+      "csaf",
+      "audit-evidence"
+    ],
+    "integrations": [
+      "ALM",
+      "PLM",
+      "CI/CD",
+      "ticketing",
+      "threat-feeds",
+      "TARA",
+      "SBOM-sources"
+    ],
+    "official_url": "https://cybellum.com/platform/",
+    "verified_at": "2026-09-28",
+    "notes": "AI-driven product-security platform for connected-device manufacturers. Combines SBOM/assets, product-context vulnerability triage, risk management, post-market monitoring and automated regulatory evidence including CRA and ISO/SAE 21434."
+  },
+  {
+    "id": "c2a-evsec",
+    "name": "C2A Security EVSec + AutoSynth AI",
+    "vendor": "C2A Security",
+    "category": "automotive-product-security-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "platform",
+      "mcp"
+    ],
+    "capabilities": [
+      "tara",
+      "threat-modeling",
+      "attack-trees",
+      "risk-analysis",
+      "iso-21434",
+      "un-r155",
+      "cra",
+      "iec-62443",
+      "compliance-work-products",
+      "ai-assisted-analysis",
+      "mcp",
+      "a2a"
+    ],
+    "integrations": [
+      "ALM",
+      "PLM",
+      "SBOM",
+      "CI/CD",
+      "MCP",
+      "product-architecture"
+    ],
+    "official_url": "https://c2a-sec.com/platform/",
+    "verified_at": "2026-09-28",
+    "notes": "Risk-driven product-security orchestration for automotive and cyber-physical systems. AutoSynth AI generates threat models/risk assessments from architecture inputs and the platform continuously updates risk and compliance work products."
+  },
+  {
+    "id": "finite-state-product-security-os",
+    "name": "Finite State Product Security OS",
+    "vendor": "Finite State",
+    "category": "product-security-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "cli"
+    ],
+    "capabilities": [
+      "firmware-analysis",
+      "sbom",
+      "vulnerability-context",
+      "reachability",
+      "vex",
+      "threat-models",
+      "security-requirements",
+      "cra-compliance",
+      "audit-evidence",
+      "post-market-monitoring",
+      "ai-copilot"
+    ],
+    "integrations": [
+      "GitHub Actions",
+      "GitLab CI",
+      "Jenkins",
+      "REST",
+      "GraphQL",
+      "ticketing"
+    ],
+    "official_url": "https://finitestate.io/platform",
+    "verified_at": "2026-09-28",
+    "notes": "AI-native product-security OS for connected devices. Grounds vulnerability applicability and compliance evidence in shipped firmware/binaries/source and maintains SBOM, VEX, verification and audit-ready evidence continuously."
+  },
+  {
+    "id": "assessoris",
+    "name": "Assessoris",
+    "vendor": "Assessoris",
+    "category": "aspice-audit-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "aspice-assessment",
+      "ai-gap-analysis",
+      "work-product-review",
+      "evidence-citations",
+      "ratings",
+      "audit-findings",
+      "iso-21434",
+      "iso-9001"
+    ],
+    "integrations": [
+      "uploaded-project-work-products"
+    ],
+    "official_url": "https://assessoris.com/",
+    "verified_at": "2026-09-28",
+    "notes": "AI-assisted audit and assessment workspace. Reads project work products, drafts per-requirement findings with citations, and supports Automotive SPICE plus ISO/SAE 21434 assessment workflows."
+  },
+  {
+    "id": "ketryx-automotive",
+    "name": "Ketryx for Automotive",
+    "vendor": "Ketryx",
+    "category": "functional-safety-compliance-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "integrations"
+    ],
+    "capabilities": [
+      "iso-26262",
+      "aspice",
+      "un-r155",
+      "traceability",
+      "safety-case",
+      "audit-evidence",
+      "work-product-generation",
+      "process-enforcement",
+      "change-impact"
+    ],
+    "integrations": [
+      "Jira",
+      "GitHub",
+      "development-and-compliance-tools"
+    ],
+    "official_url": "https://www.ketryx.com/industries/automotive",
+    "verified_at": "2026-09-28",
+    "notes": "Automotive compliance overlay for ISO 26262 and ASPICE. Maintains traceability, generates safety-case/work-product evidence and embeds process enforcement into existing engineering tools."
+  },
+  {
+    "id": "conformly-ai",
+    "name": "Conformly.AI",
+    "vendor": "Conformly",
+    "category": "automotive-compliance-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "eu-data-residency"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "iso-26262",
+      "aspice",
+      "iso-21434",
+      "gap-analysis",
+      "traceability",
+      "architecture-review",
+      "safety-case",
+      "test-plan",
+      "compliance-report",
+      "multi-agent-review"
+    ],
+    "integrations": [
+      "document-work-products"
+    ],
+    "official_url": "https://www.conformly.ai/",
+    "verified_at": "2026-09-28",
+    "notes": "AI compliance analysis for automotive work products. Specialized agents assess safety, process, traceability and architecture, then generate remediation plans and evidence artifacts."
+  },
+  {
+    "id": "auriga-nexus",
+    "name": "Auriga Nexus",
+    "vendor": "Auriga Mobility Solutions",
+    "category": "automotive-engineering-ai-suite",
+    "status": "active",
+    "deployment": [
+      "desktop",
+      "web",
+      "offline",
+      "air-gapped"
+    ],
+    "surfaces": [
+      "desktop",
+      "web"
+    ],
+    "capabilities": [
+      "requirements",
+      "architecture",
+      "aspice",
+      "iso-26262",
+      "iso-21434",
+      "tara",
+      "test-automation",
+      "log-analysis",
+      "fleet-analytics",
+      "traceability",
+      "automotive-ai"
+    ],
+    "integrations": [
+      "ARXML",
+      "CAPL",
+      "Python",
+      "Robot Framework",
+      "ASAM formats"
+    ],
+    "official_url": "https://www.auriga-nexus.com/",
+    "verified_at": "2026-09-28",
+    "notes": "AI-native automotive engineering suite spanning requirements, architecture, test, TARA/security, logs and fleet intelligence with a unified traceability model and standards-aware AI core."
+  },
+  {
+    "id": "siemens-questa-one-safety",
+    "name": "Siemens Questa One ISO 26262 Functional Safety",
+    "vendor": "Siemens EDA",
+    "category": "functional-safety-verification-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "eda-platform"
+    ],
+    "capabilities": [
+      "iso-26262",
+      "safety-analysis",
+      "ai-powered-verification",
+      "safety-metrics",
+      "safety-case",
+      "systematic-failure-analysis",
+      "random-failure-analysis"
+    ],
+    "integrations": [
+      "Siemens EDA safety workflow"
+    ],
+    "official_url": "https://www.siemens.com/en-us/products/ic/questa-one/functional-safety/iso-26262/",
+    "verified_at": "2026-09-28",
+    "notes": "AI-powered functional-safety verification platform focused on ISO 26262, spanning systematic/random failure workflows, safety metrics and safety-case support."
+  },
+  {
+    "id": "docker-gordon",
+    "name": "Docker Gordon",
+    "vendor": "Docker",
+    "category": "container-devops-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "saas-account"
+    ],
+    "surfaces": [
+      "docker-desktop",
+      "cli"
+    ],
+    "capabilities": [
+      "dockerfile-generation",
+      "container-debugging",
+      "build-failure-debugging",
+      "logs",
+      "images",
+      "volumes",
+      "networks",
+      "containerization",
+      "command-execution"
+    ],
+    "integrations": [
+      "Docker Desktop",
+      "Docker CLI"
+    ],
+    "official_url": "https://docs.docker.com/ai/gordon",
+    "verified_at": "2026-09-28",
+    "notes": "GA Docker-native AI agent. Reads Docker environment/build context, writes or modifies Dockerfiles, diagnoses failed builds and containers, and executes approved Docker actions from Desktop or `docker ai`."
+  },
+  {
+    "id": "github-agentic-workflows",
+    "name": "GitHub Agentic Workflows",
+    "vendor": "GitHub",
+    "category": "devops-ai",
+    "status": "public-preview",
+    "deployment": [
+      "saas",
+      "github-actions"
+    ],
+    "surfaces": [
+      "github-actions",
+      "workflow-markdown"
+    ],
+    "capabilities": [
+      "ci-failure-investigation",
+      "repository-automation",
+      "test-coverage",
+      "documentation-sync",
+      "issue-triage",
+      "status-reports",
+      "multi-agent-engine",
+      "guardrailed-actions"
+    ],
+    "integrations": [
+      "GitHub Actions",
+      "GitHub Copilot",
+      "Claude Code",
+      "OpenAI Codex",
+      "Gemini CLI"
+    ],
+    "official_url": "https://docs.github.com/en/copilot/concepts/agents/about-github-agentic-workflows",
+    "verified_at": "2026-09-28",
+    "notes": "Natural-language agentic workflows compiled into hardened GitHub Actions workflows. Supports Copilot, Claude, Codex and Gemini engines with declared permissions and safe outputs."
+  },
+  {
+    "id": "buildkite-agentic-ci",
+    "name": "Buildkite AI Agents + MCP",
+    "vendor": "Buildkite",
+    "category": "devops-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted-agent",
+      "remote-mcp",
+      "local-mcp"
+    ],
+    "surfaces": [
+      "pipeline",
+      "mcp",
+      "skills"
+    ],
+    "capabilities": [
+      "ci-failure-investigation",
+      "pipeline-management",
+      "pipeline-generation",
+      "build-logs",
+      "test-results",
+      "agentic-steps",
+      "mcp",
+      "skills",
+      "self-healing-ci"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Cursor",
+      "GitHub Copilot",
+      "Buildkite Pipelines",
+      "Buildkite Test Engine"
+    ],
+    "official_url": "https://buildkite.com/docs/platform/ai-agents",
+    "verified_at": "2026-09-28",
+    "notes": "Buildkite provides agent skills, a remote/local MCP server with pipeline/build/log/test tools, and agentic pipeline steps. Agents can inspect failures, alter pipelines, trigger builds and run inside CI."
+  },
+  {
+    "id": "circleci-agentic-ci",
+    "name": "CircleCI MCP + Agent Skills",
+    "vendor": "CircleCI",
+    "category": "devops-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "hosted-mcp",
+      "local-cli-mcp"
+    ],
+    "surfaces": [
+      "mcp",
+      "cli",
+      "skills",
+      "web"
+    ],
+    "capabilities": [
+      "ci-failure-investigation",
+      "pipeline-management",
+      "rerun-failed-jobs",
+      "config-validation",
+      "build-logs",
+      "test-failures",
+      "agent-skills",
+      "ci-optimization"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "GitHub Copilot",
+      "CircleCI CLI"
+    ],
+    "official_url": "https://circleci.com/docs/guides/toolkit/circleci-mcp-overview/",
+    "verified_at": "2026-09-28",
+    "notes": "Hosted and CLI MCP servers plus reusable agent skills let coding agents diagnose/fix failed builds, inspect tests/logs, optimize config and rerun/cancel workflows through structured CI tools."
+  },
+  {
+    "id": "loom-ai",
+    "name": "Loom AI for Meetings + Atlassian workflows",
+    "vendor": "Atlassian",
+    "category": "meeting-collaboration-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "meeting-notetaker",
+      "jira",
+      "confluence"
+    ],
+    "capabilities": [
+      "meeting-recording",
+      "transcription",
+      "meeting-summary",
+      "action-items",
+      "confluence-meeting-notes",
+      "jira-work-item-generation",
+      "jira-work-item-updates",
+      "bug-report-generation"
+    ],
+    "integrations": [
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams",
+      "Jira Cloud",
+      "Confluence Cloud",
+      "Rovo",
+      "Trello"
+    ],
+    "official_url": "https://www.atlassian.com/software/loom/ai-meeting",
+    "verified_at": "2026-09-28",
+    "notes": "Loom AI records Zoom/Meet/Teams, generates summaries and action items, creates Confluence meeting-note pages, turns recordings into Jira work items, and—with Rovo—suggests ready-to-approve Jira updates from meeting transcripts."
+  },
+  {
+    "id": "zoom-ai-companion",
+    "name": "Zoom AI Companion / ZoomMate",
+    "vendor": "Zoom",
+    "category": "meeting-collaboration-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "zoom-workplace",
+      "web",
+      "desktop",
+      "mobile",
+      "mcp"
+    ],
+    "capabilities": [
+      "meeting-summary",
+      "meeting-questions",
+      "live-notes",
+      "action-items",
+      "task-generation",
+      "workflow-automation",
+      "jira-actions",
+      "meeting-search",
+      "third-party-meeting-transcription"
+    ],
+    "integrations": [
+      "Zoom Meetings",
+      "Google Meet",
+      "Microsoft Teams",
+      "Jira",
+      "ChatGPT",
+      "Claude",
+      "Slack",
+      "Zoom Tasks"
+    ],
+    "official_url": "https://www.zoom.com/en/products/ai-assistant/",
+    "verified_at": "2026-09-28",
+    "notes": "Zoom AI Companion summarizes and interrogates meetings, creates action items/tasks, supports workflow automation and Jira actions, and can expose meeting assets to ChatGPT/Claude/Slack through Zoom apps/MCP-style integrations."
+  },
+  {
+    "id": "scite-ai",
+    "name": "Scite Assistant + Smart Citations + MCP",
+    "vendor": "Scite",
+    "category": "scientific-research-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api"
+    ],
+    "surfaces": [
+      "web",
+      "mcp",
+      "browser-extension",
+      "zotero"
+    ],
+    "capabilities": [
+      "literature-search",
+      "full-text-search",
+      "citation-analysis",
+      "claim-verification",
+      "research-assistant",
+      "collections",
+      "research-feed",
+      "alerts",
+      "patent-search",
+      "mcp"
+    ],
+    "integrations": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Copilot",
+      "Cursor",
+      "Claude Code",
+      "Zotero",
+      "MCP"
+    ],
+    "official_url": "https://scite.ai/",
+    "verified_at": "2026-09-28",
+    "notes": "Scientific research platform with Smart Citations (supporting/contrasting/mentioning context), full-text search and Assistant. 2026 MCP exposes literature and citation intelligence to AI clients; Research Feed/Collections support ongoing monitoring."
+  },
+  {
+    "id": "accuris-ai-assistant",
+    "name": "Accuris AI Assistant",
+    "vendor": "Accuris",
+    "category": "engineering-standards-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "engineering-workbench",
+      "accuris-thread"
+    ],
+    "capabilities": [
+      "engineering-standards",
+      "clause-level-qa",
+      "citation-backed-answers",
+      "document-summarization",
+      "compliance-insight",
+      "authoritative-sources",
+      "traceability"
+    ],
+    "integrations": [
+      "Engineering Workbench",
+      "Accuris Thread",
+      "licensed publisher content"
+    ],
+    "official_url": "https://accuristech.com/accuris-ai-assistant/",
+    "verified_at": "2026-09-28",
+    "notes": "Purpose-built engineering assistant grounded only in licensed publisher-authorized standards and technical content, returning clause-level answers with precise citations and compliance explanations."
+  },
+  {
+    "id": "feedly-ai-intelligence",
+    "name": "Feedly AI / Market Intelligence",
+    "vendor": "Feedly",
+    "category": "technology-intelligence-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "technology-watch",
+      "ai-feeds",
+      "trend-detection",
+      "weak-signals",
+      "source-monitoring",
+      "multi-source-research",
+      "ask-ai",
+      "research",
+      "citations",
+      "newsletters"
+    ],
+    "integrations": [
+      "RSS",
+      "web-sources",
+      "Boards",
+      "AI Feeds",
+      "API",
+      "team-deliverables"
+    ],
+    "official_url": "https://feedly.com/market-intelligence",
+    "verified_at": "2026-09-28",
+    "notes": "AI Feeds continuously monitor selected concepts/sources; Ask AI/Research synthesizes attached feeds, boards, reports and open-web context with citations. Particularly useful for targeted technology watch and weak-signal detection."
+  },
+  {
+    "id": "scopus-ai",
+    "name": "Scopus with AI",
+    "vendor": "Elsevier",
+    "category": "scientific-research-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "institutional"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "literature-discovery",
+      "topic-summary",
+      "expanded-summary",
+      "citation-backed-research",
+      "concept-mapping",
+      "research-discovery",
+      "authoritative-sources"
+    ],
+    "integrations": [
+      "Scopus"
+    ],
+    "official_url": "https://www.elsevier.com/products/scopus/scopus-ai",
+    "verified_at": "2026-09-28",
+    "notes": "AI research experience grounded in Scopus peer-reviewed literature, producing source-referenced topic/expanded summaries and indicating relevance confidence."
+  },
+  {
+    "id": "web-of-science-research-assistant",
+    "name": "Web of Science Research Assistant",
+    "vendor": "Clarivate",
+    "category": "scientific-research-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "institutional"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "literature-discovery",
+      "agentic-research",
+      "citation-database",
+      "guided-research",
+      "research-visualization",
+      "source-discovery",
+      "authoritative-sources"
+    ],
+    "integrations": [
+      "Web of Science Core Collection"
+    ],
+    "official_url": "https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/web-of-science-research-assistant/",
+    "verified_at": "2026-09-28",
+    "notes": "Generative and agentic research assistant grounded in the Web of Science Core Collection, with guided task workflows, literature discovery and visualization."
+  },
+  {
+    "id": "kagi-research",
+    "name": "Kagi Research + Study Assistant",
+    "vendor": "Kagi",
+    "category": "web-research-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "mobile"
+    ],
+    "capabilities": [
+      "deep-research",
+      "web-search",
+      "source-analysis",
+      "multi-step-research",
+      "file-analysis",
+      "study-coaching",
+      "socratic-learning",
+      "custom-assistants",
+      "privacy-focused"
+    ],
+    "integrations": [
+      "Kagi Search",
+      "Wolfram Alpha",
+      "file uploads"
+    ],
+    "official_url": "https://help.kagi.com/kagi/ai/kagi-research.html",
+    "verified_at": "2026-09-28",
+    "notes": "Kagi Research orchestrates multiple research/librarian roles over Kagi Search with multi-step analysis and sourced outputs; Kagi Study Assistant adds Socratic, evidence-based learning workflows."
+  },
+  {
+    "id": "exa-agent",
+    "name": "Exa Agent / Deep Research API",
+    "vendor": "Exa",
+    "category": "research-backend",
+    "status": "active",
+    "deployment": [
+      "api",
+      "saas"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "deep-web-research",
+      "agentic-search",
+      "multi-source-research",
+      "structured-output",
+      "citations",
+      "list-building",
+      "entity-enrichment",
+      "field-level-grounding"
+    ],
+    "integrations": [
+      "API",
+      "agentic-applications"
+    ],
+    "official_url": "https://exa.ai/products/deep",
+    "verified_at": "2026-09-28",
+    "notes": "Research backend/API rather than a turnkey engineer UI. Exa Agent runs multi-step web research and can return structured, source-backed outputs; Exa Deep provides agentic search with grounded structured results."
+  }
+]

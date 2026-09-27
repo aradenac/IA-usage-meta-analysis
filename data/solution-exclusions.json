@@ -64,5 +64,12 @@
     "status": "sunsetting",
     "reason": "The official Flowise site currently states that Flowise is being sunset. Preserve historical relevance but do not treat it as a long-term new deployment candidate.",
     "checked_at": "2026-09-27"
+  },
+  {
+    "id": "swimm-docs-legacy",
+    "name": "Swimm (legacy continuous documentation product)",
+    "status": "product_shifted",
+    "reason": "The current 2026 Swimm offering is positioned as an agentic modernization service/platform rather than the earlier continuous documentation product. Do not count the old docs/autosync product as a current standalone documentation solution.",
+    "checked_at": "2026-09-28"
   }
 ]
