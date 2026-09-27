@@ -34,7 +34,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | Requirements | 6 | complete | 6/6 tasks explicitly searched; 8 newly verified current solutions added and published to site snapshot. |
 | Architecture | 6 | complete | 6/6 tasks explicitly searched; 8 additional current solutions added. |
 | Development | 9 | complete | 9/9 tasks explicitly searched; 9 additional current solution surfaces added. |
-| Debug / upstream | 10 | pending | |
+| Debug / upstream | 10 | complete | 10/10 tasks explicitly searched; 3 new connected/observability solutions added; embedded agents remapped. |
 | Verification | 12 | pending | includes HIL/results/coding-rules |
 | Safety / cyber | 10 | pending | |
 | CI / tooling / release | 8 | pending | |
@@ -153,3 +153,29 @@ Not promoted:
 Change log:
 - 2026-09-27 — development domain completed; canonical inventory increased from 173 to 182 solutions.
 - 2026-09-27 — website snapshot regenerated from the 182-solution canonical inventory.
+
+## Debug / upstream-domain audit
+
+Status: **complete (10/10 tasks searched explicitly)**.
+
+New solutions accepted:
+
+- **Memfault AI + MCP** — embedded fleet metrics/logs/traces/issues with AI Issue Insights for root cause/scope/next steps, plus an MCP server for agent access to fleet data.
+  - https://docs.memfault.com/docs/platform/ai-features
+- **J-Link MCP** — community MCP bridge exposing J-Link flash/debug/RTT/crash-state operations to agents.
+  - https://marketplace.visualstudio.com/items?itemName=Klievan.jlink-mcp
+- **OpenOCD MCP Server** — community MCP bridge for flashing, stepping, register/memory inspection, breakpoints, watchpoints and ELF-symbol-aware target access through standard OpenOCD probes.
+  - https://github.com/microhenrio/openocd-mcp
+
+Important existing/new capabilities mapped rather than duplicated:
+
+- **JetBrains AI Assistant / CLion 2026.2.2** now has a dedicated Cortex-M HardFault AI skill backed by MCP debugger tooling; its `debug-crash` relation was upgraded to native.
+  - https://blog.jetbrains.com/clion/2026/09/hard-fault-debugging/
+- **Embedder** and **Hydron** were mapped across embedded crash, intermittent, performance and HW/SW debugging because they drive live targets and hardware-aware diagnostics.
+- **MPLAB AI Coding Assistant**, **IOcomposer**, **ByteAsk** and **fw-context MCP** were mapped where their documented device/toolchain/debug capabilities apply.
+
+No separate TRACE32 “AI” product was added: current Lauterbach sources substantiate advanced debug/trace capabilities but not a distinct LLM/agent product surface. Likewise, ordinary tracing/profiling tools were not relabeled as AI without a documented AI workflow.
+
+Change log:
+- 2026-09-27 — debug/upstream domain completed; inventory increased from 182 to 185 solutions.
+- 2026-09-27 — website snapshot regenerated from the 185-solution inventory.
