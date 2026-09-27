@@ -1392,5 +1392,39 @@
     "independence_cluster": "espressif-zephyr-cursor-2026",
     "source": "https://developer.espressif.com/blog/2026/06/zephyr-coding-with-ai/",
     "notes": "Espressif senior software manager reports an end-to-end Cursor-assisted Zephyr C/ESP32 provisioning experiment. The useful evidence is qualitative/process-oriented: explicit specs and boundaries, plan→execute→commit→bench-test loops, reference implementations and proof-before-product. Single project; no pass-rate or time-saving metric."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-itemis-bauerhin-trace-efficiency",
+    "solution_id": "itemis-analyze-ai",
+    "family": "requirements-traceability",
+    "benchmark": "itemis ANALYZE I.G.Bauerhin Automotive SPICE deployment",
+    "version": "current reference",
+    "evidence_type": "vendor-customer-case-study",
+    "metric": "traceability process efficiency improvement",
+    "value": 0.7,
+    "human_time_multiplier": 0.3,
+    "n": null,
+    "source_grade": "C",
+    "independence_cluster": "itemis-bauerhin-reference",
+    "source": "https://www.itemis.com/en/references/igbauerhin-successfully-implement-automotive-spice-processes",
+    "notes": "Automotive supplier reports traceability-process efficiency increased by 70%, especially by eliminating manual effort. Used primarily as human-effort evidence."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-qvscribe-customer-issue-catch-2026",
+    "solution_id": "qra-qvscribe",
+    "family": "requirements-quality",
+    "benchmark": "QVscribe long-term customer field estimate",
+    "version": "2026 vendor article",
+    "evidence_type": "vendor-customer-field-signal",
+    "metric": "estimated requirement issue catch rate",
+    "value": 0.8,
+    "probability_proxy": 0.8,
+    "n": null,
+    "source_grade": "D",
+    "independence_cluster": "qvscribe-longterm-customer-2026",
+    "source": "https://qracorp.com/the-real-case-for-purpose-built-tooling-in-the-agentic-stack/",
+    "notes": "Vendor relays a five-year customer estimate that QVscribe caught ~80% of requirement issues at authoring that would otherwise surface downstream. Useful direct field signal but self-reported and non-controlled, therefore D."
   }
 ]
