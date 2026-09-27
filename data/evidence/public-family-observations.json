@@ -148,5 +148,20 @@
     "source_grade": "C",
     "source": "https://www.mintlify.com/state-of-knowledge/2026",
     "notes": "Across 2,400 controlled tests on 20 docs sites, accuracy stayed 94–99% across formats; Markdown+llms.txt reduced failed navigation requests from 2.23 to 0.11/task. Generic documentation-structure evidence, not individual product quality."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-safety-safari-2026",
+    "family": "functional-safety-analysis",
+    "benchmark": "SAFARI industrial HARA benchmark",
+    "version": "2026-09",
+    "evidence_type": "academic-industrial-benchmark",
+    "metric": "best ASIL classification macro-F1",
+    "value": 0.261,
+    "probability_proxy": null,
+    "n": 3000,
+    "source_grade": "A",
+    "source": "https://arxiv.org/abs/2609.20584",
+    "notes": "Nine frontier LLMs on 3,000 de-identified industrial ISO 26262 HARA cases. Best ASIL macro-F1 only 0.261. Kept as a strong cautionary family signal, not converted to P(success) for software safety-impact analysis because the task transfer is material."
   }
 ]
