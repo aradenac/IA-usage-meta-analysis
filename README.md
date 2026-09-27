@@ -26,10 +26,9 @@ The taxonomy is tailored to embedded-software teams working across:
 
 ## Website deployment
 
-The static report can be deployed automatically to Cloudflare Pages through
-GitHub Actions. See [`docs/cloudflare-pages.md`](docs/cloudflare-pages.md) for
-the one-time Cloudflare setup, required GitHub secrets, and deployment
-behavior.
+The static report is deployed automatically through the native Cloudflare Pages
+GitHub integration. See [`docs/cloudflare-pages.md`](docs/cloudflare-pages.md)
+for the project configuration and deployment behavior.
 
 ## Important status
 
