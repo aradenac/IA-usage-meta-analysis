@@ -35,5 +35,17 @@
     "historical_compatibility": 42,
     "provider_api_candidates": 15,
     "principle": "Historical model+harness/surface+configuration evidence is preserved even when the execution surface is eval-only; only user-selectable surfaces are recommendation candidates."
+  },
+  "pricing_catalog": {
+    "checked_at": "2026-09-27",
+    "index": "data/pricing/index.json",
+    "catalog": "data/pricing/catalog.json",
+    "methodology": "docs/pricing-methodology.md",
+    "solution_records": 157,
+    "public_price_records": 89,
+    "quote_or_estimate_records": 68,
+    "bundle_rules": 17,
+    "scoring": false,
+    "principle": "Keep vendor-published prices separate from sensitivity estimates; model fixed, variable, prerequisite and inference costs independently."
   }
 }
