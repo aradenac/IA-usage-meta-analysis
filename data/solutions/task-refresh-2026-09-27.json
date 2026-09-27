@@ -1,0 +1,246 @@
+[
+  {
+    "id": "valispace-ai",
+    "name": "Valispace / Requirements and Systems Portal + ValiAssistant",
+    "vendor": "Valispace",
+    "category": "requirements-systems-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "on-premise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-generation",
+      "requirements-refinement",
+      "requirements-decomposition",
+      "requirements-traceability",
+      "parameterized-requirements",
+      "verification"
+    ],
+    "integrations": [
+      "requirements-and-systems-engineering-workspace"
+    ],
+    "official_url": "https://www.valispace.com/ai/",
+    "verified_at": "2026-09-27",
+    "notes": "ValiAssistant generates, improves and breaks down requirements; Valispace links requirements to engineering parameters, design and verification."
+  },
+  {
+    "id": "innoslate-ai",
+    "name": "Innoslate AI",
+    "vendor": "SPEC Innovations",
+    "category": "mbse-requirements-ai",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "enterprise",
+      "government",
+      "air-gapped-options"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-drafting",
+      "requirements-quality",
+      "traceability-matrix",
+      "test-case-generation",
+      "risk-analysis",
+      "mbse",
+      "multi-model-ai"
+    ],
+    "integrations": [
+      "Innoslate",
+      "local-or-secure-LLM-options"
+    ],
+    "official_url": "https://specinnovations.com/innoslate/artificial-intelligence-in-mbse",
+    "verified_at": "2026-09-27",
+    "notes": "AI Assistant, optional LLM-powered engineering tools and built-in NLP support requirements, MBSE models, quality checks and verification workflows."
+  },
+  {
+    "id": "reqsuite-rm-ai",
+    "name": "reqSuite rm + AI assistance",
+    "vendor": "OSSENO Software",
+    "category": "requirements-management-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-quality",
+      "requirements-rewrite",
+      "requirements-refinement",
+      "traceability-suggestions",
+      "change-impact-analysis",
+      "test-case-generation",
+      "project-chat"
+    ],
+    "integrations": [
+      "reqSuite rm"
+    ],
+    "official_url": "https://www.reqsuite.io/en/blog/ai-assistance-reqsuite",
+    "verified_at": "2026-09-27",
+    "notes": "Integrated quality checks plus optional LLM features for revision, refinements, trace-link suggestions and project-context questions including change impact."
+  },
+  {
+    "id": "trace-space",
+    "name": "Trace.Space",
+    "vendor": "Trace.Space",
+    "category": "agentic-systems-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "private-cloud",
+      "on-premise",
+      "air-gapped"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "requirements-management",
+      "agentic-systems-engineering",
+      "traceability",
+      "coverage-analysis",
+      "change-impact-analysis",
+      "architecture",
+      "tests"
+    ],
+    "integrations": [
+      "api-first-engineering-stack"
+    ],
+    "official_url": "https://www.trace.space/",
+    "verified_at": "2026-09-27",
+    "notes": "Space Agent operates in the requirements/traceability chain, generates trace links, flags missing coverage and provides impact analysis."
+  },
+  {
+    "id": "spread-requirements-manager",
+    "name": "SPREAD Requirements Manager",
+    "vendor": "SPREAD",
+    "category": "engineering-intelligence-requirements-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "platform"
+    ],
+    "capabilities": [
+      "requirements-extraction",
+      "requirements-classification",
+      "gap-analysis",
+      "conflict-detection",
+      "traceability",
+      "change-impact",
+      "engineering-knowledge-graph",
+      "automotive"
+    ],
+    "integrations": [
+      "PLM",
+      "ALM",
+      "CAD",
+      "ERP",
+      "MES",
+      "engineering-data"
+    ],
+    "official_url": "https://www.spread.ai/requirements-manager",
+    "verified_at": "2026-09-27",
+    "notes": "Extracts and classifies requirements from raw specifications, compares them with prior programs, flags gaps/conflicts and links requirements to architectures, systems and tests."
+  },
+  {
+    "id": "requirementmatrix-ai",
+    "name": "RequirementMatrix AI",
+    "vendor": "RequirementMatrix",
+    "category": "requirements-management-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-generation",
+      "requirements-quality",
+      "consistency-analysis",
+      "dependency-analysis",
+      "testability-analysis",
+      "traceability",
+      "change-review",
+      "standards-aware-analysis"
+    ],
+    "integrations": [
+      "Jira",
+      "Azure DevOps"
+    ],
+    "official_url": "https://reqmatrix.com/",
+    "verified_at": "2026-09-27",
+    "notes": "Specialist AI agents review requirement changes for quality, consistency, dependencies, testability, security and standards; includes live traceability coverage."
+  },
+  {
+    "id": "arc-requirements-ai",
+    "name": "Arc AI-assisted Requirements Management",
+    "vendor": "Arc",
+    "category": "requirements-systems-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-management",
+      "traceability",
+      "change-impact",
+      "architecture",
+      "tests",
+      "verification-evidence",
+      "agentic-maintenance"
+    ],
+    "integrations": [
+      "engineering-program-workspace"
+    ],
+    "official_url": "https://www.archelps.com/",
+    "verified_at": "2026-09-27",
+    "notes": "Space-oriented engineering workspace connecting requirements, architecture, tests and verification evidence, with agents helping maintain dependencies and change impact."
+  },
+  {
+    "id": "modelgraphx",
+    "name": "ModelgraphX",
+    "vendor": "ModelgraphX",
+    "category": "safety-systems-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-management",
+      "traceability",
+      "fmea",
+      "fta",
+      "hazop",
+      "hazid",
+      "functional-safety",
+      "tara",
+      "safety-case"
+    ],
+    "integrations": [
+      "systems-and-risk-models"
+    ],
+    "official_url": "https://www.modelgraphx.com/",
+    "verified_at": "2026-09-27",
+    "notes": "AI-enabled multimodel systems/risk engineering platform linking requirements with hazards, analyses and verification evidence across ISO 26262, IEC 61508 and ISO 21434 workflows."
+  }
+]
