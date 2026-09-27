@@ -89,3 +89,13 @@ The scorer is now synchronized with the persisted evidence corpus.
 - Added implicit-vs-explicit prompt gap support (~95% explicit vs ~60% implicit domain-knowledge prompts).
 - Stored as family-level embedded-development evidence, not direct product evidence.
 - Next scorer version marked pending: **product-task-v1.8**.
+
+## AutoHIL industrial HIL benchmark
+
+Committed ISSTA 2026 AutoHIL evidence:
+
+- ACU in-house HIL: 90.33% script executability, 89.69% functional correctness;
+- ASDM on dSPACE: 81.31% executability, 84.00% functional correctness;
+- 64 new functional defects reported across the two industrial ECUs and patched by supplier technicians.
+
+This is family-level HIL evidence, not evidence that CANoe/ecu.test/VectorCAST themselves attain those rates. v1.8 rescore remains pending.
