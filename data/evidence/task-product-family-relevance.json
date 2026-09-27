@@ -318,6 +318,13 @@
       "verify-req-tests": 0.75,
       "verify-integration": 0.45,
       "verify-prevalidation": 0.55
+    },
+    "requirements-rule-verification": {
+      "req-review": 0.75,
+      "req-write-sw": 0.4,
+      "process-evidence": 0.35,
+      "process-aspice": 0.3,
+      "verify-coding-rules": 0.25
     }
   }
 }
