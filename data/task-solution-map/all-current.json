@@ -16141,6 +16141,14 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "btc-teststack",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "checkmarx-assist",
         "relationship": "native"
       },
@@ -16349,6 +16357,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "native"
+      },
+      {
         "solution_id": "veracode-fix",
         "relationship": "native"
       },
@@ -16396,6 +16408,14 @@
       {
         "solution_id": "azure-ai-foundry",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "btc-teststack",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "cantata-ai",
+        "relationship": "native"
       },
       {
         "solution_id": "chatgpt-enterprise",
@@ -16562,6 +16582,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "vectorcast-ai",
         "relationship": "native"
       },
@@ -16611,6 +16635,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "btc-testagent",
+        "relationship": "native"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -16643,6 +16671,10 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
@@ -16671,12 +16703,24 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "jetbrains-ai-assistant",
         "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-junie",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "jlink-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "kilo-code",
@@ -16731,6 +16775,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "openocd-mcp",
+        "relationship": "connected"
+      },
+      {
         "solution_id": "ovh-ai-endpoints",
         "relationship": "backend"
       },
@@ -16763,8 +16811,16 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "tracetronic-ecutest-agent",
         "relationship": "native"
+      },
+      {
+        "solution_id": "tuyaopen-ide",
+        "relationship": "direct"
       },
       {
         "solution_id": "vector-canoe-ai",
@@ -16816,6 +16872,14 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "btc-teststack",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "cantata-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -16848,6 +16912,10 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
@@ -16874,6 +16942,10 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -16970,6 +17042,10 @@
       {
         "solution_id": "tabnine",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "native"
       },
       {
         "solution_id": "tracetronic-ecutest-agent",
@@ -17033,6 +17109,18 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "btc-testagent",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "btc-teststack",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "cantata-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -17077,6 +17165,10 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
@@ -17105,12 +17197,20 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
         "solution_id": "jetbrains-ai-assistant",
         "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-junie",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "jlink-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "kilo-code",
@@ -17165,6 +17265,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "openocd-mcp",
+        "relationship": "connected"
+      },
+      {
         "solution_id": "ovh-ai-endpoints",
         "relationship": "backend"
       },
@@ -17203,6 +17307,10 @@
       {
         "solution_id": "tabnine",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "native"
       },
       {
         "solution_id": "tracetronic-ecutest-agent",
@@ -17274,6 +17382,10 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "checkmarx-assist",
         "relationship": "native"
       },
@@ -17328,6 +17440,10 @@
       {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -17454,6 +17570,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "refact-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "scaleway-genai-dedicated",
         "relationship": "backend"
       },
@@ -17523,6 +17643,14 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "btc-teststack",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "cantata-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "chatgpt-enterprise",
         "relationship": "direct"
       },
@@ -17563,6 +17691,10 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
@@ -17601,6 +17733,10 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -17723,6 +17859,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "native"
+      },
+      {
         "solution_id": "vector-canoe-ai",
         "relationship": "native"
       },
@@ -17778,6 +17918,18 @@
       {
         "solution_id": "azure-ai-foundry",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "btc-testagent",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "btc-teststack",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "cantata-ai",
+        "relationship": "direct"
       },
       {
         "solution_id": "chatgpt-enterprise",
@@ -17866,6 +18018,10 @@
       {
         "solution_id": "ibm-engineering-ai-hub",
         "relationship": "native"
+      },
+      {
+        "solution_id": "innoslate-ai",
+        "relationship": "direct"
       },
       {
         "solution_id": "jama-connect-advisor",
@@ -17984,6 +18140,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "reqsuite-rm-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "scaleway-genai-dedicated",
         "relationship": "backend"
       },
@@ -17997,6 +18157,10 @@
       },
       {
         "solution_id": "tabnine",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "tasking-agentic-toolchain",
         "relationship": "direct"
       },
       {
@@ -18049,6 +18213,14 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "btc-testagent",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "btc-teststack",
+        "relationship": "native"
+      },
+      {
         "solution_id": "chatgpt-enterprise",
         "relationship": "direct"
       },
@@ -18083,6 +18255,10 @@
       {
         "solution_id": "elastic-agent-builder",
         "relationship": "native"
+      },
+      {
+        "solution_id": "embedder-ai",
+        "relationship": "direct"
       },
       {
         "solution_id": "gemini-cli",
@@ -18130,6 +18306,10 @@
       },
       {
         "solution_id": "m365-copilot",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "memfault-ai",
         "relationship": "direct"
       },
       {
@@ -18189,6 +18369,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "tracetronic-ecutest-agent",
         "relationship": "native"
       },
@@ -18244,6 +18428,14 @@
       {
         "solution_id": "blackduck-coverity-ai",
         "relationship": "native"
+      },
+      {
+        "solution_id": "btc-teststack",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "byteask",
+        "relationship": "direct"
       },
       {
         "solution_id": "checkmarx-assist",
@@ -18454,6 +18646,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "native"
+      },
+      {
         "solution_id": "veracode-fix",
         "relationship": "native"
       },
@@ -18503,6 +18699,14 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "btc-teststack",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "cantata-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -18535,6 +18739,10 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
@@ -18561,6 +18769,10 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -18656,6 +18868,10 @@
       },
       {
         "solution_id": "tabnine",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "tasking-agentic-toolchain",
         "relationship": "direct"
       },
       {
