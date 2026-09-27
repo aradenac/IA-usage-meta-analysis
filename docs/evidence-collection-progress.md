@@ -137,3 +137,14 @@ Added a dedicated `embedded-secure-code-generation` family instead of mixing sec
 HardSecBench (IJCAI 2026): **924 tasks**, including **325 firmware-C** tasks and 76 CWE categories. Across the 18 published model rows, median single-attempt functional pass is ≈ **88.2%** while median security pass is only ≈ **33.6%**. The security median is used as a family-level probability-like prior; the functional/security gap is support-only.
 
 Current source-record count: **502**. v1.8 rescore remains pending until this evidence batch is a little larger.
+
+## Direct-product benchmark batch
+
+New persisted direct evidence:
+
+- Kiro CLI: 5,778-trial AA-style replication, best composite 65.6% with GPT-5.6 Sol and strong model-selection sensitivity;
+- SonarQube remediation lineage: SWE-bench / current agent migration evidence;
+- Microsoft Security Copilot: phishing-triage RCT retained without forcing a product-security P(success) transfer;
+- RealDocBench: Azure Document Intelligence 79.6%, Mistral OCR 4 81.3%, AWS Textract 54.0% per-question QA accuracy.
+
+Current source-file counts: historical=223, product=215, family=57, user=17, total=**512**. v1.8 is still pending while the direct-product pass continues.
