@@ -1,0 +1,2562 @@
+[
+  {
+    "id": "req-system-impact",
+    "label": "Analyser une exigence système et en déduire les impacts software",
+    "weights": {
+      "app-creation": 0.55,
+      "info-gathering": 0.35,
+      "swe-pro-complex": 0.25,
+      "repo-from-spec": 0.45,
+      "long-agentic-work": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 120,
+    "humanNolo": 40,
+    "humanNohi": 240,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 10000
+    },
+    "domain": "requirements",
+    "proxyFrom": "architecture",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "req-write-sw",
+    "label": "Rédiger ou améliorer des exigences software",
+    "weights": {
+      "info-gathering": 0.35,
+      "repo-bugfix": 0.25,
+      "test-generation": 0.15,
+      "repo-from-spec": 0.2,
+      "field-agentic-coding": 0.35
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 90,
+    "humanNolo": 30,
+    "humanNohi": 180,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 8000
+    },
+    "domain": "requirements",
+    "proxyFrom": "docs",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "req-review",
+    "label": "Relire et challenger des exigences",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 12,
+    "humanAIlo": 5,
+    "humanAIhi": 30,
+    "humanNo": 90,
+    "humanNolo": 38,
+    "humanNohi": 225,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "requirements",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "req-decompose",
+    "label": "Décomposer les exigences système vers le software / composants",
+    "weights": {
+      "app-creation": 0.55,
+      "info-gathering": 0.35,
+      "swe-pro-complex": 0.25,
+      "repo-from-spec": 0.45,
+      "long-agentic-work": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 50,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 10000
+    },
+    "domain": "requirements",
+    "proxyFrom": "architecture",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "req-traceability",
+    "label": "Vérifier la traçabilité exigences → design → code → tests",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 15,
+    "humanAIlo": 5,
+    "humanAIhi": 45,
+    "humanNo": 120,
+    "humanNolo": 40,
+    "humanNohi": 320,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "requirements",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "req-change-impact",
+    "label": "Analyser l’impact d’un changement d’exigence",
+    "weights": {
+      "terminal-agentic": 0.75,
+      "swe-pro-complex": 0.65,
+      "repo-bugfix": 0.55,
+      "info-gathering": 0.35,
+      "long-agentic-work": 0.6,
+      "tool-agent": 0.25,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 56,
+    "humanNo": 180,
+    "humanNolo": 68,
+    "humanNohi": 360,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 180000,
+      "outputTokens": 25000
+    },
+    "domain": "requirements",
+    "proxyFrom": "long-investigation",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "arch-software",
+    "label": "Produire ou mettre à jour une architecture software",
+    "weights": {
+      "app-creation": 0.55,
+      "info-gathering": 0.35,
+      "swe-pro-complex": 0.25,
+      "repo-from-spec": 0.45,
+      "long-agentic-work": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 240,
+    "humanNolo": 80,
+    "humanNohi": 480,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 10000
+    },
+    "domain": "architecture",
+    "proxyFrom": "architecture",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "arch-detailed-design",
+    "label": "Produire un detailed design software",
+    "weights": {
+      "app-creation": 0.55,
+      "info-gathering": 0.35,
+      "swe-pro-complex": 0.25,
+      "repo-from-spec": 0.45,
+      "long-agentic-work": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 180,
+    "humanNolo": 60,
+    "humanNohi": 360,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 10000
+    },
+    "domain": "architecture",
+    "proxyFrom": "architecture",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "arch-understand",
+    "label": "Comprendre une architecture/codebase existant avant modification",
+    "weights": {
+      "swe-pro-complex": 0.85,
+      "repo-bugfix": 0.8,
+      "terminal-agentic": 0.4,
+      "repo-from-spec": 0.55,
+      "skills-agent": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.85
+    },
+    "humanAI": 30,
+    "humanAIlo": 12,
+    "humanAIhi": 75,
+    "humanNo": 300,
+    "humanNolo": 125,
+    "humanNohi": 600,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 130000,
+      "outputTokens": 16000
+    },
+    "domain": "architecture",
+    "proxyFrom": "large-codebase",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "arch-review",
+    "label": "Faire une revue d’architecture ou de detailed design",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 62,
+    "humanNohi": 375,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "architecture",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "arch-choice",
+    "label": "Comparer des solutions techniques et recommander une option",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 30,
+    "humanAIlo": 12,
+    "humanAIhi": 75,
+    "humanNo": 240,
+    "humanNolo": 120,
+    "humanNohi": 600,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "architecture",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-feature",
+    "label": "Implémenter une feature embarquée à partir d’exigences",
+    "weights": {
+      "app-creation": 0.9,
+      "swe-pro-complex": 0.65,
+      "repo-bugfix": 0.45,
+      "local-edit": 0.25,
+      "repo-from-spec": 0.8,
+      "frontend-codegen": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 20,
+    "humanAIlo": 9,
+    "humanAIhi": 50,
+    "humanNo": 180,
+    "humanNolo": 72,
+    "humanNohi": 360,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 65000,
+      "outputTokens": 11000
+    },
+    "domain": "development",
+    "proxyFrom": "feature-clear",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-small-change",
+    "label": "Faire une petite modification locale bien définie",
+    "weights": {
+      "local-edit": 1,
+      "repo-bugfix": 0.25,
+      "codegen": 0.35,
+      "field-agentic-coding": 0.4
+    },
+    "humanAI": 6,
+    "humanAIlo": 2,
+    "humanAIhi": 15,
+    "humanNo": 25,
+    "humanNolo": 10,
+    "humanNohi": 60,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 15000,
+      "outputTokens": 2500
+    },
+    "domain": "development",
+    "proxyFrom": "small-edit",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-module",
+    "label": "Implémenter un module / sous-système embarqué complet",
+    "weights": {
+      "app-creation": 1,
+      "swe-pro-complex": 0.45,
+      "repo-from-spec": 0.75,
+      "frontend-codegen": 0.45,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.8
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 60,
+    "humanNo": 240,
+    "humanNolo": 90,
+    "humanNohi": 480,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 90000,
+      "outputTokens": 18000
+    },
+    "domain": "development",
+    "proxyFrom": "app-spec",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-driver-adapt",
+    "label": "Adapter ou corriger un driver existant",
+    "weights": {
+      "swe-pro-complex": 1,
+      "repo-bugfix": 0.85,
+      "terminal-agentic": 0.3,
+      "skills-agent": 0.55,
+      "repo-from-spec": 0.45,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.85
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 240,
+    "humanNolo": 100,
+    "humanNohi": 480,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 110000,
+      "outputTokens": 18000
+    },
+    "domain": "development",
+    "proxyFrom": "complex-issue",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-driver-port",
+    "label": "Porter un driver depuis une autre plateforme / OS",
+    "weights": {
+      "swe-pro-complex": 0.85,
+      "repo-bugfix": 0.8,
+      "terminal-agentic": 0.4,
+      "repo-from-spec": 0.55,
+      "skills-agent": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.85
+    },
+    "humanAI": 35,
+    "humanAIlo": 14,
+    "humanAIhi": 88,
+    "humanNo": 360,
+    "humanNolo": 150,
+    "humanNohi": 720,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 130000,
+      "outputTokens": 16000
+    },
+    "domain": "development",
+    "proxyFrom": "large-codebase",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-driver-datasheet",
+    "label": "Implémenter un driver absent à partir de la datasheet",
+    "weights": {
+      "app-creation": 1,
+      "swe-pro-complex": 0.45,
+      "repo-from-spec": 0.75,
+      "frontend-codegen": 0.45,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.8
+    },
+    "humanAI": 40,
+    "humanAIlo": 16,
+    "humanAIhi": 96,
+    "humanNo": 420,
+    "humanNolo": 158,
+    "humanNohi": 840,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 90000,
+      "outputTokens": 18000
+    },
+    "domain": "development",
+    "proxyFrom": "app-spec",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-protocol",
+    "label": "Intégrer un protocole / middleware dans le produit",
+    "weights": {
+      "app-creation": 0.9,
+      "swe-pro-complex": 0.65,
+      "repo-bugfix": 0.45,
+      "local-edit": 0.25,
+      "repo-from-spec": 0.8,
+      "frontend-codegen": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 30,
+    "humanAIlo": 13,
+    "humanAIhi": 75,
+    "humanNo": 300,
+    "humanNolo": 120,
+    "humanNohi": 600,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 65000,
+      "outputTokens": 11000
+    },
+    "domain": "development",
+    "proxyFrom": "feature-clear",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-python-tooling",
+    "label": "Développer un outil Python d’instrumentation / test / analyse",
+    "weights": {
+      "app-creation": 1,
+      "swe-pro-complex": 0.45,
+      "repo-from-spec": 0.75,
+      "frontend-codegen": 0.45,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.8
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 48,
+    "humanNo": 150,
+    "humanNolo": 56,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 90000,
+      "outputTokens": 18000
+    },
+    "domain": "development",
+    "proxyFrom": "app-spec",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "dev-refactor",
+    "label": "Refactorer du code embarqué sans changer le comportement",
+    "weights": {
+      "swe-pro-complex": 1,
+      "repo-bugfix": 0.85,
+      "terminal-agentic": 0.3,
+      "skills-agent": 0.55,
+      "repo-from-spec": 0.45,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.85
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 240,
+    "humanNolo": 100,
+    "humanNohi": 480,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 110000,
+      "outputTokens": 18000
+    },
+    "domain": "development",
+    "proxyFrom": "complex-issue",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "debug-known",
+    "label": "Corriger un bug dont la cause est déjà identifiée",
+    "weights": {
+      "repo-bugfix": 1,
+      "swe-pro-complex": 0.75,
+      "local-edit": 0.45,
+      "skills-agent": 0.25,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 15,
+    "humanAIlo": 7,
+    "humanAIhi": 35,
+    "humanNo": 120,
+    "humanNolo": 60,
+    "humanNohi": 240,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 45000,
+      "outputTokens": 7000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "known-bug",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "debug-embedded",
+    "label": "Diagnostiquer puis corriger un bug embarqué",
+    "weights": {
+      "repo-bugfix": 0.85,
+      "swe-pro-complex": 0.8,
+      "terminal-agentic": 0.5,
+      "info-gathering": 0.2,
+      "long-agentic-work": 0.25,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 180,
+    "humanNolo": 72,
+    "humanNohi": 360,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 85000,
+      "outputTokens": 12000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "unknown-bug",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "debug-intermittent",
+    "label": "Investiguer un bug intermittent / difficile à reproduire",
+    "weights": {
+      "terminal-agentic": 0.75,
+      "swe-pro-complex": 0.65,
+      "repo-bugfix": 0.55,
+      "info-gathering": 0.35,
+      "long-agentic-work": 0.6,
+      "tool-agent": 0.25,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 30,
+    "humanAIlo": 12,
+    "humanAIhi": 84,
+    "humanNo": 360,
+    "humanNolo": 135,
+    "humanNohi": 720,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 180000,
+      "outputTokens": 25000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "long-investigation",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "debug-crash",
+    "label": "Analyser un crash, fault, watchdog ou coredump",
+    "weights": {
+      "repo-bugfix": 0.85,
+      "swe-pro-complex": 0.8,
+      "terminal-agentic": 0.5,
+      "info-gathering": 0.2,
+      "long-agentic-work": 0.25,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 60,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 85000,
+      "outputTokens": 12000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "unknown-bug",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "debug-performance",
+    "label": "Diagnostiquer performance, mémoire ou contraintes temps réel",
+    "weights": {
+      "terminal-agentic": 0.75,
+      "swe-pro-complex": 0.65,
+      "repo-bugfix": 0.55,
+      "info-gathering": 0.35,
+      "long-agentic-work": 0.6,
+      "tool-agent": 0.25,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 70,
+    "humanNo": 240,
+    "humanNolo": 90,
+    "humanNohi": 480,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 180000,
+      "outputTokens": 25000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "long-investigation",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "debug-hw-sw",
+    "label": "Diagnostiquer un problème d’interface hardware / software",
+    "weights": {
+      "repo-bugfix": 0.85,
+      "swe-pro-complex": 0.8,
+      "terminal-agentic": 0.5,
+      "info-gathering": 0.2,
+      "long-agentic-work": 0.25,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.75
+    },
+    "humanAI": 30,
+    "humanAIlo": 12,
+    "humanAIhi": 75,
+    "humanNo": 240,
+    "humanNolo": 96,
+    "humanNohi": 480,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 85000,
+      "outputTokens": 12000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "unknown-bug",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "debug-vendor",
+    "label": "Déterminer si un bug vient de notre code ou d’un fournisseur/upstream",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 30,
+    "humanAIlo": 12,
+    "humanAIhi": 75,
+    "humanNo": 210,
+    "humanNolo": 105,
+    "humanNohi": 525,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "upstream-search",
+    "label": "Chercher un problème connu / fix upstream",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 120,
+    "humanNolo": 60,
+    "humanNohi": 300,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "upstream-backport",
+    "label": "Backporter un correctif upstream vers notre version",
+    "weights": {
+      "swe-pro-complex": 1,
+      "repo-bugfix": 0.85,
+      "terminal-agentic": 0.3,
+      "skills-agent": 0.55,
+      "repo-from-spec": 0.45,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.85
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 210,
+    "humanNolo": 88,
+    "humanNohi": 420,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 110000,
+      "outputTokens": 18000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "complex-issue",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "upstream-contribute",
+    "label": "Créer un correctif dans un grand projet upstream (Zephyr/Linux/SDK)",
+    "weights": {
+      "swe-pro-complex": 0.85,
+      "repo-bugfix": 0.8,
+      "terminal-agentic": 0.4,
+      "repo-from-spec": 0.55,
+      "skills-agent": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.85
+    },
+    "humanAI": 40,
+    "humanAIlo": 16,
+    "humanAIhi": 100,
+    "humanNo": 420,
+    "humanNolo": 175,
+    "humanNohi": 840,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 130000,
+      "outputTokens": 16000
+    },
+    "domain": "debug-upstream",
+    "proxyFrom": "large-codebase",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-unit",
+    "label": "Écrire ou compléter des tests unitaires",
+    "weights": {
+      "test-generation": 1,
+      "swe-pro-complex": 0.4,
+      "repo-bugfix": 0.2,
+      "skills-agent": 0.2,
+      "codegen": 0.35,
+      "field-agentic-coding": 0.65
+    },
+    "humanAI": 12,
+    "humanAIlo": 5,
+    "humanAIhi": 30,
+    "humanNo": 90,
+    "humanNolo": 40,
+    "humanNohi": 180,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 45000,
+      "outputTokens": 8000
+    },
+    "domain": "verification",
+    "proxyFrom": "tests",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-integration",
+    "label": "Écrire des tests d’intégration software / hardware",
+    "weights": {
+      "test-generation": 1,
+      "swe-pro-complex": 0.4,
+      "repo-bugfix": 0.2,
+      "skills-agent": 0.2,
+      "codegen": 0.35,
+      "field-agentic-coding": 0.65
+    },
+    "humanAI": 18,
+    "humanAIlo": 8,
+    "humanAIhi": 45,
+    "humanNo": 150,
+    "humanNolo": 67,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 45000,
+      "outputTokens": 8000
+    },
+    "domain": "verification",
+    "proxyFrom": "tests",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-req-tests",
+    "label": "Concevoir des tests à partir des exigences",
+    "weights": {
+      "test-generation": 1,
+      "swe-pro-complex": 0.4,
+      "repo-bugfix": 0.2,
+      "skills-agent": 0.2,
+      "codegen": 0.35,
+      "field-agentic-coding": 0.65
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 67,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 45000,
+      "outputTokens": 8000
+    },
+    "domain": "verification",
+    "proxyFrom": "tests",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-loop",
+    "label": "Implémenter, tester et corriger jusqu’à validation",
+    "weights": {
+      "repo-bugfix": 0.85,
+      "test-generation": 0.75,
+      "swe-pro-complex": 0.8,
+      "app-creation": 0.45,
+      "skills-agent": 0.35,
+      "repo-from-spec": 0.4,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.85
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 120,
+    "humanNolo": 50,
+    "humanNohi": 240,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 100000,
+      "outputTokens": 18000
+    },
+    "domain": "verification",
+    "proxyFrom": "implement-verify",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-mr",
+    "label": "Faire une revue de Merge Request GitLab",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 120,
+    "humanNolo": 50,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "verification",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-static",
+    "label": "Analyser les résultats d’analyse statique / coding rules",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 12,
+    "humanAIlo": 5,
+    "humanAIhi": 30,
+    "humanNo": 90,
+    "humanNolo": 38,
+    "humanNohi": 225,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "verification",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-coverage",
+    "label": "Analyser la couverture et identifier les trous de vérification",
+    "weights": {
+      "test-generation": 1,
+      "swe-pro-complex": 0.4,
+      "repo-bugfix": 0.2,
+      "skills-agent": 0.2,
+      "codegen": 0.35,
+      "field-agentic-coding": 0.65
+    },
+    "humanAI": 12,
+    "humanAIlo": 5,
+    "humanAIhi": 30,
+    "humanNo": 90,
+    "humanNolo": 40,
+    "humanNohi": 180,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 45000,
+      "outputTokens": 8000
+    },
+    "domain": "verification",
+    "proxyFrom": "tests",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-prevalidation",
+    "label": "Préparer le software avant passage à l’équipe de validation",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 20,
+    "humanAIlo": 7,
+    "humanAIhi": 60,
+    "humanNo": 120,
+    "humanNolo": 40,
+    "humanNohi": 320,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "verification",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "cyber-impact",
+    "label": "Analyser les impacts cybersécurité d’une fonctionnalité / changement",
+    "weights": {
+      "app-creation": 0.55,
+      "info-gathering": 0.35,
+      "swe-pro-complex": 0.25,
+      "repo-from-spec": 0.45,
+      "long-agentic-work": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 180,
+    "humanNolo": 60,
+    "humanNohi": 360,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 10000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "architecture",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "cyber-review",
+    "label": "Relire une conception / implémentation sous l’angle cybersécurité",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 62,
+    "humanNohi": 375,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "cyber-vuln",
+    "label": "Analyser une vulnérabilité / CVE et son applicabilité produit",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 120,
+    "humanNolo": 60,
+    "humanNohi": 300,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "cyber-threat",
+    "label": "Faire une analyse de menaces ciblée / abuse cases",
+    "weights": {
+      "app-creation": 0.55,
+      "info-gathering": 0.35,
+      "swe-pro-complex": 0.25,
+      "repo-from-spec": 0.45,
+      "long-agentic-work": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 180,
+    "humanNolo": 60,
+    "humanNohi": 360,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 10000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "architecture",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "safety-impact",
+    "label": "Analyser l’impact safety d’un changement software",
+    "weights": {
+      "app-creation": 0.55,
+      "info-gathering": 0.35,
+      "swe-pro-complex": 0.25,
+      "repo-from-spec": 0.45,
+      "long-agentic-work": 0.3,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 180,
+    "humanNolo": 60,
+    "humanNohi": 360,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 10000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "architecture",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile"
+    ]
+  },
+  {
+    "id": "safety-review",
+    "label": "Relire design/code sous contraintes safety",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 62,
+    "humanNohi": 375,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile"
+    ]
+  },
+  {
+    "id": "process-aspice",
+    "label": "Vérifier la conformité d’un travail au process ASPICE / cycle en V",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 62,
+    "humanNohi": 375,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile"
+    ]
+  },
+  {
+    "id": "process-evidence",
+    "label": "Préparer les preuves pour une revue / audit / gate",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 20,
+    "humanAIlo": 7,
+    "humanAIhi": 60,
+    "humanNo": 120,
+    "humanNolo": 40,
+    "humanNohi": 320,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "ci-build",
+    "label": "Diagnostiquer et corriger un build cassé",
+    "weights": {
+      "terminal-agentic": 0.9,
+      "swe-pro-complex": 0.45,
+      "repo-bugfix": 0.25,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 40,
+    "humanNo": 90,
+    "humanNolo": 30,
+    "humanNohi": 240,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "ci-release",
+    "proxyFrom": "ci-build",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "ci-gitlab",
+    "label": "Diagnostiquer et corriger une CI GitLab / runner Docker",
+    "weights": {
+      "terminal-agentic": 0.9,
+      "swe-pro-complex": 0.45,
+      "repo-bugfix": 0.25,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.6
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 40,
+    "humanNo": 90,
+    "humanNolo": 30,
+    "humanNohi": 240,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "ci-release",
+    "proxyFrom": "ci-build",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "ci-create",
+    "label": "Créer ou modifier une pipeline GitLab CI",
+    "weights": {
+      "terminal-agentic": 1,
+      "field-agentic-coding": 0.5
+    },
+    "humanAI": 20,
+    "humanAIlo": 9,
+    "humanAIhi": 47,
+    "humanNo": 150,
+    "humanNolo": 75,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 65000,
+      "outputTokens": 9000
+    },
+    "domain": "ci-release",
+    "proxyFrom": "terminal-devops",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "ci-docker",
+    "label": "Créer / maintenir un environnement Docker de build et test",
+    "weights": {
+      "terminal-agentic": 1,
+      "field-agentic-coding": 0.5
+    },
+    "humanAI": 20,
+    "humanAIlo": 9,
+    "humanAIhi": 47,
+    "humanNo": 150,
+    "humanNolo": 75,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 65000,
+      "outputTokens": 9000
+    },
+    "domain": "ci-release",
+    "proxyFrom": "terminal-devops",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "ci-toolchain",
+    "label": "Diagnostiquer SDK, dépendances ou toolchain de développement",
+    "weights": {
+      "terminal-agentic": 1,
+      "swe-pro-complex": 0.25,
+      "skills-agent": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 90,
+    "humanNolo": 34,
+    "humanNohi": 225,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 65000,
+      "outputTokens": 8000
+    },
+    "domain": "ci-release",
+    "proxyFrom": "env-toolchain",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "ci-automation",
+    "label": "Automatiser une tâche d’ingénierie en Python / shell",
+    "weights": {
+      "terminal-agentic": 1,
+      "field-agentic-coding": 0.5
+    },
+    "humanAI": 15,
+    "humanAIlo": 7,
+    "humanAIhi": 35,
+    "humanNo": 90,
+    "humanNolo": 45,
+    "humanNohi": 180,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 65000,
+      "outputTokens": 9000
+    },
+    "domain": "ci-release",
+    "proxyFrom": "terminal-devops",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "release-prepare",
+    "label": "Préparer une release software / firmware",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 20,
+    "humanAIlo": 7,
+    "humanAIhi": 60,
+    "humanNo": 120,
+    "humanNolo": 40,
+    "humanNohi": 320,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "ci-release",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "release-notes",
+    "label": "Produire des release notes depuis GitLab / Jira / commits",
+    "weights": {
+      "info-gathering": 0.35,
+      "repo-bugfix": 0.25,
+      "test-generation": 0.15,
+      "repo-from-spec": 0.2,
+      "field-agentic-coding": 0.35
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 90,
+    "humanNolo": 30,
+    "humanNohi": 180,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 8000
+    },
+    "domain": "ci-release",
+    "proxyFrom": "docs",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "doc-code",
+    "label": "Rédiger / mettre à jour la documentation technique depuis le code",
+    "weights": {
+      "info-gathering": 0.35,
+      "repo-bugfix": 0.25,
+      "test-generation": 0.15,
+      "repo-from-spec": 0.2,
+      "field-agentic-coding": 0.35
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 90,
+    "humanNolo": 30,
+    "humanNohi": 180,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 8000
+    },
+    "domain": "documentation",
+    "proxyFrom": "docs",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "doc-architecture",
+    "label": "Produire un document d’architecture formel (DOCX/SharePoint ou texte-as-code)",
+    "weights": {
+      "info-gathering": 0.35,
+      "repo-bugfix": 0.25,
+      "test-generation": 0.15,
+      "repo-from-spec": 0.2,
+      "field-agentic-coding": 0.35
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 50,
+    "humanNohi": 300,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 8000
+    },
+    "domain": "documentation",
+    "proxyFrom": "docs",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "doc-sync",
+    "label": "Détecter et corriger les divergences documentation ↔ implémentation",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 90,
+    "humanNolo": 38,
+    "humanNohi": 225,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "documentation",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "doc-datasheet",
+    "label": "Analyser une datasheet / reference manual / errata",
+    "weights": {
+      "vision-understanding": 1,
+      "computer-use": 0.35,
+      "multimodal-bugfix": 0.25
+    },
+    "required": "vision",
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 45,
+    "humanNo": 120,
+    "humanNolo": 48,
+    "humanNohi": 288,
+    "workload": {
+      "inputTokens": 12000,
+      "outputTokens": 2500
+    },
+    "domain": "documentation",
+    "proxyFrom": "vision-analysis",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "doc-vendor-diff",
+    "label": "Comparer versions de documentation / SDK fournisseur",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 120,
+    "humanNolo": 60,
+    "humanNohi": 300,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "documentation",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "collab-meeting",
+    "label": "Transformer une réunion en compte rendu technique exploitable",
+    "weights": {
+      "audio-transcription": 1
+    },
+    "required": "audio",
+    "humanAI": 10,
+    "humanAIlo": 4,
+    "humanAIhi": 25,
+    "humanNo": 60,
+    "humanNolo": 30,
+    "humanNohi": 120,
+    "workload": {
+      "audioMinutes": 30
+    },
+    "domain": "collaboration",
+    "proxyFrom": "audio-transcription",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "collab-jira",
+    "label": "Créer / mettre à jour des tickets Jira depuis réunion ou analyse",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 10,
+    "humanAIlo": 3,
+    "humanAIhi": 30,
+    "humanNo": 60,
+    "humanNolo": 20,
+    "humanNohi": 160,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "collaboration",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "collab-backlog",
+    "label": "Maintenir un backlog Jira cohérent",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 15,
+    "humanAIlo": 5,
+    "humanAIhi": 45,
+    "humanNo": 90,
+    "humanNolo": 30,
+    "humanNohi": 240,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "collaboration",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "collab-ticket",
+    "label": "Préparer une tâche technique prête à implémenter",
+    "weights": {
+      "info-gathering": 0.35,
+      "repo-bugfix": 0.25,
+      "test-generation": 0.15,
+      "repo-from-spec": 0.2,
+      "field-agentic-coding": 0.35
+    },
+    "humanAI": 12,
+    "humanAIlo": 5,
+    "humanAIhi": 30,
+    "humanNo": 75,
+    "humanNolo": 25,
+    "humanNohi": 150,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 8000
+    },
+    "domain": "collaboration",
+    "proxyFrom": "docs",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "collab-confluence",
+    "label": "Créer / mettre à jour une page Confluence technique",
+    "weights": {
+      "info-gathering": 0.35,
+      "repo-bugfix": 0.25,
+      "test-generation": 0.15,
+      "repo-from-spec": 0.2,
+      "field-agentic-coding": 0.35
+    },
+    "humanAI": 12,
+    "humanAIlo": 5,
+    "humanAIhi": 30,
+    "humanNo": 75,
+    "humanNolo": 25,
+    "humanNohi": 150,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 8000
+    },
+    "domain": "collaboration",
+    "proxyFrom": "docs",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "collab-sharepoint",
+    "label": "Organiser / mettre à jour des documents techniques SharePoint",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 10,
+    "humanAIlo": 3,
+    "humanAIhi": 30,
+    "humanNo": 60,
+    "humanNolo": 20,
+    "humanNohi": 160,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "collaboration",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "collab-status",
+    "label": "Synthétiser l’état projet depuis Jira + GitLab + documentation",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 15,
+    "humanAIlo": 5,
+    "humanAIhi": 45,
+    "humanNo": 90,
+    "humanNolo": 30,
+    "humanNohi": 240,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "collaboration",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "collab-workflow",
+    "label": "Automatiser un workflow Jira / Confluence / GitLab / SharePoint",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 20,
+    "humanAIlo": 7,
+    "humanAIhi": 60,
+    "humanNo": 120,
+    "humanNolo": 40,
+    "humanNohi": 320,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "collaboration",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "learn-explain",
+    "label": "Comprendre rapidement une technologie inconnue",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 10,
+    "humanAIlo": 4,
+    "humanAIhi": 25,
+    "humanNo": 60,
+    "humanNolo": 30,
+    "humanNohi": 150,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "learn-operational",
+    "label": "Devenir opérationnel sur une technologie nouvelle",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 240,
+    "humanNolo": 120,
+    "humanNohi": 600,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "research-state-art",
+    "label": "Faire un état de l’art technique",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 30,
+    "humanAIlo": 12,
+    "humanAIhi": 75,
+    "humanNo": 300,
+    "humanNolo": 150,
+    "humanNohi": 750,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "research-web",
+    "label": "Faire une recherche technique multi-sources sur le Web",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 180,
+    "humanNolo": 90,
+    "humanNohi": 450,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "research-source",
+    "label": "Trouver les meilleures sources / références autoritatives",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 10,
+    "humanAIlo": 4,
+    "humanAIhi": 25,
+    "humanNo": 60,
+    "humanNolo": 30,
+    "humanNohi": 150,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "research-docs",
+    "label": "Analyser et synthétiser une grosse documentation technique",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 180,
+    "humanNolo": 90,
+    "humanNohi": 450,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "research-multidoc",
+    "label": "Répondre à une question à partir de plusieurs documents / sources internes",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 180,
+    "humanNolo": 90,
+    "humanNohi": 450,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "research-relevant",
+    "label": "Identifier ce qu’il faut réellement apprendre / lire pour notre cas d’usage",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 12,
+    "humanAIlo": 5,
+    "humanAIhi": 30,
+    "humanNo": 90,
+    "humanNolo": 45,
+    "humanNohi": 225,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "learn-path",
+    "label": "Construire un parcours de formation technique personnalisé",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 120,
+    "humanNolo": 60,
+    "humanNohi": 300,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "learn-coach",
+    "label": "Se faire coacher / interroger pour consolider une compétence",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 90,
+    "humanNolo": 45,
+    "humanNohi": 225,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "watch-tech",
+    "label": "Faire de la veille technique ciblée",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 90,
+    "humanNolo": 45,
+    "humanNohi": 225,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "research-version",
+    "label": "Analyser les nouveautés d’une version et leur impact pour nous",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 15,
+    "humanAIlo": 6,
+    "humanAIhi": 38,
+    "humanNo": 120,
+    "humanNolo": 60,
+    "humanNohi": 300,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "research-field",
+    "label": "Rechercher des retours d’expérience terrain / signaux faibles",
+    "weights": {
+      "info-gathering": 1,
+      "tool-agent": 0.25
+    },
+    "humanAI": 20,
+    "humanAIlo": 8,
+    "humanAIhi": 50,
+    "humanNo": 150,
+    "humanNolo": 75,
+    "humanNohi": 375,
+    "required": "text",
+    "workload": {
+      "inputTokens": 60000,
+      "outputTokens": 9000
+    },
+    "domain": "learning-research",
+    "proxyFrom": "research",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "arch-diagram",
+    "label": "Créer / mettre à jour des diagrammes techniques assistés par IA",
+    "weights": {
+      "info-gathering": 0.35,
+      "repo-bugfix": 0.25,
+      "test-generation": 0.15,
+      "repo-from-spec": 0.2,
+      "field-agentic-coding": 0.35
+    },
+    "humanAI": 18,
+    "humanAIlo": 7,
+    "humanAIhi": 45,
+    "humanNo": 120,
+    "humanNolo": 40,
+    "humanNohi": 240,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 8000
+    },
+    "domain": "architecture",
+    "proxyFrom": "docs",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-hil",
+    "label": "Créer / automatiser des tests HIL sur banc physique",
+    "weights": {
+      "test-generation": 1,
+      "swe-pro-complex": 0.4,
+      "repo-bugfix": 0.2,
+      "skills-agent": 0.2,
+      "codegen": 0.35,
+      "field-agentic-coding": 0.65
+    },
+    "humanAI": 25,
+    "humanAIlo": 11,
+    "humanAIhi": 62,
+    "humanNo": 180,
+    "humanNolo": 80,
+    "humanNohi": 360,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 45000,
+      "outputTokens": 8000
+    },
+    "domain": "verification",
+    "proxyFrom": "tests",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-results",
+    "label": "Analyser et agréger des résultats de tests / logs / artefacts CI",
+    "weights": {
+      "test-generation": 1,
+      "swe-pro-complex": 0.4,
+      "repo-bugfix": 0.2,
+      "skills-agent": 0.2,
+      "codegen": 0.35,
+      "field-agentic-coding": 0.65
+    },
+    "humanAI": 18,
+    "humanAIlo": 8,
+    "humanAIhi": 45,
+    "humanNo": 120,
+    "humanNolo": 53,
+    "humanNohi": 240,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 45000,
+      "outputTokens": 8000
+    },
+    "domain": "verification",
+    "proxyFrom": "tests",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "verify-coding-rules",
+    "label": "Produire / vérifier du code sous coding rules (MISRA, CERT, AUTOSAR, règles client)",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 22,
+    "humanAIlo": 9,
+    "humanAIhi": 55,
+    "humanNo": 150,
+    "humanNolo": 63,
+    "humanNohi": 375,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "verification",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Commun",
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "cyber-compliance",
+    "label": "Vérifier la conformité cyber d’un design / produit par rapport au référentiel applicable",
+    "weights": {
+      "swe-pro-complex": 0.55,
+      "repo-bugfix": 0.5,
+      "test-generation": 0.35,
+      "skills-agent": 0.2,
+      "codegen": 0.2,
+      "field-agentic-coding": 0.55
+    },
+    "humanAI": 25,
+    "humanAIlo": 10,
+    "humanAIhi": 62,
+    "humanNo": 180,
+    "humanNolo": 74,
+    "humanNohi": 450,
+    "required": "code_or_text",
+    "workload": {
+      "inputTokens": 50000,
+      "outputTokens": 7000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "review",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile",
+      "IoT industriel"
+    ]
+  },
+  {
+    "id": "cyber-artifacts",
+    "label": "Produire / maintenir les artefacts cybersécurité projet",
+    "weights": {
+      "tool-agent": 1,
+      "terminal-agentic": 0.35,
+      "info-gathering": 0.2,
+      "skills-agent": 0.2
+    },
+    "humanAI": 30,
+    "humanAIlo": 10,
+    "humanAIhi": 90,
+    "humanNo": 240,
+    "humanNolo": 80,
+    "humanNohi": 640,
+    "required": "text",
+    "workload": {
+      "inputTokens": 70000,
+      "outputTokens": 9000
+    },
+    "domain": "safety-cyber",
+    "proxyFrom": "tool-workflow",
+    "taxonomyVersion": "embedded-v1",
+    "sectors": [
+      "Automobile",
+      "IoT industriel"
+    ]
+  }
+]
