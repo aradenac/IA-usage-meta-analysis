@@ -1,0 +1,2750 @@
+[
+  {
+    "id": "aider",
+    "name": "Aider",
+    "vendor": "Aider-AI",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "git",
+      "multi_model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://aider.chat/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Open-source terminal pair-programming agent."
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "vendor": "Anthropic",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "api",
+      "cloud-provider"
+    ],
+    "surfaces": [
+      "cli",
+      "ide"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "shell",
+      "mcp",
+      "long_agentic_work",
+      "code_review"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://docs.anthropic.com/en/docs/claude-code/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "codex-cli",
+    "name": "Codex CLI",
+    "vendor": "OpenAI",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "api"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "shell",
+      "mcp",
+      "code_review"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://developers.openai.com/codex/cli/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "cline",
+    "name": "Cline",
+    "vendor": "Cline",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "shell",
+      "mcp",
+      "multi_model"
+    ],
+    "integrations": [
+      "MCP",
+      "Git"
+    ],
+    "official_url": "https://cline.bot/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "vendor": "OpenCode",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli",
+      "ide",
+      "desktop"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "shell",
+      "multi_model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://opencode.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "vendor": "OpenHands",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "self_hosted",
+      "cloud",
+      "byok"
+    ],
+    "surfaces": [
+      "web",
+      "cli",
+      "sdk"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "shell",
+      "sandbox",
+      "mcp"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://docs.openhands.dev/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "penguin-harness",
+    "name": "PenguinHarness",
+    "vendor": "PrismShadow",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "self_hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "cli",
+      "platform"
+    ],
+    "capabilities": [
+      "code_agent",
+      "multi_agent",
+      "skills",
+      "evaluation"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/Prism-Shadow/penguin-harness",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "deepseek-harness",
+    "name": "DeepSeek Harness",
+    "vendor": "DeepSeek AI",
+    "category": "coding_agent",
+    "status": "preview",
+    "user_facing": true,
+    "deployment": [
+      "self_hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "web",
+      "platform"
+    ],
+    "capabilities": [
+      "code_agent",
+      "plugins",
+      "multi_model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/deepseek-ai/deepseek-harness",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Developer preview."
+  },
+  {
+    "id": "maka",
+    "name": "Apache Maka",
+    "vendor": "Apache Software Foundation",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "self_hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "cli",
+      "workspace"
+    ],
+    "capabilities": [
+      "code_agent",
+      "traceability",
+      "reproducible_runs",
+      "multi_model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/apache/maka",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "reasonix",
+    "name": "Reasonix",
+    "vendor": "Reasonix community",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "shell",
+      "multi_model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/MitsuhaYuki/reasonix",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "zcode",
+    "name": "ZCode",
+    "vendor": "Z.ai",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client",
+      "cloud"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "shell"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/zai-org/ZCode",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "qwen-code",
+    "name": "Qwen Code",
+    "vendor": "Qwen",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli",
+      "ide",
+      "desktop",
+      "web"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "shell",
+      "mcp",
+      "skills",
+      "subagents",
+      "multi_model"
+    ],
+    "integrations": [
+      "MCP",
+      "Git"
+    ],
+    "official_url": "https://github.com/QwenLM/qwen-code",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "kimi-code",
+    "name": "Kimi Code",
+    "vendor": "Moonshot AI",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "api"
+    ],
+    "surfaces": [
+      "cli",
+      "desktop",
+      "ide"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "shell",
+      "web_search"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://www.kimi.com/code/docs/en/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "vendor": "Google",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "api",
+      "byok"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "shell",
+      "web_search",
+      "mcp"
+    ],
+    "integrations": [
+      "MCP",
+      "Git"
+    ],
+    "official_url": "https://github.com/google-gemini/gemini-cli",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "factory-droid",
+    "name": "Factory Droid",
+    "vendor": "Factory",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "cloud",
+      "enterprise"
+    ],
+    "surfaces": [
+      "cli",
+      "desktop",
+      "web",
+      "ide",
+      "api"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "code_review",
+      "long_agentic_work",
+      "multi_model",
+      "mcp"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://factory.ai/product/droids",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "pi",
+    "name": "Pi",
+    "vendor": "Pi ecosystem",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "shell",
+      "multi_model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/badlogic/pi-mono",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "oh-my-pi",
+    "name": "Oh My Pi",
+    "vendor": "community",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "shell",
+      "lsp",
+      "debugger",
+      "browser",
+      "subagents"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/can1357/oh-my-pi",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "vendor": "Cursor",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "ide",
+      "desktop"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "codebase_search",
+      "multi_model",
+      "mcp"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://www.cursor.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "mistral-vibe-code",
+    "name": "Mistral Vibe Code",
+    "vendor": "Mistral AI",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "api",
+      "enterprise"
+    ],
+    "surfaces": [
+      "cli",
+      "ide",
+      "web"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "shell",
+      "mcp",
+      "connectors",
+      "multi_step"
+    ],
+    "integrations": [
+      "Atlassian",
+      "SharePoint",
+      "GitHub",
+      "MCP"
+    ],
+    "official_url": "https://docs.mistral.ai/vibe/code/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "vendor": "Amazon Web Services",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "web",
+      "mobile"
+    ],
+    "capabilities": [
+      "code_agent",
+      "spec_driven",
+      "requirements",
+      "architecture",
+      "tests",
+      "mcp",
+      "skills",
+      "hooks"
+    ],
+    "integrations": [
+      "MCP",
+      "Git"
+    ],
+    "official_url": "https://kiro.dev/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "goose",
+    "name": "Goose",
+    "vendor": "Block / Agentic AI Foundation",
+    "category": "general_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "self_hosted",
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "desktop",
+      "cli",
+      "api"
+    ],
+    "capabilities": [
+      "code_agent",
+      "general_agent",
+      "mcp",
+      "multi_model",
+      "workflow",
+      "shell"
+    ],
+    "integrations": [
+      "MCP",
+      "Git"
+    ],
+    "official_url": "https://block.github.io/goose/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Open-source, provider-agnostic."
+  },
+  {
+    "id": "jetbrains-junie",
+    "name": "Junie",
+    "vendor": "JetBrains",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "byok"
+    ],
+    "surfaces": [
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "shell",
+      "headless_ci",
+      "multi_model"
+    ],
+    "integrations": [
+      "JetBrains IDEs",
+      "GitLab CI"
+    ],
+    "official_url": "https://www.jetbrains.com/junie/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "CLI/headless capabilities may have preview/EAP status depending on feature."
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "vendor": "Continue",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local-client",
+      "self_hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "mcp",
+      "multi_model",
+      "headless_ci"
+    ],
+    "integrations": [
+      "VS Code",
+      "JetBrains",
+      "MCP"
+    ],
+    "official_url": "https://www.continue.dev/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "augment-code",
+    "name": "Augment Code",
+    "vendor": "Augment",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "mcp"
+    ],
+    "capabilities": [
+      "code_agent",
+      "large_codebase",
+      "semantic_search",
+      "context_engine",
+      "code_review"
+    ],
+    "integrations": [
+      "MCP",
+      "Git"
+    ],
+    "official_url": "https://www.augmentcode.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody Enterprise",
+    "vendor": "Sourcegraph",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "self_hosted",
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "web",
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "large_codebase",
+      "code_search",
+      "deep_search",
+      "mcp",
+      "enterprise_context"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitLab",
+      "MCP"
+    ],
+    "official_url": "https://sourcegraph.com/cody",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Cody Enterprise remains active; former individual Free/Pro offerings are not treated as current standalone choices."
+  },
+  {
+    "id": "amp",
+    "name": "Amp",
+    "vendor": "Sourcegraph / Amp",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "repo_edit",
+      "tests",
+      "long_agentic_work"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://ampcode.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "devin-desktop",
+    "name": "Devin Desktop",
+    "vendor": "Cognition",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "local-client",
+      "cloud"
+    ],
+    "surfaces": [
+      "desktop",
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "multi_agent",
+      "tests",
+      "debug",
+      "code_review",
+      "acp",
+      "long_agentic_work"
+    ],
+    "integrations": [
+      "ACP",
+      "Git"
+    ],
+    "official_url": "https://devin.ai/desktop",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Devin Desktop is the current name/evolution of Windsurf Desktop."
+  },
+  {
+    "id": "gitlab-duo",
+    "name": "GitLab Duo / Agent Platform",
+    "vendor": "GitLab",
+    "category": "dev_platform_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "self_managed",
+      "dedicated",
+      "self_hosted_models"
+    ],
+    "surfaces": [
+      "gitlab",
+      "ide",
+      "web"
+    ],
+    "capabilities": [
+      "code_agent",
+      "code_review",
+      "security_review",
+      "ci",
+      "repo_context",
+      "issue_context",
+      "self_hosted_models"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitLab CI"
+    ],
+    "official_url": "https://about.gitlab.com/gitlab-duo/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot Agents",
+    "vendor": "GitHub",
+    "category": "dev_platform_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "github",
+      "desktop",
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code_agent",
+      "cloud_agent",
+      "code_review",
+      "security",
+      "mcp",
+      "multi_model",
+      "pull_requests"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitHub Actions",
+      "MCP"
+    ],
+    "official_url": "https://github.com/features/copilot",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "vendor": "Tabnine",
+    "category": "coding_agent",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "self_hosted",
+      "on_prem",
+      "vpc"
+    ],
+    "surfaces": [
+      "ide"
+    ],
+    "capabilities": [
+      "code_agent",
+      "tests",
+      "docs",
+      "fixes",
+      "coding_standards",
+      "enterprise_context"
+    ],
+    "integrations": [
+      "Jira",
+      "IDEs"
+    ],
+    "official_url": "https://www.tabnine.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Enterprise supports private/self-hosted deployment."
+  },
+  {
+    "id": "amazon-q-developer",
+    "name": "Amazon Q Developer",
+    "vendor": "Amazon Web Services",
+    "category": "coding_agent",
+    "status": "active_lifecycle_transition",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "aws"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "aws_console"
+    ],
+    "capabilities": [
+      "code_agent",
+      "aws_context",
+      "tests",
+      "code_review",
+      "security"
+    ],
+    "integrations": [
+      "AWS"
+    ],
+    "official_url": "https://aws.amazon.com/q/developer/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Still exploitable; AWS is steering newest agentic IDE workflows toward Kiro, with a future support transition for some IDE plugins."
+  },
+  {
+    "id": "coderabbit",
+    "name": "CodeRabbit",
+    "vendor": "CodeRabbit",
+    "category": "code_review",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise_private_connectivity"
+    ],
+    "surfaces": [
+      "git_platform",
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code_review",
+      "security_review",
+      "test_generation",
+      "suggested_fixes"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket",
+      "Azure DevOps"
+    ],
+    "official_url": "https://www.coderabbit.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "qodo",
+    "name": "Qodo Merge / Qodo",
+    "vendor": "Qodo",
+    "category": "code_review",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "git_platform",
+      "ide"
+    ],
+    "capabilities": [
+      "code_review",
+      "requirements_checks",
+      "compliance_checks",
+      "test_generation",
+      "docs"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub",
+      "Bitbucket",
+      "Azure DevOps"
+    ],
+    "official_url": "https://www.qodo.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "greptile",
+    "name": "Greptile",
+    "vendor": "Greptile",
+    "category": "code_review",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "self_hosted_aws",
+      "enterprise"
+    ],
+    "surfaces": [
+      "git_platform",
+      "cli"
+    ],
+    "capabilities": [
+      "code_review",
+      "repo_context",
+      "generated_tests",
+      "security_review",
+      "suggested_fixes"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub",
+      "Bitbucket"
+    ],
+    "official_url": "https://www.greptile.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "chatgpt-enterprise",
+    "name": "ChatGPT Business / Enterprise + Deep Research / Work",
+    "vendor": "OpenAI",
+    "category": "general_assistant",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "mobile"
+    ],
+    "capabilities": [
+      "general_reasoning",
+      "deep_research",
+      "web_search",
+      "files",
+      "connectors",
+      "mcp",
+      "documents",
+      "spreadsheets",
+      "presentations",
+      "coding"
+    ],
+    "integrations": [
+      "SharePoint",
+      "GitHub",
+      "Google Drive",
+      "MCP",
+      "apps"
+    ],
+    "official_url": "https://openai.com/business/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Deep Research can combine web, files and supported connected apps."
+  },
+  {
+    "id": "claude-enterprise",
+    "name": "Claude Enterprise / Cowork",
+    "vendor": "Anthropic",
+    "category": "general_assistant",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise",
+      "cloud-provider"
+    ],
+    "surfaces": [
+      "web",
+      "desktop"
+    ],
+    "capabilities": [
+      "general_reasoning",
+      "research",
+      "web_search",
+      "files",
+      "mcp",
+      "connectors",
+      "multi_app_agent",
+      "documents"
+    ],
+    "integrations": [
+      "MCP",
+      "connectors"
+    ],
+    "official_url": "https://www.anthropic.com/enterprise",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "mistral-vibe-work",
+    "name": "Mistral Vibe Work",
+    "vendor": "Mistral AI",
+    "category": "general_assistant",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "mobile"
+    ],
+    "capabilities": [
+      "general_reasoning",
+      "web_search",
+      "multi_step",
+      "files",
+      "connectors",
+      "mcp",
+      "documents",
+      "spreadsheets",
+      "presentations",
+      "project_actions"
+    ],
+    "integrations": [
+      "Jira",
+      "Confluence",
+      "SharePoint",
+      "GitHub",
+      "MCP"
+    ],
+    "official_url": "https://docs.mistral.ai/vibe/work/get-started",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "gemini-enterprise",
+    "name": "Gemini Enterprise / Deep Research",
+    "vendor": "Google",
+    "category": "general_assistant",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise",
+      "google_cloud"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "general_reasoning",
+      "deep_research",
+      "web_search",
+      "files",
+      "workspace_context",
+      "documents"
+    ],
+    "integrations": [
+      "Google Workspace"
+    ],
+    "official_url": "https://gemini.google.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "gemini-notebook-enterprise",
+    "name": "Gemini Notebook Enterprise",
+    "vendor": "Google Cloud",
+    "category": "enterprise_knowledge",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "google_cloud"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "grounded_qa",
+      "long_documents",
+      "pdfs",
+      "summarization",
+      "research"
+    ],
+    "integrations": [
+      "Google Docs",
+      "Slides",
+      "URLs"
+    ],
+    "official_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/overview",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "perplexity-enterprise",
+    "name": "Perplexity Enterprise Pro",
+    "vendor": "Perplexity",
+    "category": "research_assistant",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "mobile"
+    ],
+    "capabilities": [
+      "web_search",
+      "research",
+      "citations",
+      "files",
+      "internal_knowledge"
+    ],
+    "integrations": [
+      "enterprise_connectors"
+    ],
+    "official_url": "https://www.perplexity.ai/enterprise",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "m365-copilot",
+    "name": "Microsoft 365 Copilot",
+    "vendor": "Microsoft",
+    "category": "productivity_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "word",
+      "excel",
+      "powerpoint",
+      "web",
+      "teams"
+    ],
+    "capabilities": [
+      "documents",
+      "spreadsheets",
+      "presentations",
+      "enterprise_search",
+      "work_graph",
+      "office_native",
+      "agentic_editing"
+    ],
+    "integrations": [
+      "SharePoint",
+      "OneDrive",
+      "Teams",
+      "Microsoft Graph"
+    ],
+    "official_url": "https://www.microsoft.com/microsoft-365-copilot",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Word/Excel/PowerPoint agents can create/edit native Office files; tenant/provider data-boundary details must be assessed later."
+  },
+  {
+    "id": "atlassian-rovo",
+    "name": "Atlassian Rovo",
+    "vendor": "Atlassian",
+    "category": "enterprise_knowledge",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "jira",
+      "confluence",
+      "web"
+    ],
+    "capabilities": [
+      "enterprise_search",
+      "chat",
+      "agents",
+      "jira_actions",
+      "confluence_actions",
+      "third_party_context"
+    ],
+    "integrations": [
+      "Jira",
+      "Confluence",
+      "third-party apps"
+    ],
+    "official_url": "https://www.atlassian.com/software/rovo",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "glean",
+    "name": "Glean",
+    "vendor": "Glean",
+    "category": "enterprise_knowledge",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "enterprise_search",
+      "assistant",
+      "agents",
+      "permission_aware",
+      "actions",
+      "internal_knowledge"
+    ],
+    "integrations": [
+      "Jira",
+      "Confluence",
+      "SharePoint",
+      "GitHub"
+    ],
+    "official_url": "https://www.glean.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "lighton-paradigm",
+    "name": "LightOn Paradigm",
+    "vendor": "LightOn",
+    "category": "enterprise_knowledge",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "hybrid",
+      "on_prem",
+      "air_gapped"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "enterprise_search",
+      "rag",
+      "agents",
+      "document_understanding",
+      "mcp",
+      "permission_aware"
+    ],
+    "integrations": [
+      "SharePoint",
+      "LDAP",
+      "Active Directory",
+      "MCP"
+    ],
+    "official_url": "https://www.lighton.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "vendor": "Open WebUI",
+    "category": "self_hosted_assistant",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "self_hosted",
+      "offline",
+      "byok"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "general_assistant",
+      "multi_model",
+      "rag",
+      "mcp",
+      "tools",
+      "files"
+    ],
+    "integrations": [
+      "Ollama",
+      "OpenAI-compatible APIs",
+      "MCP"
+    ],
+    "official_url": "https://docs.openwebui.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "vendor": "n8n",
+    "category": "workflow_platform",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "cloud",
+      "self_hosted"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "mcp"
+    ],
+    "capabilities": [
+      "workflow",
+      "agents",
+      "mcp",
+      "automation",
+      "connectors",
+      "human_in_loop"
+    ],
+    "integrations": [
+      "GitLab",
+      "Jira",
+      "Confluence",
+      "SharePoint via connectors/API",
+      "MCP"
+    ],
+    "official_url": "https://n8n.io/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "vendor": "Dify",
+    "category": "workflow_platform",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "cloud",
+      "self_hosted"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "workflow",
+      "agents",
+      "rag",
+      "knowledge_base",
+      "multi_model",
+      "tools"
+    ],
+    "integrations": [
+      "APIs",
+      "plugins"
+    ],
+    "official_url": "https://dify.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "copilot-studio",
+    "name": "Microsoft Copilot Studio",
+    "vendor": "Microsoft",
+    "category": "workflow_platform",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "agents",
+      "workflow",
+      "connectors",
+      "enterprise_actions",
+      "mcp"
+    ],
+    "integrations": [
+      "Power Platform",
+      "SharePoint",
+      "Microsoft Graph",
+      "custom connectors"
+    ],
+    "official_url": "https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "codebeamer-ai",
+    "name": "Codebeamer AI",
+    "vendor": "PTC",
+    "category": "alm_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "ptc_hosted",
+      "customer_hosted"
+    ],
+    "surfaces": [
+      "codebeamer"
+    ],
+    "capabilities": [
+      "requirements_quality",
+      "requirements_rewrite",
+      "test_generation",
+      "semantic_search",
+      "traceability"
+    ],
+    "integrations": [
+      "Codebeamer"
+    ],
+    "official_url": "https://support.ptc.com/help/codebeamer_ai/en/codebeamer/welcome.html",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "ibm-engineering-ai-hub",
+    "name": "IBM Engineering AI Hub",
+    "vendor": "IBM",
+    "category": "alm_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "self_managed",
+      "openshift",
+      "enterprise"
+    ],
+    "surfaces": [
+      "doors_next",
+      "elm"
+    ],
+    "capabilities": [
+      "requirements_quality",
+      "requirements_qa",
+      "impact_analysis",
+      "coverage",
+      "traceability",
+      "test_generation",
+      "mcp"
+    ],
+    "integrations": [
+      "DOORS Next",
+      "EWM",
+      "ETM",
+      "MCP"
+    ],
+    "official_url": "https://www.ibm.com/docs/en/engineering-ai-hub/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "jama-connect-advisor",
+    "name": "Jama Connect Advisor",
+    "vendor": "Jama Software",
+    "category": "alm_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "cloud"
+    ],
+    "surfaces": [
+      "jama_connect"
+    ],
+    "capabilities": [
+      "requirements_quality",
+      "requirements_rewrite",
+      "test_generation",
+      "relationship_discovery",
+      "traceability",
+      "pdf_parsing",
+      "mcp"
+    ],
+    "integrations": [
+      "Jama Connect",
+      "MCP"
+    ],
+    "official_url": "https://www.jamasoftware.com/solutions/artificial-intelligence/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "polarion-copilot",
+    "name": "Polarion Copilot / Industrial AI",
+    "vendor": "Siemens",
+    "category": "alm_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "enterprise",
+      "polarion"
+    ],
+    "surfaces": [
+      "polarion"
+    ],
+    "capabilities": [
+      "requirements_quality",
+      "similarity",
+      "task_extraction",
+      "quality_control",
+      "document_import"
+    ],
+    "integrations": [
+      "Polarion"
+    ],
+    "official_url": "https://www.siemens.com/en-gb/products/polarion/industrial-ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "visure-vivia",
+    "name": "Visure Vivia",
+    "vendor": "Visure Solutions",
+    "category": "alm_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "enterprise",
+      "on_prem_options"
+    ],
+    "surfaces": [
+      "visure"
+    ],
+    "capabilities": [
+      "requirements_generation",
+      "requirements_quality",
+      "test_generation",
+      "traceability",
+      "impact_analysis",
+      "compliance",
+      "mcp"
+    ],
+    "integrations": [
+      "Visure Requirements ALM",
+      "MCP",
+      "Word",
+      "Excel"
+    ],
+    "official_url": "https://visuresolutions.com/tool-suite/vivia/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "threatmodeler-nexus",
+    "name": "ThreatModeler Nexus",
+    "vendor": "ThreatModeler",
+    "category": "security_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise",
+      "byoai"
+    ],
+    "surfaces": [
+      "web",
+      "ide_integrations",
+      "mcp"
+    ],
+    "capabilities": [
+      "threat_modeling",
+      "system_mapping",
+      "architecture_analysis",
+      "secure_by_design",
+      "compliance",
+      "reporting",
+      "mcp"
+    ],
+    "integrations": [
+      "diagram tools",
+      "ticketing",
+      "CI/CD",
+      "MCP"
+    ],
+    "official_url": "https://www.threatmodeler.ai/platform",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "iriusrisk-jeff",
+    "name": "IriusRisk Jeff AI",
+    "vendor": "ThreatModeler / IriusRisk",
+    "category": "security_ai",
+    "status": "transitioning",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "on_prem_options"
+    ],
+    "surfaces": [
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "threat_modeling",
+      "diagram_generation",
+      "secure_by_design",
+      "compliance_views",
+      "mcp"
+    ],
+    "integrations": [
+      "IriusRisk",
+      "MCP"
+    ],
+    "official_url": "https://www.iriusrisk.com/ai-threat-modeling",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "IriusRisk remains usable while capabilities are being unified into ThreatModeler Nexus after the 2026 acquisition."
+  },
+  {
+    "id": "semgrep-autofix",
+    "name": "Semgrep Autofix",
+    "vendor": "Semgrep",
+    "category": "security_ai",
+    "status": "public_beta",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "git_platform"
+    ],
+    "capabilities": [
+      "static_analysis",
+      "security_review",
+      "autofix",
+      "dependency_upgrade_guidance"
+    ],
+    "integrations": [
+      "pull requests"
+    ],
+    "official_url": "https://semgrep.dev/blog/2026/semgrep-autofix-public-beta",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "snyk-deepcode-ai",
+    "name": "Snyk DeepCode AI",
+    "vendor": "Snyk",
+    "category": "security_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "web",
+      "git_platform"
+    ],
+    "capabilities": [
+      "security_review",
+      "sast",
+      "autofix",
+      "risk_prioritization",
+      "sca"
+    ],
+    "integrations": [
+      "Git repositories",
+      "IDEs"
+    ],
+    "official_url": "https://snyk.io/platform/deepcode-ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "sonarqube-ai-codefix",
+    "name": "SonarQube AI CodeFix",
+    "vendor": "Sonar",
+    "category": "security_quality_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "server_enterprise",
+      "data_center",
+      "cloud"
+    ],
+    "surfaces": [
+      "web",
+      "ide"
+    ],
+    "capabilities": [
+      "static_analysis",
+      "quality",
+      "autofix",
+      "cpp"
+    ],
+    "integrations": [
+      "SonarQube",
+      "VS Code",
+      "IntelliJ"
+    ],
+    "official_url": "https://docs.sonarsource.com/sonarqube-server/2026.1/ai-capabilities/ai-codefix",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "microsoft-security-copilot",
+    "name": "Microsoft Security Copilot",
+    "vendor": "Microsoft",
+    "category": "security_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "security_portals"
+    ],
+    "capabilities": [
+      "threat_intelligence",
+      "vulnerability_context",
+      "incident_analysis",
+      "security_agents"
+    ],
+    "integrations": [
+      "Microsoft Defender",
+      "Sentinel"
+    ],
+    "official_url": "https://learn.microsoft.com/en-us/copilot/security/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "eraser",
+    "name": "Eraser",
+    "vendor": "Eraser",
+    "category": "diagram_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "vscode",
+      "mcp",
+      "api"
+    ],
+    "capabilities": [
+      "diagram_generation",
+      "codebase_diagrams",
+      "diagram_as_code",
+      "architecture",
+      "sequence",
+      "mcp"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitLab",
+      "Confluence",
+      "MCP"
+    ],
+    "official_url": "https://docs.eraser.io/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "lucid-ai",
+    "name": "Lucidchart + Lucid AI",
+    "vendor": "Lucid",
+    "category": "diagram_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "diagram_generation",
+      "uml",
+      "sequence",
+      "data_linking",
+      "collaboration"
+    ],
+    "integrations": [
+      "Excel",
+      "CSV",
+      "Microsoft Graph",
+      "Copilot"
+    ],
+    "official_url": "https://www.lucidchart.com/pages/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "miro-ai",
+    "name": "Miro AI",
+    "vendor": "Miro",
+    "category": "diagram_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "diagram_generation",
+      "uml",
+      "sequence",
+      "flowcharts",
+      "collaboration"
+    ],
+    "integrations": [
+      "Confluence",
+      "Microsoft ecosystem"
+    ],
+    "official_url": "https://miro.com/ai/diagram-ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "mistral-document-ai",
+    "name": "Mistral Document AI",
+    "vendor": "Mistral AI",
+    "category": "document_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "api",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "studio"
+    ],
+    "capabilities": [
+      "ocr",
+      "structured_extraction",
+      "document_qna",
+      "pdf",
+      "docx",
+      "pptx",
+      "tables"
+    ],
+    "integrations": [
+      "Mistral API"
+    ],
+    "official_url": "https://docs.mistral.ai/studio/document-processing/overview",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "azure-document-intelligence",
+    "name": "Azure AI Document Intelligence",
+    "vendor": "Microsoft",
+    "category": "document_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "azure",
+      "api"
+    ],
+    "surfaces": [
+      "api",
+      "studio"
+    ],
+    "capabilities": [
+      "ocr",
+      "structured_extraction",
+      "document_processing",
+      "tables"
+    ],
+    "integrations": [
+      "Azure"
+    ],
+    "official_url": "https://azure.microsoft.com/products/ai-services/ai-document-intelligence",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "google-document-ai",
+    "name": "Google Document AI",
+    "vendor": "Google Cloud",
+    "category": "document_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "google_cloud",
+      "api"
+    ],
+    "surfaces": [
+      "api",
+      "console"
+    ],
+    "capabilities": [
+      "ocr",
+      "structured_extraction",
+      "document_processing"
+    ],
+    "integrations": [
+      "Google Cloud"
+    ],
+    "official_url": "https://cloud.google.com/document-ai",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "aws-textract",
+    "name": "Amazon Textract",
+    "vendor": "Amazon Web Services",
+    "category": "document_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "aws",
+      "api"
+    ],
+    "surfaces": [
+      "api",
+      "console"
+    ],
+    "capabilities": [
+      "ocr",
+      "forms",
+      "tables",
+      "structured_extraction"
+    ],
+    "integrations": [
+      "AWS"
+    ],
+    "official_url": "https://aws.amazon.com/textract/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "teams-copilot",
+    "name": "Microsoft Teams Copilot / Intelligent Recap",
+    "vendor": "Microsoft",
+    "category": "meeting_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "teams"
+    ],
+    "capabilities": [
+      "meeting_transcription",
+      "meeting_summary",
+      "action_items",
+      "recap",
+      "meeting_qa"
+    ],
+    "integrations": [
+      "Teams",
+      "OneDrive",
+      "SharePoint"
+    ],
+    "official_url": "https://support.microsoft.com/en-us/teams/meetings/recap-in-microsoft-teams",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "fireflies",
+    "name": "Fireflies.ai",
+    "vendor": "Fireflies.ai",
+    "category": "meeting_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "meeting_bot"
+    ],
+    "capabilities": [
+      "meeting_transcription",
+      "meeting_summary",
+      "action_items",
+      "meeting_search",
+      "workflow"
+    ],
+    "integrations": [
+      "Microsoft Teams",
+      "Zoom",
+      "Google Meet"
+    ],
+    "official_url": "https://fireflies.ai/integrations/videoconferencing/microsoft-teams",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "otter",
+    "name": "Otter.ai",
+    "vendor": "Otter.ai",
+    "category": "meeting_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "mobile",
+      "meeting_bot"
+    ],
+    "capabilities": [
+      "meeting_transcription",
+      "meeting_summary",
+      "action_items",
+      "meeting_search"
+    ],
+    "integrations": [
+      "Microsoft Teams",
+      "Zoom",
+      "Google Meet"
+    ],
+    "official_url": "https://otter.ai/integration/microsoft-teams",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "read-ai",
+    "name": "Read AI",
+    "vendor": "Read AI",
+    "category": "meeting_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "meeting_bot"
+    ],
+    "capabilities": [
+      "meeting_transcription",
+      "meeting_summary",
+      "action_items",
+      "enterprise_search",
+      "chat_channel_summary"
+    ],
+    "integrations": [
+      "Microsoft Teams",
+      "Zoom",
+      "Google Meet"
+    ],
+    "official_url": "https://www.read.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "scaleway-genai-serverless",
+    "name": "Scaleway Generative APIs — Serverless",
+    "vendor": "Scaleway",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "eu_cloud",
+      "serverless",
+      "api"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "vision",
+      "embeddings",
+      "audio",
+      "openai_compatible",
+      "tool_calling"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients"
+    ],
+    "official_url": "https://www.scaleway.com/en/docs/generative-apis/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "European-hosted API backend; suitability for sensitive data must be assessed per workload."
+  },
+  {
+    "id": "scaleway-genai-dedicated",
+    "name": "Scaleway Generative APIs — Dedicated Deployment",
+    "vendor": "Scaleway",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "eu_cloud",
+      "dedicated",
+      "private_network",
+      "api"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "custom_models",
+      "private_network",
+      "openai_compatible",
+      "vision",
+      "embeddings"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients",
+      "VPC"
+    ],
+    "official_url": "https://www.scaleway.com/en/docs/generative-apis/how-to/create-deployment/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": "Can remove public endpoint and use a private network."
+  },
+  {
+    "id": "scaleway-audio",
+    "name": "Scaleway Audio Transcription API",
+    "vendor": "Scaleway",
+    "category": "audio_ai",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "eu_cloud",
+      "api"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "transcription",
+      "audio"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients"
+    ],
+    "official_url": "https://www.scaleway.com/en/docs/generative-apis/how-to/query-audio-models/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "ovh-ai-endpoints",
+    "name": "OVHcloud AI Endpoints",
+    "vendor": "OVHcloud",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "eu_cloud",
+      "serverless",
+      "api"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "openai_compatible",
+      "tool_calling",
+      "structured_outputs",
+      "vision"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients"
+    ],
+    "official_url": "https://endpoints.ai.cloud.ovh.net/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "mistral-platform",
+    "name": "Mistral AI Studio / La Plateforme",
+    "vendor": "Mistral AI",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "saas",
+      "api",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "studio"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "agents",
+      "connectors",
+      "mcp",
+      "tool_calling",
+      "structured_outputs",
+      "document_ai",
+      "audio"
+    ],
+    "integrations": [
+      "MCP",
+      "enterprise connectors"
+    ],
+    "official_url": "https://console.mistral.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "openai-api",
+    "name": "OpenAI API / Responses API",
+    "vendor": "OpenAI",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "api",
+      "saas"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "agents",
+      "web_search",
+      "tools",
+      "mcp",
+      "structured_outputs",
+      "vision",
+      "audio"
+    ],
+    "integrations": [
+      "MCP",
+      "connectors"
+    ],
+    "official_url": "https://developers.openai.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "anthropic-api",
+    "name": "Claude API / Anthropic Platform",
+    "vendor": "Anthropic",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "api",
+      "saas",
+      "cloud_provider"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "tools",
+      "mcp",
+      "web_search",
+      "long_context"
+    ],
+    "integrations": [
+      "MCP",
+      "AWS",
+      "Google Cloud",
+      "Azure/Foundry"
+    ],
+    "official_url": "https://docs.anthropic.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "google-vertex-ai",
+    "name": "Google Vertex AI / Gemini API",
+    "vendor": "Google Cloud",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "google_cloud",
+      "api",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "console"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "agents",
+      "search",
+      "vision",
+      "audio",
+      "enterprise_governance"
+    ],
+    "integrations": [
+      "Google Cloud"
+    ],
+    "official_url": "https://cloud.google.com/vertex-ai",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "azure-ai-foundry",
+    "name": "Microsoft Foundry / Azure AI Foundry",
+    "vendor": "Microsoft",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "azure",
+      "api",
+      "private_network",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "studio"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "agents",
+      "mcp",
+      "private_network",
+      "rbac",
+      "multi_model"
+    ],
+    "integrations": [
+      "Azure",
+      "MCP"
+    ],
+    "official_url": "https://ai.azure.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "aws-bedrock",
+    "name": "Amazon Bedrock",
+    "vendor": "Amazon Web Services",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "aws",
+      "api",
+      "vpc",
+      "enterprise"
+    ],
+    "surfaces": [
+      "api",
+      "console"
+    ],
+    "capabilities": [
+      "llm_backend",
+      "agents",
+      "multi_model",
+      "enterprise_governance",
+      "private_network"
+    ],
+    "integrations": [
+      "AWS"
+    ],
+    "official_url": "https://aws.amazon.com/bedrock/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "huggingface-endpoints",
+    "name": "Hugging Face Inference Endpoints",
+    "vendor": "Hugging Face",
+    "category": "model_backend",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "managed",
+      "dedicated",
+      "private_endpoint",
+      "api"
+    ],
+    "surfaces": [
+      "api",
+      "web"
+    ],
+    "capabilities": [
+      "model_hosting",
+      "open_models",
+      "private_endpoint",
+      "autoscaling"
+    ],
+    "integrations": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "official_url": "https://huggingface.co/docs/inference-endpoints/index",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "vendor": "Ollama",
+    "category": "model_runtime",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "local",
+      "self_hosted"
+    ],
+    "surfaces": [
+      "api",
+      "cli"
+    ],
+    "capabilities": [
+      "local_models",
+      "open_models",
+      "api_backend",
+      "offline"
+    ],
+    "integrations": [
+      "OpenAI-compatible ecosystem"
+    ],
+    "official_url": "https://ollama.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "vendor": "vLLM community",
+    "category": "model_runtime",
+    "status": "active",
+    "user_facing": true,
+    "deployment": [
+      "self_hosted"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "model_serving",
+      "open_models",
+      "openai_compatible",
+      "high_throughput"
+    ],
+    "integrations": [
+      "OpenAI-compatible clients"
+    ],
+    "official_url": "https://docs.vllm.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability_only",
+    "data_posture": "varies",
+    "notes": ""
+  }
+]
