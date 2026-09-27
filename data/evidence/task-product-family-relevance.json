@@ -310,6 +310,14 @@
       "req-write-sw": 0.35,
       "research-docs": 0.3,
       "collab-status": 0.3
+    },
+    "test-generation-quality": {
+      "verify-unit": 1,
+      "verify-loop": 0.85,
+      "verify-coverage": 0.8,
+      "verify-req-tests": 0.75,
+      "verify-integration": 0.45,
+      "verify-prevalidation": 0.55
     }
   }
 }
