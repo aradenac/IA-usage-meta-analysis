@@ -60,7 +60,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "claude-code",
@@ -161,7 +164,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "Codex is included in Business seats; API usage is a separate PAYG path."
+      "notes": "Codex is included in Business seats; API usage is a separate PAYG path.",
+      "commercial_bundle_id": "openai-chatgpt-business-seat",
+      "marginal_cost_rule": "shared_entitlement_or_separate_api",
+      "double_count_notes": "If Codex CLI is consumed through the same ChatGPT Business/Enterprise seat, do not add a second seat cost. Add API/PAYG only when a separate API path is used."
     },
     {
       "solution_id": "cline",
@@ -203,7 +209,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "Core Cline client is open source/BYOK; enterprise governance/support can add a commercial contract."
+      "notes": "Core Cline client is open source/BYOK; enterprise governance/support can add a commercial contract.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "opencode",
@@ -274,7 +283,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "Enterprise confirms per-seat pricing but does not publish the seat amount."
+      "notes": "Enterprise confirms per-seat pricing but does not publish the seat amount.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "openhands",
@@ -316,7 +328,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "Local/self-hosted OpenHands is open source; SaaS Individual is free/BYOK or provider-at-cost; Enterprise SaaS/self-hosted is custom."
+      "notes": "Local/self-hosted OpenHands is open source; SaaS Individual is free/BYOK or provider-at-cost; Enterprise SaaS/self-hosted is custom.",
+      "commercial_bundle_id": "openhands-software-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Open-source/SaaS shell may be free but model inference is BYOK or passed through at cost; add provider usage."
     },
     {
       "solution_id": "penguin-harness",
@@ -358,7 +373,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "deepseek-harness",
@@ -400,7 +418,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "maka",
@@ -442,7 +463,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "reasonix",
@@ -484,7 +508,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "zcode",
@@ -526,7 +553,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "qwen-code",
@@ -568,7 +598,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "kimi-code",
@@ -787,7 +820,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "oh-my-pi",
@@ -829,7 +865,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "cursor",
@@ -957,7 +996,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "mistral-team-vibe-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "Vibe Code and Vibe Work are capabilities of the same Mistral Team/Enterprise workspace entitlement when purchased together."
     },
     {
       "solution_id": "kiro",
@@ -1081,7 +1123,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "jetbrains-junie",
@@ -1143,7 +1188,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "jetbrains-ai-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "Junie and JetBrains AI Assistant draw from the same JetBrains AI plan/credits; do not cost them as two independent AI seats."
     },
     {
       "solution_id": "continue",
@@ -1813,7 +1861,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "openai-chatgpt-business-seat",
+      "marginal_cost_rule": "shared_entitlement_or_separate_api",
+      "double_count_notes": "If Codex CLI is consumed through the same ChatGPT Business/Enterprise seat, do not add a second seat cost. Add API/PAYG only when a separate API path is used."
     },
     {
       "solution_id": "claude-enterprise",
@@ -1920,7 +1971,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "mistral-team-vibe-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "Vibe Code and Vibe Work are capabilities of the same Mistral Team/Enterprise workspace entitlement when purchased together."
     },
     {
       "solution_id": "gemini-enterprise",
@@ -1983,7 +2037,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "google-workspace-gemini-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "When these capabilities are bundled in the same eligible Workspace Enterprise seat, count the Workspace seat once. Use NotebookLM Enterprise separately only when that governed standalone surface is procured."
     },
     {
       "solution_id": "gemini-notebook-enterprise",
@@ -2128,7 +2185,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "microsoft-365-copilot-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "Researcher and Teams Copilot/recap capabilities can be included under the same M365 Copilot entitlement. Count one seat plus prerequisites, not three AI seats."
     },
     {
       "solution_id": "atlassian-rovo",
@@ -2179,7 +2239,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "atlassian-cloud-prerequisite",
+      "marginal_cost_rule": "incremental_cost_only",
+      "double_count_notes": "Rovo may have zero incremental license cost on eligible paid Atlassian plans; model prerequisite Jira/Confluence/collection cost separately and only add Rovo overage credits."
     },
     {
       "solution_id": "glean",
@@ -2307,7 +2370,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "n8n",
@@ -2540,7 +2606,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "Do not double-count Researcher when the same M365 Copilot seat is already costed."
+      "notes": "Do not double-count Researcher when the same M365 Copilot seat is already costed.",
+      "commercial_bundle_id": "microsoft-365-copilot-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "Researcher and Teams Copilot/recap capabilities can be included under the same M365 Copilot entitlement. Count one seat plus prerequisites, not three AI seats."
     },
     {
       "solution_id": "notebooklm",
@@ -2583,7 +2652,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "Do not double-count if Gemini/Workspace seat is already modeled."
+      "notes": "Do not double-count if Gemini/Workspace seat is already modeled.",
+      "commercial_bundle_id": "google-workspace-gemini-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "When these capabilities are bundled in the same eligible Workspace Enterprise seat, count the Workspace seat once. Use NotebookLM Enterprise separately only when that governed standalone surface is procured."
     },
     {
       "solution_id": "youcom-enterprise",
@@ -3512,7 +3584,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "Intelligent recap is also available through some Teams Premium paths; avoid double-counting overlapping prerequisites."
+      "notes": "Intelligent recap is also available through some Teams Premium paths; avoid double-counting overlapping prerequisites.",
+      "commercial_bundle_id": "microsoft-365-copilot-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "Researcher and Teams Copilot/recap capabilities can be included under the same M365 Copilot entitlement. Count one seat plus prerequisites, not three AI seats."
     },
     {
       "solution_id": "fireflies",
@@ -4307,7 +4382,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "vllm",
@@ -4349,7 +4427,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "kilo-code",
@@ -4460,7 +4541,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "kilo-platform-plus-inference",
+      "marginal_cost_rule": "fixed_plus_external_or_gateway",
+      "double_count_notes": "TCO = Kilo platform seat + provider/Gateway inference + optional cloud compute; do not assume the $15 Teams seat includes inference."
     },
     {
       "solution_id": "replit-agent",
@@ -4669,7 +4753,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "jetbrains-ai-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "Junie and JetBrains AI Assistant draw from the same JetBrains AI plan/credits; do not cost them as two independent AI seats."
     },
     {
       "solution_id": "moveworks",
@@ -5836,7 +5923,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "vectorcast-ai",
@@ -6236,7 +6326,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "kodus-platform-plus-byok",
+      "marginal_cost_rule": "fixed_plus_external",
+      "double_count_notes": "TCO = Kodus seat + direct model-provider token spend; Kodus states zero markup on BYOK inference."
     },
     {
       "solution_id": "deepsource",
@@ -6538,7 +6631,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "perforce-klocwork-ai",
@@ -6881,7 +6977,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "No software license cost; external inference/operations must be added."
+      "notes": "No software license cost; external inference/operations must be added.",
+      "commercial_bundle_id": "open-source-plus-inference",
+      "marginal_cost_rule": "external_inference",
+      "double_count_notes": "Software-license cost may be zero; total cost must include model/API or self-hosted compute, plus operational labor."
     },
     {
       "solution_id": "bito-code-review",
@@ -7241,7 +7340,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "notion-business-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "AI Meeting Notes is bundled with Notion Business/Enterprise; if Notion Business is already a company baseline, use incremental AI/credit cost only."
     },
     {
       "solution_id": "google-meet-gemini-notes",
@@ -7290,7 +7392,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": "Do not double-count if the same Workspace seat is already modeled for Gemini."
+      "notes": "Do not double-count if the same Workspace seat is already modeled for Gemini.",
+      "commercial_bundle_id": "google-workspace-gemini-seat",
+      "marginal_cost_rule": "shared_entitlement",
+      "double_count_notes": "Take notes for me is bundled in eligible Workspace/Gemini plans; avoid a second AI seat charge."
     },
     {
       "solution_id": "granola-enterprise",
@@ -7437,7 +7542,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "elastic-cloud-plus-ai",
+      "marginal_cost_rule": "add_on_to_prerequisite",
+      "double_count_notes": "Agent Builder executions and managed LLM tokens are incremental to Elasticsearch/Observability/Security resource consumption."
     },
     {
       "solution_id": "make-ai-agents",
@@ -7727,7 +7835,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "sentry-paid-plan-plus-seer",
+      "marginal_cost_rule": "add_on_to_prerequisite",
+      "double_count_notes": "Seer is an add-on to a paid Sentry plan: TCO = base Sentry plan + $40 per active contributor/month."
     },
     {
       "solution_id": "datadog-bits-ai",
@@ -7773,7 +7884,10 @@
         }
       ],
       "evidence_scope": "official_commercial_model_no_public_amount",
-      "notes": "No usable public enterprise monetary amount captured; estimate is sensitivity-only."
+      "notes": "No usable public enterprise monetary amount captured; estimate is sensitivity-only.",
+      "commercial_bundle_id": "datadog-platform-plus-ai",
+      "marginal_cost_rule": "add_on_to_prerequisite",
+      "double_count_notes": "Bits AI must be modeled with underlying Datadog telemetry/platform consumption; AI cost alone is not full TCO."
     },
     {
       "solution_id": "newrelic-autopilot",
@@ -7818,7 +7932,10 @@
         }
       ],
       "evidence_scope": "official_commercial_model_no_public_amount",
-      "notes": "No usable public enterprise monetary amount captured; estimate is sensitivity-only."
+      "notes": "No usable public enterprise monetary amount captured; estimate is sensitivity-only.",
+      "commercial_bundle_id": "newrelic-platform-plus-ai",
+      "marginal_cost_rule": "add_on_to_prerequisite",
+      "double_count_notes": "Autopilot/New Relic AI rides on New Relic observability consumption; avoid treating AI as the entire platform cost."
     },
     {
       "solution_id": "grafana-ai",
@@ -7884,7 +8001,10 @@
         }
       ],
       "evidence_scope": "official_price_verified",
-      "notes": ""
+      "notes": "",
+      "commercial_bundle_id": "grafana-cloud-plus-ai",
+      "marginal_cost_rule": "add_on_to_prerequisite",
+      "double_count_notes": "Grafana Assistant cost is additional to the Grafana Cloud platform fee and other observability consumption."
     },
     {
       "solution_id": "dynatrace-assist",
@@ -7929,7 +8049,10 @@
         }
       ],
       "evidence_scope": "official_commercial_model_no_public_amount",
-      "notes": "No usable public enterprise monetary amount captured; estimate is sensitivity-only."
+      "notes": "No usable public enterprise monetary amount captured; estimate is sensitivity-only.",
+      "commercial_bundle_id": "dynatrace-platform-plus-ai",
+      "marginal_cost_rule": "add_on_to_prerequisite",
+      "double_count_notes": "Dynatrace Assist depends on Dynatrace platform consumption and contract."
     },
     {
       "solution_id": "harness-ai-devops",
@@ -7975,5 +8098,10 @@
       "evidence_scope": "official_commercial_model_no_public_amount",
       "notes": "No usable public enterprise monetary amount captured; estimate is sensitivity-only."
     }
-  ]
+  ],
+  "bundle_rules": {
+    "purpose": "Prevent double counting when several catalog solutions are capabilities of one commercial entitlement or when an AI add-on requires a paid base platform.",
+    "default_rule": "independent_cost_unless_bundle_or_prerequisite_is_declared",
+    "known_bundle_count": 17
+  }
 }
