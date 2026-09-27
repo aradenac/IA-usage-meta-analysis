@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-27",
+  "families": {
+    "code-review-specialist": {
+      "verify-mr": 1,
+      "cyber-review": 0.45,
+      "safety-review": 0.3,
+      "verify-coding-rules": 0.25,
+      "dev-refactor": 0.2
+    },
+    "requirements-quality": {
+      "req-write-sw": 1,
+      "req-review": 1,
+      "req-decompose": 0.6,
+      "req-system-impact": 0.55,
+      "process-evidence": 0.25
+    },
+    "requirements-traceability": {
+      "req-traceability": 1,
+      "req-change-impact": 0.85,
+      "process-aspice": 0.9,
+      "process-evidence": 0.9,
+      "req-decompose": 0.55,
+      "collab-status": 0.35
+    },
+    "requirements-to-test": {
+      "verify-req-tests": 1,
+      "verify-unit": 0.8,
+      "verify-coverage": 0.7,
+      "req-traceability": 0.55,
+      "verify-loop": 0.5
+    },
+    "static-analysis-remediation": {
+      "verify-static": 1,
+      "verify-coding-rules": 1,
+      "cyber-review": 0.6,
+      "verify-mr": 0.45,
+      "dev-refactor": 0.35,
+      "process-evidence": 0.3
+    },
+    "hil-test-agent": {
+      "verify-hil": 1,
+      "verify-integration": 0.85,
+      "verify-req-tests": 0.75,
+      "verify-loop": 0.7,
+      "verify-results": 0.55,
+      "debug-hw-sw": 0.5
+    },
+    "enterprise-search": {
+      "research-multidoc": 1,
+      "collab-status": 0.85,
+      "research-docs": 0.8,
+      "research-source": 0.65,
+      "collab-confluence": 0.55,
+      "collab-sharepoint": 0.55,
+      "collab-jira": 0.4,
+      "learn-explain": 0.4
+    },
+    "deep-research": {
+      "research-state-art": 1,
+      "research-web": 1,
+      "research-source": 0.85,
+      "research-relevant": 0.8,
+      "arch-choice": 0.6,
+      "debug-vendor": 0.55,
+      "watch-tech": 0.75,
+      "research-field": 0.7
+    },
+    "literature-search": {
+      "research-state-art": 1,
+      "research-source": 1,
+      "research-web": 0.8,
+      "research-relevant": 0.8,
+      "watch-tech": 0.55
+    },
+    "documentation-assistant": {
+      "doc-code": 1,
+      "doc-sync": 0.95,
+      "research-docs": 0.85,
+      "research-multidoc": 0.7,
+      "doc-architecture": 0.55,
+      "collab-confluence": 0.45
+    },
+    "meeting-intelligence": {
+      "collab-meeting": 1,
+      "collab-ticket": 0.5,
+      "collab-jira": 0.4,
+      "collab-status": 0.35
+    },
+    "observability-investigation": {
+      "debug-intermittent": 1,
+      "debug-performance": 1,
+      "debug-crash": 0.85,
+      "verify-results": 0.8,
+      "debug-embedded": 0.55,
+      "debug-vendor": 0.45,
+      "ci-build": 0.35
+    },
+    "workflow-agent": {
+      "collab-workflow": 1,
+      "ci-automation": 0.85,
+      "collab-jira": 0.65,
+      "collab-backlog": 0.6,
+      "collab-ticket": 0.6,
+      "collab-confluence": 0.55,
+      "collab-sharepoint": 0.55,
+      "collab-status": 0.55,
+      "release-notes": 0.45
+    },
+    "threat-modeling": {
+      "cyber-threat": 1,
+      "cyber-impact": 0.9,
+      "cyber-review": 0.75,
+      "cyber-artifacts": 0.75,
+      "cyber-compliance": 0.65,
+      "process-evidence": 0.3
+    },
+    "document-ai": {
+      "doc-datasheet": 0.75,
+      "research-docs": 0.8,
+      "research-multidoc": 0.55,
+      "req-system-impact": 0.3,
+      "req-review": 0.3
+    },
+    "architecture-modeling": {
+      "arch-software": 1,
+      "arch-detailed-design": 1,
+      "arch-review": 0.8,
+      "arch-diagram": 0.9,
+      "arch-understand": 0.65,
+      "doc-architecture": 0.65
+    },
+    "agentic-coding-field": {
+      "dev-feature": 0.85,
+      "dev-module": 0.9,
+      "dev-driver-adapt": 0.85,
+      "dev-driver-port": 0.85,
+      "dev-driver-datasheet": 0.8,
+      "dev-protocol": 0.8,
+      "dev-refactor": 0.8,
+      "debug-known": 0.75,
+      "debug-embedded": 0.75,
+      "debug-intermittent": 0.65,
+      "upstream-backport": 0.7,
+      "upstream-contribute": 0.75
+    }
+  }
+}
