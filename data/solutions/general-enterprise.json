@@ -1,0 +1,539 @@
+[
+  {
+    "id": "chatgpt-enterprise",
+    "name": "ChatGPT Business / Enterprise + Deep Research / Work",
+    "vendor": "OpenAI",
+    "category": "general-assistant",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "mobile"
+    ],
+    "capabilities": [
+      "general-reasoning",
+      "deep-research",
+      "web-search",
+      "files",
+      "connectors",
+      "mcp",
+      "documents",
+      "spreadsheets",
+      "presentations",
+      "coding"
+    ],
+    "integrations": [
+      "SharePoint",
+      "GitHub",
+      "Google Drive",
+      "MCP",
+      "apps"
+    ],
+    "official_url": "https://openai.com/business/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "claude-enterprise",
+    "name": "Claude Enterprise / Cowork",
+    "vendor": "Anthropic",
+    "category": "general-assistant",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "cloud-provider"
+    ],
+    "surfaces": [
+      "web",
+      "desktop"
+    ],
+    "capabilities": [
+      "general-reasoning",
+      "research",
+      "web-search",
+      "files",
+      "mcp",
+      "connectors",
+      "multi-app-agent",
+      "documents"
+    ],
+    "integrations": [
+      "MCP",
+      "connectors"
+    ],
+    "official_url": "https://www.anthropic.com/enterprise",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "mistral-vibe-work",
+    "name": "Mistral Vibe Work",
+    "vendor": "Mistral AI",
+    "category": "general-assistant",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "mobile"
+    ],
+    "capabilities": [
+      "general-reasoning",
+      "web-search",
+      "multi-step",
+      "files",
+      "connectors",
+      "mcp",
+      "documents",
+      "spreadsheets",
+      "presentations",
+      "project-actions"
+    ],
+    "integrations": [
+      "Jira",
+      "Confluence",
+      "SharePoint",
+      "GitHub",
+      "MCP"
+    ],
+    "official_url": "https://docs.mistral.ai/vibe/work/get-started",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "gemini-enterprise",
+    "name": "Gemini Enterprise / Deep Research",
+    "vendor": "Google",
+    "category": "general-assistant",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "google-cloud"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "general-reasoning",
+      "deep-research",
+      "web-search",
+      "files",
+      "workspace-context",
+      "documents"
+    ],
+    "integrations": [
+      "Google Workspace"
+    ],
+    "official_url": "https://gemini.google.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "gemini-notebook-enterprise",
+    "name": "Gemini Notebook Enterprise",
+    "vendor": "Google Cloud",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "google-cloud"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "grounded-qa",
+      "long-documents",
+      "pdfs",
+      "summarization",
+      "research"
+    ],
+    "integrations": [
+      "Google Docs",
+      "Slides",
+      "URLs"
+    ],
+    "official_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/overview",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "perplexity-enterprise",
+    "name": "Perplexity Enterprise Pro",
+    "vendor": "Perplexity",
+    "category": "research-assistant",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "mobile"
+    ],
+    "capabilities": [
+      "web-search",
+      "research",
+      "citations",
+      "files",
+      "internal-knowledge"
+    ],
+    "integrations": [
+      "enterprise-connectors"
+    ],
+    "official_url": "https://www.perplexity.ai/enterprise",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "m365-copilot",
+    "name": "Microsoft 365 Copilot",
+    "vendor": "Microsoft",
+    "category": "productivity-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "word",
+      "excel",
+      "powerpoint",
+      "web",
+      "teams"
+    ],
+    "capabilities": [
+      "documents",
+      "spreadsheets",
+      "presentations",
+      "enterprise-search",
+      "office-native",
+      "agentic-editing"
+    ],
+    "integrations": [
+      "SharePoint",
+      "OneDrive",
+      "Teams",
+      "Microsoft Graph"
+    ],
+    "official_url": "https://www.microsoft.com/microsoft-365-copilot",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "atlassian-rovo",
+    "name": "Atlassian Rovo",
+    "vendor": "Atlassian",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "jira",
+      "confluence",
+      "web"
+    ],
+    "capabilities": [
+      "enterprise-search",
+      "chat",
+      "agents",
+      "jira-actions",
+      "confluence-actions",
+      "web-search"
+    ],
+    "integrations": [
+      "Jira",
+      "Confluence",
+      "third-party apps"
+    ],
+    "official_url": "https://www.atlassian.com/software/rovo",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "glean",
+    "name": "Glean",
+    "vendor": "Glean",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "enterprise-search",
+      "assistant",
+      "agents",
+      "permission-aware",
+      "actions",
+      "internal-knowledge"
+    ],
+    "integrations": [
+      "Jira",
+      "Confluence",
+      "SharePoint",
+      "GitHub"
+    ],
+    "official_url": "https://www.glean.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "lighton-paradigm",
+    "name": "LightOn Paradigm",
+    "vendor": "LightOn",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "hybrid",
+      "on-prem",
+      "air-gapped"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "enterprise-search",
+      "rag",
+      "agents",
+      "document-understanding",
+      "mcp",
+      "permission-aware"
+    ],
+    "integrations": [
+      "SharePoint",
+      "LDAP",
+      "Active Directory",
+      "MCP"
+    ],
+    "official_url": "https://www.lighton.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "vendor": "Open WebUI",
+    "category": "self-hosted-assistant",
+    "status": "active",
+    "deployment": [
+      "self-hosted",
+      "offline",
+      "byok"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "general-assistant",
+      "multi-model",
+      "rag",
+      "mcp",
+      "tools",
+      "files"
+    ],
+    "integrations": [
+      "Ollama",
+      "OpenAI-compatible APIs",
+      "MCP"
+    ],
+    "official_url": "https://docs.openwebui.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "vendor": "n8n",
+    "category": "workflow-platform",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "mcp"
+    ],
+    "capabilities": [
+      "workflow",
+      "agents",
+      "mcp",
+      "automation",
+      "connectors",
+      "human-in-loop"
+    ],
+    "integrations": [
+      "GitLab",
+      "Jira",
+      "Confluence",
+      "SharePoint via connector/API",
+      "MCP"
+    ],
+    "official_url": "https://n8n.io/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "vendor": "Dify",
+    "category": "workflow-platform",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "workflow",
+      "agents",
+      "rag",
+      "knowledge-base",
+      "multi-model",
+      "tools"
+    ],
+    "integrations": [
+      "APIs",
+      "plugins"
+    ],
+    "official_url": "https://dify.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "copilot-studio",
+    "name": "Microsoft Copilot Studio",
+    "vendor": "Microsoft",
+    "category": "workflow-platform",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "agents",
+      "workflow",
+      "connectors",
+      "enterprise-actions",
+      "mcp"
+    ],
+    "integrations": [
+      "Power Platform",
+      "SharePoint",
+      "Microsoft Graph",
+      "custom connectors"
+    ],
+    "official_url": "https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "microsoft-researcher",
+    "name": "Microsoft 365 Copilot Researcher",
+    "vendor": "Microsoft",
+    "category": "research-assistant",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "m365"
+    ],
+    "capabilities": [
+      "deep-research",
+      "enterprise-search",
+      "web-search",
+      "citations",
+      "work-data"
+    ],
+    "integrations": [
+      "Microsoft 365",
+      "SharePoint",
+      "Web"
+    ],
+    "official_url": "https://support.microsoft.com/en-us/topic/researcher-in-microsoft-365-copilot",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "vendor": "Google",
+    "category": "research-assistant",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "mobile"
+    ],
+    "capabilities": [
+      "grounded-qa",
+      "source-synthesis",
+      "pdfs",
+      "web-sources",
+      "audio-overviews"
+    ],
+    "integrations": [
+      "Google Drive",
+      "URLs"
+    ],
+    "official_url": "https://notebooklm.google/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "youcom-enterprise",
+    "name": "You.com Enterprise AI",
+    "vendor": "You.com",
+    "category": "research-assistant",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "api"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "web-search",
+      "research",
+      "agents",
+      "citations"
+    ],
+    "integrations": [
+      "APIs"
+    ],
+    "official_url": "https://you.com/enterprise",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  }
+]
