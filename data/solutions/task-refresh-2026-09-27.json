@@ -514,5 +514,346 @@
     "official_url": "https://www.spread.ai/product-explorer",
     "verified_at": "2026-09-27",
     "notes": "Navigable engineering product model connecting functions, components, signals, requirements, software and variants; natural-language queries trace answers back to source data."
+  },
+  {
+    "id": "embedder-ai",
+    "name": "Embedder",
+    "vendor": "Embedder Tech",
+    "category": "embedded-firmware-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "on-premise",
+      "byoc"
+    ],
+    "surfaces": [
+      "vscode",
+      "cli",
+      "daemon",
+      "ci"
+    ],
+    "capabilities": [
+      "firmware-code-generation",
+      "datasheet-grounding",
+      "schematic-ingestion",
+      "device-drivers",
+      "board-bring-up",
+      "build-flash-debug",
+      "hil",
+      "sil",
+      "rtos-migration",
+      "performance-optimization",
+      "hardware-debug"
+    ],
+    "integrations": [
+      "J-Link",
+      "J-Trace",
+      "GDB",
+      "logic-analyzers",
+      "oscilloscopes",
+      "power-profilers",
+      "CI",
+      "GitHub",
+      "Slack"
+    ],
+    "official_url": "https://embedder.com/",
+    "verified_at": "2026-09-27",
+    "notes": "Purpose-built firmware agent. Reads datasheets/reference manuals/errata and schematics, writes part-specific drivers, builds/flashes/tests on real hardware, and supports major MCU ecosystems plus Zephyr/RTOS migration."
+  },
+  {
+    "id": "hydron",
+    "name": "Hydron",
+    "vendor": "H2Loop",
+    "category": "embedded-firmware-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "vscode",
+      "cli"
+    ],
+    "capabilities": [
+      "spec-aware-code-generation",
+      "datasheet-grounding",
+      "hardware-knowledge-graph",
+      "codebase-indexing",
+      "firmware-debug",
+      "build-loop",
+      "hardware-in-the-loop",
+      "serial-monitor",
+      "c-cpp-rust"
+    ],
+    "integrations": [
+      "vendor-toolchains",
+      "BSPs",
+      "serial",
+      "project-datasources"
+    ],
+    "official_url": "https://www.hydron.sh/",
+    "verified_at": "2026-09-27",
+    "notes": "Hardware-native embedded coding assistant grounded in indexed datasheets, reference manuals, errata, schematics, BSPs and project code; provides agentic build/debug and HIL workflows."
+  },
+  {
+    "id": "mplab-ai-coding-assistant",
+    "name": "MPLAB AI Coding Assistant",
+    "vendor": "Microchip",
+    "category": "embedded-firmware-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "vendor-service"
+    ],
+    "surfaces": [
+      "vscode",
+      "mcp"
+    ],
+    "capabilities": [
+      "microchip-code-generation",
+      "autocomplete",
+      "agent-mode",
+      "codebase-query",
+      "inline-edit",
+      "terminal-fix",
+      "datasheet-retrieval",
+      "example-project-search",
+      "embedded-debug-assistance"
+    ],
+    "integrations": [
+      "MPLAB Tools for VS Code",
+      "Microchip datasheets",
+      "Microchip Developer Help",
+      "MCP"
+    ],
+    "official_url": "https://www.microchip.com/en-us/tools-resources/develop/mplab-tools-vs-code/mplab-ai-coding-assistant",
+    "verified_at": "2026-09-27",
+    "notes": "Free Microchip-specific assistant with Agent Mode and an MCP server exposing datasheets, board guides, compiler guides and examples. Can create/edit files, query codebases and fix terminal errors."
+  },
+  {
+    "id": "iocomposer",
+    "name": "IOcomposer",
+    "vendor": "I-SYST",
+    "category": "embedded-firmware-ai",
+    "status": "preview",
+    "deployment": [
+      "local-client"
+    ],
+    "surfaces": [
+      "ide"
+    ],
+    "capabilities": [
+      "embedded-c-cpp",
+      "sdk-grounding",
+      "code-generation",
+      "build",
+      "flash",
+      "swd-jtag-debug",
+      "project-generation",
+      "ble",
+      "hardware-context"
+    ],
+    "integrations": [
+      "GCC Arm",
+      "OpenOCD",
+      "Nordic SDK",
+      "local SDK headers"
+    ],
+    "official_url": "https://iocomposer.io/",
+    "verified_at": "2026-09-27",
+    "notes": "Embedded C/C++ IDE with AI grounded in installed SDK headers and deterministic build→flash→debug workflow. Current highlighted targets are Nordic nRF52832/nRF52840/nRF54L15; other vendors are preview."
+  },
+  {
+    "id": "tuyaopen-ide",
+    "name": "TuyaOpen IDE",
+    "vendor": "Tuya",
+    "category": "embedded-iot-ai",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "cloud-connected"
+    ],
+    "surfaces": [
+      "vscode",
+      "cursor"
+    ],
+    "capabilities": [
+      "firmware-generation",
+      "hardware-context",
+      "project-generation",
+      "build",
+      "flash",
+      "debug",
+      "iot-cloud",
+      "app-generation",
+      "c-cpp",
+      "hil"
+    ],
+    "integrations": [
+      "TuyaOpen SDK",
+      "Tuya Cloud",
+      "ESP32",
+      "Tuya T-series",
+      "PlatformIO ecosystem"
+    ],
+    "official_url": "https://docs.tuyaopen.ai/docs/ide",
+    "verified_at": "2026-09-27",
+    "notes": "AI-era embedded environment for TuyaOpen/ESP32-class devices; natural-language agent creates projects and firmware with board/pin context and a build/flash/log hardware loop."
+  },
+  {
+    "id": "byteask",
+    "name": "ByteAsk",
+    "vendor": "ByteAsk",
+    "category": "c-cpp-coding-agent",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "saas"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "c-cpp",
+      "repo-edit",
+      "compile",
+      "tests",
+      "sanitizers",
+      "gdb",
+      "lldb",
+      "profiling",
+      "binary-analysis",
+      "datasheet-reference",
+      "standards-reference"
+    ],
+    "integrations": [
+      "GCC",
+      "Clang",
+      "CMake",
+      "Make",
+      "gdb",
+      "lldb",
+      "Valgrind",
+      "ASan",
+      "UBSan",
+      "TSan",
+      "Git"
+    ],
+    "official_url": "https://www.byteask.ai/",
+    "verified_at": "2026-09-27",
+    "notes": "C/C++-specialized coding agent that runs the project compiler, tests, sanitizers and debugger and exposes raw tool output; grounded reference corpora include standards and datasheets."
+  },
+  {
+    "id": "fw-context-mcp",
+    "name": "fw-context MCP",
+    "vendor": "community",
+    "category": "embedded-code-intelligence",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "mcp"
+    ],
+    "capabilities": [
+      "embedded-c-cpp",
+      "compiler-aware-indexing",
+      "call-graph",
+      "conditional-compilation",
+      "code-intelligence",
+      "mcp",
+      "zephyr-context"
+    ],
+    "integrations": [
+      "Claude",
+      "OpenCode",
+      "Cursor",
+      "MCP-capable assistants",
+      "compile_commands.json"
+    ],
+    "official_url": "https://pypi.org/project/fw-context-mcp/",
+    "verified_at": "2026-09-27",
+    "notes": "Build-aware local MCP server for embedded C/C++ firmware, designed to give coding agents compiler-accurate context rather than grep-based approximations."
+  },
+  {
+    "id": "refact-ai",
+    "name": "Refact.ai",
+    "vendor": "Refact.ai",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "ide",
+      "agent"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "debug",
+      "refactor",
+      "review",
+      "c",
+      "c-plus-plus",
+      "python",
+      "multi-model"
+    ],
+    "integrations": [
+      "GitHub",
+      "Docker",
+      "databases",
+      "IDE"
+    ],
+    "official_url": "https://refact.ai/",
+    "verified_at": "2026-09-27",
+    "notes": "General autonomous coding agent with C/C++ and Python support, BYOK and self-hosted deployment; relevant as another current direct coding surface."
+  },
+  {
+    "id": "qodeassist",
+    "name": "QodeAssist",
+    "vendor": "Palm1r",
+    "category": "c-plus-plus-coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "qt-creator",
+      "mcp"
+    ],
+    "capabilities": [
+      "c-plus-plus",
+      "qml",
+      "completion",
+      "chat",
+      "refactor",
+      "project-aware-tools",
+      "build",
+      "terminal",
+      "compiler-diagnostics",
+      "mcp"
+    ],
+    "integrations": [
+      "Qt Creator",
+      "Ollama",
+      "llama.cpp",
+      "OpenAI",
+      "Claude",
+      "Google AI",
+      "Mistral",
+      "Qwen",
+      "DeepSeek",
+      "MCP"
+    ],
+    "official_url": "https://github.com/Palm1r/QodeAssist",
+    "verified_at": "2026-09-27",
+    "notes": "AI assistant for Qt Creator with C++/QML completion, inline refactoring and agent tools that can inspect/edit files, build projects and consume compiler diagnostics."
   }
 ]
