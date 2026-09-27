@@ -81,3 +81,8 @@ After the Cloudflare project and GitHub secrets exist, run:
 **GitHub > Actions > Deploy website to Cloudflare Pages > Run workflow**
 
 or push a change to `site/index.html`.
+
+## References
+
+- [Cloudflare Pages — Direct Upload with continuous integration](https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/)
+- [Wrangler Pages commands](https://developers.cloudflare.com/workers/wrangler/commands/pages/)
