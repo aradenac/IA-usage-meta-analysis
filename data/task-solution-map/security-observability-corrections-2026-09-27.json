@@ -1,0 +1,24 @@
+[
+  {
+    "task_id": "cyber-review",
+    "native": [],
+    "direct": [
+      "elastic-agent-builder",
+      "datadog-bits-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-vuln",
+    "native": [],
+    "direct": [
+      "elastic-agent-builder",
+      "datadog-bits-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  }
+]
