@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "aider",
+    "name": "Aider",
+    "vendor": "Aider-AI",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "git",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://aider.chat/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "vendor": "Anthropic",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api",
+      "cloud-provider"
+    ],
+    "surfaces": [
+      "cli",
+      "ide"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "shell",
+      "mcp",
+      "long-agentic-work",
+      "review"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://docs.anthropic.com/en/docs/claude-code/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "codex-cli",
+    "name": "Codex CLI",
+    "vendor": "OpenAI",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "shell",
+      "mcp",
+      "review"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://developers.openai.com/codex/cli/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "cline",
+    "name": "Cline",
+    "vendor": "Cline",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "shell",
+      "mcp",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://cline.bot/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "vendor": "OpenCode",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli",
+      "ide",
+      "desktop"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "shell",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://opencode.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "vendor": "OpenHands",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "self-hosted",
+      "cloud",
+      "byok"
+    ],
+    "surfaces": [
+      "web",
+      "cli",
+      "sdk"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "shell",
+      "sandbox",
+      "mcp"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://docs.openhands.dev/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "penguin-harness",
+    "name": "PenguinHarness",
+    "vendor": "PrismShadow",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "self-hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "cli",
+      "platform"
+    ],
+    "capabilities": [
+      "code-agent",
+      "multi-agent",
+      "skills",
+      "evaluation"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/Prism-Shadow/penguin-harness",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "deepseek-harness",
+    "name": "DeepSeek Harness",
+    "vendor": "DeepSeek AI",
+    "category": "coding",
+    "status": "preview",
+    "deployment": [
+      "self-hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "web",
+      "platform"
+    ],
+    "capabilities": [
+      "code-agent",
+      "plugins",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/deepseek-ai/deepseek-harness",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "maka",
+    "name": "Apache Maka",
+    "vendor": "Apache Software Foundation",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "self-hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "cli",
+      "workspace"
+    ],
+    "capabilities": [
+      "code-agent",
+      "traceability",
+      "reproducible-runs",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/apache/maka",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "reasonix",
+    "name": "Reasonix",
+    "vendor": "community",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "shell",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/MitsuhaYuki/reasonix",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "zcode",
+    "name": "ZCode",
+    "vendor": "Z.ai",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "cloud"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "shell"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/zai-org/ZCode",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "qwen-code",
+    "name": "Qwen Code",
+    "vendor": "Qwen",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli",
+      "ide",
+      "desktop",
+      "web"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "shell",
+      "mcp",
+      "skills",
+      "subagents",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://github.com/QwenLM/qwen-code",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "kimi-code",
+    "name": "Kimi Code",
+    "vendor": "Moonshot AI",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api"
+    ],
+    "surfaces": [
+      "cli",
+      "desktop",
+      "ide"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "shell",
+      "web-search"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://www.kimi.com/code/docs/en/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "vendor": "Google",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api",
+      "byok"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "shell",
+      "web-search",
+      "mcp"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://github.com/google-gemini/gemini-cli",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "factory-droid",
+    "name": "Factory Droid",
+    "vendor": "Factory",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "cloud",
+      "enterprise"
+    ],
+    "surfaces": [
+      "cli",
+      "desktop",
+      "web",
+      "ide",
+      "api"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "review",
+      "long-agentic-work",
+      "multi-model",
+      "mcp"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://factory.ai/product/droids",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "pi",
+    "name": "Pi",
+    "vendor": "Pi ecosystem",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "shell",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/badlogic/pi-mono",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "oh-my-pi",
+    "name": "Oh My Pi",
+    "vendor": "community",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "shell",
+      "lsp",
+      "debugger",
+      "browser",
+      "subagents"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://github.com/can1357/oh-my-pi",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "vendor": "Cursor",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "ide",
+      "desktop"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "codebase-search",
+      "multi-model",
+      "mcp"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://www.cursor.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "mistral-vibe-code",
+    "name": "Mistral Vibe Code",
+    "vendor": "Mistral AI",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api",
+      "enterprise"
+    ],
+    "surfaces": [
+      "cli",
+      "ide",
+      "web"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "shell",
+      "mcp",
+      "connectors",
+      "multi-step"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://docs.mistral.ai/vibe/code/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "vendor": "Amazon Web Services",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "web",
+      "mobile"
+    ],
+    "capabilities": [
+      "code-agent",
+      "spec-driven",
+      "requirements",
+      "architecture",
+      "tests",
+      "mcp",
+      "skills",
+      "hooks"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://kiro.dev/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "goose",
+    "name": "Goose",
+    "vendor": "Block / Agentic AI Foundation",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "self-hosted",
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "desktop",
+      "cli",
+      "api"
+    ],
+    "capabilities": [
+      "code-agent",
+      "general-agent",
+      "mcp",
+      "multi-model",
+      "workflow",
+      "shell"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://block.github.io/goose/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "jetbrains-junie",
+    "name": "Junie",
+    "vendor": "JetBrains",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "byok"
+    ],
+    "surfaces": [
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "shell",
+      "headless-ci",
+      "multi-model"
+    ],
+    "integrations": [
+      "JetBrains IDEs",
+      "GitLab CI"
+    ],
+    "official_url": "https://www.jetbrains.com/junie/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "vendor": "Continue",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "self-hosted",
+      "byok"
+    ],
+    "surfaces": [
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "mcp",
+      "multi-model",
+      "headless-ci"
+    ],
+    "integrations": [
+      "VS Code",
+      "JetBrains",
+      "MCP"
+    ],
+    "official_url": "https://www.continue.dev/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "augment-code",
+    "name": "Augment Code",
+    "vendor": "Augment",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "mcp"
+    ],
+    "capabilities": [
+      "code-agent",
+      "large-codebase",
+      "semantic-search",
+      "context-engine",
+      "review"
+    ],
+    "integrations": [
+      "Git",
+      "MCP"
+    ],
+    "official_url": "https://www.augmentcode.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody Enterprise",
+    "vendor": "Sourcegraph",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted",
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "web",
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "large-codebase",
+      "code-search",
+      "deep-search",
+      "mcp",
+      "enterprise-context"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitLab",
+      "MCP"
+    ],
+    "official_url": "https://sourcegraph.com/cody",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "amp",
+    "name": "Amp",
+    "vendor": "Sourcegraph / Amp",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "long-agentic-work"
+    ],
+    "integrations": [
+      "Git"
+    ],
+    "official_url": "https://ampcode.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "devin-desktop",
+    "name": "Devin Desktop",
+    "vendor": "Cognition",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "local-client",
+      "cloud"
+    ],
+    "surfaces": [
+      "desktop",
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "multi-agent",
+      "tests",
+      "debug",
+      "review",
+      "acp",
+      "long-agentic-work"
+    ],
+    "integrations": [
+      "Git",
+      "ACP"
+    ],
+    "official_url": "https://devin.ai/desktop",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "gitlab-duo",
+    "name": "GitLab Duo Agent Platform",
+    "vendor": "GitLab",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-managed",
+      "dedicated",
+      "self-hosted-models"
+    ],
+    "surfaces": [
+      "gitlab",
+      "ide",
+      "web"
+    ],
+    "capabilities": [
+      "code-agent",
+      "review",
+      "security-review",
+      "ci",
+      "repo-context",
+      "issue-context",
+      "self-hosted-models"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitLab CI"
+    ],
+    "official_url": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot Agents",
+    "vendor": "GitHub",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "github",
+      "desktop",
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "code-agent",
+      "cloud-agent",
+      "review",
+      "security",
+      "mcp",
+      "multi-model",
+      "pull-requests"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitHub Actions",
+      "MCP"
+    ],
+    "official_url": "https://github.com/features/copilot",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "vendor": "Tabnine",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted",
+      "on-prem",
+      "vpc"
+    ],
+    "surfaces": [
+      "ide"
+    ],
+    "capabilities": [
+      "code-agent",
+      "tests",
+      "docs",
+      "fixes",
+      "coding-standards",
+      "enterprise-context"
+    ],
+    "integrations": [
+      "Jira",
+      "IDEs"
+    ],
+    "official_url": "https://www.tabnine.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "amazon-q-developer",
+    "name": "Amazon Q Developer",
+    "vendor": "Amazon Web Services",
+    "category": "coding",
+    "status": "active-transition",
+    "deployment": [
+      "saas",
+      "aws"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "aws-console"
+    ],
+    "capabilities": [
+      "code-agent",
+      "aws-context",
+      "tests",
+      "review",
+      "security"
+    ],
+    "integrations": [
+      "AWS"
+    ],
+    "official_url": "https://aws.amazon.com/q/developer/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "coderabbit",
+    "name": "CodeRabbit",
+    "vendor": "CodeRabbit",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise-private-connectivity"
+    ],
+    "surfaces": [
+      "git-platform",
+      "ide",
+      "cli"
+    ],
+    "capabilities": [
+      "review",
+      "security-review",
+      "test-generation",
+      "suggested-fixes"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket",
+      "Azure DevOps"
+    ],
+    "official_url": "https://www.coderabbit.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "qodo",
+    "name": "Qodo",
+    "vendor": "Qodo",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "git-platform",
+      "ide"
+    ],
+    "capabilities": [
+      "review",
+      "requirements-checks",
+      "compliance-checks",
+      "test-generation",
+      "docs"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub",
+      "Bitbucket",
+      "Azure DevOps"
+    ],
+    "official_url": "https://www.qodo.ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "greptile",
+    "name": "Greptile",
+    "vendor": "Greptile",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "git-platform",
+      "cli"
+    ],
+    "capabilities": [
+      "review",
+      "repo-context",
+      "generated-tests",
+      "security-review",
+      "suggested-fixes"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub",
+      "Bitbucket"
+    ],
+    "official_url": "https://www.greptile.com/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  }
+]
