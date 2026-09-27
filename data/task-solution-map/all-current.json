@@ -6820,6 +6820,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -6856,8 +6860,16 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -6882,6 +6894,14 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "native"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -6918,6 +6938,10 @@
       {
         "solution_id": "mistral-vibe-code",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
       },
       {
         "solution_id": "n8n",
@@ -6960,6 +6984,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "refact-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "scaleway-genai-dedicated",
         "relationship": "backend"
       },
@@ -6977,6 +7005,10 @@
       },
       {
         "solution_id": "tabnine",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "tuyaopen-ide",
         "relationship": "direct"
       },
       {
@@ -7029,6 +7061,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "chatgpt-enterprise",
         "relationship": "direct"
       },
@@ -7073,8 +7109,16 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -7103,6 +7147,14 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -7145,6 +7197,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
+      },
+      {
         "solution_id": "n8n",
         "relationship": "custom_workflow"
       },
@@ -7182,6 +7238,10 @@
       },
       {
         "solution_id": "reasonix",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "refact-ai",
         "relationship": "direct"
       },
       {
@@ -7254,6 +7314,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "chatgpt-enterprise",
         "relationship": "direct"
       },
@@ -7298,8 +7362,16 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -7324,6 +7396,14 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -7363,6 +7443,10 @@
       },
       {
         "solution_id": "mistral-vibe-work",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "mplab-ai-coding-assistant",
         "relationship": "direct"
       },
       {
@@ -7407,6 +7491,10 @@
       },
       {
         "solution_id": "reasonix",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "refact-ai",
         "relationship": "direct"
       },
       {
@@ -7479,6 +7567,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -7523,8 +7615,16 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -7549,6 +7649,14 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "native"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -7587,6 +7695,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
+      },
+      {
         "solution_id": "n8n",
         "relationship": "custom_workflow"
       },
@@ -7623,11 +7735,19 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "qodeassist",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "qwen-code",
         "relationship": "direct"
       },
       {
         "solution_id": "reasonix",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "refact-ai",
         "relationship": "direct"
       },
       {
@@ -7649,6 +7769,10 @@
       {
         "solution_id": "tabnine",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "tuyaopen-ide",
+        "relationship": "native"
       },
       {
         "solution_id": "vllm",
@@ -7700,6 +7824,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -7744,8 +7872,16 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -7770,6 +7906,14 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "native"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -7808,6 +7952,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
+      },
+      {
         "solution_id": "n8n",
         "relationship": "custom_workflow"
       },
@@ -7844,11 +7992,19 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "qodeassist",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "qwen-code",
         "relationship": "direct"
       },
       {
         "solution_id": "reasonix",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "refact-ai",
         "relationship": "direct"
       },
       {
@@ -7874,6 +8030,10 @@
       {
         "solution_id": "tabnine",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "tuyaopen-ide",
+        "relationship": "native"
       },
       {
         "solution_id": "vllm",
@@ -7925,6 +8085,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "chatgpt-enterprise",
         "relationship": "direct"
       },
@@ -7969,8 +8133,16 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -7999,6 +8171,14 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -8039,6 +8219,10 @@
       {
         "solution_id": "mistral-vibe-work",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
       },
       {
         "solution_id": "n8n",
@@ -8085,6 +8269,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "refact-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "scaleway-genai-dedicated",
         "relationship": "backend"
       },
@@ -8103,6 +8291,10 @@
       {
         "solution_id": "tabnine",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "tuyaopen-ide",
+        "relationship": "native"
       },
       {
         "solution_id": "vector-canoe-ai",
@@ -8294,6 +8486,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "refact-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "replit-agent",
         "relationship": "direct"
       },
@@ -8371,6 +8567,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -8415,8 +8615,16 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -8441,6 +8649,14 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -8479,6 +8695,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
+      },
+      {
         "solution_id": "n8n",
         "relationship": "custom_workflow"
       },
@@ -8515,11 +8735,19 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "qodeassist",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "qwen-code",
         "relationship": "direct"
       },
       {
         "solution_id": "reasonix",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "refact-ai",
         "relationship": "direct"
       },
       {
@@ -8540,6 +8768,10 @@
       },
       {
         "solution_id": "tabnine",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "tuyaopen-ide",
         "relationship": "direct"
       },
       {
@@ -8592,6 +8824,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -8636,8 +8872,16 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -8662,6 +8906,14 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "iocomposer",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -8700,6 +8952,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
+      },
+      {
         "solution_id": "n8n",
         "relationship": "custom_workflow"
       },
@@ -8736,11 +8992,19 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "qodeassist",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "qwen-code",
         "relationship": "direct"
       },
       {
         "solution_id": "reasonix",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "refact-ai",
         "relationship": "direct"
       },
       {
@@ -8761,6 +9025,10 @@
       },
       {
         "solution_id": "tabnine",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "tuyaopen-ide",
         "relationship": "direct"
       },
       {
