@@ -823,5 +823,35 @@
     "source_grade": "A",
     "source": "https://arxiv.org/abs/2601.13864",
     "notes": "Supporting contrast: median functional pass@1 is ~88.195% while median security pass@1 is ~33.565%. This demonstrates that functional success must not be treated as evidence of secure firmware/code generation."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-architecture-sake-knowledge-2026",
+    "family": "architecture-knowledge",
+    "benchmark": "SAKE",
+    "version": "2026-06",
+    "evidence_type": "academic-reproducible-benchmark",
+    "metric": "median zero-shot architecture-knowledge accuracy across 11 current models",
+    "value": 0.9338,
+    "probability_proxy": 0.9338,
+    "n": 2114,
+    "source_grade": "A",
+    "source": "https://arxiv.org/abs/2606.29520",
+    "notes": "2,154 expert-curated questions with 40 held out for five-shot examples, leaving 2,114 scored items across eight architecture categories. Eleven 2026 models score 90.96–93.95% zero-shot; median is 93.38%. This measures declarative architectural knowledge/decision concepts, not ability to synthesize a structurally correct design, so task relevance is deliberately capped below 1."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-architecture-sake-r2abench-gap-2026",
+    "family": "architecture-knowledge",
+    "benchmark": "SAKE vs R2ABench capability contrast",
+    "version": "2026 evidence synthesis",
+    "evidence_type": "derived-cross-benchmark-signal",
+    "metric": "knowledge-to-generation transfer warning",
+    "value": 1,
+    "probability_proxy": null,
+    "n": null,
+    "source_grade": "D",
+    "source": "https://arxiv.org/abs/2606.29520",
+    "notes": "SAKE's ~93% architecture knowledge accuracy coexists with R2ABench node F1 around 0.57 and edge F1 around 0.13. Kept as an explicit warning that architectural recall/MCQ competence must not be transferred directly to generation or diagram correctness."
   }
 ]
