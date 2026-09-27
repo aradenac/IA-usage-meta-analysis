@@ -191,7 +191,8 @@
     "task_id": "collab-backlog",
     "native": [],
     "direct": [
-      "loom-ai"
+      "loom-ai",
+      "zoom-ai-companion"
     ],
     "connected": [],
     "custom_workflow": [],
@@ -210,7 +211,8 @@
   {
     "task_id": "collab-jira",
     "native": [
-      "loom-ai"
+      "loom-ai",
+      "zoom-ai-companion"
     ],
     "direct": [],
     "connected": [],
@@ -220,7 +222,8 @@
   {
     "task_id": "collab-meeting",
     "native": [
-      "loom-ai"
+      "loom-ai",
+      "zoom-ai-companion"
     ],
     "direct": [],
     "connected": [],
@@ -230,7 +233,9 @@
   {
     "task_id": "collab-status",
     "native": [],
-    "direct": [],
+    "direct": [
+      "zoom-ai-companion"
+    ],
     "connected": [
       "loom-ai"
     ],
@@ -242,7 +247,9 @@
     "native": [
       "loom-ai"
     ],
-    "direct": [],
+    "direct": [
+      "zoom-ai-companion"
+    ],
     "connected": [],
     "custom_workflow": [],
     "backend": []
@@ -251,7 +258,8 @@
     "task_id": "collab-workflow",
     "native": [],
     "direct": [
-      "loom-ai"
+      "loom-ai",
+      "zoom-ai-companion"
     ],
     "connected": [],
     "custom_workflow": [],
