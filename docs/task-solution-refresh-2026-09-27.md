@@ -36,7 +36,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | Development | 9 | complete | 9/9 tasks explicitly searched; 9 additional current solution surfaces added. |
 | Debug / upstream | 10 | complete | 10/10 tasks explicitly searched; 3 new connected/observability solutions added; embedded agents remapped. |
 | Verification | 11 | complete | 11/11 tasks explicitly searched; corrected baseline count from 12 to 11; 4 industrial verification solutions added. |
-| Safety / cyber | 10 | pending | |
+| Safety / cyber | 10 | complete | 10/10 tasks explicitly searched; 8 product-security, safety and assessment solutions added. |
 | CI / tooling / release | 8 | pending | |
 | Documentation | 5 | pending | |
 | Collaboration | 8 | pending | |
@@ -204,3 +204,35 @@ The canonical task file actually contains **11** verification tasks, not 12; the
 Change log:
 - 2026-09-27 — verification domain completed; canonical inventory increased from 185 to 189 solutions.
 - 2026-09-27 — website snapshot regenerated from the 189-solution inventory.
+
+## Safety / cyber-domain audit
+
+Status: **complete (10/10 tasks searched explicitly)**.
+
+New solutions accepted:
+
+- **Cybellum Product Security Platform** — AI-driven SBOM/product-risk/vulnerability workflow for connected-device manufacturers, with contextual triage, remediation guidance, PSIRT and automated compliance evidence for CRA, ISO/SAE 21434 and IEC 62443.
+  - https://cybellum.com/platform/
+- **C2A Security EVSec + AutoSynth AI** — automotive/cyber-physical TARA, attack trees, continuous risk and regulatory work products, with AI-generated threat analyses and MCP/A2A agent integration.
+  - https://c2a-sec.com/platform/
+- **Finite State Product Security OS** — firmware/binary/source-grounded SBOM, exploitability/reachability analysis, VEX, threat/security-design context and continuous audit-ready evidence for connected products and CRA-style obligations.
+  - https://finitestate.io/platform
+- **Assessoris** — AI-assisted Automotive SPICE and ISO/SAE 21434 audit/assessment workspace, reading project work products and drafting evidence-cited findings.
+  - https://assessoris.com/
+- **Ketryx for Automotive** — ISO 26262 / ASPICE / UN R155 compliance overlay with automated traceability, safety-case evidence and process enforcement integrated into existing engineering tools.
+  - https://www.ketryx.com/industries/automotive
+- **Conformly.AI** — multi-agent analysis of ISO 26262, ASPICE and ISO/SAE 21434 work products, including gap findings, remediation plans, safety-case sections and compliance reports.
+  - https://www.conformly.ai/
+- **Auriga Nexus** — automotive-fenced AI suite spanning requirements, architecture, ISO 26262/ASPICE workflows, TARA/ISO 21434, test automation and traceable evidence across the V-cycle.
+  - https://www.auriga-nexus.com/
+  - https://www.auriga-nexus.com/products/auriga-shield
+- **Siemens Questa One ISO 26262 Functional Safety** — AI-powered end-to-end functional-safety verification workflow covering systematic/random failure analysis, safety metrics and safety-case support.
+  - https://www.siemens.com/en-us/products/ic/questa-one/functional-safety/iso-26262/
+
+Existing itemis SECURE, IriusRisk Jeff AI, ThreatModeler Nexus, ModelgraphX, KlugSpice and engineering-ALM products were re-confirmed and not duplicated.
+
+Research prototypes such as AutoTARA were not promoted into the production inventory merely because they demonstrate LLM-assisted TARA; product maturity and a concrete exploitable surface remain required.
+
+Change log:
+- 2026-09-28 — safety/cyber domain completed; canonical inventory increased from 189 to 197 solutions.
+- 2026-09-28 — website snapshot regenerated from the 197-solution inventory.
