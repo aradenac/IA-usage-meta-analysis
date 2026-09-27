@@ -1397,6 +1397,14 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "buildkite-agentic-ci",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "circleci-agentic-ci",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -1434,6 +1442,14 @@
       },
       {
         "solution_id": "gemini-cli",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-agentic-workflows",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "github-copilot",
         "relationship": "direct"
       },
       {
@@ -1606,6 +1622,14 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "buildkite-agentic-ci",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "circleci-agentic-ci",
+        "relationship": "native"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -1638,7 +1662,15 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "docker-gordon",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "elastic-agent-builder",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "embedder-ai",
         "relationship": "direct"
       },
       {
@@ -1647,6 +1679,14 @@
       },
       {
         "solution_id": "gemini-cli",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-agentic-workflows",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "github-copilot",
         "relationship": "direct"
       },
       {
@@ -1668,6 +1708,10 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -1703,6 +1747,10 @@
       },
       {
         "solution_id": "mistral-vibe-code",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "mplab-ai-coding-assistant",
         "relationship": "direct"
       },
       {
@@ -1751,6 +1799,10 @@
       },
       {
         "solution_id": "tabnine",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "tasking-agentic-toolchain",
         "relationship": "direct"
       },
       {
@@ -1844,6 +1896,10 @@
       },
       {
         "solution_id": "gemini-cli",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-copilot",
         "relationship": "direct"
       },
       {
@@ -2024,11 +2080,23 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "docker-gordon",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
       {
         "solution_id": "gemini-cli",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-agentic-workflows",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-copilot",
         "relationship": "direct"
       },
       {
@@ -2217,11 +2285,19 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
       {
         "solution_id": "gemini-cli",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-copilot",
         "relationship": "direct"
       },
       {
@@ -2239,6 +2315,10 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "direct"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -2370,6 +2450,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "claude-code",
         "relationship": "direct"
       },
@@ -2402,11 +2486,27 @@
         "relationship": "custom_workflow"
       },
       {
+        "solution_id": "docker-gordon",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
       {
+        "solution_id": "fw-context-mcp",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "gemini-cli",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-copilot",
         "relationship": "direct"
       },
       {
@@ -2424,6 +2524,10 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
       },
       {
         "solution_id": "jetbrains-ai-assistant",
@@ -2460,6 +2564,10 @@
       {
         "solution_id": "mistral-vibe-code",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
       },
       {
         "solution_id": "n8n",
@@ -2504,6 +2612,10 @@
       {
         "solution_id": "tabnine",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "tasking-agentic-toolchain",
+        "relationship": "native"
       },
       {
         "solution_id": "vllm",
@@ -11844,6 +11956,14 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "github-agentic-workflows",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "github-copilot",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "gitlab-duo",
         "relationship": "native"
       },
@@ -11981,7 +12101,15 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "buildkite-agentic-ci",
+        "relationship": "native"
+      },
+      {
         "solution_id": "chatgpt-enterprise",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "circleci-agentic-ci",
         "relationship": "direct"
       },
       {
@@ -12006,6 +12134,14 @@
       },
       {
         "solution_id": "gemini-enterprise",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-agentic-workflows",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "github-copilot",
         "relationship": "direct"
       },
       {
