@@ -1,14 +1,15 @@
-# Second-pass solution inventory audit — 2026-09-27
+# Extended solution inventory audit — 2026-09-27
 
 ## Result
 
-The availability inventory is considered **sufficiently broad to freeze phase 1** and move to evidence collection.
+The earlier 128-solution freeze was too early. Two additional gap-directed passes found several material families that matter directly to embedded-software engineering. Those gaps are now integrated.
 
 Current state:
 
-- 128 unique solution/product/backend entries;
+- 157 unique solution/product/backend entries;
 - all 86 business tasks mapped;
-- 33–68 unique candidates per task (48.3 average);
+- 4,340 unique task → candidate links;
+- 35–70 unique candidates per task (50.5 average);
 - 0 invalid solution references;
 - 0 discontinued/legacy products in active task mappings;
 - 0 evaluation-only scaffolds in active task mappings;
@@ -16,31 +17,45 @@ Current state:
 - 42 additional historical compatibility-only combinations preserved;
 - 15 specialist provider API configurations preserved.
 
-## Second-pass additions
+## What the extra passes changed
 
-The audit specifically filled gaps in:
+The most important correction is methodological: specialized engineering products must not be collapsed into the same category as generic LLM harnesses.
 
-- modern coding agents and IDEs;
-- GitLab merge-request AI review, including self-hostable choices;
-- embedded C/C++ verification and safety-critical testing;
-- requirements engineering and Automotive SPICE;
-- enterprise search and internal knowledge;
-- sovereign/private AI deployment;
-- technical-document retrieval and documentation platforms;
-- scientific/technical research;
-- PDF/document intelligence;
-- diagram generation;
-- meeting transcription/recap;
-- cybersecurity remediation and threat modeling;
-- agent/workflow orchestration.
+Several products now expose deterministic engineering context to AI agents:
 
-## Important embedded-specific additions
+- Perforce Klocwork 2026.2 exposes static-analysis defects and remediation guidance through MCP.
+- Black Duck Coverity 2026 adds an MCP scan surface and AI-assisted triage.
+- itemis ANALYZE exposes the engineering traceability graph through MCP and combines AI reasoning with deterministic trace/compliance checks.
+- itemis SECURE applies AI to TARA, attack trees, vulnerability impact and governed cybersecurity artifacts.
+- Kernaro Assist operates directly on live Sparx Enterprise Architect models.
+- Vector CANoe 20 SP2 exposes agents/skills/MCP for SIL/HIL workflows, including requirement → CAPL test → execute → analyze → correct → rerun.
+- tracetronic ecu.test agent generates test steps from test-workspace context and supports early trace-analysis workflows.
 
-- VectorCAST 2026 / Reqs2x for AI-assisted requirements-to-code mapping and executable requirement-based tests.
-- Parasoft C/C++test 2026.1 MCP workflows for C/C++ static analysis remediation, tests, MC/DC coverage and coding-rule workflows.
-- Kapa.ai as a technical-knowledge retrieval layer. The Zephyr Project itself exposes a Kapa assistant and MCP endpoint grounded in Zephyr documentation, source code, issues and pull requests.
-- Dedicated GitLab review choices such as Cursor Bugbot, CodeAnt, Kodus/Kody, DeepSource and community PR-Agent.
-- QRA QVscribe/ReqWriter, KlugSpice, ReqDrive, Reqi and Modern Requirements for requirements/process workflows.
+These are distinct solution classes because the LLM is grounded in structured engineering state that a generic code/chat harness does not possess by default.
+
+## Additional current products added
+
+The extended passes also added:
+
+- Tabby for self-hosted coding assistance;
+- Bito for GitLab/GitLab Self-Managed code review;
+- Warp as an agentic terminal/development environment;
+- Fern, ReadMe, Redocly and Document360 for AI-native technical documentation/search;
+- Notion AI Meeting Notes, Google Meet Gemini notes and Granola Enterprise for meeting capture;
+- Guru for permission-aware enterprise knowledge search;
+- Make AI Agents, Zapier Agents, Workato AIRO/GO and Tines AI Agent for enterprise workflow orchestration;
+- Elastic Agent Builder, Sentry Seer, Datadog Bits, New Relic Autopilot, Grafana AI and Dynatrace Assist for telemetry-grounded investigation;
+- Harness AI / Autonomous Worker Agents for governed AI in software-delivery pipelines.
+
+## Existing important embedded-specific products retained
+
+Earlier passes remain intact, notably:
+
+- VectorCAST 2026 / Reqs2x for AI-assisted requirements-to-code mapping and executable requirement-based tests;
+- Parasoft C/C++test 2026.1 MCP workflows for static-analysis remediation, tests, MC/DC coverage and coding rules;
+- Kapa.ai / Zephyr's Kapa surface for source/docs/issues/PR-grounded technical retrieval;
+- QRA QVscribe/ReqWriter, KlugSpice, ReqDrive, Reqi and Modern Requirements for requirements/process workflows;
+- dedicated GitLab review choices such as Cursor Bugbot, CodeAnt, Kodus/Kody, DeepSource and community PR-Agent.
 
 ## Lifecycle cleanup
 
@@ -51,14 +66,22 @@ The audit specifically filled gaps in:
 
 ## Historical evidence preservation
 
-Existing observations were not rewritten into product marketing categories. They are preserved exactly in `data/configurations/`.
+Existing observations were not rewritten into product-marketing categories. Every previously collected model × harness/surface × configuration record remains preserved in `data/configurations/`.
 
 A benchmark row using an evaluation scaffold can still inform a model estimate, but the scaffold itself cannot appear as “what should I use?” in a user-facing recommendation.
 
-## Freeze criterion
+The three configuration inventories remain separate:
 
-The final broad searches across coding, GitLab review, requirements/ASPICE, safety/security, embedded verification, enterprise knowledge, documentation, research, meetings and sovereign deployment primarily surfaced products that fit already represented families rather than revealing a missing major family.
+1. 138 actually observed historical configurations;
+2. 42 compatibility-only historical combinations;
+3. 15 specialist provider/API configurations.
 
-This does **not** mean every niche vendor in the market has been enumerated. It means the inventory is broad enough for the next evidence phase: adding another marginal product is now less valuable than measuring and filtering the existing candidates.
+This separation prevents availability evidence from being mistaken for measured performance evidence.
 
-New products can still be appended later without changing the data model.
+## Updated freeze criterion
+
+After adding the missing embedded static-analysis, engineering-graph/TARA, architecture-modeling, HIL/SIL, observability and AI-DevOps families, further broad searches increasingly return alternatives inside already represented families rather than a missing task class.
+
+That is the appropriate stopping condition for phase 1. It is not a claim that every niche vendor in the market has been enumerated. New products can still be appended without changing the data model.
+
+The next high-value phase is evidence collection: preserve each benchmark/observation separately, document task comparability, then aggregate only with explicit relevance, evidence-quality and uncertainty weights.
