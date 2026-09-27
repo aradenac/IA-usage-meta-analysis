@@ -40,7 +40,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | CI / tooling / release | 8 | complete | 8/8 tasks explicitly searched; 4 agentic CI/container solutions added and existing tools remapped. |
 | Documentation | 5 | complete | 5/5 tasks explicitly searched; no net-new mature product required, but current embedded/agentic tools were remapped. |
 | Collaboration | 8 | complete | 8/8 tasks explicitly searched; Loom AI and Zoom AI Companion added, Atlassian workflows revalidated. |
-| Learning / research | 12 | pending | |
+| Learning / research | 13 | complete | 13/13 tasks explicitly searched; corrected baseline count from 12 to 13; 7 research/standards/tech-watch solutions added. |
 
 ## Change log
 
@@ -303,3 +303,36 @@ Microsoft 365 Copilot remains the native SharePoint-oriented choice already pres
 Change log:
 - 2026-09-28 — collaboration domain completed; canonical inventory increased from 201 to 203 solutions.
 - 2026-09-28 — website snapshot regenerated from the 203-solution inventory.
+
+## Learning / research-domain audit
+
+Status: **complete (13/13 tasks searched explicitly)**.
+
+New solutions accepted:
+
+- **Scite Assistant + Smart Citations + MCP** — full-text scholarly search, citation-context analysis, claim verification, collections and a research feed; its 2026 MCP exposes this evidence layer to ChatGPT, Claude, Gemini, Copilot and other MCP clients.
+  - https://scite.ai/
+  - https://scite.ai/mcp
+- **Accuris AI Assistant** — engineering-specific assistant grounded in licensed, publisher-authorized standards and technical content, returning clause-level answers with precise citations and compliance context.
+  - https://accuristech.com/accuris-ai-assistant/
+- **Feedly AI / Market Intelligence** — AI Feeds for persistent concept/source monitoring, Ask AI/Research for multi-source synthesis, trend/weak-signal detection and citation-backed intelligence deliverables.
+  - https://feedly.com/market-intelligence
+- **Scopus with AI** — literature discovery and source-referenced topic/expanded summaries grounded in Scopus peer-reviewed content.
+  - https://www.elsevier.com/products/scopus/scopus-ai
+- **Web of Science Research Assistant** — agentic/generative discovery and guided research workflows grounded in the Web of Science Core Collection.
+  - https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/web-of-science-research-assistant/
+- **Kagi Research + Study Assistant** — multi-step sourced web research with dedicated research/librarian roles, plus a Socratic/evidence-based Study Assistant for learning and coaching.
+  - https://help.kagi.com/kagi/ai/kagi-research.html
+  - https://help.kagi.com/kagi/ai/custom-assistants.html
+- **Exa Agent / Deep Research API** — backend/API for agentic multi-source web research, structured outputs, citations and field-level grounding; mapped as a backend rather than a turnkey engineering UI.
+  - https://exa.ai/products/deep
+  - https://exa.ai/blog/exa-agent
+
+These additions fill distinct gaps rather than duplicating general-purpose assistants already present: scholarly evidence/citation graphs, authoritative engineering standards, persistent technology watch, privacy-oriented web research/learning, and research infrastructure APIs.
+
+The canonical task file contains **13** learning/research tasks, not 12; the progress table has been corrected.
+
+Change log:
+- 2026-09-28 — learning/research domain completed; canonical inventory increased from 203 to 210 solutions.
+- 2026-09-28 — all 86 tasks have now been explicitly re-audited task by task.
+- 2026-09-28 — website snapshot regenerated from the 210-solution inventory.
