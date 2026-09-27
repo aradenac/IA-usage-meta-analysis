@@ -1,0 +1,4903 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-27",
+  "numeric_base_version": "product-task-v1.3",
+  "purpose": "Synchronize direct non-numeric evidence added after the v1.3 full numeric calculation without pretending to have rerun the large score files.",
+  "pair_count": 293,
+  "pairs": [
+    {
+      "task_id": "arch-choice",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "arch-choice",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "arch-choice",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "arch-detailed-design",
+      "solution_id": "sparx-kernaro-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-kernaro-ea-cap-2026",
+          "grade": "C",
+          "family": "architecture-modeling",
+          "type": "capability-evidence",
+          "metric": "live model authoring/query/validation"
+        }
+      ]
+    },
+    {
+      "task_id": "arch-diagram",
+      "solution_id": "sparx-kernaro-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-kernaro-ea-cap-2026",
+          "grade": "C",
+          "family": "architecture-modeling",
+          "type": "capability-evidence",
+          "metric": "live model authoring/query/validation"
+        }
+      ]
+    },
+    {
+      "task_id": "arch-review",
+      "solution_id": "sparx-kernaro-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-kernaro-ea-cap-2026",
+          "grade": "C",
+          "family": "architecture-modeling",
+          "type": "capability-evidence",
+          "metric": "live model authoring/query/validation"
+        }
+      ]
+    },
+    {
+      "task_id": "arch-software",
+      "solution_id": "sparx-kernaro-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-kernaro-ea-cap-2026",
+          "grade": "C",
+          "family": "architecture-modeling",
+          "type": "capability-evidence",
+          "metric": "live model authoring/query/validation"
+        }
+      ]
+    },
+    {
+      "task_id": "arch-understand",
+      "solution_id": "sparx-kernaro-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-kernaro-ea-cap-2026",
+          "grade": "C",
+          "family": "architecture-modeling",
+          "type": "capability-evidence",
+          "metric": "live model authoring/query/validation"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-automation",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-automation",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-automation",
+      "solution_id": "harness-ai-devops",
+      "direct_product_observations": [
+        {
+          "id": "prod-harness-devops-onboarding-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "vendor-case-study-aggregate",
+          "metric": "pipeline onboarding time reduction"
+        },
+        {
+          "id": "prod-harness-release-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "AI-generated governed release process"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-automation",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-automation",
+      "solution_id": "tines-ai-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-tines-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "tool-using workflow agent"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-automation",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-automation",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-build",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-build",
+      "solution_id": "harness-ai-devops",
+      "direct_product_observations": [
+        {
+          "id": "prod-harness-devops-onboarding-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "vendor-case-study-aggregate",
+          "metric": "pipeline onboarding time reduction"
+        },
+        {
+          "id": "prod-harness-release-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "AI-generated governed release process"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-create",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-docker",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-gitlab",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "ci-toolchain",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-backlog",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-backlog",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-backlog",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-confluence",
+      "solution_id": "glean",
+      "direct_product_observations": [
+        {
+          "id": "prod-glean-enterprise-search",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-benchmark",
+          "metric": "preference ratio vs ChatGPT Business"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-confluence",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-confluence",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-confluence",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-jira",
+      "solution_id": "glean",
+      "direct_product_observations": [
+        {
+          "id": "prod-glean-enterprise-search",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-benchmark",
+          "metric": "preference ratio vs ChatGPT Business"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-jira",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-jira",
+      "solution_id": "tines-ai-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-tines-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "tool-using workflow agent"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-jira",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-jira",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-meeting",
+      "solution_id": "fathom",
+      "direct_product_observations": [
+        {
+          "id": "prod-fathom-meeting",
+          "grade": "C",
+          "family": "meeting-intelligence",
+          "type": "field-benchmark",
+          "metric": "derived transcript+action composite"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-meeting",
+      "solution_id": "fireflies",
+      "direct_product_observations": [
+        {
+          "id": "prod-fireflies-meeting",
+          "grade": "C",
+          "family": "meeting-intelligence",
+          "type": "field-benchmark",
+          "metric": "derived transcript+action composite"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-meeting",
+      "solution_id": "granola-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-granola-meeting",
+          "grade": "C",
+          "family": "meeting-intelligence",
+          "type": "field-benchmark",
+          "metric": "derived transcript+action composite"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-meeting",
+      "solution_id": "otter",
+      "direct_product_observations": [
+        {
+          "id": "prod-otter-meeting",
+          "grade": "C",
+          "family": "meeting-intelligence",
+          "type": "field-benchmark",
+          "metric": "derived transcript+action composite"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-meeting",
+      "solution_id": "read-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-read-meeting",
+          "grade": "C",
+          "family": "meeting-intelligence",
+          "type": "field-benchmark",
+          "metric": "derived transcript+action composite"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-meeting",
+      "solution_id": "tldv",
+      "direct_product_observations": [
+        {
+          "id": "prod-tldv-meeting",
+          "grade": "C",
+          "family": "meeting-intelligence",
+          "type": "field-benchmark",
+          "metric": "derived transcript+action composite"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-sharepoint",
+      "solution_id": "glean",
+      "direct_product_observations": [
+        {
+          "id": "prod-glean-enterprise-search",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-benchmark",
+          "metric": "preference ratio vs ChatGPT Business"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-sharepoint",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-sharepoint",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-sharepoint",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-status",
+      "solution_id": "glean",
+      "direct_product_observations": [
+        {
+          "id": "prod-glean-enterprise-search",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-benchmark",
+          "metric": "preference ratio vs ChatGPT Business"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-status",
+      "solution_id": "granola-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-granola-meeting",
+          "grade": "C",
+          "family": "meeting-intelligence",
+          "type": "field-benchmark",
+          "metric": "derived transcript+action composite"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-status",
+      "solution_id": "itemis-analyze-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-status",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-status",
+      "solution_id": "tines-ai-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-tines-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "tool-using workflow agent"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-status",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-status",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-ticket",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-ticket",
+      "solution_id": "tines-ai-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-tines-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "tool-using workflow agent"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-ticket",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-ticket",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-workflow",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-workflow",
+      "solution_id": "tines-ai-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-tines-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "tool-using workflow agent"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-workflow",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "collab-workflow",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-artifacts",
+      "solution_id": "iriusrisk-jeff",
+      "direct_product_observations": [
+        {
+          "id": "prod-iriusrisk-ai-cap-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "capability-evidence",
+          "metric": "AI-assisted threat-model workflow"
+        },
+        {
+          "id": "prod-iriusrisk-bank-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "threat-model creation time reduction"
+        },
+        {
+          "id": "prod-iriusrisk-global-scale-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "countermeasure efficiency"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-artifacts",
+      "solution_id": "itemis-secure-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-compliance",
+      "solution_id": "iriusrisk-jeff",
+      "direct_product_observations": [
+        {
+          "id": "prod-iriusrisk-ai-cap-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "capability-evidence",
+          "metric": "AI-assisted threat-model workflow"
+        },
+        {
+          "id": "prod-iriusrisk-bank-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "threat-model creation time reduction"
+        },
+        {
+          "id": "prod-iriusrisk-global-scale-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "countermeasure efficiency"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-compliance",
+      "solution_id": "itemis-secure-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        },
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-impact",
+      "solution_id": "iriusrisk-jeff",
+      "direct_product_observations": [
+        {
+          "id": "prod-iriusrisk-ai-cap-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "capability-evidence",
+          "metric": "AI-assisted threat-model workflow"
+        },
+        {
+          "id": "prod-iriusrisk-bank-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "threat-model creation time reduction"
+        },
+        {
+          "id": "prod-iriusrisk-global-scale-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "countermeasure efficiency"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-impact",
+      "solution_id": "itemis-secure-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        },
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "augment-code",
+      "direct_product_observations": [
+        {
+          "id": "prod-augment-review-202606",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "bito-code-review",
+      "direct_product_observations": [
+        {
+          "id": "prod-bito-review-202603",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-benchmark",
+          "metric": "issue detection coverage"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "checkmarx-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-checkmarx-assist-effort-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "manual remediation effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "coderabbit",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-coderabbit-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "codex-cli",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-codex-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "devin-desktop",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-devin-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-martian-202606",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-gitlab-prreview-202605",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "Hit F1"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "greptile",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-greptile-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "iriusrisk-jeff",
+      "direct_product_observations": [
+        {
+          "id": "prod-iriusrisk-ai-cap-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "capability-evidence",
+          "metric": "AI-assisted threat-model workflow"
+        },
+        {
+          "id": "prod-iriusrisk-bank-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "threat-model creation time reduction"
+        },
+        {
+          "id": "prod-iriusrisk-global-scale-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "countermeasure efficiency"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "itemis-secure-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        },
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "parasoft-cpptest-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-parasoft-static-cap",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "qodo",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-qodo-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "semgrep-autofix",
+      "direct_product_observations": [
+        {
+          "id": "prod-semgrep-guidance-actionable-2024",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-field-study",
+          "metric": "actionable guidance rate"
+        },
+        {
+          "id": "prod-semgrep-autofix-agreement-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-field-study",
+          "metric": "AI triage agreement rate"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "snyk-deepcode-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-snyk-deepcode-fix-2024",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-benchmark",
+          "metric": "LLM fix accuracy"
+        },
+        {
+          "id": "prod-snyk-vuln-context-cap-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "reachability/exploit-context prioritization"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-review",
+      "solution_id": "veracode-fix",
+      "direct_product_observations": [
+        {
+          "id": "prod-veracode-fix-case-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-case-study",
+          "metric": "fix rate"
+        },
+        {
+          "id": "prod-veracode-fix-coverage-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "detected flaw coverage"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-threat",
+      "solution_id": "iriusrisk-jeff",
+      "direct_product_observations": [
+        {
+          "id": "prod-iriusrisk-ai-cap-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "capability-evidence",
+          "metric": "AI-assisted threat-model workflow"
+        },
+        {
+          "id": "prod-iriusrisk-bank-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "threat-model creation time reduction"
+        },
+        {
+          "id": "prod-iriusrisk-global-scale-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-case-study",
+          "metric": "countermeasure efficiency"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-threat",
+      "solution_id": "itemis-secure-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-vuln",
+      "solution_id": "itemis-secure-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        }
+      ]
+    },
+    {
+      "task_id": "cyber-vuln",
+      "solution_id": "snyk-deepcode-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-snyk-vuln-context-cap-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "reachability/exploit-context prioritization"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-crash",
+      "solution_id": "grafana-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-grafana-investigation-time",
+          "grade": "D",
+          "family": "observability-investigation",
+          "type": "case-study",
+          "metric": "root-cause wall-clock speedup"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-crash",
+      "solution_id": "newrelic-autopilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-newrelic-autopilot-completion",
+          "grade": "C",
+          "family": "observability-investigation",
+          "type": "vendor-test",
+          "metric": "relative investigation completion increase"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-crash",
+      "solution_id": "sentry-seer",
+      "direct_product_observations": [
+        {
+          "id": "prod-sentry-seer-rootcause",
+          "grade": "C",
+          "family": "observability-investigation",
+          "type": "vendor-field-study",
+          "metric": "root-cause accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-embedded",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-embedded",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-hw-sw",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-hw-sw",
+      "solution_id": "tracetronic-ecutest-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-ecutest-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "contextual test-step generation"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-hw-sw",
+      "solution_id": "vector-canoe-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vector-canoe-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "end-to-end agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-intermittent",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-intermittent",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-github-copilot-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI log diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-intermittent",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-intermittent",
+      "solution_id": "grafana-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-grafana-investigation-time",
+          "grade": "D",
+          "family": "observability-investigation",
+          "type": "case-study",
+          "metric": "root-cause wall-clock speedup"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-intermittent",
+      "solution_id": "newrelic-autopilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-newrelic-autopilot-completion",
+          "grade": "C",
+          "family": "observability-investigation",
+          "type": "vendor-test",
+          "metric": "relative investigation completion increase"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-intermittent",
+      "solution_id": "sentry-seer",
+      "direct_product_observations": [
+        {
+          "id": "prod-sentry-seer-rootcause",
+          "grade": "C",
+          "family": "observability-investigation",
+          "type": "vendor-field-study",
+          "metric": "root-cause accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-known",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-known",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-performance",
+      "solution_id": "grafana-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-grafana-investigation-time",
+          "grade": "D",
+          "family": "observability-investigation",
+          "type": "case-study",
+          "metric": "root-cause wall-clock speedup"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-performance",
+      "solution_id": "newrelic-autopilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-newrelic-autopilot-completion",
+          "grade": "C",
+          "family": "observability-investigation",
+          "type": "vendor-test",
+          "metric": "relative investigation completion increase"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-performance",
+      "solution_id": "sentry-seer",
+      "direct_product_observations": [
+        {
+          "id": "prod-sentry-seer-rootcause",
+          "grade": "C",
+          "family": "observability-investigation",
+          "type": "vendor-field-study",
+          "metric": "root-cause accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-vendor",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-vendor",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "debug-vendor",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-driver-adapt",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        },
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-driver-adapt",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-driver-datasheet",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-driver-port",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        },
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-driver-port",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-feature",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        },
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-feature",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-module",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-module",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-protocol",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        },
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-protocol",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-python-tooling",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-python-tooling",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "augment-code",
+      "direct_product_observations": [
+        {
+          "id": "prod-augment-review-202606",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "bito-code-review",
+      "direct_product_observations": [
+        {
+          "id": "prod-bito-review-202603",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-benchmark",
+          "metric": "issue detection coverage"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "codeant-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-codeant-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "codex-cli",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-codex-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "cursor-bugbot",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-cursor-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-cursor-resolution-202604",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-field-study",
+          "metric": "comment resolution rate"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "devin-desktop",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-devin-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-github-copilot-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-martian-202606",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-gitlab-prreview-202605",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "Hit F1"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-refactor",
+      "solution_id": "kilo-code",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-kilo-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-small-change",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "dev-small-change",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-architecture",
+      "solution_id": "adobe-acrobat-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-adobe-acrobat-doc-analysis-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "cited PDF and multi-document analysis"
+        },
+        {
+          "id": "prod-adobe-acrobat-compare-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "document version difference detection"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-architecture",
+      "solution_id": "gitbook-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitbook-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs assistant capability"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-architecture",
+      "solution_id": "mintlify-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-mintlify-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs assistant capability"
+        },
+        {
+          "id": "prod-mintlify-doc-pr-merge-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "vendor-field-telemetry",
+          "metric": "agent-drafted documentation PR merge rate"
+        },
+        {
+          "id": "prod-mintlify-doc-automation-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "vendor-field-telemetry",
+          "metric": "automated trigger share"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-architecture",
+      "solution_id": "sparx-kernaro-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-kernaro-ea-cap-2026",
+          "grade": "C",
+          "family": "architecture-modeling",
+          "type": "capability-evidence",
+          "metric": "live model authoring/query/validation"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-code",
+      "solution_id": "fern-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-fern-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs authoring and grounded QA"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-code",
+      "solution_id": "gitbook-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitbook-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs assistant capability"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-code",
+      "solution_id": "mintlify-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-mintlify-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs assistant capability"
+        },
+        {
+          "id": "prod-mintlify-doc-pr-merge-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "vendor-field-telemetry",
+          "metric": "agent-drafted documentation PR merge rate"
+        },
+        {
+          "id": "prod-mintlify-doc-automation-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "vendor-field-telemetry",
+          "metric": "automated trigger share"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-datasheet",
+      "solution_id": "adobe-acrobat-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-adobe-acrobat-doc-analysis-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "cited PDF and multi-document analysis"
+        },
+        {
+          "id": "prod-adobe-acrobat-compare-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "document version difference detection"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-sync",
+      "solution_id": "fern-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-fern-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs authoring and grounded QA"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-sync",
+      "solution_id": "gitbook-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitbook-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs assistant capability"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-sync",
+      "solution_id": "mintlify-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-mintlify-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs assistant capability"
+        },
+        {
+          "id": "prod-mintlify-doc-pr-merge-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "vendor-field-telemetry",
+          "metric": "agent-drafted documentation PR merge rate"
+        },
+        {
+          "id": "prod-mintlify-doc-automation-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "vendor-field-telemetry",
+          "metric": "automated trigger share"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-vendor-diff",
+      "solution_id": "adobe-acrobat-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-adobe-acrobat-doc-analysis-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "cited PDF and multi-document analysis"
+        },
+        {
+          "id": "prod-adobe-acrobat-compare-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "document version difference detection"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-vendor-diff",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-vendor-diff",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "doc-vendor-diff",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-coach",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-study-mode-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "exam score relative improvement"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-coach",
+      "solution_id": "gemini-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-gemini-guided-learning-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "math learning effect size"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-explain",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-study-mode-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "exam score relative improvement"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-explain",
+      "solution_id": "gemini-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-gemini-guided-learning-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "math learning effect size"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-explain",
+      "solution_id": "glean",
+      "direct_product_observations": [
+        {
+          "id": "prod-glean-enterprise-search",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-benchmark",
+          "metric": "preference ratio vs ChatGPT Business"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-operational",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-study-mode-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "exam score relative improvement"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-operational",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-operational",
+      "solution_id": "gemini-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-gemini-guided-learning-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "math learning effect size"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-operational",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-path",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-study-mode-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "exam score relative improvement"
+        }
+      ]
+    },
+    {
+      "task_id": "learn-path",
+      "solution_id": "gemini-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-gemini-guided-learning-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "math learning effect size"
+        }
+      ]
+    },
+    {
+      "task_id": "process-aspice",
+      "solution_id": "itemis-analyze-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        }
+      ]
+    },
+    {
+      "task_id": "process-evidence",
+      "solution_id": "itemis-analyze-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        }
+      ]
+    },
+    {
+      "task_id": "process-evidence",
+      "solution_id": "itemis-secure-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        },
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "process-evidence",
+      "solution_id": "parasoft-cpptest-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-parasoft-static-cap",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "process-evidence",
+      "solution_id": "qra-qvscribe",
+      "direct_product_observations": [
+        {
+          "id": "prod-qvscribe-rcaf-time",
+          "grade": "C",
+          "family": "requirements-quality",
+          "type": "case-study",
+          "metric": "review/update time reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "release-notes",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "release-notes",
+      "solution_id": "make-ai-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-make-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "visual tool-using agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "release-notes",
+      "solution_id": "tines-ai-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-tines-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "tool-using workflow agent"
+        }
+      ]
+    },
+    {
+      "task_id": "release-notes",
+      "solution_id": "workato-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-workato-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "enterprise search + action workflow"
+        },
+        {
+          "id": "prod-workato-orix-time-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "annual human hours saved"
+        }
+      ]
+    },
+    {
+      "task_id": "release-notes",
+      "solution_id": "zapier-agents",
+      "direct_product_observations": [
+        {
+          "id": "prod-zapier-workflow-cap-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "capability-evidence",
+          "metric": "cross-app agent workflow"
+        },
+        {
+          "id": "prod-zapier-agents-erewhon-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "AI draft accepted without human modification"
+        },
+        {
+          "id": "prod-zapier-agents-mercari-2026",
+          "grade": "C",
+          "family": "workflow-agent",
+          "type": "vendor-case-study",
+          "metric": "fully automated resolution share"
+        }
+      ]
+    },
+    {
+      "task_id": "release-prepare",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-duo-fix-ci-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "CI failure diagnosis/fix workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "release-prepare",
+      "solution_id": "harness-ai-devops",
+      "direct_product_observations": [
+        {
+          "id": "prod-harness-devops-onboarding-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "vendor-case-study-aggregate",
+          "metric": "pipeline onboarding time reduction"
+        },
+        {
+          "id": "prod-harness-release-cap-2026",
+          "grade": "C",
+          "family": "devops-agent",
+          "type": "capability-evidence",
+          "metric": "AI-generated governed release process"
+        }
+      ]
+    },
+    {
+      "task_id": "req-change-impact",
+      "solution_id": "itemis-analyze-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        }
+      ]
+    },
+    {
+      "task_id": "req-decompose",
+      "solution_id": "itemis-analyze-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        }
+      ]
+    },
+    {
+      "task_id": "req-decompose",
+      "solution_id": "qra-qvscribe",
+      "direct_product_observations": [
+        {
+          "id": "prod-qvscribe-rcaf-time",
+          "grade": "C",
+          "family": "requirements-quality",
+          "type": "case-study",
+          "metric": "review/update time reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "req-review",
+      "solution_id": "qra-qvscribe",
+      "direct_product_observations": [
+        {
+          "id": "prod-qvscribe-rcaf-time",
+          "grade": "C",
+          "family": "requirements-quality",
+          "type": "case-study",
+          "metric": "review/update time reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "req-system-impact",
+      "solution_id": "qra-qvscribe",
+      "direct_product_observations": [
+        {
+          "id": "prod-qvscribe-rcaf-time",
+          "grade": "C",
+          "family": "requirements-quality",
+          "type": "case-study",
+          "metric": "review/update time reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "req-traceability",
+      "solution_id": "itemis-analyze-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        }
+      ]
+    },
+    {
+      "task_id": "req-traceability",
+      "solution_id": "jama-connect-advisor",
+      "direct_product_observations": [
+        {
+          "id": "prod-jama-test-time",
+          "grade": "C",
+          "family": "requirements-to-test",
+          "type": "vendor-case-study-aggregate",
+          "metric": "testing time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "req-traceability",
+      "solution_id": "vectorcast-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vectorcast-reqs2x-cap",
+          "grade": "C",
+          "family": "requirements-to-test",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "req-write-sw",
+      "solution_id": "qra-qvscribe",
+      "direct_product_observations": [
+        {
+          "id": "prod-qvscribe-rcaf-time",
+          "grade": "C",
+          "family": "requirements-quality",
+          "type": "case-study",
+          "metric": "review/update time reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "research-docs",
+      "solution_id": "adobe-acrobat-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-adobe-acrobat-doc-analysis-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "cited PDF and multi-document analysis"
+        },
+        {
+          "id": "prod-adobe-acrobat-compare-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "document version difference detection"
+        }
+      ]
+    },
+    {
+      "task_id": "research-docs",
+      "solution_id": "fern-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-fern-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs authoring and grounded QA"
+        }
+      ]
+    },
+    {
+      "task_id": "research-docs",
+      "solution_id": "glean",
+      "direct_product_observations": [
+        {
+          "id": "prod-glean-enterprise-search",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-benchmark",
+          "metric": "preference ratio vs ChatGPT Business"
+        }
+      ]
+    },
+    {
+      "task_id": "research-docs",
+      "solution_id": "readme-ask-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-readme-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "grounded cited docs QA"
+        }
+      ]
+    },
+    {
+      "task_id": "research-docs",
+      "solution_id": "redocly-ai-assistant",
+      "direct_product_observations": [
+        {
+          "id": "prod-redocly-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "grounded version-aware docs QA"
+        }
+      ]
+    },
+    {
+      "task_id": "research-field",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-field",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-field",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-multidoc",
+      "solution_id": "adobe-acrobat-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-adobe-acrobat-doc-analysis-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "cited PDF and multi-document analysis"
+        },
+        {
+          "id": "prod-adobe-acrobat-compare-cap-2026",
+          "grade": "C",
+          "family": "document-ai",
+          "type": "capability-evidence",
+          "metric": "document version difference detection"
+        }
+      ]
+    },
+    {
+      "task_id": "research-multidoc",
+      "solution_id": "fern-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-fern-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "docs authoring and grounded QA"
+        }
+      ]
+    },
+    {
+      "task_id": "research-multidoc",
+      "solution_id": "glean",
+      "direct_product_observations": [
+        {
+          "id": "prod-glean-enterprise-search",
+          "grade": "C",
+          "family": "enterprise-search",
+          "type": "vendor-benchmark",
+          "metric": "preference ratio vs ChatGPT Business"
+        }
+      ]
+    },
+    {
+      "task_id": "research-multidoc",
+      "solution_id": "readme-ask-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-readme-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "grounded cited docs QA"
+        }
+      ]
+    },
+    {
+      "task_id": "research-multidoc",
+      "solution_id": "redocly-ai-assistant",
+      "direct_product_observations": [
+        {
+          "id": "prod-redocly-doc-cap-2026",
+          "grade": "C",
+          "family": "documentation-assistant",
+          "type": "capability-evidence",
+          "metric": "grounded version-aware docs QA"
+        }
+      ]
+    },
+    {
+      "task_id": "research-relevant",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-study-mode-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "exam score relative improvement"
+        }
+      ]
+    },
+    {
+      "task_id": "research-relevant",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-relevant",
+      "solution_id": "consensus",
+      "direct_product_observations": [
+        {
+          "id": "prod-consensus-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "P@1 deep mode"
+        }
+      ]
+    },
+    {
+      "task_id": "research-relevant",
+      "solution_id": "elicit",
+      "direct_product_observations": [
+        {
+          "id": "prod-elicit-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "research-relevant",
+      "solution_id": "gemini-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-gemini-guided-learning-rct-2026",
+          "grade": "B",
+          "family": "learning-coach",
+          "type": "randomized-controlled-trial",
+          "metric": "math learning effect size"
+        }
+      ]
+    },
+    {
+      "task_id": "research-relevant",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-relevant",
+      "solution_id": "scispace",
+      "direct_product_observations": [
+        {
+          "id": "prod-scispace-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "research-source",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-source",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-source",
+      "solution_id": "consensus",
+      "direct_product_observations": [
+        {
+          "id": "prod-consensus-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "P@1 deep mode"
+        }
+      ]
+    },
+    {
+      "task_id": "research-source",
+      "solution_id": "elicit",
+      "direct_product_observations": [
+        {
+          "id": "prod-elicit-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "research-source",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-source",
+      "solution_id": "scispace",
+      "direct_product_observations": [
+        {
+          "id": "prod-scispace-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "research-state-art",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-state-art",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-state-art",
+      "solution_id": "consensus",
+      "direct_product_observations": [
+        {
+          "id": "prod-consensus-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "P@1 deep mode"
+        }
+      ]
+    },
+    {
+      "task_id": "research-state-art",
+      "solution_id": "elicit",
+      "direct_product_observations": [
+        {
+          "id": "prod-elicit-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "research-state-art",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-state-art",
+      "solution_id": "scispace",
+      "direct_product_observations": [
+        {
+          "id": "prod-scispace-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "research-version",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-version",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-version",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-web",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-web",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-web",
+      "solution_id": "consensus",
+      "direct_product_observations": [
+        {
+          "id": "prod-consensus-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "P@1 deep mode"
+        }
+      ]
+    },
+    {
+      "task_id": "research-web",
+      "solution_id": "elicit",
+      "direct_product_observations": [
+        {
+          "id": "prod-elicit-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "research-web",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "research-web",
+      "solution_id": "scispace",
+      "direct_product_observations": [
+        {
+          "id": "prod-scispace-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "safety-impact",
+      "solution_id": "itemis-analyze-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        }
+      ]
+    },
+    {
+      "task_id": "safety-review",
+      "solution_id": "augment-code",
+      "direct_product_observations": [
+        {
+          "id": "prod-augment-review-202606",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "safety-review",
+      "solution_id": "coderabbit",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-coderabbit-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "safety-review",
+      "solution_id": "codex-cli",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-codex-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "safety-review",
+      "solution_id": "devin-desktop",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-devin-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "safety-review",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-martian-202606",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-gitlab-prreview-202605",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "Hit F1"
+        }
+      ]
+    },
+    {
+      "task_id": "safety-review",
+      "solution_id": "qodo",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-qodo-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "upstream-backport",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "upstream-backport",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "upstream-contribute",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-metr-rct-2025",
+          "grade": "A",
+          "family": "coding-productivity-field",
+          "type": "randomized-field-experiment",
+          "metric": "human task-time multiplier"
+        },
+        {
+          "id": "prod-cursor-metr-followup-2026",
+          "grade": "D",
+          "family": "coding-productivity-field",
+          "type": "field-experiment-update",
+          "metric": "suggestive human time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "upstream-contribute",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-copilot-rct-2023",
+          "grade": "B",
+          "family": "coding-productivity-field",
+          "type": "controlled-experiment",
+          "metric": "human task-time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "upstream-search",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "upstream-search",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "upstream-search",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "augment-code",
+      "direct_product_observations": [
+        {
+          "id": "prod-augment-review-202606",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "checkmarx-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-checkmarx-assist-effort-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "manual remediation effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "codeant-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-codeant-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "coderabbit",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-coderabbit-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "codex-cli",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-codex-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "cursor-bugbot",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-cursor-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-cursor-resolution-202604",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-field-study",
+          "metric": "comment resolution rate"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "devin-desktop",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-devin-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-github-copilot-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-martian-202606",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-gitlab-prreview-202605",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "Hit F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "greptile",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-greptile-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "kilo-code",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-kilo-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "parasoft-cpptest-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-parasoft-static-cap",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "qodo",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-qodo-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "semgrep-autofix",
+      "direct_product_observations": [
+        {
+          "id": "prod-semgrep-guidance-actionable-2024",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-field-study",
+          "metric": "actionable guidance rate"
+        },
+        {
+          "id": "prod-semgrep-autofix-agreement-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-field-study",
+          "metric": "AI triage agreement rate"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "snyk-deepcode-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-snyk-deepcode-fix-2024",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-benchmark",
+          "metric": "LLM fix accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coding-rules",
+      "solution_id": "veracode-fix",
+      "direct_product_observations": [
+        {
+          "id": "prod-veracode-fix-case-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-case-study",
+          "metric": "fix rate"
+        },
+        {
+          "id": "prod-veracode-fix-coverage-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "detected flaw coverage"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-coverage",
+      "solution_id": "vectorcast-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vectorcast-reqs2x-cap",
+          "grade": "C",
+          "family": "requirements-to-test",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-hil",
+      "solution_id": "tracetronic-ecutest-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-ecutest-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "contextual test-step generation"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-hil",
+      "solution_id": "vector-canoe-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vector-canoe-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "end-to-end agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-integration",
+      "solution_id": "cursor",
+      "direct_product_observations": [
+        {
+          "id": "prod-cursor-espressif-zephyr-field-2026",
+          "grade": "C",
+          "family": "embedded-agent-field",
+          "type": "vendor-engineer-field-report",
+          "metric": "successful end-to-end embedded workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-integration",
+      "solution_id": "tracetronic-ecutest-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-ecutest-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "contextual test-step generation"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-integration",
+      "solution_id": "vector-canoe-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vector-canoe-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "end-to-end agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-loop",
+      "solution_id": "tracetronic-ecutest-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-ecutest-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "contextual test-step generation"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-loop",
+      "solution_id": "vector-canoe-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vector-canoe-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "end-to-end agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-loop",
+      "solution_id": "vectorcast-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vectorcast-reqs2x-cap",
+          "grade": "C",
+          "family": "requirements-to-test",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "augment-code",
+      "direct_product_observations": [
+        {
+          "id": "prod-augment-review-202606",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "bito-code-review",
+      "direct_product_observations": [
+        {
+          "id": "prod-bito-review-202603",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-benchmark",
+          "metric": "issue detection coverage"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "checkmarx-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-checkmarx-assist-effort-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "manual remediation effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "codeant-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-codeant-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "coderabbit",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-coderabbit-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "codex-cli",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-codex-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "cursor-bugbot",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-cursor-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-cursor-resolution-202604",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "vendor-field-study",
+          "metric": "comment resolution rate"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "devin-desktop",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-devin-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "github-copilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-github-copilot-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "gitlab-duo",
+      "direct_product_observations": [
+        {
+          "id": "prod-gitlab-martian-202606",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "F1"
+        },
+        {
+          "id": "prod-gitlab-prreview-202605",
+          "grade": "C",
+          "family": "code-review-specialist",
+          "type": "controlled-benchmark",
+          "metric": "Hit F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "greptile",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-greptile-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "kilo-code",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-kilo-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "qodo",
+      "direct_product_observations": [
+        {
+          "id": "prod-martian-qodo-202609",
+          "grade": "B",
+          "family": "code-review-specialist",
+          "type": "field-benchmark",
+          "metric": "F1"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-mr",
+      "solution_id": "veracode-fix",
+      "direct_product_observations": [
+        {
+          "id": "prod-veracode-fix-case-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-case-study",
+          "metric": "fix rate"
+        },
+        {
+          "id": "prod-veracode-fix-coverage-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "detected flaw coverage"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-prevalidation",
+      "solution_id": "parasoft-cpptest-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-parasoft-static-cap",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-prevalidation",
+      "solution_id": "vectorcast-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vectorcast-reqs2x-cap",
+          "grade": "C",
+          "family": "requirements-to-test",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-req-tests",
+      "solution_id": "jama-connect-advisor",
+      "direct_product_observations": [
+        {
+          "id": "prod-jama-test-time",
+          "grade": "C",
+          "family": "requirements-to-test",
+          "type": "vendor-case-study-aggregate",
+          "metric": "testing time multiplier"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-req-tests",
+      "solution_id": "tracetronic-ecutest-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-ecutest-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "contextual test-step generation"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-req-tests",
+      "solution_id": "vector-canoe-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vector-canoe-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "end-to-end agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-req-tests",
+      "solution_id": "vectorcast-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vectorcast-reqs2x-cap",
+          "grade": "C",
+          "family": "requirements-to-test",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-results",
+      "solution_id": "grafana-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-grafana-investigation-time",
+          "grade": "D",
+          "family": "observability-investigation",
+          "type": "case-study",
+          "metric": "root-cause wall-clock speedup"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-results",
+      "solution_id": "newrelic-autopilot",
+      "direct_product_observations": [
+        {
+          "id": "prod-newrelic-autopilot-completion",
+          "grade": "C",
+          "family": "observability-investigation",
+          "type": "vendor-test",
+          "metric": "relative investigation completion increase"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-results",
+      "solution_id": "tracetronic-ecutest-agent",
+      "direct_product_observations": [
+        {
+          "id": "prod-ecutest-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "contextual test-step generation"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-results",
+      "solution_id": "vector-canoe-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vector-canoe-agent-cap-2026",
+          "grade": "C",
+          "family": "hil-test-agent",
+          "type": "capability-evidence",
+          "metric": "end-to-end agent workflow"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-static",
+      "solution_id": "checkmarx-assist",
+      "direct_product_observations": [
+        {
+          "id": "prod-checkmarx-assist-effort-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "manual remediation effort reduction"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-static",
+      "solution_id": "parasoft-cpptest-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-parasoft-static-cap",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-static",
+      "solution_id": "semgrep-autofix",
+      "direct_product_observations": [
+        {
+          "id": "prod-semgrep-guidance-actionable-2024",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-field-study",
+          "metric": "actionable guidance rate"
+        },
+        {
+          "id": "prod-semgrep-autofix-agreement-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-field-study",
+          "metric": "AI triage agreement rate"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-static",
+      "solution_id": "snyk-deepcode-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-snyk-deepcode-fix-2024",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-benchmark",
+          "metric": "LLM fix accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-static",
+      "solution_id": "veracode-fix",
+      "direct_product_observations": [
+        {
+          "id": "prod-veracode-fix-case-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "vendor-case-study",
+          "metric": "fix rate"
+        },
+        {
+          "id": "prod-veracode-fix-coverage-2026",
+          "grade": "C",
+          "family": "static-analysis-remediation",
+          "type": "capability-evidence",
+          "metric": "detected flaw coverage"
+        }
+      ]
+    },
+    {
+      "task_id": "verify-unit",
+      "solution_id": "vectorcast-ai",
+      "direct_product_observations": [
+        {
+          "id": "prod-vectorcast-reqs2x-cap",
+          "grade": "C",
+          "family": "requirements-to-test",
+          "type": "capability-evidence",
+          "metric": "capability"
+        }
+      ]
+    },
+    {
+      "task_id": "watch-tech",
+      "solution_id": "chatgpt-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-chatgpt-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-chatgpt-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "watch-tech",
+      "solution_id": "claude-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-claude-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-claude-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "watch-tech",
+      "solution_id": "consensus",
+      "direct_product_observations": [
+        {
+          "id": "prod-consensus-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "P@1 deep mode"
+        }
+      ]
+    },
+    {
+      "task_id": "watch-tech",
+      "solution_id": "elicit",
+      "direct_product_observations": [
+        {
+          "id": "prod-elicit-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    },
+    {
+      "task_id": "watch-tech",
+      "solution_id": "perplexity-enterprise",
+      "direct_product_observations": [
+        {
+          "id": "prod-perplexity-dsqa",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-browsecomp",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        },
+        {
+          "id": "prod-perplexity-hle",
+          "grade": "B",
+          "family": "deep-research",
+          "type": "controlled-benchmark",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    {
+      "task_id": "watch-tech",
+      "solution_id": "scispace",
+      "direct_product_observations": [
+        {
+          "id": "prod-scispace-literature",
+          "grade": "C",
+          "family": "literature-search",
+          "type": "vendor-benchmark",
+          "metric": "average precision P@1-P@70"
+        }
+      ]
+    }
+  ]
+}
