@@ -566,6 +566,85 @@
     "backend": []
   },
   {
+    "task_id": "doc-architecture",
+    "native": [
+      "auriga-nexus",
+      "archtect",
+      "visual-paradigm-ai"
+    ],
+    "direct": [
+      "dalus-ai-mbse",
+      "softagram-ai",
+      "spread-product-explorer"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-code",
+    "native": [
+      "github-agentic-workflows"
+    ],
+    "direct": [
+      "auriga-nexus",
+      "embedder-ai",
+      "hydron",
+      "softagram-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-datasheet",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "iocomposer",
+      "byteask"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-sync",
+    "native": [
+      "github-agentic-workflows"
+    ],
+    "direct": [
+      "auriga-nexus",
+      "softagram-ai",
+      "archtect",
+      "spread-product-explorer"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-vendor-diff",
+    "native": [
+      "embedder-ai",
+      "hydron"
+    ],
+    "direct": [
+      "mplab-ai-coding-assistant",
+      "byteask"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
     "task_id": "process-aspice",
     "native": [
       "assessoris",
