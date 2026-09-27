@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-27",
+  "solution_count": 157,
+  "catalog": "data/pricing/catalog.json",
+  "schema": "data/pricing/schema.json",
+  "methodology": "docs/pricing-methodology.md",
+  "status_counts": {
+    "open_source_external_cost": 18,
+    "contact_sales": 68,
+    "public_partial": 40,
+    "public_exact": 30,
+    "legacy_or_transition": 1
+  },
+  "evidence_grade_counts": {
+    "A": 81,
+    "B": 17,
+    "C": 59
+  },
+  "coverage": {
+    "public_price_records": 89,
+    "quote_or_estimate_records": 68,
+    "all_quote_or_estimate_records_have_sensitivity_estimate": true,
+    "records_with_cost_function": 157,
+    "records_with_source": 157,
+    "records_with_confidence": 157
+  },
+  "bundle_rules": {
+    "purpose": "Prevent double counting when several catalog solutions are capabilities of one commercial entitlement or when an AI add-on requires a paid base platform.",
+    "default_rule": "independent_cost_unless_bundle_or_prerequisite_is_declared",
+    "known_bundle_count": 17
+  },
+  "category_summary": {
+    "coding": {
+      "total": 40,
+      "public_price": 33,
+      "contact_sales": 7,
+      "mean_model_confidence": 0.943,
+      "mean_monetary_confidence": 0.835
+    },
+    "general-assistant": {
+      "total": 4,
+      "public_price": 4,
+      "contact_sales": 0,
+      "mean_model_confidence": 0.97,
+      "mean_monetary_confidence": 0.97
+    },
+    "enterprise-knowledge": {
+      "total": 9,
+      "public_price": 2,
+      "contact_sales": 7,
+      "mean_model_confidence": 0.822,
+      "mean_monetary_confidence": 0.379
+    },
+    "research-assistant": {
+      "total": 7,
+      "public_price": 5,
+      "contact_sales": 2,
+      "mean_model_confidence": 0.916,
+      "mean_monetary_confidence": 0.756
+    },
+    "productivity-ai": {
+      "total": 1,
+      "public_price": 1,
+      "contact_sales": 0,
+      "mean_model_confidence": 0.97,
+      "mean_monetary_confidence": 0.97
+    },
+    "self-hosted-assistant": {
+      "total": 1,
+      "public_price": 1,
+      "contact_sales": 0,
+      "mean_model_confidence": 0.98,
+      "mean_monetary_confidence": 0.98
+    },
+    "workflow-platform": {
+      "total": 9,
+      "public_price": 7,
+      "contact_sales": 2,
+      "mean_model_confidence": 0.933,
+      "mean_monetary_confidence": 0.824
+    },
+    "alm-ai": {
+      "total": 5,
+      "public_price": 0,
+      "contact_sales": 5,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "security-ai": {
+      "total": 8,
+      "public_price": 4,
+      "contact_sales": 4,
+      "mean_model_confidence": 0.875,
+      "mean_monetary_confidence": 0.563
+    },
+    "security-quality-ai": {
+      "total": 1,
+      "public_price": 0,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "diagram-ai": {
+      "total": 4,
+      "public_price": 1,
+      "contact_sales": 3,
+      "mean_model_confidence": 0.828,
+      "mean_monetary_confidence": 0.408
+    },
+    "document-ai": {
+      "total": 5,
+      "public_price": 1,
+      "contact_sales": 4,
+      "mean_model_confidence": 0.92,
+      "mean_monetary_confidence": 0.598
+    },
+    "meeting-ai": {
+      "total": 9,
+      "public_price": 6,
+      "contact_sales": 3,
+      "mean_model_confidence": 0.904,
+      "mean_monetary_confidence": 0.697
+    },
+    "model-backend": {
+      "total": 10,
+      "public_price": 7,
+      "contact_sales": 3,
+      "mean_model_confidence": 0.963,
+      "mean_monetary_confidence": 0.824
+    },
+    "audio-ai": {
+      "total": 1,
+      "public_price": 0,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.9,
+      "mean_monetary_confidence": 0.4
+    },
+    "model-runtime": {
+      "total": 2,
+      "public_price": 2,
+      "contact_sales": 0,
+      "mean_model_confidence": 0.98,
+      "mean_monetary_confidence": 0.98
+    },
+    "enterprise-ai-platform": {
+      "total": 2,
+      "public_price": 1,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.88,
+      "mean_monetary_confidence": 0.59
+    },
+    "requirements-ai": {
+      "total": 4,
+      "public_price": 2,
+      "contact_sales": 2,
+      "mean_model_confidence": 0.855,
+      "mean_monetary_confidence": 0.615
+    },
+    "regulated-engineering-ai": {
+      "total": 2,
+      "public_price": 0,
+      "contact_sales": 2,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "embedded-verification-ai": {
+      "total": 3,
+      "public_price": 0,
+      "contact_sales": 3,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "technical-knowledge-ai": {
+      "total": 2,
+      "public_price": 0,
+      "contact_sales": 2,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "documentation-ai": {
+      "total": 6,
+      "public_price": 3,
+      "contact_sales": 3,
+      "mean_model_confidence": 0.885,
+      "mean_monetary_confidence": 0.63
+    },
+    "code-review": {
+      "total": 5,
+      "public_price": 3,
+      "contact_sales": 2,
+      "mean_model_confidence": 0.89,
+      "mean_monetary_confidence": 0.698
+    },
+    "code-review-security": {
+      "total": 1,
+      "public_price": 1,
+      "contact_sales": 0,
+      "mean_model_confidence": 0.97,
+      "mean_monetary_confidence": 0.85
+    },
+    "sovereign-ai-infrastructure": {
+      "total": 1,
+      "public_price": 0,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "sovereign-enterprise-ai": {
+      "total": 1,
+      "public_price": 0,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "enterprise-agent-platform": {
+      "total": 2,
+      "public_price": 2,
+      "contact_sales": 0,
+      "mean_model_confidence": 0.975,
+      "mean_monetary_confidence": 0.975
+    },
+    "embedded-verification-security-ai": {
+      "total": 1,
+      "public_price": 0,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "security-engineering-ai": {
+      "total": 1,
+      "public_price": 0,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "architecture-ai": {
+      "total": 1,
+      "public_price": 0,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "embedded-hil-verification-ai": {
+      "total": 2,
+      "public_price": 0,
+      "contact_sales": 2,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    },
+    "observability-ai": {
+      "total": 1,
+      "public_price": 1,
+      "contact_sales": 0,
+      "mean_model_confidence": 0.97,
+      "mean_monetary_confidence": 0.97
+    },
+    "observability-debug-ai": {
+      "total": 5,
+      "public_price": 2,
+      "contact_sales": 3,
+      "mean_model_confidence": 0.904,
+      "mean_monetary_confidence": 0.552
+    },
+    "devops-ai": {
+      "total": 1,
+      "public_price": 0,
+      "contact_sales": 1,
+      "mean_model_confidence": 0.78,
+      "mean_monetary_confidence": 0.22
+    }
+  },
+  "scoring": false,
+  "note": "Pricing evidence is an input to future TCO/ROI and MetaScore analysis. Estimates are explicitly separated from vendor prices."
+}
