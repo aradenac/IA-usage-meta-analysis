@@ -26,6 +26,9 @@ from typing import Any
 QUALITY = {"A": 1.0, "B": 0.8, "C": 0.6, "D": 0.4, "E": 0.2}
 GRADE_RANK = {"A": 5, "B": 4, "C": 3, "D": 2, "E": 1}
 GRADE_MARGIN = {"A": 0.05, "B": 0.08, "C": 0.12, "D": 0.18, "E": 0.25}
+RELATIONSHIP_PRIOR_STRENGTH = 0.75
+FAMILY_WEIGHT_CAP = 1.25
+PRODUCT_PRIOR_STRENGTH = 1.50
 
 RELATIONSHIP_SUCCESS_PRIOR = {
     "native": 0.68,
@@ -313,14 +316,14 @@ class Scorer:
         evidence_ids: list[str] = []
         for observations in groups.values():
             total = sum(w for _, w in observations)
-            scale = min(1.0, 0.75 / total) if total else 1.0
+            scale = min(1.0, FAMILY_WEIGHT_CAP / total) if total else 1.0
             for o, raw_weight in observations:
                 weight = raw_weight * scale
                 sw += weight
                 sp += weight * o["probability_proxy"]
                 evidence_ids.append(o["id"])
 
-        point = (self.args.prior_strength * base + sp) / (self.args.prior_strength + sw)
+        point = (RELATIONSHIP_PRIOR_STRENGTH * base + sp) / (RELATIONSHIP_PRIOR_STRENGTH + sw)
         return {"point": point, "base": base, "weight": sw, "observations": evidence_ids}
 
     def direct_success_rows(self, solution_id: str, task: dict[str, Any]) -> list[dict[str, Any]]:
@@ -373,7 +376,7 @@ class Scorer:
                 sq += weight * QUALITY.get(x["grade"], 0.2)
                 used.append({**x, "effective_weight": weight})
 
-        p = (self.args.prior_strength * fp["point"] + sp) / (self.args.prior_strength + sw)
+        p = (PRODUCT_PRIOR_STRENGTH * fp["point"] + sp) / (PRODUCT_PRIOR_STRENGTH + sw)
 
         relative_adjustment = 0.0
         for o in self.product_obs:
@@ -643,7 +646,9 @@ class Scorer:
             "reference_users": self.args.users,
             "reference_ai_eligible_hours_per_user_month": self.args.ai_hours_month,
             "fx": {"date": "2026-09-25", "EURUSD": self.args.eur_usd, "EURCNY": self.args.eur_cny},
-            "prior_strength": self.args.prior_strength,
+            "prior_strength": PRODUCT_PRIOR_STRENGTH,
+            "relationship_prior_strength": RELATIONSHIP_PRIOR_STRENGTH,
+            "family_weight_cap": FAMILY_WEIGHT_CAP,
             "relationship_success_priors": RELATIONSHIP_SUCCESS_PRIOR,
             "relationship_human_time_factors": RELATIONSHIP_HUMAN_FACTOR,
             "family_benchmark_count": len(self.family_obs),
@@ -668,7 +673,7 @@ class Scorer:
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    p.add_argument("--version", default="product-task-v1.6")
+    p.add_argument("--version", default="product-task-v1.7")
     p.add_argument("--human-rate", type=float, default=50.0)
     p.add_argument("--users", type=int, default=50)
     p.add_argument("--project-users", type=int, default=10)
@@ -677,7 +682,6 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--ai-hours-month-high-cost", type=float, default=40.0)
     p.add_argument("--eur-usd", type=float, default=1.1403)
     p.add_argument("--eur-cny", type=float, default=7.6551)
-    p.add_argument("--prior-strength", type=float, default=2.0)
     p.add_argument("--byok-input-usd-m", type=float, default=2.0)
     p.add_argument("--byok-output-usd-m", type=float, default=10.0)
     p.add_argument("--byok-low-factor", type=float, default=0.35)
