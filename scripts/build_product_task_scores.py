@@ -668,7 +668,7 @@ class Scorer:
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    p.add_argument("--version", default="product-task-v1.5")
+    p.add_argument("--version", default="product-task-v1.6")
     p.add_argument("--human-rate", type=float, default=50.0)
     p.add_argument("--users", type=int, default=50)
     p.add_argument("--project-users", type=int, default=10)
