@@ -1,0 +1,3101 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-27",
+  "active_solution_records": 157,
+  "tier_counts": {
+    "historical_harness_quantitative": 12,
+    "direct_success_quantitative": 28,
+    "capability_only": 103,
+    "direct_effort_or_relative_quantitative": 11,
+    "field_qualitative": 3
+  },
+  "records": [
+    {
+      "solution_id": "aider",
+      "solution_name": "Aider",
+      "vendor": "Aider-AI",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 13,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-aider-20260927"
+      ],
+      "historical_benchmarks": [
+        "Aider Polyglot",
+        "Aider edit leaderboard"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "claude-code",
+      "solution_name": "Claude Code",
+      "vendor": "Anthropic",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 16,
+      "public_user_signal_count": 3,
+      "direct_observation_ids": [
+        "cap-claude-code-20260927"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench",
+        "SWE-bench Essential",
+        "Agent Harness Bench",
+        "SWE-bench Pro",
+        "NL2Repo-Bench",
+        "DeepSWE 1.1",
+        "QwenSWEBench",
+        "DeepSWE local 12-task harness shootout",
+        "NL2Repo",
+        "Gemma 4 community agentic coding",
+        "Stet real-repo coding benchmark"
+      ],
+      "user_signal_ids": [
+        "usr-claude-code-large-task-guardrails-2026",
+        "usr-claude-code-large-repo-mixed-2026",
+        "usr-claude-code-production-lessons-2026"
+      ]
+    },
+    {
+      "solution_id": "codex-cli",
+      "solution_name": "Codex CLI",
+      "vendor": "OpenAI",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 9,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-martian-codex-202609"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench",
+        "SWE-bench Essential",
+        "Agent Harness Bench",
+        "Stet real-repo coding benchmark"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "cline",
+      "solution_name": "Cline",
+      "vendor": "Cline",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 12,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-cline-20260927"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench",
+        "Community coding-agent field signal"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "opencode",
+      "solution_name": "OpenCode",
+      "vendor": "OpenCode",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 11,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-opencode-20260927"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench",
+        "Agent Harness Bench",
+        "DeepSWE local 12-task harness shootout",
+        "SkillsBench",
+        "Real-feature N=1 bake-off",
+        "Community coding-agent field signal"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "openhands",
+      "solution_name": "OpenHands",
+      "vendor": "OpenHands",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 39,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-openhands-20260927"
+      ],
+      "historical_benchmarks": [
+        "GAIA",
+        "Commit0",
+        "SWE-bench Multimodal",
+        "SWE-bench",
+        "SWT-Bench",
+        "SWE-bench Verified"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "penguin-harness",
+      "solution_name": "PenguinHarness",
+      "vendor": "PrismShadow",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 6,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-penguin-harness-20260927"
+      ],
+      "historical_benchmarks": [
+        "SWE-bench Essential"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "deepseek-harness",
+      "solution_name": "DeepSeek Harness",
+      "vendor": "DeepSeek AI",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 2,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-deepseek-harness-20260927"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench",
+        "Agent Harness Bench"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "maka",
+      "solution_name": "Apache Maka",
+      "vendor": "Apache Software Foundation",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-maka-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "reasonix",
+      "solution_name": "Reasonix",
+      "vendor": "community",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-reasonix-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "zcode",
+      "solution_name": "ZCode",
+      "vendor": "Z.ai",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-zcode-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "qwen-code",
+      "solution_name": "Qwen Code",
+      "vendor": "Qwen",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 1,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-qwen-code-20260927"
+      ],
+      "historical_benchmarks": [
+        "DeepSWE local 12-task harness shootout"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "kimi-code",
+      "solution_name": "Kimi Code",
+      "vendor": "Moonshot AI",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 1,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-kimi-code-20260927"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "gemini-cli",
+      "solution_name": "Gemini CLI",
+      "vendor": "Google",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 2,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-gemini-cli-20260927"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "factory-droid",
+      "solution_name": "Factory Droid",
+      "vendor": "Factory",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 2,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-factory-droid-20260927"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "pi",
+      "solution_name": "Pi",
+      "vendor": "Pi ecosystem",
+      "category": "coding",
+      "evidence_tier": "historical_harness_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 4,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-pi-20260927"
+      ],
+      "historical_benchmarks": [
+        "Terminal-Bench",
+        "Agent Harness Bench",
+        "Community coding-agent field signal"
+      ],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "oh-my-pi",
+      "solution_name": "Oh My Pi",
+      "vendor": "community",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-oh-my-pi-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "cursor",
+      "solution_name": "Cursor",
+      "vendor": "Cursor",
+      "category": "coding",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 2,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-cursor-metr-rct-2025",
+        "prod-cursor-metr-followup-2026",
+        "prod-cursor-espressif-zephyr-field-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "mistral-vibe-code",
+      "solution_name": "Mistral Vibe Code",
+      "vendor": "Mistral AI",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-mistral-vibe-code-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "kiro",
+      "solution_name": "Kiro",
+      "vendor": "Amazon Web Services",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-kiro-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "goose",
+      "solution_name": "Goose",
+      "vendor": "Block / Agentic AI Foundation",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-goose-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "jetbrains-junie",
+      "solution_name": "Junie",
+      "vendor": "JetBrains",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-jetbrains-junie-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "continue",
+      "solution_name": "Continue",
+      "vendor": "Continue",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 0,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "augment-code",
+      "solution_name": "Augment Code",
+      "vendor": "Augment",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-augment-review-202606"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "sourcegraph-cody",
+      "solution_name": "Sourcegraph Cody Enterprise",
+      "vendor": "Sourcegraph",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-sourcegraph-cody-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "amp",
+      "solution_name": "Amp",
+      "vendor": "Sourcegraph / Amp",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-amp-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "devin-desktop",
+      "solution_name": "Devin Desktop",
+      "vendor": "Cognition",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-martian-devin-202609"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "gitlab-duo",
+      "solution_name": "GitLab Duo Agent Platform",
+      "vendor": "GitLab",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 2,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-gitlab-martian-202606",
+        "prod-gitlab-prreview-202605",
+        "prod-gitlab-duo-fix-ci-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "github-copilot",
+      "solution_name": "GitHub Copilot Agents",
+      "vendor": "GitHub",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 1,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-martian-github-copilot-202609",
+        "prod-copilot-rct-2023",
+        "prod-github-copilot-ci-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "tabnine",
+      "solution_name": "Tabnine",
+      "vendor": "Tabnine",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-tabnine-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "amazon-q-developer",
+      "solution_name": "Amazon Q Developer",
+      "vendor": "Amazon Web Services",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-amazon-q-developer-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "coderabbit",
+      "solution_name": "CodeRabbit",
+      "vendor": "CodeRabbit",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 3,
+      "direct_observation_ids": [
+        "prod-martian-coderabbit-202609"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": [
+        "usr-coderabbit-mixed-2025",
+        "usr-coderabbit-noise-2026",
+        "usr-coderabbit-security-catch-2026"
+      ]
+    },
+    {
+      "solution_id": "qodo",
+      "solution_name": "Qodo",
+      "vendor": "Qodo",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-martian-qodo-202609"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "greptile",
+      "solution_name": "Greptile",
+      "vendor": "Greptile",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-martian-greptile-202609"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "chatgpt-enterprise",
+      "solution_name": "ChatGPT Business / Enterprise + Deep Research / Work",
+      "vendor": "OpenAI",
+      "category": "general-assistant",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 2,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 1,
+      "direct_observation_ids": [
+        "prod-chatgpt-browsecomp",
+        "prod-chatgpt-dsqa",
+        "prod-chatgpt-study-mode-rct-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": [
+        "usr-deep-research-comparison-2025"
+      ]
+    },
+    {
+      "solution_id": "claude-enterprise",
+      "solution_name": "Claude Enterprise / Cowork",
+      "vendor": "Anthropic",
+      "category": "general-assistant",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 2,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-claude-dsqa",
+        "prod-claude-browsecomp"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "mistral-vibe-work",
+      "solution_name": "Mistral Vibe Work",
+      "vendor": "Mistral AI",
+      "category": "general-assistant",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-mistral-vibe-work-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "gemini-enterprise",
+      "solution_name": "Gemini Enterprise / Deep Research",
+      "vendor": "Google",
+      "category": "general-assistant",
+      "evidence_tier": "field_qualitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 1,
+      "direct_observation_ids": [
+        "prod-gemini-guided-learning-rct-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": [
+        "usr-deep-research-controlled-prompt-2025"
+      ]
+    },
+    {
+      "solution_id": "gemini-notebook-enterprise",
+      "solution_name": "Gemini Notebook Enterprise",
+      "vendor": "Google Cloud",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-gemini-notebook-enterprise-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "perplexity-enterprise",
+      "solution_name": "Perplexity Enterprise Pro",
+      "vendor": "Perplexity",
+      "category": "research-assistant",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 3,
+      "direct_probability_count": 3,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 1,
+      "direct_observation_ids": [
+        "prod-perplexity-dsqa",
+        "prod-perplexity-browsecomp",
+        "prod-perplexity-hle"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": [
+        "usr-deep-research-comparison-2025-perplexity"
+      ]
+    },
+    {
+      "solution_id": "m365-copilot",
+      "solution_name": "Microsoft 365 Copilot",
+      "vendor": "Microsoft",
+      "category": "productivity-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-m365-copilot-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "atlassian-rovo",
+      "solution_name": "Atlassian Rovo",
+      "vendor": "Atlassian",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-atlassian-rovo-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "glean",
+      "solution_name": "Glean",
+      "vendor": "Glean",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-glean-enterprise-search"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "lighton-paradigm",
+      "solution_name": "LightOn Paradigm",
+      "vendor": "LightOn",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-lighton-paradigm-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "open-webui",
+      "solution_name": "Open WebUI",
+      "vendor": "Open WebUI",
+      "category": "self-hosted-assistant",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-open-webui-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "n8n",
+      "solution_name": "n8n",
+      "vendor": "n8n",
+      "category": "workflow-platform",
+      "evidence_tier": "field_qualitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 4,
+      "direct_observation_ids": [
+        "cap-n8n-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": [
+        "usr-n8n-production-guardrails-2026",
+        "usr-n8n-production-contracts-2026",
+        "usr-n8n-builder-cleanup-2026",
+        "usr-n8n-controlled-ai-steps-2026"
+      ]
+    },
+    {
+      "solution_id": "dify",
+      "solution_name": "Dify",
+      "vendor": "Dify",
+      "category": "workflow-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-dify-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "copilot-studio",
+      "solution_name": "Microsoft Copilot Studio",
+      "vendor": "Microsoft",
+      "category": "workflow-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-copilot-studio-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "microsoft-researcher",
+      "solution_name": "Microsoft 365 Copilot Researcher",
+      "vendor": "Microsoft",
+      "category": "research-assistant",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-microsoft-researcher-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "notebooklm",
+      "solution_name": "NotebookLM",
+      "vendor": "Google",
+      "category": "research-assistant",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-notebooklm-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "youcom-enterprise",
+      "solution_name": "You.com Enterprise AI",
+      "vendor": "You.com",
+      "category": "research-assistant",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-youcom-enterprise-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "codebeamer-ai",
+      "solution_name": "Codebeamer AI",
+      "vendor": "PTC",
+      "category": "alm-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-codebeamer-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "ibm-engineering-ai-hub",
+      "solution_name": "IBM Engineering AI Hub",
+      "vendor": "IBM",
+      "category": "alm-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-ibm-engineering-ai-hub-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "jama-connect-advisor",
+      "solution_name": "Jama Connect Advisor",
+      "vendor": "Jama Software",
+      "category": "alm-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 1,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-jama-test-time"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "polarion-copilot",
+      "solution_name": "Polarion Copilot / Industrial AI",
+      "vendor": "Siemens",
+      "category": "alm-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-polarion-copilot-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "visure-vivia",
+      "solution_name": "Visure Vivia",
+      "vendor": "Visure Solutions",
+      "category": "alm-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-visure-vivia-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "threatmodeler-nexus",
+      "solution_name": "ThreatModeler Nexus",
+      "vendor": "ThreatModeler",
+      "category": "security-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-threatmodeler-nexus-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "iriusrisk-jeff",
+      "solution_name": "IriusRisk Jeff AI",
+      "vendor": "ThreatModeler / IriusRisk",
+      "category": "security-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 1,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-iriusrisk-ai-cap-2026",
+        "prod-iriusrisk-bank-time-2026",
+        "prod-iriusrisk-global-scale-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "semgrep-autofix",
+      "solution_name": "Semgrep Autofix",
+      "vendor": "Semgrep",
+      "category": "security-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-semgrep-guidance-actionable-2024",
+        "prod-semgrep-autofix-agreement-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "snyk-deepcode-ai",
+      "solution_name": "Snyk DeepCode AI",
+      "vendor": "Snyk",
+      "category": "security-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-snyk-deepcode-fix-2024",
+        "prod-snyk-vuln-context-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "sonarqube-ai-codefix",
+      "solution_name": "SonarQube AI CodeFix",
+      "vendor": "Sonar",
+      "category": "security-quality-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-sonarqube-ai-codefix-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "microsoft-security-copilot",
+      "solution_name": "Microsoft Security Copilot",
+      "vendor": "Microsoft",
+      "category": "security-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-microsoft-security-copilot-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "eraser",
+      "solution_name": "Eraser",
+      "vendor": "Eraser",
+      "category": "diagram-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-eraser-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "lucid-ai",
+      "solution_name": "Lucidchart + Lucid AI",
+      "vendor": "Lucid",
+      "category": "diagram-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-lucid-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "miro-ai",
+      "solution_name": "Miro AI",
+      "vendor": "Miro",
+      "category": "diagram-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-miro-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "mistral-document-ai",
+      "solution_name": "Mistral Document AI",
+      "vendor": "Mistral AI",
+      "category": "document-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-mistral-document-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "azure-document-intelligence",
+      "solution_name": "Azure AI Document Intelligence",
+      "vendor": "Microsoft",
+      "category": "document-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-azure-document-intelligence-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "google-document-ai",
+      "solution_name": "Google Document AI",
+      "vendor": "Google Cloud",
+      "category": "document-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-google-document-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "aws-textract",
+      "solution_name": "Amazon Textract",
+      "vendor": "Amazon Web Services",
+      "category": "document-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-aws-textract-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "teams-copilot",
+      "solution_name": "Microsoft Teams Copilot / Intelligent Recap",
+      "vendor": "Microsoft",
+      "category": "meeting-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-teams-copilot-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "fireflies",
+      "solution_name": "Fireflies.ai",
+      "vendor": "Fireflies.ai",
+      "category": "meeting-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-fireflies-meeting"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "otter",
+      "solution_name": "Otter.ai",
+      "vendor": "Otter.ai",
+      "category": "meeting-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-otter-meeting"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "read-ai",
+      "solution_name": "Read AI",
+      "vendor": "Read AI",
+      "category": "meeting-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-read-meeting"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "scaleway-genai-serverless",
+      "solution_name": "Scaleway Generative APIs — Serverless",
+      "vendor": "Scaleway",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-scaleway-genai-serverless-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "scaleway-genai-dedicated",
+      "solution_name": "Scaleway Generative APIs — Dedicated Deployment",
+      "vendor": "Scaleway",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-scaleway-genai-dedicated-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "scaleway-audio",
+      "solution_name": "Scaleway Audio Transcription API",
+      "vendor": "Scaleway",
+      "category": "audio-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-scaleway-audio-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "ovh-ai-endpoints",
+      "solution_name": "OVHcloud AI Endpoints",
+      "vendor": "OVHcloud",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-ovh-ai-endpoints-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "mistral-platform",
+      "solution_name": "Mistral AI Studio / La Plateforme",
+      "vendor": "Mistral AI",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-mistral-platform-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "openai-api",
+      "solution_name": "OpenAI API / Responses API",
+      "vendor": "OpenAI",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-openai-api-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "anthropic-api",
+      "solution_name": "Claude API / Anthropic Platform",
+      "vendor": "Anthropic",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-anthropic-api-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "google-vertex-ai",
+      "solution_name": "Google Vertex AI / Gemini API",
+      "vendor": "Google Cloud",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-google-vertex-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "azure-ai-foundry",
+      "solution_name": "Microsoft Foundry / Azure AI Foundry",
+      "vendor": "Microsoft",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-azure-ai-foundry-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "aws-bedrock",
+      "solution_name": "Amazon Bedrock",
+      "vendor": "Amazon Web Services",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-aws-bedrock-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "huggingface-endpoints",
+      "solution_name": "Hugging Face Inference Endpoints",
+      "vendor": "Hugging Face",
+      "category": "model-backend",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-huggingface-endpoints-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "ollama",
+      "solution_name": "Ollama",
+      "vendor": "Ollama",
+      "category": "model-runtime",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-ollama-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "vllm",
+      "solution_name": "vLLM",
+      "vendor": "vLLM community",
+      "category": "model-runtime",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-vllm-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "kilo-code",
+      "solution_name": "Kilo Code",
+      "vendor": "Kilo",
+      "category": "coding",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-martian-kilo-202609"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "replit-agent",
+      "solution_name": "Replit Agent",
+      "vendor": "Replit",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-replit-agent-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "zed-ai",
+      "solution_name": "Zed AI / Zed Agent",
+      "vendor": "Zed Industries",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-zed-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "jetbrains-ai-assistant",
+      "solution_name": "JetBrains AI Assistant",
+      "vendor": "JetBrains",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-jetbrains-ai-assistant-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "moveworks",
+      "solution_name": "Moveworks AI Assistant / Enterprise Search / Agent Studio",
+      "vendor": "Moveworks",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-moveworks-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "sinequa",
+      "solution_name": "Sinequa Enterprise AI Search",
+      "vendor": "Sinequa / ChapsVision",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-sinequa-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "coveo",
+      "solution_name": "Coveo AI Search",
+      "vendor": "Coveo",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-coveo-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "cohere-north",
+      "solution_name": "Cohere North",
+      "vendor": "Cohere",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-cohere-north-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "aleph-alpha-pharia",
+      "solution_name": "Aleph Alpha PHARIA AI",
+      "vendor": "Aleph Alpha",
+      "category": "enterprise-ai-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-aleph-alpha-pharia-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "ibm-watsonx",
+      "solution_name": "IBM watsonx.ai",
+      "vendor": "IBM",
+      "category": "enterprise-ai-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-ibm-watsonx-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "adobe-acrobat-ai",
+      "solution_name": "Adobe Acrobat AI Assistant / Acrobat Studio",
+      "vendor": "Adobe",
+      "category": "document-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 2,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-adobe-acrobat-doc-analysis-cap-2026",
+        "prod-adobe-acrobat-compare-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "mermaid-chart-ai",
+      "solution_name": "Mermaid Chart AI",
+      "vendor": "Mermaid Chart",
+      "category": "diagram-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-mermaid-chart-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "fathom",
+      "solution_name": "Fathom",
+      "vendor": "Fathom",
+      "category": "meeting-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-fathom-meeting"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "tldv",
+      "solution_name": "tl;dv",
+      "vendor": "tl;dv",
+      "category": "meeting-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-tldv-meeting"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "elicit",
+      "solution_name": "Elicit",
+      "vendor": "Ought / Elicit",
+      "category": "research-assistant",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-elicit-literature"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "consensus",
+      "solution_name": "Consensus Deep Search",
+      "vendor": "Consensus",
+      "category": "research-assistant",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-consensus-literature"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "scispace",
+      "solution_name": "SciSpace Literature Review / Deep Review",
+      "vendor": "SciSpace",
+      "category": "research-assistant",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-scispace-literature"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "qra-qvscribe",
+      "solution_name": "QRA QVscribe + ReqWriter / QRAcloud",
+      "vendor": "QRA Corp",
+      "category": "requirements-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 1,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-qvscribe-rcaf-time",
+        "prod-qvscribe-customer-issue-catch-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "klugspice",
+      "solution_name": "KlugSpice",
+      "vendor": "KLUGSYS",
+      "category": "regulated-engineering-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-klugspice-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "reqdrive",
+      "solution_name": "ReqDrive / ReqM",
+      "vendor": "ReqDrive",
+      "category": "requirements-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-reqdrive-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "reqi-rex",
+      "solution_name": "Reqi REX",
+      "vendor": "Reqi",
+      "category": "requirements-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-reqi-rex-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "modernrequirements-copilot",
+      "solution_name": "Modern Requirements Copilot4DevOps / Agents4DevOps",
+      "vendor": "Modern Requirements",
+      "category": "requirements-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-modernrequirements-copilot-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "checkmarx-assist",
+      "solution_name": "Checkmarx Assist Agents",
+      "vendor": "Checkmarx",
+      "category": "security-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 1,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-checkmarx-assist-effort-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "veracode-fix",
+      "solution_name": "Veracode Fix",
+      "vendor": "Veracode",
+      "category": "security-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-veracode-fix-case-2026",
+        "prod-veracode-fix-coverage-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "mend-sast-ai",
+      "solution_name": "Mend SAST AI Triage & Remediation",
+      "vendor": "Mend.io",
+      "category": "security-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-mend-sast-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "langsmith-agent-platform",
+      "solution_name": "LangSmith + LangGraph / Deep Agents / Fleet",
+      "vendor": "LangChain",
+      "category": "workflow-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-langsmith-agent-platform-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "crewai-amp",
+      "solution_name": "CrewAI AMP",
+      "vendor": "CrewAI",
+      "category": "workflow-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-crewai-amp-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "langflow",
+      "solution_name": "Langflow",
+      "vendor": "DataStax / Langflow",
+      "category": "workflow-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-langflow-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "vectorcast-ai",
+      "solution_name": "VectorCAST 2026 + Reqs2x",
+      "vendor": "Vector Informatik",
+      "category": "embedded-verification-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-vectorcast-reqs2x-cap"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "parasoft-cpptest-ai",
+      "solution_name": "Parasoft C/C++test 2026.1 + MCP AI workflows",
+      "vendor": "Parasoft",
+      "category": "embedded-verification-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 2,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-parasoft-static-cap",
+        "prod-parasoft-static-fix-time-2026",
+        "prod-parasoft-test-effort-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "kapa-ai",
+      "solution_name": "Kapa.ai",
+      "vendor": "Kapa.ai",
+      "category": "technical-knowledge-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-kapa-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "deepwiki",
+      "solution_name": "DeepWiki",
+      "vendor": "Cognition",
+      "category": "technical-knowledge-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-deepwiki-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "gitbook-ai",
+      "solution_name": "GitBook Agent + Assistant + MCP",
+      "vendor": "GitBook",
+      "category": "documentation-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-gitbook-doc-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "mintlify-ai",
+      "solution_name": "Mintlify Assistant + Agent",
+      "vendor": "Mintlify",
+      "category": "documentation-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-mintlify-doc-cap-2026",
+        "prod-mintlify-doc-pr-merge-2026",
+        "prod-mintlify-doc-automation-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "codeant-ai",
+      "solution_name": "CodeAnt AI",
+      "vendor": "CodeAnt",
+      "category": "code-review",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-martian-codeant-202609"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "kodus",
+      "solution_name": "Kodus / Kody",
+      "vendor": "Kodus",
+      "category": "code-review",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-kodus-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "deepsource",
+      "solution_name": "DeepSource AI Review + Autofix AI",
+      "vendor": "DeepSource",
+      "category": "code-review-security",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-deepsource-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "outscale-ai-factories",
+      "solution_name": "OUTSCALE AI Factories",
+      "vendor": "Dassault Systèmes OUTSCALE",
+      "category": "sovereign-ai-infrastructure",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-outscale-ai-factories-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "atos-mogwai",
+      "solution_name": "Atos MogwAI",
+      "vendor": "Atos",
+      "category": "sovereign-enterprise-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-atos-mogwai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "dust",
+      "solution_name": "Dust",
+      "vendor": "Dust",
+      "category": "enterprise-agent-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-dust-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "cursor-bugbot",
+      "solution_name": "Cursor Bugbot",
+      "vendor": "Cursor",
+      "category": "code-review",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-martian-cursor-202609",
+        "prod-cursor-resolution-202604"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "pr-agent",
+      "solution_name": "PR-Agent",
+      "vendor": "The PR-Agent community",
+      "category": "code-review",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-pr-agent-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "perforce-klocwork-ai",
+      "solution_name": "Perforce Klocwork 2026.2 + Static Analysis MCP",
+      "vendor": "Perforce",
+      "category": "embedded-verification-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-perforce-klocwork-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "blackduck-coverity-ai",
+      "solution_name": "Black Duck Coverity 2026 + AI/MCP",
+      "vendor": "Black Duck",
+      "category": "embedded-verification-security-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-blackduck-coverity-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "itemis-analyze-ai",
+      "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
+      "vendor": "itemis",
+      "category": "regulated-engineering-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 4,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 2,
+      "capability_only_count": 2,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-itemis-aspice-time",
+        "prod-itemis-traceability-cap",
+        "prod-itemis-analyze-safety-impact-cap-2026",
+        "prod-itemis-bauerhin-trace-efficiency"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "itemis-secure-ai",
+      "solution_name": "itemis SECURE AI-Powered TARA + MCP",
+      "vendor": "itemis",
+      "category": "security-engineering-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 1,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-itemis-secure-vuln-sync-2026",
+        "prod-itemis-secure-tara-time-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "sparx-kernaro-assist",
+      "solution_name": "Kernaro Assist for Sparx Enterprise Architect",
+      "vendor": "Sparx Systems",
+      "category": "architecture-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-kernaro-ea-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "vector-canoe-ai",
+      "solution_name": "Vector CANoe 20 SP2 AI Package + MCP",
+      "vendor": "Vector Informatik",
+      "category": "embedded-hil-verification-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-vector-canoe-agent-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "tracetronic-ecutest-agent",
+      "solution_name": "tracetronic ecu.test agent 2026.2",
+      "vendor": "tracetronic",
+      "category": "embedded-hil-verification-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-ecutest-agent-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "tabby",
+      "solution_name": "Tabby",
+      "vendor": "TabbyML",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-tabby-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "bito-code-review",
+      "solution_name": "Bito AI Code Review Agent",
+      "vendor": "Bito",
+      "category": "code-review",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-bito-review-202603"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "warp-ade",
+      "solution_name": "Warp Agentic Development Environment",
+      "vendor": "Warp",
+      "category": "coding",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-warp-ade-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "fern-ai",
+      "solution_name": "Fern Agent + Ask Fern + MCP",
+      "vendor": "Fern",
+      "category": "documentation-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-fern-doc-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "readme-ask-ai",
+      "solution_name": "ReadMe Ask AI v2",
+      "vendor": "ReadMe",
+      "category": "documentation-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-readme-doc-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "redocly-ai-assistant",
+      "solution_name": "Redocly Realm AI Assistant",
+      "vendor": "Redocly",
+      "category": "documentation-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-redocly-doc-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "document360-eddy-ai",
+      "solution_name": "Document360 Ask Eddy AI",
+      "vendor": "Document360",
+      "category": "documentation-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-document360-eddy-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "notion-ai-meeting-notes",
+      "solution_name": "Notion AI Meeting Notes",
+      "vendor": "Notion",
+      "category": "meeting-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-notion-ai-meeting-notes-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "google-meet-gemini-notes",
+      "solution_name": "Google Meet — Gemini Take notes for me",
+      "vendor": "Google",
+      "category": "meeting-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-google-meet-gemini-notes-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "granola-enterprise",
+      "solution_name": "Granola Enterprise",
+      "vendor": "Granola",
+      "category": "meeting-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-granola-meeting"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "guru-ai-search",
+      "solution_name": "Guru Enterprise AI Search",
+      "vendor": "Guru",
+      "category": "enterprise-knowledge",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-guru-ai-search-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "elastic-agent-builder",
+      "solution_name": "Elastic Agent Builder / Elastic AI Agent",
+      "vendor": "Elastic",
+      "category": "observability-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-elastic-agent-builder-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "make-ai-agents",
+      "solution_name": "Make AI Agents",
+      "vendor": "Make",
+      "category": "workflow-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-make-workflow-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "zapier-agents",
+      "solution_name": "Zapier Agents",
+      "vendor": "Zapier",
+      "category": "workflow-platform",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 3,
+      "direct_quantitative_count": 2,
+      "direct_probability_count": 2,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 1,
+      "direct_observation_ids": [
+        "prod-zapier-workflow-cap-2026",
+        "prod-zapier-agents-erewhon-2026",
+        "prod-zapier-agents-mercari-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": [
+        "usr-agent-builder-comparison-2026"
+      ]
+    },
+    {
+      "solution_id": "workato-ai",
+      "solution_name": "Workato AIRO + Workato GO",
+      "vendor": "Workato",
+      "category": "enterprise-agent-platform",
+      "evidence_tier": "field_qualitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-workato-workflow-cap-2026",
+        "prod-workato-orix-time-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "tines-ai-agent",
+      "solution_name": "Tines AI Agent",
+      "vendor": "Tines",
+      "category": "workflow-platform",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-tines-workflow-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "sentry-seer",
+      "solution_name": "Sentry Seer",
+      "vendor": "Sentry",
+      "category": "observability-debug-ai",
+      "evidence_tier": "direct_success_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 1,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-sentry-seer-rootcause"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "datadog-bits-ai",
+      "solution_name": "Datadog Bits AI / Bits Investigation",
+      "vendor": "Datadog",
+      "category": "observability-debug-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-datadog-bits-ai-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "newrelic-autopilot",
+      "solution_name": "New Relic Autopilot / New Relic AI",
+      "vendor": "New Relic",
+      "category": "observability-debug-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-newrelic-autopilot-completion"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "grafana-ai",
+      "solution_name": "Grafana AI / Assistant Investigations",
+      "vendor": "Grafana Labs",
+      "category": "observability-debug-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 0,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-grafana-investigation-time"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "dynatrace-assist",
+      "solution_name": "Dynatrace Assist / Dynatrace Intelligence",
+      "vendor": "Dynatrace",
+      "category": "observability-debug-ai",
+      "evidence_tier": "capability_only",
+      "direct_product_observation_count": 1,
+      "direct_quantitative_count": 0,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 0,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "cap-dynatrace-assist-20260927"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    },
+    {
+      "solution_id": "harness-ai-devops",
+      "solution_name": "Harness AI / Autonomous Worker Agents",
+      "vendor": "Harness",
+      "category": "devops-ai",
+      "evidence_tier": "direct_effort_or_relative_quantitative",
+      "direct_product_observation_count": 2,
+      "direct_quantitative_count": 1,
+      "direct_probability_count": 0,
+      "direct_human_time_count": 1,
+      "capability_only_count": 1,
+      "historical_harness_observation_count": 0,
+      "public_user_signal_count": 0,
+      "direct_observation_ids": [
+        "prod-harness-devops-onboarding-2026",
+        "prod-harness-release-cap-2026"
+      ],
+      "historical_benchmarks": [],
+      "user_signal_ids": []
+    }
+  ]
+}
