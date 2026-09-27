@@ -355,3 +355,13 @@ It produces:
 - explicit flags for prior-driven success/time/cost.
 
 The canonical index is `data/task-scores/index.json`.
+
+## 16. Incremental persistence
+
+The GitHub repository is the working source of truth during evidence collection.
+
+- New verified evidence is committed as soon as it is structured; it is not held only in conversational context.
+- New assumptions, transfer rules and methodological changes are documented before or with the data that depends on them.
+- Coverage/index files are refreshed after each material evidence batch.
+- Interrupted work resumes from the latest repository state, not from remembered intermediate notes.
+- A dated progress checkpoint records current counts, weak areas and the next evidence targets.
