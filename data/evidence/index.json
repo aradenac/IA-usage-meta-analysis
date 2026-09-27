@@ -19,9 +19,9 @@
   },
   "practitioner_user_signals": {
     "path": "data/evidence/public-user-signals.json",
-    "count": 6
+    "count": 17
   },
-  "total_preserved_evidence_records": 487,
+  "total_preserved_evidence_records": 498,
   "scoring": {
     "index": "data/task-scores/index.json",
     "version": "product-task-v1.7",
@@ -232,7 +232,7 @@
   "interpretation": "Capability evidence proves fit but does not create P(success). Family benchmarks update priors only. Direct product evidence is kept separate from historical exact model+harness+configuration evidence.",
   "pending_rescore": {
     "required": true,
-    "reason": "v1.8 batch now includes EmbedEval, AutoHIL, SWE-Mutation and reproducible PILLAR GO threat-modeling metrics.",
+    "reason": "v1.8 pending after EmbedEval, AutoHIL, SWE-Mutation, PILLAR GO and new practitioner signals; evidence counts reconciled from source files.",
     "target_version": "product-task-v1.8"
   }
 }
