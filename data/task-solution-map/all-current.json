@@ -3839,12 +3839,20 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
+      },
+      {
         "solution_id": "aws-bedrock",
         "relationship": "backend"
       },
       {
         "solution_id": "azure-ai-foundry",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "c2a-evsec",
+        "relationship": "native"
       },
       {
         "solution_id": "chatgpt-enterprise",
@@ -3863,6 +3871,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "conformly-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "copilot-studio",
         "relationship": "custom_workflow"
       },
@@ -3871,12 +3883,20 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "cybellum-product-security",
+        "relationship": "native"
+      },
+      {
         "solution_id": "dify",
         "relationship": "custom_workflow"
       },
       {
         "solution_id": "dust",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "finite-state-product-security-os",
+        "relationship": "native"
       },
       {
         "solution_id": "gemini-enterprise",
@@ -4032,6 +4052,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
+      },
+      {
         "solution_id": "aws-bedrock",
         "relationship": "backend"
       },
@@ -4042,6 +4066,10 @@
       {
         "solution_id": "blackduck-coverity-ai",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "c2a-evsec",
+        "relationship": "native"
       },
       {
         "solution_id": "chatgpt-enterprise",
@@ -4064,6 +4092,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "conformly-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "copilot-studio",
         "relationship": "custom_workflow"
       },
@@ -4072,12 +4104,20 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "cybellum-product-security",
+        "relationship": "native"
+      },
+      {
         "solution_id": "dify",
         "relationship": "custom_workflow"
       },
       {
         "solution_id": "dust",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "finite-state-product-security-os",
+        "relationship": "native"
       },
       {
         "solution_id": "gemini-enterprise",
@@ -4117,6 +4157,10 @@
       },
       {
         "solution_id": "jama-connect-advisor",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "ketryx-automotive",
         "relationship": "direct"
       },
       {
@@ -4237,12 +4281,20 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
+      },
+      {
         "solution_id": "aws-bedrock",
         "relationship": "backend"
       },
       {
         "solution_id": "azure-ai-foundry",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "c2a-evsec",
+        "relationship": "native"
       },
       {
         "solution_id": "chatgpt-enterprise",
@@ -4261,6 +4313,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "conformly-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "copilot-studio",
         "relationship": "custom_workflow"
       },
@@ -4269,11 +4325,19 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "cybellum-product-security",
+        "relationship": "native"
+      },
+      {
         "solution_id": "dify",
         "relationship": "custom_workflow"
       },
       {
         "solution_id": "dust",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "finite-state-product-security-os",
         "relationship": "direct"
       },
       {
@@ -4426,6 +4490,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
+      },
+      {
         "solution_id": "aws-bedrock",
         "relationship": "backend"
       },
@@ -4439,6 +4507,10 @@
       },
       {
         "solution_id": "blackduck-coverity-ai",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "c2a-evsec",
         "relationship": "native"
       },
       {
@@ -4474,6 +4546,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "conformly-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "copilot-studio",
         "relationship": "custom_workflow"
       },
@@ -4484,6 +4560,10 @@
       {
         "solution_id": "cursor",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "cybellum-product-security",
+        "relationship": "native"
       },
       {
         "solution_id": "datadog-bits-ai",
@@ -4508,6 +4588,10 @@
       {
         "solution_id": "factory-droid",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "finite-state-product-security-os",
+        "relationship": "native"
       },
       {
         "solution_id": "gemini-cli",
@@ -4715,12 +4799,20 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
+      },
+      {
         "solution_id": "aws-bedrock",
         "relationship": "backend"
       },
       {
         "solution_id": "azure-ai-foundry",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "c2a-evsec",
+        "relationship": "native"
       },
       {
         "solution_id": "chatgpt-enterprise",
@@ -4743,6 +4835,10 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "cybellum-product-security",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "dify",
         "relationship": "custom_workflow"
       },
@@ -4752,6 +4848,10 @@
       },
       {
         "solution_id": "eraser",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "finite-state-product-security-os",
         "relationship": "direct"
       },
       {
@@ -4892,12 +4992,20 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "auriga-nexus",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "aws-bedrock",
         "relationship": "backend"
       },
       {
         "solution_id": "azure-ai-foundry",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "c2a-evsec",
+        "relationship": "direct"
       },
       {
         "solution_id": "chatgpt-enterprise",
@@ -4924,6 +5032,10 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "cybellum-product-security",
+        "relationship": "native"
+      },
+      {
         "solution_id": "datadog-bits-ai",
         "relationship": "direct"
       },
@@ -4938,6 +5050,10 @@
       {
         "solution_id": "elastic-agent-builder",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "finite-state-product-security-os",
+        "relationship": "native"
       },
       {
         "solution_id": "gemini-enterprise",
@@ -11254,12 +11370,20 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "assessoris",
+        "relationship": "native"
+      },
+      {
         "solution_id": "atlassian-rovo",
         "relationship": "connected"
       },
       {
         "solution_id": "atos-mogwai",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
       },
       {
         "solution_id": "aws-bedrock",
@@ -11284,6 +11408,10 @@
       {
         "solution_id": "cohere-north",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "conformly-ai",
+        "relationship": "native"
       },
       {
         "solution_id": "copilot-studio",
@@ -11335,6 +11463,10 @@
       },
       {
         "solution_id": "jama-connect-advisor",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "ketryx-automotive",
         "relationship": "native"
       },
       {
@@ -11447,12 +11579,20 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "assessoris",
+        "relationship": "native"
+      },
+      {
         "solution_id": "atlassian-rovo",
         "relationship": "connected"
       },
       {
         "solution_id": "atos-mogwai",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
       },
       {
         "solution_id": "aws-bedrock",
@@ -11483,6 +11623,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "conformly-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "copilot-studio",
         "relationship": "custom_workflow"
       },
@@ -11491,11 +11635,19 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "cybellum-product-security",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "dify",
         "relationship": "custom_workflow"
       },
       {
         "solution_id": "dust",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "finite-state-product-security-os",
         "relationship": "direct"
       },
       {
@@ -11536,6 +11688,10 @@
       },
       {
         "solution_id": "jama-connect-advisor",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "ketryx-automotive",
         "relationship": "native"
       },
       {
@@ -14984,6 +15140,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
+      },
+      {
         "solution_id": "aws-bedrock",
         "relationship": "backend"
       },
@@ -15006,6 +15166,10 @@
       {
         "solution_id": "cohere-north",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "conformly-ai",
+        "relationship": "native"
       },
       {
         "solution_id": "copilot-studio",
@@ -15057,6 +15221,10 @@
       },
       {
         "solution_id": "jama-connect-advisor",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "ketryx-automotive",
         "relationship": "native"
       },
       {
@@ -15140,6 +15308,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "siemens-questa-one-safety",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "sinequa",
         "relationship": "connected"
       },
@@ -15181,6 +15353,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
+      },
+      {
         "solution_id": "aws-bedrock",
         "relationship": "backend"
       },
@@ -15219,6 +15395,10 @@
       {
         "solution_id": "cohere-north",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "conformly-ai",
+        "relationship": "native"
       },
       {
         "solution_id": "copilot-studio",
@@ -15290,6 +15470,10 @@
       },
       {
         "solution_id": "jama-connect-advisor",
+        "relationship": "native"
+      },
+      {
+        "solution_id": "ketryx-automotive",
         "relationship": "native"
       },
       {
@@ -15395,6 +15579,10 @@
       {
         "solution_id": "scaleway-genai-serverless",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "siemens-questa-one-safety",
+        "relationship": "native"
       },
       {
         "solution_id": "sinequa",
