@@ -220,9 +220,8 @@
     },
     "release-note-generation": {
       "release-notes": 1,
-      "release-prepare": 0.45,
-      "doc-sync": 0.3,
-      "research-version": 0.25
+      "release-prepare": 0.55,
+      "doc-code": 0.25
     },
     "datasheet-engineering": {
       "doc-datasheet": 0.65,
@@ -280,6 +279,12 @@
       "cyber-review": 0.9,
       "cyber-impact": 0.55,
       "verify-mr": 0.35
+    },
+    "release-engineering-risk": {
+      "release-prepare": 1,
+      "ci-build": 0.55,
+      "ci-gitlab": 0.45,
+      "verify-mr": 0.3
     }
   }
 }
