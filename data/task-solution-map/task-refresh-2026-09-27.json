@@ -102,6 +102,94 @@
     "backend": []
   },
   {
+    "task_id": "cyber-artifacts",
+    "native": [
+      "cybellum-product-security",
+      "c2a-evsec",
+      "finite-state-product-security-os",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "conformly-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-compliance",
+    "native": [
+      "cybellum-product-security",
+      "c2a-evsec",
+      "finite-state-product-security-os",
+      "conformly-ai",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "ketryx-automotive"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-impact",
+    "native": [
+      "c2a-evsec",
+      "cybellum-product-security",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "finite-state-product-security-os",
+      "conformly-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-review",
+    "native": [
+      "c2a-evsec",
+      "cybellum-product-security",
+      "finite-state-product-security-os",
+      "auriga-nexus",
+      "conformly-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-threat",
+    "native": [
+      "c2a-evsec",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "finite-state-product-security-os",
+      "cybellum-product-security"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-vuln",
+    "native": [
+      "cybellum-product-security",
+      "finite-state-product-security-os"
+    ],
+    "direct": [
+      "c2a-evsec",
+      "auriga-nexus"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
     "task_id": "debug-crash",
     "native": [
       "embedder-ai",
@@ -392,6 +480,35 @@
     "backend": []
   },
   {
+    "task_id": "process-aspice",
+    "native": [
+      "assessoris",
+      "ketryx-automotive",
+      "conformly-ai",
+      "auriga-nexus"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "process-evidence",
+    "native": [
+      "assessoris",
+      "ketryx-automotive",
+      "conformly-ai",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "finite-state-product-security-os",
+      "cybellum-product-security"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
     "task_id": "req-change-impact",
     "native": [
       "reqsuite-rm-ai",
@@ -491,6 +608,33 @@
       "trace-space",
       "arc-requirements-ai"
     ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "safety-impact",
+    "native": [
+      "ketryx-automotive",
+      "conformly-ai",
+      "auriga-nexus"
+    ],
+    "direct": [
+      "siemens-questa-one-safety"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "safety-review",
+    "native": [
+      "ketryx-automotive",
+      "conformly-ai",
+      "auriga-nexus",
+      "siemens-questa-one-safety"
+    ],
+    "direct": [],
     "connected": [],
     "custom_workflow": [],
     "backend": []
