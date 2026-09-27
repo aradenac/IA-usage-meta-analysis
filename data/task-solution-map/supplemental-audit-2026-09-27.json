@@ -1,0 +1,2166 @@
+[
+  {
+    "task_id": "req-system-impact",
+    "native": [
+      "qra-qvscribe",
+      "klugspice",
+      "reqdrive",
+      "reqi-rex",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "req-write-sw",
+    "native": [
+      "qra-qvscribe",
+      "klugspice",
+      "reqdrive",
+      "reqi-rex",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "req-review",
+    "native": [
+      "qra-qvscribe",
+      "klugspice",
+      "reqdrive",
+      "reqi-rex",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "req-decompose",
+    "native": [
+      "qra-qvscribe",
+      "klugspice",
+      "reqdrive",
+      "reqi-rex",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "req-traceability",
+    "native": [
+      "qra-qvscribe",
+      "klugspice",
+      "reqdrive",
+      "reqi-rex",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "req-change-impact",
+    "native": [
+      "qra-qvscribe",
+      "klugspice",
+      "reqdrive",
+      "reqi-rex",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "arch-software",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "arch-detailed-design",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "arch-understand",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "deepwiki",
+      "kapa-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "arch-review",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "deepwiki",
+      "kapa-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "arch-choice",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "deepwiki",
+      "kapa-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "dev-feature",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-small-change",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-module",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "replit-agent",
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-adapt",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-port",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-datasheet",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-protocol",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-python-tooling",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "replit-agent"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-refactor",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-known",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-embedded",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-intermittent",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-crash",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-performance",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-hw-sw",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-vendor",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "kapa-ai",
+      "deepwiki",
+      "elicit",
+      "consensus",
+      "scispace"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-search",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "kapa-ai",
+      "deepwiki",
+      "elicit",
+      "consensus",
+      "scispace"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-backport",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-contribute",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot"
+    ],
+    "connected": [
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-unit",
+    "native": [
+      "vectorcast-ai",
+      "parasoft-cpptest-ai"
+    ],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-integration",
+    "native": [
+      "vectorcast-ai",
+      "parasoft-cpptest-ai"
+    ],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-req-tests",
+    "native": [
+      "vectorcast-ai",
+      "parasoft-cpptest-ai",
+      "qra-qvscribe",
+      "klugspice"
+    ],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-loop",
+    "native": [
+      "vectorcast-ai",
+      "parasoft-cpptest-ai",
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot"
+    ],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-mr",
+    "native": [
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot",
+      "checkmarx-assist",
+      "veracode-fix",
+      "mend-sast-ai"
+    ],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-static",
+    "native": [
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot",
+      "checkmarx-assist",
+      "veracode-fix",
+      "mend-sast-ai"
+    ],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-coverage",
+    "native": [
+      "vectorcast-ai",
+      "parasoft-cpptest-ai"
+    ],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "parasoft-cpptest-ai",
+      "vectorcast-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-prevalidation",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "klugspice",
+      "vectorcast-ai",
+      "parasoft-cpptest-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-impact",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "klugspice"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "cyber-review",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "checkmarx-assist",
+      "veracode-fix",
+      "mend-sast-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "cyber-vuln",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "checkmarx-assist",
+      "veracode-fix",
+      "mend-sast-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "cyber-threat",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "klugspice"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "safety-impact",
+    "native": [
+      "klugspice",
+      "qra-qvscribe",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "vectorcast-ai",
+      "parasoft-cpptest-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "safety-review",
+    "native": [
+      "klugspice",
+      "qra-qvscribe",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "vectorcast-ai",
+      "parasoft-cpptest-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "process-aspice",
+    "native": [
+      "klugspice",
+      "qra-qvscribe",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "vectorcast-ai",
+      "parasoft-cpptest-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "process-evidence",
+    "native": [
+      "klugspice",
+      "qra-qvscribe",
+      "modernrequirements-copilot"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "vectorcast-ai",
+      "parasoft-cpptest-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "ci-build",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "ci-gitlab",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "codeant-ai",
+      "deepsource"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "ci-create",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "codeant-ai",
+      "deepsource"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "ci-docker",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "ci-toolchain",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "ci-automation",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "release-prepare",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "dust",
+      "moveworks",
+      "sinequa",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "release-notes",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "dust",
+      "moveworks",
+      "sinequa",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "doc-code",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "gitbook-ai",
+      "mintlify-ai",
+      "adobe-acrobat-ai",
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "doc-architecture",
+    "native": [
+      "mermaid-chart-ai"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "gitbook-ai",
+      "mintlify-ai",
+      "adobe-acrobat-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "doc-sync",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "gitbook-ai",
+      "mintlify-ai",
+      "adobe-acrobat-ai",
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "doc-datasheet",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "gitbook-ai",
+      "mintlify-ai",
+      "adobe-acrobat-ai",
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "doc-vendor-diff",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "gitbook-ai",
+      "mintlify-ai",
+      "adobe-acrobat-ai",
+      "kapa-ai",
+      "deepwiki"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "collab-meeting",
+    "native": [
+      "fathom",
+      "tldv"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "moveworks"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "collab-jira",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "moveworks"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "collab-backlog",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "moveworks"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "collab-ticket",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "moveworks"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "collab-confluence",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "moveworks"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "collab-sharepoint",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "moveworks"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "collab-status",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "moveworks"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "collab-workflow",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "moveworks"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "learn-explain",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "kapa-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "learn-operational",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "kapa-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "research-state-art",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "deepwiki"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "research-web",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "deepwiki"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "research-source",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "deepwiki"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "research-docs",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "kapa-ai",
+      "adobe-acrobat-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "research-multidoc",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "adobe-acrobat-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "research-relevant",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "kapa-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "learn-path",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "learn-coach",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "watch-tech",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "research-version",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "research-field",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "elicit",
+      "consensus",
+      "scispace",
+      "deepwiki"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "kapa-ai"
+    ],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp",
+      "langflow"
+    ],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "arch-diagram",
+    "native": [
+      "mermaid-chart-ai"
+    ],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "gitbook-ai",
+      "mintlify-ai"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "verify-hil",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [
+      "langsmith-agent-platform",
+      "crewai-amp"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "verify-results",
+    "native": [],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant",
+      "parasoft-cpptest-ai",
+      "vectorcast-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-coding-rules",
+    "native": [
+      "codeant-ai",
+      "kodus",
+      "deepsource",
+      "cursor-bugbot",
+      "checkmarx-assist",
+      "veracode-fix",
+      "mend-sast-ai"
+    ],
+    "direct": [
+      "kilo-code",
+      "zed-ai",
+      "jetbrains-ai-assistant"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-compliance",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "checkmarx-assist",
+      "veracode-fix",
+      "mend-sast-ai",
+      "klugspice"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  },
+  {
+    "task_id": "cyber-artifacts",
+    "native": [],
+    "direct": [
+      "dust",
+      "atos-mogwai",
+      "cohere-north",
+      "ibm-watsonx",
+      "aleph-alpha-pharia",
+      "klugspice"
+    ],
+    "connected": [
+      "moveworks",
+      "sinequa",
+      "coveo",
+      "cohere-north",
+      "aleph-alpha-pharia",
+      "ibm-watsonx",
+      "dust",
+      "atos-mogwai",
+      "klugspice"
+    ],
+    "custom_workflow": [],
+    "backend": [
+      "outscale-ai-factories"
+    ]
+  }
+]
