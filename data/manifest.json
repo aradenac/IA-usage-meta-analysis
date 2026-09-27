@@ -18,9 +18,22 @@
   "solution_inventory": {
     "verified_at": "2026-09-27",
     "canonical_index": "data/solutions/index.json",
-    "solution_count": 86,
-    "task_solution_map": "data/task-solution-map/index.json",
+    "solution_entries": 128,
+    "current_mapping": "data/task-solution-map/index.json",
     "mapped_tasks": 86,
-    "scoring": false
+    "mapping_candidate_count": {
+      "min": 33,
+      "max": 68,
+      "average": 48.3
+    },
+    "scoring": false,
+    "lifecycle_exclusions": "data/solution-exclusions.json"
+  },
+  "configuration_catalog": {
+    "index": "data/configurations/index.json",
+    "historical_observed": 138,
+    "historical_compatibility": 42,
+    "provider_api_candidates": 15,
+    "principle": "Historical model+harness/surface+configuration evidence is preserved even when the execution surface is eval-only; only user-selectable surfaces are recommendation candidates."
   }
 }
