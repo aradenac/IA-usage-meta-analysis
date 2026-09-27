@@ -1,0 +1,42 @@
+{
+  "requirements": {
+    "label": "Exigences software & traçabilité",
+    "desc": "À partir d’entrants système/client : analyser, rédiger, revoir, décomposer et tracer les exigences software. L’ingénierie système amont reste hors scope."
+  },
+  "architecture": {
+    "label": "Architecture & detailed design",
+    "desc": "Architecture software, conception détaillée, interfaces, budgets de ressources et revues de conception."
+  },
+  "development": {
+    "label": "Développement embarqué",
+    "desc": "C/C++, MCU/MPU, RTOS/Linux, drivers, protocoles, modules et tooling associé."
+  },
+  "debug-upstream": {
+    "label": "Debug, intégration & upstream",
+    "desc": "Diagnostic embarqué, bugs fournisseurs/upstream, backports et contributions dans de grands codebases."
+  },
+  "verification": {
+    "label": "Vérification, revues & qualité",
+    "desc": "Tests, revues de MR, analyse statique, couverture et préparation avant validation."
+  },
+  "safety-cyber": {
+    "label": "Safety, cybersécurité & process",
+    "desc": "Analyse cyber/safety, vulnérabilités, ASPICE/cycle en V et préparation des preuves."
+  },
+  "ci-release": {
+    "label": "Build, CI, tooling & release",
+    "desc": "GitLab CI, runners Docker, toolchains, automatisation et préparation des releases."
+  },
+  "documentation": {
+    "label": "Documentation & capitalisation",
+    "desc": "Documentation technique, architecture formelle, datasheets et maintien de la cohérence documentaire."
+  },
+  "collaboration": {
+    "label": "Projet, réunions & plateformes",
+    "desc": "Jira, Confluence, SharePoint, GitLab, réunions, backlogs et synthèses projet."
+  },
+  "learning-research": {
+    "label": "Recherche, veille & formation continue",
+    "desc": "Compréhension de technologies, états de l’art, recherche web, documentation massive et montée en compétence."
+  }
+}
