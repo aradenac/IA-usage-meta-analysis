@@ -1,0 +1,329 @@
+[
+  {
+    "id": "codebeamer-ai",
+    "name": "Codebeamer AI",
+    "vendor": "PTC",
+    "category": "alm-ai",
+    "status": "active",
+    "deployment": [
+      "ptc-hosted",
+      "customer-hosted"
+    ],
+    "surfaces": [
+      "codebeamer"
+    ],
+    "capabilities": [
+      "requirements-quality",
+      "requirements-rewrite",
+      "test-generation",
+      "semantic-search",
+      "traceability"
+    ],
+    "integrations": [
+      "Codebeamer"
+    ],
+    "official_url": "https://support.ptc.com/help/codebeamer_ai/en/codebeamer/welcome.html",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "ibm-engineering-ai-hub",
+    "name": "IBM Engineering AI Hub",
+    "vendor": "IBM",
+    "category": "alm-ai",
+    "status": "active",
+    "deployment": [
+      "self-managed",
+      "openshift",
+      "enterprise"
+    ],
+    "surfaces": [
+      "doors-next",
+      "elm"
+    ],
+    "capabilities": [
+      "requirements-quality",
+      "requirements-qa",
+      "impact-analysis",
+      "coverage",
+      "traceability",
+      "test-generation",
+      "mcp"
+    ],
+    "integrations": [
+      "DOORS Next",
+      "EWM",
+      "ETM",
+      "MCP"
+    ],
+    "official_url": "https://www.ibm.com/docs/en/engineering-ai-hub/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "jama-connect-advisor",
+    "name": "Jama Connect Advisor",
+    "vendor": "Jama Software",
+    "category": "alm-ai",
+    "status": "active",
+    "deployment": [
+      "cloud"
+    ],
+    "surfaces": [
+      "jama-connect"
+    ],
+    "capabilities": [
+      "requirements-quality",
+      "requirements-rewrite",
+      "test-generation",
+      "relationship-discovery",
+      "traceability",
+      "pdf-parsing",
+      "mcp"
+    ],
+    "integrations": [
+      "Jama Connect",
+      "MCP"
+    ],
+    "official_url": "https://www.jamasoftware.com/solutions/artificial-intelligence/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "polarion-copilot",
+    "name": "Polarion Copilot / Industrial AI",
+    "vendor": "Siemens",
+    "category": "alm-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "polarion"
+    ],
+    "surfaces": [
+      "polarion"
+    ],
+    "capabilities": [
+      "requirements-quality",
+      "similarity",
+      "task-extraction",
+      "quality-control",
+      "document-import"
+    ],
+    "integrations": [
+      "Polarion"
+    ],
+    "official_url": "https://www.siemens.com/en-gb/products/polarion/industrial-ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "visure-vivia",
+    "name": "Visure Vivia",
+    "vendor": "Visure Solutions",
+    "category": "alm-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "on-prem-options"
+    ],
+    "surfaces": [
+      "visure"
+    ],
+    "capabilities": [
+      "requirements-generation",
+      "requirements-quality",
+      "test-generation",
+      "traceability",
+      "impact-analysis",
+      "compliance",
+      "mcp"
+    ],
+    "integrations": [
+      "Visure Requirements ALM",
+      "MCP",
+      "Word",
+      "Excel"
+    ],
+    "official_url": "https://visuresolutions.com/tool-suite/vivia/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "threatmodeler-nexus",
+    "name": "ThreatModeler Nexus",
+    "vendor": "ThreatModeler",
+    "category": "security-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "byoai"
+    ],
+    "surfaces": [
+      "web",
+      "ide-integrations",
+      "mcp"
+    ],
+    "capabilities": [
+      "threat-modeling",
+      "system-mapping",
+      "architecture-analysis",
+      "secure-by-design",
+      "compliance",
+      "reporting",
+      "mcp"
+    ],
+    "integrations": [
+      "diagram tools",
+      "ticketing",
+      "CI/CD",
+      "MCP"
+    ],
+    "official_url": "https://www.threatmodeler.ai/platform",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "iriusrisk-jeff",
+    "name": "IriusRisk Jeff AI",
+    "vendor": "ThreatModeler / IriusRisk",
+    "category": "security-ai",
+    "status": "transitioning",
+    "deployment": [
+      "saas",
+      "on-prem-options"
+    ],
+    "surfaces": [
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "threat-modeling",
+      "diagram-generation",
+      "secure-by-design",
+      "compliance-views",
+      "mcp"
+    ],
+    "integrations": [
+      "IriusRisk",
+      "MCP"
+    ],
+    "official_url": "https://www.iriusrisk.com/ai-threat-modeling",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "semgrep-autofix",
+    "name": "Semgrep Autofix",
+    "vendor": "Semgrep",
+    "category": "security-ai",
+    "status": "public-beta",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "git-platform"
+    ],
+    "capabilities": [
+      "static-analysis",
+      "security-review",
+      "autofix",
+      "dependency-upgrade-guidance"
+    ],
+    "integrations": [
+      "pull requests"
+    ],
+    "official_url": "https://semgrep.dev/blog/2026/semgrep-autofix-public-beta",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "snyk-deepcode-ai",
+    "name": "Snyk DeepCode AI",
+    "vendor": "Snyk",
+    "category": "security-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "web",
+      "git-platform"
+    ],
+    "capabilities": [
+      "security-review",
+      "sast",
+      "autofix",
+      "risk-prioritization",
+      "sca"
+    ],
+    "integrations": [
+      "Git repositories",
+      "IDEs"
+    ],
+    "official_url": "https://snyk.io/platform/deepcode-ai/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "sonarqube-ai-codefix",
+    "name": "SonarQube AI CodeFix",
+    "vendor": "Sonar",
+    "category": "security-quality-ai",
+    "status": "active",
+    "deployment": [
+      "server-enterprise",
+      "data-center",
+      "cloud"
+    ],
+    "surfaces": [
+      "web",
+      "ide"
+    ],
+    "capabilities": [
+      "static-analysis",
+      "quality",
+      "autofix",
+      "cpp"
+    ],
+    "integrations": [
+      "SonarQube",
+      "VS Code",
+      "IntelliJ"
+    ],
+    "official_url": "https://docs.sonarsource.com/sonarqube-server/2026.1/ai-capabilities/ai-codefix",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  },
+  {
+    "id": "microsoft-security-copilot",
+    "name": "Microsoft Security Copilot",
+    "vendor": "Microsoft",
+    "category": "security-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "security-portals"
+    ],
+    "capabilities": [
+      "threat-intelligence",
+      "vulnerability-context",
+      "incident-analysis",
+      "security-agents"
+    ],
+    "integrations": [
+      "Microsoft Defender",
+      "Sentinel"
+    ],
+    "official_url": "https://learn.microsoft.com/en-us/copilot/security/",
+    "verified_at": "2026-09-27",
+    "inventory_phase": "availability-only"
+  }
+]
