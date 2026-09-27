@@ -1580,5 +1580,47 @@
     "official_url": "https://www.atlassian.com/software/loom/ai-meeting",
     "verified_at": "2026-09-28",
     "notes": "Loom AI records Zoom/Meet/Teams, generates summaries and action items, creates Confluence meeting-note pages, turns recordings into Jira work items, and—with Rovo—suggests ready-to-approve Jira updates from meeting transcripts."
+  },
+  {
+    "id": "zoom-ai-companion",
+    "name": "Zoom AI Companion / ZoomMate",
+    "vendor": "Zoom",
+    "category": "meeting-collaboration-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "zoom-workplace",
+      "web",
+      "desktop",
+      "mobile",
+      "mcp"
+    ],
+    "capabilities": [
+      "meeting-summary",
+      "meeting-questions",
+      "live-notes",
+      "action-items",
+      "task-generation",
+      "workflow-automation",
+      "jira-actions",
+      "meeting-search",
+      "third-party-meeting-transcription"
+    ],
+    "integrations": [
+      "Zoom Meetings",
+      "Google Meet",
+      "Microsoft Teams",
+      "Jira",
+      "ChatGPT",
+      "Claude",
+      "Slack",
+      "Zoom Tasks"
+    ],
+    "official_url": "https://www.zoom.com/en/products/ai-assistant/",
+    "verified_at": "2026-09-28",
+    "notes": "Zoom AI Companion summarizes and interrogates meetings, creates action items/tasks, supports workflow automation and Jira actions, and can expose meeting assets to ChatGPT/Claude/Slack through Zoom apps/MCP-style integrations."
   }
 ]
