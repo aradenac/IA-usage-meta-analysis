@@ -349,6 +349,14 @@
       "cyber-vuln": 0.25,
       "cyber-review": 0.2,
       "cyber-impact": 0.15
+    },
+    "architecture-diagram-understanding": {
+      "arch-understand": 1,
+      "arch-review": 0.85,
+      "arch-diagram": 0.55,
+      "arch-software": 0.4,
+      "arch-detailed-design": 0.35,
+      "doc-architecture": 0.45
     }
   }
 }
