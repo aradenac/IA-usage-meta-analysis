@@ -14,5 +14,13 @@
     "surface-info.json": 51,
     "model-notes.json": 10,
     "data-policy.json": 3
+  },
+  "solution_inventory": {
+    "verified_at": "2026-09-27",
+    "canonical_index": "data/solutions/index.json",
+    "solution_count": 86,
+    "task_solution_map": "data/task-solution-map/index.json",
+    "mapped_tasks": 86,
+    "scoring": false
   }
 }
