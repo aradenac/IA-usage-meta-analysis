@@ -160,6 +160,13 @@
       "upstream-backport": 0.6,
       "upstream-contribute": 0.55,
       "ci-automation": 0.55
+    },
+    "architecture-traceability": {
+      "req-traceability": 0.9,
+      "req-change-impact": 0.55,
+      "arch-understand": 0.7,
+      "arch-review": 0.45,
+      "process-evidence": 0.4
     }
   }
 }
