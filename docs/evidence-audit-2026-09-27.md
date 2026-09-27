@@ -1,161 +1,181 @@
 # Evidence meta-analysis audit — 2026-09-27
 
-## Scope
+## Current state
 
-This audit tracks the public-evidence phase that follows the solution and pricing inventories.
+The public-evidence meta-analysis now contains:
 
-The objective is not to manufacture a ranking from sparse data. The objective is to preserve all available evidence, separate direct product performance from family-level capability, quantify uncertainty, and then build task-specific economic scores.
+- **209** historical model × harness × configuration observations;
+- **207** direct product observations, including capability-only rows;
+- **36** cross-product family benchmark observations;
+- **6** practitioner/user signals;
+- **458** preserved evidence records in total;
+- **4,393** scored solution × task pairs across 86 business tasks;
+- **394** task-solution pairs with directly relevant product evidence;
+- **2,432** pairs whose fallback prior is informed by a task-family benchmark;
+- **267** pairs with enough empirical success evidence not to be primarily prior-driven.
 
-## Current evidence layers
+All **156 active solution entries** have at least one primary product/project source. Continue is retained only as historical evidence.
 
-The repository now distinguishes four evidence layers:
+## Evidence tiers by solution
 
-1. **Historical model × harness × configuration observations**
-   - retained in `data/observations.json`;
-   - used only when a current product maps credibly to the same execution surface;
-   - never replaced by a product-level average.
+The current per-solution audit is stored in `data/evidence/coverage-by-solution.json`.
 
-2. **Direct product evidence**
-   - stored in `data/evidence/public-product-observations.json`;
-   - includes controlled benchmarks, field benchmarks, customer telemetry, case studies and capability-only observations;
-   - product evidence is tagged with an independence cluster to avoid double counting the same experiment.
+The coverage tiers are intentionally not rankings:
 
-3. **Cross-product family evidence**
-   - stored in `data/evidence/public-family-observations.json`;
-   - used to correct the fallback prior for a task family;
-   - never attributed as if it were a direct benchmark of a commercial product.
+- direct quantitative success evidence;
+- direct quantitative effort/relative evidence;
+- historical harness quantitative evidence;
+- qualitative field evidence;
+- capability-only evidence.
 
-4. **Public practitioner/user signals**
-   - stored in `data/evidence/public-user-signals.json`;
-   - retained as E-grade qualitative evidence;
-   - positive and negative observations are both preserved.
+A capability-only product is not considered unstudied: its workflow has been verified, but no defensible public performance estimate was found.
 
 ## Method
 
-The full methodology is documented in:
+See `docs/evidence-meta-analysis-methodology.md`.
 
-- `docs/evidence-meta-analysis-methodology.md`
-- `docs/evidence-grading.md`
-- `docs/metascore.md`
-- `docs/pricing-methodology.md`
+The scorer is reproducible through `scripts/build_product_task_scores.py`.
 
-The scoring pipeline is reproducible through:
+The model keeps three confidence dimensions separate:
 
-- `scripts/build_product_task_scores.py`
+1. P(success);
+2. active-human effort;
+3. monetary cost.
 
-The scorer keeps success probability, active-human effort and monetary cost as separate evidence dimensions.
+The overall MetaScore confidence is conservatively the weakest of these inputs. Current global MetaScore confidence is:
 
-## Important empirical corrections discovered during the evidence phase
+- C: **16 pairs**
+- D: **1717 pairs**
+- E: **2660 pairs**
 
-### Workflow agents
+No A/B global MetaScore is claimed yet. In many cases success is well benchmarked but human-effort transfer or enterprise contract pricing remains uncertain.
 
-AutomationBench tests realistic end-to-end tasks across 47 tools using deterministic final-state verification.
+## Important empirical corrections
 
-Current public/private benchmark results show that even strong systems remain around roughly 42–50% success on complex multi-app workflows.
+### Agentic coding
 
-**Implication:** the generic native-workflow prior must not be interpreted as evidence that a workflow agent succeeds on most complex automations.
+Terminal-Bench 4.0 is now represented separately from older Terminal-Bench versions. TB4 contains 66 tasks, uses calibrated resources, removes saturated/problematic tasks and requires fresh runs.
 
-### Requirements review
+Current official TB4 results include materially lower resolution rates than older saturated/less difficult suites for several current model+harness pairs. This prevents older Terminal-Bench results from being mistaken for present frontier-task success.
 
-A 2026 requirements-quality benchmark based on expert/INCOSE ground truth found that the best tested generic LLM recovered only about 47% of expert-identified issues, with non-trivial false flags.
+The corpus also preserves contradictory productivity evidence: simpler controlled GitHub Copilot experiments show time savings, while METR found a slowdown for experienced developers working in mature repositories with early-2025 tools.
 
-**Implication:** generic LLM review of engineering requirements remains assistive, not autonomous.
+### Code review
 
-### Requirements change-impact analysis
+Direct product evidence now includes Martian Code Review Bench, PR-Review-Bench, Bito's truth set, Augment's public benchmark and field-resolution signals. F1/issue-coverage measures are used only as approximate success proxies; comment volume/noise is preserved separately through practitioner signals.
 
-ProReFiCIA achieved 85.7% recall on an unseen industrial requirements dataset and 95.8% with domain RAG while requiring engineers to review only a small fraction of the requirements set.
+### Requirements engineering
 
-**Implication:** requirement-impact analysis is substantially more mature when retrieval and task-specific structure are added.
+Generic requirement review remains weak: a 2026 expert/INCOSE benchmark found roughly 47% recall for the best tested generic model.
 
-### HIL test generation
+In contrast, task-specific approaches are materially stronger:
 
-AutoHIL, evaluated on industrial ECUs, reported approximately 84–90% functional correctness and 81–90% script executability.
+- ProReFiCIA: 85.7% recall on unseen industrial requirements, 95.8% with domain RAG;
+- LusGen: traceability accuracy up to 88.4%;
+- itemis ANALYZE customer/reference evidence shows large traceability/ASPICE effort reductions;
+- QVscribe has both review-time evidence and a weaker long-term customer estimate of issue catch rate.
 
-**Implication:** domain-grounded HIL generation is a more credible family prior than generic coding-agent benchmarks for physical-bench test authoring.
+This justifies separate priors for review, traceability and change-impact analysis instead of one generic “requirements AI” prior.
 
-### Architecture generation
+### HIL / verification
 
-R2ABench shows a strong asymmetry: current systems recover architecture entities materially better than relationships. Public summaries report node F1 around 0.57 but edge F1 around 0.13, with hallucinated dependencies as a dominant failure mode.
+AutoHIL reports approximately 84–90% functional correctness and 81–90% executability on industrial ECU HIL workflows.
 
-**Implication:** attractive syntax/PlantUML validity must not be confused with reliable architecture reasoning.
+Commercial CANoe and ecu.test agent workflows are therefore considered functionally plausible but do not inherit AutoHIL's measured probability as direct product performance.
 
-### Extra-long technical/professional documents
+Parasoft contributes direct productivity evidence for static-analysis remediation and AI-assisted test workflows; VectorCAST remains strong capability evidence pending a comparable public success benchmark.
 
-XL-DocBench uses expert-verified evidence across professional documents up to thousands of pages. The best public system remains around 44% overall accuracy.
+### Static analysis and security remediation
 
-**Implication:** large-context support alone is not evidence of reliable document reasoning. Retrieval, evidence selection and abstention remain major failure points.
+Direct product evidence now includes:
 
-### Security compliance
+- Snyk DeepCode AI;
+- Semgrep remediation;
+- Veracode Fix;
+- Mend SAST third-party validated remediation;
+- Parasoft productivity outcomes;
+- Checkmarx effort claims.
 
-TrustBench reports strong average results on structured SOC 2 compliance detection, but the hardest judgment-heavy tasks remain far weaker.
+Klocwork and Coverity expose useful AI/MCP workflows but no comparable public success-rate benchmark was found; they remain capability-supported, not success-proven.
 
-**Implication:** structured gap detection appears viable; materiality/ambiguity judgment still requires human review.
+### Functional safety
 
-### Coding productivity
+SAFARI provides an important negative correction. Across 3,000 industrial HARA cases, frontier LLMs generated plausible narratives but remained weak on categorical ISO 26262 reasoning, with best ASIL macro-F1 around 0.261.
 
-The corpus deliberately preserves conflicting evidence:
-- controlled GitHub Copilot experiments on simpler greenfield tasks show large time savings;
-- METR's randomized study of experienced developers in their own mature repositories found a 19% slowdown with early-2025 tools;
-- later METR follow-up signals suggest improvement, but the authors caution that selection effects make precise current estimates uncertain.
+Safety-impact scores must therefore remain human-in-the-loop and low-confidence unless a specialized tool is validated on company data.
 
-**Implication:** coding ROI is task- and context-dependent. One global “AI coding productivity multiplier” is invalid.
+### Vulnerability remediation
 
-## Capability evidence versus success evidence
+Two deliberately conflicting benchmarks are retained:
 
-Many specialist engineering products expose strong deterministic context:
-- static-analysis findings;
-- traceability graphs;
-- requirements databases;
-- HIL/SIL execution state;
-- security models;
-- architecture models.
+- an execution-calibrated study on 922 JavaScript vulnerability patches reports only 23% fixed by the best tested model;
+- VulnBench reports substantially higher judge-based pass rates on a curated 200-CVE protocol.
 
-Official documentation can establish that the workflow exists, but a feature page alone cannot establish a probability of success.
+The discrepancy is informative: judge-only evaluation can overestimate real repair when functional preservation is enforced.
 
-Such rows remain useful for functional fit and prioritizing internal benchmarks, but do not create P(success).
+### Architecture
 
-## Current weaknesses
+R2ABench shows that systems identify architecture nodes much better than relationships (public summaries around 0.57 node F1 vs ~0.13 edge F1).
 
-The weakest evidence remains concentrated in:
+ArchBench-style trace-link recovery can be much stronger (~0.86 weighted F1) when the problem is constrained to architecture↔source traceability.
 
-- ASPICE compliance outcomes;
-- safety impact analysis;
-- architecture review beyond architecture-generation benchmarks;
-- release preparation and release-note correctness;
-- technical coaching/learning transfer to experienced engineers;
-- product-specific HIL benchmarks for commercial tools;
-- product-specific threat-model quality for commercial TARA platforms;
-- product-specific enterprise-workflow success under engineering data and permissions.
+### Long-document reasoning
 
-These rows should remain D/E until stronger evidence or internal experiments exist.
+XL-DocBench demonstrates that context-window size is not equivalent to reliable long-document reasoning: the best public system remains around 44% overall accuracy on expert-verified professional documents.
+
+Mistral OCR/document parsing has strong current extraction benchmarks, but OCR quality is kept distinct from downstream reasoning success.
+
+### Deep research / enterprise knowledge
+
+DeepSearchQA, BrowseComp, HLE and DRACO provide direct or relative evidence for Perplexity, ChatGPT/Researcher and Claude-family research systems.
+
+Enterprise-product field evidence now also includes Rovo, NotebookLM/Gemini, Kapa and Glean. Large customer time-saving claims are treated as human-effort evidence, not correctness.
+
+### Meetings
+
+Granola, tl;dv, Fireflies, Fathom, Otter and Read have comparative transcription/action-item evidence. The derived composite is documented and remains grade C because the source is not a standardized independent benchmark.
+
+### Workflows
+
+AutomationBench materially lowers the family prior for complex multi-app autonomous workflows: current systems remain around 42–50% end-to-end success on the benchmark.
+
+Vendor case studies from Zapier, Workato and Harness provide useful field/effort evidence but do not override AutomationBench as a general success prior.
+
+### Release engineering
+
+ReleaseEval provides a large benchmark for release-note generation (94,987 examples), but public evidence for complete release preparation remains sparse. Industry survey evidence also shows persistent human-review burden for AI-generated software.
+
+### Learning / tutoring
+
+Randomized evidence supports benefits from structured AI tutoring, but LongTutor shows continuing weakness in longitudinal diagnosis and adaptive teaching. Generic chat capability should not be treated as proof of effective technical coaching.
+
+## Current weak zones
+
+The most valuable remaining public evidence gaps are:
+
+- product-specific HIL success rates for CANoe and ecu.test;
+- product-specific architecture/modeling quality for Enterprise Architect/Kernaro;
+- current Klocwork/Coverity AI remediation accuracy;
+- product-specific ASPICE compliance correctness;
+- release preparation beyond release-note generation;
+- company-context workflow agents under real Jira/GitLab/SharePoint permissions;
+- technical-learning outcomes for experienced engineers rather than students;
+- exact enterprise prices for specialist engineering tools.
 
 ## Internal benchmark priorities
 
-The highest-value internal experiments are those where:
+Public evidence is now broad enough that internal benchmarking should focus on high-value unresolved comparisons rather than generic model bake-offs:
 
-1. a product has strong functional fit;
-2. public evidence is sparse;
-3. the business task is frequent or expensive;
-4. product cost is material;
-5. competing solutions have similar point estimates.
+1. CANoe AI vs ecu.test agent on representative HIL requirements.
+2. itemis ANALYZE vs current traceability/ASPICE workflow on real project artifacts.
+3. QVscribe / Codebeamer AI / IBM Engineering AI Hub / Polarion on company requirement templates.
+4. Klocwork / Coverity / Parasoft / Mend / Semgrep on embedded C/C++, MISRA/CERT and representative defects.
+5. Kernaro / generic coding agents on real Enterprise Architect or text-as-code architecture changes.
+6. Workflow agents on Jira/GitLab/SharePoint with real permission boundaries and deterministic final-state verification.
+7. Long-document tools on actual datasheets, reference manuals and customer/internal specifications.
 
-Priority examples:
+## Interpretation
 
-- Vector CANoe AI vs ecu.test agent on representative HIL requirements;
-- itemis ANALYZE / existing traceability workflow on project-realistic ASPICE evidence;
-- QVscribe / requirements copilots on the company's requirement templates;
-- Klocwork / Coverity / Parasoft AI remediation on embedded C/C++ rule sets;
-- architecture/model assistants on real Enterprise Architect or PlantUML artifacts;
-- workflow agents on Jira/GitLab/SharePoint processes with real permission boundaries;
-- long-document assistants on actual datasheets/reference manuals and internal technical specifications.
+A high MetaScore with D/E confidence means “economically attractive under current assumptions and worth validating”, not “proven best”.
 
-## Interpretation rule
-
-A high MetaScore with low evidence confidence means:
-
-> economically attractive under the current assumptions and a high-priority candidate for validation.
-
-It does **not** mean:
-
-> proven to be the best solution.
-
+Point estimates should always be read together with the pessimistic/optimistic interval and the three component confidence grades.
