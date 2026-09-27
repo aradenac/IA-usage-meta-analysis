@@ -1622,5 +1622,239 @@
     "official_url": "https://www.zoom.com/en/products/ai-assistant/",
     "verified_at": "2026-09-28",
     "notes": "Zoom AI Companion summarizes and interrogates meetings, creates action items/tasks, supports workflow automation and Jira actions, and can expose meeting assets to ChatGPT/Claude/Slack through Zoom apps/MCP-style integrations."
+  },
+  {
+    "id": "scite-ai",
+    "name": "Scite Assistant + Smart Citations + MCP",
+    "vendor": "Scite",
+    "category": "scientific-research-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "api"
+    ],
+    "surfaces": [
+      "web",
+      "mcp",
+      "browser-extension",
+      "zotero"
+    ],
+    "capabilities": [
+      "literature-search",
+      "full-text-search",
+      "citation-analysis",
+      "claim-verification",
+      "research-assistant",
+      "collections",
+      "research-feed",
+      "alerts",
+      "patent-search",
+      "mcp"
+    ],
+    "integrations": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Copilot",
+      "Cursor",
+      "Claude Code",
+      "Zotero",
+      "MCP"
+    ],
+    "official_url": "https://scite.ai/",
+    "verified_at": "2026-09-28",
+    "notes": "Scientific research platform with Smart Citations (supporting/contrasting/mentioning context), full-text search and Assistant. 2026 MCP exposes literature and citation intelligence to AI clients; Research Feed/Collections support ongoing monitoring."
+  },
+  {
+    "id": "accuris-ai-assistant",
+    "name": "Accuris AI Assistant",
+    "vendor": "Accuris",
+    "category": "engineering-standards-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "engineering-workbench",
+      "accuris-thread"
+    ],
+    "capabilities": [
+      "engineering-standards",
+      "clause-level-qa",
+      "citation-backed-answers",
+      "document-summarization",
+      "compliance-insight",
+      "authoritative-sources",
+      "traceability"
+    ],
+    "integrations": [
+      "Engineering Workbench",
+      "Accuris Thread",
+      "licensed publisher content"
+    ],
+    "official_url": "https://accuristech.com/accuris-ai-assistant/",
+    "verified_at": "2026-09-28",
+    "notes": "Purpose-built engineering assistant grounded only in licensed publisher-authorized standards and technical content, returning clause-level answers with precise citations and compliance explanations."
+  },
+  {
+    "id": "feedly-ai-intelligence",
+    "name": "Feedly AI / Market Intelligence",
+    "vendor": "Feedly",
+    "category": "technology-intelligence-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "technology-watch",
+      "ai-feeds",
+      "trend-detection",
+      "weak-signals",
+      "source-monitoring",
+      "multi-source-research",
+      "ask-ai",
+      "research",
+      "citations",
+      "newsletters"
+    ],
+    "integrations": [
+      "RSS",
+      "web-sources",
+      "Boards",
+      "AI Feeds",
+      "API",
+      "team-deliverables"
+    ],
+    "official_url": "https://feedly.com/market-intelligence",
+    "verified_at": "2026-09-28",
+    "notes": "AI Feeds continuously monitor selected concepts/sources; Ask AI/Research synthesizes attached feeds, boards, reports and open-web context with citations. Particularly useful for targeted technology watch and weak-signal detection."
+  },
+  {
+    "id": "scopus-ai",
+    "name": "Scopus with AI",
+    "vendor": "Elsevier",
+    "category": "scientific-research-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "institutional"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "literature-discovery",
+      "topic-summary",
+      "expanded-summary",
+      "citation-backed-research",
+      "concept-mapping",
+      "research-discovery",
+      "authoritative-sources"
+    ],
+    "integrations": [
+      "Scopus"
+    ],
+    "official_url": "https://www.elsevier.com/products/scopus/scopus-ai",
+    "verified_at": "2026-09-28",
+    "notes": "AI research experience grounded in Scopus peer-reviewed literature, producing source-referenced topic/expanded summaries and indicating relevance confidence."
+  },
+  {
+    "id": "web-of-science-research-assistant",
+    "name": "Web of Science Research Assistant",
+    "vendor": "Clarivate",
+    "category": "scientific-research-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "institutional"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "literature-discovery",
+      "agentic-research",
+      "citation-database",
+      "guided-research",
+      "research-visualization",
+      "source-discovery",
+      "authoritative-sources"
+    ],
+    "integrations": [
+      "Web of Science Core Collection"
+    ],
+    "official_url": "https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/web-of-science-research-assistant/",
+    "verified_at": "2026-09-28",
+    "notes": "Generative and agentic research assistant grounded in the Web of Science Core Collection, with guided task workflows, literature discovery and visualization."
+  },
+  {
+    "id": "kagi-research",
+    "name": "Kagi Research + Study Assistant",
+    "vendor": "Kagi",
+    "category": "web-research-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "mobile"
+    ],
+    "capabilities": [
+      "deep-research",
+      "web-search",
+      "source-analysis",
+      "multi-step-research",
+      "file-analysis",
+      "study-coaching",
+      "socratic-learning",
+      "custom-assistants",
+      "privacy-focused"
+    ],
+    "integrations": [
+      "Kagi Search",
+      "Wolfram Alpha",
+      "file uploads"
+    ],
+    "official_url": "https://help.kagi.com/kagi/ai/kagi-research.html",
+    "verified_at": "2026-09-28",
+    "notes": "Kagi Research orchestrates multiple research/librarian roles over Kagi Search with multi-step analysis and sourced outputs; Kagi Study Assistant adds Socratic, evidence-based learning workflows."
+  },
+  {
+    "id": "exa-agent",
+    "name": "Exa Agent / Deep Research API",
+    "vendor": "Exa",
+    "category": "research-backend",
+    "status": "active",
+    "deployment": [
+      "api",
+      "saas"
+    ],
+    "surfaces": [
+      "api"
+    ],
+    "capabilities": [
+      "deep-web-research",
+      "agentic-search",
+      "multi-source-research",
+      "structured-output",
+      "citations",
+      "list-building",
+      "entity-enrichment",
+      "field-level-grounding"
+    ],
+    "integrations": [
+      "API",
+      "agentic-applications"
+    ],
+    "official_url": "https://exa.ai/products/deep",
+    "verified_at": "2026-09-28",
+    "notes": "Research backend/API rather than a turnkey engineer UI. Exa Agent runs multi-step web research and can return structured, source-backed outputs; Exa Deep provides agentic search with grounded structured results."
   }
 ]
