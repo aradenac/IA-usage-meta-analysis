@@ -32,7 +32,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | Domain | Tasks | Status | Notes |
 | --- | ---: | --- | --- |
 | Requirements | 6 | complete | 6/6 tasks explicitly searched; 8 newly verified current solutions added and published to site snapshot. |
-| Architecture | 6 | pending | includes diagram task |
+| Architecture | 6 | complete | 6/6 tasks explicitly searched; 8 additional current solutions added. |
 | Development | 9 | pending | |
 | Debug / upstream | 10 | pending | |
 | Verification | 12 | pending | includes HIL/results/coding-rules |
@@ -83,3 +83,37 @@ Not added during this domain pass:
 Change log:
 - 2026-09-27 — website now consumes a generated snapshot of the canonical solution inventory and current task mappings.
 - 2026-09-27 — requirements domain completed; inventory increased from 157 to 165 solutions.
+
+## Architecture-domain audit
+
+Status: **complete (6/6 tasks searched explicitly)**.
+
+New solutions accepted during this pass:
+
+- **Dalus AI-Native MBSE** — SysML v2, requirements, trade studies, verification and an AI Copilot that creates structured architectures; MCP exposes the live model to assistants.
+  - https://dalus.io/
+  - https://dalus.io/features/mcp-workflows
+- **Visual Paradigm AI Modeling** — AI-assisted UML generation and iterative architecture modeling across class, sequence, component, deployment and related diagram types.
+  - https://www.visual-paradigm.com/features/uml-diagram-generator/
+- **Softagram Analyzer + MCP** — repository-derived architecture/dependency model, blast-radius and structural analysis, exposed to AI agents through MCP; supports C/C++ among its language set.
+  - https://softagram.com/en/softagram-analyzer/mcp
+- **CodeAtlas** — live architecture maps plus MCP and evidence-gated AI review.
+  - https://www.codeatlas.live/
+  - Caveat: its published language list currently does not include C/C++, so its embedded applicability is limited to supported stacks.
+- **JigsawML Architectural Intelligence** — interactive code/cloud architecture maps, dependency understanding and architectural change/drift analysis.
+  - https://www.jigsawml.com/
+- **Striff** — architecture-aware pull-request review using deterministic structural checks plus AI explanations.
+  - https://striff.io/
+  - Caveat: its current supported-language list does not include C/C++.
+- **ArchTect** — VS Code C4/Structurizr architecture-as-code environment with AI and MCP workflows.
+  - https://marketplace.visualstudio.com/items?itemName=nicobit.c4archtect
+- **SPREAD Product Explorer** — engineering product/architecture graph across functions, components, signals, requirements and software with natural-language interrogation and source traceability.
+  - https://www.spread.ai/product-explorer
+
+Previously added requirements-domain products such as Valispace, Innoslate, Trace.Space and ModelgraphX were also mapped to architecture tasks where their first-party product capabilities substantiate that use.
+
+Low-maturity research prototypes and small GitHub-only architecture experiments were not promoted to production solution status merely because they mention LLM architecture generation.
+
+Change log:
+- 2026-09-27 — architecture domain completed; canonical inventory increased from 165 to 173 solutions.
+- 2026-09-27 — website snapshot regenerated from the 173-solution canonical inventory.
