@@ -1341,5 +1341,39 @@
     "independence_cluster": "adobe-acrobat-compare-2026",
     "source": "https://helpx.adobe.com/acrobat/using/compare-documents.html",
     "notes": "Official deterministic document-comparison workflow handles reports, presentations, scanned documents/drawings and large text documents; complements generative AI rather than proving AI comparison accuracy."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-gemini-guided-learning-rct-2026",
+    "solution_id": "gemini-enterprise",
+    "family": "learning-coach",
+    "benchmark": "Gemini Guided Learning randomized controlled trial",
+    "version": "2026-06",
+    "evidence_type": "randomized-controlled-trial",
+    "metric": "math learning effect size",
+    "value": 0.258,
+    "probability_proxy": null,
+    "n": 1763,
+    "source_grade": "B",
+    "independence_cluster": "gemini-guided-learning-sierra-leone-2026",
+    "source": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+    "notes": "Eight-week preregistered RCT across 12 schools. +0.258 SD math-score gain vs control; 91.4% of interactions classified as conceptual learning. Strong causal evidence for tutoring design, but student/math population is a substantial transfer from professional technical learning."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-chatgpt-study-mode-rct-2026",
+    "solution_id": "chatgpt-enterprise",
+    "family": "learning-coach",
+    "benchmark": "ChatGPT Study Mode randomized study",
+    "version": "2026-03 preliminary results",
+    "evidence_type": "randomized-controlled-trial",
+    "metric": "exam score relative improvement",
+    "value": 0.15,
+    "probability_proxy": null,
+    "n": 300,
+    "source_grade": "B",
+    "independence_cluster": "chatgpt-study-mode-rct-2026",
+    "source": "https://openai.com/index/understanding-ai-and-learning-outcomes/",
+    "notes": "Over 300 college students. Microeconomics study-mode access produced roughly 15% higher exam scores relative to no-AI control; neuroscience differences were directionally positive but not statistically distinguishable. Kept as learning-outcome evidence, not engineering-task P(success)."
   }
 ]
