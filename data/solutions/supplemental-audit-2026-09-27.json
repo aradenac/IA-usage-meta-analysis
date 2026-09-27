@@ -1,0 +1,826 @@
+[
+  {
+    "id": "kilo-code",
+    "name": "Kilo Code",
+    "vendor": "Kilo",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "cloud-agents",
+      "byok"
+    ],
+    "surfaces": [
+      "vscode",
+      "jetbrains",
+      "cli",
+      "cloud"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tests",
+      "shell",
+      "subagents",
+      "multi-model"
+    ],
+    "integrations": [
+      "Git",
+      "OpenCode-compatible core"
+    ],
+    "official_url": "https://kilo.ai/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "vendor": "Replit",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "workspace"
+    ],
+    "capabilities": [
+      "app-generation",
+      "code-agent",
+      "tests",
+      "debug",
+      "deploy",
+      "multi-artifact"
+    ],
+    "integrations": [
+      "Replit source control",
+      "connectors"
+    ],
+    "official_url": "https://replit.com/enterprise",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "zed-ai",
+    "name": "Zed AI / Zed Agent",
+    "vendor": "Zed Industries",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok",
+      "zed-hosted",
+      "local-models"
+    ],
+    "surfaces": [
+      "ide"
+    ],
+    "capabilities": [
+      "code-agent",
+      "repo-edit",
+      "tools",
+      "mcp",
+      "acp",
+      "multi-model",
+      "git-assistance"
+    ],
+    "integrations": [
+      "MCP",
+      "ACP",
+      "Git"
+    ],
+    "official_url": "https://zed.dev/ai",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "jetbrains-ai-assistant",
+    "name": "JetBrains AI Assistant",
+    "vendor": "JetBrains",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "byok",
+      "local-models",
+      "enterprise"
+    ],
+    "surfaces": [
+      "jetbrains-ides"
+    ],
+    "capabilities": [
+      "code-chat",
+      "inline-edit",
+      "completion",
+      "tests",
+      "docs",
+      "commit-messages",
+      "integrated-agents",
+      "acp"
+    ],
+    "integrations": [
+      "Junie",
+      "Claude Agent",
+      "Codex",
+      "GitHub Copilot",
+      "ACP",
+      "MCP"
+    ],
+    "official_url": "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "moveworks",
+    "name": "Moveworks AI Assistant / Enterprise Search / Agent Studio",
+    "vendor": "Moveworks",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "teams",
+      "slack"
+    ],
+    "capabilities": [
+      "enterprise-search",
+      "assistant",
+      "agents",
+      "workflow-automation",
+      "permission-aware",
+      "citations"
+    ],
+    "integrations": [
+      "enterprise-connectors",
+      "MCP"
+    ],
+    "official_url": "https://www.moveworks.com/us/en/platform",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "sinequa",
+    "name": "Sinequa Enterprise AI Search",
+    "vendor": "Sinequa / ChapsVision",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "search"
+    ],
+    "capabilities": [
+      "enterprise-search",
+      "generative-answering",
+      "permission-aware",
+      "traceable-answers"
+    ],
+    "integrations": [
+      "enterprise-data-sources"
+    ],
+    "official_url": "https://www.sinequa.com/product/workplace-search/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "coveo",
+    "name": "Coveo AI Search",
+    "vendor": "Coveo",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "search",
+      "api",
+      "assistant-connector"
+    ],
+    "capabilities": [
+      "enterprise-search",
+      "answer-retrieval",
+      "source-passages",
+      "permission-aware"
+    ],
+    "integrations": [
+      "ChatGPT",
+      "enterprise-content"
+    ],
+    "official_url": "https://www.coveo.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "cohere-north",
+    "name": "Cohere North",
+    "vendor": "Cohere",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "private-vpc",
+      "on-prem",
+      "air-gapped",
+      "model-vault"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "enterprise-assistant",
+      "agents",
+      "enterprise-search",
+      "connectors",
+      "private-deployment"
+    ],
+    "integrations": [
+      "enterprise-connectors",
+      "APIs"
+    ],
+    "official_url": "https://cohere.com/north",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "aleph-alpha-pharia",
+    "name": "Aleph Alpha PHARIA AI",
+    "vendor": "Aleph Alpha",
+    "category": "enterprise-ai-platform",
+    "status": "active",
+    "deployment": [
+      "sovereign-enterprise",
+      "private"
+    ],
+    "surfaces": [
+      "platform",
+      "api"
+    ],
+    "capabilities": [
+      "enterprise-ai",
+      "sovereignty",
+      "explainability",
+      "compliance"
+    ],
+    "integrations": [
+      "enterprise-systems"
+    ],
+    "official_url": "https://aleph-alpha.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "ibm-watsonx",
+    "name": "IBM watsonx.ai",
+    "vendor": "IBM",
+    "category": "enterprise-ai-platform",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "hybrid",
+      "enterprise"
+    ],
+    "surfaces": [
+      "studio",
+      "api"
+    ],
+    "capabilities": [
+      "agents",
+      "multi-model",
+      "governance",
+      "hybrid-ai",
+      "model-gateway"
+    ],
+    "integrations": [
+      "IBM enterprise stack"
+    ],
+    "official_url": "https://www.ibm.com/products/watsonx-ai",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "adobe-acrobat-ai",
+    "name": "Adobe Acrobat AI Assistant / Acrobat Studio",
+    "vendor": "Adobe",
+    "category": "document-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "desktop",
+      "web",
+      "mobile"
+    ],
+    "capabilities": [
+      "pdf-qa",
+      "citations",
+      "multi-document",
+      "pdf-editing",
+      "summarization",
+      "document-insights"
+    ],
+    "integrations": [
+      "PDF",
+      "Microsoft 365 files",
+      "meeting transcripts"
+    ],
+    "official_url": "https://www.adobe.com/acrobat/generative-ai-pdf.html",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "mermaid-chart-ai",
+    "name": "Mermaid Chart AI",
+    "vendor": "Mermaid Chart",
+    "category": "diagram-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "diagram-generation",
+      "diagram-as-code",
+      "conversational-refinement",
+      "mermaid"
+    ],
+    "integrations": [
+      "Mermaid syntax"
+    ],
+    "official_url": "https://mermaid.ai/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "fathom",
+    "name": "Fathom",
+    "vendor": "Fathom",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "desktop",
+      "meeting-bot",
+      "web"
+    ],
+    "capabilities": [
+      "meeting-transcription",
+      "summary",
+      "decisions",
+      "action-items",
+      "meeting-search"
+    ],
+    "integrations": [
+      "Microsoft Teams",
+      "Zoom",
+      "Google Meet"
+    ],
+    "official_url": "https://www.fathom.ai/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "tldv",
+    "name": "tl;dv",
+    "vendor": "tl;dv",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "desktop",
+      "meeting-bot",
+      "web"
+    ],
+    "capabilities": [
+      "meeting-recording",
+      "transcription",
+      "summary",
+      "action-items",
+      "search",
+      "workflow"
+    ],
+    "integrations": [
+      "Microsoft Teams",
+      "Zoom",
+      "Google Meet",
+      "OneDrive"
+    ],
+    "official_url": "https://tldv.io/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "vendor": "Ought / Elicit",
+    "category": "research-assistant",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "literature-search",
+      "systematic-review",
+      "screening",
+      "data-extraction",
+      "evidence-synthesis"
+    ],
+    "integrations": [
+      "scientific-literature",
+      "PDF"
+    ],
+    "official_url": "https://elicit.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus Deep Search",
+    "vendor": "Consensus",
+    "category": "research-assistant",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "academic-search",
+      "deep-search",
+      "literature-review",
+      "citations",
+      "uploaded-papers"
+    ],
+    "integrations": [
+      "scientific-literature"
+    ],
+    "official_url": "https://consensus.app/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "scispace",
+    "name": "SciSpace Literature Review / Deep Review",
+    "vendor": "SciSpace",
+    "category": "research-assistant",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "literature-search",
+      "deep-review",
+      "pdf-chat",
+      "data-extraction",
+      "evidence-matrix",
+      "citations"
+    ],
+    "integrations": [
+      "scientific-literature",
+      "PDF",
+      "CSV",
+      "XLSX",
+      "BibTeX"
+    ],
+    "official_url": "https://scispace.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "qra-qvscribe",
+    "name": "QRA QVscribe + ReqWriter / QRAcloud",
+    "vendor": "QRA Corp",
+    "category": "requirements-ai",
+    "status": "active",
+    "deployment": [
+      "local-workstation",
+      "team-server",
+      "cloud"
+    ],
+    "surfaces": [
+      "word-addin",
+      "excel-addin",
+      "browser",
+      "qra-cloud"
+    ],
+    "capabilities": [
+      "requirements-quality",
+      "ears",
+      "ai-rewrite",
+      "governance",
+      "lifecycle-quality"
+    ],
+    "integrations": [
+      "Microsoft Word",
+      "Microsoft Excel",
+      "DOORS Next",
+      "Polarion",
+      "Jama"
+    ],
+    "official_url": "https://qracorp.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "klugspice",
+    "name": "KlugSpice",
+    "vendor": "KLUGSYS",
+    "category": "regulated-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "private",
+      "air-gapped"
+    ],
+    "surfaces": [
+      "platform"
+    ],
+    "capabilities": [
+      "requirements",
+      "architecture",
+      "tests",
+      "traceability",
+      "change-impact",
+      "aspice-readiness",
+      "evidence-gaps"
+    ],
+    "integrations": [
+      "DOORS Next",
+      "Polarion",
+      "Codebeamer",
+      "Jira",
+      "Azure DevOps",
+      "Teamcenter"
+    ],
+    "official_url": "https://www.klugspice.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "reqdrive",
+    "name": "ReqDrive / ReqM",
+    "vendor": "ReqDrive",
+    "category": "requirements-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-generation",
+      "requirements-quality",
+      "ears",
+      "traceability",
+      "srs-generation"
+    ],
+    "integrations": [
+      "ReqIF",
+      "CSV",
+      "JSON",
+      "documents"
+    ],
+    "official_url": "https://www.reqdrive.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "reqi-rex",
+    "name": "Reqi REX",
+    "vendor": "Reqi",
+    "category": "requirements-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "requirements-quality",
+      "requirements-rewrite",
+      "incose-rules"
+    ],
+    "integrations": [
+      "text",
+      "PDF-export"
+    ],
+    "official_url": "https://reqi.io/rex",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "modernrequirements-copilot",
+    "name": "Modern Requirements Copilot4DevOps / Agents4DevOps",
+    "vendor": "Modern Requirements",
+    "category": "requirements-ai",
+    "status": "active",
+    "deployment": [
+      "azure-devops",
+      "enterprise",
+      "byo-llm-options"
+    ],
+    "surfaces": [
+      "azure-devops"
+    ],
+    "capabilities": [
+      "requirements-generation",
+      "quality",
+      "traceability",
+      "change-impact",
+      "test-generation",
+      "evidence",
+      "agents"
+    ],
+    "integrations": [
+      "Azure DevOps",
+      "Microsoft ecosystem"
+    ],
+    "official_url": "https://www.modernrequirements.com/copilot4devops/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "checkmarx-assist",
+    "name": "Checkmarx Assist Agents",
+    "vendor": "Checkmarx",
+    "category": "security-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "scm",
+      "platform"
+    ],
+    "capabilities": [
+      "developer-assist",
+      "sast",
+      "triage",
+      "remediation",
+      "autonomous-fix"
+    ],
+    "integrations": [
+      "AI coding tools",
+      "SCM",
+      "CI/CD"
+    ],
+    "official_url": "https://checkmarx.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "veracode-fix",
+    "name": "Veracode Fix",
+    "vendor": "Veracode",
+    "category": "security-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "ci"
+    ],
+    "capabilities": [
+      "sast-remediation",
+      "sca-remediation",
+      "ai-patches",
+      "dependency-upgrades"
+    ],
+    "integrations": [
+      "GitHub",
+      "GitLab",
+      "IDEs",
+      "CI/CD"
+    ],
+    "official_url": "https://www.veracode.com/products/fix/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "mend-sast-ai",
+    "name": "Mend SAST AI Triage & Remediation",
+    "vendor": "Mend.io",
+    "category": "security-ai",
+    "status": "active",
+    "deployment": [
+      "hybrid",
+      "enterprise"
+    ],
+    "surfaces": [
+      "scm",
+      "platform",
+      "ide"
+    ],
+    "capabilities": [
+      "sast",
+      "ai-triage",
+      "ai-remediation",
+      "agentic-security"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub",
+      "Azure DevOps",
+      "Bitbucket"
+    ],
+    "official_url": "https://www.mend.io/sast/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "langsmith-agent-platform",
+    "name": "LangSmith + LangGraph / Deep Agents / Fleet",
+    "vendor": "LangChain",
+    "category": "workflow-platform",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "hybrid",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "sdk"
+    ],
+    "capabilities": [
+      "agent-building",
+      "long-running-agents",
+      "human-in-loop",
+      "deployment",
+      "evals",
+      "observability",
+      "enterprise-agent-fleet"
+    ],
+    "integrations": [
+      "MCP",
+      "models",
+      "custom-tools"
+    ],
+    "official_url": "https://www.langchain.com/",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "crewai-amp",
+    "name": "CrewAI AMP",
+    "vendor": "CrewAI",
+    "category": "workflow-platform",
+    "status": "active",
+    "deployment": [
+      "managed",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "api",
+      "cli"
+    ],
+    "capabilities": [
+      "multi-agent",
+      "workflow",
+      "agent-studio",
+      "deployment",
+      "observability"
+    ],
+    "integrations": [
+      "GitHub",
+      "tools",
+      "APIs"
+    ],
+    "official_url": "https://crewai.com/agent-management-platform",
+    "verified_at": "2026-09-27"
+  },
+  {
+    "id": "langflow",
+    "name": "Langflow",
+    "vendor": "DataStax / Langflow",
+    "category": "workflow-platform",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "web",
+      "api"
+    ],
+    "capabilities": [
+      "visual-agent-builder",
+      "rag",
+      "multi-agent",
+      "multi-model",
+      "data-connectors"
+    ],
+    "integrations": [
+      "models",
+      "vector-dbs",
+      "APIs"
+    ],
+    "official_url": "https://www.langflow.org/",
+    "verified_at": "2026-09-27"
+  }
+]
