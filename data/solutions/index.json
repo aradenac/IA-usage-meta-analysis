@@ -2,7 +2,7 @@
   "schema_version": 1,
   "verified_at": "2026-09-27",
   "phase": "availability-inventory-only",
-  "total_solutions": 114,
+  "total_solutions": 128,
   "files": [
     {
       "path": "data/solutions/coding.json",
@@ -27,6 +27,10 @@
     {
       "path": "data/solutions/supplemental-audit-2026-09-27.json",
       "count": 28
+    },
+    {
+      "path": "data/solutions/final-gap-audit-2026-09-27.json",
+      "count": 14
     }
   ],
   "relationship_types": {
@@ -37,5 +41,6 @@
     "backend": "Model/API/runtime substrate; not turnkey by itself."
   },
   "scoring": false,
-  "audit_note": "Second-pass inventory added current coding, enterprise-search, requirements/ASPICE, research, document/diagram/meeting, security and workflow products. Lifecycle exclusions are in data/solution-exclusions.json."
+  "audit_note": "Second-pass inventory added current coding, enterprise-search, requirements/ASPICE, research, document/diagram/meeting, security and workflow products. Lifecycle exclusions are in data/solution-exclusions.json.",
+  "current_inventory_note": "Includes two explicit 2026-09-27 gap-audit passes. Lifecycle/legacy entries are retained in source catalogs but excluded from active task mappings when marked non-current."
 }
