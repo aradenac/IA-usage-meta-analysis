@@ -110,7 +110,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -214,7 +214,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -260,7 +260,7 @@
       "high": 0.06577216521967903,
       "fixed_point": 0.032886082609839516,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -325,7 +325,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -371,7 +371,7 @@
       "high": 0.5787950539331754,
       "fixed_point": 0,
       "variable_point": 0.1929316846443918,
-      "fixed_basis": "Free/50 users",
+      "fixed_basis": "Free",
       "variable_basis": "generic external-model proxy",
       "partial": false
     },
@@ -429,7 +429,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -478,7 +478,7 @@
       "high": 0.02192405507322634,
       "fixed_point": 0.01096202753661317,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -553,7 +553,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -665,7 +665,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -767,7 +767,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -887,7 +887,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -999,7 +999,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1045,7 +1045,7 @@
       "high": 0.0887924230465667,
       "fixed_point": 0.032886082609839516,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -1095,7 +1095,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1197,7 +1197,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1293,7 +1293,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1389,7 +1389,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1485,7 +1485,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1581,7 +1581,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1677,7 +1677,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1773,7 +1773,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1869,7 +1869,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -1965,7 +1965,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2061,7 +2061,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2171,7 +2171,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2267,7 +2267,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2363,7 +2363,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2463,7 +2463,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2559,7 +2559,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2655,7 +2655,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2759,7 +2759,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2855,7 +2855,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -2951,7 +2951,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3047,7 +3047,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3143,7 +3143,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3257,7 +3257,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3353,7 +3353,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3449,7 +3449,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3495,7 +3495,7 @@
       "high": 0.08714811891607471,
       "fixed_point": 0.043574059458037356,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -3545,7 +3545,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3641,7 +3641,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3687,7 +3687,7 @@
       "high": 0.5002500000000001,
       "fixed_point": 0.25012500000000004,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -3737,7 +3737,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3833,7 +3833,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -3929,7 +3929,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4025,7 +4025,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4121,7 +4121,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4217,7 +4217,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4313,7 +4313,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4409,7 +4409,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4505,7 +4505,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4601,7 +4601,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4697,7 +4697,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4793,7 +4793,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4889,7 +4889,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -4985,7 +4985,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-automation",
@@ -5081,7 +5081,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -5188,7 +5188,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -5286,7 +5286,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -5390,7 +5390,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -5498,7 +5498,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -5608,7 +5608,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -5704,7 +5704,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -5818,7 +5818,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -5861,7 +5861,7 @@
       "high": 0.0887924230465667,
       "fixed_point": 0.032886082609839516,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -5908,7 +5908,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6022,7 +6022,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6112,7 +6112,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6202,7 +6202,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6292,7 +6292,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6382,7 +6382,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6472,7 +6472,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6562,7 +6562,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6652,7 +6652,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6748,7 +6748,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6838,7 +6838,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -6928,7 +6928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7018,7 +7018,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7108,7 +7108,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7202,7 +7202,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7292,7 +7292,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7382,7 +7382,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7488,7 +7488,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7578,7 +7578,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7668,7 +7668,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7758,7 +7758,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7848,7 +7848,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7938,7 +7938,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -7981,7 +7981,7 @@
       "high": 0.08714811891607471,
       "fixed_point": 0.043574059458037356,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -8028,7 +8028,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8118,7 +8118,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8161,7 +8161,7 @@
       "high": 0.5002500000000001,
       "fixed_point": 0.25012500000000004,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -8208,7 +8208,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8298,7 +8298,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8388,7 +8388,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8478,7 +8478,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8568,7 +8568,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8658,7 +8658,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8748,7 +8748,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8838,7 +8838,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -8928,7 +8928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -9018,7 +9018,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -9108,7 +9108,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -9198,7 +9198,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -9288,7 +9288,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -9378,7 +9378,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-build",
@@ -9468,7 +9468,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -9566,7 +9566,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -9672,7 +9672,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -9768,7 +9768,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -9882,7 +9882,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -9972,7 +9972,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10015,7 +10015,7 @@
       "high": 0.1479873717442778,
       "fixed_point": 0.054810137683065856,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -10062,7 +10062,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10152,7 +10152,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10242,7 +10242,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10332,7 +10332,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10422,7 +10422,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10512,7 +10512,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10602,7 +10602,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10708,7 +10708,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10798,7 +10798,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10888,7 +10888,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -10978,7 +10978,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11074,7 +11074,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11164,7 +11164,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11254,7 +11254,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11358,7 +11358,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11448,7 +11448,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11538,7 +11538,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11632,7 +11632,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11722,7 +11722,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11812,7 +11812,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11902,7 +11902,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -11992,7 +11992,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12082,7 +12082,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12172,7 +12172,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12262,7 +12262,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12305,7 +12305,7 @@
       "high": 0.1452468648601245,
       "fixed_point": 0.07262343243006225,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -12352,7 +12352,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12442,7 +12442,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12485,7 +12485,7 @@
       "high": 0.83375,
       "fixed_point": 0.416875,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -12532,7 +12532,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12622,7 +12622,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12712,7 +12712,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12802,7 +12802,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12892,7 +12892,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -12982,7 +12982,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13072,7 +13072,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13162,7 +13162,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13252,7 +13252,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13342,7 +13342,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13432,7 +13432,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13522,7 +13522,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13612,7 +13612,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13702,7 +13702,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-create",
@@ -13792,7 +13792,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -13890,7 +13890,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -13996,7 +13996,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14092,7 +14092,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14206,7 +14206,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14249,7 +14249,7 @@
       "high": 0.1479873717442778,
       "fixed_point": 0.054810137683065856,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -14296,7 +14296,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14386,7 +14386,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14476,7 +14476,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14566,7 +14566,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14656,7 +14656,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14746,7 +14746,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14852,7 +14852,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -14942,7 +14942,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15032,7 +15032,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15122,7 +15122,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15218,7 +15218,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15308,7 +15308,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15398,7 +15398,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15502,7 +15502,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15592,7 +15592,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15686,7 +15686,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15776,7 +15776,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15866,7 +15866,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -15956,7 +15956,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16046,7 +16046,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16136,7 +16136,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16226,7 +16226,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16316,7 +16316,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16359,7 +16359,7 @@
       "high": 0.1452468648601245,
       "fixed_point": 0.07262343243006225,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -16406,7 +16406,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16496,7 +16496,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16539,7 +16539,7 @@
       "high": 0.83375,
       "fixed_point": 0.416875,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -16586,7 +16586,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16676,7 +16676,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16766,7 +16766,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16856,7 +16856,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -16946,7 +16946,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17036,7 +17036,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17126,7 +17126,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17216,7 +17216,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17306,7 +17306,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17396,7 +17396,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17486,7 +17486,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17576,7 +17576,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17666,7 +17666,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17756,7 +17756,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-docker",
@@ -17846,7 +17846,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -17944,7 +17944,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18048,7 +18048,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18156,7 +18156,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18266,7 +18266,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18362,7 +18362,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18476,7 +18476,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18566,7 +18566,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18609,7 +18609,7 @@
       "high": 0.0887924230465667,
       "fixed_point": 0.032886082609839516,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -18656,7 +18656,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18770,7 +18770,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18860,7 +18860,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -18950,7 +18950,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19040,7 +19040,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19130,7 +19130,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19220,7 +19220,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19310,7 +19310,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19400,7 +19400,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19496,7 +19496,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19586,7 +19586,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19676,7 +19676,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19766,7 +19766,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19856,7 +19856,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -19946,7 +19946,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20040,7 +20040,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20130,7 +20130,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20220,7 +20220,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20326,7 +20326,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20416,7 +20416,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20506,7 +20506,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20596,7 +20596,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20686,7 +20686,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20776,7 +20776,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20819,7 +20819,7 @@
       "high": 0.08714811891607471,
       "fixed_point": 0.043574059458037356,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -20866,7 +20866,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20956,7 +20956,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -20999,7 +20999,7 @@
       "high": 0.5002500000000001,
       "fixed_point": 0.25012500000000004,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -21046,7 +21046,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21136,7 +21136,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21226,7 +21226,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21316,7 +21316,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21406,7 +21406,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21496,7 +21496,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21586,7 +21586,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21676,7 +21676,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21766,7 +21766,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21856,7 +21856,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -21946,7 +21946,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -22036,7 +22036,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -22126,7 +22126,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -22216,7 +22216,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-gitlab",
@@ -22306,7 +22306,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -22414,7 +22414,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -22510,7 +22510,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -22624,7 +22624,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -22667,7 +22667,7 @@
       "high": 0.0887924230465667,
       "fixed_point": 0.032886082609839516,
       "variable_point": 0,
-      "fixed_basis": "Business/50 users",
+      "fixed_basis": "Business",
       "variable_basis": "bundled/no variable modeled",
       "partial": true
     },
@@ -22714,7 +22714,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -22824,7 +22824,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -22914,7 +22914,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23004,7 +23004,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23094,7 +23094,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23184,7 +23184,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23274,7 +23274,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23364,7 +23364,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23454,7 +23454,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23550,7 +23550,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23640,7 +23640,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23730,7 +23730,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23820,7 +23820,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -23910,7 +23910,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24004,7 +24004,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24094,7 +24094,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24192,7 +24192,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24282,7 +24282,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24388,7 +24388,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24478,7 +24478,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24568,7 +24568,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24658,7 +24658,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24748,7 +24748,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24838,7 +24838,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -24881,7 +24881,7 @@
       "high": 0.08714811891607471,
       "fixed_point": 0.043574059458037356,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -24928,7 +24928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25018,7 +25018,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25061,7 +25061,7 @@
       "high": 0.5002500000000001,
       "fixed_point": 0.25012500000000004,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -25108,7 +25108,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25198,7 +25198,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25288,7 +25288,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25378,7 +25378,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25468,7 +25468,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25558,7 +25558,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25648,7 +25648,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25738,7 +25738,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25828,7 +25828,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -25918,7 +25918,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -26008,7 +26008,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -26098,7 +26098,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -26188,7 +26188,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -26278,7 +26278,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "ci-toolchain",
@@ -26368,7 +26368,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -26464,7 +26464,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -26568,7 +26568,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -26664,7 +26664,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -26760,7 +26760,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -26856,7 +26856,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -26952,7 +26952,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27048,7 +27048,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27144,7 +27144,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27240,7 +27240,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27336,7 +27336,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27432,7 +27432,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27528,7 +27528,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27624,7 +27624,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27728,7 +27728,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27774,7 +27774,7 @@
       "high": 0.06577216521967903,
       "fixed_point": 0.032886082609839516,
       "variable_point": 0,
-      "fixed_basis": "Pro/50 users",
+      "fixed_basis": "Pro",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -27839,7 +27839,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -27888,7 +27888,7 @@
       "high": 0.02192405507322634,
       "fixed_point": 0.01096202753661317,
       "variable_point": 0,
-      "fixed_basis": "Agents Pro annual/50 users",
+      "fixed_basis": "Agents Pro annual",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -27963,7 +27963,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28009,7 +28009,7 @@
       "high": 0.473559589581689,
       "fixed_point": 0,
       "variable_point": 0.15785319652722965,
-      "fixed_basis": "Free/50 users",
+      "fixed_basis": "Free",
       "variable_basis": "generic external-model proxy",
       "partial": false
     },
@@ -28067,7 +28067,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28163,7 +28163,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28259,7 +28259,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28355,7 +28355,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28451,7 +28451,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28497,7 +28497,7 @@
       "high": 0.08714811891607471,
       "fixed_point": 0.043574059458037356,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -28547,7 +28547,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28643,7 +28643,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28689,7 +28689,7 @@
       "high": 0.5002500000000001,
       "fixed_point": 0.25012500000000004,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -28739,7 +28739,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28835,7 +28835,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -28931,7 +28931,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29027,7 +29027,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29123,7 +29123,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29219,7 +29219,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29315,7 +29315,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29411,7 +29411,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29507,7 +29507,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29603,7 +29603,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29699,7 +29699,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29795,7 +29795,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29891,7 +29891,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -29987,7 +29987,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -30083,7 +30083,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -30179,7 +30179,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-notes",
@@ -30275,7 +30275,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -30382,7 +30382,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -30480,7 +30480,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -30570,7 +30570,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -30660,7 +30660,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -30750,7 +30750,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -30840,7 +30840,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -30930,7 +30930,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31020,7 +31020,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31110,7 +31110,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31200,7 +31200,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31290,7 +31290,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31380,7 +31380,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31470,7 +31470,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31560,7 +31560,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31650,7 +31650,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31740,7 +31740,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31830,7 +31830,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31920,7 +31920,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -31963,7 +31963,7 @@
       "high": 0.11619749188809961,
       "fixed_point": 0.058098745944049804,
       "variable_point": 0,
-      "fixed_basis": "Team/50 users",
+      "fixed_basis": "Team",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -32010,7 +32010,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32100,7 +32100,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32143,7 +32143,7 @@
       "high": 0.667,
       "fixed_point": 0.3335,
       "variable_point": 0,
-      "fixed_basis": "Business self-hosted/50 users",
+      "fixed_basis": "Business self-hosted",
       "variable_basis": "bundled/no variable modeled",
       "partial": false
     },
@@ -32190,7 +32190,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32280,7 +32280,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32370,7 +32370,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32460,7 +32460,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32550,7 +32550,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32640,7 +32640,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32730,7 +32730,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32820,7 +32820,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -32910,7 +32910,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -33000,7 +33000,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -33090,7 +33090,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -33180,7 +33180,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -33270,7 +33270,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -33360,7 +33360,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -33450,7 +33450,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -33540,7 +33540,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   },
   {
     "task_id": "release-prepare",
@@ -33630,6 +33630,6 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.3"
+    "scoring_version": "product-task-v1.5"
   }
 ]
