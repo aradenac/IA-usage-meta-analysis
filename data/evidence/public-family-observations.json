@@ -163,5 +163,35 @@
     "source_grade": "A",
     "source": "https://arxiv.org/abs/2609.20584",
     "notes": "Nine frontier LLMs on 3,000 de-identified industrial ISO 26262 HARA cases. Best ASIL macro-F1 only 0.261. Kept as a strong cautionary family signal, not converted to P(success) for software safety-impact analysis because the task transfer is material."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-embedded-embedbench-2025",
+    "family": "embedded-development",
+    "benchmark": "EmbedAgent / EmbedBench",
+    "version": "2025 paper, current evidence snapshot",
+    "evidence_type": "academic-benchmark",
+    "metric": "embedded-system pass@1",
+    "value": 0.556,
+    "probability_proxy": 0.556,
+    "n": 126,
+    "source_grade": "B",
+    "source": "https://arxiv.org/abs/2506.11003",
+    "notes": "126 cases across 9 electronic components and 3 hardware platforms. DeepSeek-R1 reached 55.6% pass@1 with schematic information; cross-platform migration varied strongly by stack, with top MicroPython/Pico 73.8% but best ESP-IDF only 29.4%. Used as a broad embedded-development family prior with task relevance, not as any product's score."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-embedded-embedbench-rag-feedback-2025",
+    "family": "embedded-development",
+    "benchmark": "EmbedAgent / EmbedBench RAG + compiler feedback",
+    "version": "2025 paper",
+    "evidence_type": "academic-benchmark",
+    "metric": "improved embedded pass@1",
+    "value": 0.651,
+    "probability_proxy": null,
+    "n": 126,
+    "source_grade": "B",
+    "source": "https://arxiv.org/abs/2506.11003",
+    "notes": "DeepSeek-R1 improved to 65.1% with correct schematics after retrieval/compiler-feedback strategies; support signal showing context/tooling matters, not a generic product success rate."
   }
 ]
