@@ -1,155 +1,54 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "checked_at": "2026-09-27",
   "methodology": "docs/evidence-meta-analysis-methodology.md",
+  "audit": "docs/evidence-audit-2026-09-27.md",
+  "coverage_by_solution": "data/evidence/coverage-by-solution.json",
   "task_family_relevance": "data/evidence/task-product-family-relevance.json",
   "historical_configuration_observations": {
     "path": "data/observations.json",
-    "count": 200
+    "count": 209
   },
   "direct_product_observations": {
     "path": "data/evidence/public-product-observations.json",
-    "count": 70
+    "count": 207
   },
   "cross_product_family_observations": {
     "path": "data/evidence/public-family-observations.json",
-    "count": 10
+    "count": 36
   },
   "practitioner_user_signals": {
     "path": "data/evidence/public-user-signals.json",
     "count": 6
   },
-  "total_preserved_evidence_records": 286,
+  "total_preserved_evidence_records": 458,
   "scoring": {
     "index": "data/task-scores/index.json",
-    "version": "product-task-v1.2",
+    "version": "product-task-v1.6",
     "task_count": 86,
     "solution_count": 157,
-    "scored_pairs": 4389,
-    "direct_product_evidence_pairs": 243,
-    "family_prior_supported_pairs": 1176,
-    "success_empirical_pairs": 235,
+    "scored_pairs": 4393,
+    "direct_product_evidence_pairs": 394,
+    "family_prior_supported_pairs": 2432,
+    "success_empirical_pairs": 267,
     "meta_confidence_counts": {
-      "C": 11,
-      "D": 703,
-      "E": 3675
+      "D": 1717,
+      "E": 2660,
+      "C": 16
     }
   },
   "coverage": {
-    "tasks_with_direct_product_evidence": 69,
-    "tasks_with_empirical_success_evidence": 59,
-    "tasks_with_family_prior_support": 24,
-    "tasks_without_direct_product_evidence": [
-      {
-        "task_id": "dev-driver-datasheet",
-        "label": "Implémenter un driver absent à partir de la datasheet",
-        "domain": "development",
-        "candidate_count": 55
-      },
-      {
-        "task_id": "upstream-search",
-        "label": "Chercher un problème connu / fix upstream",
-        "domain": "debug-upstream",
-        "candidate_count": 35
-      },
-      {
-        "task_id": "verify-prevalidation",
-        "label": "Préparer le software avant passage à l’équipe de validation",
-        "domain": "verification",
-        "candidate_count": 63
-      },
-      {
-        "task_id": "cyber-vuln",
-        "label": "Analyser une vulnérabilité / CVE et son applicabilité produit",
-        "domain": "safety-cyber",
-        "candidate_count": 45
-      },
-      {
-        "task_id": "safety-impact",
-        "label": "Analyser l’impact safety d’un changement software",
-        "domain": "safety-cyber",
-        "candidate_count": 47
-      },
-      {
-        "task_id": "ci-build",
-        "label": "Diagnostiquer et corriger un build cassé",
-        "domain": "ci-release",
-        "candidate_count": 47
-      },
-      {
-        "task_id": "ci-gitlab",
-        "label": "Diagnostiquer et corriger une CI GitLab / runner Docker",
-        "domain": "ci-release",
-        "candidate_count": 48
-      },
-      {
-        "task_id": "ci-create",
-        "label": "Créer ou modifier une pipeline GitLab CI",
-        "domain": "ci-release",
-        "candidate_count": 47
-      },
-      {
-        "task_id": "ci-docker",
-        "label": "Créer / maintenir un environnement Docker de build et test",
-        "domain": "ci-release",
-        "candidate_count": 44
-      },
-      {
-        "task_id": "ci-toolchain",
-        "label": "Diagnostiquer SDK, dépendances ou toolchain de développement",
-        "domain": "ci-release",
-        "candidate_count": 44
-      },
-      {
-        "task_id": "release-prepare",
-        "label": "Préparer une release software / firmware",
-        "domain": "ci-release",
-        "candidate_count": 37
-      },
-      {
-        "task_id": "doc-datasheet",
-        "label": "Analyser une datasheet / reference manual / errata",
-        "domain": "documentation",
-        "candidate_count": 49
-      },
-      {
-        "task_id": "doc-vendor-diff",
-        "label": "Comparer versions de documentation / SDK fournisseur",
-        "domain": "documentation",
-        "candidate_count": 44
-      },
-      {
-        "task_id": "learn-operational",
-        "label": "Devenir opérationnel sur une technologie nouvelle",
-        "domain": "learning-research",
-        "candidate_count": 53
-      },
-      {
-        "task_id": "learn-path",
-        "label": "Construire un parcours de formation technique personnalisé",
-        "domain": "learning-research",
-        "candidate_count": 44
-      },
-      {
-        "task_id": "learn-coach",
-        "label": "Se faire coacher / interroger pour consolider une compétence",
-        "domain": "learning-research",
-        "candidate_count": 44
-      },
-      {
-        "task_id": "research-version",
-        "label": "Analyser les nouveautés d’une version et leur impact pour nous",
-        "domain": "learning-research",
-        "candidate_count": 52
-      }
-    ],
+    "tasks_with_direct_product_evidence": 86,
+    "tasks_with_empirical_success_evidence": 63,
+    "tasks_with_family_prior_support": 48,
+    "tasks_without_direct_product_evidence": [],
     "tasks_without_empirical_success_evidence": [
       {
         "task_id": "req-system-impact",
         "label": "Analyser une exigence système et en déduire les impacts software",
         "domain": "requirements",
         "candidate_count": 52,
-        "direct_product_evidence_count": 1,
+        "direct_product_evidence_count": 2,
         "family_prior_supported_count": 52
       },
       {
@@ -157,7 +56,7 @@
         "label": "Rédiger ou améliorer des exigences software",
         "domain": "requirements",
         "candidate_count": 51,
-        "direct_product_evidence_count": 1,
+        "direct_product_evidence_count": 3,
         "family_prior_supported_count": 51
       },
       {
@@ -165,7 +64,7 @@
         "label": "Relire et challenger des exigences",
         "domain": "requirements",
         "candidate_count": 52,
-        "direct_product_evidence_count": 1,
+        "direct_product_evidence_count": 2,
         "family_prior_supported_count": 52
       },
       {
@@ -173,7 +72,7 @@
         "label": "Décomposer les exigences système vers le software / composants",
         "domain": "requirements",
         "candidate_count": 52,
-        "direct_product_evidence_count": 2,
+        "direct_product_evidence_count": 3,
         "family_prior_supported_count": 52
       },
       {
@@ -193,35 +92,27 @@
         "family_prior_supported_count": 54
       },
       {
-        "task_id": "upstream-search",
-        "label": "Chercher un problème connu / fix upstream",
-        "domain": "debug-upstream",
-        "candidate_count": 35,
-        "direct_product_evidence_count": 0,
-        "family_prior_supported_count": 0
-      },
-      {
         "task_id": "cyber-impact",
         "label": "Analyser les impacts cybersécurité d’une fonctionnalité / changement",
         "domain": "safety-cyber",
         "candidate_count": 45,
-        "direct_product_evidence_count": 1,
-        "family_prior_supported_count": 0
+        "direct_product_evidence_count": 2,
+        "family_prior_supported_count": 45
       },
       {
         "task_id": "cyber-vuln",
         "label": "Analyser une vulnérabilité / CVE et son applicabilité produit",
         "domain": "safety-cyber",
-        "candidate_count": 45,
-        "direct_product_evidence_count": 0,
-        "family_prior_supported_count": 0
+        "candidate_count": 47,
+        "direct_product_evidence_count": 2,
+        "family_prior_supported_count": 47
       },
       {
         "task_id": "cyber-threat",
         "label": "Faire une analyse de menaces ciblée / abuse cases",
         "domain": "safety-cyber",
         "candidate_count": 43,
-        "direct_product_evidence_count": 1,
+        "direct_product_evidence_count": 2,
         "family_prior_supported_count": 0
       },
       {
@@ -229,8 +120,8 @@
         "label": "Analyser l’impact safety d’un changement software",
         "domain": "safety-cyber",
         "candidate_count": 47,
-        "direct_product_evidence_count": 0,
-        "family_prior_supported_count": 0
+        "direct_product_evidence_count": 1,
+        "family_prior_supported_count": 47
       },
       {
         "task_id": "process-aspice",
@@ -238,14 +129,14 @@
         "domain": "safety-cyber",
         "candidate_count": 47,
         "direct_product_evidence_count": 1,
-        "family_prior_supported_count": 0
+        "family_prior_supported_count": 47
       },
       {
         "task_id": "process-evidence",
         "label": "Préparer les preuves pour une revue / audit / gate",
         "domain": "safety-cyber",
         "candidate_count": 50,
-        "direct_product_evidence_count": 3,
+        "direct_product_evidence_count": 5,
         "family_prior_supported_count": 50
       },
       {
@@ -253,7 +144,7 @@
         "label": "Préparer une release software / firmware",
         "domain": "ci-release",
         "candidate_count": 37,
-        "direct_product_evidence_count": 0,
+        "direct_product_evidence_count": 2,
         "family_prior_supported_count": 0
       },
       {
@@ -261,7 +152,7 @@
         "label": "Produire des release notes depuis GitLab / Jira / commits",
         "domain": "ci-release",
         "candidate_count": 40,
-        "direct_product_evidence_count": 4,
+        "direct_product_evidence_count": 5,
         "family_prior_supported_count": 40
       },
       {
@@ -269,55 +160,39 @@
         "label": "Analyser une datasheet / reference manual / errata",
         "domain": "documentation",
         "candidate_count": 49,
-        "direct_product_evidence_count": 0,
-        "family_prior_supported_count": 0
-      },
-      {
-        "task_id": "doc-vendor-diff",
-        "label": "Comparer versions de documentation / SDK fournisseur",
-        "domain": "documentation",
-        "candidate_count": 44,
-        "direct_product_evidence_count": 0,
-        "family_prior_supported_count": 0
+        "direct_product_evidence_count": 1,
+        "family_prior_supported_count": 49
       },
       {
         "task_id": "learn-explain",
         "label": "Comprendre rapidement une technologie inconnue",
         "domain": "learning-research",
         "candidate_count": 45,
-        "direct_product_evidence_count": 1,
-        "family_prior_supported_count": 0
-      },
-      {
-        "task_id": "learn-operational",
-        "label": "Devenir opérationnel sur une technologie nouvelle",
-        "domain": "learning-research",
-        "candidate_count": 53,
-        "direct_product_evidence_count": 0,
-        "family_prior_supported_count": 0
+        "direct_product_evidence_count": 6,
+        "family_prior_supported_count": 45
       },
       {
         "task_id": "research-docs",
         "label": "Analyser et synthétiser une grosse documentation technique",
         "domain": "learning-research",
         "candidate_count": 55,
-        "direct_product_evidence_count": 4,
-        "family_prior_supported_count": 0
+        "direct_product_evidence_count": 9,
+        "family_prior_supported_count": 55
       },
       {
         "task_id": "research-multidoc",
         "label": "Répondre à une question à partir de plusieurs documents / sources internes",
         "domain": "learning-research",
         "candidate_count": 54,
-        "direct_product_evidence_count": 4,
-        "family_prior_supported_count": 0
+        "direct_product_evidence_count": 9,
+        "family_prior_supported_count": 54
       },
       {
         "task_id": "learn-path",
         "label": "Construire un parcours de formation technique personnalisé",
         "domain": "learning-research",
         "candidate_count": 44,
-        "direct_product_evidence_count": 0,
+        "direct_product_evidence_count": 2,
         "family_prior_supported_count": 0
       },
       {
@@ -325,15 +200,7 @@
         "label": "Se faire coacher / interroger pour consolider une compétence",
         "domain": "learning-research",
         "candidate_count": 44,
-        "direct_product_evidence_count": 0,
-        "family_prior_supported_count": 0
-      },
-      {
-        "task_id": "research-version",
-        "label": "Analyser les nouveautés d’une version et leur impact pour nous",
-        "domain": "learning-research",
-        "candidate_count": 52,
-        "direct_product_evidence_count": 0,
+        "direct_product_evidence_count": 2,
         "family_prior_supported_count": 0
       },
       {
@@ -342,23 +209,23 @@
         "domain": "architecture",
         "candidate_count": 48,
         "direct_product_evidence_count": 1,
-        "family_prior_supported_count": 0
+        "family_prior_supported_count": 48
       },
       {
         "task_id": "cyber-compliance",
         "label": "Vérifier la conformité cyber d’un design / produit par rapport au référentiel applicable",
         "domain": "safety-cyber",
         "candidate_count": 50,
-        "direct_product_evidence_count": 1,
-        "family_prior_supported_count": 0
+        "direct_product_evidence_count": 2,
+        "family_prior_supported_count": 50
       },
       {
         "task_id": "cyber-artifacts",
         "label": "Produire / maintenir les artefacts cybersécurité projet",
         "domain": "safety-cyber",
         "candidate_count": 47,
-        "direct_product_evidence_count": 1,
-        "family_prior_supported_count": 0
+        "direct_product_evidence_count": 2,
+        "family_prior_supported_count": 47
       }
     ]
   },
