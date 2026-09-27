@@ -129,3 +129,11 @@ Source files were re-counted rather than trusting stale index counters:
 - total preserved records: **498**
 
 The index now derives from these source-file counts; v1.8 remains pending.
+
+## HardSecBench embedded security batch
+
+Added a dedicated `embedded-secure-code-generation` family instead of mixing security with generic embedded correctness.
+
+HardSecBench (IJCAI 2026): **924 tasks**, including **325 firmware-C** tasks and 76 CWE categories. Across the 18 published model rows, median single-attempt functional pass is ≈ **88.2%** while median security pass is only ≈ **33.6%**. The security median is used as a family-level probability-like prior; the functional/security gap is support-only.
+
+Current source-record count: **502**. v1.8 rescore remains pending until this evidence batch is a little larger.
