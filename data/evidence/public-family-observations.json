@@ -628,5 +628,35 @@
     "source_grade": "B",
     "source": "https://doi.org/10.1016/j.dte.2026.100098",
     "notes": "Proof-of-concept with 35 ground-truth requirements and multiple model/prompt-control combinations. ChatGPT + Self-Refine achieved best F1 0.56 for correctly identifying and formulating requirements; no configuration recovered all requirements. Small application domain and prompt-heavy setup limit transfer."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-embedded-embedeval-sonnet46-2026",
+    "family": "embedded-development",
+    "benchmark": "EmbedEval",
+    "version": "v0.1 published 2026-04-17",
+    "evidence_type": "public-reproducible-benchmark",
+    "metric": "Sonnet 4.6 embedded firmware pass@1",
+    "value": 0.68,
+    "probability_proxy": 0.68,
+    "n": 233,
+    "source_grade": "B",
+    "source": "https://edgelog.dev/blog/llm-firmware-benchmark/",
+    "notes": "233 embedded firmware cases across 23 categories/6 platforms, n=3 per case (699 pooled trials), 95% Wilson CI [64.4%,71.3%]. ~81% Zephyr; only ~106/233 reach compile/runtime layers, others use static+domain checks; single-file scope. Strong family evidence for embedded code generation, not direct product performance."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-embedded-embedeval-implicit-gap-2026",
+    "family": "embedded-development",
+    "benchmark": "EmbedEval explicit vs implicit knowledge split",
+    "version": "v0.1 published 2026-04",
+    "evidence_type": "public-reproducible-benchmark",
+    "metric": "implicit-domain-knowledge pass rate",
+    "value": 0.6,
+    "probability_proxy": null,
+    "n": 233,
+    "source_grade": "B",
+    "source": "https://edgelog.dev/blog/llm-firmware-trust/",
+    "notes": "Explicit prompts were reported near 95% while implicit-domain-knowledge prompts fell to about 60%, a ~35pp gap. Weak categories include DMA coherency, ISR concurrency, threading, storage and memory constraints. Kept as cautionary support rather than a second independent P(success) observation."
   }
 ]
