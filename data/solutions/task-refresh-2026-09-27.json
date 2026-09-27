@@ -855,5 +855,112 @@
     "official_url": "https://github.com/Palm1r/QodeAssist",
     "verified_at": "2026-09-27",
     "notes": "AI assistant for Qt Creator with C++/QML completion, inline refactoring and agent tools that can inspect/edit files, build projects and consume compiler diagnostics."
+  },
+  {
+    "id": "memfault-ai",
+    "name": "Memfault AI + MCP",
+    "vendor": "Memfault",
+    "category": "embedded-observability-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "embedded-observability",
+      "issue-root-cause",
+      "fleet-metrics",
+      "logs",
+      "traces",
+      "coredumps",
+      "release-summary",
+      "mcp",
+      "field-debugging"
+    ],
+    "integrations": [
+      "Memfault Device SDK",
+      "MCP-capable assistants",
+      "Zephyr",
+      "FreeRTOS",
+      "ThreadX",
+      "ESP-IDF"
+    ],
+    "official_url": "https://docs.memfault.com/docs/platform/ai-features",
+    "verified_at": "2026-09-27",
+    "notes": "Issue Insights performs AI analysis of root cause, scope and next steps over device issue context; MCP lets assistants query fleet data. Particularly relevant to deployed-device and intermittent debugging."
+  },
+  {
+    "id": "jlink-mcp",
+    "name": "J-Link MCP",
+    "vendor": "community",
+    "category": "embedded-debug-mcp",
+    "status": "active",
+    "deployment": [
+      "local-client"
+    ],
+    "surfaces": [
+      "mcp",
+      "vscode"
+    ],
+    "capabilities": [
+      "flash",
+      "halt-resume",
+      "breakpoints",
+      "registers",
+      "memory",
+      "rtt",
+      "hardfault-diagnosis",
+      "embedded-debug",
+      "mcp"
+    ],
+    "integrations": [
+      "SEGGER J-Link",
+      "MCP-capable assistants",
+      "ARM Cortex-M"
+    ],
+    "official_url": "https://marketplace.visualstudio.com/items?itemName=Klievan.jlink-mcp",
+    "verified_at": "2026-09-27",
+    "notes": "Community MCP server that exposes J-Link target control and crash diagnosis to LLM agents. Useful as a connected hardware-debug layer rather than a standalone reasoning product."
+  },
+  {
+    "id": "openocd-mcp",
+    "name": "OpenOCD MCP Server",
+    "vendor": "community",
+    "category": "embedded-debug-mcp",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "mcp"
+    ],
+    "capabilities": [
+      "flash",
+      "halt-resume",
+      "single-step",
+      "registers",
+      "memory",
+      "breakpoints",
+      "watchpoints",
+      "elf-symbols",
+      "peripheral-registers",
+      "embedded-debug",
+      "mcp"
+    ],
+    "integrations": [
+      "OpenOCD",
+      "ST-Link",
+      "J-Link",
+      "CMSIS-DAP",
+      "MCP-capable assistants"
+    ],
+    "official_url": "https://github.com/microhenrio/openocd-mcp",
+    "verified_at": "2026-09-27",
+    "notes": "Community MCP layer over OpenOCD, enabling assistants to flash and inspect live targets through standard probes; treated as a connected tool, not a turnkey AI debugger."
   }
 ]
