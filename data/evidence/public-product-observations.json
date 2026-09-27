@@ -1426,5 +1426,39 @@
     "independence_cluster": "qvscribe-longterm-customer-2026",
     "source": "https://qracorp.com/the-real-case-for-purpose-built-tooling-in-the-agentic-stack/",
     "notes": "Vendor relays a five-year customer estimate that QVscribe caught ~80% of requirement issues at authoring that would otherwise surface downstream. Useful direct field signal but self-reported and non-controlled, therefore D."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-parasoft-static-fix-time-2026",
+    "solution_id": "parasoft-cpptest-ai",
+    "family": "static-analysis-remediation",
+    "benchmark": "Parasoft AI/ML static-analysis productivity outcomes",
+    "version": "2026",
+    "evidence_type": "vendor-customer-aggregate",
+    "metric": "average team time to fix one violation reduction",
+    "value": 0.23,
+    "human_time_multiplier": 0.77,
+    "n": null,
+    "source_grade": "C",
+    "independence_cluster": "parasoft-ai-ml-outcomes-2026",
+    "source": "https://www.parasoft.com/solutions/ai-ml/",
+    "notes": "Parasoft reports 23% average reduction in time required to fix a single violation for the team and 21–28% reduction in developers' average time to fix/suppress a problem. Used only for human-effort adjustment."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-parasoft-test-effort-2026",
+    "solution_id": "parasoft-cpptest-ai",
+    "family": "requirements-to-test",
+    "benchmark": "Parasoft generative-AI testing customer outcomes",
+    "version": "Embedded World 2026",
+    "evidence_type": "vendor-customer-aggregate",
+    "metric": "manual test effort reduction",
+    "value": 0.38,
+    "human_time_multiplier": 0.62,
+    "n": null,
+    "source_grade": "C",
+    "independence_cluster": "parasoft-genai-testing-outcomes-2026",
+    "source": "https://fr.parasoft.com/news/c-cpp-test-automation-certified-googletest-agentic-ai/",
+    "notes": "Customer feedback reported up to 38% manual test effort reduction, up to 43% test-cycle reduction and up to 72% defect-fix cost reduction. Only the manual-effort metric is encoded quantitatively."
   }
 ]
