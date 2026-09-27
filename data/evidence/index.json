@@ -5,23 +5,11 @@
   "audit": "docs/evidence-audit-2026-09-27.md",
   "coverage_by_solution": "data/evidence/coverage-by-solution.json",
   "task_family_relevance": "data/evidence/task-product-family-relevance.json",
-  "historical_configuration_observations": {
-    "path": "data/observations.json",
-    "count": 223
-  },
-  "direct_product_observations": {
-    "path": "data/evidence/public-product-observations.json",
-    "count": 215
-  },
-  "cross_product_family_observations": {
-    "path": "data/evidence/public-family-observations.json",
-    "count": 57
-  },
-  "practitioner_user_signals": {
-    "path": "data/evidence/public-user-signals.json",
-    "count": 17
-  },
-  "total_preserved_evidence_records": 512,
+  "historical_configuration_observations": 223,
+  "direct_product_observations": 228,
+  "cross_product_family_observations": 57,
+  "practitioner_user_signals": 17,
+  "total_preserved_evidence_records": 525,
   "scoring": {
     "index": "data/task-scores/index.json",
     "version": "product-task-v1.7",
@@ -35,12 +23,16 @@
       "D": 2046,
       "E": 2331,
       "C": 16
-    }
+    },
+    "current_published_version": "product-task-v1.7",
+    "next_version": "product-task-v1.8",
+    "rebuild_command": "python3 scripts/build_product_task_scores.py",
+    "automation_note": "A temporary GitHub Actions rebuild workflow was tested but GitHub allocated no runner (runner_id=0); it was removed to avoid leaving a permanently red workflow. The versioned Python scorer remains the reproducible path."
   },
   "coverage": {
     "tasks_with_direct_product_evidence": 86,
     "tasks_with_empirical_success_evidence": 63,
-    "tasks_with_family_prior_support": 55,
+    "tasks_with_family_prior_support": 61,
     "tasks_without_direct_product_evidence": [],
     "tasks_without_empirical_success_evidence": [
       {
@@ -227,12 +219,14 @@
         "direct_product_evidence_count": 2,
         "family_prior_supported_count": 47
       }
-    ]
+    ],
+    "direct_product_evidence_pairs_raw": 421,
+    "direct_product_probability_pairs_raw": 206,
+    "family_prior_supported_pairs_raw": 3073,
+    "solutions_with_direct_product_evidence": 156,
+    "note": "Raw coverage counts reflect evidence-to-task relevance before scorer shrinkage/grade thresholds. Published task scores remain v1.7 until the reproducible scorer is rerun."
   },
   "interpretation": "Capability evidence proves fit but does not create P(success). Family benchmarks update priors only. Direct product evidence is kept separate from historical exact model+harness+configuration evidence.",
-  "pending_rescore": {
-    "required": true,
-    "reason": "v1.8 pending after major embedded/security/test/architecture batches plus direct Kiro, Sonar/Security Copilot and RealDocBench product evidence.",
-    "target_version": "product-task-v1.8"
-  }
+  "pending_rescore": true,
+  "pending_scoring_version": "product-task-v1.8"
 }
