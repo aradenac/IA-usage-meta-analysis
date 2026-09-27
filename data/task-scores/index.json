@@ -27,8 +27,8 @@
     "custom_workflow": 1.2,
     "backend": 1.35
   },
-  "family_benchmark_count": 13,
-  "product_evidence_count": 79,
+  "family_benchmark_count": 15,
+  "product_evidence_count": 82,
   "files": [
     "data/task-scores/requirements.json",
     "data/task-scores/architecture.json",
@@ -3753,7 +3753,7 @@
       "domain": "development",
       "candidate_count": 55,
       "success_empirical_count": 3,
-      "direct_product_evidence_count": 0,
+      "direct_product_evidence_count": 1,
       "family_prior_supported_count": 55,
       "meta_confidence_counts": {
         "D": 55
@@ -6472,7 +6472,7 @@
       "domain": "debug-upstream",
       "candidate_count": 58,
       "success_empirical_count": 6,
-      "direct_product_evidence_count": 2,
+      "direct_product_evidence_count": 3,
       "family_prior_supported_count": 58,
       "meta_confidence_counts": {
         "D": 10,
@@ -8089,7 +8089,7 @@
       "domain": "verification",
       "candidate_count": 53,
       "success_empirical_count": 3,
-      "direct_product_evidence_count": 2,
+      "direct_product_evidence_count": 3,
       "family_prior_supported_count": 53,
       "meta_confidence_counts": {
         "D": 5,
@@ -17420,7 +17420,7 @@
       "domain": "learning-research",
       "candidate_count": 45,
       "success_empirical_count": 0,
-      "direct_product_evidence_count": 1,
+      "direct_product_evidence_count": 3,
       "family_prior_supported_count": 0,
       "meta_confidence_counts": {
         "E": 45
@@ -17611,7 +17611,7 @@
       "domain": "learning-research",
       "candidate_count": 53,
       "success_empirical_count": 1,
-      "direct_product_evidence_count": 3,
+      "direct_product_evidence_count": 4,
       "family_prior_supported_count": 0,
       "meta_confidence_counts": {
         "D": 3,
@@ -19161,7 +19161,7 @@
       "domain": "learning-research",
       "candidate_count": 44,
       "success_empirical_count": 3,
-      "direct_product_evidence_count": 6,
+      "direct_product_evidence_count": 7,
       "family_prior_supported_count": 0,
       "meta_confidence_counts": {
         "D": 3,
@@ -19433,7 +19433,7 @@
       "domain": "learning-research",
       "candidate_count": 44,
       "success_empirical_count": 0,
-      "direct_product_evidence_count": 0,
+      "direct_product_evidence_count": 2,
       "family_prior_supported_count": 0,
       "meta_confidence_counts": {
         "E": 44
@@ -19607,7 +19607,7 @@
       "domain": "learning-research",
       "candidate_count": 44,
       "success_empirical_count": 0,
-      "direct_product_evidence_count": 0,
+      "direct_product_evidence_count": 2,
       "family_prior_supported_count": 0,
       "meta_confidence_counts": {
         "E": 44
@@ -21944,6 +21944,21 @@
     "Prior-driven rows are hypotheses requiring benchmarking, not proven performance.",
     "Quote-only pricing uses sensitivity estimates, never vendor-list-price claims.",
     "Fixed subscription cost is amortized using the declared reference workload.",
-    "Bundle/prerequisite rules must be applied when composing multi-product stacks."
-  ]
+    "Bundle/prerequisite rules must be applied when composing multi-product stacks.",
+    "The domain score files remain the last full numeric calculation (product-task-v1.3). Evidence added later without probability/time transfer is synchronized through data/task-scores/evidence-overlay-2026-09-27.json.",
+    "Do not interpret evidence-overlay capability rows as new P(success) measurements."
+  ],
+  "latest_evidence_snapshot": "2026-09-27",
+  "numeric_scoring_version": "product-task-v1.3",
+  "evidence_overlay": "data/task-scores/evidence-overlay-2026-09-27.json",
+  "direct_product_evidence_pairs": 293,
+  "success_empirical_pairs": 245,
+  "family_prior_supported_pairs": 1503,
+  "meta_confidence_counts": {
+    "C": 16,
+    "D": 762,
+    "E": 3611
+  },
+  "tasks_with_direct_product_evidence": 86,
+  "tasks_with_empirical_success_evidence": 63
 }
