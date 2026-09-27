@@ -1,0 +1,772 @@
+[
+  {
+    "id": "perforce-klocwork-ai",
+    "name": "Perforce Klocwork 2026.2 + Static Analysis MCP",
+    "vendor": "Perforce",
+    "category": "embedded-verification-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "on-prem",
+      "ci-integrated",
+      "byo-agent"
+    ],
+    "surfaces": [
+      "ide",
+      "cli",
+      "ci",
+      "mcp"
+    ],
+    "capabilities": [
+      "static-analysis",
+      "sast",
+      "ai-assisted-remediation",
+      "defect-query",
+      "mcp",
+      "embedded-c-cpp",
+      "misra-c-2023",
+      "cpp-core-guidelines"
+    ],
+    "integrations": [
+      "Visual Studio Code",
+      "GitHub Copilot",
+      "MCP-capable agents",
+      "CI/CD"
+    ],
+    "official_url": "https://www.perforce.com/products/klocwork/whats-new",
+    "verified_at": "2026-09-27",
+    "notes": "Klocwork 2026.2 extends its static-analysis MCP server for natural-language querying across defects; 2026.1 introduced MCP-based AI-assisted remediation."
+  },
+  {
+    "id": "blackduck-coverity-ai",
+    "name": "Black Duck Coverity 2026 + AI/MCP",
+    "vendor": "Black Duck",
+    "category": "embedded-verification-security-ai",
+    "status": "active-beta-ai-features",
+    "deployment": [
+      "enterprise",
+      "on-prem",
+      "cloud",
+      "ci-integrated",
+      "byo-llm"
+    ],
+    "surfaces": [
+      "web",
+      "cli",
+      "ci",
+      "mcp"
+    ],
+    "capabilities": [
+      "static-analysis",
+      "sast",
+      "ai-assisted-triage",
+      "mcp-local-scans",
+      "security-quality",
+      "false-positive-triage",
+      "cra-readiness",
+      "embedded-c-cpp"
+    ],
+    "integrations": [
+      "MCP-capable agents",
+      "customer-configured LLM",
+      "CI/CD"
+    ],
+    "official_url": "https://docs.blackduck.com/r/coverity/latest/coverity-documentation/ai-assisted-triage-plug-in-beta-.html",
+    "verified_at": "2026-09-27",
+    "notes": "Coverity 2026 adds a Security Scan MCP server for coding agents and AI-assisted issue triage; AI triage remains a beta feature."
+  },
+  {
+    "id": "itemis-analyze-ai",
+    "name": "itemis ANALYZE + AI Skills / ASPICE Agent",
+    "vendor": "itemis",
+    "category": "regulated-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "toolchain-integrated",
+      "mcp",
+      "byo-llm"
+    ],
+    "surfaces": [
+      "desktop",
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "requirements-traceability",
+      "knowledge-graph",
+      "semantic-trace-analysis",
+      "impact-analysis",
+      "aspice",
+      "iso-26262",
+      "compliance-evidence",
+      "agentic-workflows",
+      "mcp"
+    ],
+    "integrations": [
+      "DOORS",
+      "Enterprise Architect",
+      "Polarion",
+      "Jira",
+      "requirements/design/code/test tools",
+      "MCP"
+    ],
+    "official_url": "https://www.itemis.com/en/products/itemis-analyze/",
+    "verified_at": "2026-09-27",
+    "notes": "Exposes the engineering traceability graph over MCP; AI Skills including the ASPICE Agent combine LLM reasoning with deterministic checks for semantic consistency and compliance evidence."
+  },
+  {
+    "id": "itemis-secure-ai",
+    "name": "itemis SECURE AI-Powered TARA + MCP",
+    "vendor": "itemis",
+    "category": "security-engineering-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "toolchain-integrated",
+      "mcp"
+    ],
+    "surfaces": [
+      "desktop",
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "tara",
+      "threat-analysis",
+      "attack-trees",
+      "risk-assessment",
+      "mitigation-guidance",
+      "sbom-cve-triage",
+      "iso-sae-21434",
+      "iec-62443",
+      "cra",
+      "mcp"
+    ],
+    "integrations": [
+      "SBOM/vulnerability data",
+      "engineering artifacts",
+      "MCP"
+    ],
+    "official_url": "https://www.itemis.com/en/products/itemis-secure/ai-powered/",
+    "verified_at": "2026-09-27",
+    "notes": "AI-assisted TARA can create/review item definitions, suggest threats and attack trees, synchronize vulnerability impacts and expose the security model to agents through MCP."
+  },
+  {
+    "id": "sparx-kernaro-assist",
+    "name": "Kernaro Assist for Sparx Enterprise Architect",
+    "vendor": "Sparx Systems",
+    "category": "architecture-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "desktop-addin"
+    ],
+    "surfaces": [
+      "enterprise-architect",
+      "desktop"
+    ],
+    "capabilities": [
+      "architecture-authoring",
+      "model-query",
+      "diagram-generation",
+      "model-analysis",
+      "governance",
+      "validation",
+      "traceability-impact",
+      "event-driven-agents"
+    ],
+    "integrations": [
+      "Sparx Enterprise Architect"
+    ],
+    "official_url": "https://www.sparxsystems.eu/kernaro-ai/kernaro-assist/",
+    "verified_at": "2026-09-27",
+    "notes": "Current branding for the AI Assist/Genie lineage. It can create, modify, query and validate live Enterprise Architect models using natural language."
+  },
+  {
+    "id": "vector-canoe-ai",
+    "name": "Vector CANoe 20 SP2 AI Package + MCP",
+    "vendor": "Vector Informatik",
+    "category": "embedded-hil-verification-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "desktop",
+      "hil",
+      "sil",
+      "byo-llm"
+    ],
+    "surfaces": [
+      "canoe",
+      "mcp"
+    ],
+    "capabilities": [
+      "hil",
+      "sil",
+      "requirements-to-test",
+      "capl-test-generation",
+      "test-execution",
+      "test-debug-fix-loop",
+      "analysis",
+      "mcp",
+      "specialized-agents"
+    ],
+    "integrations": [
+      "CANoe",
+      "CAPL",
+      "GitHub Copilot",
+      "Claude",
+      "MCP"
+    ],
+    "official_url": "https://www.vector.com/en/company/press/press-releases/canoe-automates-development-and-testing-workflows-with-ai-agents/",
+    "verified_at": "2026-09-27",
+    "notes": "CANoe 20 SP2 exposes agents, skills and MCP tools; a prompt can generate a CAPL test from a requirement, execute it, analyze failures, correct the test and rerun it."
+  },
+  {
+    "id": "tracetronic-ecutest-agent",
+    "name": "tracetronic ecu.test agent 2026.2",
+    "vendor": "tracetronic",
+    "category": "embedded-hil-verification-ai",
+    "status": "active",
+    "deployment": [
+      "enterprise",
+      "desktop",
+      "test-bench"
+    ],
+    "surfaces": [
+      "ecu.test"
+    ],
+    "capabilities": [
+      "test-step-generation",
+      "workspace-context",
+      "reference-implementation-learning",
+      "trace-analysis",
+      "hil-test-authoring"
+    ],
+    "integrations": [
+      "ecu.test",
+      "existing test packages",
+      "global mappings",
+      "libraries"
+    ],
+    "official_url": "https://docs.tracetronic.com/help/ecu.test/en/Extensions/agent.html",
+    "verified_at": "2026-09-27",
+    "notes": "Generates ecu.test steps from block descriptions and workspace context, can learn from reference packages, and has early trace-analysis support."
+  },
+  {
+    "id": "tabby",
+    "name": "Tabby",
+    "vendor": "TabbyML",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "self-hosted",
+      "local",
+      "enterprise"
+    ],
+    "surfaces": [
+      "ide",
+      "api"
+    ],
+    "capabilities": [
+      "code-completion",
+      "code-assistant",
+      "self-hosted-models",
+      "code-context",
+      "open-source"
+    ],
+    "integrations": [
+      "VS Code",
+      "JetBrains",
+      "Vim/Neovim ecosystem",
+      "self-hosted LLMs"
+    ],
+    "official_url": "https://tabby.tabbyml.com/docs/welcome/",
+    "verified_at": "2026-09-27",
+    "notes": "Open-source, self-hosted AI coding assistant; relevant where code/data locality matters more than long autonomous execution."
+  },
+  {
+    "id": "bito-code-review",
+    "name": "Bito AI Code Review Agent",
+    "vendor": "Bito",
+    "category": "code-review",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "self-hosted"
+    ],
+    "surfaces": [
+      "gitlab",
+      "github",
+      "bitbucket",
+      "cli",
+      "webhooks"
+    ],
+    "capabilities": [
+      "merge-request-review",
+      "bug-detection",
+      "security-review",
+      "code-smells",
+      "inline-suggestions",
+      "custom-rules",
+      "self-hosted-review"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitLab Self-Managed",
+      "GitHub",
+      "Bitbucket"
+    ],
+    "official_url": "https://docs.bito.ai/ai-code-reviews-in-git/overview",
+    "verified_at": "2026-09-27",
+    "notes": "Supports GitLab and GitLab Self-Managed, with cloud and self-hosted service modes plus CLI/webhook invocation."
+  },
+  {
+    "id": "warp-ade",
+    "name": "Warp Agentic Development Environment",
+    "vendor": "Warp",
+    "category": "coding",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "cloud-agents"
+    ],
+    "surfaces": [
+      "terminal",
+      "desktop"
+    ],
+    "capabilities": [
+      "code-agent",
+      "shell",
+      "repo-edit",
+      "multi-step",
+      "cloud-agents",
+      "agent-supervision",
+      "open-source-core"
+    ],
+    "integrations": [
+      "Git",
+      "shell",
+      "developer toolchain"
+    ],
+    "official_url": "https://www.warp.dev/articles/what-is-an-agentic-development-environment",
+    "verified_at": "2026-09-27",
+    "notes": "Agentic terminal/development environment where agents can inspect code, execute commands, edit files and iterate alongside direct developer shell work."
+  },
+  {
+    "id": "fern-ai",
+    "name": "Fern Agent + Ask Fern + MCP",
+    "vendor": "Fern",
+    "category": "documentation-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "git-backed"
+    ],
+    "surfaces": [
+      "web",
+      "slack",
+      "mcp",
+      "docs-site"
+    ],
+    "capabilities": [
+      "documentation-authoring",
+      "docs-prs",
+      "grounded-doc-search",
+      "citations",
+      "docs-analytics",
+      "mcp",
+      "scheduled-doc-maintenance"
+    ],
+    "integrations": [
+      "GitHub",
+      "Slack",
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "MCP"
+    ],
+    "official_url": "https://buildwithfern.com/learn/docs/ai-features/overview",
+    "verified_at": "2026-09-27",
+    "notes": "Fern Agent edits documentation and opens PRs; Ask Fern provides grounded cited Q&A; Fern publishes both organization and reader-facing MCP surfaces."
+  },
+  {
+    "id": "readme-ask-ai",
+    "name": "ReadMe Ask AI v2",
+    "vendor": "ReadMe",
+    "category": "documentation-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "docs-site",
+      "web"
+    ],
+    "capabilities": [
+      "grounded-doc-search",
+      "citations",
+      "custom-prompts",
+      "tool-calls",
+      "docs-analytics",
+      "mcp-metrics"
+    ],
+    "integrations": [
+      "ReadMe documentation hubs"
+    ],
+    "official_url": "https://docs.readme.com/main/docs/ask-ai",
+    "verified_at": "2026-09-27",
+    "notes": "Ask AI v2 provides cited, configurable answers grounded in published documentation and exposes usage/agent signals through the ReadMe docs platform."
+  },
+  {
+    "id": "redocly-ai-assistant",
+    "name": "Redocly Realm AI Assistant",
+    "vendor": "Redocly",
+    "category": "documentation-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "docs-site",
+      "web"
+    ],
+    "capabilities": [
+      "api-doc-search",
+      "grounded-doc-search",
+      "multi-version-docs",
+      "openapi",
+      "graphql",
+      "asyncapi",
+      "soap"
+    ],
+    "integrations": [
+      "Redocly Realm",
+      "API descriptions",
+      "Markdown docs"
+    ],
+    "official_url": "https://redocly.com/docs/realm/config/ai-assistant",
+    "verified_at": "2026-09-27",
+    "notes": "Indexes API descriptions and documentation, with version-aware AI answers in Realm."
+  },
+  {
+    "id": "document360-eddy-ai",
+    "name": "Document360 Ask Eddy AI",
+    "vendor": "Document360",
+    "category": "documentation-ai",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "knowledge-base",
+      "widget"
+    ],
+    "capabilities": [
+      "grounded-qa",
+      "citations",
+      "knowledge-base-search",
+      "pdf-indexing",
+      "contextual-answers"
+    ],
+    "integrations": [
+      "Document360 knowledge base",
+      "embedded widgets"
+    ],
+    "official_url": "https://docs.document360.com/docs/ai-assistive-search",
+    "verified_at": "2026-09-27",
+    "notes": "Ask Eddy AI retrieves from published knowledge-base content and synthesizes cited answers, including indexed PDF content."
+  },
+  {
+    "id": "notion-ai-meeting-notes",
+    "name": "Notion AI Meeting Notes",
+    "vendor": "Notion",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "desktop"
+    ],
+    "surfaces": [
+      "notion",
+      "desktop"
+    ],
+    "capabilities": [
+      "meeting-transcription",
+      "meeting-summary",
+      "action-items",
+      "knowledge-capture"
+    ],
+    "integrations": [
+      "Notion",
+      "calendar meetings",
+      "system audio"
+    ],
+    "official_url": "https://www.notion.com/help/ai-meeting-notes",
+    "verified_at": "2026-09-27",
+    "notes": "Transcribes meetings and produces structured notes, key points and action items directly in Notion."
+  },
+  {
+    "id": "google-meet-gemini-notes",
+    "name": "Google Meet — Gemini Take notes for me",
+    "vendor": "Google",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "workspace"
+    ],
+    "surfaces": [
+      "google-meet",
+      "google-docs",
+      "calendar"
+    ],
+    "capabilities": [
+      "meeting-notes",
+      "live-summary",
+      "recap",
+      "automatic-sharing"
+    ],
+    "integrations": [
+      "Google Meet",
+      "Google Docs",
+      "Google Calendar"
+    ],
+    "official_url": "https://support.google.com/meet/answer/14754931",
+    "verified_at": "2026-09-27",
+    "notes": "Automatically captures and organizes meeting notes in Google Docs, supports in-meeting catch-up and attaches recap links to Calendar/email."
+  },
+  {
+    "id": "granola-enterprise",
+    "name": "Granola Enterprise",
+    "vendor": "Granola",
+    "category": "meeting-ai",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "desktop",
+      "enterprise"
+    ],
+    "surfaces": [
+      "desktop",
+      "web",
+      "mcp",
+      "api"
+    ],
+    "capabilities": [
+      "meeting-notes",
+      "transcription",
+      "knowledge-capture",
+      "enterprise-governance",
+      "mcp",
+      "integrations"
+    ],
+    "integrations": [
+      "meeting platforms",
+      "MCP",
+      "API",
+      "enterprise apps"
+    ],
+    "official_url": "https://www.granola.ai/enterprise",
+    "verified_at": "2026-09-27",
+    "notes": "Turns meeting notes into governed company knowledge and exposes the resulting context through integrations, API and MCP."
+  },
+  {
+    "id": "guru-ai-search",
+    "name": "Guru Enterprise AI Search",
+    "vendor": "Guru",
+    "category": "enterprise-knowledge",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "browser",
+      "enterprise-search"
+    ],
+    "capabilities": [
+      "enterprise-search",
+      "permission-aware-search",
+      "citations",
+      "knowledge-verification",
+      "stale-content-detection"
+    ],
+    "integrations": [
+      "SharePoint",
+      "Confluence",
+      "Google Drive",
+      "Slack",
+      "Zendesk",
+      "CRM systems"
+    ],
+    "official_url": "https://www.getguru.com/solutions/ai-enterprise-search",
+    "verified_at": "2026-09-27",
+    "notes": "Permission-aware enterprise search with cited answers and a knowledge-verification layer."
+  },
+  {
+    "id": "elastic-agent-builder",
+    "name": "Elastic Agent Builder / Elastic AI Agent",
+    "vendor": "Elastic",
+    "category": "observability-ai",
+    "status": "active",
+    "deployment": [
+      "elastic-cloud",
+      "self-managed",
+      "serverless",
+      "byo-llm"
+    ],
+    "surfaces": [
+      "kibana",
+      "api"
+    ],
+    "capabilities": [
+      "log-analysis",
+      "root-cause-analysis",
+      "observability",
+      "custom-agents",
+      "tools",
+      "skills",
+      "workflow-actions",
+      "security-analysis"
+    ],
+    "integrations": [
+      "Elasticsearch",
+      "Kibana",
+      "Elastic Observability",
+      "Elastic Security",
+      "LLM connectors"
+    ],
+    "official_url": "https://www.elastic.co/docs/solutions/observability/ai/agent-builder-observability",
+    "verified_at": "2026-09-27",
+    "notes": "Agent Builder is the current default AI chat/agent framework in Elastic, replacing the older AI Assistant experience; it includes observability investigation skills and custom tools/agents."
+  },
+  {
+    "id": "make-ai-agents",
+    "name": "Make AI Agents",
+    "vendor": "Make",
+    "category": "workflow-platform",
+    "status": "open-beta",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web",
+      "visual-builder"
+    ],
+    "capabilities": [
+      "agents",
+      "workflow",
+      "automation",
+      "tools",
+      "knowledge",
+      "multi-model",
+      "human-control"
+    ],
+    "integrations": [
+      "3000+ apps",
+      "custom AI providers"
+    ],
+    "official_url": "https://www.make.com/en/ai-agents",
+    "verified_at": "2026-09-27",
+    "notes": "Visual agent/orchestration platform; the 2026 Make AI Agent (New) generation is available in open beta."
+  },
+  {
+    "id": "zapier-agents",
+    "name": "Zapier Agents",
+    "vendor": "Zapier",
+    "category": "workflow-platform",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "agents",
+      "workflow",
+      "automation",
+      "enterprise-data",
+      "tasks",
+      "knowledge"
+    ],
+    "integrations": [
+      "9000+ apps"
+    ],
+    "official_url": "https://zapier.com/agents",
+    "verified_at": "2026-09-27",
+    "notes": "Builds specialized agents that can use company data and perform tasks across Zapier's application ecosystem."
+  },
+  {
+    "id": "workato-ai",
+    "name": "Workato AIRO + Workato GO",
+    "vendor": "Workato",
+    "category": "enterprise-agent-platform",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise",
+      "regional-data-centers"
+    ],
+    "surfaces": [
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "enterprise-search",
+      "deep-action",
+      "agents",
+      "workflow",
+      "automation-authoring",
+      "mcp",
+      "knowledge",
+      "human-in-loop"
+    ],
+    "integrations": [
+      "10000+ enterprise apps/data sources",
+      "MCP",
+      "Claude Code",
+      "Cursor"
+    ],
+    "official_url": "https://www.workato.com/go",
+    "verified_at": "2026-09-27",
+    "notes": "GO combines enterprise search, employee assistance and agentic action; AIRO is Workato's AI automation engineer for building and operating workflows, agents, APIs and MCP servers."
+  },
+  {
+    "id": "tines-ai-agent",
+    "name": "Tines AI Agent",
+    "vendor": "Tines",
+    "category": "workflow-platform",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "workflow",
+      "chat"
+    ],
+    "capabilities": [
+      "agents",
+      "workflow",
+      "tools",
+      "code-execution",
+      "chat",
+      "security-automation",
+      "mcp-interaction",
+      "privacy-controls"
+    ],
+    "integrations": [
+      "Tines Stories",
+      "enterprise APIs",
+      "MCP"
+    ],
+    "official_url": "https://www.tines.com/stories/docs/actions/types/ai-agent/",
+    "verified_at": "2026-09-27",
+    "notes": "AI Agent action can operate in task or chat mode, use tools and code, and participate in secure enterprise workflows."
+  }
+]
