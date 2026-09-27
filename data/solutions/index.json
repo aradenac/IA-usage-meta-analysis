@@ -2,7 +2,7 @@
   "schema_version": 1,
   "verified_at": "2026-09-27",
   "phase": "availability-inventory-only",
-  "total_solutions": 128,
+  "total_solutions": 157,
   "files": [
     {
       "path": "data/solutions/coding.json",
@@ -31,6 +31,14 @@
     {
       "path": "data/solutions/final-gap-audit-2026-09-27.json",
       "count": 14
+    },
+    {
+      "path": "data/solutions/third-pass-audit-2026-09-27.json",
+      "count": 23
+    },
+    {
+      "path": "data/solutions/observability-devops-audit-2026-09-27.json",
+      "count": 6
     }
   ],
   "relationship_types": {
@@ -41,6 +49,6 @@
     "backend": "Model/API/runtime substrate; not turnkey by itself."
   },
   "scoring": false,
-  "audit_note": "Second-pass inventory added current coding, enterprise-search, requirements/ASPICE, research, document/diagram/meeting, security and workflow products. Lifecycle exclusions are in data/solution-exclusions.json.",
-  "current_inventory_note": "Includes two explicit 2026-09-27 gap-audit passes. Lifecycle/legacy entries are retained in source catalogs but excluded from active task mappings when marked non-current."
+  "audit_note": "Extended inventory added embedded static-analysis/MCP, traceability/ASPICE, TARA, architecture modeling, HIL/SIL agents, documentation, meeting, enterprise workflow, observability and AI DevOps products. Lifecycle exclusions are in data/solution-exclusions.json.",
+  "current_inventory_note": "Includes four explicit 2026-09-27 gap-audit passes. Lifecycle/legacy entries are retained in source catalogs but excluded from active task mappings when marked non-current."
 }
