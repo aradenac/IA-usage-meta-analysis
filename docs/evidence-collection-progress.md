@@ -8,9 +8,9 @@ Source of truth: `data/evidence/index.json`.
 
 - historical model × harness × configuration observations: **209**
 - direct product observations: **207**
-- cross-product / family observations: **36**
+- cross-product / family observations: **41**
 - practitioner/user signals: **6**
-- total preserved evidence records: **458**
+- total preserved evidence records: **463**
 - business tasks: **86**
 - solution catalog entries: **157**
 - scored task × solution pairs: **4393**
@@ -20,7 +20,7 @@ Source of truth: `data/evidence/index.json`.
 - tasks with direct product evidence: **86/86**
 - tasks with empirical success evidence: **63/86**
 
-Current scorer: **product-task-v1.6**.
+Current scorer: **product-task-v1.6**. A v1.7 rescore is pending after the current evidence batch.
 
 ## Interpretation
 
@@ -58,3 +58,15 @@ All new findings are committed incrementally:
 5. this checkpoint is updated after material batches.
 
 No important evidence should exist only in chat context.
+
+## Latest incremental batch
+
+Committed after the checkpoint:
+
+- TM-Bench v2 threat-modeling benchmark;
+- 2026 academic six-tool threat-elicitation benchmark against novice/expert human baselines;
+- FDE-Bench deployment-configuration benchmark;
+- DeployBench fresh-machine research-artifact deployment benchmark;
+- XL-DocBench strict reproducible long-document release.
+
+These records are already in `data/evidence/public-family-observations.json`. Score regeneration is intentionally batched and is marked pending in `data/evidence/index.json`.
