@@ -1,0 +1,5 @@
+{
+  "Public": "Information déjà publique : Web, upstreams, forums, documentation publique.",
+  "Interne/confidentiel": "Code, documentation et connaissances internes ; nécessite une solution autorisée et un parcours de données maîtrisé.",
+  "Client/sensible": "Documents, exigences ou données client/projet sensibles ; privilégier infrastructure souveraine/maîtrisée ou filtrage strict avant envoi à un SaaS privé."
+}
