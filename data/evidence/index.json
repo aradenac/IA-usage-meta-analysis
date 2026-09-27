@@ -24,23 +24,23 @@
   "total_preserved_evidence_records": 464,
   "scoring": {
     "index": "data/task-scores/index.json",
-    "version": "product-task-v1.6",
+    "version": "product-task-v1.7",
     "task_count": 86,
     "solution_count": 157,
     "scored_pairs": 4393,
     "direct_product_evidence_pairs": 394,
-    "family_prior_supported_pairs": 2432,
+    "family_prior_supported_pairs": 2762,
     "success_empirical_pairs": 267,
     "meta_confidence_counts": {
-      "D": 1717,
-      "E": 2660,
+      "D": 2046,
+      "E": 2331,
       "C": 16
     }
   },
   "coverage": {
     "tasks_with_direct_product_evidence": 86,
     "tasks_with_empirical_success_evidence": 63,
-    "tasks_with_family_prior_support": 48,
+    "tasks_with_family_prior_support": 55,
     "tasks_without_direct_product_evidence": [],
     "tasks_without_empirical_success_evidence": [
       {
@@ -145,7 +145,7 @@
         "domain": "ci-release",
         "candidate_count": 37,
         "direct_product_evidence_count": 2,
-        "family_prior_supported_count": 0
+        "family_prior_supported_count": 37
       },
       {
         "task_id": "release-notes",
@@ -231,8 +231,8 @@
   },
   "interpretation": "Capability evidence proves fit but does not create P(success). Family benchmarks update priors only. Direct product evidence is kept separate from historical exact model+harness+configuration evidence.",
   "pending_rescore": {
-    "required": true,
-    "reason": "Seven net-new family observations after product-task-v1.6: TM-Bench v2, academic threat-elicitation benchmark, FDE-Bench, DeployBench, XL-DocBench strict release, requirements-quality benchmark, requirements-generation benchmark. Duplicate requirements-quality record removed.",
-    "target_version": "product-task-v1.7"
+    "required": false,
+    "last_completed_version": "product-task-v1.7",
+    "completed_at": "2026-09-27"
   }
 }
