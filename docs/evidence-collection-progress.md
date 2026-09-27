@@ -99,3 +99,12 @@ Committed ISSTA 2026 AutoHIL evidence:
 - 64 new functional defects reported across the two industrial ECUs and patched by supplier technicians.
 
 This is family-level HIL evidence, not evidence that CANoe/ecu.test/VectorCAST themselves attain those rates. v1.8 rescore remains pending.
+
+## Reliable test-generation batch
+
+SWE-Mutation (ACL Findings 2026) is now preserved at two levels:
+
+- family prior: generated-test VRR 40.4% at the best published configuration and RDR 71.71% support signal;
+- 14 exact model × harness observations across Mini-SWE-Agent and Claude Code for seven models.
+
+Historical exact-configuration corpus is now **223 observations**. Family corpus is **49 observations**. v1.8 rescore is pending.
