@@ -1,0 +1,826 @@
+[
+  {
+    "task_id": "arch-detailed-design",
+    "native": [
+      "sparx-kernaro-assist"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-diagram",
+    "native": [
+      "sparx-kernaro-assist"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-review",
+    "native": [
+      "sparx-kernaro-assist"
+    ],
+    "direct": [
+      "itemis-analyze-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-software",
+    "native": [
+      "sparx-kernaro-assist"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-understand",
+    "native": [
+      "sparx-kernaro-assist"
+    ],
+    "direct": [
+      "itemis-analyze-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-automation",
+    "native": [
+      "make-ai-agents",
+      "zapier-agents",
+      "workato-ai",
+      "tines-ai-agent"
+    ],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-build",
+    "native": [],
+    "direct": [
+      "warp-ade",
+      "elastic-agent-builder"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-create",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-docker",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-gitlab",
+    "native": [],
+    "direct": [
+      "warp-ade",
+      "elastic-agent-builder"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-toolchain",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-backlog",
+    "native": [],
+    "direct": [],
+    "connected": [
+      "make-ai-agents",
+      "zapier-agents",
+      "workato-ai"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-confluence",
+    "native": [],
+    "direct": [],
+    "connected": [
+      "guru-ai-search",
+      "make-ai-agents",
+      "zapier-agents",
+      "workato-ai"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-jira",
+    "native": [],
+    "direct": [],
+    "connected": [
+      "guru-ai-search",
+      "make-ai-agents",
+      "zapier-agents",
+      "workato-ai",
+      "tines-ai-agent"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-meeting",
+    "native": [
+      "notion-ai-meeting-notes",
+      "google-meet-gemini-notes",
+      "granola-enterprise"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-sharepoint",
+    "native": [],
+    "direct": [],
+    "connected": [
+      "guru-ai-search",
+      "make-ai-agents",
+      "zapier-agents",
+      "workato-ai"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-status",
+    "native": [],
+    "direct": [
+      "guru-ai-search",
+      "workato-ai"
+    ],
+    "connected": [
+      "itemis-analyze-ai",
+      "granola-enterprise",
+      "make-ai-agents",
+      "zapier-agents",
+      "tines-ai-agent"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-ticket",
+    "native": [],
+    "direct": [],
+    "connected": [
+      "make-ai-agents",
+      "zapier-agents",
+      "workato-ai",
+      "tines-ai-agent"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-workflow",
+    "native": [
+      "make-ai-agents",
+      "zapier-agents",
+      "workato-ai",
+      "tines-ai-agent"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-artifacts",
+    "native": [
+      "itemis-secure-ai"
+    ],
+    "direct": [],
+    "connected": [
+      "itemis-analyze-ai"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-compliance",
+    "native": [
+      "itemis-secure-ai"
+    ],
+    "direct": [
+      "blackduck-coverity-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-impact",
+    "native": [
+      "itemis-secure-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-review",
+    "native": [
+      "blackduck-coverity-ai",
+      "itemis-secure-ai"
+    ],
+    "direct": [
+      "perforce-klocwork-ai",
+      "bito-code-review"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-threat",
+    "native": [
+      "itemis-secure-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-vuln",
+    "native": [
+      "itemis-secure-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-crash",
+    "native": [],
+    "direct": [
+      "warp-ade",
+      "elastic-agent-builder"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-embedded",
+    "native": [],
+    "direct": [
+      "vector-canoe-ai",
+      "warp-ade",
+      "elastic-agent-builder"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-hw-sw",
+    "native": [
+      "vector-canoe-ai"
+    ],
+    "direct": [
+      "tracetronic-ecutest-agent",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-intermittent",
+    "native": [
+      "elastic-agent-builder"
+    ],
+    "direct": [
+      "vector-canoe-ai",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-known",
+    "native": [],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-performance",
+    "native": [
+      "elastic-agent-builder"
+    ],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-vendor",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-adapt",
+    "native": [],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-datasheet",
+    "native": [],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-port",
+    "native": [],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-feature",
+    "native": [],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-module",
+    "native": [],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-protocol",
+    "native": [],
+    "direct": [
+      "vector-canoe-ai",
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-python-tooling",
+    "native": [],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-refactor",
+    "native": [],
+    "direct": [
+      "tabby",
+      "bito-code-review",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-small-change",
+    "native": [],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-architecture",
+    "native": [],
+    "direct": [
+      "sparx-kernaro-assist"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-code",
+    "native": [
+      "fern-ai"
+    ],
+    "direct": [
+      "tabby",
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-sync",
+    "native": [
+      "fern-ai"
+    ],
+    "direct": [
+      "itemis-analyze-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-explain",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-operational",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "process-aspice",
+    "native": [
+      "itemis-analyze-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "process-evidence",
+    "native": [
+      "itemis-analyze-ai"
+    ],
+    "direct": [
+      "blackduck-coverity-ai",
+      "itemis-secure-ai"
+    ],
+    "connected": [
+      "perforce-klocwork-ai"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "release-notes",
+    "native": [],
+    "direct": [],
+    "connected": [
+      "make-ai-agents",
+      "zapier-agents",
+      "workato-ai",
+      "tines-ai-agent"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-change-impact",
+    "native": [
+      "itemis-analyze-ai"
+    ],
+    "direct": [
+      "sparx-kernaro-assist"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-decompose",
+    "native": [],
+    "direct": [
+      "itemis-analyze-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-review",
+    "native": [],
+    "direct": [
+      "itemis-analyze-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-system-impact",
+    "native": [],
+    "direct": [
+      "itemis-analyze-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-traceability",
+    "native": [
+      "itemis-analyze-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-docs",
+    "native": [],
+    "direct": [
+      "fern-ai",
+      "readme-ask-ai",
+      "redocly-ai-assistant",
+      "document360-eddy-ai",
+      "guru-ai-search",
+      "workato-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-multidoc",
+    "native": [
+      "guru-ai-search",
+      "workato-ai"
+    ],
+    "direct": [
+      "fern-ai",
+      "readme-ask-ai",
+      "redocly-ai-assistant",
+      "document360-eddy-ai"
+    ],
+    "connected": [
+      "granola-enterprise"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-source",
+    "native": [],
+    "direct": [
+      "guru-ai-search"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "safety-impact",
+    "native": [],
+    "direct": [
+      "itemis-analyze-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-backport",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-contribute",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-search",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-coding-rules",
+    "native": [
+      "perforce-klocwork-ai"
+    ],
+    "direct": [
+      "blackduck-coverity-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-hil",
+    "native": [
+      "vector-canoe-ai",
+      "tracetronic-ecutest-agent"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-integration",
+    "native": [
+      "vector-canoe-ai",
+      "tracetronic-ecutest-agent"
+    ],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-loop",
+    "native": [
+      "vector-canoe-ai",
+      "tracetronic-ecutest-agent"
+    ],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-mr",
+    "native": [
+      "bito-code-review"
+    ],
+    "direct": [],
+    "connected": [
+      "perforce-klocwork-ai",
+      "blackduck-coverity-ai"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-prevalidation",
+    "native": [
+      "vector-canoe-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-req-tests",
+    "native": [
+      "vector-canoe-ai",
+      "tracetronic-ecutest-agent"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-results",
+    "native": [
+      "vector-canoe-ai",
+      "tracetronic-ecutest-agent",
+      "elastic-agent-builder"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-static",
+    "native": [
+      "perforce-klocwork-ai",
+      "blackduck-coverity-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-unit",
+    "native": [],
+    "direct": [
+      "warp-ade"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  }
+]
