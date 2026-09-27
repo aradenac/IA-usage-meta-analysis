@@ -649,7 +649,7 @@
     "name": "Continue",
     "vendor": "Continue",
     "category": "coding",
-    "status": "active",
+    "status": "legacy-acquired",
     "deployment": [
       "local-client",
       "self-hosted",
@@ -674,7 +674,9 @@
     ],
     "official_url": "https://www.continue.dev/",
     "verified_at": "2026-09-27",
-    "inventory_phase": "availability-only"
+    "inventory_phase": "availability-only",
+    "current_candidate": false,
+    "notes": "Continue joined Cursor in 2026; retained for historical/configuration continuity, not treated as a maintained independent current product."
   },
   {
     "id": "augment-code",
