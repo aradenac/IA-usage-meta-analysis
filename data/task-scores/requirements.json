@@ -91,7 +91,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -185,7 +185,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -279,7 +279,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -376,6 +376,13 @@
           "family": "requirements-traceability",
           "type": "capability-evidence",
           "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
         }
       ],
       "success_observations": [],
@@ -390,7 +397,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -484,7 +491,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -578,7 +585,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -672,7 +679,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -766,7 +773,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -860,7 +867,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -954,7 +961,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1048,7 +1055,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1142,7 +1149,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1236,7 +1243,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1330,7 +1337,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1424,7 +1431,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1518,7 +1525,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1612,7 +1619,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1706,7 +1713,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1800,7 +1807,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1894,7 +1901,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -1988,7 +1995,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2082,7 +2089,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2176,7 +2183,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2270,7 +2277,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2364,7 +2371,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2458,7 +2465,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2552,7 +2559,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2646,7 +2653,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2740,7 +2747,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2834,7 +2841,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -2928,7 +2935,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3022,7 +3029,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3116,7 +3123,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3210,7 +3217,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3304,7 +3311,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3398,7 +3405,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3492,7 +3499,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3586,7 +3593,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3680,7 +3687,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3774,7 +3781,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3868,7 +3875,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -3962,7 +3969,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4056,7 +4063,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4150,7 +4157,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4244,7 +4251,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4338,7 +4345,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4432,7 +4439,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4526,7 +4533,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4620,7 +4627,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4714,7 +4721,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4808,7 +4815,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4902,7 +4909,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -4996,7 +5003,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-change-impact",
@@ -5090,7 +5097,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5194,7 +5201,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5288,7 +5295,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5382,7 +5389,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5476,7 +5483,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5570,7 +5577,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5664,7 +5671,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5758,7 +5765,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5852,7 +5859,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -5946,7 +5953,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6040,7 +6047,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6134,7 +6141,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6228,7 +6235,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6322,7 +6329,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6416,7 +6423,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6510,7 +6517,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6604,7 +6611,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6698,7 +6705,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6792,7 +6799,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6886,7 +6893,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -6980,7 +6987,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7074,7 +7081,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7168,7 +7175,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7265,6 +7272,13 @@
           "family": "requirements-traceability",
           "type": "capability-evidence",
           "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
         }
       ],
       "success_observations": [],
@@ -7279,7 +7293,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7373,7 +7387,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7467,7 +7481,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7561,7 +7575,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7655,7 +7669,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7749,7 +7763,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7843,7 +7857,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -7937,7 +7951,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8031,7 +8045,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8125,7 +8139,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8219,7 +8233,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8313,7 +8327,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8407,7 +8421,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8501,7 +8515,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8595,7 +8609,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8689,7 +8703,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8783,7 +8797,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8877,7 +8891,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -8971,7 +8985,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9065,7 +9079,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9159,7 +9173,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9253,7 +9267,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9347,7 +9361,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9441,7 +9455,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9535,7 +9549,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9629,7 +9643,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9723,7 +9737,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9817,7 +9831,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -9911,7 +9925,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-decompose",
@@ -10005,7 +10019,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10109,7 +10123,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10203,7 +10217,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10297,7 +10311,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10391,7 +10405,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10485,7 +10499,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10579,7 +10593,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10673,7 +10687,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10767,7 +10781,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10861,7 +10875,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -10955,7 +10969,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11049,7 +11063,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11143,7 +11157,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11237,7 +11251,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11331,7 +11345,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11425,7 +11439,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11519,7 +11533,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11613,7 +11627,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11707,7 +11721,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11801,7 +11815,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11895,7 +11909,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -11989,7 +12003,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12083,7 +12097,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12177,7 +12191,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12271,7 +12285,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12365,7 +12379,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12459,7 +12473,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12553,7 +12567,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12647,7 +12661,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12741,7 +12755,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12835,7 +12849,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -12929,7 +12943,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13023,7 +13037,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13117,7 +13131,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13211,7 +13225,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13305,7 +13319,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13399,7 +13413,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13493,7 +13507,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13587,7 +13601,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13681,7 +13695,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13775,7 +13789,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13869,7 +13883,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -13963,7 +13977,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14057,7 +14071,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14151,7 +14165,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14245,7 +14259,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14339,7 +14353,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14433,7 +14447,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14527,7 +14541,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14621,7 +14635,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14715,7 +14729,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14809,7 +14823,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-review",
@@ -14903,7 +14917,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15007,7 +15021,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15101,7 +15115,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15195,7 +15209,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15289,7 +15303,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15383,7 +15397,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15477,7 +15491,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15571,7 +15585,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15665,7 +15679,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15759,7 +15773,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15853,7 +15867,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -15947,7 +15961,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16041,7 +16055,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16135,7 +16149,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16229,7 +16243,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16323,7 +16337,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16417,7 +16431,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16511,7 +16525,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16605,7 +16619,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16699,7 +16713,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16793,7 +16807,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16887,7 +16901,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -16981,7 +16995,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17075,7 +17089,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17169,7 +17183,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17263,7 +17277,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17357,7 +17371,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17451,7 +17465,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17545,7 +17559,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17639,7 +17653,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17733,7 +17747,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17827,7 +17841,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -17921,7 +17935,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18015,7 +18029,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18109,7 +18123,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18203,7 +18217,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18297,7 +18311,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18391,7 +18405,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18485,7 +18499,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18579,7 +18593,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18673,7 +18687,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18767,7 +18781,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18861,7 +18875,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -18955,7 +18969,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19049,7 +19063,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19143,7 +19157,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19237,7 +19251,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19331,7 +19345,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19425,7 +19439,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19519,7 +19533,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19613,7 +19627,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19707,7 +19721,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-system-impact",
@@ -19801,7 +19815,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -19897,7 +19911,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -19996,6 +20010,13 @@
           "family": "requirements-traceability",
           "type": "capability-evidence",
           "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
         }
       ],
       "success_observations": [],
@@ -20010,7 +20031,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20106,7 +20127,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20202,7 +20223,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20298,7 +20319,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20404,7 +20425,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20500,7 +20521,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20596,7 +20617,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20692,7 +20713,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20788,7 +20809,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20884,7 +20905,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -20980,7 +21001,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21076,7 +21097,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21172,7 +21193,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21268,7 +21289,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21364,7 +21385,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21460,7 +21481,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21556,7 +21577,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21652,7 +21673,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21748,7 +21769,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21844,7 +21865,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -21940,7 +21961,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22036,7 +22057,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22132,7 +22153,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22228,7 +22249,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22324,7 +22345,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22420,7 +22441,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22516,7 +22537,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22612,7 +22633,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22716,7 +22737,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22812,7 +22833,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -22908,7 +22929,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23004,7 +23025,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23100,7 +23121,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23196,7 +23217,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23292,7 +23313,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23388,7 +23409,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23484,7 +23505,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23580,7 +23601,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23676,7 +23697,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23772,7 +23793,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23868,7 +23889,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -23964,7 +23985,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24060,7 +24081,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24156,7 +24177,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24252,7 +24273,7 @@
       "human_time": false,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24348,7 +24369,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24444,7 +24465,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24540,7 +24561,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24636,7 +24657,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24732,7 +24753,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-traceability",
@@ -24828,7 +24849,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -24932,7 +24953,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25026,7 +25047,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25120,7 +25141,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25214,7 +25235,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25308,7 +25329,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25402,7 +25423,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25496,7 +25517,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25590,7 +25611,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25684,7 +25705,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25778,7 +25799,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25872,7 +25893,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -25966,7 +25987,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26060,7 +26081,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26154,7 +26175,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26248,7 +26269,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26342,7 +26363,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26436,7 +26457,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26530,7 +26551,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26624,7 +26645,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26718,7 +26739,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26812,7 +26833,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -26906,7 +26927,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27000,7 +27021,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27094,7 +27115,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27188,7 +27209,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27282,7 +27303,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27376,7 +27397,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27470,7 +27491,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27564,7 +27585,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27658,7 +27679,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27752,7 +27773,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27846,7 +27867,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -27940,7 +27961,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28034,7 +28055,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28128,7 +28149,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28222,7 +28243,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28316,7 +28337,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28410,7 +28431,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28504,7 +28525,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28598,7 +28619,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28692,7 +28713,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28786,7 +28807,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28880,7 +28901,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -28974,7 +28995,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -29068,7 +29089,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -29162,7 +29183,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -29256,7 +29277,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -29350,7 +29371,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -29444,7 +29465,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -29538,7 +29559,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "req-write-sw",
@@ -29632,6 +29653,6 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   }
 ]
