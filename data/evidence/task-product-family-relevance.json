@@ -22,7 +22,9 @@
       "process-aspice": 0.9,
       "process-evidence": 0.9,
       "req-decompose": 0.55,
-      "collab-status": 0.35
+      "collab-status": 0.35,
+      "safety-impact": 0.75,
+      "cyber-impact": 0.55
     },
     "requirements-to-test": {
       "verify-req-tests": 1,
@@ -65,7 +67,11 @@
       "arch-choice": 0.6,
       "debug-vendor": 0.55,
       "watch-tech": 0.75,
-      "research-field": 0.7
+      "research-field": 0.7,
+      "upstream-search": 0.85,
+      "research-version": 0.75,
+      "doc-vendor-diff": 0.65,
+      "learn-operational": 0.35
     },
     "literature-search": {
       "research-state-art": 1,
@@ -121,7 +127,9 @@
       "research-docs": 0.8,
       "research-multidoc": 0.55,
       "req-system-impact": 0.3,
-      "req-review": 0.3
+      "req-review": 0.3,
+      "doc-vendor-diff": 0.8,
+      "doc-architecture": 0.35
     },
     "architecture-modeling": {
       "arch-software": 1,
@@ -167,6 +175,30 @@
       "arch-understand": 0.7,
       "arch-review": 0.45,
       "process-evidence": 0.4
+    },
+    "devops-agent": {
+      "ci-build": 1,
+      "ci-gitlab": 0.95,
+      "ci-create": 0.9,
+      "ci-docker": 0.7,
+      "ci-toolchain": 0.75,
+      "ci-automation": 0.9,
+      "release-prepare": 0.9,
+      "release-notes": 0.45,
+      "debug-intermittent": 0.35
+    },
+    "vulnerability-triage": {
+      "cyber-vuln": 1,
+      "cyber-impact": 0.75,
+      "cyber-review": 0.55,
+      "cyber-compliance": 0.4,
+      "process-evidence": 0.25
+    },
+    "functional-safety-analysis": {
+      "safety-impact": 0.8,
+      "safety-review": 0.65,
+      "process-evidence": 0.35,
+      "process-aspice": 0.3
     }
   }
 }
