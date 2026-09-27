@@ -108,7 +108,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -228,7 +228,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -339,7 +339,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -429,7 +429,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -519,7 +519,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -609,7 +609,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -699,7 +699,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -789,7 +789,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -868,7 +868,15 @@
       "human_time_grade": "D",
       "cost_grade": "A",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-ms-researcher-draco-2026",
+          "grade": "C",
+          "family": "deep-research",
+          "type": "vendor-benchmark-on-external-suite",
+          "metric": "relative overall score vs Perplexity Deep Research"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -879,7 +887,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -969,7 +977,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1059,7 +1067,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1149,7 +1157,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1239,7 +1247,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1329,7 +1337,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1419,7 +1427,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1509,7 +1517,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1599,7 +1607,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1689,7 +1697,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1779,7 +1787,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1869,7 +1877,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -1959,7 +1967,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2049,7 +2057,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2139,7 +2147,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2229,7 +2237,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2319,7 +2327,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2409,7 +2417,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2499,7 +2507,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2589,7 +2597,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2679,7 +2687,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2769,7 +2777,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2859,7 +2867,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -2949,7 +2957,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -3039,7 +3047,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -3129,7 +3137,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -3219,7 +3227,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -3309,7 +3317,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -3399,7 +3407,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-choice",
@@ -3489,7 +3497,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -3583,7 +3591,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -3677,7 +3685,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -3771,7 +3779,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -3865,7 +3873,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -3959,7 +3967,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4053,7 +4061,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4147,7 +4155,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4241,7 +4249,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4335,7 +4343,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4429,7 +4437,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4523,7 +4531,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4617,7 +4625,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4711,7 +4719,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4805,7 +4813,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -4907,7 +4915,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5009,7 +5017,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5103,7 +5111,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5209,7 +5217,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5303,7 +5311,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5397,7 +5405,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5491,7 +5499,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5585,7 +5593,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5679,7 +5687,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5773,7 +5781,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5867,7 +5875,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -5961,7 +5969,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6055,7 +6063,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6149,7 +6157,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6243,7 +6251,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6337,7 +6345,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6431,7 +6439,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6525,7 +6533,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6619,7 +6627,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6713,7 +6721,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6807,7 +6815,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6901,7 +6909,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -6995,7 +7003,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -7089,7 +7097,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -7183,7 +7191,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -7277,7 +7285,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -7371,7 +7379,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -7465,7 +7473,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-detailed-design",
@@ -7559,7 +7567,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -7653,7 +7661,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -7747,7 +7755,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -7841,7 +7849,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -7935,7 +7943,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8029,7 +8037,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8123,7 +8131,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8217,7 +8225,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8311,7 +8319,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8405,7 +8413,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8499,7 +8507,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8593,7 +8601,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8687,7 +8695,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8781,7 +8789,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8875,7 +8883,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -8969,7 +8977,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9063,7 +9071,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9157,7 +9165,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9251,7 +9259,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9353,7 +9361,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9447,7 +9455,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9547,7 +9555,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9641,7 +9649,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9747,7 +9755,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9841,7 +9849,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -9935,7 +9943,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10029,7 +10037,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10123,7 +10131,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10217,7 +10225,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10311,7 +10319,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10405,7 +10413,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10499,7 +10507,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10593,7 +10601,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10687,7 +10695,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10781,7 +10789,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10875,7 +10883,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -10969,7 +10977,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11063,7 +11071,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11157,7 +11165,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11251,7 +11259,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11345,7 +11353,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11439,7 +11447,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11533,7 +11541,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11627,7 +11635,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11721,7 +11729,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11815,7 +11823,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -11909,7 +11917,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -12003,7 +12011,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-diagram",
@@ -12097,7 +12105,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12193,7 +12201,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12289,7 +12297,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12385,7 +12393,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12481,7 +12489,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12577,7 +12585,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12673,7 +12681,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12769,7 +12777,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12865,7 +12873,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -12961,7 +12969,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13057,7 +13065,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13153,7 +13161,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13249,7 +13257,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13345,7 +13353,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13441,7 +13449,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13537,7 +13545,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13633,7 +13641,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13737,7 +13745,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13833,7 +13841,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -13941,7 +13949,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14045,7 +14053,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14141,7 +14149,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14237,7 +14245,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14333,7 +14341,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14429,7 +14437,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14525,7 +14533,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14621,7 +14629,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14717,7 +14725,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14813,7 +14821,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -14909,7 +14917,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15005,7 +15013,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15101,7 +15109,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15197,7 +15205,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15293,7 +15301,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15389,7 +15397,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15485,7 +15493,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15581,7 +15589,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15677,7 +15685,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15773,7 +15781,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15869,7 +15877,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -15965,7 +15973,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16061,7 +16069,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16157,7 +16165,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16253,7 +16261,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16349,7 +16357,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16445,7 +16453,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16541,7 +16549,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16637,7 +16645,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16733,7 +16741,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-review",
@@ -16829,7 +16837,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -16923,7 +16931,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17017,7 +17025,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17111,7 +17119,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17205,7 +17213,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17299,7 +17307,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17393,7 +17401,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17487,7 +17495,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17581,7 +17589,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17675,7 +17683,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17769,7 +17777,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17863,7 +17871,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -17957,7 +17965,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18051,7 +18059,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18153,7 +18161,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18247,7 +18255,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18341,7 +18349,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18435,7 +18443,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18529,7 +18537,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18631,7 +18639,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18737,7 +18745,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18831,7 +18839,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -18925,7 +18933,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19019,7 +19027,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19113,7 +19121,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19207,7 +19215,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19301,7 +19309,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19395,7 +19403,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19489,7 +19497,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19583,7 +19591,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19677,7 +19685,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19771,7 +19779,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19865,7 +19873,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -19959,7 +19967,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20053,7 +20061,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20147,7 +20155,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20241,7 +20249,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20335,7 +20343,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20429,7 +20437,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20523,7 +20531,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20617,7 +20625,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20711,7 +20719,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20805,7 +20813,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20899,7 +20907,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-software",
@@ -20993,7 +21001,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21101,7 +21109,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21215,7 +21223,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21313,7 +21321,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21413,7 +21421,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21507,7 +21515,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21601,7 +21609,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21695,7 +21703,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21789,7 +21797,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21883,7 +21891,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -21977,7 +21985,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22071,7 +22079,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22165,7 +22173,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22259,7 +22267,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22353,119 +22361,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "arch-understand",
-    "task_label": "Comprendre une architecture/codebase existant avant modification",
-    "domain": "architecture",
-    "solution_id": "codex-cli",
-    "solution_name": "Codex CLI",
-    "vendor": "OpenAI",
-    "category": "coding",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.6258722778489507,
-      "low": 0.5458722778489508,
-      "high": 0.7058722778489507,
-      "relationship_prior": 0.58,
-      "family_prior": 0.6143859649122807,
-      "family_prior_weight": 0.27999999999999997,
-      "family_prior_observations": [
-        "fam-arch-traceability-gpt4o-2026"
-      ],
-      "grade": "B",
-      "clusters": 5,
-      "weight": 2.16116386424124,
-      "observations": [
-        "historical:4",
-        "historical:5",
-        "historical:10",
-        "historical:24",
-        "historical:47",
-        "historical:115",
-        "historical:198",
-        "historical:199"
-      ],
-      "prior_driven": false,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 30,
-      "low": 10.2,
-      "high": 86.25,
-      "baseline": 30,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 1.096202753661317,
-      "low": 0.7308018357742113,
-      "high": 2.192405507322634,
-      "fixed_point": 1.096202753661317,
-      "variable_point": 0,
-      "fixed_basis": "ChatGPT Business Standard annual",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 250,
-      "low": 104.16666666666667,
-      "high": 500
-    },
-    "expected_cost_success_eur": {
-      "point": 41.69573198440885,
-      "low": 13.07715591821203,
-      "high": 135.68632904237344
-    },
-    "meta_score": {
-      "point": 85.70574492099958,
-      "low": 43.429379048919095,
-      "high": 97.45123013812437
-    },
-    "profitability_factor": {
-      "point": 5.995817511813479,
-      "low": 0.7677020035978458,
-      "high": 38.23461333084437
-    },
-    "pricing": {
-      "status": "public_partial",
-      "grade": "A",
-      "model_confidence": 0.97,
-      "monetary_confidence": 0.97,
-      "bundle_id": "openai-chatgpt-business-seat"
-    },
-    "evidence": {
-      "success_grade": "B",
-      "human_time_grade": "D",
-      "cost_grade": "A",
-      "meta_confidence_grade": "D",
-      "direct_product_observations": [],
-      "success_observations": [
-        "historical:4",
-        "historical:5",
-        "historical:10",
-        "historical:24",
-        "historical:47",
-        "historical:115",
-        "historical:198",
-        "historical:199"
-      ],
-      "family_prior_observations": [
-        "fam-arch-traceability-gpt4o-2026"
-      ],
-      "independent_success_clusters": 5,
-      "success_coverage_weight": 2.16116386424124
-    },
-    "prior_driven": {
-      "success": false,
-      "human_time": true,
-      "cost": false
-    },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22583,7 +22479,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22677,7 +22573,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22771,7 +22667,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22865,7 +22761,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -22959,7 +22855,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23059,7 +22955,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23153,7 +23049,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23247,7 +23143,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23341,7 +23237,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23435,7 +23331,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23529,7 +23425,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23623,7 +23519,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23717,7 +23613,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23811,7 +23707,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23905,7 +23801,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -23999,7 +23895,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24093,7 +23989,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24193,7 +24089,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24287,7 +24183,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24381,7 +24277,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24479,7 +24375,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24589,7 +24485,127 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "arch-understand",
+    "task_label": "Comprendre une architecture/codebase existant avant modification",
+    "domain": "architecture",
+    "solution_id": "codex-cli",
+    "solution_name": "Codex CLI",
+    "vendor": "OpenAI",
+    "category": "coding",
+    "relationship": "direct",
+    "success_probability": {
+      "point": 0.5708483022080264,
+      "low": 0.4908483022080264,
+      "high": 0.6508483022080264,
+      "relationship_prior": 0.58,
+      "family_prior": 0.6143859649122807,
+      "family_prior_weight": 0.27999999999999997,
+      "family_prior_observations": [
+        "fam-arch-traceability-gpt4o-2026"
+      ],
+      "grade": "B",
+      "clusters": 6,
+      "weight": 3.1350704256816804,
+      "observations": [
+        "historical:4",
+        "historical:5",
+        "historical:10",
+        "historical:24",
+        "historical:47",
+        "historical:115",
+        "historical:198",
+        "historical:199",
+        "historical:200",
+        "historical:204",
+        "historical:206",
+        "historical:207"
+      ],
+      "prior_driven": false,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 30,
+      "low": 10.2,
+      "high": 86.25,
+      "baseline": 30,
+      "relationship_factor": 1,
+      "evidence_factor": 1,
+      "observations": [],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 1.096202753661317,
+      "low": 0.7308018357742113,
+      "high": 2.192405507322634,
+      "fixed_point": 1.096202753661317,
+      "variable_point": 0,
+      "fixed_basis": "ChatGPT Business Standard annual",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 250,
+      "low": 104.16666666666667,
+      "high": 500
+    },
+    "expected_cost_success_eur": {
+      "point": 45.71477685529042,
+      "low": 14.182723999522445,
+      "high": 150.8967336224627
+    },
+    "meta_score": {
+      "point": 84.54092239101693,
+      "low": 40.83951933071841,
+      "high": 97.24169573625434
+    },
+    "profitability_factor": {
+      "point": 5.468691245970029,
+      "low": 0.6903175712688872,
+      "high": 35.25415851121659
+    },
+    "pricing": {
+      "status": "public_partial",
+      "grade": "A",
+      "model_confidence": 0.97,
+      "monetary_confidence": 0.97,
+      "bundle_id": "openai-chatgpt-business-seat"
+    },
+    "evidence": {
+      "success_grade": "B",
+      "human_time_grade": "D",
+      "cost_grade": "A",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [],
+      "success_observations": [
+        "historical:4",
+        "historical:5",
+        "historical:10",
+        "historical:24",
+        "historical:47",
+        "historical:115",
+        "historical:198",
+        "historical:199",
+        "historical:200",
+        "historical:204",
+        "historical:206",
+        "historical:207"
+      ],
+      "family_prior_observations": [
+        "fam-arch-traceability-gpt4o-2026"
+      ],
+      "independent_success_clusters": 6,
+      "success_coverage_weight": 3.1350704256816804
+    },
+    "prior_driven": {
+      "success": false,
+      "human_time": true,
+      "cost": false
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24683,7 +24699,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24777,7 +24793,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24871,7 +24887,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -24965,7 +24981,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25059,7 +25075,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25153,129 +25169,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "arch-understand",
-    "task_label": "Comprendre une architecture/codebase existant avant modification",
-    "domain": "architecture",
-    "solution_id": "claude-code",
-    "solution_name": "Claude Code",
-    "vendor": "Anthropic",
-    "category": "coding",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.5902636513953341,
-      "low": 0.5102636513953341,
-      "high": 0.6702636513953341,
-      "relationship_prior": 0.58,
-      "family_prior": 0.6143859649122807,
-      "family_prior_weight": 0.27999999999999997,
-      "family_prior_observations": [
-        "fam-arch-traceability-gpt4o-2026"
-      ],
-      "grade": "B",
-      "clusters": 11,
-      "weight": 3.7610045395320624,
-      "observations": [
-        "historical:7",
-        "historical:12",
-        "historical:19",
-        "historical:22",
-        "historical:46",
-        "historical:123",
-        "historical:134",
-        "historical:138",
-        "historical:139",
-        "historical:140",
-        "historical:141",
-        "historical:151",
-        "historical:197"
-      ],
-      "prior_driven": false,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 30,
-      "low": 10.2,
-      "high": 86.25,
-      "baseline": 30,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 3.2886082609839513,
-      "low": 0.9135022947177642,
-      "high": 16.443041304919756,
-      "fixed_point": 3.2886082609839513,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 250,
-      "low": 104.16666666666667,
-      "high": 500
-    },
-    "expected_cost_success_eur": {
-      "point": 47.92537740399911,
-      "low": 14.044476789276917,
-      "high": 173.08315233391784
-    },
-    "meta_score": {
-      "point": 83.91363037898905,
-      "low": 37.571410160757246,
-      "high": 97.26784793467702
-    },
-    "profitability_factor": {
-      "point": 5.21644301081996,
-      "low": 0.601830191223377,
-      "high": 35.60118383204951
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "B",
-      "model_confidence": 0.9,
-      "monetary_confidence": 0.45,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "B",
-      "human_time_grade": "D",
-      "cost_grade": "B",
-      "meta_confidence_grade": "D",
-      "direct_product_observations": [],
-      "success_observations": [
-        "historical:7",
-        "historical:12",
-        "historical:19",
-        "historical:22",
-        "historical:46",
-        "historical:123",
-        "historical:134",
-        "historical:138",
-        "historical:139",
-        "historical:140",
-        "historical:141",
-        "historical:151",
-        "historical:197"
-      ],
-      "family_prior_observations": [
-        "fam-arch-traceability-gpt4o-2026"
-      ],
-      "independent_success_clusters": 11,
-      "success_coverage_weight": 3.7610045395320624
-    },
-    "prior_driven": {
-      "success": false,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25369,7 +25263,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25471,7 +25365,139 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "arch-understand",
+    "task_label": "Comprendre une architecture/codebase existant avant modification",
+    "domain": "architecture",
+    "solution_id": "claude-code",
+    "solution_name": "Claude Code",
+    "vendor": "Anthropic",
+    "category": "coding",
+    "relationship": "direct",
+    "success_probability": {
+      "point": 0.553878618138133,
+      "low": 0.473878618138133,
+      "high": 0.633878618138133,
+      "relationship_prior": 0.58,
+      "family_prior": 0.6143859649122807,
+      "family_prior_weight": 0.27999999999999997,
+      "family_prior_observations": [
+        "fam-arch-traceability-gpt4o-2026"
+      ],
+      "grade": "B",
+      "clusters": 12,
+      "weight": 4.961004539532063,
+      "observations": [
+        "historical:7",
+        "historical:12",
+        "historical:19",
+        "historical:22",
+        "historical:46",
+        "historical:123",
+        "historical:134",
+        "historical:138",
+        "historical:139",
+        "historical:140",
+        "historical:141",
+        "historical:151",
+        "historical:197",
+        "historical:201",
+        "historical:202",
+        "historical:203",
+        "historical:205",
+        "historical:208"
+      ],
+      "prior_driven": false,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 30,
+      "low": 10.2,
+      "high": 86.25,
+      "baseline": 30,
+      "relationship_factor": 1,
+      "evidence_factor": 1,
+      "observations": [],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 3.2886082609839513,
+      "low": 0.9135022947177642,
+      "high": 16.443041304919756,
+      "fixed_point": 3.2886082609839513,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 250,
+      "low": 104.16666666666667,
+      "high": 500
+    },
+    "expected_cost_success_eur": {
+      "point": 51.07366006667005,
+      "low": 14.850638632310519,
+      "high": 186.3727079561449
+    },
+    "meta_score": {
+      "point": 83.03615797696807,
+      "low": 35.85285705316173,
+      "high": 97.11554429227068
+    },
+    "profitability_factor": {
+      "point": 4.894891019630419,
+      "low": 0.5589158831730769,
+      "high": 33.668585734229
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "B",
+      "model_confidence": 0.9,
+      "monetary_confidence": 0.45,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "B",
+      "human_time_grade": "D",
+      "cost_grade": "B",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [],
+      "success_observations": [
+        "historical:7",
+        "historical:12",
+        "historical:19",
+        "historical:22",
+        "historical:46",
+        "historical:123",
+        "historical:134",
+        "historical:138",
+        "historical:139",
+        "historical:140",
+        "historical:141",
+        "historical:151",
+        "historical:197",
+        "historical:201",
+        "historical:202",
+        "historical:203",
+        "historical:205",
+        "historical:208"
+      ],
+      "family_prior_observations": [
+        "fam-arch-traceability-gpt4o-2026"
+      ],
+      "independent_success_clusters": 12,
+      "success_coverage_weight": 4.961004539532063
+    },
+    "prior_driven": {
+      "success": false,
+      "human_time": true,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25565,7 +25591,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25659,7 +25685,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25753,7 +25779,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25847,7 +25873,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -25941,7 +25967,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26035,7 +26061,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26129,7 +26155,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26223,7 +26249,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26317,7 +26343,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26411,7 +26437,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26505,7 +26531,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26599,7 +26625,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26693,7 +26719,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26787,7 +26813,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26881,7 +26907,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -26975,7 +27001,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -27069,7 +27095,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -27163,7 +27189,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -27257,7 +27283,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -27351,7 +27377,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -27445,7 +27471,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -27539,7 +27565,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -27633,7 +27659,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "arch-understand",
@@ -27727,6 +27753,6 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   }
 ]
