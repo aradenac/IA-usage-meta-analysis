@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "verified_at": "2026-09-27",
+  "verified_at": "2026-09-28",
   "task_count": 86,
   "mapped_task_count": 86,
   "solution_count": 210,
@@ -41,9 +41,10 @@
     "mapping_audit_note": "All business-task domains completed through learning/research on 2026-09-28; additions expand availability mappings without altering historical scoring evidence."
   },
   "candidate_count": {
-    "min": 35,
-    "max": 70,
-    "average": 51.1
+    "min": 38,
+    "max": 78,
+    "average": 56.3,
+    "total": 4838
   },
   "inventory_status": "task-by-task refresh complete across all 86 business tasks"
 }
