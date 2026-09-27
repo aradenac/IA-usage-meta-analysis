@@ -336,3 +336,28 @@ Change log:
 - 2026-09-28 — learning/research domain completed; canonical inventory increased from 203 to 210 solutions.
 - 2026-09-28 — all 86 tasks have now been explicitly re-audited task by task.
 - 2026-09-28 — website snapshot regenerated from the 210-solution inventory.
+
+## Final consistency validation
+
+Completed on 2026-09-28 after all ten domains were audited.
+
+- **86 / 86 business tasks** present in the merged current mapping.
+- **210 / 210 unique solution IDs** match the canonical solution index.
+- **4,838 current task → solution links**.
+- Current candidates per task: **38 minimum / 78 maximum / 56.3 average**.
+- **0** missing tasks.
+- **0** mappings for unknown tasks.
+- **0** invalid solution references.
+- **0** duplicate solution IDs.
+- **0** duplicate solution references within a task.
+- **0** lifecycle-excluded discontinued/legacy/sunsetting products active in the merged mapping.
+- All modified JSON files parse successfully.
+- `site/solution-inventory.js` executes successfully and exposes **210 solutions / 86 tasks**.
+- The inline JavaScript in `site/index.html` parses successfully and the generated inventory script/panel/render hook are present.
+
+### Scoring boundary after the refresh
+
+This PR updates **availability and task relevance**, not measured performance.
+
+The pre-refresh pricing/evidence/scoring catalog covers 157 solutions. The **53 newly added solutions remain explicitly pending pricing/evidence/scoring** rather than receiving invented or proxy MetaScores. `data/manifest.json` records this gap so the next evidence phase cannot accidentally treat availability as measured performance.
+
