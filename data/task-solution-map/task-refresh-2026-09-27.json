@@ -102,6 +102,170 @@
     "backend": []
   },
   {
+    "task_id": "dev-driver-adapt",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer"
+    ],
+    "direct": [
+      "tuyaopen-ide",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-datasheet",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "iocomposer",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-driver-port",
+    "native": [
+      "embedder-ai"
+    ],
+    "direct": [
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-feature",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer",
+      "tuyaopen-ide"
+    ],
+    "direct": [
+      "byteask",
+      "refact-ai",
+      "qodeassist"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-module",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "iocomposer",
+      "tuyaopen-ide"
+    ],
+    "direct": [
+      "byteask",
+      "refact-ai",
+      "qodeassist"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-protocol",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant",
+      "tuyaopen-ide"
+    ],
+    "direct": [
+      "iocomposer",
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-python-tooling",
+    "native": [],
+    "direct": [
+      "refact-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-refactor",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "iocomposer",
+      "tuyaopen-ide",
+      "byteask",
+      "refact-ai",
+      "qodeassist"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-small-change",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "mplab-ai-coding-assistant"
+    ],
+    "direct": [
+      "iocomposer",
+      "tuyaopen-ide",
+      "byteask",
+      "refact-ai",
+      "qodeassist"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
     "task_id": "req-change-impact",
     "native": [
       "reqsuite-rm-ai",
