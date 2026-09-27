@@ -38,12 +38,12 @@
     "eval_only_refs_in_active_map": [],
     "duplicate_solution_ids": [],
     "historical_observed_configurations": 138,
-    "mapping_audit_note": "Seven domains completed through CI/tooling/release on 2026-09-28; additions do not alter historical scoring evidence."
+    "mapping_audit_note": "Eight domains completed through documentation on 2026-09-28; documentation audit added mappings and lifecycle corrections but no net-new mature product."
   },
   "candidate_count": {
     "min": 35,
     "max": 70,
     "average": 51.1
   },
-  "inventory_status": "task-by-task refresh in progress; seven domains through CI/tooling/release re-audited"
+  "inventory_status": "task-by-task refresh in progress; eight domains through documentation re-audited"
 }
