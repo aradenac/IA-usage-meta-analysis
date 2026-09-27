@@ -35,7 +35,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | Architecture | 6 | complete | 6/6 tasks explicitly searched; 8 additional current solutions added. |
 | Development | 9 | complete | 9/9 tasks explicitly searched; 9 additional current solution surfaces added. |
 | Debug / upstream | 10 | complete | 10/10 tasks explicitly searched; 3 new connected/observability solutions added; embedded agents remapped. |
-| Verification | 12 | pending | includes HIL/results/coding-rules |
+| Verification | 11 | complete | 11/11 tasks explicitly searched; corrected baseline count from 12 to 11; 4 industrial verification solutions added. |
 | Safety / cyber | 10 | pending | |
 | CI / tooling / release | 8 | pending | |
 | Documentation | 5 | pending | |
@@ -179,3 +179,28 @@ No separate TRACE32 “AI” product was added: current Lauterbach sources subst
 Change log:
 - 2026-09-27 — debug/upstream domain completed; inventory increased from 182 to 185 solutions.
 - 2026-09-27 — website snapshot regenerated from the 185-solution inventory.
+
+## Verification-domain audit
+
+Status: **complete (11/11 tasks searched explicitly)**.
+
+New solutions accepted:
+
+- **BTC TestStack + AI Assistant/MCP** — certified C/C++ unit/integration verification with requirements-based tests, coverage/MC/DC, formal verification, built-in AI assistance and MCP actions for external agents.
+  - https://www.btc-embedded.com/products/btc-teststack
+- **BTC TestAgent** — AI-driven system-level HIL/vHIL tester: requirement extraction/formalization → generated tests → symbolic validation → HIL execution → automated verdict and feedback loop.
+  - https://www.btc-embedded.com/products/btc-testagent
+  - Current availability note: initial 2026 rollout is limited to selected partner customers.
+- **Cantata 26.04 + Test Automation Skill** — safety-oriented C/C++ unit/integration testing with AI-assisted test generation, coverage-gap analysis and iterative refinement through Claude Code, Codex, OpenCode and GitHub Copilot integrations.
+  - https://www.qa-systems.com/tools/cantata
+  - https://www.qa-systems.com/resources
+- **TASKING Toolchain Agentic AI Workflows** — 2026 embedded compile/debug/test toolchain integration for agentic V&V via MCP, aimed at safety/security-critical automotive, industrial and related systems.
+  - https://www.tasking.com/content/tasking-integrates-modern-ai-technology-to-enable-robust-software-verification-and-validation-vv/
+
+Existing Parasoft C/C++test 2026.1, VectorCAST 2026 + Reqs2x, Vector CANoe AI/MCP, tracetronic ecu.test agent and the static-analysis AI/MCP products were re-confirmed rather than duplicated.
+
+The canonical task file actually contains **11** verification tasks, not 12; the progress ledger has been corrected accordingly.
+
+Change log:
+- 2026-09-27 — verification domain completed; canonical inventory increased from 185 to 189 solutions.
+- 2026-09-27 — website snapshot regenerated from the 189-solution inventory.
