@@ -111,7 +111,107 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "cyber-artifacts",
+    "task_label": "Produire / maintenir les artefacts cybersécurité projet",
+    "domain": "safety-cyber",
+    "solution_id": "itemis-secure-ai",
+    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
+    "vendor": "itemis",
+    "category": "security-engineering-ai",
+    "relationship": "native",
+    "success_probability": {
+      "point": 0.68,
+      "low": 0.43000000000000005,
+      "high": 0.93,
+      "relationship_prior": 0.68,
+      "family_prior": 0.68,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 18.615,
+      "low": 5.274249999999999,
+      "high": 64.22175,
+      "baseline": 30,
+      "relationship_factor": 0.85,
+      "evidence_factor": 0.73,
+      "observations": [
+        "prod-itemis-secure-tara-time-2026"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 7.308018357742116,
+      "low": 1.218003059623686,
+      "high": 43.848110146452676,
+      "fixed_point": 7.308018357742116,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 200,
+      "low": 66.66666666666666,
+      "high": 533.3333333333333
+    },
+    "expected_cost_success_eur": {
+      "point": 33.559585820208994,
+      "low": 6.0357111752226,
+      "high": 226.43310499175038
+    },
+    "meta_score": {
+      "point": 85.63125306873822,
+      "low": 22.745383351700806,
+      "high": 98.8809681911349
+    },
+    "profitability_factor": {
+      "point": 5.95954911575707,
+      "low": 0.294421024121431,
+      "high": 88.36296466980357
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "C",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -201,97 +301,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "cyber-artifacts",
-    "task_label": "Produire / maintenir les artefacts cybersécurité projet",
-    "domain": "safety-cyber",
-    "solution_id": "itemis-secure-ai",
-    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-    "vendor": "itemis",
-    "category": "security-engineering-ai",
-    "relationship": "native",
-    "success_probability": {
-      "point": 0.68,
-      "low": 0.43000000000000005,
-      "high": 0.93,
-      "relationship_prior": 0.68,
-      "family_prior": 0.68,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 25.5,
-      "low": 7.225,
-      "high": 87.975,
-      "baseline": 30,
-      "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 7.308018357742116,
-      "low": 1.218003059623686,
-      "high": 43.848110146452676,
-      "fixed_point": 7.308018357742116,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 200,
-      "low": 66.66666666666666,
-      "high": 533.3333333333333
-    },
-    "expected_cost_success_eur": {
-      "point": 41.99708582020899,
-      "low": 7.783695046190343,
-      "high": 272.4665352243085
-    },
-    "meta_score": {
-      "point": 82.64562332316241,
-      "low": 19.657959260532305,
-      "high": 98.56155052641753
-    },
-    "profitability_factor": {
-      "point": 4.762235190703638,
-      "low": 0.24467836614057292,
-      "high": 68.51929966017467
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -381,7 +391,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -471,7 +481,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -561,7 +571,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -651,7 +661,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -741,7 +751,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -831,7 +841,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -921,7 +931,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1011,7 +1021,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1101,7 +1111,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1191,7 +1201,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1281,7 +1291,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1371,7 +1381,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1461,7 +1471,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1551,7 +1561,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1641,7 +1651,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1731,7 +1741,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1821,7 +1831,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -1911,7 +1921,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2001,7 +2011,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2091,7 +2101,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2181,7 +2191,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2271,7 +2281,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2361,7 +2371,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2451,7 +2461,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2541,7 +2551,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2631,7 +2641,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2721,7 +2731,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2811,7 +2821,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2901,7 +2911,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -2991,7 +3001,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3081,7 +3091,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3171,7 +3181,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3261,7 +3271,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3351,7 +3361,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3441,7 +3451,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3531,7 +3541,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3621,7 +3631,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3711,7 +3721,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3801,7 +3811,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3891,7 +3901,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -3981,7 +3991,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -4071,7 +4081,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -4161,7 +4171,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-artifacts",
@@ -4251,7 +4261,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -4365,7 +4375,114 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "cyber-compliance",
+    "task_label": "Vérifier la conformité cyber d’un design / produit par rapport au référentiel applicable",
+    "domain": "safety-cyber",
+    "solution_id": "itemis-secure-ai",
+    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
+    "vendor": "itemis",
+    "category": "security-engineering-ai",
+    "relationship": "native",
+    "success_probability": {
+      "point": 0.68,
+      "low": 0.43000000000000005,
+      "high": 0.93,
+      "relationship_prior": 0.68,
+      "family_prior": 0.68,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 16.2775,
+      "low": 5.53435,
+      "high": 46.42342999999999,
+      "baseline": 25,
+      "relationship_factor": 0.85,
+      "evidence_factor": 0.766,
+      "observations": [
+        "prod-itemis-secure-tara-time-2026"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 5.481013768306587,
+      "low": 0.9135022947177645,
+      "high": 32.886082609839505,
+      "fixed_point": 5.481013768306587,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 150,
+      "low": 61.66666666666667,
+      "high": 375
+    },
+    "expected_cost_success_eur": {
+      "point": 28.00823103182341,
+      "low": 5.941355514033438,
+      "high": 166.44714948024688
+    },
+    "meta_score": {
+      "point": 84.26576632469526,
+      "low": 27.033288780260072,
+      "high": 98.44034903849798
+    },
+    "profitability_factor": {
+      "point": 5.355568505185763,
+      "low": 0.3704879708617958,
+      "high": 63.11690978838966
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "C",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        },
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -4455,97 +4572,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "cyber-compliance",
-    "task_label": "Vérifier la conformité cyber d’un design / produit par rapport au référentiel applicable",
-    "domain": "safety-cyber",
-    "solution_id": "itemis-secure-ai",
-    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-    "vendor": "itemis",
-    "category": "security-engineering-ai",
-    "relationship": "native",
-    "success_probability": {
-      "point": 0.68,
-      "low": 0.43000000000000005,
-      "high": 0.93,
-      "relationship_prior": 0.68,
-      "family_prior": 0.68,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 21.25,
-      "low": 7.225,
-      "high": 60.60499999999999,
-      "baseline": 25,
-      "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 5.481013768306587,
-      "low": 0.9135022947177645,
-      "high": 32.886082609839505,
-      "fixed_point": 5.481013768306587,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 150,
-      "low": 61.66666666666667,
-      "high": 375
-    },
-    "expected_cost_success_eur": {
-      "point": 34.101981031823414,
-      "low": 7.456274868872147,
-      "high": 193.93081227094456
-    },
-    "meta_score": {
-      "point": 81.47658116404047,
-      "low": 24.126476881925303,
-      "high": 98.05042422916749
-    },
-    "profitability_factor": {
-      "point": 4.398571445454222,
-      "low": 0.31798282049430576,
-      "high": 50.293210295333886
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -4635,7 +4662,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -4725,7 +4752,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -4815,7 +4842,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -4905,7 +4932,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -4995,7 +5022,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5085,7 +5112,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5175,7 +5202,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5265,7 +5292,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5355,7 +5382,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5445,7 +5472,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5535,7 +5562,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5625,7 +5652,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5715,7 +5742,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5805,7 +5832,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5895,7 +5922,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -5985,7 +6012,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6075,7 +6102,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6165,7 +6192,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6255,7 +6282,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6345,7 +6372,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6435,7 +6462,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6525,7 +6552,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6615,7 +6642,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6705,7 +6732,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6795,7 +6822,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6885,7 +6912,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -6975,7 +7002,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7065,7 +7092,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7155,7 +7182,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7245,7 +7272,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7335,7 +7362,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7425,7 +7452,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7515,7 +7542,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7605,7 +7632,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7695,7 +7722,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7785,7 +7812,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7875,7 +7902,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -7965,7 +7992,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8055,7 +8082,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8145,7 +8172,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8235,7 +8262,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8325,7 +8352,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8415,7 +8442,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8505,7 +8532,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8595,7 +8622,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8685,7 +8712,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-compliance",
@@ -8775,7 +8802,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -8889,7 +8916,114 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "cyber-impact",
+    "task_label": "Analyser les impacts cybersécurité d’une fonctionnalité / changement",
+    "domain": "safety-cyber",
+    "solution_id": "itemis-secure-ai",
+    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
+    "vendor": "itemis",
+    "category": "security-engineering-ai",
+    "relationship": "native",
+    "success_probability": {
+      "point": 0.68,
+      "low": 0.43000000000000005,
+      "high": 0.93,
+      "relationship_prior": 0.68,
+      "family_prior": 0.68,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 14.364999999999998,
+      "low": 4.884099999999999,
+      "high": 40.96897999999999,
+      "baseline": 25,
+      "relationship_factor": 0.85,
+      "evidence_factor": 0.6759999999999999,
+      "observations": [
+        "prod-itemis-secure-tara-time-2026"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 5.481013768306587,
+      "low": 0.9135022947177645,
+      "high": 32.886082609839505,
+      "fixed_point": 5.481013768306587,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 150,
+      "low": 50,
+      "high": 300
+    },
+    "expected_cost_success_eur": {
+      "point": 25.66448103182341,
+      "low": 5.358694223710857,
+      "high": 155.87650994536313
+    },
+    "meta_score": {
+      "point": 85.39005672571109,
+      "low": 24.286403540291865,
+      "high": 98.24511490090896
+    },
+    "profitability_factor": {
+      "point": 5.844653543315495,
+      "low": 0.3207667403993436,
+      "high": 55.98378774302449
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "C",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        },
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -8979,97 +9113,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "cyber-impact",
-    "task_label": "Analyser les impacts cybersécurité d’une fonctionnalité / changement",
-    "domain": "safety-cyber",
-    "solution_id": "itemis-secure-ai",
-    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-    "vendor": "itemis",
-    "category": "security-engineering-ai",
-    "relationship": "native",
-    "success_probability": {
-      "point": 0.68,
-      "low": 0.43000000000000005,
-      "high": 0.93,
-      "relationship_prior": 0.68,
-      "family_prior": 0.68,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 21.25,
-      "low": 7.225,
-      "high": 60.60499999999999,
-      "baseline": 25,
-      "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 5.481013768306587,
-      "low": 0.9135022947177645,
-      "high": 32.886082609839505,
-      "fixed_point": 5.481013768306587,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 150,
-      "low": 50,
-      "high": 300
-    },
-    "expected_cost_success_eur": {
-      "point": 34.101981031823414,
-      "low": 7.456274868872147,
-      "high": 193.93081227094456
-    },
-    "meta_score": {
-      "point": 81.47658116404047,
-      "low": 20.497615506016036,
-      "high": 97.57485031910565
-    },
-    "profitability_factor": {
-      "point": 4.398571445454222,
-      "low": 0.2578239085088965,
-      "high": 40.23456823626711
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9159,7 +9203,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9249,7 +9293,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9339,7 +9383,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9429,7 +9473,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9519,7 +9563,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9609,7 +9653,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9699,7 +9743,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9789,7 +9833,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9879,7 +9923,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -9969,7 +10013,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10059,7 +10103,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10149,7 +10193,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10239,7 +10283,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10329,7 +10373,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10419,7 +10463,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10509,7 +10553,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10599,7 +10643,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10689,7 +10733,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10779,7 +10823,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10869,7 +10913,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -10959,7 +11003,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11049,7 +11093,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11139,7 +11183,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11229,7 +11273,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11319,7 +11363,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11409,7 +11453,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11499,7 +11543,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11589,7 +11633,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11679,7 +11723,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11769,7 +11813,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11859,7 +11903,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -11949,7 +11993,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12039,7 +12083,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12129,7 +12173,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12219,7 +12263,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12309,7 +12353,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12399,7 +12443,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12489,7 +12533,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12579,7 +12623,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12669,7 +12713,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12759,7 +12803,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-impact",
@@ -12849,7 +12893,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -12963,7 +13007,114 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "cyber-review",
+    "task_label": "Relire une conception / implémentation sous l’angle cybersécurité",
+    "domain": "safety-cyber",
+    "solution_id": "itemis-secure-ai",
+    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
+    "vendor": "itemis",
+    "category": "security-engineering-ai",
+    "relationship": "native",
+    "success_probability": {
+      "point": 0.68,
+      "low": 0.43000000000000005,
+      "high": 0.93,
+      "relationship_prior": 0.68,
+      "family_prior": 0.68,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 12.41,
+      "low": 4.219399999999999,
+      "high": 35.678749999999994,
+      "baseline": 20,
+      "relationship_factor": 0.85,
+      "evidence_factor": 0.73,
+      "observations": [
+        "prod-itemis-secure-tara-time-2026"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 4.567511473588822,
+      "low": 0.7612519122648037,
+      "high": 27.405068841532923,
+      "fixed_point": 4.567511473588822,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 125,
+      "low": 51.66666666666667,
+      "high": 312.5
+    },
+    "expected_cost_success_eur": {
+      "point": 21.925261970963952,
+      "low": 4.599374816055343,
+      "high": 132.87758257720833
+    },
+    "meta_score": {
+      "point": 85.07726875770558,
+      "low": 27.99689878083886,
+      "high": 98.54954781329249
+    },
+    "profitability_factor": {
+      "point": 5.70118615529155,
+      "low": 0.3888290685650142,
+      "high": 67.94401684966736
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "C",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        },
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13053,7 +13204,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13177,7 +13328,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13277,97 +13428,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "cyber-review",
-    "task_label": "Relire une conception / implémentation sous l’angle cybersécurité",
-    "domain": "safety-cyber",
-    "solution_id": "itemis-secure-ai",
-    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-    "vendor": "itemis",
-    "category": "security-engineering-ai",
-    "relationship": "native",
-    "success_probability": {
-      "point": 0.68,
-      "low": 0.43000000000000005,
-      "high": 0.93,
-      "relationship_prior": 0.68,
-      "family_prior": 0.68,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 17,
-      "low": 5.779999999999999,
-      "high": 48.87499999999999,
-      "baseline": 20,
-      "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 4.567511473588822,
-      "low": 0.7612519122648037,
-      "high": 27.405068841532923,
-      "fixed_point": 4.567511473588822,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 125,
-      "low": 51.66666666666667,
-      "high": 312.5
-    },
-    "expected_cost_success_eur": {
-      "point": 27.55026197096395,
-      "low": 5.997761912829538,
-      "high": 158.45171048418504
-    },
-    "meta_score": {
-      "point": 81.94020671284865,
-      "low": 24.589313589440714,
-      "high": 98.11685900811099
-    },
-    "profitability_factor": {
-      "point": 4.5371619381239015,
-      "low": 0.32607200331752484,
-      "high": 52.102768422925486
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13476,7 +13537,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13578,7 +13639,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13680,7 +13741,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13770,7 +13831,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13858,6 +13919,13 @@
           "family": "static-analysis-remediation",
           "type": "vendor-benchmark",
           "metric": "LLM fix accuracy"
+        },
+        {
+          "id": "prod-snyk-vuln-context-cap-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "reachability/exploit-context prioritization"
         }
       ],
       "success_observations": [
@@ -13872,7 +13940,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -13974,7 +14042,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14076,7 +14144,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14166,7 +14234,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14256,7 +14324,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14346,7 +14414,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14436,7 +14504,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14526,7 +14594,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14616,7 +14684,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14718,7 +14786,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14808,7 +14876,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14898,7 +14966,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -14988,7 +15056,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15078,7 +15146,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15168,7 +15236,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15262,7 +15330,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15352,7 +15420,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15442,7 +15510,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15532,7 +15600,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15622,7 +15690,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15712,7 +15780,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15802,7 +15870,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15892,7 +15960,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -15982,7 +16050,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16072,7 +16140,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16180,7 +16248,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16270,7 +16338,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16360,7 +16428,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16469,7 +16537,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16559,7 +16627,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16661,7 +16729,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16772,7 +16840,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16874,7 +16942,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -16964,7 +17032,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17054,7 +17122,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17152,7 +17220,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17242,7 +17310,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17332,7 +17400,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17422,7 +17490,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17512,7 +17580,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17602,7 +17670,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17692,7 +17760,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17782,7 +17850,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17872,7 +17940,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -17962,7 +18030,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18052,7 +18120,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18142,7 +18210,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18232,7 +18300,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18322,7 +18390,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18412,7 +18480,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18502,7 +18570,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18592,7 +18660,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18682,7 +18750,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18772,7 +18840,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18862,7 +18930,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -18952,7 +19020,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -19042,7 +19110,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -19132,7 +19200,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -19222,7 +19290,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -19312,7 +19380,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-review",
@@ -19402,7 +19470,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -19516,7 +19584,107 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "cyber-threat",
+    "task_label": "Faire une analyse de menaces ciblée / abuse cases",
+    "domain": "safety-cyber",
+    "solution_id": "itemis-secure-ai",
+    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
+    "vendor": "itemis",
+    "category": "security-engineering-ai",
+    "relationship": "native",
+    "success_probability": {
+      "point": 0.68,
+      "low": 0.43000000000000005,
+      "high": 0.93,
+      "relationship_prior": 0.68,
+      "family_prior": 0.68,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 13.6,
+      "low": 4.6240000000000006,
+      "high": 38.7872,
+      "baseline": 25,
+      "relationship_factor": 0.85,
+      "evidence_factor": 0.64,
+      "observations": [
+        "prod-itemis-secure-tara-time-2026"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 5.481013768306587,
+      "low": 0.9135022947177645,
+      "high": 32.886082609839505,
+      "fixed_point": 5.481013768306587,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 150,
+      "low": 50,
+      "high": 300
+    },
+    "expected_cost_success_eur": {
+      "point": 24.726981031823406,
+      "low": 5.125629707581825,
+      "high": 151.6482541314097
+    },
+    "meta_score": {
+      "point": 85.84821823979215,
+      "low": 24.795652318128234,
+      "high": 98.32015759787403
+    },
+    "profitability_factor": {
+      "point": 6.066248031126458,
+      "low": 0.3297103569466277,
+      "high": 58.52939387256952
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "C",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -19606,97 +19774,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "cyber-threat",
-    "task_label": "Faire une analyse de menaces ciblée / abuse cases",
-    "domain": "safety-cyber",
-    "solution_id": "itemis-secure-ai",
-    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-    "vendor": "itemis",
-    "category": "security-engineering-ai",
-    "relationship": "native",
-    "success_probability": {
-      "point": 0.68,
-      "low": 0.43000000000000005,
-      "high": 0.93,
-      "relationship_prior": 0.68,
-      "family_prior": 0.68,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 21.25,
-      "low": 7.225,
-      "high": 60.60499999999999,
-      "baseline": 25,
-      "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 5.481013768306587,
-      "low": 0.9135022947177645,
-      "high": 32.886082609839505,
-      "fixed_point": 5.481013768306587,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 150,
-      "low": 50,
-      "high": 300
-    },
-    "expected_cost_success_eur": {
-      "point": 34.101981031823414,
-      "low": 7.456274868872147,
-      "high": 193.93081227094456
-    },
-    "meta_score": {
-      "point": 81.47658116404047,
-      "low": 20.497615506016036,
-      "high": 97.57485031910565
-    },
-    "profitability_factor": {
-      "point": 4.398571445454222,
-      "low": 0.2578239085088965,
-      "high": 40.23456823626711
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -19786,7 +19864,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -19876,7 +19954,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -19966,7 +20044,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20056,7 +20134,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20146,7 +20224,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20236,7 +20314,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20326,7 +20404,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20416,7 +20494,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20506,7 +20584,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20596,7 +20674,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20686,7 +20764,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20776,7 +20854,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20866,7 +20944,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -20956,7 +21034,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21046,7 +21124,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21136,7 +21214,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21226,7 +21304,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21316,7 +21394,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21406,7 +21484,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21496,7 +21574,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21586,7 +21664,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21676,7 +21754,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21766,7 +21844,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21856,7 +21934,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -21946,7 +22024,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22036,7 +22114,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22126,7 +22204,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22216,7 +22294,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22306,7 +22384,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22396,7 +22474,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22486,7 +22564,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22576,7 +22654,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22666,7 +22744,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22756,7 +22834,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22846,7 +22924,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -22936,7 +23014,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -23026,7 +23104,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -23116,7 +23194,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -23206,7 +23284,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-threat",
@@ -23296,7 +23374,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -23386,7 +23464,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -23476,7 +23554,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -23555,7 +23633,15 @@
       "human_time_grade": "D",
       "cost_grade": "A",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-snyk-vuln-context-cap-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "reachability/exploit-context prioritization"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -23566,7 +23652,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -23645,7 +23731,15 @@
       "human_time_grade": "D",
       "cost_grade": "C",
       "meta_confidence_grade": "E",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [],
       "independent_success_clusters": 0,
@@ -23656,7 +23750,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -23746,7 +23840,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -23836,7 +23930,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -23926,7 +24020,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24016,7 +24110,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24106,7 +24200,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24196,7 +24290,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24286,7 +24380,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24376,7 +24470,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24466,7 +24560,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24556,7 +24650,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24646,7 +24740,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24736,7 +24830,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24826,7 +24920,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -24916,7 +25010,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25006,7 +25100,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25096,7 +25190,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25186,7 +25280,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25276,7 +25370,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25366,7 +25460,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25456,7 +25550,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25546,7 +25640,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25636,7 +25730,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25726,7 +25820,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25816,7 +25910,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25906,7 +26000,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -25996,7 +26090,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26086,7 +26180,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26176,7 +26270,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26266,7 +26360,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26356,7 +26450,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26446,7 +26540,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26536,7 +26630,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26626,7 +26720,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26716,7 +26810,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26806,7 +26900,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26896,7 +26990,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -26986,7 +27080,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -27076,7 +27170,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -27166,7 +27260,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -27256,7 +27350,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "cyber-vuln",
@@ -27346,7 +27440,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -27436,7 +27530,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -27531,6 +27625,13 @@
           "family": "requirements-traceability",
           "type": "capability-evidence",
           "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
         }
       ],
       "success_observations": [],
@@ -27543,7 +27644,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -27633,7 +27734,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -27723,7 +27824,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -27813,7 +27914,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -27903,7 +28004,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -27993,7 +28094,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28083,7 +28184,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28173,7 +28274,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28263,7 +28364,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28353,7 +28454,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28443,7 +28544,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28533,7 +28634,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28623,7 +28724,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28713,7 +28814,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28803,7 +28904,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28893,7 +28994,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -28983,7 +29084,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29073,7 +29174,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29163,7 +29264,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29253,7 +29354,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29343,7 +29444,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29433,7 +29534,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29523,7 +29624,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29613,7 +29714,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29703,7 +29804,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29793,7 +29894,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29883,7 +29984,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -29973,7 +30074,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30063,7 +30164,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30153,7 +30254,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30243,7 +30344,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30333,7 +30434,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30423,7 +30524,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30513,7 +30614,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30603,7 +30704,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30693,7 +30794,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30783,7 +30884,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30873,7 +30974,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -30963,7 +31064,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -31053,7 +31154,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -31143,7 +31244,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -31233,7 +31334,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -31323,7 +31424,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -31413,7 +31514,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -31503,7 +31604,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-aspice",
@@ -31593,7 +31694,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -31691,6 +31792,13 @@
           "family": "requirements-traceability",
           "type": "capability-evidence",
           "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
         }
       ],
       "success_observations": [],
@@ -31706,7 +31814,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -31812,7 +31920,7 @@
       "human_time": false,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -31908,7 +32016,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32004,7 +32112,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32100,7 +32208,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32196,7 +32304,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32292,7 +32400,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32388,7 +32496,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32484,7 +32592,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32580,7 +32688,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32676,7 +32784,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32772,7 +32880,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32868,7 +32976,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -32964,7 +33072,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33060,7 +33168,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33156,7 +33264,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33252,7 +33360,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33348,7 +33456,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33444,7 +33552,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33540,7 +33648,120 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "process-evidence",
+    "task_label": "Préparer les preuves pour une revue / audit / gate",
+    "domain": "safety-cyber",
+    "solution_id": "itemis-secure-ai",
+    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
+    "vendor": "itemis",
+    "category": "security-engineering-ai",
+    "relationship": "direct",
+    "success_probability": {
+      "point": 0.5931240678744497,
+      "low": 0.3431240678744497,
+      "high": 0.8431240678744497,
+      "relationship_prior": 0.58,
+      "family_prior": 0.5931240678744497,
+      "family_prior_weight": 0.2936214249188429,
+      "family_prior_observations": [
+        "fam-requirements-quality-benchmark-2026",
+        "fam-arch-traceability-gpt4o-2026"
+      ],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 17.84,
+      "low": 5.3073999999999995,
+      "high": 61.548,
+      "baseline": 20,
+      "relationship_factor": 1,
+      "evidence_factor": 0.892,
+      "observations": [
+        "prod-itemis-secure-tara-time-2026"
+      ],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 3.654009178871058,
+      "low": 0.609001529811843,
+      "high": 21.924055073226338,
+      "fixed_point": 3.654009178871058,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 100,
+      "low": 33.33333333333333,
+      "high": 266.66666666666663
+    },
+    "expected_cost_success_eur": {
+      "point": 31.225635324341805,
+      "low": 5.968083529901641,
+      "high": 213.3748749446967
+    },
+    "meta_score": {
+      "point": 76.2046224831273,
+      "low": 13.51123805972764,
+      "high": 97.8109600754861
+    },
+    "profitability_factor": {
+      "point": 3.202496889536318,
+      "low": 0.15621957993870078,
+      "high": 44.6821270732217
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "D",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-secure-vuln-sync-2026",
+          "grade": "C",
+          "family": "vulnerability-triage",
+          "type": "capability-evidence",
+          "metric": "SBOM/CVE triage and TARA impact sync"
+        },
+        {
+          "id": "prod-itemis-secure-tara-time-2026",
+          "grade": "C",
+          "family": "threat-modeling",
+          "type": "vendor-product-claim",
+          "metric": "TARA effort reduction"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [
+        "fam-requirements-quality-benchmark-2026",
+        "fam-arch-traceability-gpt4o-2026"
+      ],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33636,7 +33857,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33732,103 +33953,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "process-evidence",
-    "task_label": "Préparer les preuves pour une revue / audit / gate",
-    "domain": "safety-cyber",
-    "solution_id": "itemis-secure-ai",
-    "solution_name": "itemis SECURE AI-Powered TARA + MCP",
-    "vendor": "itemis",
-    "category": "security-engineering-ai",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.5931240678744497,
-      "low": 0.3431240678744497,
-      "high": 0.8431240678744497,
-      "relationship_prior": 0.58,
-      "family_prior": 0.5931240678744497,
-      "family_prior_weight": 0.2936214249188429,
-      "family_prior_observations": [
-        "fam-requirements-quality-benchmark-2026",
-        "fam-arch-traceability-gpt4o-2026"
-      ],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 20,
-      "low": 5.95,
-      "high": 69,
-      "baseline": 20,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 3.654009178871058,
-      "low": 0.609001529811843,
-      "high": 21.924055073226338,
-      "fixed_point": 3.654009178871058,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 100,
-      "low": 33.33333333333333,
-      "high": 266.66666666666663
-    },
-    "expected_cost_success_eur": {
-      "point": 34.260413539379634,
-      "low": 6.60322137070604,
-      "high": 231.4732847661618
-    },
-    "meta_score": {
-      "point": 74.48211826836747,
-      "low": 12.587802213013074,
-      "high": 97.58362642216805
-    },
-    "profitability_factor": {
-      "point": 2.9188205765542765,
-      "low": 0.14400509919322751,
-      "high": 40.3843293592554
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [
-        "fam-requirements-quality-benchmark-2026",
-        "fam-arch-traceability-gpt4o-2026"
-      ],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -33924,7 +34049,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34028,7 +34153,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34124,7 +34249,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34220,7 +34345,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34316,7 +34441,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34412,7 +34537,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34508,7 +34633,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34604,7 +34729,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34700,7 +34825,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34796,7 +34921,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34892,7 +35017,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -34988,7 +35113,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35084,7 +35209,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35180,7 +35305,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35276,7 +35401,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35372,7 +35497,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35468,7 +35593,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35564,7 +35689,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35660,7 +35785,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35756,7 +35881,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35852,7 +35977,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -35948,7 +36073,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -36044,7 +36169,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -36140,7 +36265,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -36236,7 +36361,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -36332,7 +36457,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "process-evidence",
@@ -36428,7 +36553,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -36518,7 +36643,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -36608,7 +36733,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -36698,7 +36823,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -36788,7 +36913,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -36878,7 +37003,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -36968,7 +37093,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37058,7 +37183,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37148,7 +37273,121 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
+  },
+  {
+    "task_id": "safety-impact",
+    "task_label": "Analyser l’impact safety d’un changement software",
+    "domain": "safety-cyber",
+    "solution_id": "itemis-analyze-ai",
+    "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
+    "vendor": "itemis",
+    "category": "regulated-engineering-ai",
+    "relationship": "direct",
+    "success_probability": {
+      "point": 0.58,
+      "low": 0.32999999999999996,
+      "high": 0.83,
+      "relationship_prior": 0.58,
+      "family_prior": 0.58,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 18.76384375,
+      "low": 6.379706875,
+      "high": 53.514482375,
+      "baseline": 25,
+      "relationship_factor": 1,
+      "evidence_factor": 0.75055375,
+      "observations": [
+        "prod-itemis-aspice-time"
+      ],
+      "family_observations": [],
+      "grade": "C"
+    },
+    "service_cost_eur_attempt": {
+      "point": 5.481013768306587,
+      "low": 0.9135022947177645,
+      "high": 32.886082609839505,
+      "fixed_point": 5.481013768306587,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 150,
+      "low": 50,
+      "high": 300
+    },
+    "expected_cost_success_eur": {
+      "point": 36.409569356275725,
+      "low": 7.505933362109756,
+      "high": 234.79237754244298
+    },
+    "meta_score": {
+      "point": 80.46797195980436,
+      "low": 17.556649665789752,
+      "high": 97.55909315958759
+    },
+    "profitability_factor": {
+      "point": 4.119796049555453,
+      "low": 0.2129541023577803,
+      "high": 39.96838041680621
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "C",
+      "cost_grade": "C",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-itemis-aspice-time",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "vendor-reference-model",
+          "metric": "assessment preparation time multiplier"
+        },
+        {
+          "id": "prod-itemis-traceability-cap",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "capability"
+        },
+        {
+          "id": "prod-itemis-analyze-safety-impact-cap-2026",
+          "grade": "C",
+          "family": "requirements-traceability",
+          "type": "capability-evidence",
+          "metric": "change impact across safety evidence"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37238,7 +37477,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37328,7 +37567,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37418,7 +37657,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37508,7 +37747,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37598,7 +37837,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37688,7 +37927,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37778,7 +38017,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37868,7 +38107,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -37958,7 +38197,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38048,7 +38287,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38138,7 +38377,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38228,7 +38467,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38318,97 +38557,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
-  },
-  {
-    "task_id": "safety-impact",
-    "task_label": "Analyser l’impact safety d’un changement software",
-    "domain": "safety-cyber",
-    "solution_id": "itemis-analyze-ai",
-    "solution_name": "itemis ANALYZE + AI Skills / ASPICE Agent",
-    "vendor": "itemis",
-    "category": "regulated-engineering-ai",
-    "relationship": "direct",
-    "success_probability": {
-      "point": 0.58,
-      "low": 0.32999999999999996,
-      "high": 0.83,
-      "relationship_prior": 0.58,
-      "family_prior": 0.58,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 25,
-      "low": 8.5,
-      "high": 71.3,
-      "baseline": 25,
-      "relationship_factor": 1,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 5.481013768306587,
-      "low": 0.9135022947177645,
-      "high": 32.886082609839505,
-      "fixed_point": 5.481013768306587,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 150,
-      "low": 50,
-      "high": 300
-    },
-    "expected_cost_success_eur": {
-      "point": 45.3695639683447,
-      "low": 9.634741720543492,
-      "high": 279.70530083789754
-    },
-    "meta_score": {
-      "point": 76.77756808849928,
-      "low": 15.165057969323621,
-      "high": 96.88835249332608
-    },
-    "profitability_factor": {
-      "point": 3.3061812122474477,
-      "low": 0.1787595724865342,
-      "high": 31.137316256265677
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38498,7 +38647,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38588,7 +38737,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38678,7 +38827,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38768,7 +38917,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38858,7 +39007,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -38948,7 +39097,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39038,7 +39187,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39128,7 +39277,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39218,7 +39367,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39308,7 +39457,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39398,7 +39547,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39488,7 +39637,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39578,7 +39727,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39668,7 +39817,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39758,7 +39907,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39848,7 +39997,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -39938,7 +40087,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -40028,7 +40177,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -40118,7 +40267,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -40208,7 +40357,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -40298,7 +40447,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -40388,7 +40537,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -40478,7 +40627,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -40568,7 +40717,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-impact",
@@ -40658,7 +40807,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -40748,7 +40897,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -40838,7 +40987,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -40962,7 +41111,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41052,7 +41201,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41142,7 +41291,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41232,7 +41381,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41322,7 +41471,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41412,7 +41561,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41502,7 +41651,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41604,7 +41753,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41706,7 +41855,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41808,7 +41957,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41898,7 +42047,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -41988,7 +42137,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42078,7 +42227,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42168,7 +42317,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42258,7 +42407,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42348,7 +42497,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42438,7 +42587,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42528,7 +42677,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42618,7 +42767,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42708,7 +42857,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42802,7 +42951,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42892,7 +43041,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -42982,7 +43131,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43072,7 +43221,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43162,7 +43311,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43252,7 +43401,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43342,7 +43491,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43432,7 +43581,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43522,7 +43671,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43612,7 +43761,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43702,7 +43851,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43810,7 +43959,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43900,7 +44049,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -43990,7 +44139,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44092,7 +44241,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44203,7 +44352,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44305,7 +44454,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44395,7 +44544,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44485,7 +44634,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44575,7 +44724,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44665,7 +44814,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44755,7 +44904,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44845,7 +44994,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -44935,7 +45084,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45025,7 +45174,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45115,7 +45264,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45205,7 +45354,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45295,7 +45444,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45385,7 +45534,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45475,7 +45624,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45565,7 +45714,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45655,7 +45804,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45745,7 +45894,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45835,7 +45984,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -45925,7 +46074,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46015,7 +46164,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46105,7 +46254,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46195,7 +46344,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46285,7 +46434,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46375,7 +46524,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46465,7 +46614,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46555,7 +46704,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46645,7 +46794,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   },
   {
     "task_id": "safety-review",
@@ -46735,6 +46884,6 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.2"
+    "scoring_version": "product-task-v1.3"
   }
 ]
