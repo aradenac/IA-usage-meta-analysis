@@ -150,9 +150,22 @@ For product-level candidates with no direct benchmark, the initial prior is base
 - custom workflow: 0.48;
 - backend only: 0.40.
 
-These are fallback priors, not product ratings.
+These are **weak fallback priors**, not product ratings and not empirical claims.
 
 Specialist products receive no automatic bonus simply because they are specialist. Their benefit must come from task fit, direct empirical evidence, lower human effort, or lower cost.
+
+### Family-prior correction
+
+When a task-specific cross-product benchmark exists, it must be allowed to move the fallback substantially. Otherwise an arbitrary `native = 0.68` assumption can swamp strong contrary evidence.
+
+The current hierarchy is:
+
+1. relationship fallback prior strength = **0.75**;
+2. evidence within one family is capped at **1.25** effective weight;
+3. the resulting family-informed prior is then used as the prior for product-specific evidence;
+4. product-specific aggregation uses prior strength = **1.50**.
+
+Thus a high-quality family benchmark can materially change the baseline for all products in that class, but it never becomes direct evidence for a particular vendor.
 
 ## 9. Aggregation
 
@@ -170,11 +183,17 @@ Quality weights:
 
 Sample factor is logarithmic and capped so huge telemetry datasets do not erase protocol uncertainty.
 
-The aggregated probability is a shrinkage estimate:
+First build the family-informed prior:
 
-`P = (prior_strength × prior + Σ(w_i × p_i)) / (prior_strength + Σw_i)`
+`P_family = (0.75 × P_relationship + Σ(w_family × p_family)) / (0.75 + Σw_family)`
 
-Default `prior_strength = 2`.
+with effective evidence capped at 1.25 per family.
+
+Then aggregate direct product/configuration evidence:
+
+`P_product = (1.50 × P_family + Σ(w_direct × p_direct)) / (1.50 + Σw_direct)`
+
+This two-stage shrinkage deliberately makes a real task-family benchmark more informative than the arbitrary relationship fallback while keeping direct product evidence distinct.
 
 Relative/non-probability evidence can alter the resulting estimate by at most ±10% unless a documented transfer rule exists.
 
