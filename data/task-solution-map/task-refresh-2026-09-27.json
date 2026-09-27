@@ -188,6 +188,76 @@
     "backend": []
   },
   {
+    "task_id": "collab-backlog",
+    "native": [],
+    "direct": [
+      "loom-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-confluence",
+    "native": [
+      "loom-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-jira",
+    "native": [
+      "loom-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-meeting",
+    "native": [
+      "loom-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-status",
+    "native": [],
+    "direct": [],
+    "connected": [
+      "loom-ai"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-ticket",
+    "native": [
+      "loom-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-workflow",
+    "native": [],
+    "direct": [
+      "loom-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
     "task_id": "cyber-artifacts",
     "native": [
       "cybellum-product-security",
