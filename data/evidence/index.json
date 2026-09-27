@@ -15,13 +15,13 @@
   },
   "cross_product_family_observations": {
     "path": "data/evidence/public-family-observations.json",
-    "count": 42
+    "count": 44
   },
   "practitioner_user_signals": {
     "path": "data/evidence/public-user-signals.json",
     "count": 6
   },
-  "total_preserved_evidence_records": 464,
+  "total_preserved_evidence_records": 466,
   "scoring": {
     "index": "data/task-scores/index.json",
     "version": "product-task-v1.7",
@@ -231,8 +231,8 @@
   },
   "interpretation": "Capability evidence proves fit but does not create P(success). Family benchmarks update priors only. Direct product evidence is kept separate from historical exact model+harness+configuration evidence.",
   "pending_rescore": {
-    "required": false,
-    "last_completed_version": "product-task-v1.7",
-    "completed_at": "2026-09-27"
+    "required": true,
+    "reason": "EmbedEval family evidence added after product-task-v1.7 (68.0% Sonnet 4.6 firmware pass@1 plus implicit-knowledge-gap support).",
+    "target_version": "product-task-v1.8"
   }
 }
