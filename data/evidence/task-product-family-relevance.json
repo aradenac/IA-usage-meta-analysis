@@ -275,6 +275,11 @@
       "learn-path": 0.75,
       "learn-operational": 0.65,
       "learn-explain": 0.45
+    },
+    "cyber-triage": {
+      "cyber-review": 0.9,
+      "cyber-impact": 0.55,
+      "verify-mr": 0.35
     }
   }
 }
