@@ -77,5 +77,26 @@
       "E": 3675
     },
     "principle": "Success, active-human time and monetary cost retain separate confidence; global MetaScore confidence is the weakest input dimension."
+  },
+  "evidence_meta_analysis": {
+    "checked_at": "2026-09-27",
+    "methodology": "docs/evidence-meta-analysis-methodology.md",
+    "audit": "docs/evidence-audit-2026-09-27.md",
+    "scorer": "scripts/build_product_task_scores.py",
+    "historical_model_harness_observations": 200,
+    "direct_product_observations": 82,
+    "family_benchmark_observations": 28,
+    "public_user_signals": 6,
+    "scored_task_solution_pairs": 4389,
+    "direct_product_evidence_pairs": 293,
+    "family_prior_supported_pairs": 2159,
+    "success_empirical_pairs": 245,
+    "scoring_version": "product-task-v1.5",
+    "meta_confidence_counts": {
+      "C": 16,
+      "D": 1214,
+      "E": 3159
+    },
+    "principle": "Keep direct product evidence, family priors, historical exact model+harness observations, human-time evidence and pricing evidence separate; capability-only evidence never creates P(success)."
   }
 }
