@@ -31,21 +31,6 @@
   },
   {
     "checked_at": "2026-09-27",
-    "id": "fam-requirements-quality-benchmark-2026",
-    "family": "requirements-quality",
-    "benchmark": "Two Truths and A Lie?",
-    "version": "2026-09",
-    "evidence_type": "academic-benchmark",
-    "metric": "expert issue recall",
-    "value": 0.47,
-    "probability_proxy": 0.47,
-    "n": 100,
-    "source_grade": "B",
-    "source": "https://arxiv.org/abs/2609.03230",
-    "notes": "Ten off-the-shelf models, expert-derived INCOSE ground truth. Best Anthropic model median recall only 47% with 11% false-flag rate. Relevant primarily to requirements review, not requirement drafting."
-  },
-  {
-    "checked_at": "2026-09-27",
     "id": "fam-requirements-test-effort-2025",
     "family": "requirements-to-test",
     "benchmark": "Multi-Step Generation of Test Specifications",
