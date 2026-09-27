@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "fields": {
     "solution_id": "Canonical solution id.",
     "checked_at": "YYYY-MM-DD.",
@@ -32,6 +32,10 @@
     "sources": "Official or secondary pricing evidence.",
     "notes": "Important scope/exclusion notes.",
     "cost_function": "Normalized description of fixed and variable charging components; used later for scenario TCO.",
-    "normalization": "Optional normalized enterprise baseline for comparable seat/month, organization/year, or usage metrics."
+    "normalization": "Optional normalized enterprise baseline for comparable seat/month, organization/year, or usage metrics.",
+    "commercial_bundle_id": "Optional shared commercial entitlement/bundle identifier used to prevent double counting.",
+    "marginal_cost_rule": "How to treat the record when another solution shares the same entitlement or when a paid prerequisite exists.",
+    "double_count_notes": "Human-readable guidance for TCO aggregation.",
+    "evidence_scope": "Whether evidence is an exact official price, partial official pricing, vendor secondary evidence, quote-only model, historical, etc."
   }
 }
