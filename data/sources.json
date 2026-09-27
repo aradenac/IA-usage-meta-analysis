@@ -1,0 +1,176 @@
+[
+  [
+    "OpenHands Index",
+    "Bugfix repo, app depuis spécification, génération de tests, information gathering, multimodal; OpenHands + agents alternatifs.",
+    "https://github.com/OpenHands/openhands-index-results",
+    "A"
+  ],
+  [
+    "Terminal-Bench 2.1",
+    "Tâches terminal agentiques multi-étapes; paires modèle+harness officielles.",
+    "https://www.tbench.ai/news/terminal-bench-2-1",
+    "A"
+  ],
+  [
+    "Aider Polyglot",
+    "Édition de code localisée avec coût, temps et taux de succès.",
+    "https://aider.chat/docs/leaderboards/",
+    "A"
+  ],
+  [
+    "SWE-bench Essential",
+    "Sous-ensemble reproductible de SWE-bench Pro; compare Claude Code, Codex et variantes PenguinHarness/skills/Goal.",
+    "https://github.com/Prism-Shadow/swe-bench-essential",
+    "B"
+  ],
+  [
+    "Cline SDK cross-harness",
+    "Comparaisons Terminal-Bench 2.0 entre Cline, Claude Code, Codex, Droid, OpenCode et Pi.",
+    "https://cline.bot/blog/introducing-cline-sdk-the-upgraded-agent-runtime",
+    "B"
+  ],
+  [
+    "METR",
+    "Études de terrain sur harness, autonomie, temps humain et écart benchmark ↔ acceptation mainteneur.",
+    "https://metr.org/notes/2026-02-17-exploratory-transcript-analysis-for-estimating-time-savings-from-coding-agents/",
+    "B/C"
+  ],
+  [
+    "Scaleway model catalog",
+    "Current serverless model availability, modalities, context, tool/function-calling capabilities and lifecycle.",
+    "https://www.scaleway.com/en/docs/generative-apis/reference-content/supported-models/",
+    "A"
+  ],
+  [
+    "Scaleway pricing",
+    "Current serverless token prices, including the newly listed Qwen3.8-27B.",
+    "https://www.scaleway.com/en/generative-apis/",
+    "A"
+  ],
+  [
+    "DeepSeek V4 Flash 9-harness",
+    "Same model and same 89 Terminal-Bench 2.1 tasks across nine harnesses.",
+    "https://github.com/apache/maka/blob/main/docs/eval/terminal-bench-2.1-deepseek-v4-flash-nine-arm.md",
+    "B"
+  ],
+  [
+    "GLM-5.2 Cline cross-harness",
+    "Same GLM-5.2 model on Cline, OpenCode and Pi over the same 89 TB2.0 tasks.",
+    "https://github.com/cline/benchmark-results/blob/main/terminal-bench/2026-06-open-weights/summary.md",
+    "B"
+  ],
+  [
+    "Qwen3.8 model card",
+    "Terminus TB2.1 plus Claude Code SWE-bench Pro/NL2Repo/DeepSWE and visual-agent benchmarks.",
+    "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "B"
+  ],
+  [
+    "Qwen3.8 harness shootout",
+    "Same Qwen3.8 model across Qwen Code, mini-swe, OpenCode and Claude Code on a selected 12-task subset.",
+    "https://github.com/01554/deepswe-local-subset-evals",
+    "D"
+  ],
+  [
+    "Qwen3.6 model card",
+    "Official harness notes for Terminus-2, OpenCode, Claude Code and internal coding/tool scaffolds.",
+    "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+    "B"
+  ],
+  [
+    "FACET Terminal",
+    "Independent Terminal-Bench 2.1 reference result for Qwen3.5-397B-A17B with Terminus-2.",
+    "https://arxiv.org/abs/2608.18580",
+    "B"
+  ],
+  [
+    "Scaleway complete catalog",
+    "All 44 models in the current technical summary, including Serverless, dedicated-only and EOL lifecycle states.",
+    "https://www.scaleway.com/en/docs/generative-apis/reference-content/supported-models/",
+    "A"
+  ],
+  [
+    "Scaleway Serverless pricing",
+    "Current token/audio rates used for provider-cost estimates.",
+    "https://www.scaleway.com/en/generative-apis/",
+    "A"
+  ],
+  [
+    "GPT-OSS model card",
+    "SWE-bench Verified results by reasoning level using OpenAI's SWE scaffold.",
+    "https://deploymentsafety.openai.com/gpt-oss/evaluation",
+    "B"
+  ],
+  [
+    "SWE-bench Pro",
+    "Public SWE-Agent results for GPT-OSS-120B on 730 harder software-engineering tasks.",
+    "https://scaleapi.github.io/SWE-bench_Pro-os/",
+    "B"
+  ],
+  [
+    "Qwen3 235B model card",
+    "LiveCodeBench, Aider Polyglot and function-calling / agent benchmarks.",
+    "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "B"
+  ],
+  [
+    "Gemma 4 primary benchmarks",
+    "Code generation, tool-use and multimodal results for Gemma 4 26B A4B.",
+    "https://deepmind.google/models/gemma/gemma-4/",
+    "B"
+  ],
+  [
+    "Mistral Medium 3.5",
+    "Agentic software-engineering and tool-use benchmarks.",
+    "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+    "B"
+  ],
+  [
+    "Mistral Small 3.2",
+    "Code-generation and visual-document benchmarks.",
+    "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+    "B"
+  ],
+  [
+    "Llama 3.3 model card",
+    "HumanEval and BFCL; Aider is sourced separately.",
+    "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+    "B"
+  ],
+  [
+    "Embedding comparison snapshot",
+    "Same MTEB snapshot for Qwen3 Embedding 8B and BGE Multilingual Gemma2.",
+    "https://github.com/TencentCloudADP/youtu-embedding",
+    "C"
+  ],
+  [
+    "Whisper multilingual ASR comparison",
+    "FLEURS WER used as a transcription-quality proxy.",
+    "https://github.com/HybridMAS/qwen3-asr",
+    "C"
+  ],
+  [
+    "Méthode d’estimation interne",
+    "Règles explicites de transfert cross-task/cross-harness, prior de classe, dominance et coût humain. Les estimations sont dégradées D/E.",
+    "about:blank",
+    "D"
+  ],
+  [
+    "Gemma 4 agentic coding field benchmark",
+    "15-task Claude Code community benchmark with explicit guardrails, per-task results and failure observations.",
+    "https://github.com/conorseabrook/gemma4-turboquant-bench",
+    "D"
+  ],
+  [
+    "Open-weight agentic SWE benchmark",
+    "50 SWE-bench Verified instances under the same mini-swe-agent scaffold; useful for comparing isolated-code vs agentic behavior.",
+    "https://github.com/serbulent-av/agentic-coding/blob/main/benchmarks/local-llm-coding-benchmark.md",
+    "C"
+  ],
+  [
+    "Community field signals",
+    "Reddit and practitioner reports used only when direct task-matched benchmarks are missing; converted into interpreted E-grade signals.",
+    "https://www.reddit.com/r/opencode/",
+    "E"
+  ]
+]
