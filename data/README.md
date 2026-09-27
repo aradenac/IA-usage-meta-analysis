@@ -21,3 +21,20 @@ The HTML remains the executable standalone snapshot. The JSON layer is now the p
 ## Rule
 
 Evaluation-only scaffolds can inform evidence but must never appear as a user-facing “solution to choose”.
+
+
+## AI solution inventory
+
+The current availability-only inventory is canonical under:
+
+- `solutions/index.json` — inventory manifest and relationship semantics;
+- `solutions/coding.json`;
+- `solutions/general-enterprise.json`;
+- `solutions/alm-security.json`;
+- `solutions/document-diagram-meeting.json`;
+- `solutions/backends.json`;
+- `task-solution-map/index.json` plus domain mapping files.
+
+The inventory currently contains **86 exploitable AI solution surfaces/platforms/backends** mapped to all **86 business tasks**. This phase contains no ranking or MetaScore.
+
+`solutions.json` is an earlier monolithic snapshot retained temporarily for compatibility; the split files above are authoritative.
