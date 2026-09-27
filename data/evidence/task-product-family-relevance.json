@@ -210,6 +210,13 @@
       "dev-module": 0.6,
       "dev-protocol": 0.55,
       "debug-hw-sw": 0.45
+    },
+    "learning-coach": {
+      "learn-coach": 1,
+      "learn-path": 0.8,
+      "learn-explain": 0.75,
+      "learn-operational": 0.55,
+      "research-relevant": 0.25
     }
   }
 }
