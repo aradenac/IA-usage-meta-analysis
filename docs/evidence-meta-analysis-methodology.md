@@ -211,7 +211,7 @@ For cross-currency normalization, use an explicit dated FX snapshot.
 Current reference:
 
 - ECB 2026-09-25: 1 EUR = 1.1403 USD.
-- ECB 2026-09-24: 1 EUR = 7.6302 CNY.
+- ECB 2026-09-25: 1 EUR = 7.6551 CNY.
 
 FX is an economic scenario input, not evidence of product quality.
 
@@ -264,3 +264,75 @@ The scorer must:
 - add BYOK/model/compute cost where applicable;
 - expose the declared company/usage scenario.
 
+
+
+## 16. Family-level empirical priors
+
+Version `product-task-v1.2` adds a second layer between the generic relationship prior and direct product evidence.
+
+Some public benchmarks evaluate a **class of workflow** rather than one catalog product. Examples include:
+
+- AutomationBench for multi-application workflow agents;
+- AutoHIL and HIL-GPT for HIL test-generation/assistance;
+- academic requirements-quality benchmarks;
+- requirements-to-test generation studies;
+- architecture traceability benchmarks;
+- threat-modeling research benchmarks.
+
+These observations are stored in `data/evidence/public-family-observations.json`.
+
+They may modify the relationship prior, but they are never presented as direct performance of CANoe, ecu.test, Zapier, QVscribe, itemis or another vendor.
+
+The current family-prior update is deliberately weaker than direct product evidence:
+
+- only task relevance >= 0.20 is considered;
+- source grade and sample factor still apply;
+- correlated observations from the same family are capped;
+- total influence from one family is capped at 0.75 weight;
+- the generic relationship prior keeps strength 2.
+
+This means a strong family benchmark can move a prior materially without allowing an unbenchmarked product to inherit the benchmark score verbatim.
+
+## 17. Separate confidence dimensions
+
+A single confidence grade was found to hide important distinctions. Version `product-task-v1.1+` therefore exposes:
+
+- `success_grade`;
+- `human_time_grade`;
+- `cost_grade`;
+- `meta_confidence_grade`.
+
+The global MetaScore confidence is conservatively the weakest of the three input dimensions.
+
+Example: a product may have a C-grade case study showing a strong time saving while P(success) still relies on an E-grade prior. Its point MetaScore may be attractive, but the global confidence remains E.
+
+## 18. Product scores versus configuration scores
+
+Product-level scores answer:
+
+> Which purchasable solution is economically promising for task T?
+
+Historical model × harness × configuration scores answer:
+
+> If I already choose this execution surface, which exact model/configuration is preferable?
+
+The product layer must not erase the configuration layer. For coding agents in particular, harness and model interactions remain material and are retained in `data/configurations/` and `data/observations.json`.
+
+## 19. Current scoring implementation
+
+The current product scoring snapshot is version `product-task-v1.2`.
+
+It produces:
+
+- all solution × task candidate scores;
+- point/optimistic/pessimistic MetaScore;
+- point/low/high expected cost per successful result;
+- P(success) and its evidence trail;
+- active-human-time estimate and evidence trail;
+- allocated service/license/API cost;
+- direct product observations;
+- family-prior observations;
+- independence-cluster counts;
+- explicit flags for prior-driven success/time/cost.
+
+The canonical index is `data/task-scores/index.json`.
