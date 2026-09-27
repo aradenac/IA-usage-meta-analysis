@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_from": "site/index.html standalone report",
-  "generated_at": "2026-09-27",
-  "status": "evidence meta-analysis active; product-task v1.6 scores generated from expanded public evidence",
+  "generated_at": "2026-09-28",
+  "status": "task-by-task availability refresh complete; evidence/pricing/task-score catalogs remain on pre-refresh scored baseline pending evidence collection",
   "datasets": {
     "tasks.json": 86,
     "task-info.json": 86,
@@ -16,18 +16,23 @@
     "data-policy.json": 3
   },
   "solution_inventory": {
-    "verified_at": "2026-09-27",
+    "verified_at": "2026-09-28",
     "canonical_index": "data/solutions/index.json",
-    "solution_entries": 157,
+    "solution_entries": 210,
+    "pre_refresh_solution_entries": 157,
+    "refresh_additions": 53,
     "current_mapping": "data/task-solution-map/index.json",
+    "merged_current_mapping": "data/task-solution-map/all-current.json",
     "mapped_tasks": 86,
+    "task_solution_links": 4838,
     "mapping_candidate_count": {
-      "min": 35,
-      "max": 70,
-      "average": 51
+      "min": 38,
+      "max": 78,
+      "average": 56.3
     },
     "scoring": false,
-    "lifecycle_exclusions": "data/solution-exclusions.json"
+    "lifecycle_exclusions": "data/solution-exclusions.json",
+    "research_log": "docs/task-solution-refresh-2026-09-27.md"
   },
   "configuration_catalog": {
     "index": "data/configurations/index.json",
@@ -46,7 +51,12 @@
     "quote_or_estimate_records": 67,
     "bundle_rules": 17,
     "scoring": false,
-    "principle": "Keep vendor-published prices separate from sensitivity estimates; model fixed, variable, prerequisite and inference costs independently."
+    "principle": "Keep vendor-published prices separate from sensitivity estimates; model fixed, variable, prerequisite and inference costs independently.",
+    "refresh_gap": {
+      "availability_solution_entries": 210,
+      "priced_solution_records": 157,
+      "newly_added_solutions_pending_pricing": 53
+    }
   },
   "evidence_catalog": {
     "checked_at": "2026-09-27",
@@ -59,7 +69,11 @@
     "total_preserved_evidence_records": 458,
     "tasks_with_direct_product_evidence": 86,
     "tasks_with_empirical_success_evidence": 63,
-    "tasks_with_family_prior_support": 48
+    "tasks_with_family_prior_support": 48,
+    "refresh_gap": {
+      "availability_solution_entries": 210,
+      "newly_added_solutions_pending_evidence": 53
+    }
   },
   "task_scores": {
     "checked_at": "2026-09-27",
@@ -76,7 +90,12 @@
       "E": 2660,
       "C": 16
     },
-    "principle": "Success, active-human time and monetary cost retain separate confidence; global MetaScore confidence is the weakest input dimension."
+    "principle": "Success, active-human time and monetary cost retain separate confidence; global MetaScore confidence is the weakest input dimension.",
+    "refresh_gap": {
+      "availability_solution_entries": 210,
+      "scored_solution_baseline": 157,
+      "newly_added_solutions_pending_scoring": 53
+    }
   },
   "evidence_meta_analysis": {
     "checked_at": "2026-09-27",
