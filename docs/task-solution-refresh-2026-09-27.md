@@ -39,7 +39,7 @@ This file is the durable progress ledger for the working PR. It exists specifica
 | Safety / cyber | 10 | complete | 10/10 tasks explicitly searched; 8 product-security, safety and assessment solutions added. |
 | CI / tooling / release | 8 | complete | 8/8 tasks explicitly searched; 4 agentic CI/container solutions added and existing tools remapped. |
 | Documentation | 5 | complete | 5/5 tasks explicitly searched; no net-new mature product required, but current embedded/agentic tools were remapped. |
-| Collaboration | 8 | pending | |
+| Collaboration | 8 | complete | 8/8 tasks explicitly searched; Loom AI and Zoom AI Companion added, Atlassian workflows revalidated. |
 | Learning / research | 12 | pending | |
 
 ## Change log
@@ -282,3 +282,24 @@ Very small community-only documentation-drift tools were reviewed but not promot
 Change log:
 - 2026-09-28 — documentation domain completed; inventory remains at 201 solutions.
 - 2026-09-28 — website snapshot regenerated with updated documentation mappings.
+
+## Collaboration-domain audit
+
+Status: **complete (8/8 tasks searched explicitly)**.
+
+New solutions accepted:
+
+- **Loom AI for Meetings + Atlassian workflows** — records Zoom/Meet/Teams, generates summaries/action items, creates Confluence meeting-note pages, turns videos into Jira work items and—with Rovo—suggests ready-to-approve Jira updates from meeting transcripts.
+  - https://www.atlassian.com/software/loom/ai-meeting
+  - https://support.atlassian.com/loom/docs/use-loom-with-jira-and-confluence
+- **Zoom AI Companion / ZoomMate** — meeting summaries/questions/live notes, action items and tasks, workflow automation, Jira actions, and meeting-asset access from ChatGPT/Claude/Slack.
+  - https://news.zoom.com/zoom-agentic-ai/
+  - https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0080221
+
+Atlassian Rovo's 2026 Jira/Confluence features were revalidated rather than duplicated: native creation/refinement of Jira work items, release notes, AI teammates/agents in Jira, Loom-to-Jira updates, and context-rich Confluence content generation.
+
+Microsoft 365 Copilot remains the native SharePoint-oriented choice already present in the inventory; no separate SharePoint-only product was added without a distinct current solution surface.
+
+Change log:
+- 2026-09-28 — collaboration domain completed; canonical inventory increased from 201 to 203 solutions.
+- 2026-09-28 — website snapshot regenerated from the 203-solution inventory.
