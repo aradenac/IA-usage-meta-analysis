@@ -336,6 +336,14 @@
       "dev-feature": 0.4,
       "dev-module": 0.4,
       "safety-review": 0.3
+    },
+    "architecture-knowledge": {
+      "arch-choice": 0.7,
+      "arch-review": 0.6,
+      "arch-software": 0.45,
+      "arch-detailed-design": 0.4,
+      "arch-understand": 0.45,
+      "learn-explain": 0.25
     }
   }
 }
