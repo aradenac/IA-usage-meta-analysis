@@ -24,6 +24,13 @@ The taxonomy is tailored to embedded-software teams working across:
 - `docs/` — methodology and data-model documentation.
 - `evidence/` — place for reproducible benchmark evidence, field signals and future internal tests.
 
+## Website deployment
+
+The static report can be deployed automatically to Cloudflare Pages through
+GitHub Actions. See [`docs/cloudflare-pages.md`](docs/cloudflare-pages.md) for
+the one-time Cloudflare setup, required GitHub secrets, and deployment
+behavior.
+
 ## Important status
 
 The business taxonomy is now much richer than the original public benchmark taxonomy. Many current task estimates therefore still reuse the closest historical benchmark families as **provisional proxies**. The next phase of the project is to collect task-specific evidence and add broader user-facing AI solutions, not only coding harnesses.
