@@ -15,13 +15,13 @@
   },
   "cross_product_family_observations": {
     "path": "data/evidence/public-family-observations.json",
-    "count": 51
+    "count": 55
   },
   "practitioner_user_signals": {
     "path": "data/evidence/public-user-signals.json",
     "count": 17
   },
-  "total_preserved_evidence_records": 498,
+  "total_preserved_evidence_records": 502,
   "scoring": {
     "index": "data/task-scores/index.json",
     "version": "product-task-v1.7",
@@ -232,7 +232,7 @@
   "interpretation": "Capability evidence proves fit but does not create P(success). Family benchmarks update priors only. Direct product evidence is kept separate from historical exact model+harness+configuration evidence.",
   "pending_rescore": {
     "required": true,
-    "reason": "v1.8 pending after EmbedEval, AutoHIL, SWE-Mutation, PILLAR GO and new practitioner signals; evidence counts reconciled from source files.",
+    "reason": "v1.8 pending after EmbedEval, AutoHIL, SWE-Mutation, PILLAR GO, ASPICE expert-agreement, automotive requirements-rule verification, and HardSecBench embedded-security evidence.",
     "target_version": "product-task-v1.8"
   }
 }
