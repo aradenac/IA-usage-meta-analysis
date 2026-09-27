@@ -703,5 +703,35 @@
     "source_grade": "A",
     "source": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/64/AutoHIL-LLM-Based-ECU-Functional-Test-Generation-through-Domain-Knowledge-Augmentati",
     "notes": "39 new ACU defects and 25 new ASDM defects were discovered and subsequently patched by supplier technicians. Supporting external-validity signal; not an independent success probability."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-testgen-swemutation-vrr-2026",
+    "family": "test-generation-quality",
+    "benchmark": "SWE-Mutation",
+    "version": "ACL Findings 2026",
+    "evidence_type": "academic-reproducible-benchmark",
+    "metric": "best verified reproduction rate for generated test suites",
+    "value": 0.404,
+    "probability_proxy": 0.404,
+    "n": 800,
+    "source_grade": "A",
+    "source": "https://github.com/Sunny4Coding/SWE-Mutation",
+    "notes": "Repository-level executable benchmark with 800 curated instances / 3,934 released mutation records. In test generation, Claude Sonnet 4.5 under Claude Code reaches 98.0% Pass@1 but only 40.4% VRR, showing compilation/execution is not sufficient evidence that generated tests are reliable verification oracles."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "fam-testgen-swemutation-rdr-2026",
+    "family": "test-generation-quality",
+    "benchmark": "SWE-Mutation",
+    "version": "ACL Findings 2026",
+    "evidence_type": "academic-reproducible-benchmark",
+    "metric": "best relative detection rate for generated test suites",
+    "value": 0.7171,
+    "probability_proxy": null,
+    "n": 800,
+    "source_grade": "A",
+    "source": "https://github.com/Sunny4Coding/SWE-Mutation",
+    "notes": "Best test-generation RDR is 71.71% (Claude Sonnet 4.5 + Claude Code). Agentic realistic mutants reduce average detection from 71.04% with conventional rule-based mutants to 39.81%, exposing how simpler mutation benchmarks can overestimate test quality."
   }
 ]
