@@ -537,5 +537,171 @@
     ],
     "custom_workflow": [],
     "backend": []
+  },
+  {
+    "task_id": "verify-coding-rules",
+    "native": [
+      "tasking-agentic-toolchain"
+    ],
+    "direct": [
+      "byteask",
+      "btc-teststack"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-coverage",
+    "native": [
+      "btc-teststack",
+      "cantata-ai"
+    ],
+    "direct": [
+      "tasking-agentic-toolchain"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-hil",
+    "native": [
+      "btc-testagent",
+      "embedder-ai",
+      "hydron"
+    ],
+    "direct": [
+      "tasking-agentic-toolchain",
+      "tuyaopen-ide",
+      "iocomposer"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-integration",
+    "native": [
+      "btc-teststack",
+      "cantata-ai",
+      "tasking-agentic-toolchain",
+      "embedder-ai"
+    ],
+    "direct": [
+      "hydron"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-loop",
+    "native": [
+      "embedder-ai",
+      "hydron",
+      "btc-teststack",
+      "cantata-ai",
+      "tasking-agentic-toolchain"
+    ],
+    "direct": [
+      "btc-testagent"
+    ],
+    "connected": [
+      "jlink-mcp",
+      "openocd-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-mr",
+    "native": [],
+    "direct": [
+      "byteask",
+      "refact-ai"
+    ],
+    "connected": [
+      "fw-context-mcp"
+    ],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-prevalidation",
+    "native": [
+      "btc-teststack",
+      "cantata-ai",
+      "tasking-agentic-toolchain",
+      "embedder-ai"
+    ],
+    "direct": [
+      "hydron"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-req-tests",
+    "native": [
+      "btc-teststack",
+      "btc-testagent"
+    ],
+    "direct": [
+      "cantata-ai",
+      "tasking-agentic-toolchain",
+      "reqsuite-rm-ai",
+      "innoslate-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-results",
+    "native": [
+      "btc-testagent",
+      "btc-teststack"
+    ],
+    "direct": [
+      "tasking-agentic-toolchain",
+      "memfault-ai",
+      "embedder-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-static",
+    "native": [
+      "tasking-agentic-toolchain"
+    ],
+    "direct": [
+      "byteask",
+      "btc-teststack"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-unit",
+    "native": [
+      "btc-teststack",
+      "cantata-ai"
+    ],
+    "direct": [
+      "embedder-ai",
+      "hydron",
+      "tasking-agentic-toolchain"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
   }
 ]
