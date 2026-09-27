@@ -1,0 +1,98 @@
+[
+  {
+    "task_id": "ci-automation",
+    "native": [
+      "harness-ai-devops"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-build",
+    "native": [
+      "harness-ai-devops"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-crash",
+    "native": [
+      "sentry-seer"
+    ],
+    "direct": [
+      "datadog-bits-ai",
+      "newrelic-autopilot",
+      "grafana-ai",
+      "dynatrace-assist"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-intermittent",
+    "native": [
+      "sentry-seer",
+      "datadog-bits-ai",
+      "newrelic-autopilot",
+      "grafana-ai",
+      "dynatrace-assist"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-known",
+    "native": [
+      "sentry-seer"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-performance",
+    "native": [
+      "sentry-seer",
+      "datadog-bits-ai",
+      "newrelic-autopilot",
+      "grafana-ai",
+      "dynatrace-assist"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "release-prepare",
+    "native": [
+      "harness-ai-devops"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-results",
+    "native": [],
+    "direct": [
+      "datadog-bits-ai",
+      "newrelic-autopilot",
+      "grafana-ai",
+      "dynatrace-assist"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  }
+]
