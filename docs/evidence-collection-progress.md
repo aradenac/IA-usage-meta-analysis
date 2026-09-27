@@ -16,11 +16,11 @@ Source of truth: `data/evidence/index.json`.
 - scored task × solution pairs: **4393**
 - pairs with direct product evidence: **394**
 - pairs with empirical success evidence: **267**
-- pairs supported by a family-level empirical prior: **2432**
+- pairs supported by a family-level empirical prior: **2762**
 - tasks with direct product evidence: **86/86**
 - tasks with empirical success evidence: **63/86**
 
-Current scorer: **product-task-v1.6**. A v1.7 rescore is pending after the current evidence batch.
+Current scorer: **product-task-v1.7**. The current evidence batch has been rescored.
 
 ## Interpretation
 
@@ -70,3 +70,15 @@ Committed after the checkpoint:
 - XL-DocBench strict reproducible long-document release.
 
 These records are already in `data/evidence/public-family-observations.json`. Score regeneration is intentionally batched and is marked pending in `data/evidence/index.json`.
+
+## v1.7 rescore
+
+Evidence batch rescored across **4393** task × solution pairs.
+
+- direct-product-evidence pairs: **394**
+- family-prior-supported pairs: **2762**
+- empirical-success pairs: **267**
+- meta confidence: D=2046, E=2331, C=16
+- tasks with family-prior support: **55/86**
+
+The scorer is now synchronized with the persisted evidence corpus.
