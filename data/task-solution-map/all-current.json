@@ -9497,6 +9497,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "archtect",
+        "relationship": "native"
+      },
+      {
         "solution_id": "atlassian-rovo",
         "relationship": "connected"
       },
@@ -9507,6 +9511,10 @@
       {
         "solution_id": "augment-code",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "auriga-nexus",
+        "relationship": "native"
       },
       {
         "solution_id": "aws-bedrock",
@@ -9554,6 +9562,10 @@
       },
       {
         "solution_id": "cursor",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "dalus-ai-mbse",
         "relationship": "direct"
       },
       {
@@ -9741,6 +9753,10 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "softagram-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "sourcegraph-cody",
         "relationship": "direct"
       },
@@ -9749,8 +9765,16 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "spread-product-explorer",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "tabnine",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "visual-paradigm-ai",
+        "relationship": "native"
       },
       {
         "solution_id": "vllm",
@@ -9791,6 +9815,10 @@
       },
       {
         "solution_id": "augment-code",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "auriga-nexus",
         "relationship": "direct"
       },
       {
@@ -9854,12 +9882,20 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "factory-droid",
         "relationship": "direct"
       },
       {
         "solution_id": "fern-ai",
         "relationship": "native"
+      },
+      {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
       },
       {
         "solution_id": "gemini-cli",
@@ -9876,6 +9912,10 @@
       {
         "solution_id": "gitbook-ai",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "github-agentic-workflows",
+        "relationship": "native"
       },
       {
         "solution_id": "gitlab-duo",
@@ -9896,6 +9936,10 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "direct"
       },
       {
         "solution_id": "ibm-watsonx",
@@ -10018,6 +10062,10 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "softagram-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "sourcegraph-cody",
         "relationship": "direct"
       },
@@ -10083,6 +10131,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "chatgpt-enterprise",
         "relationship": "direct"
       },
@@ -10119,6 +10171,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "gemini-enterprise",
         "relationship": "direct"
       },
@@ -10147,7 +10203,15 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "hydron",
+        "relationship": "native"
+      },
+      {
         "solution_id": "ibm-watsonx",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "iocomposer",
         "relationship": "direct"
       },
       {
@@ -10193,6 +10257,10 @@
       {
         "solution_id": "moveworks",
         "relationship": "connected"
+      },
+      {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "native"
       },
       {
         "solution_id": "n8n",
@@ -10268,6 +10336,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "archtect",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "atlassian-rovo",
         "relationship": "connected"
       },
@@ -10277,6 +10349,10 @@
       },
       {
         "solution_id": "augment-code",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "auriga-nexus",
         "relationship": "direct"
       },
       {
@@ -10348,6 +10424,10 @@
         "relationship": "native"
       },
       {
+        "solution_id": "fw-context-mcp",
+        "relationship": "connected"
+      },
+      {
         "solution_id": "gemini-cli",
         "relationship": "direct"
       },
@@ -10362,6 +10442,10 @@
       {
         "solution_id": "gitbook-ai",
         "relationship": "direct"
+      },
+      {
+        "solution_id": "github-agentic-workflows",
+        "relationship": "native"
       },
       {
         "solution_id": "gitlab-duo",
@@ -10508,7 +10592,15 @@
         "relationship": "connected"
       },
       {
+        "solution_id": "softagram-ai",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "sourcegraph-cody",
+        "relationship": "direct"
+      },
+      {
+        "solution_id": "spread-product-explorer",
         "relationship": "direct"
       },
       {
@@ -10557,6 +10649,10 @@
         "relationship": "backend"
       },
       {
+        "solution_id": "byteask",
+        "relationship": "direct"
+      },
+      {
         "solution_id": "chatgpt-enterprise",
         "relationship": "direct"
       },
@@ -10593,6 +10689,10 @@
         "relationship": "direct"
       },
       {
+        "solution_id": "embedder-ai",
+        "relationship": "native"
+      },
+      {
         "solution_id": "gemini-enterprise",
         "relationship": "direct"
       },
@@ -10615,6 +10715,10 @@
       {
         "solution_id": "huggingface-endpoints",
         "relationship": "backend"
+      },
+      {
+        "solution_id": "hydron",
+        "relationship": "native"
       },
       {
         "solution_id": "ibm-watsonx",
@@ -10655,6 +10759,10 @@
       {
         "solution_id": "moveworks",
         "relationship": "connected"
+      },
+      {
+        "solution_id": "mplab-ai-coding-assistant",
+        "relationship": "direct"
       },
       {
         "solution_id": "n8n",
