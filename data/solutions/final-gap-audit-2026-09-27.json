@@ -412,5 +412,43 @@
     "official_url": "https://prod.cursor.com/docs/bugbot",
     "verified_at": "2026-09-27",
     "notes": "Kept as a distinct review surface from the Cursor coding IDE because task economics and billing/workflow differ."
+  },
+  {
+    "id": "pr-agent",
+    "name": "PR-Agent",
+    "vendor": "The PR-Agent community",
+    "category": "code-review",
+    "status": "community-maintained",
+    "deployment": [
+      "self-hosted",
+      "docker",
+      "cli",
+      "webhook",
+      "byo-model"
+    ],
+    "surfaces": [
+      "git-platform",
+      "cli"
+    ],
+    "capabilities": [
+      "gitlab-review",
+      "pull-request-analysis",
+      "suggestions",
+      "custom-review-rules",
+      "multi-model",
+      "self-hosted"
+    ],
+    "integrations": [
+      "GitLab",
+      "GitHub",
+      "Bitbucket",
+      "Azure DevOps",
+      "Gitea",
+      "LiteLLM",
+      "Ollama"
+    ],
+    "official_url": "https://docs.pr-agent.ai/",
+    "verified_at": "2026-09-27",
+    "notes": "Community-owned Apache-2.0 project formerly created by Qodo; distinct from Qodo's current hosted product."
   }
 ]
