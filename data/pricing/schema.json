@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "fields": {
     "solution_id": "Canonical solution id.",
     "checked_at": "YYYY-MM-DD.",
@@ -7,6 +7,7 @@
       "public_exact",
       "public_partial",
       "contact_sales",
+      "estimated_only",
       "open_source_external_cost",
       "included_in_prerequisite",
       "legacy_or_transition"
@@ -27,8 +28,10 @@
     ],
     "prerequisite_costs": "Other paid products/licenses required for this solution.",
     "estimated_enterprise_cost": "Sensitivity estimate only when exact enterprise price is unavailable.",
-    "confidence": "Separate model and monetary confidence.",
+    "confidence": "Separate pricing-model confidence, monetary confidence, evidence grade, and estimate grade where relevant.",
     "sources": "Official or secondary pricing evidence.",
-    "notes": "Important scope/exclusion notes."
+    "notes": "Important scope/exclusion notes.",
+    "cost_function": "Normalized description of fixed and variable charging components; used later for scenario TCO.",
+    "normalization": "Optional normalized enterprise baseline for comparable seat/month, organization/year, or usage metrics."
   }
 }
