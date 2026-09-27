@@ -6,10 +6,10 @@
   "coverage_by_solution": "data/evidence/coverage-by-solution.json",
   "task_family_relevance": "data/evidence/task-product-family-relevance.json",
   "historical_configuration_observations": 223,
-  "direct_product_observations": 228,
-  "cross_product_family_observations": 57,
+  "direct_product_observations": 230,
+  "cross_product_family_observations": 58,
   "practitioner_user_signals": 17,
-  "total_preserved_evidence_records": 525,
+  "total_preserved_evidence_records": 528,
   "scoring": {
     "index": "data/task-scores/index.json",
     "version": "product-task-v1.7",
@@ -228,5 +228,15 @@
   },
   "interpretation": "Capability evidence proves fit but does not create P(success). Family benchmarks update priors only. Direct product evidence is kept separate from historical exact model+harness+configuration evidence.",
   "pending_rescore": true,
-  "pending_scoring_version": "product-task-v1.8"
+  "pending_scoring_version": "product-task-v1.8",
+  "latest_batch": {
+    "date": "2026-09-27",
+    "highlights": [
+      "Kapa Logitech deployment: >99% answer accuracy when relevant content exists; 160k+ queries/year; customer-case grade C.",
+      "GitHub Copilot Code Review: ~20% lower average review cost at maintained quality after workflow tuning; efficiency only.",
+      "Rovo Search: ~60% faster than six months earlier; wall-clock only.",
+      "SADU: best tested VLM 70.18% architecture-diagram QA accuracy over 2,431 questions; family grade B.",
+      "GitLab Fix Pipeline: 14% cancelled RPC signal plus documented 150 KiB log-tail context limit; reliability/limitation only."
+    ]
+  }
 }
