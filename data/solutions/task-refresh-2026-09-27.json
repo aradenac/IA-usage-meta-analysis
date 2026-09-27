@@ -242,5 +242,277 @@
     "official_url": "https://www.modelgraphx.com/",
     "verified_at": "2026-09-27",
     "notes": "AI-enabled multimodel systems/risk engineering platform linking requirements with hazards, analyses and verification evidence across ISO 26262, IEC 61508 and ISO 21434 workflows."
+  },
+  {
+    "id": "dalus-ai-mbse",
+    "name": "Dalus AI-Native MBSE",
+    "vendor": "Dalus",
+    "category": "mbse-architecture-ai",
+    "status": "active",
+    "deployment": [
+      "cloud",
+      "on-premise",
+      "eu-data-residency",
+      "govcloud"
+    ],
+    "surfaces": [
+      "web",
+      "mcp"
+    ],
+    "capabilities": [
+      "sysml-v2",
+      "architecture-modeling",
+      "requirements-management",
+      "trade-studies",
+      "hazard-analysis",
+      "verification",
+      "ai-copilot",
+      "mcp"
+    ],
+    "integrations": [
+      "Claude",
+      "ChatGPT",
+      "MCP",
+      "Excel",
+      "OneDrive",
+      "Python",
+      "DOORS",
+      "Jama",
+      "Cameo"
+    ],
+    "official_url": "https://dalus.io/",
+    "verified_at": "2026-09-27",
+    "notes": "AI-native SysML v2 systems engineering platform for aerospace, automotive, IoT and other complex hardware; AI Copilot generates structured system architectures and the MCP connector exposes the live model to assistants."
+  },
+  {
+    "id": "visual-paradigm-ai",
+    "name": "Visual Paradigm AI Modeling",
+    "vendor": "Visual Paradigm",
+    "category": "uml-architecture-ai",
+    "status": "active",
+    "deployment": [
+      "desktop",
+      "saas"
+    ],
+    "surfaces": [
+      "desktop",
+      "web",
+      "chatbot"
+    ],
+    "capabilities": [
+      "uml-generation",
+      "architecture-modeling",
+      "diagram-generation",
+      "model-traceability",
+      "reverse-engineering",
+      "code-generation",
+      "documentation"
+    ],
+    "integrations": [
+      "PlantUML",
+      "Mermaid",
+      "Graphviz",
+      "Visual Paradigm Desktop"
+    ],
+    "official_url": "https://www.visual-paradigm.com/features/uml-diagram-generator/",
+    "verified_at": "2026-09-27",
+    "notes": "AI-powered UML generation and iterative modeling across class, sequence, component, deployment and other diagrams, integrated with a mature modeling environment."
+  },
+  {
+    "id": "softagram-ai",
+    "name": "Softagram Analyzer + MCP",
+    "vendor": "Softagram",
+    "category": "software-architecture-intelligence",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted",
+      "desktop"
+    ],
+    "surfaces": [
+      "web",
+      "desktop",
+      "github",
+      "mcp"
+    ],
+    "capabilities": [
+      "architecture-visualization",
+      "dependency-analysis",
+      "impact-analysis",
+      "architecture-violations",
+      "security-audit",
+      "mcp",
+      "c-cpp",
+      "multi-language"
+    ],
+    "integrations": [
+      "GitHub",
+      "Claude Code",
+      "Cursor",
+      "MCP"
+    ],
+    "official_url": "https://softagram.com/en/softagram-analyzer/mcp",
+    "verified_at": "2026-09-27",
+    "notes": "Builds architecture models across 30+ languages including C/C++; MCP exposes dependencies, blast radius, cycles, hubs, boundary violations and security audit data to AI agents."
+  },
+  {
+    "id": "codeatlas",
+    "name": "CodeAtlas",
+    "vendor": "CodeAtlas",
+    "category": "software-architecture-intelligence",
+    "status": "active",
+    "deployment": [
+      "local-client",
+      "byok"
+    ],
+    "surfaces": [
+      "vscode",
+      "browser",
+      "mcp"
+    ],
+    "capabilities": [
+      "architecture-visualization",
+      "dependency-analysis",
+      "impact-analysis",
+      "architecture-rules",
+      "ai-code-review",
+      "mcp",
+      "knowledge-map"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Cursor",
+      "Codex CLI",
+      "Gemini CLI",
+      "VS Code Copilot Chat",
+      "MCP"
+    ],
+    "official_url": "https://www.codeatlas.live/",
+    "verified_at": "2026-09-27",
+    "notes": "Live five-layer architecture map plus MCP and evidence-gated AI review. Current language support is broad but does not list C/C++, so applicability to embedded C/C++ is limited."
+  },
+  {
+    "id": "jigsawml",
+    "name": "JigsawML Architectural Intelligence",
+    "vendor": "JigsawML",
+    "category": "software-architecture-intelligence",
+    "status": "active",
+    "deployment": [
+      "saas"
+    ],
+    "surfaces": [
+      "web"
+    ],
+    "capabilities": [
+      "architecture-visualization",
+      "dependency-analysis",
+      "change-impact",
+      "architecture-drift",
+      "codebase-understanding",
+      "cloud-context"
+    ],
+    "integrations": [
+      "GitHub",
+      "Bitbucket",
+      "cloud-accounts"
+    ],
+    "official_url": "https://www.jigsawml.com/",
+    "verified_at": "2026-09-27",
+    "notes": "Generates interactive architecture maps from repositories and cloud accounts, tracks structural change and supports natural-language architecture queries."
+  },
+  {
+    "id": "striff",
+    "name": "Striff",
+    "vendor": "HADI Technology",
+    "category": "architecture-review",
+    "status": "active",
+    "deployment": [
+      "saas",
+      "self-hosted-enterprise"
+    ],
+    "surfaces": [
+      "github",
+      "browser-extension"
+    ],
+    "capabilities": [
+      "architecture-review",
+      "structural-diff",
+      "dependency-analysis",
+      "boundary-checks",
+      "architecture-doc-enforcement",
+      "coupling-analysis",
+      "pr-review"
+    ],
+    "integrations": [
+      "GitHub"
+    ],
+    "official_url": "https://striff.io/",
+    "verified_at": "2026-09-27",
+    "notes": "Architecture-aware PR review with deterministic structural checks plus AI explanation. Supports Java, TypeScript, Python and C#; no C/C++ support currently."
+  },
+  {
+    "id": "archtect",
+    "name": "ArchTect",
+    "vendor": "nicobit",
+    "category": "architecture-modeling-ai",
+    "status": "active",
+    "deployment": [
+      "local-client"
+    ],
+    "surfaces": [
+      "vscode",
+      "mcp"
+    ],
+    "capabilities": [
+      "c4-modeling",
+      "structurizr-dsl",
+      "architecture-as-code",
+      "ai-generation",
+      "architecture-query",
+      "documentation",
+      "mcp"
+    ],
+    "integrations": [
+      "VS Code",
+      "Structurizr DSL",
+      "MCP"
+    ],
+    "official_url": "https://marketplace.visualstudio.com/items?itemName=nicobit.c4archtect",
+    "verified_at": "2026-09-27",
+    "notes": "Visual architecture IDE for VS Code with live Structurizr DSL synchronization and AI/MCP support to generate, query and evolve C4 architecture."
+  },
+  {
+    "id": "spread-product-explorer",
+    "name": "SPREAD Product Explorer",
+    "vendor": "SPREAD",
+    "category": "engineering-intelligence-architecture",
+    "status": "active",
+    "deployment": [
+      "enterprise"
+    ],
+    "surfaces": [
+      "web",
+      "platform"
+    ],
+    "capabilities": [
+      "product-architecture",
+      "dependency-graph",
+      "change-impact",
+      "natural-language-query",
+      "traceability",
+      "software-hardware-context",
+      "automotive"
+    ],
+    "integrations": [
+      "PLM",
+      "ALM",
+      "CAD",
+      "ERP",
+      "MES",
+      "engineering-data"
+    ],
+    "official_url": "https://www.spread.ai/product-explorer",
+    "verified_at": "2026-09-27",
+    "notes": "Navigable engineering product model connecting functions, components, signals, requirements, software and variants; natural-language queries trace answers back to source data."
   }
 ]
