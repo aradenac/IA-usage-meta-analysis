@@ -3,6 +3,106 @@
     "task_id": "doc-architecture",
     "task_label": "Produire un document d’architecture formel (DOCX/SharePoint ou texte-as-code)",
     "domain": "documentation",
+    "solution_id": "m365-copilot",
+    "solution_name": "Microsoft 365 Copilot",
+    "vendor": "Microsoft",
+    "category": "productivity-ai",
+    "relationship": "native",
+    "success_probability": {
+      "point": 0.68,
+      "low": 0.43000000000000005,
+      "high": 0.93,
+      "relationship_prior": 0.68,
+      "family_prior": 0.68,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "E",
+      "clusters": 0,
+      "weight": 0,
+      "observations": [],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 16.1432,
+      "low": 5.488688,
+      "high": 46.411699999999996,
+      "baseline": 20,
+      "relationship_factor": 0.85,
+      "evidence_factor": 0.9496,
+      "observations": [
+        "prod-m365-rct-doc-time-2025"
+      ],
+      "family_observations": [],
+      "grade": "B"
+    },
+    "service_cost_eur_attempt": {
+      "point": 0.8125,
+      "low": 0.5416666666666667,
+      "high": 1.625,
+      "fixed_point": 0.8125,
+      "variable_point": 0,
+      "fixed_basis": "Microsoft 365 Copilot",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": false
+    },
+    "human_only_cost_eur": {
+      "point": 125,
+      "low": 41.66666666666667,
+      "high": 250
+    },
+    "expected_cost_success_eur": {
+      "point": 20.978186274509802,
+      "low": 5.500616487455197,
+      "high": 93.72422480620153
+    },
+    "meta_score": {
+      "point": 85.62923214084834,
+      "low": 30.775088496271927,
+      "high": 97.84712202926318
+    },
+    "profitability_factor": {
+      "point": 5.95857041044035,
+      "low": 0.44456667156034646,
+      "high": 45.44945108791976
+    },
+    "pricing": {
+      "status": "public_exact",
+      "grade": "A",
+      "model_confidence": 0.97,
+      "monetary_confidence": 0.97,
+      "bundle_id": "microsoft-365-copilot-seat"
+    },
+    "evidence": {
+      "success_grade": "E",
+      "human_time_grade": "B",
+      "cost_grade": "A",
+      "meta_confidence_grade": "E",
+      "direct_product_observations": [
+        {
+          "id": "prod-m365-rct-doc-time-2025",
+          "grade": "B",
+          "family": "office-knowledge-productivity",
+          "type": "randomized-field-experiment",
+          "metric": "document completion time reduction"
+        }
+      ],
+      "success_observations": [],
+      "family_prior_observations": [],
+      "independent_success_clusters": 0,
+      "success_coverage_weight": 0
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": false,
+      "cost": false
+    },
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "doc-architecture",
+    "task_label": "Produire un document d’architecture formel (DOCX/SharePoint ou texte-as-code)",
+    "domain": "documentation",
     "solution_id": "mermaid-chart-ai",
     "solution_name": "Mermaid Chart AI",
     "vendor": "Mermaid Chart",
@@ -87,97 +187,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "doc-architecture",
-    "task_label": "Produire un document d’architecture formel (DOCX/SharePoint ou texte-as-code)",
-    "domain": "documentation",
-    "solution_id": "m365-copilot",
-    "solution_name": "Microsoft 365 Copilot",
-    "vendor": "Microsoft",
-    "category": "productivity-ai",
-    "relationship": "native",
-    "success_probability": {
-      "point": 0.68,
-      "low": 0.43000000000000005,
-      "high": 0.93,
-      "relationship_prior": 0.68,
-      "family_prior": 0.68,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 17,
-      "low": 5.779999999999999,
-      "high": 48.87499999999999,
-      "baseline": 20,
-      "relationship_factor": 0.85,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 0.8125,
-      "low": 0.5416666666666667,
-      "high": 1.625,
-      "fixed_point": 0.8125,
-      "variable_point": 0,
-      "fixed_basis": "Microsoft 365 Copilot",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": false
-    },
-    "human_only_cost_eur": {
-      "point": 125,
-      "low": 41.66666666666667,
-      "high": 250
-    },
-    "expected_cost_success_eur": {
-      "point": 22.028186274509803,
-      "low": 5.761648745519713,
-      "high": 98.49806201550385
-    },
-    "meta_score": {
-      "point": 85.01771202333819,
-      "low": 29.726927065330116,
-      "high": 97.74725852222961
-    },
-    "profitability_factor": {
-      "point": 5.674547983310153,
-      "low": 0.42302016724053143,
-      "high": 43.39035769828927
-    },
-    "pricing": {
-      "status": "public_exact",
-      "grade": "A",
-      "model_confidence": 0.97,
-      "monetary_confidence": 0.97,
-      "bundle_id": "microsoft-365-copilot-seat"
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "A",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": false
-    },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -301,7 +311,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -399,7 +409,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -489,7 +499,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -605,7 +615,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -695,7 +705,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -785,7 +795,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -875,7 +885,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -965,7 +975,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1055,7 +1065,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1145,7 +1155,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1235,7 +1245,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1325,7 +1335,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1415,7 +1425,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1505,7 +1515,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1595,7 +1605,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1685,7 +1695,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1775,7 +1785,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1865,7 +1875,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -1955,7 +1965,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2045,7 +2055,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2135,7 +2145,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2225,7 +2235,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2315,7 +2325,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2405,7 +2415,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2510,7 +2520,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2600,7 +2610,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2690,7 +2700,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2780,7 +2790,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2870,7 +2880,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -2960,7 +2970,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3056,7 +3066,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3146,7 +3156,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3236,7 +3246,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3326,7 +3336,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3416,7 +3426,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3506,7 +3516,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3596,7 +3606,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3686,7 +3696,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3788,7 +3798,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3878,7 +3888,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -3890,17 +3900,19 @@
     "category": "technical-knowledge-ai",
     "relationship": "connected",
     "success_probability": {
-      "point": 0.52,
-      "low": 0.27,
-      "high": 0.77,
+      "point": 0.5513625758282782,
+      "low": 0.3713625758282782,
+      "high": 0.7313625758282782,
       "relationship_prior": 0.52,
       "family_prior": 0.52,
       "family_prior_weight": 0,
       "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
+      "grade": "D",
+      "clusters": 1,
+      "weight": 0.14300000000000002,
+      "observations": [
+        "prod-kapa-tech-accuracy-2026"
+      ],
       "prior_driven": true,
       "secondary_adjustment": 0
     },
@@ -3931,19 +3943,19 @@
       "high": 250
     },
     "expected_cost_success_eur": {
-      "point": 36.815969481715335,
-      "low": 8.201819373879358,
-      "high": 227.45019585489194
+      "point": 34.72180552285882,
+      "low": 8.635116324806237,
+      "high": 165.36817891207795
     },
     "meta_score": {
-      "point": 77.24824712935677,
-      "low": 15.482740946167505,
-      "high": 96.82348505763122
+      "point": 78.26107374056102,
+      "low": 20.125436638548347,
+      "high": 96.66127459893657
     },
     "profitability_factor": {
-      "point": 3.395265743635552,
-      "low": 0.1831902870430987,
-      "high": 30.481041901042637
+      "point": 3.6000432039084846,
+      "low": 0.2519630254186918,
+      "high": 28.951549764514578
     },
     "pricing": {
       "status": "contact_sales",
@@ -3953,22 +3965,39 @@
       "bundle_id": null
     },
     "evidence": {
-      "success_grade": "E",
+      "success_grade": "D",
       "human_time_grade": "D",
       "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [
+        {
+          "id": "prod-kapa-tech-accuracy-2026",
+          "grade": "D",
+          "family": "documentation-assistant",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "technical answer accuracy"
+        },
+        {
+          "id": "prod-kapa-support-deflection-2026",
+          "grade": "D",
+          "family": "documentation-assistant",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "support request deflection"
+        }
+      ],
+      "success_observations": [
+        "prod-kapa-tech-accuracy-2026"
+      ],
       "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
+      "independent_success_clusters": 1,
+      "success_coverage_weight": 0.14300000000000002
     },
     "prior_driven": {
       "success": true,
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4066,7 +4095,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4156,7 +4185,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4246,7 +4275,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4336,7 +4365,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4426,7 +4455,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4516,7 +4545,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4606,7 +4635,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4696,7 +4725,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4786,7 +4815,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4876,7 +4905,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -4966,7 +4995,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5056,7 +5085,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5146,7 +5175,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5236,7 +5265,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5326,7 +5355,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5416,7 +5445,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5506,7 +5535,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5596,7 +5625,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5686,7 +5715,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5776,7 +5805,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5866,7 +5895,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -5956,7 +5985,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -6046,7 +6075,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -6136,7 +6165,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -6226,7 +6255,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -6316,7 +6345,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-architecture",
@@ -6406,7 +6435,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -6504,7 +6533,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -6628,7 +6657,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -6744,7 +6773,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -6842,7 +6871,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -6932,7 +6961,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7022,7 +7051,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7112,7 +7141,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7202,7 +7231,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7292,7 +7321,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7382,7 +7411,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7472,7 +7501,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7562,7 +7591,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7652,7 +7681,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7742,7 +7771,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7832,7 +7861,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -7922,7 +7951,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8012,7 +8041,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8102,7 +8131,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8192,7 +8221,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8282,7 +8311,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8372,7 +8401,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8462,7 +8491,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8552,7 +8581,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8642,7 +8671,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8732,7 +8761,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8822,7 +8851,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -8912,7 +8941,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9002,7 +9031,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9092,7 +9121,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9182,7 +9211,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9272,7 +9301,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9362,7 +9391,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9452,7 +9481,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9542,7 +9571,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9632,7 +9661,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9728,7 +9757,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9818,7 +9847,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9908,7 +9937,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -9998,7 +10027,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10088,7 +10117,116 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "doc-code",
+    "task_label": "Rédiger / mettre à jour la documentation technique depuis le code",
+    "domain": "documentation",
+    "solution_id": "kapa-ai",
+    "solution_name": "Kapa.ai",
+    "vendor": "Kapa.ai",
+    "category": "technical-knowledge-ai",
+    "relationship": "connected",
+    "success_probability": {
+      "point": 0.5740707964601771,
+      "low": 0.3940707964601771,
+      "high": 0.7540707964601772,
+      "relationship_prior": 0.52,
+      "family_prior": 0.52,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "D",
+      "clusters": 1,
+      "weight": 0.26,
+      "observations": [
+        "prod-kapa-tech-accuracy-2026"
+      ],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 15.75,
+      "low": 5.355,
+      "high": 45.885,
+      "baseline": 15,
+      "relationship_factor": 1.05,
+      "evidence_factor": 1,
+      "observations": [],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 0.9865824782951853,
+      "low": 0.2192405507322634,
+      "high": 6.659431728492502,
+      "fixed_point": 0.9865824782951853,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": true
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 25,
+      "high": 150
+    },
+    "expected_cost_success_eur": {
+      "point": 24.581606598541015,
+      "low": 6.208622018926719,
+      "high": 113.93113149157087
+    },
+    "meta_score": {
+      "point": 75.31511346503908,
+      "low": 17.99452702328044,
+      "high": 96.02542936575264
+    },
+    "profitability_factor": {
+      "point": 3.0510617643865254,
+      "low": 0.21943080589741717,
+      "high": 24.159950395229636
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "D",
+      "human_time_grade": "D",
+      "cost_grade": "C",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [
+        {
+          "id": "prod-kapa-tech-accuracy-2026",
+          "grade": "D",
+          "family": "documentation-assistant",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "technical answer accuracy"
+        },
+        {
+          "id": "prod-kapa-support-deflection-2026",
+          "grade": "D",
+          "family": "documentation-assistant",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "support request deflection"
+        }
+      ],
+      "success_observations": [
+        "prod-kapa-tech-accuracy-2026"
+      ],
+      "family_prior_observations": [],
+      "independent_success_clusters": 1,
+      "success_coverage_weight": 0.26
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": true,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10190,7 +10328,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10280,7 +10418,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10370,97 +10508,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "doc-code",
-    "task_label": "Rédiger / mettre à jour la documentation technique depuis le code",
-    "domain": "documentation",
-    "solution_id": "kapa-ai",
-    "solution_name": "Kapa.ai",
-    "vendor": "Kapa.ai",
-    "category": "technical-knowledge-ai",
-    "relationship": "connected",
-    "success_probability": {
-      "point": 0.52,
-      "low": 0.27,
-      "high": 0.77,
-      "relationship_prior": 0.52,
-      "family_prior": 0.52,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 15.75,
-      "low": 5.355,
-      "high": 45.885,
-      "baseline": 15,
-      "relationship_factor": 1.05,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 0.9865824782951853,
-      "low": 0.2192405507322634,
-      "high": 6.659431728492502,
-      "fixed_point": 0.9865824782951853,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": true
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 25,
-      "high": 150
-    },
-    "expected_cost_success_eur": {
-      "point": 27.137658612106126,
-      "low": 6.080182533418524,
-      "high": 166.28493232774997
-    },
-    "meta_score": {
-      "point": 73.43031064069295,
-      "low": 13.069508243945053,
-      "high": 96.1044493703634
-    },
-    "profitability_factor": {
-      "point": 2.763687209424267,
-      "low": 0.15034434960543896,
-      "high": 24.670311980858237
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10550,7 +10598,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10640,7 +10688,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10730,7 +10778,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10820,7 +10868,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -10910,7 +10958,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11000,7 +11048,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11090,7 +11138,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11180,7 +11228,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11270,7 +11318,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11360,7 +11408,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11450,7 +11498,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11540,7 +11588,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11630,7 +11678,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11720,7 +11768,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11810,7 +11858,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11900,7 +11948,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -11990,7 +12038,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12080,7 +12128,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12170,7 +12218,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12260,7 +12308,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12350,7 +12398,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12440,7 +12488,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12530,7 +12578,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12620,7 +12668,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12710,7 +12758,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-code",
@@ -12800,7 +12848,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -12896,7 +12944,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -12992,7 +13040,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13088,7 +13136,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13184,7 +13232,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13280,7 +13328,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13376,7 +13424,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13472,7 +13520,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13568,7 +13616,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13664,7 +13712,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13760,7 +13808,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13856,7 +13904,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -13952,7 +14000,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14048,7 +14096,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14144,7 +14192,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14240,7 +14288,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14336,7 +14384,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14432,7 +14480,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14543,7 +14591,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14639,7 +14687,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14735,7 +14783,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14831,7 +14879,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -14927,7 +14975,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15023,7 +15071,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15119,7 +15167,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15215,7 +15263,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15311,7 +15359,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15407,7 +15455,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15503,7 +15551,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15599,7 +15647,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15695,7 +15743,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15791,7 +15839,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15887,7 +15935,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -15983,7 +16031,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16079,7 +16127,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16175,7 +16223,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16271,7 +16319,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16367,7 +16415,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16463,7 +16511,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16559,7 +16607,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16655,7 +16703,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16751,7 +16799,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16847,7 +16895,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -16943,7 +16991,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -17039,7 +17087,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -17135,7 +17183,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -17231,7 +17279,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -17327,7 +17375,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -17423,7 +17471,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-datasheet",
@@ -17519,7 +17567,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -17617,7 +17665,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -17741,7 +17789,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -17857,7 +17905,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -17955,7 +18003,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18045,7 +18093,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18135,7 +18183,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18225,7 +18273,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18315,7 +18363,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18405,7 +18453,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18495,7 +18543,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18585,7 +18633,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18675,7 +18723,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18765,7 +18813,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18855,7 +18903,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -18945,7 +18993,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19035,7 +19083,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19125,7 +19173,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19215,7 +19263,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19309,7 +19357,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19399,7 +19447,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19489,7 +19537,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19579,7 +19627,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19669,7 +19717,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19759,7 +19807,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19849,7 +19897,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -19939,7 +19987,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20029,7 +20077,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20119,7 +20167,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20209,7 +20257,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20299,7 +20347,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20389,7 +20437,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20479,7 +20527,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20577,7 +20625,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20667,7 +20715,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20757,7 +20805,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20847,7 +20895,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -20937,7 +20985,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21039,7 +21087,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21129,7 +21177,116 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
+  },
+  {
+    "task_id": "doc-sync",
+    "task_label": "Détecter et corriger les divergences documentation ↔ implémentation",
+    "domain": "documentation",
+    "solution_id": "kapa-ai",
+    "solution_name": "Kapa.ai",
+    "vendor": "Kapa.ai",
+    "category": "technical-knowledge-ai",
+    "relationship": "connected",
+    "success_probability": {
+      "point": 0.5716644414775257,
+      "low": 0.3916644414775257,
+      "high": 0.7516644414775258,
+      "relationship_prior": 0.52,
+      "family_prior": 0.52,
+      "family_prior_weight": 0,
+      "family_prior_observations": [],
+      "grade": "D",
+      "clusters": 1,
+      "weight": 0.24700000000000003,
+      "observations": [
+        "prod-kapa-tech-accuracy-2026"
+      ],
+      "prior_driven": true,
+      "secondary_adjustment": 0
+    },
+    "human_active_minutes": {
+      "point": 15.75,
+      "low": 5.355,
+      "high": 45.885,
+      "baseline": 15,
+      "relationship_factor": 1.05,
+      "evidence_factor": 1,
+      "observations": [],
+      "family_observations": [],
+      "grade": "D"
+    },
+    "service_cost_eur_attempt": {
+      "point": 0.9865824782951853,
+      "low": 0.2192405507322634,
+      "high": 6.659431728492502,
+      "fixed_point": 0.9865824782951853,
+      "variable_point": 0,
+      "fixed_basis": "sensitivity estimate normalized",
+      "variable_basis": "bundled/no variable modeled",
+      "partial": true
+    },
+    "human_only_cost_eur": {
+      "point": 75,
+      "low": 31.666666666666664,
+      "high": 187.5
+    },
+    "expected_cost_success_eur": {
+      "point": 24.685080012712255,
+      "low": 6.228498106854034,
+      "high": 114.63111524529027
+    },
+    "meta_score": {
+      "point": 75.2369361497585,
+      "low": 21.645349815162536,
+      "high": 96.78493449971485
+    },
+    "profitability_factor": {
+      "point": 3.0382725096040484,
+      "low": 0.27624843916859404,
+      "high": 30.1035653833898
+    },
+    "pricing": {
+      "status": "contact_sales",
+      "grade": "C",
+      "model_confidence": 0.78,
+      "monetary_confidence": 0.22,
+      "bundle_id": null
+    },
+    "evidence": {
+      "success_grade": "D",
+      "human_time_grade": "D",
+      "cost_grade": "C",
+      "meta_confidence_grade": "D",
+      "direct_product_observations": [
+        {
+          "id": "prod-kapa-tech-accuracy-2026",
+          "grade": "D",
+          "family": "documentation-assistant",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "technical answer accuracy"
+        },
+        {
+          "id": "prod-kapa-support-deflection-2026",
+          "grade": "D",
+          "family": "documentation-assistant",
+          "type": "vendor-product-telemetry-claim",
+          "metric": "support request deflection"
+        }
+      ],
+      "success_observations": [
+        "prod-kapa-tech-accuracy-2026"
+      ],
+      "family_prior_observations": [],
+      "independent_success_clusters": 1,
+      "success_coverage_weight": 0.24700000000000003
+    },
+    "prior_driven": {
+      "success": true,
+      "human_time": true,
+      "cost": true
+    },
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21219,7 +21376,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21309,7 +21466,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21399,97 +21556,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
-  },
-  {
-    "task_id": "doc-sync",
-    "task_label": "Détecter et corriger les divergences documentation ↔ implémentation",
-    "domain": "documentation",
-    "solution_id": "kapa-ai",
-    "solution_name": "Kapa.ai",
-    "vendor": "Kapa.ai",
-    "category": "technical-knowledge-ai",
-    "relationship": "connected",
-    "success_probability": {
-      "point": 0.52,
-      "low": 0.27,
-      "high": 0.77,
-      "relationship_prior": 0.52,
-      "family_prior": 0.52,
-      "family_prior_weight": 0,
-      "family_prior_observations": [],
-      "grade": "E",
-      "clusters": 0,
-      "weight": 0,
-      "observations": [],
-      "prior_driven": true,
-      "secondary_adjustment": 0
-    },
-    "human_active_minutes": {
-      "point": 15.75,
-      "low": 5.355,
-      "high": 45.885,
-      "baseline": 15,
-      "relationship_factor": 1.05,
-      "evidence_factor": 1,
-      "observations": [],
-      "family_observations": [],
-      "grade": "D"
-    },
-    "service_cost_eur_attempt": {
-      "point": 0.9865824782951853,
-      "low": 0.2192405507322634,
-      "high": 6.659431728492502,
-      "fixed_point": 0.9865824782951853,
-      "variable_point": 0,
-      "fixed_basis": "sensitivity estimate normalized",
-      "variable_basis": "bundled/no variable modeled",
-      "partial": true
-    },
-    "human_only_cost_eur": {
-      "point": 75,
-      "low": 31.666666666666664,
-      "high": 187.5
-    },
-    "expected_cost_success_eur": {
-      "point": 27.137658612106126,
-      "low": 6.080182533418524,
-      "high": 166.28493232774997
-    },
-    "meta_score": {
-      "point": 73.43031064069295,
-      "low": 15.99717649543202,
-      "high": 96.8590883354659
-    },
-    "profitability_factor": {
-      "point": 2.763687209424267,
-      "low": 0.19043617616688932,
-      "high": 30.837889976072795
-    },
-    "pricing": {
-      "status": "contact_sales",
-      "grade": "C",
-      "model_confidence": 0.78,
-      "monetary_confidence": 0.22,
-      "bundle_id": null
-    },
-    "evidence": {
-      "success_grade": "E",
-      "human_time_grade": "D",
-      "cost_grade": "C",
-      "meta_confidence_grade": "E",
-      "direct_product_observations": [],
-      "success_observations": [],
-      "family_prior_observations": [],
-      "independent_success_clusters": 0,
-      "success_coverage_weight": 0
-    },
-    "prior_driven": {
-      "success": true,
-      "human_time": true,
-      "cost": true
-    },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21579,7 +21646,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21669,7 +21736,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21759,7 +21826,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21849,7 +21916,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -21939,7 +22006,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22029,7 +22096,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22119,7 +22186,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22209,7 +22276,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22299,7 +22366,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22389,7 +22456,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22479,7 +22546,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22569,7 +22636,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22659,7 +22726,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22749,7 +22816,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22839,7 +22906,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -22929,7 +22996,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23019,7 +23086,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23109,7 +23176,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23199,7 +23266,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23289,7 +23356,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23379,7 +23446,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23469,7 +23536,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23559,7 +23626,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23649,7 +23716,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23739,7 +23806,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-sync",
@@ -23829,7 +23896,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -23946,7 +24013,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24072,7 +24139,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24189,7 +24256,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24285,7 +24352,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24381,7 +24448,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24477,7 +24544,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24573,7 +24640,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24669,7 +24736,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24765,7 +24832,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24861,7 +24928,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -24943,7 +25010,15 @@
       "human_time_grade": "D",
       "cost_grade": "A",
       "meta_confidence_grade": "D",
-      "direct_product_observations": [],
+      "direct_product_observations": [
+        {
+          "id": "prod-ms-researcher-draco-2026",
+          "grade": "C",
+          "family": "deep-research",
+          "type": "vendor-benchmark-on-external-suite",
+          "metric": "relative overall score vs Perplexity Deep Research"
+        }
+      ],
       "success_observations": [],
       "family_prior_observations": [
         "fam-doc-scribe-multiturn-2026",
@@ -24957,7 +25032,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25053,7 +25128,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25149,7 +25224,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25260,7 +25335,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25356,7 +25431,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25452,7 +25527,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25548,7 +25623,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25644,7 +25719,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25740,7 +25815,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25836,7 +25911,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -25932,7 +26007,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26028,7 +26103,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26124,7 +26199,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26220,7 +26295,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26316,7 +26391,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26412,7 +26487,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26508,7 +26583,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26604,7 +26679,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26700,7 +26775,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26796,7 +26871,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26892,7 +26967,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -26988,7 +27063,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27084,7 +27159,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27180,7 +27255,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27276,7 +27351,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27372,7 +27447,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27468,7 +27543,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27564,7 +27639,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27660,7 +27735,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27756,7 +27831,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27852,7 +27927,7 @@
       "human_time": true,
       "cost": false
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -27948,7 +28023,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -28044,7 +28119,7 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   },
   {
     "task_id": "doc-vendor-diff",
@@ -28140,6 +28215,6 @@
       "human_time": true,
       "cost": true
     },
-    "scoring_version": "product-task-v1.5"
+    "scoring_version": "product-task-v1.6"
   }
 ]
