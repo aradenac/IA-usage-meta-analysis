@@ -3875,5 +3875,39 @@
     "independence_cluster": "rovo-search-speed-2026",
     "source": "https://www.atlassian.com/blog/rovo/rovo-search-improvements",
     "notes": "Atlassian reports Rovo Search approximately 60% faster than six months earlier and search across 50+ connected tools. Treated as wall-clock/product-latency evidence only, not human-time or answer quality."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-gitlab-fix-pipeline-cancelled-rpc-2026",
+    "solution_id": "gitlab-duo",
+    "family": "devops-agent",
+    "benchmark": "GitLab Fix Pipeline runner telemetry issue",
+    "version": "2026 issue snapshot",
+    "evidence_type": "vendor-internal-reliability-signal",
+    "metric": "cancelled RPC call rate",
+    "value": 0.14,
+    "probability_proxy": null,
+    "n": null,
+    "source_grade": "C",
+    "independence_cluster": "gitlab-fix-pipeline-runtime-2026",
+    "source": "https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/issues/1789",
+    "notes": "GitLab reports 14% cancelled RPC calls for Fix Pipeline versus 7% Developer and 0.7% Agentic Chat, with examples where cancellation stops the flow and can lead to empty MRs. This is a runtime/reliability signal, not an end-to-end task failure rate."
+  },
+  {
+    "checked_at": "2026-09-27",
+    "id": "prod-gitlab-fix-pipeline-log-limit-2026",
+    "solution_id": "gitlab-duo",
+    "family": "devops-agent",
+    "benchmark": "GitLab Fix Pipeline documented log-context limit",
+    "version": "GitLab 19.x docs 2026",
+    "evidence_type": "capability-limitation",
+    "metric": "maximum processed tail of job log bytes",
+    "value": 153600,
+    "probability_proxy": null,
+    "n": null,
+    "source_grade": "B",
+    "independence_cluster": "gitlab-fix-pipeline-log-limit",
+    "source": "https://docs.gitlab.com/user/duo_agent_platform/flows/foundational_flows/fix_pipeline/",
+    "notes": "Official docs state the AI gateway processes only the final 150 KiB of job logs, so root-cause evidence earlier in verbose logs can be missed. Limitation evidence only."
   }
 ]
