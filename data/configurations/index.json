@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-27",
+  "observed_configurations": 138,
+  "compatibility_only_configurations": 42,
+  "specialist_api_configurations": 15,
+  "principle": "Preserve every historical model + harness/surface + configuration used by the study. Eval-only configurations remain evidence, not recommendation candidates.",
+  "files": {
+    "observed": "data/configurations/historical-observed.json",
+    "compatibility": "data/configurations/historical-compatibility.json",
+    "specialist_apis": "data/configurations/provider-api-candidates.json"
+  }
+}
