@@ -1,0 +1,483 @@
+[
+  {
+    "task_id": "arch-choice",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "arch-understand",
+    "native": [],
+    "direct": [
+      "penguin-harness",
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-automation",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-build",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-create",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "ci-gitlab",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "collab-confluence",
+    "native": [],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [
+      "open-webui"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "collab-sharepoint",
+    "native": [],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [
+      "open-webui"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "collab-status",
+    "native": [],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [
+      "open-webui"
+    ],
+    "backend": []
+  },
+  {
+    "task_id": "cyber-review",
+    "native": [],
+    "direct": [
+      "parasoft-cpptest-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-crash",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-embedded",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-intermittent",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "debug-known",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-feature",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-module",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-python-tooling",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-refactor",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "dev-small-change",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-architecture",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-code",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-datasheet",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "doc-vendor-diff",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-coach",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-explain",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-operational",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "learn-path",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-review",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-system-impact",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-traceability",
+    "native": [],
+    "direct": [
+      "vectorcast-ai"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "req-write-sw",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-docs",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-field",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-multidoc",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-relevant",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-source",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-state-art",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-version",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "research-web",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-backport",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "upstream-contribute",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-coding-rules",
+    "native": [
+      "parasoft-cpptest-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-integration",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-loop",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-mr",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-static",
+    "native": [
+      "parasoft-cpptest-ai"
+    ],
+    "direct": [],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "verify-unit",
+    "native": [],
+    "direct": [
+      "penguin-harness"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  },
+  {
+    "task_id": "watch-tech",
+    "native": [],
+    "direct": [
+      "open-webui"
+    ],
+    "connected": [],
+    "custom_workflow": [],
+    "backend": []
+  }
+]
